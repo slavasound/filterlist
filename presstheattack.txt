@@ -1,10 +1,10 @@
 !------------------------------------------------------------------------------------------------------------------------------
-! Title: 
+! Title: Press the Attack
 ! Last modified: 1 October 2018
 ! Expires: 1 days
-! License: 
-! Homepage: 
-! URL: 
+! License: MIT License - https://raw.githubusercontent.com/bogachenko/personal-filters/master/LICENSE.md
+! Homepage: https://github.com/bogachenko/presstheattack
+! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Description: Custom filters allow you to block malicious sites, popular trackers, banners, delete and do not display ads on the site and in search results
 ! Author: Bogachenko Vyacheslav
 ! Mail: bogachenkove@gmail.com
@@ -15,7 +15,6 @@
 ||2ch.hk/images/*
 ||target.my.com^
 ||google-analytics.com^$important
-||yastatic.net/daas/stripe.html
 ||an.yandex.ru^
 @@_ads^$document
 @@_ads_$document
@@ -31,8 +30,6 @@ ad_html5&
 ||reklama.$script,subdocument,object
 /xtcore.js$important
 /xgemius.js$important
-||c.amazon-adsystem.com$important
-||s.amazon-adsystem.com$important
 ||doubleclick.*^$important
 ||flashtalking.com^
 ||otvet.mail.ru/sounds/notify.mp3
@@ -123,34 +120,11 @@ twitch.tv##a[href^="http://clg.am"]
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 translate.google.com,translate.google.ru###gt-promo-lr
 ||yastatic.net/daas/atom.js
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az#$#hide-if-contains /[рp][eе]кл[aа]м[aа]/ li.serp-item 'li.serp-item div.label';hide-if-contains ad li.serp-item 'li.serp-item div.label'
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az#$#hide-if-contains /[рp][eе]кл[aа]м[aа]/ li.serp-item 'li.serp-item div.label'
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az#$#hide-if-shadow-contains /Янд[eе]к[cс].Ди[рp][еe]кт/ div
-yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-contains /[pр]\\u200c*[eе]\\u200c*к\\u200c*л\\u200c*[aа]\\u200c*м\\u200c*[aа]/ li.serp-item 'li.serp-item div.label'
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.media-grid_collapsed_yes.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.serp-footer__main
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.stream-promo-popup_visible_yes.stream-promo-popup_js_inited.i-bem.stream-control.stream-promo-popup_button_yes.stream-promo-popup_fixed_yes.stream-promo-popup_general_yes.stream-promo-popup
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.rows__row_last.rows__row.pi
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.rows__row_last.rows__row.row
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.stream-control__link.stream-promo-popup__inner
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.distr-popup__content.popup2__content
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.dist-popup__content.popup__content
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_promo_yes.desk-notif-card
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az##.i-swipe-controller.desk-notif-card__card
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bar-below__content
 mail.yandex.ru,mail.yandex.ua,mail.yandex.by##.mail-ThreadSidebar-wrap.ns-view-id-145.ns-view-thread-sidebar-wrap
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bar-below_plus.bar-below
 music.yandex.ru,music.yandex.ua,music.yandex.by##.bar__branding
 music.yandex.ru,music.yandex.ua,music.yandex.by##.sidebar__under
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.com##.media-grid__media-content
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.com##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.com##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.com##.infinity-zen_js_inited.i-bem.infinity-zen_align_center.infinity-zen
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.com##.zen-lib__retry
-yandex.uz,yandex.ru,yandex.ua,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.com##.zen-lib_js_inited.i-bem.zen-lib_state_retry.zen-lib
-yandex.ru##.popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem
 habrahabr.ru##.is_visible.dfp-slot_top.dfp-slot
 habrahabr.ru##.js-banner-bottom.dfp-slot_sticky-bottom.dfp-slot
 habrahabr.ru##.indented.content_left > .dfp-slot
@@ -247,7 +221,6 @@ media.trafficjunky.net/js/holiday-promo.js
 ||sslwidget.criteo.com/^
 /eg.js$important
 /eg.js$important
-||aax-eu.amazon-adsystem.com/^
 /ast.js$important
 ||smetrics.cnn.com/b/ss/cnn-adbp-intl^
 static.chartbeat.com/js/chartbeat.js
@@ -1819,7 +1792,7 @@ freebitco.in###myModal22
 ||allosponsor.com^
 ||allstarmediagroup.com^
 ||amazingcounters.com^
-||amazon-adsystem.com^
+||amazon-adsystem.com^$important
 ||amobee.com^
 ||amung.us^
 ||an.tacoda.net^
@@ -3830,8 +3803,8 @@ youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscr
 ||api.twitch.tv/v5/channels/*/extensions
 @@||$websocket
 @@||google.com/recaptcha
-googletagservices.com/tag/js/gpt.js
-c.amazon-adsystem.com/aax2/apstag.js
+/gpt.js$important
+/apstag.js$important
 /adscores^$important
 twitch.tv##a[href^="https://pokerdir4.me"]
 analytics$important
@@ -3839,6 +3812,6 @@ ads.php$important
 ad.php$important
 twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
-yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
 twitch.tv##.tw-pd-3.tw-align-center
 twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
+!||yandex.*/pogoda/*$inline-script,first-party,important
