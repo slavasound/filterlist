@@ -2,10 +2,10 @@
 ! Title: Press the Attack
 ! Last modified: 1 October 2018
 ! Expires: 1 days
-! License: MIT License - https://raw.githubusercontent.com/bogachenko/personal-filters/master/LICENSE.md
+! License: MIT License - https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Description: Custom filters allow you to block malicious sites, popular trackers, banners, delete and do not display ads on the site and in search results
+! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search results, and too this list includes some cosmetic filters
 ! Author: Bogachenko Vyacheslav
 ! Mail: bogachenkove@gmail.com
 !------------------------------------------------------------------------------------------------------------------------------
