@@ -1,4 +1,9 @@
 # Press the Attack
+
+[SUBSCRIBE](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) - Click on the link to add the filter list through the browser or add it manually:
+
+`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
 Custom filters in this project allow you to block popular trackers, banners, upload and display ads on site pages and search results, and too this list also includes some cosmetic filters.
 
 This project is the original, it is under the MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and created it [Bogachenko Vyacheslav](https://github.com/bogachenko)
