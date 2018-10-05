@@ -1,3 +1,4 @@
+[Adblock]
 !------------------------------------------------------------------------------------------------------------------------------
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search
@@ -11,8 +12,6 @@
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 !------------------------------------------------------------------------------------------------------------------------------
-
-.*/ads
 /[/_]banner\.js/$script
 /\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 /ad-manager.min.js$important
@@ -22,19 +21,9 @@
 /adbar.js$important
 /adblock-checker.js$important
 /ads$first-party
-/ads.*&autoplay=
-/ads.*?vid=
-/ads.js$important
-/ads/*/banners_
-/ads/frontpage/*
-/adsbygoogle.js$important
-/adscores^$important
 /advert.js$important
 /advertisement.js$important
-/analytics.js$important
 /annotations_module.js$important
-/api/ads/*$script
-/apstag.js$important
 /apstag.js$important
 /ast.js$important
 /bab-defuser.js$important
@@ -47,17 +36,13 @@
 /distr-popup.html
 /doubleclick^$script,important
 /eg.js$important
-/eg.js$important
 /esf.js$important
 /fuckadblock/*$script
 /ga.js$important
 /gen_204$important
 /generate_204$important
-/googleanalytics^$script,important
-/gpt.js$important
 /gpt.js$important
 /ima3.js$important
-/images/ads/*
 /jads.js$important
 /log_event$important
 /log_interaction$important
@@ -85,8 +70,6 @@
 @@_ads_$document
 @@_campaign=$document
 @@||$websocket
-@@||google.com/recaptcha
-@@||www.freeopenvpn.org^$domain=www.freeopenvpn.org
 ^utm_medium=video^$popup,domain=twitch.tv
 a.postrelease.com/serve/load.js
 acdn.adnxs.com/ast/static/$script
@@ -99,7 +82,6 @@ amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 amplify.outbrain.com/cp/obtp.js
 analytics$important
-analytics.ghostery.com/piwik.js
 app-sj10.marketo.com/js/forms2/js/forms2.min.js
 atinternet.automation.webmecanik.com/mtc.js
 bat.bing.com/bat.js
@@ -111,10 +93,8 @@ cdn.mouseflow.com/projects/$script
 cdn.onthe.io/io.js
 cdn.optimizely.com/js/$script
 cdn.pardot.com/pd.js
-cdn.segment.com/analytics.js/$script
 cdn.taboola.com/libtrc/aol-aol/loader.js
 cdn.uservoice.com/javascripts/widgets/tab.js
-cdnjs.cloudflare.com/ajax/libs/fuckadblock/$script
 cdnjs.cloudflare.com/ajax/libs/highlight.js/$script
 disk.yandex.ru##.software-header-promo_office.software-header-promo.link_theme_dark.link
 disk.yandex.ru##.software-header-promo_win.software-header-promo.link_theme_dark.link
@@ -132,7 +112,6 @@ fsm1019.global.ssl.fastly.net/fsm/ds
 google.*##.exp-outline
 google.*##.mod:if(span:matches-css(border: 1px solid rgb(0, 102, 33)))
 google.*##div[id^="eob"]
-google.com/adsense/domains/caf.js
 habr.com##.is_visible.dfp-slot_top.dfp-slot
 habrahabr.ru##.column-wrapper_bordered.column-wrapper_bottom.column-wrapper > .sidebar_right > .dfp-slot
 habrahabr.ru##.indented.content_left > .dfp-slot
@@ -143,7 +122,6 @@ image.experiandirect.com/experian-site/js/s_code_ecs_dt.js
 img.en25.com/i/$script
 js-agent.newrelic.com/nr-1026.min.js
 js-sec.indexww.com/ht/p/$script
-js.hs-analytics.net/analytics/$script
 js.hs-scripts.com/$script
 l-stat.livejournal.net/js/$script
 mail.ru##.i-clearfix.feed__container
@@ -183,8 +161,6 @@ s.go-mpulse.net/boomerang/$script
 secure-us.imrworldwide.com/cgi-bin/$script
 secure.quantserve.com/aquant.js
 secure.quantserve.com/quant.js
-secure.statcounter.com/counter/counter.js
-snap.licdn.com/li.lms-analytics/insight.min.js
 static.ads-twitter.com/uwt.js
 static.chartbeat.com/js/chartbeat.js
 static.chartbeat.com/js/chartbeat_mab.js
@@ -299,7 +275,6 @@ youtube.com##DIV[class*="prom"]
 ||9rbk.com^
 ||12directions.com^
 ||18cum.com^
-||023scw.gotoip55.com^
 ||24log.com^
 ||24log.de^
 ||24pm-affiliation.com^
@@ -368,7 +343,6 @@ youtube.com##DIV[class*="prom"]
 ||a.ucoz.net^
 ||a.ucoz.ru^
 ||a.xanga.com^
-||aaa520.izlinix.com^
 ||aaddzz.com^
 ||aarki.com^
 ||abacho.net^
@@ -388,16 +362,13 @@ youtube.com##DIV[class*="prom"]
 ||actonsoftware.com/^
 ||actualdeals.com^
 ||actuallysheep.com^
-||acuityads.com/^
 ||acuityads.com^
 ||ad0.bigmir.net^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
 ||ad1.pamedia.com.au^
 ||ad01.mediacorpsingapore.com^
-||ad1.emediate.dk^
 ||ad2.iinfo.cz^
-||ad2.ip.ro^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
 ||ad2flash.com^
@@ -444,7 +415,6 @@ youtube.com##DIV[class*="prom"]
 ||ad.choiceradio.com^
 ||ad.clix.pt^
 ||ad.cooks.com^
-||ad.crwdcntrl.net^
 ||ad.digitallook.com^
 ||ad.directrev.com^
 ||ad.doctissimo.fr^
@@ -452,15 +422,12 @@ youtube.com##DIV[class*="prom"]
 ||ad.e-kolay.net^
 ||ad.eurosport.com^
 ||ad.f1cd.ru^
-||ad.flurry.com^
 ||ad.foxnetworks.com^
 ||ad.freecity.de^
 ||ad.gate24.ch^
-||ad.globe7.com^
 ||ad.grafika.cz^
 ||ad.hbv.de^
 ||ad.hodomobile.com^
-||ad.httpool.com^
 ||ad.hyena.cz^
 ||ad.iinfo.cz^
 ||ad.ilove.ch^
@@ -474,7 +441,6 @@ youtube.com##DIV[class*="prom"]
 ||ad.lupa.cz^
 ||ad.m5prod.net^
 ||ad.mail.ru^
-||ad.media-servers.net^
 ||ad.mediastorm.hu^
 ||ad.mgd.de^
 ||ad.musicmatch.com^
@@ -491,7 +457,6 @@ youtube.com##DIV[class*="prom"]
 ||ad.rambler.ru^
 ||ad.reunion.com^
 ||ad.scanmedios.com^
-||ad.sensismediasmart.com.au^
 ||ad.seznam.cz^
 ||ad.simgames.net^
 ||ad.slutload.com^
@@ -500,7 +465,6 @@ youtube.com##DIV[class*="prom"]
 ||ad.technoratimedia.com^
 ||ad.thewheelof.com^
 ||ad.top50.to^
-||ad.turn.com^
 ||ad.tv2.no^
 ||ad.twitchguru.com^
 ||ad.usatoday.com^
@@ -511,9 +475,7 @@ youtube.com##DIV[class*="prom"]
 ||ad.weatherbug.com^
 ||ad.wsod.com^
 ||ad.wz.cz^
-||ad.yadro.ru^
 ||ad.yourmedia.com^
-||ad.zanox.com^
 ||adaction.de^
 ||adadvisor.net^
 ||adap.tv^
@@ -523,7 +485,6 @@ youtube.com##DIV[class*="prom"]
 ||adbetclickin.pink^
 ||adbetnet.com^
 ||adblade.com^
-||adblockanalytics.com^
 ||adboost.de.vu^
 ||adboost.net^
 ||adbooth.net^
@@ -568,7 +529,6 @@ youtube.com##DIV[class*="prom"]
 ||adext.inkclub.com^
 ||adf.ly^
 ||adfactor.nl^
-||adfarm.mediaplex.com^
 ||adflight.com^
 ||adforce.com^
 ||adform.com^
@@ -599,7 +559,6 @@ youtube.com##DIV[class*="prom"]
 ||adinjector.net^
 ||adinterax.com^
 ||adisfy.com^
-||adition.com/^
 ||adition.com^
 ||adition.de^
 ||adition.net^
@@ -633,7 +592,6 @@ youtube.com##DIV[class*="prom"]
 ||admarketplace.net^
 ||admarvel.com^
 ||admarvel.s3.amazonaws.com^
-||admax.nexage.com^
 ||admedia.com^
 ||admedia.ro^
 ||admedo.com^
@@ -646,7 +604,6 @@ youtube.com##DIV[class*="prom"]
 ||admisoft.com^
 ||admized.com^
 ||admob.com^
-||admob.com^$important
 ||admob.comadwhirl.com^
 ||admobile.com^
 ||admonitor.com^
@@ -768,7 +725,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.bittorrent.com^
 ||ads.blog.com^
 ||ads.bloomberg.com^
-||ads.bluelithium.com^
 ||ads.bluemountain.com^
 ||ads.bluesq.com^
 ||ads.bonniercorp.com^
@@ -793,9 +749,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.co.com^
 ||ads.com.com^
 ||ads.contactmusic.com^
-||ads.contextweb.com^
-||ads.crakmedia.com^
-||ads.creative-serving.com^
 ||ads.creativematch.com^
 ||ads.cricbuzz.com^
 ||ads.cybersales.cz^
@@ -878,7 +831,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.hbv.de^
 ||ads.hearstmags.com^
 ||ads.heartlight.org^
-||ads.heias.com^
 ||ads.hideyourarms.com^
 ||ads.hollywood.com^
 ||ads.horsehero.com^
@@ -898,7 +850,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.itv.com^
 ||ads.iwon.com^
 ||ads.jewishfriendfinder.com^
-||ads.jiwire.com^
 ||ads.jobsite.co.uk^
 ||ads.jpost.com^
 ||ads.jubii.dk^
@@ -914,11 +865,9 @@ youtube.com##DIV[class*="prom"]
 ||ads.linuxjournal.com^
 ||ads.linuxsecurity.com^
 ||ads.livenation.com^
-||ads.mail3x.com^
 ||ads.mariuana.it^
 ||ads.massinfra.nl^
 ||ads.mcafee.com^
-||ads.mdotm.com^
 ||ads.mediaodyssey.com^
 ||ads.mediaturf.net^
 ||ads.medienhaus.de^
@@ -955,7 +904,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.oddschecker.com^
 ||ads.okcimg.com^
 ||ads.ole.com^
-||ads.olivebrandresponse.com^
 ||ads.oneplace.com^
 ||ads.ookla.com^
 ||ads.optusnet.com.au^
@@ -964,8 +912,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.passion.com^
 ||ads.pennet.com^
 ||ads.penny-arcade.com^
-||ads.pheedo.com^
-||ads.phpclasses.org^
 ||ads.pickmeup-ltd.com^
 ||ads.pkr.com^
 ||ads.planet.nl^
@@ -994,7 +940,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.saymedia.com^
 ||ads.scifi.com^
 ||ads.seniorfriendfinder.com^
-||ads.sexinyourcity.com^
 ||ads.shizmoo.com^
 ||ads.shopstyle.com^
 ||ads.sift.co.uk^
@@ -1088,14 +1033,11 @@ youtube.com##DIV[class*="prom"]
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
 ||adserver01.de^
-||adserver1-images.backbeatmedia.com^
-||adserver1.backbeatmedia.com^
 ||adserver1.mindshare.de^
 ||adserver1.mokono.com^
 ||adserver1.ogilvy-interactive.de^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
-||adserver-live.yoc.mobi^
 ||adserver.43plc.com^
 ||adserver.71i.de^
 ||adserver.adultfriendfinder.com^
@@ -1190,11 +1132,9 @@ youtube.com##DIV[class*="prom"]
 ||adsynergy.com^
 ||adsys.townnews.com^
 ||adsystem.simplemachines.org^
-||adtech.com/^
 ||adtech.com^
 ||adtech.de^
 ||adtechjp.com^
-||adtechus.com/^
 ||adtechus.com^
 ||adtegrity.net^
 ||adtheorent.com^
@@ -1318,7 +1258,6 @@ youtube.com##DIV[class*="prom"]
 ||ajouter.net^
 ||ak0gsh40.com^
 ||akshatadesigns.in^
-||aktrack.pubmatic.com^
 ||akuaba.chez.com^
 ||alb.reddit.com
 ||alchenomy.com^
@@ -1339,16 +1278,8 @@ youtube.com##DIV[class*="prom"]
 ||amobee.com^
 ||amskrupajal.org^
 ||amung.us^
-||an.tacoda.net^
-||an.yandex.ru/mapuid/yandex^
 ||an.yandex.ru^
 ||anahtars.com^
-||analytics.adpost.org^
-||analytics.icons8.com^
-||analytics.live.com^
-||analytics.viral-loops.com^$xmlhttprequest
-||analytics.yahoo.com^
-||analytics.zillowcloud.com
 ||ancientroom.com^
 ||andlu.org^
 ||animeonline.net^
@@ -1361,13 +1292,11 @@ youtube.com##DIV[class*="prom"]
 ||api-guardian.foxtype.com/main/landing$xmlhttprequest
 ||api-iam.intercom.io/messenger/web/events
 ||api-iam.intercom.io/messenger/web/ping
-||api.addthis.com^
 ||api.amplitude.com
 ||api.autopilothq.com
 ||api.github.com/_private/browser/stats$other,first-party
 ||api.intensifier.de^
 ||api.madkudu.com^
-||api.taboola.com/1.2/json/msn-outlookcom-russia^
 ||api.twitch.tv/v5/channels/*/extensions
 ||api.vidora.com/v1/users$xmlhttprequest
 ||apiparbion.com^
@@ -1419,12 +1348,10 @@ youtube.com##DIV[class*="prom"]
 ||assets.loomia.com^
 ||assets.tumblr.com/images/transparent-pixel.png$image
 ||assets.tumblr.com/images/x.gif$image
-||assets.tumblr.com/images/x.gif?v=*$image
 ||assoc-amazon.com^
 ||at-adserver.alltop.com^
 ||atdmt.com^
 ||athena-ads.wikia.com^
-||atlassolutions.com/^
 ||atlassolutions.com^
 ||attractiveafternoon.com^
 ||atwola.com^
@@ -1540,7 +1467,6 @@ youtube.com##DIV[class*="prom"]
 ||banners.iq.pl^
 ||banners.isoftmarketing.com^
 ||banners.lifeserv.com^
-||banners.linkbuddies.com^
 ||banners.passion.com^
 ||banners.resultonline.com^
 ||banners.sexsearch.com^
@@ -1611,7 +1537,6 @@ youtube.com##DIV[class*="prom"]
 ||bkrtx.com^
 ||blast4traffic.com^
 ||blingbucks.com^
-||blog.fm120.com^
 ||blog.teatroacorte.it^
 ||blogads.com^
 ||blogcounter.de^
@@ -1634,7 +1559,6 @@ youtube.com##DIV[class*="prom"]
 ||boldchat.com^
 ||bomar-spa.com^
 ||bongacams2.com^
-||bookmark.t2t2.com^
 ||boom.ro^
 ||boomads.com^
 ||boost-my-pr.de^
@@ -1666,7 +1590,6 @@ youtube.com##DIV[class*="prom"]
 ||btrll.com^
 ||budsinc.com^
 ||bugsense.com^
-||bullseye.backbeatmedia.com^
 ||burstly.com^
 ||burstmedia.com^
 ||business.opera.com^
@@ -1717,7 +1640,6 @@ youtube.com##DIV[class*="prom"]
 ||ccycny.com^
 ||cdn.doublepimpssl.com/Scripts/$script
 ||cdn.doublepimpssl.com/Scripts/infinity.js.aspx^
-||cdn.engine.phn.doublepimp.com/Scripts/infinity.js.aspx^
 ||cdn.freefacti.com^
 ||cdn.krxd.net^
 ||cdn.onthe.io/^
@@ -1820,7 +1742,6 @@ youtube.com##DIV[class*="prom"]
 ||code-server.biz^
 ||col.vg^
 ||colonize.com^
-||com-ignitionone.netmng.com/^
 ||comboapp.com^
 ||comclick.com^
 ||comfortablecheese.com^
@@ -1841,7 +1762,6 @@ youtube.com##DIV[class*="prom"]
 ||content.acc-hd.de^
 ||content.ad^
 ||content.googleapis.com/drive/v2internal/viewerimpressions$xmlhttprequest,first-party
-||contentabc.com/^
 ||contentabc.com^
 ||contextweb.com^
 ||conversantmedia.com^
@@ -1871,7 +1791,6 @@ youtube.com##DIV[class*="prom"]
 ||counter.rambler.ru^
 ||counter.search.bg^
 ||counter.sparklit.com^
-||counter.yadro.ru^
 ||counters.honesty.com^
 ||counting.kmindex.ru^
 ||counts.tucows.com^
@@ -1922,14 +1841,12 @@ youtube.com##DIV[class*="prom"]
 ||cutecushion.com^
 ||cws.conviva.com
 ||cx81.com^
-||cx.atdmt.com^
 ||cyberbounty.com^
 ||cybermonitor.com^
 ||cylm.jh56.cn^
 ||czmlfc.sxtm30.badudns.cc^
 ||czqmc.com^
 ||d4n.platformd.com^
-||d.adroll.com^
 ||d.reddit.com
 ||daguogroup.com^
 ||daizheha.com^
@@ -2002,12 +1919,8 @@ youtube.com##DIV[class*="prom"]
 ||doubtfulrainstorm.com^
 ||doushimm.com^
 ||down.nishuoa.com^
-||downlaod1.vstart.net^
-||downlaod.vstart.net^
-||download.dns-vip.net^
 ||downloadfused.com^
 ||downloadoc.com^
-||dpm.demdex.net/^
 ||dq95d35.com^
 ||dragzebra.com^
 ||drawbrid.ge^
@@ -2047,7 +1960,6 @@ youtube.com##DIV[class*="prom"]
 ||eclickz.com^
 ||ecoupons.com^
 ||edge.bayanazdirandamla.com^
-||edge.quantserve.com^
 ||edgeio.com^
 ||effectivemeasure.com^
 ||effectivemeasure.net^
@@ -2213,7 +2125,6 @@ youtube.com##DIV[class*="prom"]
 ||g-ecx.images-amazon.com/images/*/traffic/$image
 ||ga87z2o.com^
 ||galaxien.com^
-||galleries.securesoft.info^
 ||gallerycrush.com^
 ||game-advertising-online.com^
 ||gamehouse.com^
@@ -2255,14 +2166,11 @@ youtube.com##DIV[class*="prom"]
 ||goadservices.com^
 ||god123.cn^
 ||goingplatinum.com^
-||gold.weborama.fr^
 ||goldspotmedia.com^
 ||goldstats.com^
 ||goo.gl^
-||google-analytics.com^$important
 ||google.*/coop/cse/brand$important
 ||google.*/pagead
-||google.com/pagead
 ||googleadservices.com$important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
@@ -2365,14 +2273,12 @@ youtube.com##DIV[class*="prom"]
 ||i1media.no^
 ||i-clicks.net^
 ||i-lookup.com^
-||i.xx.openx.com^
 ||ia.iinfo.cz^
 ||iad.anm.co.uk^
 ||iadctest.qwapi.com^
 ||iadnet.com^
 ||iadsdk.apple.com^
 ||iasds01.com^
-||ib.adnxs.com/ut/v3/^
 ||iconadserver.com^
 ||icptrack.com^
 ||id.google.*^$important
@@ -2383,7 +2289,6 @@ youtube.com##DIV[class*="prom"]
 ||idot.cz^
 ||idregie.com^
 ||idtargeting.com^
-||iebar.t2t2.com^
 ||ientrymail.com^
 ||iesnare.com^
 ||ifa.tube8live.com^
@@ -2405,7 +2310,6 @@ youtube.com##DIV[class*="prom"]
 ||imarketservices.com^
 ||imatmobile.com^
 ||img.prohardver.hu^
-||img.securesoft.info^
 ||imgpromo.easyrencontre.com^
 ||imgur.com/b
 ||imimobile.com^
@@ -2442,7 +2346,6 @@ youtube.com##DIV[class*="prom"]
 ||instagram.com/ajax/bz
 ||instagram.com/client_action
 ||instagram.com/client_error
-||install.securesoft.info^
 ||instantmadness.com^
 ||instrumentsponge.com^
 ||intelliads.com^
@@ -2455,7 +2358,6 @@ youtube.com##DIV[class*="prom"]
 ||internetfuel.com^
 ||interreklame.de^
 ||interstat.hu^
-||interstitial.powered-by.securesoft.info^
 ||inuvi.com^
 ||invisionapp.com/api/project-viewing/*/set-ended-at$xmlhttprequest
 ||ip193.cn^
@@ -2495,8 +2397,6 @@ youtube.com##DIV[class*="prom"]
 ||jornalistasdeangola.com^
 ||jquery-framework.com^
 ||jqueryjsscript.ru^
-||js.5689.nl^
-||js.securesoft.info^
 ||js.union.doudouguo.net^
 ||js.users.51.la^
 ||jsbwpg.com^
@@ -2541,7 +2441,6 @@ youtube.com##DIV[class*="prom"]
 ||layer-ads.de^
 ||lbn.ru^
 ||lct.salesforce.com^
-||lead-analytics.nl^
 ||leadaffiliates.com^
 ||leadbolt.com^
 ||leadboltads.net^
@@ -2623,7 +2522,6 @@ youtube.com##DIV[class*="prom"]
 ||lumpyleaf.com^
 ||lunarads.com^
 ||lzjl.com^
-||m1.webstats4u.com^
 ||m4n.nl^
 ||m.webtrends.com^
 ||madadsmedia.com^
@@ -2700,9 +2598,7 @@ youtube.com##DIV[class*="prom"]
 ||mediaz.angloinfo.com^
 ||medio.com^
 ||medium.com/_/api/promo$xmlhttprequest
-||medium.com/_/api/promo/read_next_sign_in_tnt/impression$xmlhttprequest
 ||medium.com/_/api/users/*/writing-velocity$xmlhttprequest
-||medium.com/_/batch$xmlhttprequest
 ||medleyads.com^
 ||medyanetads.com^
 ||megacash.de^
@@ -2819,7 +2715,6 @@ youtube.com##DIV[class*="prom"]
 ||namimedia.com^
 ||nancunshan.com^
 ||nastydollars.com^
-||native.sharethrough.com/assets/sfp.js^
 ||navigator.io^
 ||navrcholu.cz^
 ||nbjmp.com^
@@ -2967,7 +2862,6 @@ youtube.com##DIV[class*="prom"]
 ||paycounter.com^
 ||paypopup.com^
 ||payserve.com^
-||pb.adriver.ru/cgi-bin/bid.cgi^
 ||pbnet.ru^
 ||pcash.imlive.com^
 ||pcbangv.com^
@@ -2981,7 +2875,6 @@ youtube.com##DIV[class*="prom"]
 ||pepperjamnetwork.com^
 ||perceivequarter.com^
 ||percentmobile.com^
-||perf.weborama.fr^
 ||perfectaudience.com^
 ||perfiliate.com^
 ||performancerevenue.com^
@@ -3008,8 +2901,6 @@ youtube.com##DIV[class*="prom"]
 ||pimproll.com^
 ||pinkpillar.ru^
 ||pinterest.com/_/_/report$xmlhttprequest,first-party
-||pixel.adsafeprotected.com^
-||pixel.jumptap.com^
 ||pizzotti.net^
 ||pjhku.com^
 ||placeplay.com^
@@ -3029,7 +2920,6 @@ youtube.com##DIV[class*="prom"]
 ||pontiflex.com^
 ||pop-under.ru^
 ||popads.net^
-||popads.net^$important
 ||popub.com^
 ||popunder.ru^
 ||popup.msn.com^
@@ -3066,7 +2956,6 @@ youtube.com##DIV[class*="prom"]
 ||pro.i-doctor.co.kr^
 ||prodota.ru/templates/*/*.*$subdocument
 ||prodota.ru/templates/images/$image
-||producthunt.com/frontend/analytics
 ||proext.com^
 ||profero.com^
 ||profile.ultimate-guitar.com/tabs_hits_counter.php$first-party
@@ -3168,7 +3057,6 @@ youtube.com##DIV[class*="prom"]
 ||reddit.com/api/request_promo$xmlhttprequest
 ||reddit.com/api/request_recommended_link$xmlhttprequest
 ||reddit.com/api/share
-||reddit.com/api/share.json
 ||reddit.com/errors
 ||reddit.com/timings
 ||redditmedia.com/moat/*
@@ -3215,7 +3103,6 @@ youtube.com##DIV[class*="prom"]
 ||rick.nirmallife.co.in^
 ||rightmedia.com^
 ||rightmove.co.uk/brandedsearchlog$xmlhttprequest
-||rightmove.co.uk/ps/images/analytics$image
 ||rightstats.com^
 ||ritzykey.com^
 ||ritzysponge.com^
@@ -3236,7 +3123,6 @@ youtube.com##DIV[class*="prom"]
 ||rotabanner.com^
 ||roxr.net^
 ||royalair.koom.ma^
-||rpc-php.trafficfactory.biz/^
 ||rq82.com^
 ||rs.mail.ru^
 ||rtbidder.net^
@@ -3247,9 +3133,7 @@ youtube.com##DIV[class*="prom"]
 ||rubiconproject.com^
 ||rulerabbit.com^
 ||rythmxchange.com^
-||s0.2mdn.net^$important
 ||s2d6.com^
-||s.adroll.com^
 ||s.edgexads.com^
 ||s.imgur.com/min/px.js$script,first-party
 ||sageanalyst.net^
@@ -3274,7 +3158,6 @@ youtube.com##DIV[class*="prom"]
 ||searchramp.com^
 ||secure-account-national-australia-bank.com.au-servive-customer-online.asiamusicme.com^
 ||secure-softwaremanager.com^
-||secure.adnxs.com/^
 ||secure.webconnect.net^
 ||securesoft.info^
 ||sedoparking.com^
@@ -3397,8 +3280,6 @@ youtube.com##DIV[class*="prom"]
 ||ssl-images-amazon.com/images/*/banner/$third-party
 ||ssl-images-amazon.com/images/*/browser-scripts/da-
 ||ssl-images-amazon.com/images/*/traffic/$image
-||sslwidget.criteo.com/^
-||ssp.adriver.ru/cgi-bin/^
 ||stabroom.cn^
 ||star-advertising.com^
 ||starffa.com^
@@ -3419,7 +3300,6 @@ youtube.com##DIV[class*="prom"]
 ||stat.zenon.net^
 ||statcounter.com^
 ||stathat.com^
-||static.exoclick.com/*.png$image
 ||static.fmpub.net^
 ||static.itrack.it^
 ||staticads.btopenworld.com^
@@ -3487,7 +3367,6 @@ youtube.com##DIV[class*="prom"]
 ||swordfishdc.com^
 ||sx.trhnt.com^
 ||sympation.com^
-||syndication.exoclick.com/ads-iframe-display.php$script
 ||szdamuzhi.com^
 ||sznaucer-figa.nd.e-wro.pl^
 ||szzlzn.com^
@@ -3576,7 +3455,6 @@ youtube.com##DIV[class*="prom"]
 ||top-site-list.com^
 ||top.list.ru^
 ||top.mail.ru^
-||top.proext.com^
 ||topbarh.box.sk^
 ||topblogarea.se^
 ||topbucks.com^
@@ -3666,13 +3544,11 @@ youtube.com##DIV[class*="prom"]
 ||truthfulturn.com^
 ||trw12.com/^
 ||tsms-ad.tsms.com^
-||ttb.lpcloudsvr302.com^
 ||ttr.casino^
 ||ttrcasino39.su^
 ||tubedspots.com^
 ||tubemogul.com^
 ||tumblr.com/services/cslog$beacon
-||tumblr.com/services/cslog$xmlhttprequest
 ||tumblr.com/svc/log$xmlhttprequest
 ||turn.com^
 ||tvas-a.pw^
@@ -3687,7 +3563,6 @@ youtube.com##DIV[class*="prom"]
 ||tzwaw.pw
 ||uarating.com^
 ||ubermedia.com^
-||uci.securesoft.info^
 ||ujvmzzwsxzrd3.com^
 ||ukbanners.com^
 ||ultramercial.com^
@@ -3708,7 +3583,6 @@ youtube.com##DIV[class*="prom"]
 ||us.a1.yimg.com^
 ||usapromotravel.com^
 ||user53122.vs.speednames.com^
-||user.fileserver.co.kr^
 ||usergrid.com^
 ||usmsad.tom.com^
 ||utarget.co.uk^
@@ -3740,7 +3614,6 @@ youtube.com##DIV[class*="prom"]
 ||view4cash.de^
 ||viewpoint.com^
 ||viewwonder.com^
-||vip.dns-vip.net^
 ||vipprojects.cn^
 ||virtual-pcb.com^
 ||visistat.com^
@@ -3787,7 +3660,6 @@ youtube.com##DIV[class*="prom"]
 ||weborama.fr^
 ||webpower.com^
 ||webreseau.com^
-||webseoanalytics.com^
 ||websponsors.com^
 ||webstat.channel4.com^
 ||webstat.com^
@@ -3828,12 +3700,6 @@ youtube.com##DIV[class*="prom"]
 ||wwgin.com^
 ||www1.gto-media.com^
 ||www8.glam.com^
-||www15.ktoooo.com^
-||www26.ktoooo.com^
-||www26.llbb88.com^
-||www39.ktoooo.com^
-||www230.kkvmaj.com^
-||www343.ohgooo.com^
 ||www-banner.chat.ru^
 ||www.4009997279.com^
 ||www.androidpolice.com/wp-content/plugins/ap-hotness/aph-post-view-counter.php$xmlhttprequest
@@ -3844,7 +3710,6 @@ youtube.com##DIV[class*="prom"]
 ||www.caixapre.com.br^
 ||www.codecademy.com/stats$xmlhttprequest
 ||www.dnps.com^
-||www.fchabkirchen-frauenberg.de^
 ||www.flickr.com/beacon_client_api_timings.gne$xmlhttprequest,domain=www.flickr.com
 ||www.flickr.com/beacon_rb_jserror.gne$image,domain=www.flickr.com
 ||www.infoaz.nl^
@@ -3856,8 +3721,6 @@ youtube.com##DIV[class*="prom"]
 ||www.qqkabb.com^
 ||www.soidc.com^
 ||www.stkjw.net^
-||www.ultimate-guitar.com/analytics$domain=ultimate-guitar.com
-||www.yserch.com^
 ||wyf003.cn^
 ||wypromuj.nazwa.pl^
 ||wzfmxlrrynnbekcqzu.com^
@@ -3871,8 +3734,6 @@ youtube.com##DIV[class*="prom"]
 ||xczys.com^
 ||xertive.com^
 ||xg4ken.com^
-||xiazai1.wan4399.com^
-||xiazai.dns-vip.net^
 ||xin-lian.cn^
 ||xingqibaile.com^
 ||xinweico.net^
@@ -3893,7 +3754,6 @@ youtube.com##DIV[class*="prom"]
 ||xxxporno18.ru^
 ||xy7elite.com^
 ||xy-cs.net^
-||xz.hkfg.net^
 ||xzz.goodoboy.com^
 ||y.ibsys.com^
 ||ya-googl.ws^
@@ -3921,7 +3781,6 @@ youtube.com##DIV[class*="prom"]
 ||youthfire.com^
 ||youtube.com/ad_data$important
 ||youtube.com/api/stats
-||youtube.com/api/stats$important
 ||youtube.com/csi_204$important
 ||youtube.com/get_midroll$important
 ||youtube.com/player_204$important
