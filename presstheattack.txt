@@ -5,10 +5,11 @@
 ! Expires: 1 days
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Last modified: 5 October 2018
-! License: MIT License - https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md
+! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
+! Wiki: https://github.com/bogachenko/presstheattack/wiki
 !------------------------------------------------------------------------------------------------------------------------------
 
 .*/ads
