@@ -4,7 +4,7 @@
 !              results, and too this list includes some cosmetic filters
 ! Expires: 1 days
 ! Homepage: https://github.com/bogachenko/presstheattack
-! Last modified: 5 October 2018
+! Last modified: 6 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 !          By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Mail: bogachenkove@gmail.com
@@ -45,7 +45,6 @@
 /eg.js$important
 /esf.js$important
 /fuckadblock/*$script
-/ga.js$important
 /gen_204$important
 /generate_204$important
 /gpt.js$important
@@ -1276,7 +1275,6 @@ twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
 ||allosponsor.com^
 ||allstarmediagroup.com^
 ||amazingcounters.com^
-||amazon-adsystem.com^$important
 ||amazon.com/aan/$subdocument
 ||ambitiousagreement.com^
 ||aminoapps.com^
@@ -2307,8 +2305,8 @@ twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
 ||im900.com^
 ||imageads.canoe.ca^
 ||imagecash.net^
-||images-amazon.com/images/*/browser-scripts/da-
-||images-amazon.com/images/*/browser-scripts/dae-
+||images-amazon.com/images/*/browser-scripts/^$important
+||images-amazon.com/images/*/browser-scripts/^$important
 ||images-amazon.com/images/*/da-us/da-$script
 ||images-amazon.com^*/marqueepushdown/
 ||images-pw.secureserver.net^
@@ -3822,3 +3820,29 @@ twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
 ||zumobi.com^
 ||zyjyyy.com^
 ||zztxdown.com^
+ga.js$important
+dc.js$important
+analytics.js$important
+gtag.js$important
+ga_exp.js$important
+gtm.js$important
+loader.js$important
+pagead/conversion.js$important
+||imasdk.googleapis.com^$important
+||google-analytics.com^$important
+||googletagmanager.com^$important
+||googlesyndication.com^$important
+||googletagservices.com^$important
+||amazon-adsystem.com^$important
+yastatic.net/nearest.js$important
+redditstatic.com/reddit.*.*.js$important
+redditstatic.com/reddit-init.*.*.js$important
+adframe.js$important
+clickstream.js$important
+fingerprint*^$important
+||scorecardresearch.com^$important
+||tns-counter.ru^$important
+||yadro.ru^$important
+||doubleclick.net^$important
+||pladform.ru^$important
+||vk-portal.net^$important
