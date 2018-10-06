@@ -1,4 +1,3 @@
-[Adblock]
 !------------------------------------------------------------------------------------------------------------------------------
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search
@@ -7,16 +6,24 @@
 ! Homepage: https://github.com/bogachenko/presstheattack
 ! Last modified: 5 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
+!          By downloading or viewing, or using this list, you are accepting these terms and the license.
 ! Mail: bogachenkove@gmail.com
+! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 !------------------------------------------------------------------------------------------------------------------------------
+
+/blockblock*$script
+/anti_ab.
+/adb*_detector.
 /[/_]banner\.js/$script
-/\/[a-z0-9_-]{15,}\.[a-z0-9-]+\.[a-z]{2,}\/.*?\w{40,}/$domain=twitch.tv
 /ad-manager.min.js$important
 /ad_slideout$important
+/show_ads.js$important
+/pop?$popup
 /ad_status.js$important
+/ads_w*.js
 /ad_track.js$important
 /adbar.js$important
 /adblock-checker.js$important
@@ -56,8 +63,6 @@
 /securepubads.$script
 /tcounter.js$important
 /top100.js$important
-/twitch-ext.min.js$important
-/twitch-videoad.js$important
 /wp-emoji-release.min.js
 /xgemius.js$important
 /xtcore.js$important
@@ -70,7 +75,6 @@
 @@_ads_$document
 @@_campaign=$document
 @@||$websocket
-^utm_medium=video^$popup,domain=twitch.tv
 a.postrelease.com/serve/load.js
 acdn.adnxs.com/ast/static/$script
 ad.php$important
@@ -252,7 +256,6 @@ youtube.com##.ytp-pause-overlay
 youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
 youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
-|http://$object-subrequest,third-party,domain=twitch.tv
 ||1x1rank.com^
 ||2ch.hk/images/*
 ||2ch.hk/music/*
@@ -260,7 +263,10 @@ youtube.com##DIV[class*="prom"]
 ||2o7.net^
 ||2znp09oa.com^
 ||3cinteractive.com^
+/blockBlock*$script
 ||3e1.cn^
+@@||img.techwallacdn.com^$image,domain=www.techwalla.com
+twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
 ||4affiliate.net^
 ||4d5.net^
 ||4d.condenastdigital.com/user
