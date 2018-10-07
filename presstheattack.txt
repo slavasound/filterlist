@@ -4,7 +4,7 @@
 ! Expires: 1 days
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Homepage: https://github.com/bogachenko/presstheattack
-! Last modified: 6 October 2018
+! Last modified: 8 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
@@ -121,7 +121,6 @@ habrahabr.ru##.column-wrapper_bordered.column-wrapper_bottom.column-wrapper > .s
 habrahabr.ru##.indented.content_left > .dfp-slot
 habrahabr.ru##.is_visible.dfp-slot_top.dfp-slot
 habrahabr.ru##.js-banner-bottom.dfp-slot_sticky-bottom.dfp-slot
-https://pla-pro.net/
 image.experiandirect.com/experian-site/js/s_code_ecs_dt.js
 img.en25.com/i/$script
 js-agent.newrelic.com/nr-1026.min.js
@@ -129,10 +128,6 @@ js-sec.indexww.com/ht/p/$script
 js.hs-scripts.com/$script
 l-stat.livejournal.net/js/$script
 loader.js$important
-mail.ru##.i-clearfix.feed__container
-mail.ru##.i-clearfix.grid__container.grid-down
-mail.ru##.i-font-md.i-link-no-deco.i-relative.i-block.toolbar
-mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
 ||mc.yandex.ru^$important
 media.trafficjunky.net/js/holiday-promo.js
 munchkin.marketo.net/munchkin.js
@@ -155,14 +150,14 @@ redditstatic.com/reddit-init.*.*.js$important
 redditstatic.com/reddit.*.*.js$important
 relap.io/api/v6/head.js
 roia.biz/ts/p/21/$script
-s.clickiocdn.com/t/$script,important
-s.go-mpulse.net/boomerang/$script
-s141.cnzz.com/stat.php$script
+clickiocdn.com/t/$script,important
+go-mpulse.net/boomerang/$script
+cnzz.com/stat.php$important
 s7.addthis.com/js/300/addthis_widget.js
 secure-us.imrworldwide.com/cgi-bin/$script
 secure.quantserve.com/aquant.js
 secure.quantserve.com/quant.js
-static.ads-twitter.com/uwt.js
+static.ads-twitter.com/uwt.js^$important
 static.chartbeat.com/js/chartbeat.js
 static.chartbeat.com/js/chartbeat_mab.js
 static.criteo.net/js/ld/publishertag.js
@@ -1276,12 +1271,22 @@ youtube.com##DIV[class*="prom"]
 ||amskrupajal.org^
 ||amung.us^
 ||an.yandex.ru^$important
-||twitter.com/i/jot
+||twitter.com/i/jot^$important
 log.
 /log?type=
 ||imgur.com/min/px.js
 /^https?:\/\/tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$first-party,xmlhttprequest
 /^https?:\/\/yandex\.(by|kz|ru|ua)\/pogoda\/[^\s]{300,}/$first-party,xmlhttprequest
+/^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery))[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
+/^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,domain=news.yandex.by|news.yandex.kz|news.yandex.ru|news.yandex.ua
+/^https?://realty\.yandex\.ru/[^\s]{500,}/$subdocument,xmlhttprequest,domain=realty.yandex.ru
+/^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
+yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
+yandex.ru##.media-event-promo__wrapper
+yandex.ru##.rows__row_last.rows__row.A4
+yandex.ru##.home-arrow__bottom
+yandex.ru##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
+music.yandex.ru##.sidebar__under
 ||yandex.*/clck/$xmlhttprequest
 ||main.zdevx.yandex.ru^$important
 ||anahtars.com^
@@ -2348,9 +2353,40 @@ log.
 ||insightexpress.com^
 ||insightexpressai.com^
 ||inspectorclick.com^
-||instagram.com/ajax/bz
-||instagram.com/client_action
-||instagram.com/client_error
+||instagram.com/ajax/bz^$important
+||instagram.com/client_action^$important
+||instagram.com/client_error^$important
+||instagram.com/logging_client_events^$important
+||facebook.com/tr?^$important
+pixel.$important,image
+||atdmt.com^$important
+||kiks.yandex.ru^$important
+||yandex.*/clck/$image,important
+||yandex.*/clck/$script,important
+||youtube.com/api/stats$important
+||clck.yandex.ru^$important
+||zen.yandex.ru^$important
+||direct.yandex.ru^$important
+||awaps.yandex.net^$important
+||adriver.ru^$important
+||browser-updater.yandex.net^$important
+||awsync.yandex.ru^$important
+||awaps.yandex.ru^$important
+||http-check-headers.yandex.ru^$important
+/blank.$important,image
+||vk.com/rtrg^$important
+.*/ads
+advertisement$important,script
+/ads.js$important,script
+||vk.com/ads*.php$important
+||stat.radar.imgsmail.ru^$important
+||*.mail.ru^$important
+pagead$important,script
+||yabs.yandex.ru^$important
+||yandex.*/count/
+||trafficfactory.biz^$important
+||gamescarousel^$important
+/hads-^$important
 ||instantmadness.com^
 ||instrumentsponge.com^
 ||intelliads.com^
