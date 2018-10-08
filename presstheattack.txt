@@ -45,8 +45,6 @@
 /gpt.js$important
 /ima3.js$important
 /jads.js$important
-/log_event$important
-/log_interaction$important
 /noblock.js$important
 /pop.js$important
 /pop?$popup
@@ -246,7 +244,6 @@ youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscr
 youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||*.com/_/batch$xmlhttprequest,first-party
-||*/campusm/insight/log
 ||029999.com^
 ||08819.com^
 ||0914.global.ssl.fastly.net^
@@ -1273,7 +1270,6 @@ youtube.com##DIV[class*="prom"]
 ||an.yandex.ru^$important
 ||twitter.com/i/jot^$important
 log.
-/log?type=
 ||imgur.com/min/px.js
 /^https?:\/\/tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$first-party,xmlhttprequest
 /^https?:\/\/yandex\.(by|kz|ru|ua)\/pogoda\/[^\s]{300,}/$first-party,xmlhttprequest
@@ -1963,7 +1959,7 @@ music.yandex.ru##.sidebar__under
 ||ebayadvertising.com^
 ||ebocornac.com^
 ||ebuzzing.com^
-||ec.walkme.com/event/log
+@@||www.gstatic.com/recaptcha/*$script
 ||ecdlszczecin.eu^
 ||ecircle-ag.com^
 ||eclick.vn^
@@ -2055,7 +2051,10 @@ music.yandex.ru##.sidebar__under
 ||f-sy.com^
 ||f5biz.com^
 ||fabiocaminero.com^
-||facebook.com/ajax/photos/logging/session_logging.php$important
+/log^$important
+||aaxads.com^$important
+/images/ad-^$important
+/prebid$important,script
 ||faloge.com^
 ||falsewi.com^
 ||familiarfloor.com^
@@ -2104,7 +2103,6 @@ music.yandex.ru##.sidebar__under
 ||foamybox.com^
 ||fonecta.leiki.com^
 ||foo.cosmocode.de^
-||forbes.com/forbesapi/log.json$xmlhttprequest,first-party
 ||forex-affiliate.net^
 ||foxionserl.com^
 ||fpctraffic.com^
@@ -2356,7 +2354,6 @@ music.yandex.ru##.sidebar__under
 ||instagram.com/ajax/bz^$important
 ||instagram.com/client_action^$important
 ||instagram.com/client_error^$important
-||instagram.com/logging_client_events^$important
 ||facebook.com/tr?^$important
 pixel.$important,image
 ||atdmt.com^$important
@@ -3093,8 +3090,6 @@ pagead$important,script
 ||rebotstat.com^
 ||receptiveink.com^
 ||recreativ.ru
-||reddit.com/*/log/*
-||reddit.com/api/login.json
 ||reddit.com/api/register.json
 ||reddit.com/api/request_promo$xmlhttprequest
 ||reddit.com/api/request_recommended_link$xmlhttprequest
@@ -3413,7 +3408,6 @@ pagead$important,script
 ||sznaucer-figa.nd.e-wro.pl^
 ||szzlzn.com^
 ||t.insigit.com^
-||t.premii.com/log$image,first-party
 ||t.pusk.ru^
 ||t2t2.com^
 ||tablet.gutterhelment.net^
@@ -3592,7 +3586,6 @@ pagead$important,script
 ||tubedspots.com^
 ||tubemogul.com^
 ||tumblr.com/services/cslog$beacon
-||tumblr.com/svc/log$xmlhttprequest
 ||turn.com^
 ||tvas-a.pw^
 ||tvas-c.pw^
