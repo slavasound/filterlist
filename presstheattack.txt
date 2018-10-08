@@ -109,9 +109,6 @@ freebitco.in##.reveal-modal-bg
 fsm1019.global.ssl.fastly.net/fsm/ds
 ga.js$important
 ga_exp.js$important
-google.*##.exp-outline
-google.*##.mod:if(span:matches-css(border: 1px solid rgb(0, 102, 33)))
-google.*##div[id^="eob"]
 gtag.js$important
 gtm.js$important
 habr.com##.is_visible.dfp-slot_top.dfp-slot
@@ -161,7 +158,7 @@ static.chartbeat.com/js/chartbeat_mab.js
 static.criteo.net/js/ld/publishertag.js
 static.hotjar.com/c/$script
 tag.bounceexchange.com/340/i.js
-translate.google.com,translate.google.ru###gt-promo-lr
+translate.google.*###gt-promo-lr
 try.abtasty.com/$script
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
@@ -1284,6 +1281,7 @@ yandex.ru##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
 music.yandex.ru##.sidebar__under
 ||yandex.*/clck/$xmlhttprequest
 ||main.zdevx.yandex.ru^$important
+||youtube.com/*_204?$image
 ||anahtars.com^
 ||ancientroom.com^
 ||andlu.org^
@@ -2180,7 +2178,7 @@ log.$important
 ||goldstats.com^
 ||goo.gl^
 ||google.*/coop/cse/brand$important
-||google.*/pagead
+||google.*/pagead$important
 ||googleadservices.com$important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
@@ -2366,8 +2364,16 @@ pixel.$important,image
 ||clck.yandex.ru^$important
 ||zen.yandex.ru^$important
 ||direct.yandex.ru^$important
+||yandex.ru/clck/click$important
+/google-conversion.html$important
+||vk.com/js/lib/px.js$important
+||vk.com/js/al/aes_light.js$script
+||vk.com/ads_rotate.php$important
 ||awaps.yandex.net^$important
 ||adriver.ru^$important
+||yandex.st/awaps-ad-sdk-js^$important
+/adsdk.js$important
+||google.*/gen204$important
 ||browser-updater.yandex.net^$important
 ||awsync.yandex.ru^$important
 ||awaps.yandex.ru^$important
@@ -2585,8 +2591,8 @@ pagead$important,script
 ||mannesoth.com^
 ||mans.cnusher.ind.in^
 ||maplefarmmedia.com^
-||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent
-||maps.googleapis.com/maps/api/js/StatsService.RecordStats
+||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$important
+||maps.googleapis.com/maps/api/js/StatsService.RecordStats$important
 ||marchex.com^
 ||marco-behrendt.de^
 ||market-buster.com^
@@ -2774,7 +2780,8 @@ pagead$important,script
 ||netagent.cz^
 ||netclickstats.com^
 ||syndication.twitter.com^$important
-||connect.facebook.net^$badfilter
+||connect.facebook.net^$important,script,badfilter
+||facebook.com^$third-party,badfilter
 ||netcommunities.com^
 ||taboola.com^$important
 ||taboolasyndication.com^$important
@@ -2882,8 +2889,8 @@ taboola$script
 ||oxado.com^
 ||oxcash.com^
 ||oxen.hillcountrytexas.com^
-||p.adpdx.com^
-||pagead.l.google.com^
+||adpdx.com^$important
+||pagead.$important
 ||pagefair.com^
 ||pagerank-ranking.com^
 ||pagerank-ranking.de^
@@ -2902,7 +2909,7 @@ taboola$script
 ||partner-ads.com^
 ||partner.pelikan.cz^
 ||partner.topcities.com^
-||partnerad.l.google.com^
+||partnerad.$important
 ||partnercash.de^
 ||partners.priceline.com^
 ||passion-4.net^
@@ -3638,7 +3645,7 @@ taboola$script
 ||vervewireless.com^
 ||vibrantmedia.com^
 ||vid.me/api/metric
-||video-stats.video.google.com^
+||video-stats.video.google.com^$important
 ||videoegg.com^
 ||view4cash.de^
 ||viewpoint.com^
@@ -3713,7 +3720,7 @@ taboola$script
 ||widgetbucks.com^
 ||wikia-ads.wikia.com^
 ||window.nixnet.cz^
-||wintricksbanner.googlepages.com^
+||wintricksbanner.googlepages.com^$important
 ||wirecomic.com^
 ||witch-counter.de^
 ||wlmarketing.com^
