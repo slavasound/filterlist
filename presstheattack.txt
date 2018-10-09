@@ -173,8 +173,8 @@ pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.promo-block
 qaru.site/assets/$script
-redditstatic.com/reddit-init.*.*.js$important
-redditstatic.com/reddit.*.*.js$important
+!redditstatic.com/reddit-init.*.*.js$important
+!redditstatic.com/reddit.*.*.js$important
 relap.io/api/v6/head.js
 roia.biz/ts/p/21/$script
 s7.addthis.com/js/300/addthis_widget.js
@@ -2113,7 +2113,13 @@ youtube.com##DIV[class*="prom"]
 ||f-sy.com^
 ||f5biz.com^
 ||fabiocaminero.com^
-||facebook.com/tr?^$important
+||facebook.com/tr?$important
+||github.com/_private/browser/stats$important
+||collector.githubapp.com^$important
+||disqusads.com^$important
+||clksite.com^$important
+/cdn-cgi/apps/head/$first-party,script,important
+||realtime.services.disqus.com^$important,badfilter
 ||facebook.com^$third-party,badfilter
 ||faloge.com^
 ||falsewi.com^
