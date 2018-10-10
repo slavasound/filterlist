@@ -1,7 +1,7 @@
 !==============================================================================================================================
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search
-! 			   results, and too this list includes some cosmetic filters
+! results, and too this list includes some cosmetic filters
 ! Expires: 1 days
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github Homepage: https://github.com/bogachenko/presstheattack
@@ -25,7 +25,11 @@
 /ad_slideout$important
 /ad_status.js$important
 /ad_track.js$important
-/adb*_detector.
+/adb*_detector.$important
+analytics$important,badfilter
+/analytics$important
+/ga_setup.js$first-party
+||google.*/log204$important
 /adbar.js$important
 /adblock-checker.js$important
 /ads$first-party
@@ -79,9 +83,6 @@
 /wp-emoji-release.min.js
 /xgemius.js$important
 /xtcore.js$important
-2ch.hk###plashque
-2ip.ru###ads
-2ip.ru##.cookies-notification
 =adunit&
 @@^ads_$document
 @@_ads^$document
