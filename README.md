@@ -11,14 +11,36 @@ My list is not restricted by any region. However, my personal attention is Engli
 
 ### Supported Ad-Blockers
 
-* [Adguard](https://adguard.com)
-* [Adblock](https://getadblock.com)
-* [Adblock Plus](https://adblockplus.org)
-* [Ublock](https://www.ublock.org)
-* [Ublock Original](https://github.com/gorhill/uBlock) or [Nano Adblocker](https://github.com/NanoAdblocker/NanoCore)
-* [Opera Browser ad blocker](https://www.opera.com)
+In order to use these rules, you'll need a compatibile browser plugin.
 
-### Use
+* [uBlock Origin](https://github.com/gorhill/uBlock) (use [uBlock Origin](https://github.com/gorhill/uBlock), not [uBlock](https://www.ublock.org) <[find out why?](https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg)>)
+	* [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
+	* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+	* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
+
+Each browser and plugin are slightly different from each other, all the plugins presented above with my list filter work properly (checked personally), the plugins presented below were not checked by me personally and therefore I admit that *maybe* there will be incorrect work with some of the filters.
+
+* [AdBlock Plus](https://adblockplus.org/)
+	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-plus/)
+	* [Chrome](https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb)
+	* [Opera](https://addons.opera.com/en/extensions/details/adblock-plus/)
+
+* [Adblock](https://getadblock.com/)
+	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-for-firefox)
+	* [Chrome](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
+	* [Opera](https://addons.opera.com/en/extensions/details/adblock/)
+
+* [Opera](https://opera.com)
+    * [Opera Ad blocker](https://addons.opera.com/en/extensions/details/opera-ad-blocker/)
+	
+* [Adguard](https://adguard.com)
+    * [Firefox](https://addons.mozilla.org/en/firefox/addon/adguard-adblocker/)
+	* [Chrome](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg/)
+	* [Opera](https://addons.opera.com/en/extensions/details/adguard/)
+  
+and all other similar plugins...
+
+### Usage
 
 [SUBSCRIBE](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) - Click on the link to add the filter list through the browser or add it manually:
 
@@ -27,3 +49,7 @@ My list is not restricted by any region. However, my personal attention is Engli
 ### Documentation
 
 For a more detailed project description and documentation please see the [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+
+### Contributions
+
+I accept any requests for additional rules. Please go to the "issues" tab, open the question and report a problem or a wish.
