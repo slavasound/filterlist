@@ -5,7 +5,7 @@
 ! Expires: 1 days
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github Homepage: https://github.com/bogachenko/presstheattack
-! Last modified: 9 October 2018
+! Last modified: 10 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
@@ -29,7 +29,7 @@
 /adbar.js$important
 /adblock-checker.js$important
 /ads$first-party
-/ads.js$important,script
+/ads.js$important
 /adsdk.js$important
 /advert.js$important
 /advertisement.js$important
@@ -47,10 +47,10 @@
 /cloudcoins.min.js$important
 /counter.js$important
 /distr-popup.html
-/doubleclick^$script,important
+/doubleclick$script,important
 /eg.js$important
 /esf.js$important
-/fuckadblock/*$script
+/fuckadblock.$script
 /gen_204$important
 /generate_204$important
 /google-conversion.html$important
@@ -66,16 +66,16 @@
 /noblock.js$important
 /pop.js$important
 /pop?$popup
+||st.top100.ru^$important
 /prebid$important,script
 /recovery_dfp_internal-v$script
 /recovery_lib_rid_iframe-*
 /reklama$important
-/rg-logabpstatus.php*$first-party
+/rg-logabpstatus.php$first-party
 /scripts.min.js$important
 /securepubads.$script
 /show_ads.js$important
 /tcounter.js$important
-/top100.js$important
 /wp-emoji-release.min.js
 /xgemius.js$important
 /xtcore.js$important
@@ -94,8 +94,20 @@
 @@||vk.com/images/upload.gif$image
 @@||vk.com^$subdocument
 @@||www.gstatic.com/recaptcha/*$script
-a.postrelease.com/serve/load.js
 ad.php$important
+||sa.bbc.co.uk^$important
+||edigitalsurvey.com^$important
+||me-cdn.effectivemeasure.net^$important
+||crwdcntrl.net^$important
+||gscontxt.net^$important
+||optimizely.com^$important
+||chartbeat.com^$important
+||outbrain.com^$important
+||beemray.com^$important
+||cdn.cookielaw.org^$important
+||postrelease.com^$important
+||livefyre.com^$important
+translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
 ad_html5&
 adbetnet.advertserve.com/js/libcode3.js
 adframe.js$important
@@ -108,15 +120,13 @@ amplify.outbrain.com/cp/obtp.js
 analytics$important
 app-sj10.marketo.com/js/forms2/js/forms2.min.js
 atinternet.automation.webmecanik.com/mtc.js
-bat.bing.com/bat.js
+||bat.bing.com^$important
 cdn.adsafeprotected.com/iasPET.1.js
 cdn.krxd.net/controltag?$script
 cdn.mouseflow.com/projects/$script
 cdn.onthe.io/io.js
-cdn.optimizely.com/js/$script
 cdn.pardot.com/pd.js
 cdn.uservoice.com/javascripts/widgets/tab.js
-cdn3.optimizely.com/js/geo2.js
 cdnjs.cloudflare.com/ajax/libs/highlight.js/$script
 clickiocdn.com/t/$script,important
 clickstream.js$important
@@ -134,7 +144,11 @@ formalyzer.com/formalyze_init.js
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
 fsm1019.global.ssl.fastly.net/fsm/ds
+||csi.gstatic.com^$important
+beacon$important
+/snowplow/$script
 ga.js$important
+||mail.yandex.*/monitoring_liza.txt$important
 ga_exp.js$important
 go-mpulse.net/boomerang/$script
 gtag.js$important
@@ -146,7 +160,9 @@ habrahabr.ru##.is_visible.dfp-slot_top.dfp-slot
 habrahabr.ru##.js-banner-bottom.dfp-slot_sticky-bottom.dfp-slot
 image.experiandirect.com/experian-site/js/s_code_ecs_dt.js
 img.en25.com/i/$script
-js-agent.newrelic.com/nr-1026.min.js
+/gujad.$important
+/adscript.$important
+||relosoun.com^$important
 js-sec.indexww.com/ht/p/$script
 js.hs-scripts.com/$script
 l-stat.livejournal.net/js/$script
@@ -172,8 +188,6 @@ pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.promo-block
 qaru.site/assets/$script
-!redditstatic.com/reddit-init.*.*.js$important
-!redditstatic.com/reddit.*.*.js$important
 relap.io/api/v6/head.js
 roia.biz/ts/p/21/$script
 s7.addthis.com/js/300/addthis_widget.js
@@ -181,13 +195,10 @@ secure-us.imrworldwide.com/cgi-bin/$script
 secure.quantserve.com/aquant.js
 secure.quantserve.com/quant.js
 static.ads-twitter.com/uwt.js^$important
-static.chartbeat.com/js/chartbeat.js
-static.chartbeat.com/js/chartbeat_mab.js
 static.criteo.net/js/ld/publishertag.js
 static.hotjar.com/c/$script
 taboola$script
 tag.bounceexchange.com/340/i.js
-translate.google.*###gt-promo-lr
 try.abtasty.com/$script
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
@@ -256,7 +267,6 @@ twitter.com/javascripts/blogger.js
 vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
 vk.com##aside[aria-label="Актуальные новости"]
-widgets.outbrain.com/outbrain.js
 wikipedia.org###siteNotice
 ws.sharethis.com/button/buttons.js
 yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
@@ -1115,7 +1125,7 @@ youtube.com##DIV[class*="prom"]
 ||adserver2.popdata.de^
 ||adserverplus.com^
 ||adserversolutions.com^
-||adservice.google.*^$important
+||adservice.google.$important
 ||adservinginternational.com^
 ||adsfac.eu^
 ||adsfac.net^
@@ -1700,7 +1710,6 @@ youtube.com##DIV[class*="prom"]
 ||chango.com^
 ||channelintelligence.com^
 ||chart.dk^
-||chartbeat.com^
 ||chartbeat.net^
 ||chartboost.com^
 ||cheapness.byefelicia.fr^
@@ -1802,6 +1811,11 @@ youtube.com##DIV[class*="prom"]
 ||config.789wed.com^
 ||connect.facebook.net^$badfilter
 ||connect.facebook.net^$important,script,badfilter
+||facebook.com^*/plugins/like_box.php?$third-party,badfilter
+||connect.facebook.net^*/fbevents.js$third-party
+@@/wp-content/*/ads*.js$script,badfilter
+||aflt.market.yandex.*/widget$third-party
+_sitecatalyst.$important
 ||connextra.com^
 ||consciouscabbage.com^
 ||consciouschairs.com^
@@ -1835,7 +1849,7 @@ youtube.com##DIV[class*="prom"]
 ||counter.mirohost.net^
 ||counter.mojgorod.ru^
 ||counter.nowlinux.com^
-||counter.rambler.ru^
+||counter.rambler.ru^$important
 ||counter.search.bg^
 ||counter.sparklit.com^
 ||counters.honesty.com^
@@ -1867,8 +1881,29 @@ youtube.com##DIV[class*="prom"]
 ||creatives.livejasmin.com^
 ||crispads.com^
 ||crispmedia.com^
+/adriver.$important
+||criteo.net^$important
+@@/advertise.js$script,badfilter
+/advertise.$important
+||ssp.rambler.ru^$important
+/fuckadb.js$important
+/showads.js$important
+/metrics/$important
+/ads-google-ads/$important
+/adsense/$important
+/anti-adblock/$important
+/ads/$important
+/feedads$important
+/adframe/$important
+/adsbygoogle.js$important
+/adv.$image,important
+/ad24.$image,important
+/ajax-ad/$important
+/advert_*.js$important
+/_/batch|$first-party,xmlhttprequest,important
+||collector-medium.lightstep.com^$important
 ||crispwireless.com^
-||criteo.com^
+||criteo.com^$important
 ||critical-boot.com^$important
 ||critictruck.com^
 ||crittercism.com^
@@ -1877,8 +1912,7 @@ youtube.com##DIV[class*="prom"]
 ||crownclam.com^
 ||crtv.mate1.com^
 ||crumbs.robinhood.com/track
-||crwdcntrl.net^
-||cse.google.com/cse.js^$important
+||cse.google.com/cse.js$important
 ||csgopot.zone^$important
 ||ctnetwork.hu^
 ||ctv.whpx8.com^
@@ -1973,7 +2007,7 @@ youtube.com##DIV[class*="prom"]
 ||domdex.com^
 ||dota2.ru/img/scdogostart.jpg$image
 ||dotomi.com^
-||doubleclick.*^$important
+||doubleclick.$important
 ||doublepimp.com^
 ||doubtfulrainstorm.com^
 ||doushimm.com^
@@ -2025,8 +2059,7 @@ youtube.com##DIV[class*="prom"]
 ||ecoupons.com^
 ||edge.bayanazdirandamla.com^
 ||edgeio.com^
-||effectivemeasure.com^
-||effectivemeasure.net^
+||effectivemeasure.$important
 ||ehealthcaresolutions.com^
 ||eiv.baidu.com^
 ||ejyymghi.com^
@@ -2809,7 +2842,7 @@ youtube.com##DIV[class*="prom"]
 ||mobgold.com^
 ||mobhero.com^
 ||mobilda.com^
-||mobile-collector.newrelic.com^
+||newrelic.com^$important
 ||mobile-ent.biz^
 ||mobile-safety.org^
 ||mobileactive.com^
@@ -2989,7 +3022,6 @@ youtube.com##DIV[class*="prom"]
 ||otto-images.developershed.com^
 ||ouroldfriends.com^
 ||out-there-media.com^
-||outbrain.com^
 ||outlook.live.com/owa/service.svc?action=LogDatapoint
 ||ovalpigs.com^
 ||overture.com^
@@ -3103,7 +3135,6 @@ youtube.com##DIV[class*="prom"]
 ||portal.aolcdn.com/*/x.gif$image
 ||possibleboats.com^
 ||postimage.co^$important
-||postrelease.com^
 ||potenza.cz^
 ||power.bestconstructionexpertwitness.com^
 ||pr-star.de^
