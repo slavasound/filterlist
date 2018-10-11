@@ -7,7 +7,7 @@
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github Homepage: https://github.com/bogachenko/presstheattack
 ! Github Wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 10 October 2018
+! Last modified: 11 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
@@ -30,21 +30,22 @@
 /adb*_detector.$important
 analytics$important,badfilter
 /analytics$important
+/ads/$important,badfilter
 /ga_setup.js$first-party
 ||google.*/log204$important
 /adbar.js$important
-/adblock-checker.js$important
+adblock-checker.js$important
 /ads$first-party
-/ads.js$important
-/adsdk.js$important
-/advert.js$important
-/advertisement.js$important
+ads.js$important
+adsdk.js$important
+advert.js$important
+advertisement.js$important
 /annotations_module.js$important
-/anti_ab.$important
-/apstag.js$important
+anti_ab.$important
+apstag.js$important
 /ast.js$important
-/bab-defuser.js$important
-/beacon.js$important
+bab-defuser.js$important
+beacon.js$important
 /blank.$important,image
 /blockblock*$script
 /bugsnag.min.js$important
@@ -62,6 +63,7 @@ analytics$important,badfilter
 /google-conversion.html$important
 /gpt.js$important
 /hads-^$important
+||stat.api.2gis.ru^$important
 /ima3.js$important
 /images/ad-$important
 /jads.js$important
@@ -120,7 +122,7 @@ advertisement$important,script
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 amplify.outbrain.com/cp/obtp.js
-analytics$important
+analytics*
 app-sj10.marketo.com/js/forms2/js/forms2.min.js
 atinternet.automation.webmecanik.com/mtc.js
 ||bat.bing.com^$important
@@ -149,7 +151,8 @@ freebitco.in##.reveal-modal-bg
 fsm1019.global.ssl.fastly.net/fsm/ds
 ||csi.gstatic.com^$important
 beacon$important
-/snowplow/$script
+/snowplow/$script,important
+@@||assets.gitlab-static.net^$domain=gitlab.com
 ga.js$important
 ||mail.yandex.*/monitoring_liza.txt$important
 ga_exp.js$important
@@ -176,8 +179,8 @@ munchkin.marketo.net/munchkin.js
 music.yandex.ru##.sidebar__under
 native.sharethrough.com/assets/sfp.js
 nytimes.com##[id^="story-ad-"][id$="-wrapper"]
-o.aolcdn.com/os/aol/beacon.min.js
-o.aolcdn.com/os/aol/omniture.min.js
+beacon.min.js$important
+omniture.min.js$important
 outlook.live.com##a[href^="https://aka.ms"]
 pagead$important,image
 pagead$important,script
@@ -1887,6 +1890,8 @@ _sitecatalyst.$important
 /adriver.$important
 ||criteo.net^$important
 @@/advertise.js$script,badfilter
+/amplitude-*-min.gz.js$important
+||onesignal.com^$important
 /advertise.$important
 ||ssp.rambler.ru^$important
 /fuckadb.js$important
@@ -1895,7 +1900,7 @@ _sitecatalyst.$important
 /ads-google-ads/$important
 /adsense/$important
 /anti-adblock/$important
-/ads/$important
+/ads/*/script$important
 /feedads$important
 /adframe/$important
 /adsbygoogle.js$important
