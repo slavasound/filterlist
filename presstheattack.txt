@@ -30,6 +30,7 @@
 /adb*_detector.$important
 analytics$important,badfilter
 /analytics$important
+||yast.rutube.ru^$important
 /ads/$important,badfilter
 /ga_setup.js$first-party
 ||google.*/log204$important
@@ -189,7 +190,7 @@ pi.pardot.com/pd.js
 pikabu.ru###branding_ad_comment
 pikabu.ru###branding_ad_footer
 pikabu.ru###branding_ad_header
-pixel.$important,image
+pixel.$image,script,important
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.promo-block
@@ -571,7 +572,8 @@ youtube.com##DIV[class*="prom"]
 ||adflight.com^
 ||adforce.com^
 ||adform.com^
-||adfox.ru^
+||adfox.ru^$important
+||pixel.*.*$important
 ||adfrut.cl^
 ||adgardener.com^
 ||adgoto.com^
@@ -1134,6 +1136,7 @@ youtube.com##DIV[class*="prom"]
 ||adservice.google.$important
 ||adservinginternational.com^
 ||adsfac.eu^
+||nativeroll.tv^$third-party
 ||adsfac.net^
 ||adsfac.us^
 ||adshost1.com^
@@ -1146,6 +1149,7 @@ youtube.com##DIV[class*="prom"]
 ||adsmart.com^
 ||adsmart.net^
 ||adsmobi.com^
+||lentainform.com^$third-party
 ||adsmogo.com^
 ||adsnative.com^
 ||adsoftware.com^
@@ -1164,6 +1168,9 @@ youtube.com##DIV[class*="prom"]
 ||adsrvr.org^
 ||adsstat.com^
 ||adstat.4u.pl^
+stat.$image,script,important
+/player_stat/$important
+||*.ssl.*.rackcdn.com^$important
 ||adstest.weather.com^
 ||adsupply.com^
 ||adsupplyads.com^
@@ -3900,7 +3907,8 @@ _sitecatalyst.$important
 ||webmaster-partnerprogramme24.de^
 ||webmasterplan.com^
 ||webmasterplan.de^
-||weborama.fr^
+||weborama.fr^$important
+||apis.google.com/js/platform.js$third-party
 ||webpower.com^
 ||webprofile.me^$important
 ||webreseau.com^
