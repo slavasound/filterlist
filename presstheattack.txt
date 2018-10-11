@@ -2477,7 +2477,6 @@ _sitecatalyst.$important
 ||waplog.net^$important
 ||octobird.com^$third-party
 /tweet_button.$badfilter
-/banners/$important
 ||content.videoclick.ru^$important
 ||otclick-adv.ru^$important
 ||tradedoubler.com^$important
