@@ -65,10 +65,10 @@
 /esf.js$important
 /feedads$important
 /fuckadb.js$important
-/fuckadblock.$script
+fuckadblock$important
 /ga_setup.js$first-party
-/gen_204$important
-/generate_204$important
+gen_204$important
+generate_204$important
 /google-conversion.html$important
 /gpt.js$important
 /gujad.$important
@@ -84,7 +84,7 @@
 /noblock.js$important
 /player_stat/$important
 /pop.js$important
-/pop?$popup
+/pop$popup
 /prebid$important,script
 /recovery_dfp_internal-v$script
 /recovery_lib_rid_iframe-*
@@ -122,7 +122,7 @@
 @@||www.gstatic.com/recaptcha/*$script
 _sitecatalyst.$important
 ad.php$important
-ad_html5&
+ad_html5$important
 adbetnet.advertserve.com/js/libcode3.js
 adblock-checker.js$important
 adframe.js$important
@@ -192,8 +192,7 @@ native.sharethrough.com/assets/sfp.js
 nytimes.com##[id^="story-ad-"][id$="-wrapper"]
 omniture.min.js$important
 outlook.live.com##a[href^="https://aka.ms"]
-pagead$important,image
-pagead$important,script
+pagead$script,image,important
 pagead/conversion.js$important
 pi.pardot.com/pd.js
 pikabu.ru###branding_ad_comment
@@ -1416,7 +1415,6 @@ youtube.com##DIV[class*="prom"]
 ||auctionads.net^
 ||audience2media.com^
 ||audio-fa.scdn.co/audio/$media,domain=open.spotify.com
-||audioboom.com/stats/metrics/
 ||audit.median.hu^
 ||audit.webinform.hu^
 ||augami.net^
@@ -1714,8 +1712,7 @@ youtube.com##DIV[class*="prom"]
 ||cctjly.com^
 ||ccycny.com^
 ||cdn.cookielaw.org^$important
-||cdn.doublepimpssl.com/Scripts/$script
-||cdn.doublepimpssl.com/Scripts/infinity.js.aspx^
+||doublepimpssl.*^$important
 ||cdn.freefacti.com^
 ||cdn.krxd.net^
 ||cdn.onthe.io/^
@@ -2018,8 +2015,8 @@ youtube.com##DIV[class*="prom"]
 ||domdex.com^
 ||dota2.ru/img/scdogostart.jpg$image
 ||dotomi.com^
-||doubleclick.$important
-||doublepimp.com^
+||doublepimp.*^$important
+||doubleclick.*^$important
 ||doubtfulrainstorm.com^
 ||doushimm.com^
 ||down.nishuoa.com^
@@ -2624,7 +2621,6 @@ youtube.com##DIV[class*="prom"]
 ||lettucelimit.com^
 ||levelrate.de^
 ||lfstmedia.com^
-||librato-collector.genius.com/v1/metrics$xmlhttprequest
 ||licensing.bitmovin.com/impression$xmlhttprequest
 ||lifestreetmedia.com^
 ||liftdna.com^
