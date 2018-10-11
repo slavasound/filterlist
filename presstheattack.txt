@@ -1,18 +1,17 @@
 !==============================================================================================================================
-!
+! 
 ! Author: Bogachenko Vyacheslav
-! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search
-! results, and too this list includes some cosmetic filters
+! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search results, and too this list includes some cosmetic filters
 ! Expires: 1 days
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
-! Github Homepage: https://github.com/bogachenko/presstheattack
-! Github Wiki: https://github.com/bogachenko/presstheattack/wiki
+! Github homepage: https://github.com/bogachenko/presstheattack
+! Github wiki: https://github.com/bogachenko/presstheattack/wiki
 ! Last modified: 11 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! 
+!
 !==============================================================================================================================
 
 .*/ads
@@ -23,33 +22,39 @@
 /^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery))[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
 /^https?:\/\/tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$first-party,xmlhttprequest
 /^https?:\/\/yandex\.(by|kz|ru|ua)\/pogoda\/[^\s]{300,}/$first-party,xmlhttprequest
+/_/batch|$first-party,xmlhttprequest,important
 /ad-manager.min.js$important
+/ad24.$image,important
 /ad_slideout$important
 /ad_status.js$important
 /ad_track.js$important
 /adb*_detector.$important
-analytics$important,badfilter
-/analytics$important
-||yast.rutube.ru^$important
-/ads/$important,badfilter
-/ga_setup.js$first-party
-||google.*/log204$important
 /adbar.js$important
-adblock-checker.js$important
+/adframe/$important
+/adriver.$important
+/ads$document,first-party,important
 /ads$first-party
-ads.js$important
-adsdk.js$important
-advert.js$important
-advertisement.js$important
+/ads-google-ads/$important
+/ads.css$important
+/ads/$important,badfilter
+/ads/*/script$important
+/adsbygoogle.js$important
+/adscript.$important
+/adsense/$important
+/adv.$image,important
+/advert_*.js$important
+/advertise.$important
+/advertising.js$important
+/ajax-ad/$important
+/amplitude-*-min.gz.js$important
+/analytics$important
 /annotations_module.js$important
-anti_ab.$important
-apstag.js$important
+/anti-adblock/$important
 /ast.js$important
-bab-defuser.js$important
-beacon.js$important
 /blank.$important,image
 /blockblock*$script
 /bugsnag.min.js$important
+/cdn-cgi/apps/head/$first-party,script,important
 /cleardot.$important,image
 /client_204$important
 /cloudcoins.min.js$important
@@ -58,13 +63,16 @@ beacon.js$important
 /doubleclick$script,important
 /eg.js$important
 /esf.js$important
+/feedads$important
+/fuckadb.js$important
 /fuckadblock.$script
+/ga_setup.js$first-party
 /gen_204$important
 /generate_204$important
 /google-conversion.html$important
 /gpt.js$important
+/gujad.$important
 /hads-^$important
-||stat.api.2gis.ru^$important
 /ima3.js$important
 /images/ad-$important
 /jads.js$important
@@ -72,10 +80,11 @@ beacon.js$important
 /log_event$important
 /log_interaction$important
 /logging$important
+/metrics/$important
 /noblock.js$important
+/player_stat/$important
 /pop.js$important
 /pop?$popup
-||st.top100.ru^$important
 /prebid$important,script
 /recovery_dfp_internal-v$script
 /recovery_lib_rid_iframe-*
@@ -84,49 +93,58 @@ beacon.js$important
 /scripts.min.js$important
 /securepubads.$script
 /show_ads.js$important
+/showads.js$important
+/snowplow/$script,important
 /tcounter.js$important
+/tweet_button.$badfilter
 /wp-emoji-release.min.js
 /xgemius.js$important
 /xtcore.js$important
+/yandex-metrica-watch/$important
 =adunit&
+@@/advertise.js$script,badfilter
+@@/wp-content/*/ads*.js$script,badfilter
 @@^ads_$document
 @@_ads^$document
 @@_ads_$document
 @@_campaign=$document
 @@||$websocket
 @@||ajax.googleapis.com/ajax/libs^$script
+@@||assets.gitlab-static.net^$domain=gitlab.com
+@@||connect.ok.ru^
 @@||fonts.googleapis.com^$stylesheet
+@@||graph.facebook.com^
 @@||platform.twitter.com^$script
+@@||s.imgur.com/min/advertising.js$badfilter
 @@||vk.com/images/upload.gif$image
+@@||vk.com/share.php?$third-party
 @@||vk.com^$subdocument
 @@||www.gstatic.com/recaptcha/*$script
+_sitecatalyst.$important
 ad.php$important
-||sa.bbc.co.uk^$important
-||edigitalsurvey.com^$important
-||me-cdn.effectivemeasure.net^$important
-||crwdcntrl.net^$important
-||gscontxt.net^$important
-||optimizely.com^$important
-||chartbeat.com^$important
-||outbrain.com^$important
-||beemray.com^$important
-||cdn.cookielaw.org^$important
-||postrelease.com^$important
-||livefyre.com^$important
-translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
 ad_html5&
 adbetnet.advertserve.com/js/libcode3.js
+adblock-checker.js$important
 adframe.js$important
+ads.js$important
 ads.php$important
 ads.rubiconproject.com/header/$script
+adsdk.js$important
+advert.js$important
 advertisement$important,script
+advertisement.js$important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 amplify.outbrain.com/cp/obtp.js
+analytics$important,badfilter
 analytics*
+anti_ab.$important
 app-sj10.marketo.com/js/forms2/js/forms2.min.js
+apstag.js$important
 atinternet.automation.webmecanik.com/mtc.js
-||bat.bing.com^$important
+bab-defuser.js$important
+beacon$important
+beacon.js$important
 cdn.adsafeprotected.com/iasPET.1.js
 cdn.krxd.net/controltag?$script
 cdn.mouseflow.com/projects/$script
@@ -150,12 +168,7 @@ formalyzer.com/formalyze_init.js
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
 fsm1019.global.ssl.fastly.net/fsm/ds
-||csi.gstatic.com^$important
-beacon$important
-/snowplow/$script,important
-@@||assets.gitlab-static.net^$domain=gitlab.com
 ga.js$important
-||mail.yandex.*/monitoring_liza.txt$important
 ga_exp.js$important
 go-mpulse.net/boomerang/$script
 gtag.js$important
@@ -167,9 +180,6 @@ habrahabr.ru##.is_visible.dfp-slot_top.dfp-slot
 habrahabr.ru##.js-banner-bottom.dfp-slot_sticky-bottom.dfp-slot
 image.experiandirect.com/experian-site/js/s_code_ecs_dt.js
 img.en25.com/i/$script
-/gujad.$important
-/adscript.$important
-||relosoun.com^$important
 js-sec.indexww.com/ht/p/$script
 js.hs-scripts.com/$script
 l-stat.livejournal.net/js/$script
@@ -180,7 +190,6 @@ munchkin.marketo.net/munchkin.js
 music.yandex.ru##.sidebar__under
 native.sharethrough.com/assets/sfp.js
 nytimes.com##[id^="story-ad-"][id$="-wrapper"]
-beacon.min.js$important
 omniture.min.js$important
 outlook.live.com##a[href^="https://aka.ms"]
 pagead$important,image
@@ -201,11 +210,13 @@ s7.addthis.com/js/300/addthis_widget.js
 secure-us.imrworldwide.com/cgi-bin/$script
 secure.quantserve.com/aquant.js
 secure.quantserve.com/quant.js
+stat.$image,script,important
 static.ads-twitter.com/uwt.js^$important
 static.criteo.net/js/ld/publishertag.js
 static.hotjar.com/c/$script
 taboola$script
 tag.bounceexchange.com/340/i.js
+translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
 try.abtasty.com/$script
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
 twitch.tv##.pl-single-rec-wrapper.recommendations-overlay.player-overlay
@@ -293,6 +304,7 @@ youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||*.com/_/batch$xmlhttprequest,first-party
 ||*.mail.ru^$important
+||*.ssl.*.rackcdn.com^$important
 ||029999.com^
 ||02ip.ru^$important
 ||08819.com^
@@ -573,7 +585,6 @@ youtube.com##DIV[class*="prom"]
 ||adforce.com^
 ||adform.com^
 ||adfox.ru^$important
-||pixel.*.*$important
 ||adfrut.cl^
 ||adgardener.com^
 ||adgoto.com^
@@ -1136,7 +1147,6 @@ youtube.com##DIV[class*="prom"]
 ||adservice.google.$important
 ||adservinginternational.com^
 ||adsfac.eu^
-||nativeroll.tv^$third-party
 ||adsfac.net^
 ||adsfac.us^
 ||adshost1.com^
@@ -1149,7 +1159,6 @@ youtube.com##DIV[class*="prom"]
 ||adsmart.com^
 ||adsmart.net^
 ||adsmobi.com^
-||lentainform.com^$third-party
 ||adsmogo.com^
 ||adsnative.com^
 ||adsoftware.com^
@@ -1168,9 +1177,6 @@ youtube.com##DIV[class*="prom"]
 ||adsrvr.org^
 ||adsstat.com^
 ||adstat.4u.pl^
-stat.$image,script,important
-/player_stat/$important
-||*.ssl.*.rackcdn.com^$important
 ||adstest.weather.com^
 ||adsupply.com^
 ||adsupplyads.com^
@@ -1220,7 +1226,7 @@ stat.$image,script,important
 ||advertisespace.com^
 ||advertising.aol.com^
 ||advertising.apple.com^
-||advertising.com^
+||advertising.com^$important
 ||advertising.guildlaunch.net^
 ||advertising.microsoft.com^
 ||advertising.yahoo.com^
@@ -1290,6 +1296,7 @@ stat.$image,script,important
 ||affiliatetrading.net^
 ||affiliatewindow.com^
 ||affiliation-france.com^
+||aflt.market.yandex.*/widget$third-party
 ||agkn.com/^
 ||agreeableprice.com^
 ||ah-ha.com^
@@ -1342,15 +1349,16 @@ stat.$image,script,important
 ||api-guardian.foxtype.com/main/landing$xmlhttprequest
 ||api-iam.intercom.io/messenger/web/events
 ||api-iam.intercom.io/messenger/web/ping
-||api.amplitude.com
+||api.amplitude.com^$important
 ||api.autopilothq.com
-||api.github.com/_private/browser/stats$other,first-party
 ||api.intensifier.de^
 ||api.madkudu.com^
 ||api.twitch.tv/v5/channels/*/extensions
 ||api.vidora.com/v1/users$xmlhttprequest
 ||apiparbion.com^
 ||apis.google.com/_/jserror$xmlhttprequest
+||apis.google.com/js/*plusone.js$third-party,badfilter
+||apis.google.com/js/platform.js$third-party
 ||app-promo.com^
 ||app.adjust.com
 ||app.getsentry.com
@@ -1543,6 +1551,7 @@ stat.$image,script,important
 ||basebanner.com^$important
 ||basic-check.disconnect.me^
 ||baskettexture.com^
+||bat.bing.com^$important
 ||battlė.net^$important
 ||bawdybeast.com^
 ||bayansayfasi.com^
@@ -1556,6 +1565,7 @@ stat.$image,script,important
 ||bcmediagroup.com^
 ||beamincrease.com^
 ||beamkite.com^
+||beemray.com^$important
 ||begun.ru^
 ||behave.nualias.com^
 ||beikehongbei.com^
@@ -1703,6 +1713,7 @@ stat.$image,script,important
 ||cbx.net^
 ||cctjly.com^
 ||ccycny.com^
+||cdn.cookielaw.org^$important
 ||cdn.doublepimpssl.com/Scripts/$script
 ||cdn.doublepimpssl.com/Scripts/infinity.js.aspx^
 ||cdn.freefacti.com^
@@ -1723,6 +1734,7 @@ stat.$image,script,important
 ||chango.com^
 ||channelintelligence.com^
 ||chart.dk^
+||chartbeat.com^$important
 ||chartbeat.net^
 ||chartboost.com^
 ||cheapness.byefelicia.fr^
@@ -1795,6 +1807,7 @@ stat.$image,script,important
 ||clixgalore.com^
 ||clkads.com^
 ||clkrev.com^
+||clksite.com^$important
 ||cloudfront.*^$important
 ||cloudfsx.com^$important
 ||cls.vrvm.com^
@@ -1807,6 +1820,8 @@ stat.$image,script,important
 ||co.at.vc^
 ||code-server.biz^
 ||col.vg^
+||collector-medium.lightstep.com^$important
+||collector.githubapp.com^$important
 ||colonize.com^
 ||comboapp.com^
 ||comclick.com^
@@ -1824,11 +1839,7 @@ stat.$image,script,important
 ||config.789wed.com^
 ||connect.facebook.net^$badfilter
 ||connect.facebook.net^$important,script,badfilter
-||facebook.com^*/plugins/like_box.php?$third-party,badfilter
 ||connect.facebook.net^*/fbevents.js$third-party
-@@/wp-content/*/ads*.js$script,badfilter
-||aflt.market.yandex.*/widget$third-party
-_sitecatalyst.$important
 ||connextra.com^
 ||consciouscabbage.com^
 ||consciouschairs.com^
@@ -1836,6 +1847,7 @@ _sitecatalyst.$important
 ||content.acc-hd.de^
 ||content.ad^
 ||content.googleapis.com/drive/v2internal/viewerimpressions$xmlhttprequest,first-party
+||content.videoclick.ru^$important
 ||contentabc.com^
 ||contextweb.com^
 ||conversantmedia.com^
@@ -1894,31 +1906,9 @@ _sitecatalyst.$important
 ||creatives.livejasmin.com^
 ||crispads.com^
 ||crispmedia.com^
-/adriver.$important
-||criteo.net^$important
-@@/advertise.js$script,badfilter
-/amplitude-*-min.gz.js$important
-||onesignal.com^$important
-/advertise.$important
-||ssp.rambler.ru^$important
-/fuckadb.js$important
-/showads.js$important
-/metrics/$important
-/ads-google-ads/$important
-/adsense/$important
-/anti-adblock/$important
-/ads/*/script$important
-/feedads$important
-/adframe/$important
-/adsbygoogle.js$important
-/adv.$image,important
-/ad24.$image,important
-/ajax-ad/$important
-/advert_*.js$important
-/_/batch|$first-party,xmlhttprequest,important
-||collector-medium.lightstep.com^$important
 ||crispwireless.com^
 ||criteo.com^$important
+||criteo.net^$important
 ||critical-boot.com^$important
 ||critictruck.com^
 ||crittercism.com^
@@ -1927,8 +1917,10 @@ _sitecatalyst.$important
 ||crownclam.com^
 ||crtv.mate1.com^
 ||crumbs.robinhood.com/track
+||crwdcntrl.net^$important
 ||cse.google.com/cse.js$important
 ||csgopot.zone^$important
+||csi.gstatic.com^$important
 ||ctnetwork.hu^
 ||ctv.whpx8.com^
 ||cubeupload.xyz^$important
@@ -1977,6 +1969,7 @@ _sitecatalyst.$important
 ||demandbase.com^
 ||demdex.net^$third-party
 ||depilflash.tv^
+||deployads.com^$important
 ||detectdiscovery.com^
 ||deviantartt.ga^$important
 ||deviantartt.ml^$important
@@ -2000,7 +1993,10 @@ _sitecatalyst.$important
 ||discörd.com^$important
 ||displayadsmedia.com^
 ||displaypagerank.com^
+||disqus.com/embed.js$script,badfilter
+||disqusads.com^$important
 ||dist.belnk.com^
+||districtm.ca^$important
 ||disċordapp.com^$important
 ||djcalvin.com^
 ||dk4ywix.com^
@@ -2034,6 +2030,7 @@ _sitecatalyst.$important
 ||dr.tl/*^$important
 ||dragzebra.com^
 ||drawbrid.ge^
+||drive.videoclick.ru^$important
 ||dropbox.desi^$important
 ||dropboxx.cf^$important
 ||dropboxx.ga^$important
@@ -2074,6 +2071,7 @@ _sitecatalyst.$important
 ||ecoupons.com^
 ||edge.bayanazdirandamla.com^
 ||edgeio.com^
+||edigitalsurvey.com^$important
 ||effectivemeasure.$important
 ||ehealthcaresolutions.com^
 ||eiv.baidu.com^
@@ -2160,14 +2158,10 @@ _sitecatalyst.$important
 ||f-sy.com^
 ||f5biz.com^
 ||fabiocaminero.com^
+||facebook.com*/plugins/like.php?$third-party,badfilter
 ||facebook.com/tr?$important
-||github.com/_private/browser/stats$important
-||collector.githubapp.com^$important
-||disqusads.com^$important
-||clksite.com^$important
-/cdn-cgi/apps/head/$first-party,script,important
-||realtime.services.disqus.com^$important,badfilter
 ||facebook.com^$third-party,badfilter
+||facebook.com^*/plugins/like_box.php?$third-party,badfilter
 ||faloge.com^
 ||falsewi.com^
 ||familiarfloor.com^
@@ -2272,6 +2266,7 @@ _sitecatalyst.$important
 ||geo.digitalpoint.com^
 ||geo.query.yahoo.com
 ||geobanner.adultfriendfinder.com^
+||geoip.nekudo.com^$important
 ||geovisite.com^
 ||german-linkindex.de^
 ||getclicky.com^
@@ -2281,6 +2276,7 @@ _sitecatalyst.$important
 ||ghidneamt.ro^
 ||giddycoat.com^
 ||gillingscamps.co.uk^
+||github.com/_private/browser/stats$important
 ||gjysjl.com^
 ||globalismedia.com^
 ||globalnursesonline.com^
@@ -2300,8 +2296,10 @@ _sitecatalyst.$important
 ||goo.gl^
 ||google.*/coop/cse/brand$important
 ||google.*/gen204$important
+||google.*/log204$important
 ||google.*/log204?$script
 ||google.*/pagead$important
+||google.com^*/fastbutton?$third-party,badfilter
 ||googleadservices.com$important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
@@ -2320,6 +2318,7 @@ _sitecatalyst.$important
 ||greyinstrument.com^
 ||greystripe.com^
 ||grvcdn.com$script
+||gscontxt.net^$important
 ||gsimon.edu.free.fr^
 ||gtadb.net^$important
 ||gtop.ro^
@@ -2460,40 +2459,6 @@ _sitecatalyst.$important
 ||img.prohardver.hu^
 ||imger.me^$important
 ||imgpromo.easyrencontre.com^
-||api.amplitude.com^$important
-||p.imgur.com^$important
-@@||s.imgur.com/min/advertising.js$badfilter
-||facebook.com*/plugins/like.php?$third-party,badfilter
-/advertising.js$important
-||moatads.com^$important
-||geoip.nekudo.com^$important
-||deployads.com^$important
-||lijit.com^$important
-||advertising.com^$important
-||districtm.ca^$important
-||platform.twitter.com/js/button.$important,third-party,badfilter
-||platform.twitter.com*/widgets/$third-party,badfilter
-||vntsm.com^$important
-||redditstatic.com/moat/$important
-@@||vk.com/share.php?$third-party
-@@||connect.ok.ru^
-/yandex-metrica-watch/$important
-@@||graph.facebook.com^
-/ads.css$important
-/ads$document,first-party,important
-||waplog.net^$important
-||octobird.com^$third-party
-/tweet_button.$badfilter
-||content.videoclick.ru^$important
-||otclick-adv.ru^$important
-||tradedoubler.com^$important
-||apis.google.com/js/*plusone.js$third-party,badfilter
-||google.com^*/fastbutton?$third-party,badfilter
-||drive.videoclick.ru^$important
-||mediatoday.ru^$third-party
-||top.list.ru^$important
-||disqus.com/embed.js$script,badfilter
-||spylog.ru^$important
 ||imgur.com/min/px.js$important
 ||imgurl.us^$important
 ||imgúr.com^$important
@@ -2654,6 +2619,7 @@ _sitecatalyst.$important
 ||leferinktractors.com^
 ||legolas-media.com^
 ||lem-computers.net^
+||lentainform.com^$third-party
 ||leonarderickson.chez.com^
 ||lettucelimit.com^
 ||levelrate.de^
@@ -2666,7 +2632,7 @@ _sitecatalyst.$important
 ||ligatus.de^
 ||lightningcast.net^
 ||lightspeedcash.com^
-||lijit.com^
+||lijit.com^$important
 ||limpingline.com^
 ||link-booster.de^
 ||link4ads.com^
@@ -2693,6 +2659,7 @@ _sitecatalyst.$important
 ||lip11t.com
 ||liquidad.narrowcastmedia.com^
 ||lita-lighting.com^
+||livefyre.com^$important
 ||liveintent.com^
 ||liverail.com^
 ||lizardslaugh.com^
@@ -2736,6 +2703,7 @@ _sitecatalyst.$important
 ||madvertise.de^
 ||magnetic.com^
 ||mail.yahoo.com/stats
+||mail.yandex.*/monitoring_liza.txt$important
 ||mail3x.com^
 ||mailble.com^$important
 ||main.zdevx.yandex.ru^$important
@@ -2801,6 +2769,7 @@ _sitecatalyst.$important
 ||mediascale.de^
 ||mediashakers.com^
 ||mediatext.com^
+||mediatoday.ru^$third-party
 ||mediax.angloinfo.com^
 ||mediaz.angloinfo.com^
 ||medio.com^
@@ -2848,7 +2817,7 @@ _sitecatalyst.$important
 ||mmismm.com^
 ||mmtro.com^
 ||moadnet.com^
-||moatads.com^
+||moatads.com^$important
 ||mobcdn.com^
 ||mobclix.com^
 ||mobday.com^
@@ -2856,7 +2825,6 @@ _sitecatalyst.$important
 ||mobgold.com^
 ||mobhero.com^
 ||mobilda.com^
-||newrelic.com^$important
 ||mobile-ent.biz^
 ||mobile-safety.org^
 ||mobileactive.com^
@@ -2925,6 +2893,7 @@ _sitecatalyst.$important
 ||namimedia.com^
 ||nancunshan.com^
 ||nastydollars.com^
+||nativeroll.tv^$third-party
 ||navigator.io^
 ||navrcholu.cz^
 ||nbjmp.com^
@@ -2959,6 +2928,7 @@ _sitecatalyst.$important
 ||newnet.qsrch.com^
 ||newnudecash.com^
 ||newopenx.detik.com^
+||newrelic.com^$important
 ||newt1.adultadworld.com^
 ||newt1.adultworld.com^
 ||newtopsites.com^
@@ -2986,6 +2956,7 @@ _sitecatalyst.$important
 ||oascentral.chicagobusiness.com^
 ||oascentral.fortunecity.com^
 ||oascentral.register.com^
+||octobird.com^$third-party
 ||oewa.at^
 ||oewabox.at^
 ||offerforge.com^
@@ -3006,6 +2977,7 @@ _sitecatalyst.$important
 ||onclickads.net^
 ||oneandonlynetwork.com^
 ||onenetworkdirect.com^
+||onesignal.com^$important
 ||onestat.com^
 ||onestatfree.com^
 ||onewaylinkexchange.net^
@@ -3024,6 +2996,7 @@ _sitecatalyst.$important
 ||openx.blindferret.com^
 ||openx.com^
 ||opienetwork.com^
+||optimizely.com^$important
 ||optimost.com^
 ||optmd.com^
 ||oqgmav.com^
@@ -3033,9 +3006,11 @@ _sitecatalyst.$important
 ||ordingly.com^
 ||origin.dove.saymedia.com/rid$xmlhttprequest,important
 ||ota.cartrawler.com^
+||otclick-adv.ru^$important
 ||otto-images.developershed.com^
 ||ouroldfriends.com^
 ||out-there-media.com^
+||outbrain.com^$important
 ||outlook.live.com/owa/service.svc?action=LogDatapoint
 ||ovalpigs.com^
 ||overture.com^
@@ -3045,6 +3020,7 @@ _sitecatalyst.$important
 ||oxcash.com^
 ||oxen.hillcountrytexas.com^
 ||oxystress.eu^$important
+||p.imgur.com^$important
 ||pagead.$important
 ||pagefair.com^
 ||pagerank-ranking.com^
@@ -3116,11 +3092,14 @@ _sitecatalyst.$important
 ||pimproll.com^
 ||pinkpillar.ru^
 ||pinterest.com/_/_/report$xmlhttprequest,first-party
+||pixel.*.*$important
 ||pizzotti.net^
 ||pjhku.com^
 ||placeplay.com^
 ||pladform.ru^$important
 ||planetactive.com^
+||platform.twitter.com*/widgets/$third-party,badfilter
+||platform.twitter.com/js/button.$important,third-party,badfilter
 ||play4traffic.com^
 ||playhaven.com^
 ||playtomic.com^
@@ -3149,6 +3128,7 @@ _sitecatalyst.$important
 ||portal.aolcdn.com/*/x.gif$image
 ||possibleboats.com^
 ||postimage.co^$important
+||postrelease.com^$important
 ||potenza.cz^
 ||power.bestconstructionexpertwitness.com^
 ||pr-star.de^
@@ -3269,12 +3249,14 @@ _sitecatalyst.$important
 ||realmedia-a800.d4p.net^
 ||realtechnetwork.com^
 ||realteencash.com^
+||realtime.services.disqus.com^$important,badfilter
 ||realtracker.com^
 ||rebelsubway.com^
 ||rebisihut.com^
 ||rebotstat.com^
 ||receptiveink.com^
 ||recreativ.ru^
+||redditstatic.com/moat/$important
 ||redinvestor.com^
 ||redmas.com^
 ||reduxmedia.com^
@@ -3298,6 +3280,7 @@ _sitecatalyst.$important
 ||relish.com.cn^
 ||relmaxtop.com^
 ||reload.getsentry.net/page/$xmlhttprequest
+||relosoun.com^$important
 ||remotead.cnet.com^
 ||remyyadan.online.fr^
 ||republika.onet.pl^
@@ -3352,6 +3335,7 @@ _sitecatalyst.$important
 ||rëddït.com^$important
 ||s.edgexads.com^
 ||s2d6.com^
+||sa.bbc.co.uk^$important
 ||sageanalyst.net^
 ||sam-sdelai.blogspot.com^
 ||saysidewalk.com^
@@ -3496,6 +3480,7 @@ _sitecatalyst.$important
 ||spotxchange.com^
 ||sprinks-clicks.about.com^
 ||spylog.com^
+||spylog.ru^$important
 ||spyshredderscanner.com^
 ||spywarelabs.com^
 ||spywarenuker.com^
@@ -3507,6 +3492,8 @@ _sitecatalyst.$important
 ||ssl-images-amazon.com/images/*/banner/$third-party
 ||ssl-images-amazon.com/images/*/browser-scripts/da-
 ||ssl-images-amazon.com/images/*/traffic/$image
+||ssp.rambler.ru^$important
+||st.top100.ru^$important
 ||stabroom.cn^
 ||star-advertising.com^
 ||starbucks.bio^$important
@@ -3517,6 +3504,7 @@ _sitecatalyst.$important
 ||startapp.com^
 ||startribune.com/*/advertiser_details.js$script,domain=www.startribune.com
 ||startribune.com/*/st.marketdata.js$script,domain=www.startribune.com
+||stat.api.2gis.ru^$important
 ||stat.cliche.se^
 ||stat.dealtime.com^
 ||stat.dyna.ultraweb.hu^
@@ -3677,7 +3665,7 @@ _sitecatalyst.$important
 ||today-newday.cn^
 ||top-casting-termine.de^
 ||top-site-list.com^
-||top.list.ru^
+||top.list.ru^$important
 ||top100-images.rambler.ru^
 ||top100.mafia.ru^
 ||top123.ro^
@@ -3733,7 +3721,7 @@ _sitecatalyst.$important
 ||trackingsoft.com^
 ||trackmysales.com^
 ||tradeadexchange.com^
-||tradedoubler.com^
+||tradedoubler.com^$important
 ||trademob.com^
 ||traffic-exchange.com^
 ||traffic.liveuniversenetwork.com^
@@ -3868,10 +3856,10 @@ _sitecatalyst.$important
 ||vk-portal.net^$important
 ||vk.cc^
 ||vk.com/ads*.php$important
-||vk.com/ads_rotate.php$important
 ||vk.com/js/al/aes_light.js$script
 ||vk.com/js/lib/px.js$important
 ||vk.com/rtrg^$important
+||vntsm.com^$important
 ||voicefive.com^
 ||voicevegetable.com^
 ||vpon.com^
@@ -3887,6 +3875,7 @@ _sitecatalyst.$important
 ||wamcash.com^
 ||wan4399.com^
 ||wantoffer.com^
+||waplog.net^$important
 ||warlog.info^
 ||warlog.ru^
 ||warp.ly^
@@ -3908,7 +3897,6 @@ _sitecatalyst.$important
 ||webmasterplan.com^
 ||webmasterplan.de^
 ||weborama.fr^$important
-||apis.google.com/js/platform.js$third-party
 ||webpower.com^
 ||webprofile.me^$important
 ||webreseau.com^
@@ -3960,8 +3948,6 @@ _sitecatalyst.$important
 ||www.caixapre.com.br^
 ||www.codecademy.com/stats$xmlhttprequest
 ||www.dnps.com^
-||www.flickr.com/beacon_client_api_timings.gne$xmlhttprequest,domain=www.flickr.com
-||www.flickr.com/beacon_rb_jserror.gne$image,domain=www.flickr.com
 ||www.infoaz.nl^
 ||www.kaplanindex.com^
 ||www.money4exit.de^
@@ -4022,6 +4008,7 @@ _sitecatalyst.$important
 ||yandex.*/count/
 ||yandex.ru/clck/click$important
 ||yandex.st/awaps-ad-sdk-js^$important
+||yast.rutube.ru^$important
 ||yastatic.net/daas/atom.js
 ||ybrantdigital.com^
 ||ydworld.com^
