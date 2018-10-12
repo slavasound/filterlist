@@ -4,7 +4,7 @@
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 11 October 2018
+! Last modified: 13 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
@@ -20,7 +20,7 @@
 /^https?:\/\/yandex\.(by|kz|ru|ua)\/pogoda\/[^\s]{300,}/$first-party,xmlhttprequest
 /_/batch|$first-party,xmlhttprequest,important
 /ad24.$important
-/ad-manager.min.js$important
+/ad-manager.min.js$script,important
 /ad_slideout$important
 /ad_status.*$important
 /ad_track.*$important
@@ -33,17 +33,16 @@
 /ads/$important,badfilter
 /ads/*/script$important
 /adsense/$important
-/adv.*$image,important
+/adv.*$image,script,important
 /analytics$important
 /annotations_module.js$domain=youtube.com,script,important
 /ast.js$script,important
-/blank.$image,important
-/piwik.js$script,important
+/blank.$image,script,important
 /blockblock$script,important
 /bugsnag.min.js$script,important
 /cdn-cgi/apps/head/$first-party,script,important
 /cleardot.$image,important
-/cloudcoins.min.js$important
+/cloudcoins.min.js$script,important
 /counter.*$important
 /distr-popup.html$important
 /doubleclick$important
@@ -55,13 +54,14 @@
 /gujad.*$important
 /hads-$important
 /ima3.*$important
-/images/ad-$important
-/jads.js$important
+/images/ad-*$important
+/jads.js$script,important
 /log$important
 /log_event$important
 /log_interaction$important
 /logging$important
 /noblock.*$important
+/piwik.js$script,important
 /player_stat/$important
 /pop$popup
 /pop.js$script,important
@@ -69,7 +69,7 @@
 /recovery_dfp_internal$important
 /recovery_lib_rid_iframe$important
 /rg-logabpstatus.php$first-party
-/scripts.min.js$important
+/scripts.min.js$script,important
 /securepubads$important
 /snowplow/$script,important
 /tcounter.js$script,important
@@ -111,6 +111,7 @@ advertise.*$important
 advertisement$important
 advertising.*$important
 ajax-ad$important
+aksb.min.js$script,important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 amplitude-*-min.*$important
@@ -126,7 +127,6 @@ clickstream.js$script,important
 client_204$important
 cnzz.com/stat.php$important
 dc.js$script,important
-aksb.min.js$script,important
 duckduckgo.com##.js-header-aside.header--aside
 duckduckgo.com##.js-onboarding-ed.onboarding-ed
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right
@@ -136,7 +136,6 @@ formalyzer.com/formalyze_call_secure.js
 formalyzer.com/formalyze_init.js
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
-||*.global.ssl.fastly.net^$important
 fuckadb.*$important
 fuckadblock$important
 ga.js$script,important
@@ -144,19 +143,11 @@ ga_exp.js$script,important
 ga_setup$important
 gen_204$important
 generate_204$important
-||*.go-mpulse.net/boomerang/$script,important
 gtag.js$script,important
 gtm.js$script,important
-||image.experiandirect.com/experian-site/js/s_code_ecs_dt.js$script,important
-||img.en25.com/i/$script
-||js-sec.indexww.com/ht/$script,important
-||js.hs-scripts.com/$script,important
-||l-stat.livejournal.net/js/$script
 loader.js$script,important
 log.$important
-||munchkin.marketo.net/munchkin.js
 music.yandex.ru##.sidebar__under
-||native.sharethrough.com/assets/sfp.js$script,important
 nytimes.com##[id^="story-ad-"][id$="-wrapper"]
 omniture.min.js$script,important
 outlook.live.com##a[href^="https://aka.ms"]
@@ -167,12 +158,9 @@ pikabu.ru###branding_ad_header
 pixel.$image,script,important
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
-||qaru.site/assets/$script,important
 reklama$important
-||relap.io/api/v6/head.js$script,important
 show_ads$important
 showads.*$important
-||static.*$image,script,important
 taboola$script
 tag.bounceexchange.com/*/*.js
 translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
@@ -240,18 +228,16 @@ twitch.tv##a[href^="https://www.moschat.com/"]
 twitch.tv##a[href^="https://www.rivalry.gg/"]
 twitch.tv##a[href^="https://www.sandisk.com/"]
 twitch.tv##a[href^="https://www.vsemayki.ru/"]
-||twitter.com/javascripts/blogger.js$script,important
 vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
-||*.sharethis.com/button/buttons.js$script,important
+x.gif$image,important
 yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
 yandex.ru##.home-arrow__bottom
 yandex.ru##.media-event-promo__wrapper
 yandex.ru##.rows__row_last.rows__row.A4
 yandex.ru##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
-||yastatic.net/nearest.js$script,important
 youtube.com###ticker-content
 youtube.com###watch-channel-brand-div
 youtube.com##.ytp-ad-progress-list
@@ -262,12 +248,12 @@ youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscr
 youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||1x1rank.com^
-||02ip.ru^$important
 ||2ch.hk/images/*
+||2o7.net^
+||02ip.ru^$important
 ||2ch.hk/music/*
 ||2mdn.net^$important
 ||2no.co^$important
-||2o7.net^
 ||2znp09oa.com^
 ||3cinteractive.com^
 ||3e1.cn^
@@ -304,7 +290,6 @@ youtube.com##DIV[class*="prom"]
 ||101com.com^
 ||101order.com^
 ||114.sohenan.cn^
-||*.bc.googleusercontent.com^$important
 ||123found.com^
 ||140proof.com^
 ||180hits.de^
@@ -333,10 +318,14 @@ youtube.com##DIV[class*="prom"]
 ||1788111.com^
 ||8883448.com^
 ||384756783900.cn^
-||*.com/_/batch$xmlhttprequest,first-party
-||*.mail.ru^$important
-||*.ssl.*.rackcdn.com^$important
 ||*.*.starwave.com^$important
+||*.bc.googleusercontent.com^$important
+||*.com/_/batch$xmlhttprequest,first-party
+||*.global.ssl.fastly.net^$important
+||*.go-mpulse.net/boomerang/$script,important
+||*.mail.ru^$important
+||*.sharethis.com/button/buttons.js$script,important
+||*.ssl.*.rackcdn.com^$important
 ||a9.com^
 ||a32.g.a.yimg.com^
 ||a-ads.com^
@@ -373,10 +362,10 @@ youtube.com##DIV[class*="prom"]
 ||actuallysheep.com^
 ||acuityads.com^
 ||ad0.bigmir.net^
+||ad01.mediacorpsingapore.com^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
 ||ad1.pamedia.com.au^
-||ad01.mediacorpsingapore.com^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -491,7 +480,7 @@ youtube.com##DIV[class*="prom"]
 ||adbanner.ro^
 ||adbard.net^
 ||adbetclickin.pink^
-||adbetnet.com^
+||adbetnet.com^$important
 ||adblade.com^
 ||adboost.de.vu^
 ||adboost.net^
@@ -675,7 +664,6 @@ youtube.com##DIV[class*="prom"]
 ||ads2.rne.com^
 ||ads2.virtual-nights.com^
 ||ads2.xnet.cz^
-||ads03.redtube.com^
 ||ads3.gamecity.net^
 ||ads3.virtual-nights.com^
 ||ads4.clearchannel.com^
@@ -690,6 +678,7 @@ youtube.com##DIV[class*="prom"]
 ||ads10.speedbit.com^
 ||ads180.com^
 ||ads2004.treiberupdate.de^
+||ads*.redtube.com^$important
 ||ads-click.com^
 ||ads.4tube.com^
 ||ads.5ci.lt^
@@ -940,7 +929,6 @@ youtube.com##DIV[class*="prom"]
 ||ads.recoletos.es^
 ||ads.rediff.com^
 ||ads.redlightcenter.com^
-||ads.redtube.com^
 ||ads.resoom.de^
 ||ads.returnpath.net^
 ||ads.rottentomatoes.com^
@@ -1041,10 +1029,10 @@ youtube.com##DIV[class*="prom"]
 ||adserv.qconline.com^
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
-||adserver01.de^
 ||adserver1.mindshare.de^
 ||adserver1.mokono.com^
 ||adserver1.ogilvy-interactive.de^
+||adserver01.de^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
 ||adserver.43plc.com^
@@ -1360,7 +1348,6 @@ youtube.com##DIV[class*="prom"]
 ||asj999.com^
 ||assets1.exgfnetwork.com^
 ||assets.loomia.com^
-x.gif$image,important
 ||assoc-amazon.com^
 ||at-adserver.alltop.com^
 ||atdmt.com^$important
@@ -1546,7 +1533,7 @@ x.gif$image,important
 ||bimlocal.com^
 ||bioito.cn^
 ||biolat.org^
-||bit.do/*^$important
+||bit.do^$important
 ||bit.ly^$important
 ||bitads.net^
 ||bitmedianetwork.com^
@@ -1683,8 +1670,8 @@ x.gif$image,important
 ||cgicounter.puretec.de^
 ||ch.questionmarket.com^
 ||chairscrack.com^
-||change.org/api-proxy/*/referers$xmlhttprequest
 ||change.org/api-proxy/*/event_tracker$xmlhttprequest
+||change.org/api-proxy/*/referers$xmlhttprequest
 ||chango.com^
 ||channelintelligence.com^
 ||chart.dk^
@@ -1873,7 +1860,7 @@ x.gif$image,important
 ||crtv.mate1.com^
 ||crumbs.robinhood.com/track
 ||crwdcntrl.net^$important
-||cse.google.com/cse.js$important
+||cse.google.com/cse.js$script,important
 ||csgopot.zone^$important
 ||csi.gstatic.com^$important
 ||ctnetwork.hu^
@@ -2252,6 +2239,7 @@ x.gif$image,important
 ||goldspotmedia.com^
 ||goldstats.com^
 ||goo.gl^$important
+||google-analytics.com^$important
 ||google.*/coop/cse/brand$important
 ||google.*/gen204$important
 ||google.*/log204$important
@@ -2404,6 +2392,7 @@ x.gif$image,important
 ||iloopmobile.com^
 ||ilovecheating.com^
 ||im900.com^
+||image.experiandirect.com/experian-site/js/s_code_ecs_dt.js$script,important
 ||imageads.canoe.ca^
 ||imagecash.net^
 ||images-amazon.com/images/*/browser-scripts/^$important
@@ -2415,10 +2404,11 @@ x.gif$image,important
 ||imarketservices.com^
 ||imasdk.googleapis.com^$important
 ||imatmobile.com^
+||img.en25.com/i/$script
 ||img.prohardver.hu^
 ||imger.me^$important
 ||imgpromo.easyrencontre.com^
-||imgur.com/min/px.js$important
+||imgur.com/min/px.js$script,important
 ||imgurl.us^$important
 ||imgúr.com^$important
 ||imimobile.com^
@@ -2518,6 +2508,8 @@ x.gif$image,important
 ||jornalistasdeangola.com^
 ||jquery-framework.com^
 ||jqueryjsscript.ru^
+||js-sec.indexww.com/ht/$script,important
+||js.hs-scripts.com/$script,important
 ||js.union.doudouguo.net^
 ||js.users.51.la^
 ||jsbwpg.com^
@@ -2554,6 +2546,7 @@ x.gif$image,important
 ||ktu.sv2.biz^
 ||kumykoz.com^
 ||l-imgur.pl^$important
+||l-stat.livejournal.net/js/$script
 ||ladybug.gutterheatersus.com^
 ||lagrotta4u.de^
 ||lakequincy.com^
@@ -2823,6 +2816,7 @@ x.gif$image,important
 ||mr-rank.de^
 ||mrskincash.com^
 ||mtree.com^
+||munchkin.marketo.net/munchkin.js
 ||musiccounter.ru^
 ||muwmedia.com^
 ||my-alts.eu^$important
@@ -2851,6 +2845,7 @@ x.gif$image,important
 ||namimedia.com^
 ||nancunshan.com^
 ||nastydollars.com^
+||native.sharethrough.com/assets/sfp.js$script,important
 ||nativeroll.tv^$third-party
 ||navigator.io^
 ||navrcholu.cz^
@@ -3156,6 +3151,7 @@ x.gif$image,important
 ||px.ads.linkedin.com/collect/^
 ||q2melbourne.com^
 ||q.azcentral.com^
+||qaru.site/assets/$script,important
 ||qctop.com^
 ||qgmmrvbqwlouglqggi.com^
 ||qnsr.com^
@@ -3235,6 +3231,7 @@ x.gif$image,important
 ||reklamcsere.hu^
 ||reklame.unwired-i.net^
 ||reklamer.com.ua^
+||relap.io/api/v6/head.js$script,important
 ||relevanz10.de^
 ||relish.com.cn^
 ||relmaxtop.com^
@@ -3478,6 +3475,7 @@ x.gif$image,important
 ||stat.zenon.net^
 ||statcounter.com^
 ||stathat.com^
+||static.*$image,script,important
 ||static.fmpub.net^
 ||static.itrack.it^
 ||staticads.btopenworld.com^
@@ -3740,6 +3738,7 @@ x.gif$image,important
 ||twittad.com^
 ||twitte.ga^$important
 ||twitter.com/i/jot^$important
+||twitter.com/javascripts/blogger.js$script,important
 ||twiţter.com^$important
 ||txmblr.com/research
 ||txmblr.com/svc/embed/iframe/slurppi$inline-script
@@ -3813,10 +3812,10 @@ x.gif$image,important
 ||visual-pagerank.fr^
 ||visualrevenue.com^
 ||vk-portal.net^$important
-||vk.cc^
+||vk.cc^$important
 ||vk.com/ads*.php$important
 ||vk.com/js/al/aes_light.js$script
-||vk.com/js/lib/px.js$important
+||vk.com/js/lib/px.js$script,important
 ||vk.com/rtrg^$important
 ||vntsm.com^$important
 ||voicefive.com^
@@ -3968,6 +3967,7 @@ x.gif$image,important
 ||yandex.st/awaps-ad-sdk-js^$important
 ||yast.rutube.ru^$important
 ||yastatic.net/daas/atom.js
+||yastatic.net/nearest.js$script,important
 ||ybrantdigital.com^
 ||ydworld.com^
 ||yeniyuzyillions.org^
