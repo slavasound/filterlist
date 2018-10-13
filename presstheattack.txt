@@ -3703,7 +3703,6 @@ youtube.com##DIV[class*="prom"]
 ||stat.zenon.net^
 ||statcounter.com^
 ||stathat.com^
-||static.*$image,script,important
 ||static.fmpub.net^
 ||static.itrack.it^
 ||staticads.btopenworld.com^
