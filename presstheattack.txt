@@ -1,3 +1,4 @@
+
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters allow you to block popular trackers, banners, upload and display ads on site pages and search results, and too this list includes some cosmetic filters
 ! Expires: 1 days
@@ -21,6 +22,7 @@
 /_/batch|$first-party,xmlhttprequest,important
 /ad24.$important
 /ad-manager.min.js$script,important
+/ad.min.$important
 /ad_slideout$important
 /ad_status.*$important
 /ad_track.*$important
@@ -28,6 +30,7 @@
 /adbar.*$important
 /adblockdetector.$important
 /adframe/$important
+/adobe-analytics/$important
 /adriver.$important
 /ads-google-ads/$important
 /ads.*$important
@@ -42,6 +45,7 @@
 /blockblock$script,important
 /bugsnag.min.js$script,important
 /cdn-cgi/apps/head/$first-party,script,important
+/chartbeat/$important
 /cleardot.$image,important
 /cloudcoins.min.js$script,important
 /counter.*$important
@@ -50,6 +54,7 @@
 /eg.js$script,important
 /esf.js$script,important
 /feedads$important
+/gaeventtracking.$important
 /google-conversion.html$important
 /gpt.js$script,important
 /gujad.*$important
@@ -67,8 +72,10 @@
 /pop$popup
 /pop.js$script,important
 /prebid$script,important
+/pv?fe=*&elg=$important
 /recovery_dfp_internal$important
 /recovery_lib_rid_iframe$important
+/revcontent$important
 /rg-logabpstatus.php$first-party
 /scripts.min.js$script,important
 /securepubads$important
@@ -160,6 +167,7 @@ pixel.$image,script,important
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 reklama$important
+sellsy.com$websocket
 show_ads$important
 showads.*$important
 taboola$script
@@ -238,6 +246,7 @@ wikipedia.org###siteNotice
 x.gif$image,important
 yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
 yandex.ru##.home-arrow__bottom
+yandex.ru##.i-bem.yaplus_available_yes.yaplus
 yandex.ru##.media-event-promo__wrapper
 yandex.ru##.rows__row_last.rows__row.A4
 yandex.ru##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
@@ -250,18 +259,19 @@ youtube.com##.ytp-pause-overlay
 youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
 youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
+||1rx.io^$important
 ||1x1rank.com^
 ||2ch.hk/images/*
+||02ip.ru^$important
 ||2ch.hk/music/*
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
+||2no.co^$important
 ||2o7.net^
 ||2ogmrvgb2vqmfd7x.onion^$important
 ||2qrdpa2pnlt25ra2.onion^$important
 ||2v7ibxmgunxlbk7m.onion^$important
-||02ip.ru^$important
-||2no.co^$important
 ||2znp09oa.com^
 ||3cinteractive.com^
 ||3dbr5b6julcuecih.onion^$important
@@ -364,6 +374,7 @@ youtube.com##DIV[class*="prom"]
 ||a.fastcompany.net/multisite_files/fastcompany/static/sites/js/*/vendor/omniture-scode-prod.js
 ||a.mktw.net^
 ||a.sakh.com^
+||a.teads.tv^$important
 ||a.ucoz.net^
 ||a.ucoz.ru^
 ||a.xanga.com^
@@ -391,10 +402,10 @@ youtube.com##DIV[class*="prom"]
 ||actuallysheep.com^
 ||acuityads.com^
 ||ad0.bigmir.net^
+||ad1.pamedia.com.au^
 ||ad01.mediacorpsingapore.com^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
-||ad1.pamedia.com.au^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -548,6 +559,7 @@ youtube.com##DIV[class*="prom"]
 ||addfreestats.com^
 ||addme.com^
 ||addthis.com^$important
+||ade.clmbtech.com^$important
 ||adecn.com^
 ||ademails.com^
 ||adengage.com^
@@ -650,7 +662,7 @@ youtube.com##DIV[class*="prom"]
 ||adnotch.com^
 ||adnxs.com^$important
 ||adobedtm.com^
-||adocean.pl^
+||adocean.pl^$important
 ||adonspot.com^
 ||adoperator.com^
 ||adorigin.com^
@@ -1286,6 +1298,7 @@ youtube.com##DIV[class*="prom"]
 ||aiwoxin.com^
 ||ajouter.net^
 ||ak0gsh40.com^
+||akamai.net/chartbeat.$important
 ||akshatadesigns.in^
 ||akuaba.chez.com^
 ||alb.reddit.com
@@ -1336,8 +1349,11 @@ youtube.com##DIV[class*="prom"]
 ||api.vidora.com/v1/users$xmlhttprequest
 ||apiparbion.com^
 ||apis.google.com/_/jserror$xmlhttprequest
+||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party,badfilter
+||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party,badfilter
 ||apis.google.com/js/*plusone.js$third-party,badfilter
 ||apis.google.com/js/platform.js$third-party
+||apis.google.com^*/widget/render/page?$third-party,badfilter
 ||app-promo.com^
 ||app.adjust.com
 ||app.getsentry.com
@@ -1706,9 +1722,12 @@ youtube.com##DIV[class*="prom"]
 ||cdn.freefacti.com^
 ||cdn.krxd.net^$important
 ||cdn.onthe.io^$important
+||cdn.petametrics.com^$important
 ||cdn.uservoice.com/javascripts/widgets/tab.js$script,important
+||cdn.viglink.com^$important
 ||cdnjs.cloudflare.com/ajax/libs/highlight.js/$script
 ||cecash.com^
+||cedexis.com^$important
 ||celltick.com^
 ||celtra.com^
 ||centerpieces-with-feathers-for-weddi.blogspot.com^
@@ -2178,6 +2197,7 @@ youtube.com##DIV[class*="prom"]
 ||fabiocaminero.com^
 ||faceb4ocdi2icm6x.onion^$important
 ||facebook.com*/plugins/like.php?$third-party,badfilter
+||facebook.com/plugins/page.php?$third-party,badfilter
 ||facebook.com/tr?$important
 ||facebook.com^$third-party,badfilter
 ||facebook.com^*/plugins/like.php?$third-party,badfilter
@@ -2291,7 +2311,7 @@ youtube.com##DIV[class*="prom"]
 ||gcvqzadkkudbza6f.onion^$important
 ||gddingtian.com.cn^
 ||gdeea.cc^
-||gemius.pl^
+||gemius.pl^$important
 ||gen-ever.com^
 ||genius.com/api/songs/*/count_view$xmlhttprequest
 ||geo.digitalpoint.com^
@@ -2407,7 +2427,7 @@ youtube.com##DIV[class*="prom"]
 ||hightrafficads.com^
 ||hihimn.com^
 ||hilariouszinc.com^
-||histats.com^
+||histats.com^$important
 ||hit-parade.com^
 ||hit-ranking.de^
 ||hit.bg^
@@ -3106,6 +3126,7 @@ youtube.com##DIV[class*="prom"]
 ||openx.angelsgroup.org.uk^
 ||openx.blindferret.com^
 ||openx.com^
+||openx.net^$important
 ||opienetwork.com^
 ||opnjuydlb4zzwrd4.onion^$important
 ||optimizely.com^$important
@@ -3316,7 +3337,7 @@ youtube.com##DIV[class*="prom"]
 ||pubdirecte.com^
 ||publicidad.elmundo.es^
 ||publicwiki.m^$important
-||pubmatic.com^
+||pubmatic.com^$important
 ||pubs.lemonde.fr^
 ||puffyloss.com^
 ||pulse360.com^
@@ -3353,7 +3374,6 @@ youtube.com##DIV[class*="prom"]
 ||r.logrocket.com
 ||r.staging.fullstory.com^
 ||rad.msn.com^
-||radar.cedexis.com^
 ||radarurl.com^
 ||radiate.com^
 ||radiumone.com^
@@ -3719,7 +3739,7 @@ youtube.com##DIV[class*="prom"]
 ||sugarcurtain.com^
 ||sugoicounter.com^
 ||sukhshantisales.com^
-||summerhamster.com^
+||summerhamster.com^$important
 ||sunshxxhf5w7jx7a.onion^$important
 ||supercell.net^
 ||superclix.de^
@@ -3748,6 +3768,7 @@ youtube.com##DIV[class*="prom"]
 ||swordfishdc.com^
 ||sx.trhnt.com^
 ||sympation.com^
+||sync.teads.tv^$important
 ||syndication.twitter.com^$important
 ||syro2z63euyidh6y.onion^$important
 ||szdamuzhi.com^
@@ -3762,6 +3783,7 @@ youtube.com##DIV[class*="prom"]
 ||taboolasyndication.com^$important
 ||tacoda.net^
 ||tag.researchnow.com
+||tags.tiqcdn.com^$important
 ||tagular.com^
 ||tailor.guardianapis.com
 ||tailsweep.co.uk^
@@ -3837,6 +3859,7 @@ youtube.com##DIV[class*="prom"]
 ||tmskhgf2bjlzksbt.onion^$important
 ||tns7ipxf66rmx6bm.onion^$important
 ||tns-counter.ru^$important
+||tns-gallup.dk^$third-party
 ||tntclix.co.uk^
 ||tochk7eg4k4q6v5a.onion^$important
 ||todacell.com^
@@ -3962,6 +3985,7 @@ youtube.com##DIV[class*="prom"]
 ||tvas-c.pw^
 ||tvgcdn.net/www/js/article/video-popover-$script,domain=www.tvguide.com
 ||tvmtracker.com^
+||tvn.pl/sweqevub.js$script,important
 ||tvshare.co^$important
 ||twitch-stats.stream^$important
 ||twittad.com^
@@ -3972,6 +3996,7 @@ youtube.com##DIV[class*="prom"]
 ||txmblr.com/research
 ||txmblr.com/svc/embed/iframe/slurppi$inline-script
 ||txtimpact.com^
+||typekit.net^$important
 ||tyroo.com^
 ||tzwaw.pw
 ||uarating.com^
@@ -4241,6 +4266,7 @@ youtube.com##DIV[class*="prom"]
 ||yihaotui.com^
 ||yip.su^$important
 ||yixingim.com^
+||yldbt.com^$important
 ||ynxp.co^
 ||yoc-performance.com^
 ||yoc.mobi^
