@@ -1,4 +1,3 @@
-
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters blocking malicious websites, popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
 ! Expires: 1 days
@@ -77,6 +76,7 @@
 /recovery_lib_rid_iframe$important
 /revcontent$important
 /rg-logabpstatus.php$first-party
+/rpc/*?logType=$important
 /scripts.min.js$script,important
 /securepubads$important
 /snowplow/$script,important
@@ -144,6 +144,7 @@ formalyzer.com/formalyze_call_secure.js
 formalyzer.com/formalyze_init.js
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
+frontendlogging$important
 fuckadb.*$important
 fuckadblock$important
 ga.js$script,important
@@ -173,7 +174,7 @@ showads.*$important
 taboola$script
 tag.bounceexchange.com/*/*.js
 thirdpartytag$important
-tracking.js$script,important
+tracking$important
 translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
 try.abtasty.com/$script
 twitch.tv##.pl-overlay__fullscreen.pl-overlay
@@ -261,9 +262,9 @@ youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||1rx.io^$important
 ||1x1rank.com^
-||2ch.hk/images/*
 ||02ip.ru^$important
-||2ch.hk/music/*
+||2ch.hk/images/*$image,important
+||2ch.hk/music/*$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -402,9 +403,9 @@ youtube.com##DIV[class*="prom"]
 ||actuallysheep.com^
 ||acuityads.com^
 ||ad0.bigmir.net^
-||ad1.pamedia.com.au^
-||ad01.mediacorpsingapore.com^
 ||ad1.emule-project.org^
+||ad01.mediacorpsingapore.com^
+||ad1.pamedia.com.au^
 ||ad1.kde.cz^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
