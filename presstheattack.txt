@@ -1,16 +1,17 @@
+
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters blocking malicious websites, popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
 ! Expires: 1 days
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 13 October 2018
+! Last modified: 14 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
 
-.*/ads
+.*/ads$important
 /[/_]banner\.js/$script
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
 /^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,domain=news.yandex.by|news.yandex.kz|news.yandex.ru|news.yandex.ua
@@ -40,6 +41,7 @@
 /analytics$important
 /annotations_module.js$domain=youtube.com,script,important
 /ast.js$script,important
+/awaps-ad-sdk-js$script,important
 /blank.$image,script,important
 /blockblock$script,important
 /bugsnag.min.js$script,important
@@ -65,6 +67,8 @@
 /log_event$important
 /log_interaction$important
 /logging$important
+/metrika/$important
+/newrelic.js$script,important
 /noblock.*$important
 /piwik.js$script,important
 /player_stat/$important
@@ -72,14 +76,17 @@
 /pop.js$script,important
 /prebid$script,important
 /pv?fe=*&elg=$important
+/px.js?ch=$important
 /recovery_dfp_internal$important
 /recovery_lib_rid_iframe$important
 /revcontent$important
 /rg-logabpstatus.php$first-party
 /rpc/*?logType=$important
+/rsya-tag-users/$important
 /scripts.min.js$script,important
 /securepubads$important
 /snowplow/$script,important
+/tags?session_id=$important
 /tcounter.js$script,important
 /tweet_button.$badfilter
 /xgemius.js$script,important
@@ -247,8 +254,10 @@ wikipedia.org###siteNotice
 x.gif$image,important
 yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
 yandex.ru##.home-arrow__bottom
+yandex.ru##.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
 yandex.ru##.i-bem.yaplus_available_yes.yaplus
 yandex.ru##.media-event-promo__wrapper
+yandex.ru##.media-grid__media-content
 yandex.ru##.rows__row_last.rows__row.A4
 yandex.ru##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
 youtube.com###ticker-content
@@ -262,6 +271,7 @@ youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||1rx.io^$important
 ||1x1rank.com^
+||2v7ibxmgunxlbk7m.onion^$important
 ||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
@@ -272,7 +282,6 @@ youtube.com##DIV[class*="prom"]
 ||2o7.net^
 ||2ogmrvgb2vqmfd7x.onion^$important
 ||2qrdpa2pnlt25ra2.onion^$important
-||2v7ibxmgunxlbk7m.onion^$important
 ||2znp09oa.com^
 ||3cinteractive.com^
 ||3dbr5b6julcuecih.onion^$important
@@ -363,6 +372,8 @@ youtube.com##DIV[class*="prom"]
 ||*.mail.ru^$important
 ||*.sharethis.com/button/buttons.js$script,important
 ||*.ssl.*.rackcdn.com^$important
+||*.yandex.net/images/loaders/selectboxWidgetLoaderBlue.gif$image,domain=kinopoisk.ru,important
+||*.yandex.net/js/vendors.js$script,domain=kinopoisk.ru,important
 ||a5ok3xpcoh56fcd4.onion^$important
 ||a9.com^
 ||a32.g.a.yimg.com^
@@ -405,8 +416,8 @@ youtube.com##DIV[class*="prom"]
 ||ad0.bigmir.net^
 ||ad1.emule-project.org^
 ||ad01.mediacorpsingapore.com^
-||ad1.pamedia.com.au^
 ||ad1.kde.cz^
+||ad1.pamedia.com.au^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -1071,10 +1082,10 @@ youtube.com##DIV[class*="prom"]
 ||adserv.qconline.com^
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
+||adserver01.de^
 ||adserver1.mindshare.de^
 ||adserver1.mokono.com^
 ||adserver1.ogilvy-interactive.de^
-||adserver01.de^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
 ||adserver.43plc.com^
@@ -1892,6 +1903,7 @@ youtube.com##DIV[class*="prom"]
 ||counter.sparklit.com^
 ||counter.ukr.net^$important
 ||counters.honesty.com^
+||countess.twitch.tv^$important
 ||counting.kmindex.ru^
 ||counts.tucows.com^
 ||coupling-media.de^
@@ -2176,6 +2188,7 @@ youtube.com##DIV[class*="prom"]
 ||exitfuel.com^
 ||exoclick.com^
 ||exogripper.com^
+||exosrv.com^$important
 ||experience.tinypass.com$xmlhttprequest
 ||experteerads.com^
 ||exploit-db.xyz^$important
@@ -2650,6 +2663,7 @@ youtube.com##DIV[class*="prom"]
 ||jsbwpg.com^
 ||jtti.net^
 ||juicyads.com^
+||juicyads.com^$important
 ||julysystems.com^
 ||jumptap.com^
 ||junggomania.nefficient.co.kr^
@@ -2907,6 +2921,7 @@ youtube.com##DIV[class*="prom"]
 ||metaresolver.com^
 ||methodcash.com^
 ||metric.gstatic.com^$important
+||metrica.yandex^$important
 ||metrics.windowsitpro.com^
 ||mexikgmcmtcddftl.onion^$important
 ||mgid.com^
@@ -3240,7 +3255,7 @@ youtube.com##DIV[class*="prom"]
 ||pinkmon2ljkerjo6.onion^$important
 ||pinkpillar.ru^
 ||pinterest.com/_/_/report$xmlhttprequest,first-party
-||pixel.*.*$important
+||pixel.$important
 ||pizzotti.net^
 ||pjhku.com^
 ||placeplay.com^
@@ -3263,6 +3278,7 @@ youtube.com##DIV[class*="prom"]
 ||politads.com^
 ||pontiflex.com^
 ||pop-under.ru^
+||popads.*^$important
 ||popads.net^
 ||popub.com^
 ||popunder.ru^
@@ -3304,8 +3320,6 @@ youtube.com##DIV[class*="prom"]
 ||prntsc.cf^$important
 ||pro-advertising.com^
 ||pro.i-doctor.co.kr^
-||prodota.ru/templates/*/*.*$subdocument
-||prodota.ru/templates/images/$image
 ||proext.com^
 ||profero.com^
 ||profile.ultimate-guitar.com/tabs_hits_counter.php$first-party
@@ -3320,6 +3334,7 @@ youtube.com##DIV[class*="prom"]
 ||promotion-campaigns.com^
 ||pronetadvertising.com^
 ||propellerads.com^
+||proper.io^$important
 ||proranktracker.com^
 ||prosperity.charifree.org^
 ||protexting.com^
@@ -4240,18 +4255,20 @@ youtube.com##DIV[class*="prom"]
 ||y.ibsys.com^
 ||ya-googl.ws^
 ||yab-adimages.s3.amazonaws.com^
-||yabs.yandex.ru^$important
+||yabs.yandex$important
 ||yabuka.com^
 ||yadro.ru^$important
 ||yandex.*/clck/$image,important
 ||yandex.*/clck/$script,important
 ||yandex.*/clck/$xmlhttprequest
 ||yandex.*/count/
+||yandex.*/search/yandcache.js$important
 ||yandex.ru/clck/click$important
 ||yandex.st/awaps-ad-sdk-js^$important
 ||yast.rutube.ru^$important
 ||yastatic.net/daas/atom.js
 ||yastatic.net/nearest.js$script,important
+||yastatic.net^$important
 ||ybrantdigital.com^
 ||ydworld.com^
 ||yeniyuzyillions.org^
