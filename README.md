@@ -1,6 +1,6 @@
 # Press the Attack
 
-Custom filters in this project allow you to block popular trackers, banners, upload and display ads on site pages and search results, and too this list also includes some cosmetic filters.
+Custom filters blocking malicious websites, popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
 
 This project is the original, it is under the MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and created it [Bogachenko Vyacheslav](https://github.com/bogachenko)
 
