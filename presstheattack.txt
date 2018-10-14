@@ -9,6 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
+*_sitecatalyst.$important
 .*/ads$important
 /[/_]banner\.js/$script
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
@@ -20,6 +21,7 @@
 /_/batch|$first-party,xmlhttprequest,important
 /ad24.$important
 /ad-manager.min.js$script,important
+/ad-sdk-module/$important
 /ad.min.$important
 /ad_slideout$important
 /ad_status.*$important
@@ -47,20 +49,26 @@
 /cdn-cgi/apps/head/$first-party,script,important
 /chartbeat/$important
 /cleardot.$image,important
+/client_204$important
 /cloudcoins.min.js$script,important
 /count$important
+/csi_204$important
 /distr-popup.html$important
 /doubleclick$important
 /eg.js$script,important
+/error_204$important
 /esf.js$script,important
 /feedads$important
 /gaeventtracking.$important
+/gen_204$important
+/generate_204$important
 /google-conversion.html$important
 /gpt.js$script,important
 /gujad.*$important
 /hads-$important
 /ima3.*$important
 /images/ad-*$important
+/informer.js$script,important
 /jads.js$script,important
 /log$important
 /log_event$important
@@ -110,8 +118,6 @@
 @@||vk.com^$subdocument
 @@||www.gstatic.com/recaptcha/*$script
 @@||yastatic.net^$domain=music.yandex.ru
-_204$important
-_sitecatalyst.$important
 ad.php$important
 ad_html5$important
 adblock-checker$important
@@ -147,8 +153,8 @@ duckduckgo.com##.js-onboarding-ed.onboarding-ed
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right
 duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
 fingerprint$important
-formalyzer.com/formalyze_call_secure.js
-formalyzer.com/formalyze_init.js
+formalyzer.com/formalyze_call_secure.js$script,important
+formalyzer.com/formalyze_init.js$script,important
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
 frontendlogging$important
@@ -177,7 +183,7 @@ sellsy.com$websocket
 show_ads$important
 showads.*$important
 taboola$script
-tag.bounceexchange.com/*/*.js
+tag.bounceexchange.com/*/*.js$script,important
 thirdpartytag$important
 tracking$important
 translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
@@ -268,9 +274,9 @@ youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||1rx.io^$important
 ||1x1rank.com^
-||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -1333,7 +1339,7 @@ youtube.com##DIV[class*="prom"]
 ||amobee.com^
 ||ampnode.host^$important
 ||amskrupajal.org^
-||amung.us^
+||amung.us^$important
 ||an.yandex.ru^$important
 ||anahtars.com^
 ||analytics.yahoo.com^$important
@@ -2186,6 +2192,8 @@ youtube.com##DIV[class*="prom"]
 ||exitfuel.com^
 ||exoclick.com^
 ||exogripper.com^
+||spotscenered.info^$third-party
+||vidcpm.com^$important
 ||exosrv.com^$important
 ||experience.tinypass.com$xmlhttprequest
 ||experteerads.com^
@@ -2356,20 +2364,20 @@ youtube.com##DIV[class*="prom"]
 ||goadservices.com^
 ||god123.cn^
 ||goingplatinum.com^
+||adnetwork.vn^$important
+.com/adx/$important
+||hadarone.com^$third-party
+||adform.net^$important
 ||goldspotmedia.com^
 ||goldstats.com^
 ||goo.gl^$important
-||google-analytics.com^$important
 ||google.*/coop/cse/brand$important
 ||google.*/gen204$important
 ||google.*/log204$important
 ||google.*/log204?$script
 ||google.*/pagead$important
 ||google.com^*/fastbutton?$third-party,badfilter
-||googleadservices.com$important
-||googlesyndication.com^$important
-||googletagmanager.com^$important
-||googletagservices.com^$important
+/google(\-analytics|syndication|tagmanager|tagservices|adservices)\.com/$important
 ||googojjjxpclkepr.onion^$important
 ||gool.frieghtiger.com^
 ||gorgeousground.com^
@@ -2921,7 +2929,7 @@ youtube.com##DIV[class*="prom"]
 ||metrica.yandex^$important
 ||metrics.windowsitpro.com^
 ||mexikgmcmtcddftl.onion^$important
-||mgid.com^
+||mgid.com^$important
 ||miarroba.com^
 ||microstatic.pl^
 ||microticker.com^
@@ -3275,8 +3283,7 @@ youtube.com##DIV[class*="prom"]
 ||politads.com^
 ||pontiflex.com^
 ||pop-under.ru^
-||popads.*^$important
-||popads.net^
+||popads.$important
 ||popub.com^
 ||popunder.ru^
 ||popup.msn.com^
@@ -3330,7 +3337,8 @@ youtube.com##DIV[class*="prom"]
 ||promote.pair.com^
 ||promotion-campaigns.com^
 ||pronetadvertising.com^
-||propellerads.com^
+||propellerads.com^$important
+yandex.ru##.serp-header__logo
 ||proper.io^$important
 ||proranktracker.com^
 ||prosperity.charifree.org^
@@ -3629,7 +3637,8 @@ youtube.com##DIV[class*="prom"]
 ||sma.punto.net^
 ||smaato.com^
 ||smart4ads.com^
-||smartadserver.com^
+||smartadserver.com^$important
+@@||openload.co/advert2.js,badfilter
 ||smartbase.cdnservices.com^
 ||smartdevicemedia.com^
 ||smetrics.cnn.com/b/ss/cnn-adbp-intl^
@@ -4314,6 +4323,7 @@ youtube.com##DIV[class*="prom"]
 ||zdzicgwhdlocc3tq.onion^$important
 ||zedo.com^
 ||zeepmedia.com^
+||zen-test.yandex.ru^$important
 ||zen.yandex.ru^$important
 ||zencudo.co.uk^
 ||zendesk.com/api/*/help_center/articles/*/stats
