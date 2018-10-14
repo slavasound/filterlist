@@ -47,6 +47,7 @@
 /blockblock$script,important
 /bugsnag.min.js$script,important
 /cdn-cgi/apps/head/$first-party,script,important
+/^https?:\/\/[a-z0-9]{5,14}\.(com|bid|online|top|club)\/[0-9a-f]{32}\/invoke.js$/$third-party,script,important
 /chartbeat/$important
 /cleardot.$image,important
 /cloudcoins.min.js$script,important
@@ -66,7 +67,6 @@
 /images/ad-*$important
 /informer.js$script,important
 /jads.js$script,important
-/metrika/$important
 /newrelic.js$script,important
 /noblock.*$important
 /piwik.js$script,important
@@ -76,7 +76,7 @@
 /prebid$script,important
 /ptracking$important
 /pv?fe=*&elg=$important
-/px.js?ch=$important
+/px.js?$script,important
 /recovery_dfp_internal$important
 /recovery_lib_rid_iframe$important
 /revcontent$important
@@ -251,14 +251,6 @@ vk.com###stories_feed_wrap
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
 x.gif$image,important
-yandex.ru##.home-arrow__bottom
-yandex.ru##.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
-yandex.ru##.i-bem.yaplus_available_yes.yaplus
-yandex.ru##.media-event-promo__wrapper
-yandex.ru##.media-grid__media-content
-yandex.ru##.rows__row_last.rows__row.A4
-yandex.ru##.serp-header__logo
-yandex.ru##.yaplus_js_inited.i-bem.yaplus_available_yes.yaplus
 youtube.com###ticker-content
 youtube.com###watch-channel-brand-div
 youtube.com##.ytp-ad-progress-list
@@ -1303,7 +1295,6 @@ youtube.com##DIV[class*="prom"]
 ||affiliatetrading.net^
 ||affiliatewindow.com^
 ||affiliation-france.com^
-||aflt.market.yandex.*/widget$third-party
 ||agkn.com/^
 ||agorahlxgzy7p54m.onion^$important
 ||agreeableprice.com^
@@ -4248,11 +4239,10 @@ youtube.com##DIV[class*="prom"]
 ||yabuka.com^
 ||yadro.ru^$important
 ||yandex.*/clck/$important
-||yandex.*/search/yandcache.js$script,important
+||yandex.*/yandcache.js$important
 ||yast.rutube.ru^$important
 ||yastatic.net/daas/atom.js$script,important
 ||yastatic.net/nearest.js$script,important
-||yastatic.net^
 ||ybrantdigital.com^
 ||ydworld.com^
 ||yeniyuzyillions.org^
