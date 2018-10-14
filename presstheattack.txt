@@ -1,4 +1,3 @@
-
 ! Author: Bogachenko Vyacheslav
 ! Description: Custom filters blocking malicious websites, popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
 ! Expires: 1 days
@@ -10,7 +9,6 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-
 .*/ads$important
 /[/_]banner\.js/$script
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
@@ -37,6 +35,7 @@
 /ads/$important,badfilter
 /ads/*/script$important
 /adsense/$important
+/adserver.$important
 /adv.*$image,script,important
 /analytics$important
 /annotations_module.js$domain=youtube.com,script,important
@@ -49,7 +48,7 @@
 /chartbeat/$important
 /cleardot.$image,important
 /cloudcoins.min.js$script,important
-/counter.*$important
+/count$important
 /distr-popup.html$important
 /doubleclick$important
 /eg.js$script,important
@@ -110,6 +109,8 @@
 @@||vk.com/share.php?$third-party
 @@||vk.com^$subdocument
 @@||www.gstatic.com/recaptcha/*$script
+@@||yastatic.net^$domain=music.yandex.ru
+_204$important
 _sitecatalyst.$important
 ad.php$important
 ad_html5$important
@@ -133,13 +134,12 @@ amplitude-*-min.*$important
 analytics$important,badfilter
 anti-adblock$important
 anti_ab.*$important
-app-sj10.marketo.com/js/forms2/js/forms2.min.js
+app-sj10.marketo.com/js/forms2/js/forms2.min.js$script,important
 apstag.js$script,important
-atinternet.automation.webmecanik.com/mtc.js
+atinternet.automation.webmecanik.com/mtc.js$script,important
 bab-defuser.js$script,important
 beacon$important
 clickstream.js$script,important
-client_204$important
 cnzz.com/stat.php$important
 dc.js$script,important
 duckduckgo.com##.js-header-aside.header--aside
@@ -157,8 +157,6 @@ fuckadblock$important
 ga.js$script,important
 ga_exp.js$script,important
 ga_setup$important
-gen_204$important
-generate_204$important
 gtag.js$script,important
 gtm.js$script,important
 loader.js$script,important
@@ -171,7 +169,7 @@ pagead$important
 pikabu.ru###branding_ad_comment
 pikabu.ru###branding_ad_footer
 pikabu.ru###branding_ad_header
-pixel.$image,script,important
+pixel.$important
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 reklama$important
@@ -252,7 +250,6 @@ vk.com###stories_feed_wrap
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
 x.gif$image,important
-yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
 yandex.ru##.home-arrow__bottom
 yandex.ru##.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
 yandex.ru##.i-bem.yaplus_available_yes.yaplus
@@ -271,7 +268,6 @@ youtube.com##.ytp-title-channel
 youtube.com##DIV[class*="prom"]
 ||1rx.io^$important
 ||1x1rank.com^
-||2v7ibxmgunxlbk7m.onion^$important
 ||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
@@ -282,6 +278,7 @@ youtube.com##DIV[class*="prom"]
 ||2o7.net^
 ||2ogmrvgb2vqmfd7x.onion^$important
 ||2qrdpa2pnlt25ra2.onion^$important
+||2v7ibxmgunxlbk7m.onion^$important
 ||2znp09oa.com^
 ||3cinteractive.com^
 ||3dbr5b6julcuecih.onion^$important
@@ -1082,9 +1079,9 @@ youtube.com##DIV[class*="prom"]
 ||adserv.qconline.com^
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
-||adserver01.de^
 ||adserver1.mindshare.de^
 ||adserver1.mokono.com^
+||adserver01.de^
 ||adserver1.ogilvy-interactive.de^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
@@ -1339,6 +1336,7 @@ youtube.com##DIV[class*="prom"]
 ||amung.us^
 ||an.yandex.ru^$important
 ||anahtars.com^
+||analytics.yahoo.com^$important
 ||ancientroom.com^
 ||andlu.org^
 ||animeonline.net^
@@ -1361,7 +1359,6 @@ youtube.com##DIV[class*="prom"]
 ||api.vidora.com/v1/users$xmlhttprequest
 ||apiparbion.com^
 ||apis.google.com/_/jserror$xmlhttprequest
-||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party,badfilter
 ||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party,badfilter
 ||apis.google.com/js/*plusone.js$third-party,badfilter
 ||apis.google.com/js/platform.js$third-party
@@ -1983,6 +1980,7 @@ youtube.com##DIV[class*="prom"]
 ||databqqmbmykdohg.onion^$important
 ||datashreddergold.com^
 ||dataxu.com^
+||daumcdn.net$important
 ||dbbsrv.com^
 ||dc-storm.com^
 ||dcma.com^
@@ -2327,7 +2325,6 @@ youtube.com##DIV[class*="prom"]
 ||gdeea.cc^
 ||gemius.pl^$important
 ||gen-ever.com^
-||genius.com/api/songs/*/count_view$xmlhttprequest
 ||geo.digitalpoint.com^
 ||geo.query.yahoo.com
 ||geobanner.adultfriendfinder.com^
@@ -3658,6 +3655,7 @@ youtube.com##DIV[class*="prom"]
 ||soupkzkuaxkjsuz3.onion^$important
 ||sowellness.be^
 ||spacash.com^
+||spade.twitch.tv^$important
 ||sparkstudios.com^
 ||specialistups.com^
 ||specificmedia.co.uk^
@@ -4258,17 +4256,12 @@ youtube.com##DIV[class*="prom"]
 ||yabs.yandex$important
 ||yabuka.com^
 ||yadro.ru^$important
-||yandex.*/clck/$image,important
-||yandex.*/clck/$script,important
-||yandex.*/clck/$xmlhttprequest
-||yandex.*/count/
-||yandex.*/search/yandcache.js$important
-||yandex.ru/clck/click$important
-||yandex.st/awaps-ad-sdk-js^$important
+||yandex.*/clck/$important
+||yandex.*/search/yandcache.js$script,important
 ||yast.rutube.ru^$important
-||yastatic.net/daas/atom.js
+||yastatic.net/daas/atom.js$script,important
 ||yastatic.net/nearest.js$script,important
-||yastatic.net^$important
+||yastatic.net^
 ||ybrantdigital.com^
 ||ydworld.com^
 ||yeniyuzyillions.org^
@@ -4291,12 +4284,9 @@ youtube.com##DIV[class*="prom"]
 ||yoggrt.com^
 ||youramonkey.com^$important
 ||youthfire.com^
-||youtube.com/*_204?$image
 ||youtube.com/ad_data$important
 ||youtube.com/api/stats$important
-||youtube.com/csi_204$important
 ||youtube.com/get_midroll$important
-||youtube.com/player_204$important
 ||youtube.com/ptracking$important
 ||youtube.com/set_awesome$important
 ||youutube.gq^$important
