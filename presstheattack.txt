@@ -9,11 +9,33 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
+###ads_left
+###id-cookiewarn
+###player-ads
+##.ad-container
 ##.ads-ad
+##.ads-block
+##.ads-block__no-ads
+##.ads_ad_box2
+##.ads_ad_box
+##.ads_ads_box
+##.ads_ads_news_wrap
 ##.adsbygoogle
+##.adsbygoogle2
+##.adsbygoogle-box
+##.cookie
 ##.google_ad
+##.html5-endscreen
+##.js-personalInformationNotice
+##.m-cookie-notification
 ##.taboola
 ##.taboola-new
+##.video-ads
+##.yaplus
+##.ytp-ad-progress
+##.ytp-ad-progress-list
+##.ytp-cards-teaser
+##.ytp-title-channel
 /(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an)\.yandex\.(by|kz|ru|ua|net)/$important
 /[/_]banner\.js/$script
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
@@ -152,10 +174,6 @@ beacon$important
 clickstream.js$script,important
 cnzz.com/stat.php$important
 dc.js$script,important
-duckduckgo.com##.js-header-aside.header--aside
-duckduckgo.com##.js-onboarding-ed.onboarding-ed
-duckduckgo.com##.js-serp-bottom-right.serp__bottom-right
-duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
 fingerprint$important
 formalyzer.com/formalyze_call_secure.js$script,important
 formalyzer.com/formalyze_init.js$script,important
@@ -171,14 +189,14 @@ gtag.js$script,important
 gtm.js$script,important
 loader.js$script,important
 log.$important
+mail.ru##.i-clearfix.grid__container.grid-down
+mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
+mail.ru##.informers
 music.yandex.ru##.sidebar__under
 nytimes.com##[id^="story-ad-"][id$="-wrapper"]
 omniture.min.js$script,important
 outlook.live.com##a[href^="https://aka.ms"]
 pagead$important
-pikabu.ru###branding_ad_comment
-pikabu.ru###branding_ad_footer
-pikabu.ru###branding_ad_header
 pixel.$important
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
@@ -262,9 +280,9 @@ wikipedia.org###siteNotice
 x.gif$image,important
 ||1rx.io^$important
 ||1x1rank.com^
-||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
