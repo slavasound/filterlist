@@ -22,7 +22,7 @@ Note that I mainly use uBlock Origin. I will do my best to maintain compatibilit
 
 In order to use these rules, you'll need a compatibile browser plugin.
 
-* [uBlock Origin](https://github.com/gorhill/uBlock) (use [uBlock Origin](https://github.com/gorhill/uBlock), not [uBlock](https://www.ublock.org) <[find out why?](https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg)>)
+* [uBlock Origin](https://github.com/gorhill/uBlock) (use [uBlock Origin](https://github.com/gorhill/uBlock), not [uBlock](https://www.ublock.org) <[why?](https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg)>)
 	* [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
 	* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 	* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
@@ -62,5 +62,5 @@ For a more detailed project description and documentation please see the [WIKI](
 ## Contributions
 
 I accept any requests for additional rules. Please go to the "issues" tab, open the question and report a problem or a wish, **BUT** do not multiply the same questions, problems with the list are solved only here.
-Lovers to communicate and / or use the stream for their own entertainment will be removed and with regular relapse will be prohibited.
+Lovers to communicate and/or use the stream for their own entertainment will be removed and with regular relapse will be prohibited.
 Do not clog it, young people, it wasn't created for this purpose
