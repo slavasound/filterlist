@@ -9,12 +9,13 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.002
+! Version: 0.0.003
 ##.adsbygoogle
 ##.advert
+&referer=$script
 /^https?://(ad|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|swa|r|top\-staging|r0|top)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an)\.yandex/$important
-/^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices)/$important
+/^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
 /^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,domain=news.yandex.by|news.yandex.kz|news.yandex.ru|news.yandex.ua
 /^https?://realty\.yandex\.ru/[^\s]{500,}/$subdocument,xmlhttprequest,domain=realty.yandex.ru
@@ -138,6 +139,7 @@
 @@||$websocket
 @@||ajax.googleapis.com/ajax/libs^$script
 @@||assets.gitlab-static.net^$domain=gitlab.com
+@@||client-event-reporter.twitch.tv^$xmlhttprequest,domain=twitch.tv,badfilter
 @@||connect.ok.ru^
 @@||fonts.googleapis.com^$stylesheet
 @@||graph.facebook.com^
@@ -248,7 +250,6 @@ twitch.tv##a[href*="www.clife.ru"]
 twitch.tv##a[href*="www.dxracer-europe.com"]
 twitch.tv##a[href*="www.g2a.com"]
 twitch.tv##a[href*="www.megafon.ru"]
-twitch.tv##a[href*="www.megafon.ru"]
 twitch.tv##a[href*="www.moschat.com"]
 twitch.tv##a[href*="www.rivalry.gg"]
 twitch.tv##a[href*="www.sandisk.com"]
@@ -270,9 +271,9 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
 ||1rx.io^$important
 ||1x1rank.com^
-||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -986,6 +987,8 @@ youtube.com##.ytp-title-channel
 ||ajouter.net^
 ||ak0gsh40.com^
 ||akamai.net/chartbeat.*$important
+||akamaiedge.net^$important
+||akamaitechnologies.com^$important
 ||akshatadesigns.in^
 ||akuaba.chez.com^
 ||alb.reddit.com
@@ -1490,7 +1493,7 @@ youtube.com##.ytp-title-channel
 ||clickz.com^
 ||clickzxc.com^
 ||clicmanager.fr^
-||client-event-reporter.twitch.tv^
+||client-event-reporter.twitch.tv^$important
 ||clients.tbo.com^
 ||clife.ru^
 ||clixgalore.com^
@@ -2133,6 +2136,7 @@ youtube.com##.ytp-title-channel
 ||hostingonline.desi^$important
 ||hostiraj.info^
 ||hostiysldm5iocpp.onion^$important
+||hotjar.com^$important
 ||hotkeys.com^
 ||hotlog.ru^
 ||hotrank.com.tw^
@@ -2233,6 +2237,7 @@ youtube.com##.ytp-title-channel
 ||inner-active.com^
 ||inner-active.mobi^
 ||innocentwax.com^
+||innovid.com^$important
 ||inocnck6a5unhjps.onion^$important
 ||inringtone.com^
 ||insightexpress.com^
@@ -2489,6 +2494,7 @@ youtube.com##.ytp-title-channel
 ||mainstatserver.com^
 ||malware-check.disconnect.me^
 ||malware-scan.com^
+||mamka.aviasales.ru^$important
 ||mampoks.ru^
 ||man1234.com^
 ||manage.com^
