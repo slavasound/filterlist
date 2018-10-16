@@ -9,6 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
+! Version: 0.0.001
 ##.adsbygoogle
 ##.advert
 /^https?://(ad|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|swa|r|top\-staging|r0|top)\.mail/$important
@@ -40,16 +41,22 @@
 /adriver.*$important
 /ads-google-ads/$important
 /ads/$important,badfilter
+/adscript.*$important
 /adsdk.*$important
 /adsense/$important
 /adserver.*$important
 /adv.*$image,script,important
 /advert2$important
 /advert.*$important
+/advert_*.*$important
+/advertise.*$important
+/advertisement$important
+/advertising.*$important
 /ajaxlog$important
 /aksb.min.*$important
 /analytics$important
 /annotations_module.js$domain=youtube.com,script,important
+/anti_ab.*$important
 /apstag.*$important
 /ast.*$important
 /awaps-ad-sdk-js$important
@@ -71,6 +78,7 @@
 /feedads$important
 /ga.*$important
 /ga_exp.*$important
+/ga_setup$important
 /gaeventtracking.*$important
 /google*analytics.*$important
 /google-conversion.html$important
@@ -114,8 +122,10 @@
 /social/twitter_$badfilter
 /tags?session_id=$important
 /tcounter.*$important
+/transparent.$image,important
 /tweet_button.$badfilter
 /twitter_32$badfilter
+/x.gif$image,important
 /xgemius.*$important
 /xtcore.*$important
 /yandex-metrica-watch/$important
@@ -147,18 +157,12 @@ _twitter.gif$badfilter
 ad_html5$important
 adblock-checker$important
 adsbygoogle.*$important
-adscript.*$important
-advert_*.*$important
-advertise.*$important
-advertisement$important
-advertising.*$important
 ajax-ad$important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 amplitude-*-min.*$important
 analytics$important,badfilter
 anti-adblock$important
-anti_ab.*$important
 beacon$important
 cnzz.com/stat.php$important
 duckduckgo.com##.header__label.showcase.header--aside__item
@@ -171,7 +175,6 @@ freebitco.in##.reveal-modal-bg
 frontendlogging$important
 fuckadb.*$important
 fuckadblock$important
-ga_setup$important
 mail.ru##.i-clearfix.grid__container.grid-down
 mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
 mail.ru##.informers
@@ -259,7 +262,6 @@ vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
-x.gif$image,important
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_domik-plus.home-link
 yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
@@ -273,9 +275,9 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
 ||1rx.io^$important
 ||1x1rank.com^
+||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
-||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -582,6 +584,7 @@ youtube.com##.ytp-title-channel
 ||addfreestats.com^
 ||addme.com^
 ||addthis.com^$important
+||addtoany.com^$important
 ||ade.clmbtech.com^$important
 ||adecn.com^
 ||ademails.com^
@@ -1704,6 +1707,7 @@ youtube.com##.ytp-title-channel
 ||callfire.com^
 ||callloop.com^
 ||calmfoot.com^
+||caltat.com^$third-party
 ||campaign.bharatmatrimony.com^
 ||caniamedia.com^
 ||cannashke4xpldry.onion^$important
@@ -3491,6 +3495,7 @@ youtube.com##.ytp-title-channel
 ||ru-traffic.com^
 ||rubiconproject.com^$important
 ||rulerabbit.com^
+||rum-static.pingdom.net^$important
 ||rutortz652yygg7h.onion^$important
 ||rythmxchange.com^
 ||rzila7achubhqfvj.onion^$important
