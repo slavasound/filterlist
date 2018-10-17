@@ -9,7 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.008
+! Version: 0.0.009
 ##.adsbygoogle
 ##.advert
 &referer=$script
@@ -70,6 +70,7 @@
 /cleardot.*$image,important
 /clickstream.*$important
 /cloudcoins.min.*$important
+/cnads.js$script,important
 /cookieconsent.$important
 /count$important
 /dc.*$important
@@ -277,13 +278,13 @@ youtube.com##.ytp-title-channel
 ||1x1rank.com^
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||2mdn.net^$important
+||2o7.net^
+||2ogmrvgb2vqmfd7x.onion^$important
 ||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
-||2mdn.net^$important
 ||2no.co^$important
-||2o7.net^
-||2ogmrvgb2vqmfd7x.onion^$important
 ||2qrdpa2pnlt25ra2.onion^$important
 ||2v7ibxmgunxlbk7m.onion^$important
 ||2znp09oa.com^$important
@@ -429,8 +430,8 @@ youtube.com##.ytp-title-channel
 ||actuallysheep.com^
 ||acuityads.com^
 ||ad0.bigmir.net^
-||ad01.mediacorpsingapore.com^
 ||ad1.emule-project.org^
+||ad01.mediacorpsingapore.com^
 ||ad1.kde.cz^
 ||ad1.pamedia.com.au^
 ||ad2.iinfo.cz^
@@ -783,8 +784,8 @@ youtube.com##.ytp-title-channel
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
 ||adserver1.mindshare.de^
-||adserver1.mokono.com^
 ||adserver01.de^
+||adserver1.mokono.com^
 ||adserver1.ogilvy-interactive.de^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
@@ -1292,6 +1293,7 @@ youtube.com##.ytp-title-channel
 ||berp.com^
 ||best-pr.info^
 ||best-top.ro^
+||bestes-produkt-vong-kaufen-her.de^$important
 ||bestpons.net^
 ||bestsearch.net^
 ||betweendigital.com^$important
@@ -1573,6 +1575,7 @@ youtube.com##.ytp-title-channel
 ||connect.facebook.net^$badfilter
 ||connect.facebook.net^$important,script,badfilter
 ||connextra.com^
+||connor-kauft.de^$important
 ||consciouscabbage.com^$important
 ||consciouschairs.com^
 ||contaxe.de^
@@ -1679,7 +1682,9 @@ youtube.com##.ytp-title-channel
 ||czqmc.com^
 ||d4n.platformd.com^
 ||d10vy5gom1ed53.cloudfront.net^$important
+||d24rtvkqjwgutp.cloudfront.net^$important
 ||d.reddit.com
+||da-shoppe-ich-gerne.de^$important
 ||daguogroup.com^
 ||daizheha.com^
 ||dakic-ia-300.com^
@@ -1826,6 +1831,7 @@ youtube.com##.ytp-title-channel
 ||ebuzzing.com^
 ||ecdlszczecin.eu^
 ||ecircle-ag.com^
+||eckstein-eckstein-alles-muss-versteckt-sein.de^$important
 ||eclick.vn^
 ||eclickz.com^
 ||ecoupons.com^
@@ -1838,6 +1844,7 @@ youtube.com##.ytp-title-channel
 ||ejyymghi.com^
 ||elasticchange.com^$important
 ||elephantqueue.com^$important
+||elijah-erwirbt.de^$important
 ||elite-bijou.com.ua^
 ||elitedollars.com^
 ||elitetoplist.com^
@@ -2012,6 +2019,7 @@ youtube.com##.ytp-title-channel
 ||frightenedpotato.com^$important
 ||fuckyr6uuzueujtz.onion^$important
 ||functionalclam.com^
+||functionalclam.com^$important
 ||funklicks.com^
 ||funpageexchange.com^
 ||fusionads.net^
@@ -2214,6 +2222,8 @@ youtube.com##.ytp-title-channel
 ||hzm6.com^
 ||i1img.com^
 ||i1media.no^
+||i-bims-1-produkt.de^$important
+||i-bims-ein-shopper.de^$important
 ||i-clicks.net^
 ||i-lookup.com^
 ||ia.iinfo.cz^
@@ -2224,6 +2234,7 @@ youtube.com##.ytp-title-channel
 ||iany.pl^$important
 ||iasds01.com^
 ||ic6au6u54iexa64n.onion^$important
+||ichkaufehierein.de^$important
 ||iconadserver.com^
 ||icptrack.com^
 ||idcounter.com^
@@ -2308,6 +2319,7 @@ youtube.com##.ytp-title-channel
 ||interactive.forthnet.gr^
 ||interfere.marionunezcampusano.com^
 ||intergi.com^
+||interia.pl/*/hit.t?$important
 ||interior-examples.ru^
 ||internetfuel.com^
 ||interreklame.de^
@@ -2328,6 +2340,7 @@ youtube.com##.ytp-title-channel
 ||iplogger.info^$important
 ||iplogger.org^$important
 ||iplogger.ru^$important
+||iplsc.com$important
 ||ipro.com^
 ||ipsnatcher.com^$important
 ||iranbar.org^
@@ -2625,6 +2638,7 @@ youtube.com##.ytp-title-channel
 ||megamult.net/img/banners/$important
 ||megastats.com^
 ||megawerbung.de^
+||meinelieblingsprodukte.de^$important
 ||meltdsp.com^
 ||memeglobal.com^
 ||memorix.sdv.fr^
@@ -2749,6 +2763,7 @@ youtube.com##.ytp-title-channel
 ||navdmp.com^$third-party
 ||navigator.io^
 ||navrcholu.cz^
+||nbalive.pw^$important
 ||nbjmp.com^
 ||nco5rodtsha5tm6n.onion^$important
 ||ndparking.com^
