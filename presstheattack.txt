@@ -9,20 +9,24 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.013
+! Version: 0.0.014
 ##.adsbygoogle
 ##.advert
 &referer=$script
-/^https?://(ad|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|swa|r|top\-staging|r0|top|vk\.go)\.mail/$important
-/^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an)\.yandex/$important
+/^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal)\.mail/$important
+/^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
+/^https?://[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$script,domain=~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua
+/^https?://[a-z0-9]+\.info/+[-a-z0-9_?&=]{9,}/$third-party,script
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
 /^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,domain=news.yandex.by|news.yandex.kz|news.yandex.ru|news.yandex.ua
 /^https?://realty\.yandex\.ru/[^\s]{500,}/$subdocument,xmlhttprequest,domain=realty.yandex.ru
-/^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery))[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
-/^https?:\/\/tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$first-party,xmlhttprequest
-/^https?:\/\/yandex\.(by|kz|ru|ua)\/pogoda\/[^\s]{300,}/$first-party,xmlhttprequest
+/^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
+/^https?://yandex\.(by|kz|ru)/pogoda/[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
+/^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest
+/^https?://yandex\.ua/pogoda/[^\s]{300,}/$subdocument,~third-party
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$other,document,inline-script,stylesheet,image,script,popup,important
+/abl.js$script,important
 /ad24.*$important
 /ad-manager.min.*$important
 /ad-sdk-module/$important
@@ -64,6 +68,7 @@
 /bab-defuser.*$important
 /blank.*$image,script,important
 /blockblock$important
+/browser-updater/$important
 /bugsnag.min.*$important
 /cdn-cgi/apps/head/$first-party,script,important
 /chartbeat/$important
@@ -108,6 +113,7 @@
 /player_stat/$important
 /pop$popup
 /pop.*$important
+/popup_banner/$important
 /prebid$important
 /ptracking$important
 /public/*/facebook_$image,badfilter
@@ -277,9 +283,9 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
 ||1rx.io^$important
 ||1x1rank.com^
-||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -795,8 +801,8 @@ youtube.com##.ytp-title-channel
 ||adserve.ams.rhythmxchange.com^
 ||adserver1.mindshare.de^
 ||adserver1.mokono.com^
-||adserver1.ogilvy-interactive.de^
 ||adserver01.de^
+||adserver1.ogilvy-interactive.de^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
 ||adserver.43plc.com^
@@ -4217,7 +4223,7 @@ youtube.com##.ytp-title-channel
 ||tapsense.com^
 ||taqesyqne.com^$important
 ||targad.de^
-||target.my.com^
+||target.my.com^$important
 ||targeting.wpdigital.net$xmlhttprequest,domain=washingtonpost.com
 ||targetingnow.com^
 ||targetnet.com^
