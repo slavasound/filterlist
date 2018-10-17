@@ -9,7 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.004
+! Version: 0.0.005
 ##.adsbygoogle
 ##.advert
 &referer=$script
@@ -211,18 +211,22 @@ twitch.tv##a[href*="bet4.pm"]
 twitch.tv##a[href*="betsdota2.com"]
 twitch.tv##a[href*="bit.ly"]
 twitch.tv##a[href*="clg.am"]
+twitch.tv##a[href*="clife.ru"]
 twitch.tv##a[href*="col.vg"]
 twitch.tv##a[href*="cutter.li"]
 twitch.tv##a[href*="dota2vo.ru"]
 twitch.tv##a[href*="dt.gg"]
+twitch.tv##a[href*="dxracer-europe.com"]
 twitch.tv##a[href*="esbet.fun"]
 twitch.tv##a[href*="fly.redirect-me.xyz"]
 twitch.tv##a[href*="fly.redirect-to.xyz"]
 twitch.tv##a[href*="fragstore.ru"]
+twitch.tv##a[href*="g2a.com"]
 twitch.tv##a[href*="goo.gl"]
 twitch.tv##a[href*="goodgame.pm"]
 twitch.tv##a[href*="hyperx.gg"]
 twitch.tv##a[href*="megafon.ru"]
+twitch.tv##a[href*="moschat.com"]
 twitch.tv##a[href*="navi.gg"]
 twitch.tv##a[href*="opseat.com"]
 twitch.tv##a[href*="pla-pro.net"]
@@ -231,6 +235,8 @@ twitch.tv##a[href*="pls.redirect-to.xyz"]
 twitch.tv##a[href*="pokerdir4.me"]
 twitch.tv##a[href*="pokerdom.com"]
 twitch.tv##a[href*="refereum.com"]
+twitch.tv##a[href*="rivalry.gg"]
+twitch.tv##a[href*="sandisk.com"]
 twitch.tv##a[href*="steelseri.es"]
 twitch.tv##a[href*="surfcasino1.com"]
 twitch.tv##a[href*="surfcasino2.com"]
@@ -249,14 +255,7 @@ twitch.tv##a[href*="ttr.casino/ru/refer/Ludislav"]
 twitch.tv##a[href*="ttrcasino39.su/ru/refer/Ludislav"]
 twitch.tv##a[href*="ultra-bonus.com/pokerdom/popular-slots"]
 twitch.tv##a[href*="vk.cc"]
-twitch.tv##a[href*="www.clife.ru"]
-twitch.tv##a[href*="www.dxracer-europe.com"]
-twitch.tv##a[href*="www.g2a.com"]
-twitch.tv##a[href*="www.megafon.ru"]
-twitch.tv##a[href*="www.moschat.com"]
-twitch.tv##a[href*="www.rivalry.gg"]
-twitch.tv##a[href*="www.sandisk.com"]
-twitch.tv##a[href*="www.vsemayki.ru"]
+twitch.tv##a[href*="vsemayki.ru"]
 vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
 vk.com##aside[aria-label="Актуальные новости"]
@@ -311,6 +310,7 @@ youtube.com##.ytp-title-channel
 ||9rbk.com^
 ||12directions.com^
 ||18cum.com^
+||24hstatic.com^$important
 ||24log.com^
 ||24log.de^
 ||24pm-affiliation.com^
@@ -387,6 +387,7 @@ youtube.com##.ytp-title-channel
 ||a5ok3xpcoh56fcd4.onion^$important
 ||a9.com^
 ||a32.g.a.yimg.com^
+||a1515150.com^$important
 ||a-ads.com^
 ||a-counter.kiev.ua^
 ||a.0day.kiev.ua^
@@ -436,6 +437,7 @@ youtube.com##.ytp-title-channel
 ||ad3.iinfo.cz^
 ||ad3.pamedia.com.au^
 ||ad4game.com^
+||ad360.vn^$important
 ||ad-balancer.at^
 ||ad-balancer.net^
 ||ad-center.com^
@@ -508,6 +510,7 @@ youtube.com##.ytp-title-channel
 ||ad.nttnavi.co.jp^
 ||ad.nwt.cz^
 ||ad.onad.eu^
+||ad.org.vn^$important
 ||ad.pandora.tv^
 ||ad.playground.ru^
 ||ad.preferances.com^
@@ -604,6 +607,7 @@ youtube.com##.ytp-title-channel
 ||adhese.be^
 ||adhese.com^
 ||adi.mainichi.co.jp^
+||adi.vcmedia.vn^$important
 ||adimage.asiaone.com.sg^
 ||adimage.guardian.co.uk^
 ||adimages.been.com^
@@ -662,6 +666,8 @@ youtube.com##.ytp-title-channel
 ||admerize.be^
 ||admeta.com^
 ||admex.com^
+||admicro*.vcmedia.vn^$important
+||admicro.vn^$important
 ||adminder.com^
 ||adminshop.com^
 ||admisoft.com^
@@ -748,6 +754,8 @@ youtube.com##.ytp-title-channel
 ||ads*.redtube.com^$important
 ||ads-click.com^
 ||ads.*$important
+||ads.zaloapp.com^$important
+||ads.zdn.vn^$important
 ||adsafeprotected.com^$important
 ||adsatt.espn.go.com^
 ||adsby.bidtheatre.com^
@@ -764,8 +772,8 @@ youtube.com##.ytp-title-channel
 ||adserv.qconline.com^
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
-||adserver1.mindshare.de^
 ||adserver01.de^
+||adserver1.mindshare.de^
 ||adserver1.mokono.com^
 ||adserver1.ogilvy-interactive.de^
 ||adserver2.mindshare.de^
@@ -843,9 +851,11 @@ youtube.com##.ytp-title-channel
 ||adsoldier.com^
 ||adsolutions.yp.com^
 ||adsonar.com^
+||adsota.com^$important
 ||adspace.ro^
 ||adspeed.net^
 ||adspirit.de^
+||adsplus.vn^$important
 ||adsponse.de^
 ||adsremote.scrippsnetworks.com^
 ||adsrevenue.net^
@@ -872,6 +882,8 @@ youtube.com##.ytp-title-channel
 ||adthis.com^
 ||adtiger.de^
 ||adtilt.com^
+||adtima-media-td.zadn.vn^$important
+||adtima.vn^$important
 ||adtoll.com^
 ||adtology.com^
 ||adtoma.com^
@@ -982,6 +994,7 @@ youtube.com##.ytp-title-channel
 ||ahtlucz5e5vpbuvk.onion^$important
 ||aidu-ads.de^
 ||aim4media.com^
+||aimadigital.com^$important
 ||aipp-italia.it^
 ||airbrake.io^
 ||airpush.com^
@@ -1011,10 +1024,12 @@ youtube.com##.ytp-title-channel
 ||amazon.com/aan/$subdocument
 ||amazox2mblag7ha3.onion^$important
 ||amberc5xn6rs6vii.onion^$important
+||ambient-platform.com^$important
 ||ambitiousagreement.com^
 ||aminoapps.com^
 ||amo122.com^
 ||amobee.com^
+||amobi.vn^$important
 ||ampnode.host^$important
 ||amskrupajal.org^
 ||amung.us^$important
@@ -1029,6 +1044,8 @@ youtube.com##.ytp-title-channel
 ||anonfiles.download^$important
 ||anonymousforum.pw^$important
 ||answers.yahoo.com/ros
+||anthill.vn^$important
+||ants.vn^$important
 ||anxiousapples.com^
 ||apex-ad.com^
 ||api-guardian.foxtype.com/main/landing$xmlhttprequest
@@ -1403,6 +1420,7 @@ youtube.com##.ytp-title-channel
 ||cbx.net^
 ||cctjly.com^
 ||ccycny.com^
+||cdn-qc.coccoc.com^$important
 ||cdn.cookielaw.org^$important
 ||cdn.freefacti.com^
 ||cdn.krxd.net^$important
@@ -1426,6 +1444,7 @@ youtube.com##.ytp-title-channel
 ||change.org/api-proxy/*/referers$xmlhttprequest
 ||chango.com^
 ||channelintelligence.com^
+||channelvn.net^$important
 ||chart.dk^
 ||chartbeat.com^$important
 ||chartbeat.net^
@@ -1668,6 +1687,7 @@ youtube.com##.ytp-title-channel
 ||deepdota3hrhh3zf.onion^$important
 ||delegatediscussion.com^
 ||delightdriving.com^
+||delivery1.lavanetwork.net^$important
 ||deloo.de^
 ||deltagroup.kz^
 ||demandbase.com^
@@ -1811,6 +1831,7 @@ youtube.com##.ytp-title-channel
 ||enquisite.com^
 ||entercasino.com^
 ||entrecard.s3.amazonaws.com^
+||epi.vn^$important
 ||epiccash.com^
 ||eqads.com^
 ||eqworks.com^
@@ -1947,6 +1968,7 @@ youtube.com##.ytp-title-channel
 ||foxionserl.com^
 ||fpctraffic2.com^
 ||fpctraffic.com^
+||fptad.com^$important
 ||fragmentserv.iac-online.de^
 ||frailoffer.com^
 ||freeanonymous.host^$important
@@ -1989,6 +2011,7 @@ youtube.com##.ytp-title-channel
 ||gamesites200.com^
 ||gamesitestop100.com^
 ||gameskeys.shop^$important
+||gammaplatform.com^$important
 ||gator.com^
 ||gayadnetwork.com^
 ||gbanners.hornymatches.com^
@@ -2403,6 +2426,7 @@ youtube.com##.ytp-title-channel
 ||lfstmedia.com^
 ||liber7nj36gznxv7.onion^$important
 ||liberriqlfzjho6h.onion^$important
+||libs.lavanetwork.net^$important
 ||licensing.bitmovin.com/impression$xmlhttprequest
 ||lifestreetmedia.com^
 ||liftdna.com^
@@ -2450,6 +2474,7 @@ youtube.com##.ytp-title-channel
 ||localytics.com^
 ||location.fashionises.com^
 ||log.btopenworld.com^
+||log.news.zing.vn^$important
 ||logger.unsplash.com
 ||login.anal-porn.info^$important
 ||logua.com^
@@ -2617,6 +2642,7 @@ youtube.com##.ytp-title-channel
 ||mobile-ent.biz^
 ||mobile-safety.org^
 ||mobileactive.com^
+||mobilead.vn^$important
 ||mobileadvertisinghub.com^
 ||mobileapptracking.com^
 ||mobilefuse.nu^
@@ -2660,6 +2686,7 @@ youtube.com##.ytp-title-channel
 ||musiccounter.ru^
 ||muwmedia.com^
 ||my-alts.eu^$important
+||myad.vn^$important
 ||myaffiliateprogram.com^
 ||mybloglog.com^
 ||mybuzzmonitor.com^
@@ -2741,6 +2768,8 @@ youtube.com##.ytp-title-channel
 ||nl3.bladewp.com/prov$xmlhttprequest
 ||nntpbwawyi633hz2.onion^$important
 ||nope7liwnc322cvf.onion^$important
+||novanet.vn^$important
+||novaonads.com^$important
 ||novem.pl^
 ||nppmwatch.com^
 ||nsmguhwahmqmjgml.onion^$important
@@ -2931,6 +2960,7 @@ youtube.com##.ytp-title-channel
 ||pokerdom.com^
 ||poldo2klgloxug7w.onion^$important
 ||politads.com^
+||polyad.net^$important
 ||pontiflex.com^
 ||pop-under.ru^
 ||popads.*$important
@@ -3002,6 +3032,7 @@ youtube.com##.ytp-title-channel
 ||pub.chez.com^
 ||pub.club-internet.fr^
 ||pub.hardware.fr^
+||pub.lavanetwork.net^$important
 ||pub.realmedia.fr^
 ||pubdirecte.com^
 ||publicidad.elmundo.es^
@@ -3018,6 +3049,7 @@ youtube.com##.ytp-title-channel
 ||q2melbourne.com^
 ||q.azcentral.com^
 ||qaru.site/assets/$script,important
+||qc.coccoc.com^$important
 ||qctop.com^
 ||qd73mpxdlry62okc.onion^$important
 ||qgmmrvbqwlouglqggi.com^
@@ -3026,6 +3058,7 @@ youtube.com##.ytp-title-channel
 ||qtt2y7im5wfwaii3.onion^$important
 ||quaintcan.com^
 ||quakemarketing.com^
+||quangcao.thanhnien.vn^$important
 ||quantcast.com^
 ||quantserve.com^$important
 ||quarterserver.de^
@@ -3060,6 +3093,7 @@ youtube.com##.ytp-title-channel
 ||rankingchart.de^
 ||rankingscout.com^
 ||rankyou.com^
+||raovat.vnecdn.net^$important
 ||rapidcounter.com^
 ||rate.ru^
 ||ratings.lycos.com^
@@ -3169,6 +3203,7 @@ youtube.com##.ytp-title-channel
 ||s5q543jq6m4lsahx.onion^$important
 ||s35wsuey2xnqvjf7.onion^$important
 ||s.edgexads.com^
+||s.tuoitre.vn^$important
 ||sa.bbc.co.uk^$important
 ||saebrdpw62vmojq2.onion^$important
 ||sageanalyst.net^
@@ -3244,6 +3279,7 @@ youtube.com##.ytp-title-channel
 ||shinystat.it^
 ||shiveringsail.com^
 ||shockingswing.com^
+||shop.vnecdn.net^$important
 ||shoppingads.com^
 ||shopspaemsmgnuxq.onion^$important
 ||shorte.st^$important
@@ -3311,6 +3347,7 @@ youtube.com##.ytp-title-channel
 ||sowellness.be^
 ||spacash.com^
 ||spade.twitch.tv^$important
+||sparkling.vn^$important
 ||sparkstudios.com^
 ||specialistups.com^
 ||specificmedia.co.uk^
@@ -3383,6 +3420,7 @@ youtube.com##.ytp-title-channel
 ||statsy.net^$important
 ||statxpress.com^
 ||stbux6twpozlbtjf.onion^$important
+||stc.nas.nixcdn.com^$important
 ||steamtools.co^$important
 ||steelhouse.com^
 ||steelhousemedia.com^
@@ -3514,6 +3552,7 @@ youtube.com##.ytp-title-channel
 ||thinknear.com^
 ||thinkupfront.com^
 ||thirdrespect.com^
+||thongke.24h.com.vn^$important
 ||thrnt.com^
 ||throattrees.com^
 ||throne.thehelpbiz.com^
@@ -3701,6 +3740,7 @@ youtube.com##.ytp-title-channel
 ||utpsoxvninhi6.com^
 ||v1.cnzz.com^
 ||v22g2vq2xsbsl6hl.onion^$important
+||vads.vn^$important
 ||validclick.com^
 ||valuead.com^
 ||valueclick.com^
@@ -3730,9 +3770,11 @@ youtube.com##.ytp-title-channel
 ||vidcpm.com^$important
 ||videoblog.tech^$important
 ||videoegg.com^
+||vietnamnetad.vn^$important
 ||view4cash.de^
 ||viewpoint.com^
 ||viewwonder.com^
+||vimobi.com^$important
 ||viphackforum.xyz^$important
 ||viphackforums.xyz^$important
 ||vipprojects.cn^
@@ -3935,6 +3977,7 @@ youtube.com##.ytp-title-channel
 ||yoc.mobi^
 ||yoewanblozxwdyfr.onion^$important
 ||yoggrt.com^
+||yomedia.vn^$important
 ||youramonkey.com^$important
 ||youthfire.com^
 ||youtube.com/ad_data$important
@@ -3957,6 +4000,8 @@ youtube.com##.ytp-title-channel
 ||z5x.net^
 ||z6ncmqfki7eklj7k.onion^$important
 ||z34ujfqoowhemhlr.onion^$important
+||zalo-ads-td.zadn.vn^$important
+||zaloapp.ads.zdn.vn^$important
 ||zanox-affiliate.de^
 ||zanox.com^
 ||zantracker.com^
