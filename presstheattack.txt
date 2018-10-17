@@ -9,7 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.005
+! Version: 0.0.006
 ##.adsbygoogle
 ##.advert
 &referer=$script
@@ -384,6 +384,7 @@ youtube.com##.ytp-title-channel
 ||*/generate_204$important
 ||*/log$important
 ||*_sitecatalyst.*$important
+||a4.overclockers.ua^$important
 ||a5ok3xpcoh56fcd4.onion^$important
 ||a9.com^
 ||a32.g.a.yimg.com^
@@ -427,8 +428,8 @@ youtube.com##.ytp-title-channel
 ||ad0.bigmir.net^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
-||ad01.mediacorpsingapore.com^
 ||ad1.pamedia.com.au^
+||ad01.mediacorpsingapore.com^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -451,6 +452,7 @@ youtube.com##.ytp-title-channel
 ||ad-space.net^
 ||ad-tech.com^
 ||ad-up.com^
+||ad.3dnews.ru^$important
 ||ad.71i.de^
 ||ad.100.tbn.ru^
 ||ad.980x.com^
@@ -462,6 +464,7 @@ youtube.com##.ytp-title-channel
 ||ad.aboutit.de^
 ||ad.aboutwebservices.com^
 ||ad.abum.com^
+||ad.adriver.ru^$important
 ||ad.afy11.net^
 ||ad.allstar.cz^
 ||ad.altervista.org^
@@ -480,6 +483,7 @@ youtube.com##.ytp-title-channel
 ||ad.digitallook.com^
 ||ad.directrev.com^
 ||ad.doctissimo.fr^
+||ad.doganburda.com^$important
 ||ad.domainfactory.de^
 ||ad.e-kolay.net^
 ||ad.eurosport.com^
@@ -510,6 +514,7 @@ youtube.com##.ytp-title-channel
 ||ad.nttnavi.co.jp^
 ||ad.nwt.cz^
 ||ad.onad.eu^
+||ad.onliner.by^$important
 ||ad.org.vn^$important
 ||ad.pandora.tv^
 ||ad.playground.ru^
@@ -754,6 +759,9 @@ youtube.com##.ytp-title-channel
 ||ads*.redtube.com^$important
 ||ads-click.com^
 ||ads.*$important
+||ads.bluelithium.com^$important
+||ads.linksrequest.com^$important
+||ads.yenimedya.com.tr^$important
 ||ads.zaloapp.com^$important
 ||ads.zdn.vn^$important
 ||adsafeprotected.com^$important
@@ -772,10 +780,10 @@ youtube.com##.ytp-title-channel
 ||adserv.qconline.com^
 ||adserv.quality-channel.de^
 ||adserve.ams.rhythmxchange.com^
-||adserver01.de^
 ||adserver1.mindshare.de^
-||adserver1.mokono.com^
 ||adserver1.ogilvy-interactive.de^
+||adserver01.de^
+||adserver1.mokono.com^
 ||adserver2.mindshare.de^
 ||adserver2.popdata.de^
 ||adserver.43plc.com^
@@ -1034,6 +1042,8 @@ youtube.com##.ytp-title-channel
 ||amskrupajal.org^
 ||amung.us^$important
 ||anahtars.com^
+||analysis.polarisoffice.com^$important
+||analysys.cn^$important
 ||analytics.yahoo.com^$important
 ||ancientroom.com^
 ||andlu.org^
@@ -1278,6 +1288,7 @@ youtube.com##.ytp-title-channel
 ||best-top.ro^
 ||bestpons.net^
 ||bestsearch.net^
+||betweendigital.com^$important
 ||bhclicks.com^
 ||bhcumsc.com^
 ||bidclix.com^
@@ -1558,6 +1569,7 @@ youtube.com##.ytp-title-channel
 ||contaxe.de^
 ||content.acc-hd.de^
 ||content.ad^
+||content.adriver.ru^$important
 ||content.videoclick.ru^$important
 ||contentabc.com^
 ||contextweb.com^
@@ -1711,6 +1723,7 @@ youtube.com##.ytp-title-channel
 ||direcfgxgbkiu6l2.onion^$important
 ||direct-xxx-access.com^
 ||directaclick.com^
+||directadvert.ru^$important
 ||directivepub.com^
 ||directleads.com^
 ||directorym.com^
@@ -1774,6 +1787,7 @@ youtube.com##.ytp-title-channel
 ||dtdn.cn^
 ||dtm.fairfaxstatic.com.au$script
 ||dtstesting.com^
+||dualstack.adbert-web-lbs-*.elb.amazonaws.com^$important
 ||duckduckgo.com/m.*$important
 ||duckduckgo.com/share/spice/amazon/$important
 ||duckduckgo.com/t.*$important
@@ -1971,6 +1985,7 @@ youtube.com##.ytp-title-channel
 ||fptad.com^$important
 ||fragmentserv.iac-online.de^
 ||frailoffer.com^
+||fraudmetrix.cn^$important
 ||freeanonymous.host^$important
 ||freebanner.com^
 ||freebooter.pro^$important
@@ -2119,7 +2134,11 @@ youtube.com##.ytp-title-channel
 ||heyos.com^
 ||heywire.com^
 ||hfc195b.com^
+||hg-bn.com^$important
 ||hgads.com^
+||hgbn1.com^$important
+||hgbnr.com^$important
+||hghit.com^$important
 ||hhokb5u3j554bpbp.onion^$important
 ||hidden.gogoceleb.com^
 ||highstreeters.com^
@@ -2475,8 +2494,10 @@ youtube.com##.ytp-title-channel
 ||location.fashionises.com^
 ||log.btopenworld.com^
 ||log.news.zing.vn^$important
+||logconfig.polarisoffice.com^$important
 ||logger.unsplash.com
 ||login.anal-porn.info^$important
+||logs.supersonic.com^$important
 ||logua.com^
 ||loles.neostrada.pl^
 ||lolsovw4om4c66u7.onion^$important
@@ -2764,6 +2785,7 @@ youtube.com##.ytp-title-channel
 ||ng3.ads.warnerbros.com^
 ||ngs.impress.co.jp^
 ||nicegygmgfddssvo.onion^$important
+||nighter.club^$important
 ||nitroclicks.com^
 ||nl3.bladewp.com/prov$xmlhttprequest
 ||nntpbwawyi633hz2.onion^$important
@@ -2771,6 +2793,7 @@ youtube.com##.ytp-title-channel
 ||novanet.vn^$important
 ||novaonads.com^$important
 ||novem.pl^
+||novunu.football-plyus.net^$important
 ||nppmwatch.com^
 ||nsmguhwahmqmjgml.onion^$important
 ||nucleus2qqzcyjwu.onion^$important
@@ -2778,6 +2801,7 @@ youtube.com##.ytp-title-channel
 ||numax.nu-1.com^
 ||nuseek.com^
 ||o2oxyj32mdgxm6rh.onion^$important
+||o333o.com^$important
 ||oas.benchmark.fr^
 ||oas.foxnews.com^
 ||oas.repubblica.it^
@@ -2950,6 +2974,7 @@ youtube.com##.ytp-title-channel
 ||play4traffic.com^
 ||playhaven.com^
 ||playtomic.com^
+||plbslog.umeng.com^$important
 ||plethoramobile.com^
 ||plista.com^
 ||pls.redirect-me.xyz^
@@ -3119,6 +3144,7 @@ youtube.com##.ytp-title-channel
 ||redditstatic.com/moat/$important
 ||redinvestor.com^
 ||redmas.com^
+||redonetype.com^$important
 ||reduxmedia.com^
 ||reduxmediagroup.com^
 ||reedbusiness.com^
@@ -3202,6 +3228,7 @@ youtube.com##.ytp-title-channel
 ||s4byshcxuvuymuab.onion^$important
 ||s5q543jq6m4lsahx.onion^$important
 ||s35wsuey2xnqvjf7.onion^$important
+||s*.adduplex.com^$important
 ||s.edgexads.com^
 ||s.tuoitre.vn^$important
 ||sa.bbc.co.uk^$important
@@ -3283,6 +3310,7 @@ youtube.com##.ytp-title-channel
 ||shoppingads.com^
 ||shopspaemsmgnuxq.onion^$important
 ||shorte.st^$important
+||show.g.mediav.com^$important
 ||shört.co^$important
 ||sibautomation.com/cm.html
 ||siccash.com^
@@ -3362,6 +3390,7 @@ youtube.com##.ytp-title-channel
 ||sponsorpro.de^
 ||sponsors.thoughtsmedia.com^
 ||spoofing.host^$important
+||sportbets.su^$important
 ||spot.fitness.com^
 ||spotscenered.info^$third-party
 ||spottyfly.com^$important
@@ -3485,6 +3514,7 @@ youtube.com##.ytp-title-channel
 ||sĸype.com^$important
 ||t2t2.com^
 ||t.insigit.com^
+||t.insigit.com^$important
 ||t.pusk.ru^
 ||tablet.gutterhelment.net^
 ||taboola.com^$important
@@ -3574,6 +3604,7 @@ youtube.com##.ytp-title-channel
 ||tochk7eg4k4q6v5a.onion^$important
 ||todacell.com^
 ||today-newday.cn^
+||tools.runetki.co^$important
 ||top20.com^
 ||top20free.com^
 ||top66.ro^
@@ -3682,6 +3713,7 @@ youtube.com##.ytp-title-channel
 ||trw12.com/^
 ||ts3free.top^$important
 ||tsms-ad.tsms.com^
+||tt.onthe.io^$important
 ||ttr.casino^
 ||ttrcasino39.su^
 ||tubedspots.com^
@@ -3803,6 +3835,7 @@ youtube.com##.ytp-title-channel
 ||vsemayki.ru^
 ||vstart.net^
 ||vt27tld4wenqb5k6.onion^$important
+||vukhhjzd.com^$important
 ||vungle.com^
 ||vwp5zrdfwmw4avcq.onion^$important
 ||w3i.com^
@@ -3849,6 +3882,7 @@ youtube.com##.ytp-title-channel
 ||wee4wee.ws^
 ||weedd5hywn5ybrbn.onion^$important
 ||wegcash.com^
+||weline.info^$important
 ||werbung.meteoxpress.com^
 ||wetrack.it^
 ||whaleads.com^
