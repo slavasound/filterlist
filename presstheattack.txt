@@ -9,7 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.003
+! Version: 0.0.004
 ##.adsbygoogle
 ##.advert
 &referer=$script
@@ -75,6 +75,7 @@
 /eg.*$important
 /esf.*$important
 /facebook_32$badfilter
+/fbevents.js$script,important
 /feedads$important
 /ga.*$important
 /ga_exp.*$important
@@ -96,6 +97,7 @@
 /invoke.*$important
 /jads.*$important
 /loader.*$important
+/maxisplash$image,third-party
 /newrelic.*$important
 /noblock.*$important
 /omniture.min.*$important
@@ -109,6 +111,7 @@
 /public/*/twitter_$image,badfilter
 /pv?fe=*&elg=$important
 /px.*?$important
+/realistik$image,third-party
 /recovery_dfp_internal$important
 /recovery_lib_rid_iframe$important
 /revcontent$important
@@ -271,9 +274,9 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
 ||1rx.io^$important
 ||1x1rank.com^
+||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
-||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -1530,7 +1533,6 @@ youtube.com##.ytp-title-channel
 ||config.789wed.com^
 ||connect.facebook.net^$badfilter
 ||connect.facebook.net^$important,script,badfilter
-||connect.facebook.net^*/fbevents.*$third-party
 ||connextra.com^
 ||consciouscabbage.com^
 ||consciouschairs.com^
@@ -3093,11 +3095,11 @@ youtube.com##.ytp-title-channel
 ||regis.foultier.free.fr^
 ||regnow.com^
 ||reinvigorate.net^
-||reklam.rfsl.se^
+||reklam.*$important
 ||reklama.*$important
 ||reklamcsere.hu^
-||reklame.unwired-i.net^
-||reklamer.com.ua^
+||reklame.*$important
+||reklamer.*$important
 ||relap.io/api/v6/head.*$important
 ||relevanz10.de^
 ||relish.com.cn^
