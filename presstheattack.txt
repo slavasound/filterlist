@@ -9,7 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.007
+! Version: 0.0.008
 ##.adsbygoogle
 ##.advert
 &referer=$script
@@ -41,6 +41,7 @@
 /adriver.*$important
 /ads-google-ads/$important
 /ads/$important,badfilter
+/adsModule$important
 /adscript.*$important
 /adsdk.*$important
 /adsense/$important
@@ -69,6 +70,7 @@
 /cleardot.*$image,important
 /clickstream.*$important
 /cloudcoins.min.*$important
+/cookieconsent.$important
 /count$important
 /dc.*$important
 /distr-popup.html$important
@@ -273,9 +275,9 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
 ||1rx.io^$important
 ||1x1rank.com^
-||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -1305,6 +1307,7 @@ youtube.com##.ytp-title-channel
 ||bigclicks.com^
 ||billboard.cz^
 ||bimlocal.com^
+||bing.com/fd/ls/$important
 ||bioito.cn^
 ||biolat.org^
 ||bit.do^$important
@@ -2135,7 +2138,7 @@ youtube.com##.ytp-title-channel
 ||hello.myfonts.net^$important
 ||hentaicounter.com^
 ||herbalaffiliateprogram.com^
-||here.com^
+||here.com^$important
 ||heshenkj.cn^
 ||hexusads.fluent.ltd.uk^
 ||heyos.com^
@@ -2156,7 +2159,7 @@ youtube.com##.ytp-title-channel
 ||hit-parade.com^
 ||hit-ranking.de^
 ||hit.bg^
-||hit.ua^
+||hit.ua^$important
 ||hit.webcentre.lycos.co.uk^
 ||hitbox.com^
 ||hitcents.com^
@@ -3148,7 +3151,8 @@ youtube.com##.ytp-title-channel
 ||rebisihut.com^
 ||rebotstat.com^
 ||receptiveink.com^$important
-||recreativ.ru^
+||recreativ.ru^$important
+||redditmedia.com/gtm/$important
 ||redditstatic.com/moat/$important
 ||redinvestor.com^
 ||redmas.com^
@@ -3186,6 +3190,7 @@ youtube.com##.ytp-title-channel
 ||revenue.net^
 ||revenuedirect.com^
 ||revmob.com^
+||revolvermaps.com^$third-party
 ||revsci.net^
 ||revstats.com^
 ||reycross.cn^
