@@ -4,16 +4,16 @@
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 16 October 2018
+! Last modified: 18 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.009
+! Version: 0.0.010
 ##.adsbygoogle
 ##.advert
 &referer=$script
-/^https?://(ad|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|swa|r|top\-staging|r0|top)\.mail/$important
+/^https?://(ad|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|swa|r|top\-staging|r0|top|vk\.go)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
 /^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
@@ -128,6 +128,7 @@
 /social/twitter_$badfilter
 /tags?session_id=$important
 /tcounter.*$important
+/tracker.js$important
 /transparent.$image,important
 /tweet_button.$badfilter
 /twitter_32$badfilter
@@ -276,15 +277,15 @@ youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
 ||1rx.io^$important
 ||1x1rank.com^
+||02ip.ru^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
-||2mdn.net^$important
-||2o7.net^
-||2ogmrvgb2vqmfd7x.onion^$important
-||02ip.ru^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
+||2mdn.net^$important
 ||2no.co^$important
+||2o7.net^
+||2ogmrvgb2vqmfd7x.onion^$important
 ||2qrdpa2pnlt25ra2.onion^$important
 ||2v7ibxmgunxlbk7m.onion^$important
 ||2znp09oa.com^$important
@@ -385,6 +386,7 @@ youtube.com##.ytp-title-channel
 ||*/gen204$important
 ||*/gen_204$important
 ||*/generate_204$important
+||*/live_204$important
 ||*/log$important
 ||*_sitecatalyst.*$important
 ||a4.overclockers.ua^$important
