@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.024
+! Version: 0.0.025
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -31,7 +31,6 @@
 /^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest
 /^https?://yandex\.ua/pogoda/[^\s]{300,}/$subdocument,~third-party
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$other,document,inline-script,stylesheet,image,script,popup,important
-^advertise.js$script
 @@/wp-content/*/ads*.js$script
 @@^ads-$document
 @@^ads_$document
@@ -42,25 +41,28 @@
 @@||gstatic.com/recaptcha/*$script
 @@||yastatic.net^$script,stylesheet,image,domain=music.yandex.ru
 @@||yastatic.net^$script,stylesheet,image,domain=yadi.sk
+^ad_status.*$important
+^advertise.js$script
 ^annotations_module.js$domain=youtube.com,script,important
-^bidmatching.js$script,important
+^bidmatching.*$important
 ^count$important
+^csi_204$important
 ^gen_204$important
+^generate_204$important
 ^informer.*$important
 ^invoke.*$important
 ^log$important
 ^log_event$important
-^generate_204$important
-^pagead^$important
 ^pixel.*$important
 ^ptracking$important
-^tracker.js$important
+^tracker.*$important
 ^tracking$important
 ^x.gif$important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 analytics$important,badfilter
 beacon$important
+doubleclick$important
 duckduckgo.com##.header__label.showcase.header--aside__item
 duckduckgo.com##.onboarding-ed
 duckduckgo.com##.social.header--aside__item
@@ -70,12 +72,14 @@ freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
 frontendlogging$important
 googlead$important
+googleads$important
 mail.ru##.i-clearfix.grid__container.grid-down
 mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
 mail.ru##.informers
 music.yandex.ru##.sidebar__under
 nytimes.com##[id^="story-ad-"][id$="-wrapper"]
 outlook.live.com##a[href^="https://aka.ms"]
+pagead$important
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
@@ -162,11 +166,11 @@ youtube.com##.ytp-title-channel
 ||1sen-pit-fan.com^$important
 ||1st-iklan.com^$important
 ||1x1rank.com^
-||02ip.ru^$important
-||2an-hit-ren.com^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
 ||2delllwrite.com^$important
+||02ip.ru^$important
+||2an-hit-ren.com^$important
 ||2el-2el-fie.com^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
@@ -345,8 +349,8 @@ youtube.com##.ytp-title-channel
 ||ad0.bigmir.net^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
-||ad1.pamedia.com.au^
 ||ad01.mediacorpsingapore.com^
+||ad1.pamedia.com.au^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -2124,7 +2128,6 @@ youtube.com##.ytp-title-channel
 ||dominoqqwin.com^$important
 ||dota2.ru/img/scdogostart.jpg$image
 ||dotomi.com^
-||doubleclick$important
 ||doublepimp.*^$important
 ||doublepimpssl.*^$important
 ||doubtfulrainstorm.com^$important
