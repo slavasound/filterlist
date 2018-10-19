@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.020
+! Version: 0.0.021
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -83,6 +83,63 @@ duckduckgo.com##.tag-home
 fingerprint$important
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
+||d169bbxks24g2u.cloudfront.net^$important
+||d1cdnlzf6usiff.cloudfront.net^$important
+||d1cerpgff739r9.cloudfront.net^$important
+||d1clfvuu2240eh.cloudfront.net^$important
+||d1clufhfw8sswh.cloudfront.net^$important
+||d1fc8wv8zag5ca.cloudfront.net^$important
+||d1gp8joe0evc8s.cloudfront.net^$important
+||d1l6p2sc9645hc.cloudfront.net^$important
+||d1lm7kd3bd3yo9.cloudfront.net^$important
+||d1nh2vjpqpfnin.cloudfront.net^$important
+||d1qpxk1wfeh8v1.cloudfront.net^$important
+||d1r27qvpjiaqj3.cloudfront.net^$important
+||d1rgnfh960lz2b.cloudfront.net^$important
+||d1ros97qkrwjf5.cloudfront.net^$important
+||d1wscoizcbxzhp.cloudfront.net^$important
+||d1yu5hbtu8mng9.cloudfront.net^$important
+||d1z2jf7jlzjs58.cloudfront.net^$important
+||d21o24qxwf7uku.cloudfront.net^$important
+||d23p9gffjvre9v.cloudfront.net^$important
+||d28g9g3vb08y70.cloudfront.net^$important
+||d2gfdmu30u15x7.cloudfront.net^$important
+||d2gfi8ctn6kki7.cloudfront.net^$important
+||d2kmrmwhq7wkvs.cloudfront.net^$important
+||d2lv4zbk7v5f93.cloudfront.net^$important
+||d2nxi61n77zqpl.cloudfront.net^$important
+||d2oh4tlt9mrke9.cloudfront.net^$important
+||d2pxb4n3f9klsc.cloudfront.net^$important
+||d2ry9vue95px0b.cloudfront.net^$important
+||d2so4705rl485y.cloudfront.net^$important
+||d2tgfbvjf3q6hn.cloudfront.net^$important
+||d2xgf76oeu9pbh.cloudfront.net^$important
+||d3135glefggiep.cloudfront.net^$important
+||d31qbv1cthcecs.cloudfront.net^$important
+||d33im0067v833a.cloudfront.net^$important
+||d34ko97cxuv4p7.cloudfront.net^$important
+||d36lvucg9kzous.cloudfront.net^$important
+||d36wtdrdo22bqa.cloudfront.net^$important
+||d396ihyrqc81w.cloudfront.net^$important
+||d3a2okcloueqyx.cloudfront.net^$important
+||d3avqv6zaxegeu.cloudfront.net^$important
+||d3c3cq33003psk.cloudfront.net^$important
+||d3cxv97fi8q177.cloudfront.net^$important
+||d3ezl4ajpp2zy8.cloudfront.net^$important
+||d3h1v5cflrhzi4.cloudfront.net^$important
+||d3hr5gm0wlxm5h.cloudfront.net^$important
+||d3l3lkinz3f56t.cloudfront.net^$important
+||d3ojzyhbolvoi5.cloudfront.net^$important
+||d3qxwzhswv93jk.cloudfront.net^$important
+||d3s7ggfq1s6jlj.cloudfront.net^$important
+||d4ax0r5detcsu.cloudfront.net^$important
+||d5i9o0tpq9sa1.cloudfront.net^$important
+||d6jkenny8w8yo.cloudfront.net^$important
+||d81mfvml8p5ml.cloudfront.net^$important
+||d8rk54i4mohrb.cloudfront.net^$important
+||d9lq0o81skkdj.cloudfront.net^$important
+||daq0d0aotgq0f.cloudfront.net^$important
+||d3alqb8vzo7fun.cloudfront.net^$important
 frontendlogging$important
 googlead$important
 mail.ru##.i-clearfix.grid__container.grid-down
