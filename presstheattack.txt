@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.027
+! Version: 0.0.028
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -45,17 +45,19 @@
 ^annotations_module.js$domain=youtube.com,script,important
 ^banner^$important
 ^bidmatching.*$important
-^count$important
-^csi_204$important
-^gen_204$important
-^generate_204$important
+^count^$important
+^csi_204^$important
+^gen_204^$important
+^generate_204^$important
 ^informer.*$important
 ^invoke.*$important
 ^log^$important
-^log_event$important
-^logging$important
+^log_event^$important
+^logging^$important
 ^pixel.*$important
-^ptracking$important
+^ptracking^$important
+^stats^$important
+^analytics^$important
 ^tracker.*$important
 ^tracking$important
 ^x.gif$important
@@ -157,22 +159,6 @@ youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
-|http:*^ad-$important
-|http:*^ad-$popup,important
-|http:*^ad.$important
-|http:*^ad.$popup,important
-|http:*^ad^$important
-|http:*^ad^$popup,important
-|http:*^ad_$important
-|http:*^ad_$popup,important
-|https:*^ad-$important
-|https:*^ad-$popup,important
-|https:*^ad.$important
-|https:*^ad.$popup,important
-|https:*^ad^$important
-|https:*^ad^$popup,important
-|https:*^ad_$important
-|https:*^ad_$popup,important
 ||1el-1el-fie.com^$important
 ||1elllwrite.com^$important
 ||1hanritten.com^$important
