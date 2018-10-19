@@ -6,29 +6,33 @@
 ! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 19 October 2018
+! Last modified: 20 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.031
+! Version: 0.0.032
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
-! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 ###BlockedAdsWarning
 ###cookie-law-info-bar
+###masthead-ad
+###player-ads
 ##.adsbygoogle
 ##.advert
-##.yaplus
 ##.footer-line_promo.footer-line
+##.yaplus
 /^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
+/^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
 /count^$important
-?referer=$script,important
 @@||$websocket
-@@||yastatic.*^$image
+@@||yastatic.*^$image,font
+@@||yastatic.net/tune
+@@||yastatic.net^$script,subdocument,stylesheet,domain=translate.yandex.ru
 ^ad.$important
+^ad_data$important
 ^ad_status.*$important
 ^adfox^$important
 ^ads.$important
@@ -54,8 +58,8 @@
 ^logging^$important
 ^pixel.*$important
 ^ptracking$important
+^referer=$script,important
 ^reklama$important
-||tns-counter.ru^$important
 ^stats^$important
 ^syndication$important
 ^teaser^$important
@@ -66,8 +70,6 @@
 _campaign=$popup
 _metrics^$important
 amalgama-lab.com###close_quality
-||youtube.com/api/stats$important
-^ad_data$important
 amalgama-lab.com/pict/quality.png$image
 analytics$important,badfilter
 beacon$important
@@ -112,16 +114,23 @@ yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.ru##.stream-promo-popup
+youtube.com##.ad-container
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
-youtube.com##.ytp-ad-progress-list
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-title-channel
 ||2mdn.net^$important
+||adnxs.com^$important
 ||amazon-adsystem.com^$important
+||casalemedia.com^$important
 ||collector.githubapp.com^$important
 ||countess.twitch.tv^$important
 ||imrworldwide.com^$important
 ||mail.ru^$important
+||referrer.disqus.com^$important
+||rubiconproject.com^$important
+||scorecardresearch.com^$important
+||tns-counter.ru^$important
+||trafficfactory.biz^$important
 ||twitter.com/i/jot$important
+||yandex.*/clck/$important
 ||yastatic.*^
+||youtube.com/api/stats$important
