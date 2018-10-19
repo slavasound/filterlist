@@ -9,7 +9,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.015
+! Version: 0.0.016
 ###BlockedAdsWarning
 ##.adsbygoogle
 ##.advert
@@ -166,11 +166,18 @@ youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
+||1el-1el-fie.com^$important
+||1elllwrite.com^$important
+||1hanritten.com^$important
 ||1rx.io^$important
+||1sen-pit-fan.com^$important
 ||1x1rank.com^
+||2delllwrite.com^$important
 ||02ip.ru^$important
+||2an-hit-ren.com^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
+||2el-2el-fie.com^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
 ||2mdn.net^$important
@@ -182,12 +189,15 @@ youtube.com##.ytp-title-channel
 ||2znp09oa.com^$important
 ||3cinteractive.com^
 ||3dbr5b6julcuecih.onion^$important
+||3delllwrite.com^$important
 ||3e1.cn^
+||3el-3el-fie.com^$important
 ||3g2up5afx6n5miu4.onion^$important
 ||3g2upl4pq6kufc4m.onion^$important
 ||4affiliate.net^
 ||4d5.net^
 ||4d.condenastdigital.com/user
+||4dtrk.com^$important
 ||4info.com^
 ||4jnzhl0d0.com^$important
 ||4mads.com^
@@ -453,10 +463,10 @@ youtube.com##.ytp-title-channel
 ||acuityads.com^
 ||acvxsptoqh.com^$important
 ||ad0.bigmir.net^
-||ad01.mediacorpsingapore.com^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
 ||ad1.pamedia.com.au^
+||ad01.mediacorpsingapore.com^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
 ||ad2.lupa.cz^
@@ -1238,6 +1248,7 @@ youtube.com##.ytp-title-channel
 ||balancebreath.com^
 ||balloontexture.com^$important
 ||banana.automaxcenter.ro^
+||bandelcot.com^$important
 ||bango.combango.org^
 ||bango.net^
 ||banik.redigy.cz^
@@ -1366,6 +1377,7 @@ youtube.com##.ytp-title-channel
 ||beikehongbei.com^
 ||belstat.com^
 ||belstat.nl^
+||belwrite.com^$important
 ||ben.crxmouse.com^$important
 ||benstock.free.fr^
 ||berp.com^
@@ -1395,7 +1407,10 @@ youtube.com##.ytp-title-channel
 ||binullxzwnsqws.com^$important
 ||bioito.cn^
 ||biolat.org^
+||bip-bip-blip.com^$important
+||bipwrite.com^$important
 ||birslhmnnc.com^$important
+||bit-bork-boodle.com^$important
 ||bit.do^$important
 ||bit.ly^$important
 ||bitads.net^
@@ -1437,6 +1452,8 @@ youtube.com##.ytp-title-channel
 ||bmoshyiypks.com^$important
 ||bmwforum.co^$important
 ||bn.bfast.com^
+||bob-bob-bobble.com^$important
+||bobblewrite.com^$important
 ||boersego-ads.de^
 ||bohoth.com^
 ||boilingbeetle.com^$important
@@ -1452,6 +1469,8 @@ youtube.com##.ytp-title-channel
 ||bootyou.net^$important
 ||bor-bogdanych.com^
 ||boredcrown.com^$important
+||bororango.com^$important
+||borrango.com^$important
 ||bostelbekersv.com^
 ||box.anchorfree.net^
 ||boydfiber.com^
@@ -1521,6 +1540,7 @@ youtube.com##.ytp-title-channel
 ||camrfajedgku.com^$important
 ||caniamedia.com^
 ||cannashke4xpldry.onion^$important
+||cap-cap-pop.com^$important
 ||carbonads.com^
 ||carbonads.net^
 ||cardse3ncfqfh7i5.onion^$important
@@ -1529,6 +1549,7 @@ youtube.com##.ytp-title-channel
 ||casalmedia.com^
 ||cash4members.com^
 ||cash4popup.de^
+||cash-ca-ching.com^$important
 ||cashcrate.com^
 ||cashengines.com^
 ||cashfiesta.com^
@@ -1540,6 +1561,7 @@ youtube.com##.ytp-title-channel
 ||casinotraffic.com^
 ||casinotreasure.com^
 ||casterist.com^$important
+||catwrite.com^$important
 ||caucqpoeg.com^$important
 ||cbanners.virtuagirlhd.com^
 ||cben1.net^
@@ -1565,6 +1587,7 @@ youtube.com##.ytp-title-channel
 ||celtra.com^
 ||centerpieces-with-feathers-for-weddi.blogspot.com^
 ||centralamericarealestateinvestment.com^
+||centwrite.com^$important
 ||ceskydomov.alias.ngs.modry.cz^
 ||cetrk.com^
 ||cfhkiriics.com^$important
@@ -1638,6 +1661,7 @@ youtube.com##.ytp-title-channel
 ||clickiocdn.com^$important
 ||clicklink.jp^
 ||clickmedia.ro^
+||clickperks.info^$important
 ||clicks.equantum.com^
 ||clicks.mods.de^
 ||clickserve.cc-dt.com^
@@ -1678,6 +1702,7 @@ youtube.com##.ytp-title-channel
 ||code-server.biz^
 ||cofybuwuc.com^$important
 ||col.vg^
+||cold-cold-freezing.com^$important
 ||collection-endpoint-prod.herokuapp.com^$important
 ||collection-endpoint-staging.herokuapp.com^$important
 ||collector-medium.lightstep.com^$important
@@ -1773,6 +1798,7 @@ youtube.com##.ytp-title-channel
 ||creatives.as4x.tmcs.net^
 ||creatives.livejasmin.com^
 ||crgfbmzsk.com^$important
+||crickwrite.com^$important
 ||crispads.com^
 ||crispmedia.com^
 ||crispwireless.com^
@@ -1838,6 +1864,7 @@ youtube.com##.ytp-title-channel
 ||darkhncoi2dvcxlv.onion^$important
 ||darknikdkhjnnwid.onion^$important
 ||dasezhan8.com^
+||data-data-vac.com^$important
 ||databqqmbmykdohg.onion^$important
 ||datashreddergold.com^
 ||dataxu.com^
@@ -1859,6 +1886,7 @@ youtube.com##.ytp-title-channel
 ||deepdota3hrhh3zf.onion^$important
 ||degitlwfezpe.com^$important
 ||deiqehvcdnntg.com^$important
+||del-del-ete.com^$important
 ||delegatediscussion.com^
 ||delightdriving.com^$important
 ||delivery1.lavanetwork.net^$important
@@ -1908,6 +1936,9 @@ youtube.com##.ytp-title-channel
 ||distillery.wistia.com^$important
 ||districtm.ca^$important
 ||disċordapp.com^$important
+||dit-dit-dot.com^$important
+||ditdotsol.com^$important
+||ditwrite.com^$important
 ||djcalvin.com^
 ||djiufagozzla.com^$important
 ||djnroblmpyxrh.com^$important
@@ -1927,6 +1958,7 @@ youtube.com##.ytp-title-channel
 ||do-not-tracker.org^$important
 ||docksalmon.com^$important
 ||dog.halfbirthdayproducts.com^
+||dogwrite.com^$important
 ||domain.com.au/usersstats$xmlhttprequest
 ||domaining.in^
 ||domainsponsor.com^
@@ -2055,6 +2087,7 @@ youtube.com##.ytp-title-channel
 ||eqezqqdpjmxbpb.com^$important
 ||eqhawyidkdug.com^$important
 ||eqworks.com^
+||erniphiq.com^$important
 ||ero-advertising.com^
 ||errordoctor.com^
 ||esbet.fun^
@@ -2277,6 +2310,8 @@ youtube.com##.ytp-title-channel
 ||gameskeys.shop^$important
 ||gammaplatform.com^$important
 ||gaqhseuqp.com^$important
+||garo-garo-osh.com^$important
+||garowrite.com^$important
 ||gator.com^
 ||gayadnetwork.com^
 ||gbanners.hornymatches.com^
@@ -2288,6 +2323,8 @@ youtube.com##.ytp-title-channel
 ||gddingtian.com.cn^
 ||gdeea.cc^
 ||gdyelbwku.com^$important
+||ge-ge-force.com^$important
+||gefwrite.com^$important
 ||gemius.pl^$important
 ||gen-ever.com^
 ||geo.digitalpoint.com^
@@ -2311,9 +2348,11 @@ youtube.com##.ytp-title-channel
 ||gifjvmfkzykp.com^$important
 ||gillingscamps.co.uk^
 ||github.com/_private/browser/stats$important
+||givingsol.com^$important
 ||gjliurjvfnkymq.com^$important
 ||gjysjl.com^
 ||gkaatcjxwa.com^$important
+||glo-glo-oom.com^$important
 ||globalismedia.com^
 ||globalnursesonline.com^
 ||globaltakeoff.net^
@@ -2403,9 +2442,11 @@ youtube.com##.ytp-title-channel
 ||hardtofindmilk.com^
 ||harrenmedia.com^
 ||harrenmedianetwork.com^
+||hash-hash-tag.com^$important
 ||hasrijwnxtn.com^$important
 ||hauvkkwrbme.com^$important
 ||havamedia.net^
+||havenwrite.com^$important
 ||hayxktgbqpmult.com^$important
 ||hbotv.co^$important
 ||hbycvbyyj.com^$important
@@ -2485,6 +2526,7 @@ youtube.com##.ytp-title-channel
 ||hondachat.com^$important
 ||honesv6nawk3fsso.onion^$important
 ||horiz2jxbbjxlzet.onion^$important
+||host-host-ads.com^$important
 ||hostedads.realitykings.com^
 ||hostingonline.desi^$important
 ||hostiraj.info^
@@ -2621,6 +2663,7 @@ youtube.com##.ytp-title-channel
 ||infnedughabkji6m.onion^$important
 ||infolinks.com^
 ||information.com^
+||infrashift.com^$important
 ||inhcrirmboz.com^$important
 ||ink.churchofthefreespirit.com^
 ||inmobi.com^
@@ -2707,6 +2750,7 @@ youtube.com##.ytp-title-channel
 ||jedonkey.cjt1.net^
 ||jeeumttalzwt.com^$important
 ||jefaerosol.free.fr^
+||jeinvegpool.com^$important
 ||jewelcheese.com^$important
 ||jffdktcyr.com^$important
 ||jfjuhxfllw.com^$important
@@ -2834,6 +2878,8 @@ youtube.com##.ytp-title-channel
 ||kxzmmtdx.com^$important
 ||l-imgur.pl^$important
 ||l-stat.livejournal.net/js/$script
+||la-la-moon.com^$important
+||la-la-sf.com^$important
 ||labdwkqyavb.com^$important
 ||lacbzhudjtxfetdd.onion^$important
 ||ladybug.gutterheatersus.com^
@@ -2914,6 +2960,7 @@ youtube.com##.ytp-title-channel
 ||livefyre.com^$important
 ||liveintent.com^
 ||liverail.com^
+||livwrite.com^$important
 ||lizardslaugh.com^$important
 ||ljrljohnoqa.com^$important
 ||lkksbzcslmeefw.com^$important
@@ -3077,6 +3124,7 @@ youtube.com##.ytp-title-channel
 ||medium.com/_/api/users/*/writing-velocity$xmlhttprequest
 ||medleyads.com^
 ||medyanetads.com^
+||meepwrite.com^$important
 ||megacash.de^
 ||megago.com^
 ||megamult.net/img/banners/$important
@@ -3266,11 +3314,14 @@ youtube.com##.ytp-title-channel
 ||netincap.com^
 ||netmng.com^
 ||netpool.netbookia.net^
+||netrosol.net^$important
 ||netseer.com^
 ||netshelter.net^
 ||network.business.com^
 ||networkstresser.com^$important
 ||neudesicmediagroup.com^
+||new17write.com^$important
+||new-new-years.com^$important
 ||newads.bangbros.com^
 ||newbie.com^
 ||newnet.qsrch.com^
@@ -3278,6 +3329,7 @@ youtube.com##.ytp-title-channel
 ||newopenx.detik.com^
 ||newpdynbt4kzh62k.onion^$important
 ||newrelic.com^$important
+||newsadst.com^$important
 ||newsiu5amf2ug5x6.onion^$important
 ||newt1.adultadworld.com^
 ||newt1.adultworld.com^
@@ -3470,6 +3522,7 @@ youtube.com##.ytp-title-channel
 ||partnerad.*$important
 ||partnercash.de^
 ||partners.priceline.com^
+||parwrite.com^$important
 ||passion-4.net^
 ||pattayabazaar.com^
 ||pay-ads.com^
@@ -3674,6 +3727,8 @@ youtube.com##.ytp-title-channel
 ||qczvjjdbaj.com^$important
 ||qd73mpxdlry62okc.onion^$important
 ||qdpxpnmh.com^$important
+||qel-qel-fie.com^$important
+||qelllwrite.com^$important
 ||qevmzohvwxesrd.com^$important
 ||qfpqmxkiwh.com^$important
 ||qfsutura.com^$important
@@ -3761,6 +3816,8 @@ youtube.com##.ytp-title-channel
 ||raresummer.com^$important
 ||rate.ru^
 ||ratings.lycos.com^
+||raz-raz-mataz.com^$important
+||razwrite.com^$important
 ||rb1.design.ru^
 ||rbtpsbtzh.com^$important
 ||rct55xegqunw3gsy.onion^$important
@@ -3768,6 +3825,7 @@ youtube.com##.ytp-title-channel
 ||rdfpnzisjyiwtu.com^$important
 ||rdizmyst.com^$important
 ||rdooybwcuyg.com^$important
+||rdrtrk.com^$important
 ||re-directme.com^
 ||reachjunction.com^
 ||reactx.com^
@@ -3838,6 +3896,7 @@ youtube.com##.ytp-title-channel
 ||richmails.com^
 ||richmedia.yimg.com^
 ||richwebmaster.com^
+||rick-rick-rob.com^$important
 ||rick.nirmallife.co.in^
 ||rightmedia.com^
 ||rightmove.co.uk/brandedsearchlog$xmlhttprequest
@@ -3950,7 +4009,9 @@ youtube.com##.ytp-title-channel
 ||sedoparking.com^
 ||sedotracker.com^
 ||seeq.com.invalid^
+||sel-sel-fie.com^$important
 ||selak.info^
+||selwrite.com^$important
 ||senddroid.com^
 ||sensenetworks.com^
 ||sensismediasmart.com.au^
@@ -4266,7 +4327,9 @@ youtube.com##.ytp-title-channel
 ||teenrevenue.com^
 ||teethfan.com^
 ||teir4dqwqnf3rkz5.onion^$important
+||tek-tek-trek.com^$important
 ||teksograd.ru^
+||tel-tel-fie.com^$important
 ||telemetry-coverage.mozilla.org^
 ||telephonie-voip.info^
 ||teliad.de^
@@ -4308,8 +4371,11 @@ youtube.com##.ytp-title-channel
 ||throne.thehelpbiz.com^
 ||thruport.com^
 ||thundm6mhd7by6le.onion^$important
+||tic-tic-bam.com^$important
+||tic-tic-toc.com^$important
 ||tidytrail.com^$important
 ||tigercore.eu^$important
+||tin-tin-win.com^$important
 ||tinybar.com^
 ||tinypic.info^
 ||tizers.net^
@@ -4319,6 +4385,7 @@ youtube.com##.ytp-title-channel
 ||tkmleoylmufmz63h.onion^$important
 ||tktyinaabq.com^$important
 ||tldr.ly^$important
+||tlootas.org^$important
 ||tlvmedia.com^
 ||tmhgsorajits.com^$important
 ||tmskhgf2bjlzksbt.onion^$important
@@ -4334,6 +4401,8 @@ youtube.com##.ytp-title-channel
 ||tochk7eg4k4q6v5a.onion^$important
 ||todacell.com^
 ||today-newday.cn^
+||tok-dan-host.com^$important
+||toodlepork.com^$important
 ||tools.runetki.co^$important
 ||top20.com^
 ||top20free.com^
@@ -4367,12 +4436,16 @@ youtube.com##.ytp-title-channel
 ||topstreaming.us^$important
 ||torboyptaed37lok.onion^$important
 ||torlinq7wg2c3u4w.onion^$important
+||tororango.com^$important
+||torpsol.com^$important
+||torrango.com^$important
 ||torreslimos.com^
 ||torsalvrrklgfxvn.onion^$important
 ||torvaldscallthat.info^
 ||torvpes7cbjqxhtg.onion^$important
 ||torwi647pyrt476m.onion^$important
 ||totemcash.com^
+||totifiquo.com^$important
 ||touchads.com^
 ||touchclarity.com^
 ||touchclarity.natwest.com^
@@ -4459,6 +4532,7 @@ youtube.com##.ytp-title-channel
 ||tufpmrcdc.com^$important
 ||tuggbdzprgudk.com^$important
 ||tuliprfawfq.com^$important
+||tur-tur-key.com^$important
 ||turkxnj5mwv2siii.onion^$important
 ||turn.com^
 ||tuu66eubynaflw72.onion^$important
@@ -4493,6 +4567,8 @@ youtube.com##.ytp-title-channel
 ||uarating.com^
 ||ubermedia.com^
 ||uclylhzwg.com^$important
+||uel-uel-fie.com^$important
+||uelllwrite.com^$important
 ||uemjnvyn.com^$important
 ||uenpibqyjvim.com^$important
 ||ufnozeotbqsn.com^$important
@@ -4516,6 +4592,7 @@ youtube.com##.ytp-title-channel
 ||unanimis.co.uk^
 ||unionavenue.net^
 ||unknowntray.com^
+||unoblotto.net^$important
 ||unrulymedia.com^
 ||untd.com^
 ||unusualtitle.com^$important
@@ -4558,6 +4635,7 @@ youtube.com##.ytp-title-channel
 ||uzylpwfamhcb.com^$important
 ||v1.cnzz.com^
 ||v22g2vq2xsbsl6hl.onion^$important
+||vacwrite.com^$important
 ||vads.vn^$important
 ||vajiyqbb.com^$important
 ||validclick.com^
@@ -4602,6 +4680,7 @@ youtube.com##.ytp-title-channel
 ||viewpoint.com^
 ||viewwonder.com^
 ||vimobi.com^$important
+||vip-vip-vup.com^$important
 ||viphackforum.xyz^$important
 ||viphackforums.xyz^$important
 ||vipprojects.cn^
@@ -4709,7 +4788,9 @@ youtube.com##.ytp-title-channel
 ||wee4wee.ws^
 ||weedd5hywn5ybrbn.onion^$important
 ||wegcash.com^
+||wel-wel-fie.com^$important
 ||weline.info^$important
+||welllwrite.com^$important
 ||wepyyttx.com^$important
 ||weqfcudxrrbwn.com^$important
 ||werbung.meteoxpress.com^
@@ -4751,6 +4832,7 @@ youtube.com##.ytp-title-channel
 ||worldwide-cash.net^
 ||wozltvfxtntaqk.com^$important
 ||wqobjrevtkqym.com^$important
+||wrierville.com^$important
 ||ws.amazon.*/widgets/$third-party
 ||wszpjhuosjeexj.com^$important
 ||wtdpcb.com^
@@ -4812,6 +4894,8 @@ youtube.com##.ytp-title-channel
 ||xdonzpjglqxi.com^$important
 ||xeflnvycs.com^$important
 ||xeirmdgphdl.com^$important
+||xel-xel-fie.com^$important
+||xelllwrite.com^$important
 ||xertive.com^
 ||xfnwyidimm4rewto.onion^$important
 ||xg4ken.com^
@@ -4832,6 +4916,7 @@ youtube.com##.ytp-title-channel
 ||xkow4bzt6slj56ne.onion^$important
 ||xkzzkxntmryst.com^$important
 ||xlspkqpnnqj.com^$important
+||xmas-xmas-wow.com^$important
 ||xmgrjuqqc.com^$important
 ||xmlqerwrehfqo.com^$important
 ||xmufoqjx.com^$important
@@ -4972,8 +5057,11 @@ youtube.com##.ytp-title-channel
 ||zdzicgwhdlocc3tq.onion^$important
 ||zedo.com^
 ||zeepmedia.com^
+||zel-zel-fie.com^$important
+||zelllwrite.com^$important
 ||zencudo.co.uk^
 ||zendesk.com/api/*/help_center/articles/*/stats
+||zenhppyad.com^$important
 ||zenkreka.com^
 ||zenzuu.com^
 ||zeus.developershed.com^
@@ -4984,13 +5072,17 @@ youtube.com##.ytp-title-channel
 ||zidqkapwgnsh.com^$important
 ||ziejpzrv.cz.cc^
 ||zillow.com/homepage/HomepageVideoMetrics.htm$xmlhttprequest
+||zim-zim-zam.com^$important
+||zinhavnpak.com^$important
 ||zintext.com^
+||zip-zip-swan.com^$important
 ||zisbrygtluib.com^$important
 ||zjhnmbfqylme.com^$important
 ||zjkdrqtjowihn.com^$important
 ||zjujxffup.com^$important
 ||zjwcddahpz.com^$important
 ||zkowrpcb.com^$important
+||zlacraft.com^$important
 ||zlgokeby.com^$important
 ||zlp6s.pw
 ||zlxfpawyyoq.com^$important
@@ -4999,6 +5091,7 @@ youtube.com##.ytp-title-channel
 ||zmujsnyzujuy.com^$important
 ||znoumvve.com^$important
 ||zonhpljclov.com^$important
+||zorango.com^$important
 ||zoszujvvlu.com^$important
 ||zoyxbjmmlsrc.com^$important
 ||zpcxpdpqllyrb.com^$important
