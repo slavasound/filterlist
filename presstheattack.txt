@@ -11,13 +11,12 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.025
+! Version: 0.0.026
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
 ##.adsbygoogle
 ##.advert
-&referer=$script
 /^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
@@ -31,7 +30,6 @@
 /^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest
 /^https?://yandex\.ua/pogoda/[^\s]{300,}/$subdocument,~third-party
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$other,document,inline-script,stylesheet,image,script,popup,important
-@@/wp-content/*/ads*.js$script
 @@^ads-$document
 @@^ads_$document
 @@_ads^$document
@@ -42,8 +40,10 @@
 @@||yastatic.net^$script,stylesheet,image,domain=music.yandex.ru
 @@||yastatic.net^$script,stylesheet,image,domain=yadi.sk
 ^ad_status.*$important
-^advertise.js$script
+^adservice$important
+^advertise.*$important
 ^annotations_module.js$domain=youtube.com,script,important
+^banner^$important
 ^bidmatching.*$important
 ^count$important
 ^csi_204$important
@@ -51,8 +51,9 @@
 ^generate_204$important
 ^informer.*$important
 ^invoke.*$important
-^log$important
+^log^$important
 ^log_event$important
+^logging$important
 ^pixel.*$important
 ^ptracking$important
 ^tracker.*$important
@@ -157,6 +158,22 @@ youtube.com##.ytp-ad-progress
 youtube.com##.ytp-ad-progress-list
 youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-title-channel
+|http:*^ad-$important
+|http:*^ad-$popup,important
+|http:*^ad.$important
+|http:*^ad.$popup,important
+|http:*^ad^$important
+|http:*^ad^$popup,important
+|http:*^ad_$important
+|http:*^ad_$popup,important
+|https:*^ad-$important
+|https:*^ad-$popup,important
+|https:*^ad.$important
+|https:*^ad.$popup,important
+|https:*^ad^$important
+|https:*^ad^$popup,important
+|https:*^ad_$important
+|https:*^ad_$popup,important
 ||1el-1el-fie.com^$important
 ||1elllwrite.com^$important
 ||1hanritten.com^$important
@@ -166,11 +183,11 @@ youtube.com##.ytp-title-channel
 ||1sen-pit-fan.com^$important
 ||1st-iklan.com^$important
 ||1x1rank.com^
+||02ip.ru^$important
+||2an-hit-ren.com^$important
 ||2ch.hk/images/*$image,important
 ||2ch.hk/music/*$important
 ||2delllwrite.com^$important
-||02ip.ru^$important
-||2an-hit-ren.com^$important
 ||2el-2el-fie.com^$important
 ||2jv5rmgnmze5l6i4.onion^$important
 ||2kka4fvykre7lixh.onion^$important
@@ -347,9 +364,9 @@ youtube.com##.ytp-title-channel
 ||acuityads.com^
 ||acvxsptoqh.com^$important
 ||ad0.bigmir.net^
+||ad01.mediacorpsingapore.com^
 ||ad1.emule-project.org^
 ||ad1.kde.cz^
-||ad01.mediacorpsingapore.com^
 ||ad1.pamedia.com.au^
 ||ad2.iinfo.cz^
 ||ad2.linxcz.cz^
@@ -3583,6 +3600,7 @@ youtube.com##.ytp-title-channel
 ||mqgvsxqc.com^$important
 ||mqobpsctcxnbi.com^$important
 ||mr-rank.de^
+||mradx.net^$important
 ||mrperfect.in
 ||mrskincash.com^
 ||ms.cmcm.com^$important
