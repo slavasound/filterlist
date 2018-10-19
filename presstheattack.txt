@@ -11,31 +11,22 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.029
+! Version: 0.0.030
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
+###cookie-law-info-bar
 ##.adsbygoogle
 ##.advert
 /^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
-/^https?://[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$script,domain=~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua
-/^https?://[a-z0-9]+\.info/+[-a-z0-9_?&=]{9,}/$third-party,script
-/^https?://afisha\.yandex\.(by|kz|ru|ua)/(?!api)[^\s]{300,}/$subdocument,xmlhttprequest,domain=afisha.yandex.by|afisha.yandex.kz|afisha.yandex.ru|afisha.yandex.ua
-/^https?://news\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,xmlhttprequest,domain=news.yandex.by|news.yandex.kz|news.yandex.ru|news.yandex.ua
-/^https?://realty\.yandex\.ru/[^\s]{500,}/$subdocument,xmlhttprequest,domain=realty.yandex.ru
-/^https?://tv\.yandex\.(by|kz|ru|ua)/[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
-/^https?://yandex\.(by|kz|ru)/pogoda/[^\s]{300,}/$subdocument,~third-party,xmlhttprequest
-/^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest
-/^https?://yandex\.ua/pogoda/[^\s]{300,}/$subdocument,~third-party
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$other,document,inline-script,stylesheet,image,script,popup,important
-?referer=$script
+/count^$important
+?referer=$script,important
 @@||$websocket
-@@||gstatic.com/recaptcha/*$script
-@@||yastatic.net^$script,stylesheet,image,domain=music.yandex.ru
-@@||yastatic.net^$script,stylesheet,image,domain=yadi.sk
+@@||yastatic.net^$image
 ^ad_status.*$important
+^adfox^$important
 ^ads^$important
 ^ads_$important
 ^adservice^$important
@@ -43,8 +34,8 @@
 ^analytics^$important
 ^annotations_module.js$domain=youtube.com,script,important
 ^banner^$important
+^banners^$important
 ^bidmatching.*$important
-^count^$important
 ^csi_204^$important
 ^gen_204^$important
 ^generate_204^$important
@@ -62,6 +53,7 @@
 ^x.gif$important
 _campaign=$popup
 _metrics^$important
+about:blank$popup,important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 analytics$important,badfilter
@@ -3205,6 +3197,7 @@ youtube.com##.ytp-title-channel
 ||magnetic.com^
 ||maidlytsnrn.com^$important
 ||mail3x.com^
+||mail.ru^$important
 ||mail.yahoo.com/stats
 ||mail.yandex.*/monitoring_liza.txt$important
 ||mailble.com^$important
@@ -3305,7 +3298,6 @@ youtube.com##.ytp-title-channel
 ||meepwrite.com^$important
 ||megacash.de^
 ||megago.com^
-||megamult.net/img/banners/$important
 ||megastats.com^
 ||megawerbung.de^
 ||meinelieblingsprodukte.de^$important
@@ -5372,9 +5364,11 @@ youtube.com##.ytp-title-channel
 ||yaikleyabl.com^$important
 ||yandex.*/clck/$important
 ||yandex.*/yandcache.*$important
+||yandex.ru/pogoda^$script
 ||yast.rutube.ru^$important
 ||yastatic.net/*/atom.*$important
 ||yastatic.net/nearest.*$important
+||yastatic.net^
 ||ybhgzvkqtocedj.com^$important
 ||ybqqjrjf.com^$important
 ||ybrantdigital.com^
