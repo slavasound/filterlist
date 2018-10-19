@@ -11,14 +11,13 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.023
+! Version: 0.0.024
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
 ##.adsbygoogle
 ##.advert
 &referer=$script
-*/reddit.png$badfilter
 /^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
@@ -32,56 +31,32 @@
 /^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest
 /^https?://yandex\.ua/pogoda/[^\s]{300,}/$subdocument,~third-party
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$other,document,inline-script,stylesheet,image,script,popup,important
-/blank.$important,image,badfilter
-/facebook_32$badfilter
-/ico_facebook.$badfilter
-/ico_twitter.$badfilter
-/images/*facebook.gif$domain=~facebook.com,badfilter
-/public/*/facebook_$image,badfilter
-/public/*/twitter_$image,badfilter
-/public/*facebook.png$badfilter
-/social/facebook_$badfilter
-/social/twitter_$badfilter
-/tweet_button.$badfilter
-/twitter_32$badfilter
-/youtube_32$badfilter
-@@/advertise.js$script,badfilter
-@@/wp-content/*/ads*.js$script,badfilter
+^advertise.js$script
+@@/wp-content/*/ads*.js$script
 @@^ads-$document
 @@^ads_$document
 @@_ads^$document
 @@_ads_$document
 @@_campaign=$document
 @@||$websocket
-@@||ajax.googleapis.com/ajax/libs^$script
-@@||assets.gitlab-static.net^$domain=gitlab.com
-@@||client-event-reporter.twitch.tv^$xmlhttprequest,domain=twitch.tv,badfilter
-@@||connect.ok.ru^
-@@||fonts.googleapis.com^$stylesheet
-@@||graph.facebook.com^
-@@||openload.co/advert2.js,badfilter
-@@||platform.twitter.com^$script
-@@||s.imgur.com/min/advertising.js$badfilter
-@@||translate.google.com$generichide
-@@||vk.com/images/upload.gif$image
-@@||vk.com/share.php?$third-party
-@@||vk.com^$subdocument
-@@||www.gstatic.com/recaptcha/*$script
+@@||gstatic.com/recaptcha/*$script
 @@||yastatic.net^$script,stylesheet,image,domain=music.yandex.ru
 @@||yastatic.net^$script,stylesheet,image,domain=yadi.sk
 ^annotations_module.js$domain=youtube.com,script,important
 ^bidmatching.js$script,important
+^count$important
+^gen_204$important
 ^informer.*$important
 ^invoke.*$important
 ^log$important
+^log_event$important
+^generate_204$important
 ^pagead^$important
 ^pixel.*$important
 ^ptracking$important
 ^tracker.js$important
 ^tracking$important
 ^x.gif$important
-_facebook.gif$domain=~facebook.com,badfilter
-_twitter.gif$badfilter
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 analytics$important,badfilter
@@ -1003,9 +978,6 @@ youtube.com##.ytp-title-channel
 ||api.uca.cloud.unity3d.com^$important
 ||api.vidora.com/v1/users$xmlhttprequest
 ||apiparbion.com^
-||apis.google.com/js/*plusone.js$third-party,badfilter
-||apis.google.com/js/api.js$third-party,badfilter
-||apis.google.com/js/platform.js$third-party,badfilter
 ||apiv2.moengage.com^$important
 ||app-measurement.com^$important
 ||app-promo.com^
@@ -1671,8 +1643,6 @@ youtube.com##.ytp-title-channel
 ||config.789wed.com^
 ||config.safedk.com^$important
 ||config.uca.cloud.unity3d.com^$important
-||connect.facebook.net^$badfilter
-||connect.facebook.net^$important,script,badfilter
 ||connextra.com^
 ||connor-kauft.de^$important
 ||consciouscabbage.com^$important
@@ -2381,12 +2351,7 @@ youtube.com##.ytp-title-channel
 ||f-sy.com^
 ||fabiocaminero.com^
 ||faceb4ocdi2icm6x.onion^$important
-||facebook.com*/plugins/like.php?$third-party,badfilter
-||facebook.com/plugins/page.php?$third-party,badfilter
 ||facebook.com/tr?$important
-||facebook.com^$third-party,badfilter
-||facebook.com^*/plugins/like.php?$third-party,badfilter
-||facebook.com^*/plugins/like_box.php?$third-party,badfilter
 ||faeph6ax.com^$important
 ||faloge.com^
 ||falsewi.com^
@@ -4026,7 +3991,6 @@ youtube.com##.ytp-title-channel
 ||placeplay.com^
 ||pladform.ru^$important
 ||planetactive.com^
-||platform.twitter.com/js/button.$important,third-party,badfilter
 ||play4traffic.com^
 ||play*.videos.vidto.me^$important
 ||playerassets.info^$important
