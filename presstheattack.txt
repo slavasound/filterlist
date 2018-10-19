@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.034
+! Version: 0.0.035
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -63,6 +63,22 @@ _ads-$important
 _ads.$important
 _ads^$important
 _ads_$important
+.advert-$important
+.advert.$important
+.advert^$important
+.advert_$important
+-advert-$important
+-advert.$important
+-advert^$important
+-advert_$important
+^advert-$important
+^advert.$important
+^advert^$important
+^advert_$important
+_advert-$important
+_advert.$important
+_advert^$important
+_advert_$important
 .adfox-$important
 .adfox.$important
 .adfox^$important
@@ -608,6 +624,22 @@ _doubleclick-$important
 _doubleclick.$important
 _doubleclick^$important
 _doubleclick_$important
+.frontendlogging-$important
+.frontendlogging.$important
+.frontendlogging^$important
+.frontendlogging_$important
+-frontendlogging-$important
+-frontendlogging.$important
+-frontendlogging^$important
+-frontendlogging_$important
+^frontendlogging-$important
+^frontendlogging.$important
+^frontendlogging^$important
+^frontendlogging_$important
+_frontendlogging-$important
+_frontendlogging.$important
+_frontendlogging^$important
+_frontendlogging_$important
 ^x.gif$important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
@@ -618,7 +650,6 @@ duckduckgo.com##.social.header--aside__item
 duckduckgo.com##.tag-home
 freebitco.in###myModal22
 freebitco.in##.reveal-modal-bg
-frontendlogging$important
 mail.ru##.i-clearfix.grid__container.grid-down
 mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
 mail.ru##.informers
@@ -635,7 +666,7 @@ twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*="casino"]
-twitch.tv##a[href*="pokerdom"]
+twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="ttr"]
 twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
