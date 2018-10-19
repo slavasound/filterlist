@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.028
+! Version: 0.0.029
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -30,18 +30,17 @@
 /^https?://yandex\.(by|kz|ru|ua)/images/(?!(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest
 /^https?://yandex\.ua/pogoda/[^\s]{300,}/$subdocument,~third-party
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$other,document,inline-script,stylesheet,image,script,popup,important
-@@^ads-$document
-@@^ads_$document
-@@_ads^$document
-@@_ads_$document
-@@_campaign=$document
+?referer=$script
 @@||$websocket
 @@||gstatic.com/recaptcha/*$script
 @@||yastatic.net^$script,stylesheet,image,domain=music.yandex.ru
 @@||yastatic.net^$script,stylesheet,image,domain=yadi.sk
 ^ad_status.*$important
-^adservice$important
+^ads^$important
+^ads_$important
+^adservice^$important
 ^advertise.*$important
+^analytics^$important
 ^annotations_module.js$domain=youtube.com,script,important
 ^banner^$important
 ^bidmatching.*$important
@@ -57,10 +56,12 @@
 ^pixel.*$important
 ^ptracking^$important
 ^stats^$important
-^analytics^$important
+^teaser^$important
 ^tracker.*$important
 ^tracking$important
 ^x.gif$important
+_campaign=$popup
+_metrics^$important
 amalgama-lab.com###close_quality
 amalgama-lab.com/pict/quality.png$image
 analytics$important,badfilter
