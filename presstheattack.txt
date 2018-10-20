@@ -383,6 +383,7 @@ _ptracking.$important
 _ptracking^$important
 _ptracking_$important
 ^referer=$script,important
+^referrer=$script,important
 .yandex-metrica-watch-$important
 .yandex-metrica-watch.$important
 .yandex-metrica-watch^$important
@@ -661,6 +662,7 @@ twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="ttr"]
 twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
+twitch.tv##a[href*="bit.ly"]
 twitch.tv##a[href*="megafon"]
 vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
@@ -1138,22 +1140,6 @@ _adframe-$important
 _adframe.$important
 _adframe^$important
 _adframe_$important
-.anti-adblock-$important
-.anti-adblock.$important
-.anti-adblock^$important
-.anti-adblock_$important
--anti-adblock-$important
--anti-adblock.$important
--anti-adblock^$important
--anti-adblock_$important
-^anti-adblock-$important
-^anti-adblock.$important
-^anti-adblock^$important
-^anti-adblock_$important
-_anti-adblock-$important
-_anti-adblock.$important
-_anti-adblock^$important
-_anti-adblock_$important
 .fuckadblock-$important
 .fuckadblock.$important
 .fuckadblock^$important
@@ -1298,3 +1284,4 @@ _ads-google-$important
 _ads-google.$important
 _ads-google^$important
 _ads-google_$important
+||client-event-reporter.twitch.tv^$important
