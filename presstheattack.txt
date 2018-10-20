@@ -1,4 +1,4 @@
-﻿! Author: Bogachenko Vyacheslav
+! Author: Bogachenko Vyacheslav
 ! Description: Custom filters blocking malicious websites, popular trackers,
 !              banners, loading and displaying ads on website pages and search results,
 !              it also includes cosmetic filters for problem sites.
@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.039
+! Version: 0.0.040
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -164,7 +164,6 @@ _bidmatching^$important
 _bidmatching_$important
 ||yadro.ru^$important
 ||gamescarousel.com^$important
-player-stats$important
 ||alb.reddit.com^$important
 ||redditstatic.com/moat/$important
 ||redditmedia.com/gtm/jail^$important
@@ -625,12 +624,12 @@ _sponsor-$important
 _sponsor.$important
 _sponsor^$important
 _sponsor_$important
-/i.*$script,image,important
-/x.*$script,image,important
-/p.*$script,image,important
-/pxl.*$script,image,important
-/px.*$script,image,important
-/pixel.*$script,image,important
+/x.gif^$image,important
+/p.gif^$image,important
+/c.gif^$image,important
+/pxl.*^$image,script,important
+/px.*^$image,script,important
+/pixel.*^$script,image,important
 /ga.*$script,important
 /publishertag.*$script,important
 /cleardot.*$image,important
@@ -789,3 +788,30 @@ _showads_$important
 amazon.com##.gw-fixed-col.gw-col.a-spacing-none.a-section
 amazon.com###gw-card-layout
 ||hotjar.com^$important
+||media.net^$important
+||indexww.com^$important
+.adverts-$important
+.adverts.$important
+.adverts^$important
+.adverts_$important
+-adverts-$important
+-adverts.$important
+-adverts^$important
+-adverts_$important
+^adverts-$important
+^adverts.$important
+^adverts^$important
+^adverts_$important
+_adverts-$important
+_adverts.$important
+_adverts^$important
+_adverts_$important
+||d31qbv1cthcecs.cloudfront.net^$important
+||crwdcntrl.net^$important
+||effectivemeasure.net^$important
+||chartbeat.com^$important
+||sa.bbc.co.uk^$important
+||demdex.net^$important
+/b/ss/*/js-*$important
+||pipe.aria.microsoft.com/collector/$important
+||vortex.data.microsoft.com/collect$important
