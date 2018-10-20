@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.037
+! Version: 0.0.038
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -367,7 +367,6 @@ _syndication-$important
 _syndication.$important
 _syndication^$important
 _syndication_$important
-^pixel.*$important
 .ptracking-$important
 .ptracking.$important
 .ptracking^$important
@@ -626,9 +625,12 @@ _sponsor-$important
 _sponsor.$important
 _sponsor^$important
 _sponsor_$important
-/x.*$image,important
-/p.*$image,important
+/i.*$script,image,important
+/x.*$script,image,important
+/p.*$script,image,important
+/pxl.*$script,image,important
 /px.*$script,image,important
+/pixel.*$script,image,important
 /ga.*$script,important
 /publishertag.*$script,important
 /cleardot.*$image,important
@@ -662,7 +664,7 @@ twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
 vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
-vk.com##aside[aria-label="РђРєС‚СѓР°Р»СЊРЅС‹Рµ РЅРѕРІРѕСЃС‚Рё"]
+vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
 yandex.ru##.dist-popup__content.popup__content
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_domik-plus.home-link
@@ -756,10 +758,10 @@ _rtb_impression_$important
 ||twitter.com/oct.*$script,important
 ||js-agent.newrelic.com^$important
 ||demandbase.com^$important
-||s.pinimg.com/ct/core.*$script,important
+||pinimg.com/ct/core.*$script,important
 ||cookiex.ngd.yahoo.com^$important
 ||fls-na.amazon.com^$important
-||ssl-images-amazon.com^*/ape/sf/*/dasf-$script,important
+||ssl-images-amazon.com^*/ape/sf/*/dasf-*$script,important
 ||amazon.com^*/events/$important
 ||amazon.*/ajax/counter^$important
 ||amazon.com*/record-impressions^$important
@@ -780,3 +782,9 @@ _showads-$important
 _showads.$important
 _showads^$important
 _showads_$important
+||amazon.com/empty.*^$image,important
+||amazon.com^*/events/$image,important
+||vimeocdn.com/js_opt/ablincoln_combined.min.*$script,important
+amazon.com##.gw-fixed-col.gw-col.a-spacing-none.a-section
+amazon.com###gw-card-layout
+||hotjar.com^$important
