@@ -1,4 +1,4 @@
-! Author: Bogachenko Vyacheslav
+п»ї! Author: Bogachenko Vyacheslav
 ! Description: Custom filters blocking malicious websites, popular trackers,
 !              banners, loading and displaying ads on website pages and search results,
 !              it also includes cosmetic filters for problem sites.
@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.038
+! Version: 0.0.039
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -662,9 +662,10 @@ twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="ttr"]
 twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
+twitch.tv##a[href*="megafon"]
 vk.com###cookies_policy_wrap
 vk.com###stories_feed_wrap
-vk.com##aside[aria-label="Актуальные новости"]
+vk.com##aside[aria-label="РђРєС‚СѓР°Р»СЊРЅС‹Рµ РЅРѕРІРѕСЃС‚Рё"]
 wikipedia.org###siteNotice
 yandex.ru##.dist-popup__content.popup__content
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_domik-plus.home-link
