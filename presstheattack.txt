@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.043
+! Version: 0.0.044
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -22,6 +22,8 @@
 ##.advert
 ##.footer-line_promo.footer-line
 ##.yaplus
+###gdpr-cookie-accept
+yandex.ru##.content__bottom
 /^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
@@ -284,7 +286,7 @@ _informer_$important
 ^log_$important
 _log-$important
 _log.$important
-_log^$important
+_log^
 _log_$important
 .logging-$important
 .logging.$important
@@ -1285,3 +1287,7 @@ _ads-google.$important
 _ads-google^$important
 _ads-google_$important
 ||client-event-reporter.twitch.tv^$important
+||yandex.*/pogoda/*$inline-script,first-party,important
+@@||yastatic.net^$script,domain=music.yandex.ru
+@@||yastatic.net^$stylesheet,script,domain=mail.yandex.ru
+||mail.yandex.*/monitoring_liza.txt$important
