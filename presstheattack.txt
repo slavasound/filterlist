@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.044
+! Version: 0.0.045
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -22,7 +22,9 @@
 ##.advert
 ##.footer-line_promo.footer-line
 ##.yaplus
+##.cookie
 ###gdpr-cookie-accept
+##.ads-ad
 yandex.ru##.content__bottom
 /^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
@@ -146,7 +148,7 @@ _analytics.$important
 _analytics^$important
 _analytics_$important
 ^annotations_module.js$domain=youtube.com,script,important
-^banner^$important
+^banner^
 ^banners^$important
 .bidmatching-$important
 .bidmatching.$important
@@ -384,8 +386,19 @@ _ptracking-$important
 _ptracking.$important
 _ptracking^$important
 _ptracking_$important
-^referer=$script,important
-^referrer=$script,important
+^referer=$important
+^referrer=$important
+^ref=$important
+^refer_domain=$important
+^referrerurl=$important
+^refurl=$important
+^refer_id=$important
+^refid=$important
+^refurl=$important
+^siteid=$important
+^site_ref=$important
+^site_refer=$important
+^urlref=$important
 .yandex-metrica-watch-$important
 .yandex-metrica-watch.$important
 .yandex-metrica-watch^$important
@@ -627,12 +640,38 @@ _sponsor-$important
 _sponsor.$important
 _sponsor^$important
 _sponsor_$important
+/ping.gif^$image,important
+/ping.jpeg^$image,important
+/ping.jpg^$image,important
+/ping.png^$image,important
+/0.gif^$image,important
+/0.jpeg^$image,important
+/0.jpg^$image,important
+/0.png^$image,important
 /x.gif^$image,important
+/x.jpeg^$image,important
+/x.jpg^$image,important
+/x.png^$image,important
 /p.gif^$image,important
+/p.jpeg^$image,important
+/p.jpg^$image,important
+/p.png^$image,important
 /c.gif^$image,important
-/pxl.*^$image,script,important
-/px.*^$image,script,important
-/pixel.*^$script,image,important
+/c.jpeg^$image,important
+/c.jpg^$image,important
+/c.png^$image,important
+/pxl.gif^$image,important
+/pxl.jpeg^$image,important
+/pxl.jpg^$image,important
+/pxl.png^$image,important
+/px.gif^$image,important
+/px.jpeg^$image,important
+/px.jpg^$image,important
+/px.png^$image,important
+/pixel.gif^$image,important
+/pixel.jpeg^$image,important
+/pixel.jpg^$image,important
+/pixel.png^$image,important
 /ga.*$script,important
 /publishertag.*$script,important
 /cleardot.*$image,important
@@ -676,7 +715,7 @@ yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru##.media-infinity-footer__content_visible_yes.media-infinity-footer__content
 yandex.ru##.stream-promo-popup
-youtube.com##.ad-container
+##.ad-container
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
 ||2mdn.net^$important
@@ -692,7 +731,7 @@ youtube.com##.ytp-ad-progress
 ||scorecardresearch.com^$important
 ||tns-counter.ru^$important
 ||trafficfactory.biz^$important
-||twitter.com/i/jot$important
+||twitter.com/i/jot^$important
 ||yandex.*/clck/$important
 ||yastatic.*^
 ||youtube.com/api/stats$important
@@ -765,7 +804,7 @@ _rtb_impression_$important
 ||pinimg.com/ct/core.*$script,important
 ||cookiex.ngd.yahoo.com^$important
 ||fls-na.amazon.com^$important
-||ssl-images-amazon.com^*/ape/sf/*/dasf-*$script,important
+||ssl-images-amazon.com^*/ape/sf/*/dasf*$script,important
 ||amazon.com^*/events/$important
 ||amazon.*/ajax/counter^$important
 ||amazon.com*/record-impressions^$important
@@ -1125,6 +1164,9 @@ _player-stats^$important
 _player-stats_$important
 ||imgur.com/lumbar.gif$image,important
 /1x1.gif^$image,important
+/1x1.jpeg^$image,important
+/1x1.jpg^$image,important
+/1x1.png^$image,important
 ||plista.com^$important
 .adframe-$important
 .adframe.$important
@@ -1291,3 +1333,31 @@ _ads-google_$important
 @@||yastatic.net^$script,domain=music.yandex.ru
 @@||yastatic.net^$stylesheet,script,domain=mail.yandex.ru
 ||mail.yandex.*/monitoring_liza.txt$important
+@@||github.com/_render_node/*/comments/comment_edit_history_log
+||adriver.ru^$important
+||bidswitch.net^$important
+||mmtro.com^$important
+duckduckgo.com##.serp__bottom-right
+||adbetnet.com^$important
+||bugsnag.com^$important
+/advert2.js$script,important
+.show_ads-$important
+.show_ads.$important
+.show_ads^$important
+.show_ads_$important
+-show_ads-$important
+-show_ads.$important
+-show_ads^$important
+-show_ads_$important
+^show_ads-$important
+^show_ads.$important
+^show_ads^$important
+^show_ads_$important
+_show_ads-$important
+_show_ads.$important
+_show_ads^$important
+_show_ads_$important
+||ntv.io^$important
+music.yandex.ru##.footer
+music.yandex.ru##.bar-below
+knowyourmeme.com###ctoolbar
