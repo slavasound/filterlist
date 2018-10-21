@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.045
+! Version: 0.0.046
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -26,11 +26,11 @@
 ###gdpr-cookie-accept
 ##.ads-ad
 yandex.ru##.content__bottom
-/^https?://(ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
+/^https?://(1l\-view|ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
-/count^$important
+/count^
 @@||$websocket
 @@||yastatic.*^$image,font
 @@||yastatic.net/tune
@@ -644,34 +644,42 @@ _sponsor_$important
 /ping.jpeg^$image,important
 /ping.jpg^$image,important
 /ping.png^$image,important
+/ping.js^$script,important
 /0.gif^$image,important
 /0.jpeg^$image,important
 /0.jpg^$image,important
 /0.png^$image,important
+/0.js^$script,important
 /x.gif^$image,important
 /x.jpeg^$image,important
 /x.jpg^$image,important
 /x.png^$image,important
+/x.js^$script,important
 /p.gif^$image,important
 /p.jpeg^$image,important
 /p.jpg^$image,important
 /p.png^$image,important
+/p.js^$script,important
 /c.gif^$image,important
 /c.jpeg^$image,important
 /c.jpg^$image,important
 /c.png^$image,important
+/c.js^$script,important
 /pxl.gif^$image,important
 /pxl.jpeg^$image,important
 /pxl.jpg^$image,important
 /pxl.png^$image,important
+/pxl.js^$script,important
 /px.gif^$image,important
 /px.jpeg^$image,important
 /px.jpg^$image,important
 /px.png^$image,important
+/px.js^$script,important
 /pixel.gif^$image,important
 /pixel.jpeg^$image,important
 /pixel.jpg^$image,important
 /pixel.png^$image,important
+/pixel.js^$script,important
 /ga.*$script,important
 /publishertag.*$script,important
 /cleardot.*$image,important
@@ -1361,3 +1369,19 @@ _show_ads_$important
 music.yandex.ru##.footer
 music.yandex.ru##.bar-below
 knowyourmeme.com###ctoolbar
+@@||gstatic.com/recaptcha^$script,stylesheet
+@@||google.com/recaptcha^$script,stylesheet
+/ga.js$script,important
+/apstag.js$script,important
+@@||github.com/search/count$xmlhttprequest
+yandex.ru##.content__main + *
+||facebook.com/tr^$important
+@@||yastatic.net/maps-beta/*$script,stylesheet,xmlhttprequest,domain=yandex.ru
+@@||yastatic.net/react/*$script,domain=yandex.ru
+@@||yastatic.net/*/icons/*$xmlhttprequest,domain=yandex.ru
+yandex.ru##.home-panel-content-view__tip
+@@||yastatic.net/maps-bookmarks/*$script,domain=yandex.ru
+||yastatic.net/*/atom.js$script,important
+@@||yastatic.net/video*$script,xmlhttprequest,stylesheet,subdocument,domain=yandex.ru
+@@||yastatic.net/*/bemhtml.min.js$script,domain=yandex.ru
+||taboola.com^$important
