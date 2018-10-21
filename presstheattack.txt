@@ -11,7 +11,7 @@
 ! Mail: bogachenkove@gmail.com
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.047
+! Version: 0.0.048
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -26,8 +26,8 @@
 ###gdpr-cookie-accept
 ##.ads-ad
 yandex.ru##.content__bottom
-/^https?://(1l\-view|ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
-/^https?://(advertising|bs\-meta|awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
+/^https?://(www|1l\-view|ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
+/^https?://(www|startup\.mobile|report\.appmetrica|informer|grade\.market|banners\.mobile|banners\-slb\.mobile|az|appmetrica|advertising|bs\-meta|awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
 /count^
@@ -1216,7 +1216,7 @@ _fuckadblock_$important
 -adv_$important
 ^adv-$important
 ^adv.$important
-^adv^$important
+^adv^
 ^adv_$important
 _adv-$important
 _adv.$important
@@ -1648,3 +1648,9 @@ yandex.ru##.home-panel-content-view__tip
 ||trackersimulator.org^$important
 ||usergrid.com^$important
 ||vungle.com^$important
+||smaato.net^$important
+||smartadserver.com^$important
+||d3anogn3pbtk4v.cloudfront.net^$important
+||d3oltyb66oj2v8.cloudfront.net^$important
+||d2bgg7rjywcwsy.cloudfront.net^$important
+@@||mail.google.com^$xmlhttprequest,domain=mail.google.com
