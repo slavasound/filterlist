@@ -3,15 +3,15 @@
 !              banners, loading and displaying ads on website pages and search results,
 !              it also includes cosmetic filters for problem sites.
 ! Expires: 1 days
-! GitHub issues page: https://github.com/bogachenko/presstheattack/issues
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
 ! Last modified: 22 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
+! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.049
+! Version: 0.0.050
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -35,7 +35,7 @@ yandex.ru##.content__bottom
 @@||$websocket
 @@||yastatic.*^$image,font
 @@||yastatic.net/tune
-@@||yastatic.net^$script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru
+@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru
 .ad-
 .ad.
 .ad^
@@ -637,6 +637,22 @@ _sponsor-$important
 _sponsor.$important
 _sponsor^$important
 _sponsor_$important
+.piwik-$important
+.piwik.$important
+.piwik^$important
+.piwik_$important
+-piwik-$important
+-piwik.$important
+-piwik^$important
+-piwik_$important
+^piwik-$important
+^piwik.$important
+^piwik^$important
+^piwik_$important
+_piwik-$important
+_piwik.$important
+_piwik^$important
+_piwik_$important
 /ping.gif^$image,important
 /ping.jpeg^$image,important
 /ping.jpg^$image,important
@@ -1103,6 +1119,10 @@ _player-stats_$important
 /1x1.jpeg^$image,important
 /1x1.jpg^$image,important
 /1x1.png^$image,important
+/stat.gif^$image,important
+/stat.jpeg^$image,important
+/stat.jpg^$image,important
+/stat.png^$image,important
 ||plista.com^$important
 .adframe-$important
 .adframe.$important
@@ -1586,3 +1606,119 @@ yandex.ru##.home-panel-content-view__tip
 /prum.*$important
 @@||www.google.com/maps/*$script
 @@||vk.com/widget_community.php$subdocument
+@@||vk.com/widget_comments.php$subdocument
+||d3urj1bkrgys5t.cloudfront.net^$important
+/appmeasurement.*^$script,important
+||206ads.com^$important
+/audience-extraction.*^$script,important
+.dfp-$important
+.dfp.$important
+.dfp^$important
+.dfp_$important
+-dfp-$important
+-dfp.$important
+-dfp^$important
+-dfp_$important
+^dfp-$important
+^dfp.$important
+^dfp^$important
+^dfp_$important
+_dfp-$important
+_dfp.$important
+_dfp^$important
+_dfp_$important
+||sonobi.com^$important
+##.cc-window
+||t.purch.com^$important
+/clickstream.*^$script,important
+||crazyegg.com^$important
+||moatads.com^$important
+||recreativ.ru^$important
+.prebid-$important
+.prebid.$important
+.prebid^$important
+.prebid_$important
+-prebid-$important
+-prebid.$important
+-prebid^$important
+-prebid_$important
+^prebid-$important
+^prebid.$important
+^prebid^$important
+^prebid_$important
+_prebid-$important
+_prebid.$important
+_prebid^$important
+_prebid_$important
+.criteo-$important
+.criteo.$important
+.criteo^$important
+.criteo_$important
+-criteo-$important
+-criteo.$important
+-criteo^$important
+-criteo_$important
+^criteo-$important
+^criteo.$important
+^criteo^$important
+^criteo_$important
+_criteo-$important
+_criteo.$important
+_criteo^$important
+_criteo_$important
+.advframecollapse-$important
+.advframecollapse.$important
+.advframecollapse^$important
+.advframecollapse_$important
+-advframecollapse-$important
+-advframecollapse.$important
+-advframecollapse^$important
+-advframecollapse_$important
+^advframecollapse-$important
+^advframecollapse.$important
+^advframecollapse^$important
+^advframecollapse_$important
+_advframecollapse-$important
+_advframecollapse.$important
+_advframecollapse^$important
+_advframecollapse_$important
+/fpn.gif^$image,important
+/fpn.jpeg^$image,important
+/fpn.jpg^$image,important
+/fpn.png^$image,important
+###cookiesBar
+##.cookie-warning-wrapper
+.loadgoogletagbanners-$important
+.loadgoogletagbanners.$important
+.loadgoogletagbanners^$important
+.loadgoogletagbanners_$important
+-loadgoogletagbanners-$important
+-loadgoogletagbanners.$important
+-loadgoogletagbanners^$important
+-loadgoogletagbanners_$important
+^loadgoogletagbanners-$important
+^loadgoogletagbanners.$important
+^loadgoogletagbanners^$important
+^loadgoogletagbanners_$important
+_loadgoogletagbanners-$important
+_loadgoogletagbanners.$important
+_loadgoogletagbanners^$important
+_loadgoogletagbanners_$important
+.adriver-$important
+.adriver.$important
+.adriver^$important
+.adriver_$important
+-adriver-$important
+-adriver.$important
+-adriver^$important
+-adriver_$important
+^adriver-$important
+^adriver.$important
+^adriver^$important
+^adriver_$important
+_adriver-$important
+_adriver.$important
+_adriver^$important
+_adriver_$important
+||*.keywordsconnect.*.js$script,important
+kp.ru##.popap.notPrint.popupSubscribe
