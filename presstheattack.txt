@@ -5,13 +5,13 @@
 ! Expires: 1 days
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 22 October 2018
+! Last modified: 23 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.050
+! Version: 0.0.051
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###BlockedAdsWarning
@@ -27,15 +27,24 @@
 ##.ads-ad
 ##.extension-browser
 yandex.ru##.content__bottom
+yandex.ru##.serp-footer__main
+yandex.ru##.content__main + :last-child
+money.yandex.ru##.promo-header
+avia.yandex.ru##.y-page_islet-kb-index__footer
 /^https?://(www|1l\-view|ad|banners|showbiz|top\-abd|cspreport|r3|rs|reklama|r2|r1|top\-fwz1|1l\-hit|mediator|xray|swa|r|top\-staging|r0|top|vk\.go|bs|t|bar\.love|portal|lf1)\.mail/$important
 /^https?://(www|startup\.mobile|report\.appmetrica|informer|grade\.market|banners\.mobile|banners\-slb\.mobile|az|appmetrica|advertising|bs\-meta|awaps|awsync|browser\-updater|bs|direct|http\-check\-headers|zen\-test|kiks|metrica|yabs|zen|clck|mc|an|statchecker|main\.zdevx)\.yandex/$important
 /^https?://(id|imasdk|adservice|ssl|pagead2|pagead1|pagead|www|wintricksbanner|partner|analytic\-|content|redirector)\.google(apis|pages|syndication|\-analytics|syndication|tagmanager|tagservices|adservices|video)/$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
 /count^
 @@||$websocket
+||yastatic.*^
+||yastatic.net/*/atom.js$script,important
+||yastatic.net/nearest.js$script,important
 @@||yastatic.*^$image,font
 @@||yastatic.net/tune
-@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru
+@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru|disk.yandex.ru|market.yandex.ru|money.yandex.ru|auto.ru|avia.yandex.ru|rabota.yandex.ru|radio.yandex.ru|taxi.yandex.ru|webmaster.yandex.ru|calendar.yandex.ru|trains.yandex.ru|travel.yandex.ru
+@@/\/yastatic.*\/(webspeechkit|bus|maps|jquery|islands|morda\-logo|react|video|bemhtml|icons|market|tableau|share)/$xmlhttprequest,stylesheet,script,font,subdocument,image
+@@/\/yastatic.*\/tune2/$image,stylesheet,script
 .ad-
 .ad.
 .ad^
@@ -272,7 +281,7 @@ _informer-$important
 _informer.$important
 _informer^$important
 _informer_$important
-^invoke.*$important
+^invoke.*$script,important
 .log-
 .log.
 .log^
@@ -755,7 +764,6 @@ youtube.com##.ytp-ad-progress
 ||trafficfactory.biz^$important
 ||twitter.com/i/jot^$important
 ||yandex.*/clck/$important
-||yastatic.*^
 ||youtube.com/api/stats$important
 ||csi.gstatic.com^$important
 ||api.twitch.tv/*/channels/*/extensions$important
@@ -778,7 +786,6 @@ _rtrg.$important
 _rtrg^$important
 _rtrg_$important
 ##.adblock
-@@yastatic.net/customize$script
 translate.google.ru###gt-promo-lr
 translate.google.com###gt-promo-lr
 ||bing.com/fd/ls/$important
@@ -1319,16 +1326,8 @@ knowyourmeme.com###ctoolbar
 @@||google.com/recaptcha^$script,stylesheet
 /apstag.js$script,important
 @@||github.com/search/count$xmlhttprequest
-yandex.ru##.content__main + *
 ||facebook.com/tr^$important
-@@||yastatic.net/maps-beta/*$script,stylesheet,xmlhttprequest,domain=yandex.ru
-@@||yastatic.net/react/*$script,domain=yandex.ru
-@@||yastatic.net/*/icons/*$xmlhttprequest,domain=yandex.ru
 yandex.ru##.home-panel-content-view__tip
-@@||yastatic.net/maps-bookmarks/*$script,domain=yandex.ru
-||yastatic.net/*/atom.js$script,important
-@@||yastatic.net/video*$script,xmlhttprequest,stylesheet,subdocument,domain=yandex.ru
-@@||yastatic.net/*/bemhtml.min.js$script,domain=yandex.ru
 ||taboola.com^$important
 ###aboutCookieUsageBox
 ###AvisoCookieslaw
@@ -1722,3 +1721,5 @@ _adriver^$important
 _adriver_$important
 ||*.keywordsconnect.*.js$script,important
 kp.ru##.popap.notPrint.popupSubscribe
+/_bm/bd^
+||ds-aksb-a.akamaihd.net^$important
