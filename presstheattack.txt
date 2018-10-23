@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.057
+! Version: 0.0.058
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -51,7 +51,6 @@
 ###cookie-law-compliance
 ###cookie-law-consent-section
 ###cookie-law-container
-###cookie-law-info-bar
 ###cookie-law-info-bar
 ###cookie-legal-notice
 ###cookie-message
@@ -129,7 +128,6 @@
 ###cookies-alert
 ###cookies-banner
 ###cookies-information
-###cookies-information > .innerDiv
 ###cookies-panel
 ###cookiesBar
 ###cookiesInfo
@@ -768,7 +766,6 @@
 ||googletagmanager.com^$important
 ||google-analytics.com^$important
 ||id.google.com^$important
-||cse.google.com/cse.js^$important
 ||adservice.google.com^$important
 ||metric.gstatic.com^$important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
@@ -1754,7 +1751,7 @@ youtube.com##.ytp-ad-progress
 ||js-agent.newrelic.com^$important
 ||jumptap.com^$important
 ||localytics.com^$important
-||mail.ru^$important
+||mail.ru^
 ||mail.yandex.*/monitoring_liza.txt$important
 ||media.net^$important
 ||mixpanel.com^$important
@@ -3084,3 +3081,17 @@ _ppv_$important
 ||zen.yandex.ru^$important
 ||awsync.yandex.ru^$important
 ||zen-test.yandex.ru^$important
+||browser-updater.yandex.net^$important
+||startup.mobile.yandex.net^$important
+||appmetrica.yandex.com^$important
+||analytics.mobile.yandex.net^$important
+||banners.mobile.yandex.net^$important
+||banners-slb.mobile.yandex.net^$important
+||csp.yandex.net^$important
+||direct.yandex.ru^$important
+||ad.mail.ru^$important
+||r3.mail.ru^$important
+||top-fwz1.mail.ru^$important
+||reklama.mail.ru^$important
+||rs.mail.ru^$important
+||xray.mail.ru^$important
