@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.056
+! Version: 0.0.057
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -843,7 +843,7 @@
 @@||www.google.com/maps/*$script
 @@||yastatic.*^$image,font
 @@||yastatic.net/tune
-@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru|disk.yandex.ru|market.yandex.ru|money.yandex.ru|auto.ru|avia.yandex.ru|rabota.yandex.ru|radio.yandex.ru|taxi.yandex.ru|webmaster.yandex.ru|calendar.yandex.ru|trains.yandex.ru|travel.yandex.ru
+@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru|disk.yandex.ru|market.yandex.ru|money.yandex.ru|auto.ru|avia.yandex.ru|rabota.yandex.ru|radio.yandex.ru|taxi.yandex.ru|webmaster.yandex.ru|calendar.yandex.ru|trains.yandex.ru|travel.yandex.ru|passport.yandex.ru
 ^ad24-$important
 ^ad24.$important
 ^ad24^$important
@@ -3071,3 +3071,16 @@ _ppv-$important
 _ppv.$important
 _ppv^$important
 _ppv_$important
+||mc.yandex.ru^$important
+||adfox.yandex.ru^$important
+||an.yandex.ru^$important
+||awaps.yandex.net^$important
+||bs.yandex.ru^$important
+||informer.yandex.ru^$important
+||clck.yandex.ru^$important
+||clck.yandex.com^$important
+||kiks.yandex.ru^$important
+||yabs.yandex.ru^$important
+||zen.yandex.ru^$important
+||awsync.yandex.ru^$important
+||zen-test.yandex.ru^$important
