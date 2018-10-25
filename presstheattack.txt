@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.060
+! Version: 0.0.061
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -783,6 +783,10 @@
 /cleardot.*$image,important
 /clickstream.*^$script,important
 /count^
+/i.gif^$image,important
+/i.jpeg^$image,important
+/i.jpg^$image,important
+/i.png^$image,important
 /fpn.gif^$image,important
 /fpn.jpeg^$image,important
 /fpn.jpg^$image,important
@@ -825,7 +829,7 @@
 /x.js^$script,important
 /x.png^$image,important
 2ch.hk###plashque
-@@/\/yastatic.*\/(kinopoisk|orgpage|webspeechkit|translate|bus|maps|jquery|islands|morda\-logo|react|video|bemhtml|icons|market|tableau|share)/$xmlhttprequest,stylesheet,script,font,subdocument,image
+@@/\/yastatic.*\/(weather|kinopoisk|orgpage|webspeechkit|translate|bus|maps|jquery|islands|morda\-logo|react|video|bemhtml|icons|market|tableau|share)/$xmlhttprequest,stylesheet,script,font,subdocument,image
 @@||$websocket
 @@||github.com/_render_node/*/comments/comment_edit_history_log
 @@||github.com/search/count
@@ -3114,7 +3118,6 @@ news.yandex.ru##.sticky
 ||bdros.com^$important
 ||yqkpt.com^$important
 ||creativecdn.com/tags^$important
-^token=$important
 ||rutarget.ru^$important
 ||group-ib.ru^$important
 ||openstat.net^$important
@@ -3234,3 +3237,9 @@ _gscounters-$important
 _gscounters.$important
 _gscounters^$important
 _gscounters_$important
+||frog.wix.com^$important
+||dapxl.com^$important
+||imasdk.googleapis.com^$important
+||d3aqoihi2n8ty8.cloudfront.net^$important
+||target.smi2.net^$important
+||counter.rambler.ru^$important
