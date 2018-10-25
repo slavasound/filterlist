@@ -5,13 +5,13 @@
 ! Expires: 1 days
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 23 October 2018
+! Last modified: 25 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.058
+! Version: 0.0.059
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -753,7 +753,7 @@
 /0.jpeg^$image,important
 /0.jpg^$image,important
 /0.js^$script,important
-/0.png^$image,important
+/0.png^$image
 /1x1.gif^$image,important
 /1x1.jpeg^$image,important
 /1x1.jpg^$image,important
@@ -3096,5 +3096,14 @@ _ppv_$important
 ||rs.mail.ru^$important
 ||xray.mail.ru^$important
 @@||www.instagram.com/static/bundles/base/LandingPage.js/*$script
-@@||vk.com/al_feed.php^$subdocument
+@@||vk.com/al_feed.php^$subdocument,domain=vk.com
 ||digitaltarget.ru^$third-party
+||connect.facebook.net^*/fbevents.js$script,important
+news.yandex.ru##.sticky
+@@||mail.yandex.ru/*/main-favicon/*$image,domain=mail.yandex.ru
+/ga.js$script,important
+/gpt.js$script,important
+/analytics.js$script$script,important
+/inpage_linkid.js$script,important
+/beacon.js$script,important
+/ad_status.js$script,important
