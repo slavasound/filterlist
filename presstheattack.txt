@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.068
+! Version: 0.0.069
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -3334,11 +3334,13 @@ twitch.tv##a[href*="swaper.one"]
 twitch.tv##a[href*="ttr"]
 twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
-twitch.tv##a[href*=.gg"]
-twitch.tv##a[href*=goo.gl"]
-twitch.tv##a[href*=is.gd"]
-twitch.tv##a[href*=.online"]
-twitch.tv##a[href*=loto.ru"]
+twitch.tv##a[href*=".gg"]
+twitch.tv##a[href*="goo.gl"]
+twitch.tv##a[href*="is.gd"]
+twitch.tv##a[href*=".online"]
+twitch.tv##a[href*="loto.ru"]
+twitch.tv##a[href*="dotapl"]
+twitch.tv##a[href*="dxracer-europe"]
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
 yandex.ru##.content__bottom
@@ -4237,3 +4239,7 @@ _ppvtrack_$important
 ||d2na2p72vtqyok.cloudfront.net^$important
 ||d2q52i8yx3j68p.cloudfront.net^$important
 ||djz9es32qen64.cloudfront.net^$important
+||d27tpsznug51gz.cloudfront.net^$important
+||d1f1eryiqyjs0r.cloudfront.net^$important
+||d2d5uvkqie1lr5.cloudfront.net^$important
+||du4rq1xqh3i1k.cloudfront.net^$important
