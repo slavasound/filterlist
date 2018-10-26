@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.066
+! Version: 0.0.067
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -1731,7 +1731,6 @@
 /analytics.js$script$script,important
 /appmeasurement.*^$script,important
 /apstag.js$script,important
-/apstag.js$script,important
 /audience-extraction.*^$script,important
 /b/ss/*/js-*$important
 /beacon.js$script,important
@@ -3338,6 +3337,7 @@ twitch.tv##a[href*="vsemayki"]
 twitch.tv##a[href*=.gg"]
 twitch.tv##a[href*=goo.gl"]
 twitch.tv##a[href*=is.gd"]
+twitch.tv##a[href*=.online"]
 twitch.tv##a[href*=loto.ru"]
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
@@ -4038,3 +4038,41 @@ _ppvtrack.$important
 _ppvtrack^$important
 _ppvtrack_$important
 /sorry-adblocker/*$important
+||dvdsm0rlx65fo.cloudfront.net^$important
+||dk7rftbivnkgr.cloudfront.net^$important
+||drrcckbju3nd0.cloudfront.net^$important
+||dkm6b5q0h53z4.cloudfront.net^$important
+||dtto8zfzskfoa.cloudfront.net^$important
+||da3uf5ucdz00u.cloudfront.net^$important
+||djv99sxoqpv11.cloudfront.net^$important
+||dc5ig2fc8lg83.cloudfront.net^$important
+||dc08i221b0n8a.cloudfront.net^$important
+||dh0uktvqfaomb.cloudfront.net^$important
+||dbjnwpbqx5a6o.cloudfront.net^$important
+||dwf6crl4raal7.cloudfront.net^$important
+||dpz55hrzd89zs.cloudfront.net^$important
+||dcjg1gv1px1h.cloudfront.net^$important
+||demkc32bq01ah.cloudfront.net^$important
+||dsh1ct2zrfakt.cloudfront.net^$important
+||djwf0dl2q9i99.cloudfront.net^$important
+||ddyv8sl7ewq1w.cloudfront.net^$important
+||dc44qjwal3p07.cloudfront.net^$important
+||dv2m1uumnsgtu.cloudfront.net^$important
+||dfrs12kz9qye2.cloudfront.net^$important
+||dgkytklfjrqkb.cloudfront.net^$important
+||dzs55b7slwyx.cloudfront.net^$important
+||dmtw0i4zln92b.cloudfront.net^$important
+||do67etikr7pwz.cloudfront.net^$important
+||df0pmigc8xs70.cloudfront.net^$important
+||dk45agakx3yfl.cloudfront.net^$important
+||da5w2k479hyx2.cloudfront.net^$important
+||dk2mvwe4uw0z3.cloudfront.net^$important
+||dm8ojo46iwxm2.cloudfront.net^$important
+||dohs95d6tfj19.cloudfront.net^$important
+||dqqulesm3pfse.cloudfront.net^$important
+||dr3k6qonw2kee.cloudfront.net^$important
+||dviixeyykyqjv.cloudfront.net^$important
+||dzpu6za66svjl.cloudfront.net^$important
+||debojuagug1sf.cloudfront.net^$important
+||du8783wkf05yr.cloudfront.net^$important
+||dzbx8qv1at614.cloudfront.net^$important
