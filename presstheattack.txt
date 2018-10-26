@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github homepage: https://github.com/bogachenko/presstheattack
 ! Github wiki: https://github.com/bogachenko/presstheattack/wiki
-! Last modified: 25 October 2018
+! Last modified: 27 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.071
+! Version: 0.0.072
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -4357,3 +4357,91 @@ _ppvtrack_$important
 ||ad.gate24.ch^$important
 ||ad.globe7.com^$important
 ||ad.grafika.cz^$important
+||ad.hbv.de^$important
+||ad.hodomobile.com^$important
+||ad.httpool.com^$important
+||ad.hyena.cz^$important
+||ad.iinfo.cz^$important
+||ad.ilove.ch^$important
+||ad.infoseek.com^$important
+||ad.jamba.net^$important
+||ad.jamster.co.uk^$important
+||ad.jetsoftware.com^$important
+||ad.keenspace.com^$important
+||ad.leadbolt.net^$important
+||ad.liveinternet.ru^$important
+||ad.lupa.cz^$important
+||ad.m5prod.net^$important
+||ad.media-servers.net^$important
+||ad.mediastorm.hu^$important
+||ad.mgd.de^$important
+||ad.musicmatch.com^$important
+||ad.nachtagenten.de^$important
+||ad.nozonedata.com^$important
+||ad.nttnavi.co.jp^$important
+||ad.nwt.cz^$important
+||ad.onad.eu^$important
+||ad.pandora.tv^$important
+||ad.playground.ru^$important
+||ad.preferances.com^$important
+||ad.profiwin.de^$important
+||ad.prv.pl^$important
+||ad.rambler.ru^$important
+||ad.reunion.com^$important
+||ad.scanmedios.com^$important
+||ad.sensismediasmart.com.au^$important
+||ad.seznam.cz^$important
+||ad.simgames.net^$important
+||ad.slutload.com^$important
+||ad.smartclip.net^$important
+||ad.tbn.ru^$important
+||ad.technoratimedia.com^$important
+||ad.thewheelof.com^$important
+||ad.top50.to^$important
+||ad.turn.com^$important
+||ad.tv2.no^$important
+||ad.twitchguru.com^$important
+||ad.usatoday.com^$important
+||ad.virtual-nights.com^$important
+||ad.watch.impress.co.jp^$important
+||ad.wavu.hu^$important
+||ad.way.cz^$important
+||ad.weatherbug.com^$important
+||ad.wsod.com^$important
+||ad.wz.cz^$important
+||ad.yadro.ru^$important
+||ad.yourmedia.com^$important
+||ad.zanox.com^$important
+||ad0.bigmir.net^$important
+||ad01.mediacorpsingapore.com^$important
+||ad1.emediate.dk^$important
+||ad1.emule-project.org^$important
+||ad1.kde.cz^$important
+||ad1.pamedia.com.au^$important
+||ad2.iinfo.cz^$important
+||ad2.ip.ro^$important
+||ad2.linxcz.cz^$important
+||ad2.lupa.cz^$important
+||ad2flash.com^$important
+||ad2games.com^$important
+||ad3.iinfo.cz^$important
+||ad3.pamedia.com.au^$important
+||ad4game.com^$important
+||adaction.de^$important
+||adadvisor.net^$important
+||adap.tv^$important
+||adapt.tv^$important
+||adbanner.ro^$important
+||adbard.net^$important
+||adblade.com^$important
+||adblockanalytics.com^$important
+||adboost.de.vu^$important
+||adboost.net^$important
+||adbooth.net^$important
+||adbot.com^$important
+||adbrite.com^$important
+||adbroker.de^$important
+||adbunker.com^$important
+||adbutler.com^$important
+||adbutler.de^$important
+||adbuyer.com^$important
