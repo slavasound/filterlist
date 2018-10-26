@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.070
+! Version: 0.0.071
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -4294,3 +4294,66 @@ _ppvtrack_$important
 ||aaddzz.com^$important
 ||aarki.com^$important
 ||abacho.net^$important
+||abc-ads.com^$important
+||absoluteclickscom.com^$important
+||abz.com^$important
+||ac.rnm.ca^$important
+||accounts.pkr.com.invalid^$important
+||acento.com^$important
+||acsseo.com^$important
+||actionsplash.com^$important
+||actualdeals.com^$important
+||acuityads.com^$important
+||ad-balancer.at^$important
+||ad-balancer.net^$important
+||ad-center.com^$important
+||ad-check.disconnect.me^$important
+||ad-images.suntimes.com^$important
+||ad-pay.de^$important
+||ad-rotator.com^$important
+||ad-server.gulasidorna.se^$important
+||ad-serverparc.nl^$important
+||ad-souk.com^$important
+||ad-space.net^$important
+||ad-tech.com^$important
+||ad-up.com^$important
+||ad.100.tbn.ru^$important
+||ad.103092804.com^$important
+||ad.71i.de^$important
+||ad.980x.com^$important
+||ad.a8.net^$important
+||ad.abcnews.com^$important
+||ad.abctv.com^$important
+||ad.about.com^$important
+||ad.aboutit.de^$important
+||ad.aboutwebservices.com^$important
+||ad.abum.com^$important
+||ad.afy11.net^$important
+||ad.allstar.cz^$important
+||ad.altervista.org^$important
+||ad.amgdgt.com^$important
+||ad.anuntis.com^$important
+||ad.auditude.com^$important
+||ad.bizo.com^$important
+||ad.bnmla.com^$important
+||ad.bondage.com^$important
+||ad.caradisiac.com^$important
+||ad.centrum.cz^$important
+||ad.cgi.cz^$important
+||ad.choiceradio.com^$important
+||ad.clix.pt^$important
+||ad.cooks.com^$important
+||ad.crwdcntrl.net^$important
+||ad.digitallook.com^$important
+||ad.directrev.com^$important
+||ad.doctissimo.fr^$important
+||ad.domainfactory.de^$important
+||ad.e-kolay.net^$important
+||ad.eurosport.com^$important
+||ad.f1cd.ru^$important
+||ad.flurry.com^$important
+||ad.foxnetworks.com^$important
+||ad.freecity.de^$important
+||ad.gate24.ch^$important
+||ad.globe7.com^$important
+||ad.grafika.cz^$important
