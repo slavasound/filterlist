@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.063
+! Version: 0.0.064
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -1575,7 +1575,7 @@
 /x.js^$script,important
 /x.png^$image,important
 2ch.hk###plashque
-@@/\/yastatic.*\/(weather|kinopoisk|orgpage|webspeechkit|translate|bus|maps|jquery|islands|morda\-logo|react|video|bemhtml|icons|market|tableau|share)/$xmlhttprequest,stylesheet,script,font,subdocument,image
+@@/\/yastatic.*\/(weather|orgpage|webspeechkit|translate|bus|maps|jquery|islands|morda\-logo|react|video|bemhtml|icons|market|tableau|share)/$xmlhttprequest,stylesheet,script,font,subdocument,image
 @@||$websocket
 @@||galaxy.mobstudio.ru/services/*$xmlhttprequest
 @@||github.com/_render_node/*/comments/comment_edit_history_log
@@ -1592,7 +1592,7 @@
 @@||www.instagram.com/static/bundles/base/LandingPage.js/*$script
 @@||yastatic.*^$image,font
 @@||yastatic.net/tune*$image,stylesheet,script
-@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru|disk.yandex.ru|market.yandex.ru|money.yandex.ru|auto.ru|avia.yandex.ru|rabota.yandex.ru|radio.yandex.ru|taxi.yandex.ru|webmaster.yandex.ru|calendar.yandex.ru|trains.yandex.ru|travel.yandex.ru|passport.yandex.ru
+@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru|disk.yandex.ru|market.yandex.ru|money.yandex.ru|auto.ru|avia.yandex.ru|rabota.yandex.ru|radio.yandex.ru|taxi.yandex.ru|webmaster.yandex.ru|calendar.yandex.ru|trains.yandex.ru|travel.yandex.ru|passport.yandex.ru|auth.kinopoisk.ru
 ^ad0-$important
 ^ad0.$important
 ^ad0^$important
@@ -2884,6 +2884,15 @@ twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="ttr"]
 twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
+twitch.tv##a[href*="cutter.li"]
+twitch.tv##a[href*="redirect-*.xyz"]
+twitch.tv##a[href*="l1l.pw"]
+twitch.tv##a[href*="swaper.one"]
+twitch.tv##a[href*="clife.ru"]
+twitch.tv##a[href*=goo.gl"]
+twitch.tv##a[href*=is.gd"]
+twitch.tv##a[href*=loto.ru"]
+twitch.tv##a[href*=.gg"]
 vk.com##aside[aria-label="Актуальные новости"]
 wikipedia.org###siteNotice
 yandex.ru##.content__bottom
@@ -3394,3 +3403,4 @@ youtube.com##.ytp-ad-progress
 ||zen-test.yandex.ru^$important
 ||zen.yandex.ru^$important
 ||zergnet.com^$important
+||amazon.com^*/token/$important
