@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.069
+! Version: 0.0.070
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###AvisoCookieslaw
@@ -2561,7 +2561,7 @@ _AdLantisLoader.$important
 _AdLantisLoader^$important
 _AdLantisLoader_$important
 _ad0-$important
-_ad0.$important
+_ad0.
 _ad0^$important
 _ad0_$important
 _ad1-$important
@@ -4243,3 +4243,54 @@ _ppvtrack_$important
 ||d1f1eryiqyjs0r.cloudfront.net^$important
 ||d2d5uvkqie1lr5.cloudfront.net^$important
 ||du4rq1xqh3i1k.cloudfront.net^$important
+@@_ad0.$domain=twitch.tv
+@@_ad_$domain=twitch.tv
+||101com.com^$important
+||101order.com^$important
+||123found.com^$important
+||140proof.com^$important
+||180hits.de^$important
+||180searchassistant.com^$important
+||1x1rank.com^$important
+||207.net^$important
+||247media.com^$important
+||24log.com^$important
+||24log.de^$important
+||24pm-affiliation.com^$important
+||2o7.net^$important
+||360yield.com^$important
+||3cinteractive.com^$important
+||4affiliate.net^$important
+||4d5.net^$important
+||4info.com^$important
+||4mads.com^$important
+||50websads.com^$important
+||518ad.com^$important
+||51yes.com^$important
+||5thfinger.com^$important
+||600z.com^$important
+||777partner.com^$important
+||777seo.com^$important
+||77tracking.com^$important
+||7bpeople.com^$important
+||7search.com^$important
+||980media.com^$important
+||99count.com^$important
+||Adsatt.ABCNews.starwave.com^$important
+||Adsatt.go.starwave.com^$important
+||a-ads.com^$important
+||a-counter.kiev.ua^$important
+||a.0day.kiev.ua^$important
+||a.aproductmsg.com^$important
+||a.collective-media.net^$important
+||a.consumer.net^$important
+||a.mktw.net^$important
+||a.sakh.com^$important
+||a.ucoz.net^$important
+||a.ucoz.ru^$important
+||a.xanga.com^$important
+||a32.g.a.yimg.com^$important
+||a9.com^$important
+||aaddzz.com^$important
+||aarki.com^$important
+||abacho.net^$important
