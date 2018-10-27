@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.081
+! Version: 0.0.081.1
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
 ###aboutcookieusagebox
@@ -1905,7 +1905,6 @@
 /ga_social_tracking.$script,important
 /gads.$script,important
 /gpt.js$script,important
-/i.*^$image,object,subdocument,important
 /ima3.js$script,important
 /inpage_linkid.js$script,important
 /mixpanel-*.js$script,important
