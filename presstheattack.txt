@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.083
+! Version: 0.0.084
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -2054,8 +2054,10 @@
 ^ads-google^$important
 ^ads-google_$important
 ^ads.$important
-^ads^$important
+^ads^
 ^ads_
+^log204^$important
+@@||google.com/maps/*^log^
 ^adsbygoogle-$important
 ^adsbygoogle.$important
 ^adsbygoogle^$important
@@ -3645,6 +3647,7 @@ twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*="bet4"]
+twitch.tv##a[href*="betsdota"]
 twitch.tv##a[href*="redirect-"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="bit.ly"]
@@ -6758,3 +6761,21 @@ _snowplow^$important
 _snowplow_$important
 ||c.live.com^$important
 ||c.bing.com^$important
+||spade.twitch.tv^$important
+/xmsg_ti.js$script,important
+||mms.cnn.com^$important
+||usabilla.com^$important
+||optimizely.com^$important
+||cookielaw.org^$important
+||et.nytimes.com^$important
+||nytimes.com^*/data-layer^$important
+||meter-svc.nytimes.com^$important
+||images.rambler.ru^$important
+||3gl.net^$important
+/amp.gif$image,important
+@@||connect.facebook.net^
+||blueconic.net^$important
+||dpmsrv.com^$important
+||liadm.com^$important
+||boomtrain.com^$important
+||newsmaxfeednetwork.com^$important
