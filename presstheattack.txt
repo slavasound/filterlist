@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 27 October 2018
+! Last modified: 29 October 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.084
+! Version: 0.0.085
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -753,10 +753,10 @@
 -informer.$important
 -informer^$important
 -informer_$important
--landing-$important
--landing.$important
--landing^$important
--landing_$important
+-landing-
+-landing.
+-landing^
+-landing_
 -landingpage-
 -landingpage.
 -landingpage^
@@ -1573,10 +1573,10 @@
 .informer.$important
 .informer^$important
 .informer_$important
-.landing-$important
-.landing.$important
-.landing^$important
-.landing_$important
+.landing-
+.landing.
+.landing^
+.landing_
 .landingpage-
 .landingpage.
 .landingpage^
@@ -2464,10 +2464,10 @@
 ^informer^$important
 ^informer_$important
 ^invoke.*$script,important
-^landing-$important
-^landing.$important
-^landing^$important
-^landing_$important
+^landing-
+^landing.
+^landing^
+^landing_
 ^landingpage-
 ^landingpage.
 ^landingpage^
@@ -2572,14 +2572,6 @@
 ^ptracking.$important
 ^ptracking^$important
 ^ptracking_$important
-^ref=
-^refer_domain=
-^refer_id=
-^referer=
-^referrer=
-^referrerurl=
-^refid=
-^refurl=
 ^reklama-$important
 ^reklama.$important
 ^reklama^$important
@@ -2632,9 +2624,6 @@
 ^showads.$important
 ^showads^$important
 ^showads_$important
-^site_ref=
-^site_refer=
-^siteid=
 ^sponsor-$important
 ^sponsor.$important
 ^sponsor^$important
@@ -2739,7 +2728,6 @@
 ^udctrack.$important
 ^udctrack^$important
 ^udctrack_$important
-^urlref=
 ^userad-$important
 ^userad.$important
 ^userad^$important
@@ -3296,10 +3284,10 @@ _informer-$important
 _informer.$important
 _informer^$important
 _informer_$important
-_landing-$important
-_landing.$important
-_landing^$important
-_landing_$important
+_landing-
+_landing.
+_landing^
+_landing_
 _landingpage-
 _landingpage.
 _landingpage^
@@ -6729,7 +6717,6 @@ youtube.com##.ytp-ad-progress
 ||zintext.com^$important
 ||zmedia.com^$important
 ||zumobi.com^$important
-@@^ref=$domain=tubeon.com
 twitch.tv##.pl-pinned-panel--animate.pl-pinned-panel
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link
 yandex.ru##.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_yes.desk-notif-card
@@ -6739,7 +6726,6 @@ outlook.live.com##div#app > div.ms-Fabric > div:last-child > div:first-child > d
 3g2upl4pq6kufc4m.onion##.social.header--aside__item
 3g2upl4pq6kufc4m.onion##.js-onboarding-ed.onboarding-ed
 3g2upl4pq6kufc4m.onion##.tag-home__item
-@@/captcha/*^referer=
 ||web-metrica.yandex.ru^$important
 /adsdk.js$script,important
 @@||gitlab-static.net/*analytics
@@ -6779,3 +6765,28 @@ _snowplow_$important
 ||liadm.com^$important
 ||boomtrain.com^$important
 ||newsmaxfeednetwork.com^$important
+@@||video-edge-*.abs.hls.ttvnw.net^$xmlhttprequest
+||c.microsoft.com^$important
+||c1.microsoft.com^$important
+||uhf.microsoft.com^$important
+@@||office365.com^*/landing.js
+/owa.MessageAdList.*$important
+||seal.verisign.com^$important
+||youtube.com/get_midroll_*$important
+||adglare.net^$important
+.adx-$important
+.adx.$important
+.adx^$important
+.adx_$important
+-adx-$important
+-adx.$important
+-adx^$important
+-adx_$important
+^adx-$important
+^adx.$important
+^adx^$important
+^adx_$important
+_adx-$important
+_adx.$important
+_adx^$important
+_adx_$important
