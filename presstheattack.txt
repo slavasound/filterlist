@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.085.1
+! Version: 0.0.086
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -6785,3 +6785,12 @@ _adx-$important
 _adx.$important
 _adx^$important
 _adx_$important
+||amazonaws.com/ki.js/$important
+||log.rutube.ru^$important
+tv.yandex.ru##.grid.grid_period_now > :first-child > :first-child + DIV
+tv.yandex.ru##.grid.grid_period_now + :last-child
+tv.yandex.ru##.grid__item + DIV > :first-child:last-child
+avito.ru##.js-common-banner.common-banner + :last-child
+avito.ru##.main-page-flex-container > DIV:first-child > DIV:first-child + DIV + DIV:last-child
+afisha.yandex.ru##.main + DIV:last-child
+afisha.yandex.ru##.sidebar :last-child
