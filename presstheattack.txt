@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.085
+! Version: 0.0.085.1
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -1932,7 +1932,6 @@
 /view.*^$important
 /x.gif^$image,important
 2ch.hk###plashque
-@@/\/yastatic.*\/(weather|orgpage|webspeechkit|translate|bus|maps|jquery|islands|morda\-logo|react|video|bemhtml|icons|market|tableau|share)/$xmlhttprequest,stylesheet,script,font,subdocument,image
 @@_log_$domain=facebook.com
 @@_rtb-$domain=twitch.tv
 @@||$websocket
@@ -1949,9 +1948,6 @@
 @@||vk.com/widget_community.php$subdocument
 @@||www.google.com/maps/*$script
 @@||www.instagram.com/static/bundles/base/landingpage.js/*$script
-@@||yastatic.*^$image,font
-@@||yastatic.net/tune*$image,stylesheet,script
-@@||yastatic.net^$media,script,subdocument,stylesheet,domain=translate.yandex.ru|mail.yandex.ru|music.yandex.ru|disk.yandex.ru|market.yandex.ru|money.yandex.ru|auto.ru|avia.yandex.ru|rabota.yandex.ru|radio.yandex.ru|taxi.yandex.ru|webmaster.yandex.ru|calendar.yandex.ru|trains.yandex.ru|travel.yandex.ru|passport.yandex.ru|auth.kinopoisk.ru
 ^ad0-
 ^ad0.
 ^ad0^
@@ -6673,7 +6669,6 @@ youtube.com##.ytp-ad-progress
 ||yandex.*/*/branding$important
 ||yandex.*/clck/$important
 ||yandex.*/pogoda/*$inline-script,first-party,important
-||yastatic.*^
 ||yastatic.net^*/atom.js$script,important
 ||yastatic.net^*nearest.js$script,important
 ||ybrantdigital.com^$important
