@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.088
+! Version: 0.0.089
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -3400,6 +3400,7 @@ twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".gg"]
+twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="bet4"]
 twitch.tv##a[href*="betsdota"]
 twitch.tv##a[href*="redirect-"]
@@ -3686,7 +3687,6 @@ youtube.com##.ytp-ad-progress
 ||adnetworkperformance.com^$important
 ||adnews.maddog2000.de^$important
 ||adnotch.com^$important
-||adnxs.com^$important
 ||adocean.pl^$important
 ||adonspot.com^$important
 ||adoperator.com^$important
@@ -6577,7 +6577,6 @@ afisha.yandex.ru##.sidebar :last-child
 ||adl.windows.com^$important
 ||ads.msn.com^$important
 ||ads1.msads.net^$important
-||ads1.msn.com^$important
 ||aidps.atdmt.com^$important
 ||aka-cdn-ns.adtech.de^$important
 ||b.ads2.msads.net^$important
@@ -6854,7 +6853,6 @@ afisha.yandex.ru##.sidebar :last-child
 ||pre.footprintpredict.com^$important
 ||preview.msn.com^$important
 ||rad.live.com^$important
-||rad.msn.com^$important
 ||redir.metaservices.microsoft.com^$important
 ||schemas.microsoft.akadns.net^$important
 ||secure.flashtalking.com^$important
@@ -6890,3 +6888,10 @@ afisha.yandex.ru##.sidebar :last-child
 ||win10.ipv6.microsoft.com^$important
 ||win1710.ipv6.microsoft.com^$important
 ||win8.ipv6.microsoft.com^$important
+||mxtads.com^$important
+||n1307adserv.xyz^$important
+/uutils.fcg^$important
+||mrelko.com^$important
+||graph.facebook.com^$important
+/^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
+streamingcastle.me^$important
