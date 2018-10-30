@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.089
+! Version: 0.0.090
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -4195,7 +4195,6 @@ youtube.com##.ytp-ad-progress
 ||bridgetrack.com^$important
 ||brightinfo.com^$important
 ||british-banners.com^$important
-||browser-updater.yandex.net^$important
 ||bs.yandex.ru^$important
 ||btrll.com^$important
 ||budsinc.com^$important
@@ -6894,4 +6893,42 @@ afisha.yandex.ru##.sidebar :last-child
 ||mrelko.com^$important
 ||graph.facebook.com^$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-streamingcastle.me^$important
+||streamingcastle.me^$important
+.hitcounter-$important
+.hitcounter.$important
+.hitcounter^$important
+.hitcounter_$important
+-hitcounter-$important
+-hitcounter.$important
+-hitcounter^$important
+-hitcounter_$important
+^hitcounter-$important
+^hitcounter.$important
+^hitcounter^$important
+^hitcounter_$important
+_hitcounter-$important
+_hitcounter.$important
+_hitcounter^$important
+_hitcounter_$important
+.browser-updater-$important
+.browser-updater.$important
+.browser-updater^$important
+.browser-updater_$important
+-browser-updater-$important
+-browser-updater.$important
+-browser-updater^$important
+-browser-updater_$important
+^browser-updater-$important
+^browser-updater.$important
+^browser-updater^$important
+^browser-updater_$important
+_browser-updater-$important
+_browser-updater.$important
+_browser-updater^$important
+_browser-updater_$important
+||klcheck.com^$important
+||zmctrack.net^$important
+||cdn.onesignal.com^$important
+/cdn-cgi/apps/head/$first-party,script
+||hm.baidu.com^$important
+||relap.io^$important
