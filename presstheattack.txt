@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.095
+! Version: 0.0.096
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -4003,7 +4003,7 @@ youtube.com##.ytp-ad-progress
 ||adserver.*.*^$important
 ||adserverplus.com^$important
 ||adserversolutions.com^$important
-||adservice.google.com^$important
+||adservice.*.*^$important
 ||adservinginternational.com^$important
 ||adsfac.eu^$important
 ||adsfac.net^$important
@@ -4033,7 +4033,7 @@ youtube.com##.ytp-ad-progress
 ||adsrv.*.*^$important
 ||adsrvr.org^$important
 ||adsstat.com^$important
-||adstat.4u.pl^$important
+||adstat.*.*^$important
 ||adstest.*.*^$important
 ||adsupply.com^$important
 ||adsupplyads.com^$important
@@ -7101,3 +7101,17 @@ youtube.com##.ytp-ad-progress
 ||zumobi.com^$important
 ||ìṃgur.com^$important
 ||ġooģle.com^$important
+||api.amplitude.com^$important
+||p.imgur.com^$important
+||adsensecustomsearchads.com^$important
+||assets.adobedtm.com^$important
+||typekit.net^$important
+||consent.truste.com^$important
+/ga-lite.*$script,important
+||tsyndicate.com^$important
+/js/track.*$important
+||collector.xhamster.com^$important
+||collector1.xhamster.com^$important
+||cnt.xhamster.com^$important
+||ht.redtube.com^$important
+||danzhallfes.com^$important
