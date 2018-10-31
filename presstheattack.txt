@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.096
+! Version: 0.0.097
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -7115,3 +7115,29 @@ youtube.com##.ytp-ad-progress
 ||cnt.xhamster.com^$important
 ||ht.redtube.com^$important
 ||danzhallfes.com^$important
+||cpiyz.com^$important
+||ghejbdgefhfjhhbgaee.ru^$important
+||promo-bc.com^$important
+.metrika-$important
+.metrika.$important
+.metrika^$important
+.metrika_$important
+-metrika-$important
+-metrika.$important
+-metrika^$important
+-metrika_$important
+^metrika-$important
+^metrika.$important
+^metrika^$important
+^metrika_$important
+_metrika-$important
+_metrika.$important
+_metrika^$important
+_metrika_$important
+/ads.js$important
+/site_ads.js$important
+||c.ato.mx^$important
+||p.ato.mx^$important
+||s.ato.mx^$important
+/packed.analytics.*$important
+||a.spankbang.com^$important
