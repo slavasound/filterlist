@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.094
+! Version: 0.0.095
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -61,16 +61,16 @@
 -ad24_$important
 -ad-
 -ad.
--adcampaign-$important
--adcampaign.$important
--adcampaign^$important
--adcampaign_$important
 -ad^
 -ad_
 -adblock-checker-$important
 -adblock-checker.$important
 -adblock-checker^$important
 -adblock-checker_$important
+-adcampaign-$important
+-adcampaign.$important
+-adcampaign^$important
+-adcampaign_$important
 -adcash-$important
 -adcash.$important
 -adcash^$important
@@ -933,16 +933,16 @@
 .ad24_$important
 .ad-
 .ad.
-.adcampaign-$important
-.adcampaign.$important
-.adcampaign^$important
-.adcampaign_$important
 .ad^
 .ad_
 .adblock-checker-$important
 .adblock-checker.$important
 .adblock-checker^$important
 .adblock-checker_$important
+.adcampaign-$important
+.adcampaign.$important
+.adcampaign^$important
+.adcampaign_$important
 .adcash-$important
 .adcash.$important
 .adcash^$important
@@ -1887,16 +1887,16 @@
 ^ad24_$important
 ^ad-
 ^ad.
-^adcampaign-$important
-^adcampaign.$important
-^adcampaign^$important
-^adcampaign_$important
 ^ad^
 ^ad_
 ^adblock-checker-$important
 ^adblock-checker.$important
 ^adblock-checker^$important
 ^adblock-checker_$important
+^adcampaign-$important
+^adcampaign.$important
+^adcampaign^$important
+^adcampaign_$important
 ^adcash-$important
 ^adcash.$important
 ^adcash^$important
@@ -2762,16 +2762,16 @@ _ad24^$important
 _ad24_$important
 _ad-
 _ad.
-_adcampaign-$important
-_adcampaign.$important
-_adcampaign^$important
-_adcampaign_$important
 _ad^
 _ad_
 _adblock-checker-$important
 _adblock-checker.$important
 _adblock-checker^$important
 _adblock-checker_$important
+_adcampaign-$important
+_adcampaign.$important
+_adcampaign^$important
+_adcampaign_$important
 _adcash-$important
 _adcash.$important
 _adcash^$important
@@ -3683,7 +3683,10 @@ yandex.ru##.stream-promo-popup
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
 ||1x1rank.com^$important
+||02ip.ru^$important
 ||2mdn.net^$important
+||2no.co^$important
+||2no.co^$important
 ||2o7.net^$important
 ||3cinteractive.com^$important
 ||3e1.cn^$important
@@ -4156,6 +4159,7 @@ youtube.com##.ytp-ad-progress
 ||amazonaws.com/ki.js/$important
 ||amo122.com^$important
 ||amobee.com^$important
+||ampnode.host^$important
 ||amung.us^$important
 ||an.yandex.ru^$important
 ||anahtars.com^$important
@@ -4163,6 +4167,8 @@ youtube.com##.ytp-ad-progress
 ||ancientroom.com^$important
 ||anm.intelli-direct.com^$important
 ||annonser.dagbladet.no^$important
+||anonfiles.download^$important
+||anonymousforum.pw^$important
 ||apex-ad.com^$important
 ||api.intensifier.de^$important
 ||api.twitch.tv/*/channels/*/extensions$important
@@ -4269,7 +4275,10 @@ youtube.com##.ytp-ad-progress
 ||basic-check.disconnect.me^$important
 ||bat.bing.com^$important
 ||bats.video.yahoo.com^$important
+||battlė.net^$important
 ||baypops.com^$important
+||bbcbloggers.co.uk^$important
+||bbcnews.today^$important
 ||bbelements.com^$important
 ||bbn.img.com.ua^$important
 ||bbnp.com^$important
@@ -4312,6 +4321,7 @@ youtube.com##.ytp-ad-progress
 ||bl3301-c.1drv.com^$important
 ||bl3301-g.1drv.com^$important
 ||blast4traffic.com^$important
+||blasze.tk^$important
 ||blingbucks.com^$important
 ||blogads.com^$important
 ||blogcounter.de^$important
@@ -4328,6 +4338,7 @@ youtube.com##.ytp-ad-progress
 ||blushing.findgutterhelmet.com^$important
 ||blutrumpet.com^$important
 ||bm.annonce.cz^$important
+||bmwforum.co^$important
 ||bn2b-cor001.api.p001.1drv.com^$important
 ||bn2b-cor002.api.p001.1drv.com^$important
 ||bn2b-cor003.api.p001.1drv.com^$important
@@ -4395,6 +4406,8 @@ youtube.com##.ytp-ad-progress
 ||british-banners.com^$important
 ||bs.yandex.ru^$important
 ||btrll.com^$important
+||bucks.as^$important
+||bucks.as^$important
 ||budsinc.com^$important
 ||bugsense.com^$important
 ||bugsnag.com^$important
@@ -4407,6 +4420,7 @@ youtube.com##.ytp-ad-progress
 ||buysellads.com^$important
 ||buzzonclick.com^$important
 ||bvalphaserver.com^$important
+||bvog.com^$important
 ||bwp.download.com^$important
 ||bxzxw.net^$important
 ||by3301-a.1drv.com^$important
@@ -4630,6 +4644,7 @@ youtube.com##.ytp-ad-progress
 ||clixgalore.com^$important
 ||clkads.com^$important
 ||clkrev.com^$important
+||cloudfsx.com^$important
 ||cls.vrvm.com^$important
 ||cluster.adultworld.com^$important
 ||clustrmaps.com^$important
@@ -4646,6 +4661,7 @@ youtube.com##.ytp-ad-progress
 ||comclick.com^$important
 ||commindo-media-ressourcen.de^$important
 ||commissionmonster.com^$important
+||community.hackersclub.net^$important
 ||compactbanner.com^$important
 ||company-target.com^$important
 ||compatexchange1.trafficmanager.net^$important
@@ -4714,9 +4730,11 @@ youtube.com##.ytp-ad-progress
 ||crwdcntrl.net^$important
 ||cs1.wpc.v0cdn.net^$important
 ||cse.google.com/cse.js^$script,important
+||csgopot.zone^$important
 ||csi.gstatic.com^$important
 ||csp.yandex.net^$important
 ||ctnetwork.hu^$important
+||cubeupload.xyz^$important
 ||cubics.com^$important
 ||custom-blacklisted-tracking-example.com^$important
 ||customad.cnn.com^$important
@@ -4724,6 +4742,7 @@ youtube.com##.ytp-ad-progress
 ||cy2.settings.data.microsoft.com.akadns.net^$important
 ||cy2.vortex.data.microsoft.com.akadns.net^$important
 ||cyberbounty.com^$important
+||cyberh1.xyz^$important
 ||cybermonitor.com^$important
 ||cylm.jh56.cn^$important
 ||czmlfc.sxtm30.badudns.cc^$important
@@ -5108,6 +5127,7 @@ youtube.com##.ytp-ad-progress
 ||dakic-ia-300.com^$important
 ||dal9hkyfi0m0n.cloudfront.net^$important
 ||danban.com^$important
+||dank.host^$important
 ||dapper.net^$important
 ||dapxl.com^$important
 ||daq0d0aotgq0f.cloudfront.net^$important
@@ -5143,6 +5163,8 @@ youtube.com##.ytp-ad-progress
 ||demkc32bq01ah.cloudfront.net^$important
 ||depilflash.tv^$important
 ||dev.virtualearth.net^$important
+||deviantartt.ga^$important
+||deviantartt.ml^$important
 ||dew9ckzjyt2gn.cloudfront.net^$important
 ||df0pmigc8xs70.cloudfront.net^$important
 ||df09rp0cm6rp6.cloudfront.net^$important
@@ -5167,10 +5189,12 @@ youtube.com##.ytp-ad-progress
 ||directorym.com^$important
 ||directtrack.com^$important
 ||discountclick.com^$important
+||discörd.com^$important
 ||displayadsmedia.com^$important
 ||displaypagerank.com^$important
 ||dist.belnk.com^$important
 ||disy2s34euyqm.cloudfront.net^$important
+||disċordapp.com^$important
 ||dizixdllzznrf.cloudfront.net^$important
 ||djlf5xdlz7m8m.cloudfront.net^$important
 ||djr4k68f8n55o.cloudfront.net^$important
@@ -5219,6 +5243,7 @@ youtube.com##.ytp-ad-progress
 ||doushimm.com^$important
 ||down.nishuoa.com^$important
 ||downloadfused.com^$important
+||downthe.design^$important
 ||dp1fzft1fdb84.cloudfront.net^$important
 ||dp51h10v6ggpa.cloudfront.net^$important
 ||dpmsrv.com^$important
@@ -5232,6 +5257,10 @@ youtube.com##.ytp-ad-progress
 ||dr8pk6ovub897.cloudfront.net^$important
 ||drawbrid.ge^$important
 ||drf8e429z5jzt.cloudfront.net^$important
+||dropbox.desi^$important
+||dropboxx.cf^$important
+||dropboxx.ga^$important
+||dropboxx.lm ^$important
 ||drrcckbju3nd0.cloudfront.net^$important
 ||drteachme.com^$important
 ||drumcash.com^$important
@@ -5356,12 +5385,14 @@ youtube.com##.ytp-ad-progress
 ||exchange.bg^$important
 ||exchangead.com^$important
 ||exchangeclicksonline.com^$important
+||exec-true.eu^$important
 ||exit76.com^$important
 ||exitexchange.com^$important
 ||exitfuel.com^$important
 ||exoclick.com^$important
 ||exogripper.com^$important
 ||experteerads.com^$important
+||exploit-db.xyz^$important
 ||exponential.com^$important
 ||express-submit.de^$important
 ||extractorandburner.com^$important
@@ -5371,6 +5402,7 @@ youtube.com##.ytp-ad-progress
 ||eyereturn.com^$important
 ||eyeviewads.com^$important
 ||eyewonder.com^$important
+||ezstat.ru^$important
 ||eztexting.com^$important
 ||ezula.com^$important
 ||f5biz.com^$important
@@ -5389,6 +5421,7 @@ youtube.com##.ytp-ad-progress
 ||fffddd11.cn^$important
 ||ffxcam.fairfax.com.au^$important
 ||fiksu.com^$important
+||files.uploads.ws^$important
 ||filmschoolsforum.com^$important
 ||fimc.net^$important
 ||fimserve.com^$important
@@ -5408,10 +5441,15 @@ youtube.com##.ytp-ad-progress
 ||fonecta.leiki.com^$important
 ||foo.cosmocode.de^$important
 ||forex-affiliate.net^$important
+||fortnight.space^$important
+||fortnitechat.site^$important
+||fotocerdas.com^$important
 ||fpctraffic2.com^$important
 ||fpctraffic.com^$important
 ||fragmentserv.iac-online.de^$important
+||freeanonymous.host^$important
 ||freebanner.com^$important
+||freegiftcards.co^$important
 ||freelogs.com^$important
 ||freemyapps.com^$important
 ||freeonlineusers.com^$important
@@ -5435,6 +5473,7 @@ youtube.com##.ytp-ad-progress
 ||gamesites100.net^$important
 ||gamesites200.com^$important
 ||gamesitestop100.com^$important
+||gameskeys.shop^$important
 ||gator.com^$important
 ||gayadnetwork.com^$important
 ||gbanners.hornymatches.com^$important
@@ -5485,22 +5524,32 @@ youtube.com##.ytp-ad-progress
 ||gp.dejanews.com^$important
 ||gpr.hu^$important
 ||gqwhyjh.com^$important
+||grabify.link^$important
 ||grafstat.ro^$important
 ||graph.facebook.com^$important
 ||greystripe.com^$important
 ||group-ib.ru^$important
 ||gsimon.edu.free.fr^$important
+||gtadb.net^$important
 ||gtop100.com^$important
 ||gtop.ro^$important
 ||gtsads.com^$important
 ||gtsmobi.com^$important
 ||guppymedia.com^$important
+||gyazo.nl^$important
+||gyazoo.ga^$important
+||gyazoo.xyz^$important
 ||h1.msn.com^$important
 ||h2.msn.com^$important
+||hackernews.online^$important
+||hackfȯrums.com^$important
+||hackfȯrums.net^$important
 ||hairtease.com^$important
 ||harrenmedia.com^$important
 ||harrenmedianetwork.com^$important
 ||havamedia.net^$important
+||hbotv.co^$important
+||hdblog.tech^$important
 ||heias.com^$important
 ||hentaicounter.com^$important
 ||herbalaffiliateprogram.com^$important
@@ -5615,11 +5664,14 @@ youtube.com##.ytp-ad-progress
 ||hollandbusinessadvertising.nl^$important
 ||homely.gutterheaters4u.com^$important
 ||homepageking.de^$important
+||hondachat.com^$important
 ||hostedads.realitykings.com^$important
+||hostingonline.desi^$important
 ||hotjar.com^$important
 ||hotkeys.com^$important
 ||hotlog.ru^$important
 ||hotrank.com.tw^$important
+||hs.vc^$important
 ||hsbarbershop.co.uk^$important
 ||htmlhubing.xyz^$important
 ||httpool.com^$important
@@ -5642,11 +5694,13 @@ youtube.com##.ytp-ad-progress
 ||i-lookup.com^$important
 ||i-sn2-cor001.api.p001.1drv.com^$important
 ||i-sn2-cor002.api.p001.1drv.com^$important
+||i.imger.me^$important
 ||ia.iinfo.cz^$important
 ||iad.anm.co.uk^$important
 ||iadctest.qwapi.com^$important
 ||iadnet.com^$important
 ||iadsdk.apple.com^$important
+||iany.pl^$important
 ||iasds01.com^$important
 ||iconadserver.com^$important
 ||icptrack.com^$important
@@ -5671,12 +5725,16 @@ youtube.com##.ytp-ad-progress
 ||images-pw.secureserver.net^$important
 ||images.rambler.ru^$important
 ||images.v3.com^$important
+||imageshack.ml^$important
 ||imarketservices.com^$important
 ||imasdk.googleapis.com^$important
 ||imatmobile.com^$important
 ||img.prohardver.hu^$important
+||imger.me^$important
 ||imgpromo.easyrencontre.com^$important
 ||imgur.com/lumbar.gif$image,important
+||imgurl.us^$important
+||imgúr.com^$important
 ||imimobile.com^$important
 ||imonitor.nethost.cz^$important
 ||impactmobile.com^$important
@@ -5717,9 +5775,21 @@ youtube.com##.ytp-ad-progress
 ||interstat.hu^$important
 ||inuvi.com^$important
 ||ip193.cn^$important
+||ip-grabber.com^$important
+||ip.jlynx.net^$important
 ||ip.ro^$important
+||ipddoser.xyz^$important
 ||iperceptions.com^$important
+||ipgrabber.ru^$important
+||ipgraber.ru^$important
+||iplis.ru^$important
+||iplo.ru^$important
+||iplogger.com^$important
+||iplogger.info^$important
+||iplogger.org^$important
+||iplogger.ru^$important
 ||ipro.com^$important
+||ipsnatcher.com^$important
 ||iranbar.org^$important
 ||ireklama.cz^$important
 ||itfarm.com^$important
@@ -5739,6 +5809,7 @@ youtube.com##.ytp-ad-progress
 ||jkazaa.cjt1.net^$important
 ||jnova.cjt1.net^$important
 ||joetec.net^$important
+||joinmy.site^$important
 ||jokedollars.com^$important
 ||js-agent.newrelic.com^$important
 ||js.users.51.la^$important
@@ -5773,6 +5844,7 @@ youtube.com##.ytp-ad-progress
 ||ktoooo.com^$important
 ||ktu.sv2.biz^$important
 ||kumykoz.com^$important
+||l-imgur.pl^$important
 ||ladybug.gutterheatersus.com^$important
 ||lakequincy.com^$important
 ||laos.luangprabang.free.fr^$important
@@ -5790,7 +5862,9 @@ youtube.com##.ytp-ad-progress
 ||leadingedgecash.com^$important
 ||leadmobi.*.alibaba.com^$important
 ||leadzupc.com^$important
+||leakforum.ga^$important
 ||lean.com^$important
+||leancoding.co^$important
 ||leanoisgo.com^$important
 ||lectscalimertdr43.land.ru^$important
 ||legolas-media.com^$important
@@ -5812,6 +5886,7 @@ youtube.com##.ytp-ad-progress
 ||linkbuddies.com^$important
 ||linkexchange.com^$important
 ||linkexchange.ru^$important
+||linkit.cf^$important
 ||linkprice.com^$important
 ||linkrain.com^$important
 ||linkreferral.com^$important
@@ -5835,6 +5910,7 @@ youtube.com##.ytp-ad-progress
 ||log.btopenworld.com^$important
 ||log.mmstat.com^$important
 ||log.rutube.ru^$important
+||login.anal-porn.info^$important
 ||logua.com^$important
 ||loles.neostrada.pl^$important
 ||londparig.ga^$important
@@ -5854,6 +5930,7 @@ youtube.com##.ytp-ad-progress
 ||madvertise.de^$important
 ||magnetic.com^$important
 ||mail.yandex.*/monitoring_liza.txt$important
+||mailble.com^$important
 ||malware-check.disconnect.me^$important
 ||malware-scan.com^$important
 ||mampoks.ru^$important
@@ -5886,6 +5963,7 @@ youtube.com##.ytp-ad-progress
 ||media6degrees.com^$important
 ||media-adrunner.mycomputer.com^$important
 ||media-servers.net^$important
+||media.appspot.com^$important
 ||media.ftv-publicite.fr^$important
 ||media.funpic.de^$important
 ||media.net^$important
@@ -5935,6 +6013,7 @@ youtube.com##.ytp-ad-progress
 ||midnightclicking.com^$important
 ||millennialmedia.com^$important
 ||mindmemobile.com^$important
+||minecräft.com^$important
 ||mintrace.com^$important
 ||misstrends.com^$important
 ||miva.com^$important
@@ -5998,12 +6077,14 @@ youtube.com##.ytp-ad-progress
 ||musiccounter.ru^$important
 ||muwmedia.com^$important
 ||mxtads.com^$important
+||my-alts.eu^$important
 ||myaffiliateprogram.com^$important
 ||mybloglog.com^$important
 ||mybuzzmonitor.com^$important
 ||mycounter.ua^$important
 ||mydas.mobi^$important
 ||myfileupload.ru^$important
+||myiptest.com/img.php^$important
 ||mypagerank.net^$important
 ||mypagerank.ru^$important
 ||mypowermall.com^$important
@@ -6142,8 +6223,10 @@ youtube.com##.ytp-ad-progress
 ||pagerank-suchmaschine.de^$important
 ||pagerank-united.de^$important
 ||pageranktop.com^$important
+||panel.teamspeak.bz^$important
 ||papayamobile.com^$important
 ||paranteztanitim.com^$important
+||parlament.usa.cc^$important
 ||partage-facile.com^$important
 ||partner-ads.com^$important
 ||partner.pelikan.cz^$important
@@ -6155,6 +6238,7 @@ youtube.com##.ytp-ad-progress
 ||pattayabazaar.com^$important
 ||pay-ads.com^$important
 ||paycounter.com^$important
+||paypal.sellbitcoins.com^$important
 ||paypopup.com^$important
 ||payserve.com^$important
 ||pbnet.ru^$important
@@ -6216,6 +6300,7 @@ youtube.com##.ytp-ad-progress
 ||popuptraffic.com^$important
 ||porngraph.com^$important
 ||porntrack.com^$important
+||postimage.co^$important
 ||postrelease.com^$important
 ||potenza.cz^$important
 ||power.bestconstructionexpertwitness.com^$important
@@ -6232,7 +6317,10 @@ youtube.com##.ytp-ad-progress
 ||preview.msn.com^$important
 ||primaryads.com^$important
 ||primetime.net^$important
+||printscr.ga^$important
 ||privatecash.com^$important
+||privatexmpp.me^$important
+||prntsc.cf^$important
 ||pro-advertising.com^$important
 ||pro.i-doctor.co.kr^$important
 ||proext.com^$important
@@ -6253,7 +6341,9 @@ youtube.com##.ytp-ad-progress
 ||proton-tm.com^$important
 ||protraffic.com^$important
 ||provexia.com^$important
+||proxyfill.co^$important
 ||prsitecheck.com^$important
+||ps3cfw.com^$important
 ||psstt.com^$important
 ||pub.chez.com^$important
 ||pub.club-internet.fr^$important
@@ -6261,6 +6351,7 @@ youtube.com##.ytp-ad-progress
 ||pub.realmedia.fr^$important
 ||pubdirecte.com^$important
 ||publicidad.elmundo.es^$important
+||publicwiki.m^$important
 ||pubmatic.com^$important
 ||pubs.lemonde.fr^$important
 ||pulse360.com^$important
@@ -6274,10 +6365,13 @@ youtube.com##.ytp-ad-progress
 ||quantserve.com^$important
 ||quarterserver.de^$important
 ||questaffiliates.net^$important
+||quickmessage.io^$important
+||quickmessage.us^important
 ||quigo.com^$important
 ||quinst.com^$important
 ||quisma.com^$important
 ||qwapi.apple.com^$important
+||r1p.pw^$important
 ||r3.mail.ru^$important
 ||rad.live.com^$important
 ||rad.msn.com^$important
@@ -6354,6 +6448,7 @@ youtube.com##.ytp-ad-progress
 ||rick.nirmallife.co.in^$important
 ||rightmedia.com^$important
 ||rightstats.com^$important
+||rikiki.net^$important
 ||rlcdn.com^$important
 ||rle.ru^$important
 ||rmads.msn.com^$important
@@ -6379,6 +6474,7 @@ youtube.com##.ytp-ad-progress
 ||rubiconproject.com^$important
 ||rutarget.ru^$important
 ||rythmxchange.com^$important
+||rëddït.com^$important
 ||s2d6.com^$important
 ||s.adroll.com^$important
 ||sa.bbc.co.uk^$important
@@ -6388,6 +6484,7 @@ youtube.com##.ytp-ad-progress
 ||scambiobanner.aruba.it^$important
 ||scanscout.com^$important
 ||schemas.microsoft.akadns.net^$important
+||sciencefuture.tk^$important
 ||scientiamobile.com^$important
 ||scopelight.com^$important
 ||scorecardresearch.com^$important
@@ -6428,6 +6525,7 @@ youtube.com##.ytp-ad-progress
 ||sexinyourcity.com^$important
 ||sexlist.com^$important
 ||sextracker.com^$important
+||sexy18.webcam^$important
 ||sexystat.com^$important
 ||sezwho.com^$important
 ||sgruber.com.br^$important
@@ -6440,6 +6538,7 @@ youtube.com##.ytp-ad-progress
 ||shinystat.com^$important
 ||shinystat.it^$important
 ||shoppingads.com^$important
+||shört.co^$important
 ||siccash.com^$important
 ||sicken.cede.cl^$important
 ||sidebar.angelfire.com^$important
@@ -6453,8 +6552,11 @@ youtube.com##.ytp-ad-progress
 ||sitemeter.com^$important
 ||sitestat.com^$important
 ||sixsigmatraffic.com^$important
+||skidpaste.org^$important
 ||skimresources.com^$important
 ||skylink.vn^$important
+||skypecracker.xyz^$important
+||skypegrab.net^$important
 ||slickaffiliate.com^$important
 ||slicktext.com^$important
 ||slopeaota.com^$important
@@ -6488,7 +6590,9 @@ youtube.com##.ytp-ad-progress
 ||sponsorpay.com^$important
 ||sponsorpro.de^$important
 ||sponsors.thoughtsmedia.com^$important
+||spoofing.host^$important
 ||spot.fitness.com^$important
+||spottyfly.com^$important
 ||spotxchange.com^$important
 ||sprinks-clicks.about.com^$important
 ||sputnik.ru^$important
@@ -6500,12 +6604,17 @@ youtube.com##.ytp-ad-progress
 ||spywarelabs.com^$important
 ||spywarenuker.com^$important
 ||spywords.com^$important
+||spötify.com^$important
+||spötify.com^$important
 ||sqm.telemetry.microsoft.com.nsatc.net^$important
 ||srbijacafe.org^$important
 ||srwww1.com^$important
 ||ssl-images-amazon.com^*/ape/sf/*/dasf*$script,important
 ||ssw.live.com^$important
 ||star-advertising.com^$important
+||starbucks.bio^$important
+||starbucksisbadforyou.com^$important
+||starbucksiswrong.com^$important
 ||starffa.com^$important
 ||start.freeze.com^$important
 ||startapp.com^$important
@@ -6545,11 +6654,16 @@ youtube.com##.ytp-ad-progress
 ||stats.x14.eu^$important
 ||statsie.com^$important
 ||statxpress.com^$important
+||steamtools.co^$important
 ||steelhouse.com^$important
 ||steelhousemedia.com^$important
 ||stickyadstv.com^$important
 ||stoneb.cn^$important
+||stopify.co^$important
+||strawpoll.ga^$important
+||strawpolll.ga^$important
 ||streamingcastle.me^$important
+||stresser.science^$important
 ||strikead.com^$important
 ||strikeiron.com^$important
 ||suavalds.com^$important
@@ -6570,6 +6684,9 @@ youtube.com##.ytp-ad-progress
 ||sx.trhnt.com^$important
 ||sympation.com^$important
 ||sznaucer-figa.nd.e-wro.pl^$important
+||särahah.eu^$important
+||särahah.pl^important
+||sĸype.com^$important
 ||t0.ssl.ak.dynamic.tiles.virtualearth.net^$important
 ||t0.ssl.ak.tiles.virtualearth.net^$important
 ||t.insigit.com^$important
@@ -6628,6 +6745,7 @@ youtube.com##.ytp-ad-progress
 ||thrnt.com^$important
 ||throne.thehelpbiz.com^$important
 ||thruport.com^$important
+||tigercore.eu^$important
 ||tinybar.com^$important
 ||tizers.net^$important
 ||tlvmedia.com^$important
@@ -6650,6 +6768,7 @@ youtube.com##.ytp-ad-progress
 ||topbarh.box.sk^$important
 ||topblogarea.se^$important
 ||topbucks.com^$important
+||topcdn.biz^$important
 ||topforall.com^$important
 ||topgamesites.net^$important
 ||toplist.cz^$important
@@ -6665,6 +6784,7 @@ youtube.com##.ytp-ad-progress
 ||topsite.lv^$important
 ||topsites.com.br^$important
 ||topstats.com^$important
+||topstreaming.us^$important
 ||torreslimos.com^$important
 ||totemcash.com^$important
 ||touchads.com^$important
@@ -6703,6 +6823,7 @@ youtube.com##.ytp-ad-progress
 ||trafficz.net^$important
 ||traffiq.com^$important
 ||trafic.ro^$important
+||transferfiles.cloud^$important
 ||travis.bosscasinos.com^$important
 ||trekblue.com^$important
 ||trekdata.com^$important
@@ -6717,6 +6838,7 @@ youtube.com##.ytp-ad-progress
 ||truehits2.gits.net.th^$important
 ||truehits.net^$important
 ||trumpia.com^$important
+||ts3free.top^$important
 ||tsms-ad.tsms.com^$important
 ||tubedspots.com^$important
 ||tubemogul.com^$important
@@ -6724,9 +6846,13 @@ youtube.com##.ytp-ad-progress
 ||tvas-a.pw^$important
 ||tvas-c.pw^$important
 ||tvmtracker.com^$important
+||tvshare.co^$important
+||twitch-stats.stream^$important
 ||twittad.com^$important
+||twitte.ga^$important
 ||twitter.com/i/jot^$important
 ||twitter.com/oct.*$script,important
+||twiţter.com^$important
 ||txtimpact.com^$important
 ||tyroo.com^$important
 ||uarating.com^$important
@@ -6776,11 +6902,14 @@ youtube.com##.ytp-ad-progress
 ||vervewireless.com^$important
 ||vibrantmedia.com^$important
 ||video-stats.video.google.com^$important
+||videoblog.tech^$important
 ||videoegg.com^$important
 ||view4cash.de^$important
 ||viewpoint.com^$important
 ||viewwonder.com^$important
 ||vimeocdn.com/js_opt/ablincoln_combined.min.*$script,important
+||viphackforum.xyz^$important
+||viphackforums.xyz^$important
 ||visistat.com^$important
 ||visit.webhosting.yahoo.com^$important
 ||visitbox.de^$important
@@ -6804,6 +6933,7 @@ youtube.com##.ytp-ad-progress
 ||warlog.info^$important
 ||warlog.ru^$important
 ||warp.ly^$important
+||watches-my.stream^$important
 ||watson.live.com^$important
 ||watson.microsoft.com^$important
 ||wda.com^$important
@@ -6824,6 +6954,7 @@ youtube.com##.ytp-ad-progress
 ||webmasterplan.de^$important
 ||weborama.fr^$important
 ||webpower.com^$important
+||webprofile.me^$important
 ||webreseau.com^$important
 ||webseoanalytics.com^$important
 ||websponsors.com^$important
@@ -6878,6 +7009,8 @@ youtube.com##.ytp-ad-progress
 ||xad.com^$important
 ||xchange.ro^$important
 ||xclicks.net^$important
+||xda-developers.io^$important
+||xda-developers.us^$important
 ||xertive.com^$important
 ||xg4ken.com^$important
 ||xingqibaile.com^$important
@@ -6892,6 +7025,7 @@ youtube.com##.ytp-ad-progress
 ||xrea.com^$important
 ||xtendmedia.com^$important
 ||xtremetop100.com^$important
+||xxox.co.uk^$important
 ||xxxcounter.com^$important
 ||xxxmyself.com^$important
 ||xxxporno18.ru^$important
@@ -6919,19 +7053,32 @@ youtube.com##.ytp-ad-progress
 ||yieldmanager.net^$important
 ||yieldtraffic.com^$important
 ||yihaotui.com^$important
+||yip.su^$important
+||yip.su^$important
 ||yixingim.com^$important
 ||yoc-performance.com^$important
 ||yoc.mobi^$important
 ||yoggrt.com^$important
+||youramonkey.com^$important
+||youshouldclick.us^$important
 ||youthfire.com^$important
 ||youtube.com/api/stats$important
 ||youtube.com/get_midroll_*$important
+||youutube.gq^$important
+||yoütu.be^$important
+||yoütu.be^$important
+||yoütübe.co^$important
+||yoütübe.co^$important
+||yoütübe.com^$important
+||yoütübe.com^$important
 ||yqkpt.com^$important
 ||ysbbcrypsc.com^$important
 ||yserch.com^$important
 ||yttestsite.com^$important
 ||yuilop.com^$important
 ||yume.com^$important
+||yòutube.com^$important
+||yȯutube.com^$important
 ||z5x.net^$important
 ||zanox-affiliate.de^$important
 ||zanox.com^$important
@@ -6952,3 +7099,5 @@ youtube.com##.ytp-ad-progress
 ||zmctrack.net^$important
 ||zmedia.com^$important
 ||zumobi.com^$important
+||ìṃgur.com^$important
+||ġooģle.com^$important
