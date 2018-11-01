@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 1 November 2018
+! Last modified: 2 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.099
+! Version: 0.0.100
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -419,10 +419,10 @@
 -autolinkmaker.$important
 -autolinkmaker^$important
 -autolinkmaker_$important
--bcn-$important
--bcn.$important
--bcn^$important
--bcn_$important
+-bcn-
+-bcn.
+-bcn^
+-bcn_
 -beacon-$important
 -beacon.$important
 -beacon^$important
@@ -1291,10 +1291,10 @@
 .autolinkmaker.$important
 .autolinkmaker^$important
 .autolinkmaker_$important
-.bcn-$important
-.bcn.$important
-.bcn^$important
-.bcn_$important
+.bcn-
+.bcn.
+.bcn^
+.bcn_
 .beacon-$important
 .beacon.$important
 .beacon^$important
@@ -2246,10 +2246,10 @@
 ^autolinkmaker.$important
 ^autolinkmaker^$important
 ^autolinkmaker_$important
-^bcn-$important
-^bcn.$important
-^bcn^$important
-^bcn_$important
+^bcn-
+^bcn.
+^bcn^
+^bcn_
 ^beacon-$important
 ^beacon.$important
 ^beacon^$important
@@ -3120,10 +3120,10 @@ _autolinkmaker-$important
 _autolinkmaker.$important
 _autolinkmaker^$important
 _autolinkmaker_$important
-_bcn-$important
-_bcn.$important
-_bcn^$important
-_bcn_$important
+_bcn-
+_bcn.
+_bcn^
+_bcn_
 _beacon-$important
 _beacon.$important
 _beacon^$important
@@ -7513,3 +7513,31 @@ _adtime-$important
 _adtime.$important
 _adtime^$important
 _adtime_$important
+.googledfpslot-$important
+.googledfpslot.$important
+.googledfpslot^$important
+.googledfpslot_$important
+-googledfpslot-$important
+-googledfpslot.$important
+-googledfpslot^$important
+-googledfpslot_$important
+^googledfpslot-$important
+^googledfpslot.$important
+^googledfpslot^$important
+^googledfpslot_$important
+_googledfpslot-$important
+_googledfpslot.$important
+_googledfpslot^$important
+_googledfpslot_$important
+||microad.net^$important
+/\/([0-9]|[a-z]|analytics?|atrk|hit|log|njs|ping|pix|px|stat|track(ers?|ing)?|visitor)\.gif\?/$important
+||badges.instagram.com^$important
+||s.yjtag.jp^$important
+||platform.tumblr.com^$important
+/ad.js$script,important
+/ad.css$stylesheet,important
+/count.json?$important
+/entry.count?$important
+||nakanohito.jp/b*/b*.js$script,important
+||cdn.pardot.com^$important
+||agkn.com^$important
