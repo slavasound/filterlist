@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.097
+! Version: 0.0.098
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -7141,3 +7141,87 @@ _metrika_$important
 ||s.ato.mx^$important
 /packed.analytics.*$important
 ||a.spankbang.com^$important
+||mediator.mail.ru^$important
+||d2wy8f7a9ursnm.cloudfront.net^$important
+||ntvk1.ru^$important
+.adcounter-$important
+.adcounter.$important
+.adcounter^$important
+.adcounter_$important
+-adcounter-$important
+-adcounter.$important
+-adcounter^$important
+-adcounter_$important
+^adcounter-$important
+^adcounter.$important
+^adcounter^$important
+^adcounter_$important
+_adcounter-$important
+_adcounter.$important
+_adcounter^$important
+_adcounter_$important
+/adi.js$script,important
+.adiframe-$important
+.adiframe.$important
+.adiframe^$important
+.adiframe_$important
+-adiframe-$important
+-adiframe.$important
+-adiframe^$important
+-adiframe_$important
+^adiframe-$important
+^adiframe.$important
+^adiframe^$important
+^adiframe_$important
+_adiframe-$important
+_adiframe.$important
+_adiframe^$important
+_adiframe_$important
+.adimage-$important
+.adimage.$important
+.adimage^$important
+.adimage_$important
+-adimage-$important
+-adimage.$important
+-adimage^$important
+-adimage_$important
+^adimage-$important
+^adimage.$important
+^adimage^$important
+^adimage_$important
+_adimage-$important
+_adimage.$important
+_adimage^$important
+_adimage_$important
+.adimg-$important
+.adimg.$important
+.adimg^$important
+.adimg_$important
+-adimg-$important
+-adimg.$important
+-adimg^$important
+-adimg_$important
+^adimg-$important
+^adimg.$important
+^adimg^$important
+^adimg_$important
+_adimg-$important
+_adimg.$important
+_adimg^$important
+_adimg_$important
+.adinfo-$important
+.adinfo.$important
+.adinfo^$important
+.adinfo_$important
+-adinfo-$important
+-adinfo.$important
+-adinfo^$important
+-adinfo_$important
+^adinfo-$important
+^adinfo.$important
+^adinfo^$important
+^adinfo_$important
+_adinfo-$important
+_adinfo.$important
+_adinfo^$important
+_adinfo_$important
