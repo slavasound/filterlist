@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.100
+! Version: 0.0.101
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -7541,3 +7541,30 @@ _googledfpslot_$important
 ||nakanohito.jp/b*/b*.js$script,important
 ||cdn.pardot.com^$important
 ||agkn.com^$important
+translate.yandex.ru###collectionsBanner
+||a.stat.xiaomi.com^$important
+||abtest.mistat.intl.xiaomi.com^$important
+||abtest.mistat.xiaomi.com^$important
+||api.ad.xiaomi.com^$important
+||api.admob.xiaomi.com^$important
+||api.d.xiaomi.com^$important
+||cc.sys.intl.xiaomi.com^$important
+||cc.sys.miui.com^$important
+||ccc.sys.intl.xiaomi.com^$important
+||ccc.sys.miui.com^$important
+||cdn.ad.xiaomi.com^$important
+||data.mistat.intl.xiaomi.com^$important
+||data.mistat.xiaomi.com^$important
+||e.ad.xiaomi.com^$important
+||fcanr.tracking.miui.com^$important
+||geofence.sys.miui.com^$important
+||globalapi.ad.xiaomi.com^$important
+||new.api.ad.xiaomi.com^$important
+||sdkconfig.ad.xiaomi.com^$important
+||ssp.ad.xiaomi.com^$important
+||storeconfig.mistat.intl.xiaomi.com^$important
+||test.ad.xiaomi.com^$important
+||test.e.ad.xiaomi.com^$important
+||test.new.api.ad.xiaomi.com^$important
+||tracking.miui.com^$important
+||zeus.ad.intl.xiaomi.com^$important
