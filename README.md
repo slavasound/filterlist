@@ -23,7 +23,7 @@ Note that I mainly use uBlock Origin. I will do my best to maintain compatibilit
 
 In order to use these rules, you'll need a compatibile browser plugin.
 
-* [uBlock Origin](https://github.com/gorhill/uBlock) (use [uBlock Origin](https://github.com/gorhill/uBlock), not [uBlock](https://www.ublock.org) <[why?](https://github.com/gorhill/uBlock/wiki/Badware-risks#ublockorg)>)
+* [uBlock **Origin**](https://github.com/gorhill/uBlock) (not [uBlock](https://www.ublock.org) <sup><small>[why?](https://github.com/bogachenko/presstheattack/wiki/uBlock-Origin-vs-uBlock)</small></sup>)
 	* [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
 	* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 	* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
