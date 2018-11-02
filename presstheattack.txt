@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 2 November 2018
+! Last modified: 3 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.104
+! Version: 0.0.105
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -4064,8 +4064,8 @@ youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
 ||1mp.mobi^$important
 ||1x1rank.com^$important
-||2mdn.net^$important
 ||02ip.ru^$important
+||2mdn.net^$important
 ||2no.co^$important
 ||2o7.net^$important
 ||3cinteractive.com^$important
@@ -4203,15 +4203,12 @@ youtube.com##.ytp-ad-progress
 ||ad.*.*^$important
 ||adaction.de^$important
 ||adadvisor.net^$important
-||adadvisor.net^$important
 ||adap.tv^$important
 ||adapt.tv^$important
 ||adback.tango.me^$important
 ||adbanner.ro^$important
 ||adbard.net^$important
-||adbetnet.advertserve.com^$important
 ||adbetnet.com^$important
-||adblade.com^$important
 ||adblade.com^$important
 ||adblockanalytics.com^$important
 ||adboost.de.vu^$important
@@ -4229,9 +4226,7 @@ youtube.com##.ytp-ad-progress
 ||adbuyer.com^$important
 ||adcamp.ru^$important
 ||adcash.com^$important
-||adcash.com^$important
 ||adcast.deviantart.com^$important
-||adcel.vrvm.com^$important
 ||adcel.vrvm.com^$important
 ||adcell.de^$important
 ||adcenter.mdf.se^$important
@@ -4244,7 +4239,6 @@ youtube.com##.ytp-ad-progress
 ||adclient.uimserv.net^$important
 ||adclix.org^$important
 ||adcloud.net^$important
-||adcolony.com^$important
 ||adcolony.com^$important
 ||adcomplete.com^$important
 ||adconion.com^$important
@@ -4271,7 +4265,6 @@ youtube.com##.ytp-ad-progress
 ||adflight.com^$important
 ||adforce.com^$important
 ||adforgames.com^$important
-||adform.com^$important
 ||adform.com^$important
 ||adfox.ru^$important
 ||adfox.yandex.ru^$important
@@ -4311,7 +4304,6 @@ youtube.com##.ytp-ad-progress
 ||adisfy.com^$important
 ||aditic.net^$important
 ||adition.com^$important
-||adition.com^$important
 ||adition.de^$important
 ||adition.net^$important
 ||adizio.com^$important
@@ -4341,7 +4333,6 @@ youtube.com##.ytp-ad-progress
 ||admail.am^$important
 ||admailtiser.com^$important
 ||adman.gr^$important
-||adman.gr^$important
 ||adman.in.gr^$important
 ||adman.otenet.gr^$important
 ||admanagement.ch^$important
@@ -4351,10 +4342,7 @@ youtube.com##.ytp-ad-progress
 ||admarketplace.com^$important
 ||admarketplace.net^$important
 ||admarvel.com^$important
-||admarvel.com^$important
 ||admarvel.s3.amazonaws.com^$important
-||admarvel.s3.amazonaws.com^$important
-||admedia.com^$important
 ||admedia.com^$important
 ||admedia.ro^$important
 ||admedo.com^$important
@@ -4364,9 +4352,13 @@ youtube.com##.ytp-ad-progress
 ||admex.com^$important
 ||admicro1.vcmedia.vn^$important
 ||admicro2.vcmedia.vn^$important
+||admin.appnext.com^$important
 ||adminder.com^$important
 ||adminshop.com^$important
 ||admisoft.com^$important
+||admitad.com^$important
+||admixer.co.kr^$important
+||admixer.net^$important
 ||admized.com^$important
 ||admob.com^$important
 ||admob.comadwhirl.com^$important
@@ -4375,6 +4367,8 @@ youtube.com##.ytp-ad-progress
 ||admotion.com.ar^$important
 ||admtpmp123.com^$important
 ||admtpmp124.com^$important
+||admulti.com^$important
+||adn.insight.ucweb.com^$important
 ||adnection.com^$important
 ||adnet-media.net^$important
 ||adnet.asahi.com^$important
@@ -4390,20 +4384,30 @@ youtube.com##.ytp-ad-progress
 ||adnotch.com^$important
 ||adnxs.com^$important
 ||adocean.pl^$important
+||adonly.com^$important
 ||adonspot.com^$important
 ||adoperator.com^$important
+||adops.cricbuzz.com^$important
 ||adorigin.com^$important
+||adotsolution.com^$important
+||adotube.com^$important
 ||adpacks.com^$important
 ||adpepper.dk^$important
 ||adpepper.nl^$important
 ||adperium.com^$important
 ||adpia.vn^$important
+||adplatform.vrtcal.com^$important
+||adplay.vm5apis.com^$important
 ||adplus.co.id^$important
 ||adplxmd.com^$important
 ||adprimemedia.com^$important
 ||adprofile.net^$important
 ||adprojekt.pl^$important
+||adprotected.com^$important
+||adpublisher.s3.amazonaws.com^$important
+||adpush.goforandroid.com^$important
 ||adq.nextag.com^$important
+||adquota.com^$important
 ||adrazzi.com^$important
 ||adreactor.com^$important
 ||adremedy.com^$important
@@ -4428,9 +4432,11 @@ youtube.com##.ytp-ad-progress
 ||ads10.*.*^$important
 ||ads180.com^$important
 ||ads2004.treiberupdate.de^$important
+||ads-chunks.prod.ihrhls.com^$important
 ||ads-click.com^$important
 ||ads.*.*^$important
 ||adsafeprotected.com^$important
+||adsame.com^$important
 ||adsatt.*.*^$important
 ||adsby.bidtheatre.com^$important
 ||adscale.de^$important
@@ -4439,6 +4445,8 @@ youtube.com##.ytp-ad-progress
 ||adscpm.com^$important
 ||adsdaq.com^$important
 ||adsdk.com^$important
+||adsdk.vrvm.com^$important
+||adsee.jp^$important
 ||adsend.de^$important
 ||adsense.com^$important
 ||adsensecustomsearchads.com^$important
@@ -4456,17 +4464,25 @@ youtube.com##.ytp-ad-progress
 ||adsfac.net^$important
 ||adsfac.us^$important
 ||adshost1.com^$important
+||adshost2.com^$important
 ||adside.com^$important
 ||adsk2.co^$important
 ||adskape.ru^$important
 ||adsklick.de^$important
+||adslot.uc.cn^$important
 ||adsmarket.com^$important
 ||adsmart.co.uk^$important
 ||adsmart.com^$important
 ||adsmart.net^$important
+||adsmo.ru^$important
 ||adsmobi.com^$important
 ||adsmogo.com^$important
+||adsmogo.mobi^$important
+||adsmogo.net^$important
+||adsmogo.org^$important
+||adsmoloco.com^$important
 ||adsnative.com^$important
+||adsniper.ru^$important
 ||adsoftware.com^$important
 ||adsoldier.com^$important
 ||adsolutions.yp.com^$important
@@ -4475,20 +4491,25 @@ youtube.com##.ytp-ad-progress
 ||adspeed.net^$important
 ||adspirit.de^$important
 ||adsponse.de^$important
+||adspynet.com^$important
 ||adsremote.scrippsnetworks.com^$important
 ||adsrevenue.net^$important
 ||adsrv.*.*^$important
+||adsrvmedia.net^$important
 ||adsrvr.org^$important
 ||adsstat.com^$important
 ||adstat.*.*^$important
 ||adstest.*.*^$important
+||adsunflower.com^$important
 ||adsupply.com^$important
 ||adsupplyads.com^$important
 ||adswitcher.com^$important
+||adsx.*.*^$important
 ||adsymptotic.com^$important
 ||adsynergy.com^$important
 ||adsys.townnews.com^$important
 ||adsystem.*.*^$important
+||adtaily.pl^$important
 ||adtech.com^$important
 ||adtech.de^$important
 ||adtechus.com^$important
@@ -5610,8 +5631,8 @@ youtube.com##.ytp-ad-progress
 ||dbcdqp72lzmvj.cloudfront.net^$important
 ||dbjnwpbqx5a6o.cloudfront.net^$important
 ||dc5ig2fc8lg83.cloudfront.net^$important
-||dc8na2hxrj29i.cloudfront.net^$important
 ||dc08i221b0n8a.cloudfront.net^$important
+||dc8na2hxrj29i.cloudfront.net^$important
 ||dc8xl0ndzn2cb.cloudfront.net^$important
 ||dc44qjwal3p07.cloudfront.net^$important
 ||dc-storm.com^$important
@@ -5817,7 +5838,6 @@ youtube.com##.ytp-ad-progress
 ||engagebdr.com^$important
 ||engine.awaps.net^$important
 ||engine.espace.netavenir.com^$important
-||engine.mobileapptracking.com^$important
 ||enginenetwork.com^$important
 ||enoratraffic.com^$important
 ||enquisite.com^$important
@@ -6173,7 +6193,6 @@ youtube.com##.ytp-ad-progress
 ||i-lookup.com^$important
 ||i-sn2-cor001.api.p001.1drv.com^$important
 ||i-sn2-cor002.api.p001.1drv.com^$important
-||i.imger.me^$important
 ||ia.iinfo.cz^$important
 ||iad.anm.co.uk^$important
 ||iadctest.qwapi.com^$important
