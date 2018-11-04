@@ -1,5 +1,5 @@
 ! Author: Bogachenko Vyacheslav
-! Description: Custom filters blocking malicious websites, popular trackers,
+! Description: Custom filters blocking popular trackers,
 !              banners, loading and displaying ads on website pages and search results,
 !              it also includes cosmetic filters for problem sites.
 ! Expires: 6 hours
@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.110
+! Version: 0.0.111
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 -ad0-
@@ -62,6 +62,10 @@
 -ad.
 -ad^
 -ad_
+-ad_google-$important
+-ad_google.$important
+-ad_google^$important
+-ad_google_$important
 -ad_status-$important
 -ad_status.$important
 -ad_status^$important
@@ -190,6 +194,10 @@
 -ads.
 -ads^
 -ads_
+-ads_google-$important
+-ads_google.$important
+-ads_google^$important
+-ads_google_$important
 -adsbygoogle-$important
 -adsbygoogle.$important
 -adsbygoogle^$important
@@ -666,6 +674,10 @@
 -ga-lite.$important
 -ga-lite^$important
 -ga-lite_$important
+-gaeventtracking-$important
+-gaeventtracking.$important
+-gaeventtracking^$important
+-gaeventtracking_$important
 -gen_204-$important
 -gen_204.$important
 -gen_204^$important
@@ -678,6 +690,10 @@
 -globaladtag.$important
 -globaladtag^$important
 -globaladtag_$important
+-google-analytics-$important
+-google-analytics.$important
+-google-analytics^$important
+-google-analytics_$important
 -googlead-$important
 -googlead.$important
 -googlead^$important
@@ -686,6 +702,10 @@
 -googleads.$important
 -googleads^$important
 -googleads_$important
+-googleadsenseloader-$important
+-googleadsenseloader.$important
+-googleadsenseloader^$important
+-googleadsenseloader_$important
 -googleanalytics-$important
 -googleanalytics.$important
 -googleanalytics^$important
@@ -1090,6 +1110,10 @@
 .ad.
 .ad^
 .ad_
+.ad_google-$important
+.ad_google.$important
+.ad_google^$important
+.ad_google_$important
 .ad_status-$important
 .ad_status.$important
 .ad_status^$important
@@ -1218,6 +1242,10 @@
 .ads.
 .ads^
 .ads_
+.ads_google-$important
+.ads_google.$important
+.ads_google^$important
+.ads_google_$important
 .adsbygoogle-$important
 .adsbygoogle.$important
 .adsbygoogle^$important
@@ -1694,6 +1722,10 @@
 .ga-lite.$important
 .ga-lite^$important
 .ga-lite_$important
+.gaeventtracking-$important
+.gaeventtracking.$important
+.gaeventtracking^$important
+.gaeventtracking_$important
 .gen_204-$important
 .gen_204.$important
 .gen_204^$important
@@ -1706,6 +1738,10 @@
 .globaladtag.$important
 .globaladtag^$important
 .globaladtag_$important
+.google-analytics-$important
+.google-analytics.$important
+.google-analytics^$important
+.google-analytics_$important
 .googlead-$important
 .googlead.$important
 .googlead^$important
@@ -1714,6 +1750,10 @@
 .googleads.$important
 .googleads^$important
 .googleads_$important
+.googleadsenseloader-$important
+.googleadsenseloader.$important
+.googleadsenseloader^$important
+.googleadsenseloader_$important
 .googleanalytics-$important
 .googleanalytics.$important
 .googleanalytics^$important
@@ -2132,6 +2172,7 @@
 3g2upl4pq6kufc4m.onion##.js-onboarding-ed.onboarding-ed
 3g2upl4pq6kufc4m.onion##.social.header--aside__item
 3g2upl4pq6kufc4m.onion##.tag-home__item
+@@||ttvnw.net^$xmlhttprequest,domain=www.twitch.tv
 ^ad0-
 ^ad0.
 ^ad0^
@@ -2180,6 +2221,10 @@
 ^ad.
 ^ad^
 ^ad_
+^ad_google-$important
+^ad_google.$important
+^ad_google^$important
+^ad_google_$important
 ^ad_status-$important
 ^ad_status.$important
 ^ad_status^$important
@@ -2308,6 +2353,10 @@
 ^ads.
 ^ads^
 ^ads_
+^ads_google-$important
+^ads_google.$important
+^ads_google^$important
+^ads_google_$important
 ^adsbygoogle-$important
 ^adsbygoogle.$important
 ^adsbygoogle^$important
@@ -2785,6 +2834,10 @@
 ^ga-lite.$important
 ^ga-lite^$important
 ^ga-lite_$important
+^gaeventtracking-$important
+^gaeventtracking.$important
+^gaeventtracking^$important
+^gaeventtracking_$important
 ^gen_204-$important
 ^gen_204.$important
 ^gen_204^$important
@@ -2797,6 +2850,10 @@
 ^globaladtag.$important
 ^globaladtag^$important
 ^globaladtag_$important
+^google-analytics-$important
+^google-analytics.$important
+^google-analytics^$important
+^google-analytics_$important
 ^googlead-$important
 ^googlead.$important
 ^googlead^$important
@@ -2805,6 +2862,10 @@
 ^googleads.$important
 ^googleads^$important
 ^googleads_$important
+^googleadsenseloader-$important
+^googleadsenseloader.$important
+^googleadsenseloader^$important
+^googleadsenseloader_$important
 ^googleanalytics-$important
 ^googleanalytics.$important
 ^googleanalytics^$important
@@ -3211,6 +3272,10 @@ _ad-
 _ad.
 _ad^
 _ad_
+_ad_google-$important
+_ad_google.$important
+_ad_google^$important
+_ad_google_$important
 _ad_status-$important
 _ad_status.$important
 _ad_status^$important
@@ -3339,6 +3404,10 @@ _ads-google_$important
 _ads.
 _ads^
 _ads_
+_ads_google-$important
+_ads_google.$important
+_ads_google^$important
+_ads_google_$important
 _adsbygoogle-$important
 _adsbygoogle.$important
 _adsbygoogle^$important
@@ -3815,6 +3884,10 @@ _ga-lite-$important
 _ga-lite.$important
 _ga-lite^$important
 _ga-lite_$important
+_gaeventtracking-$important
+_gaeventtracking.$important
+_gaeventtracking^$important
+_gaeventtracking_$important
 _gen_204-$important
 _gen_204.$important
 _gen_204^$important
@@ -3827,6 +3900,10 @@ _globaladtag-$important
 _globaladtag.$important
 _globaladtag^$important
 _globaladtag_$important
+_google-analytics-$important
+_google-analytics.$important
+_google-analytics^$important
+_google-analytics_$important
 _googlead-$important
 _googlead.$important
 _googlead^$important
@@ -3835,6 +3912,10 @@ _googleads-$important
 _googleads.$important
 _googleads^$important
 _googleads_$important
+_googleadsenseloader-$important
+_googleadsenseloader.$important
+_googleadsenseloader^$important
+_googleadsenseloader_$important
 _googleanalytics-$important
 _googleanalytics.$important
 _googleanalytics^$important
@@ -4414,3 +4495,6 @@ youtube.com##.ytp-ad-progress
 |https:*_ads^$popup
 |https:*_ads_
 |https:*_ads_$popup
+||cse.google.com^$third-party
+||googletagmanager.com^$third-party,important
+||googletagservices.com^$third-party,important
