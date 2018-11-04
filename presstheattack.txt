@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 3 November 2018
+! Last modified: 4 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.107
+! Version: 0.0.108
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 ! WARNING: Many sites on this list are dangerous, don't go over on them if you do not know what you are doing.
 
@@ -399,6 +399,10 @@
 -advertising.$important
 -advertising^$important
 -advertising_$important
+-advertisingmodule-$important
+-advertisingmodule.$important
+-advertisingmodule^$important
+-advertisingmodule_$important
 -adverts-$important
 -adverts.$important
 -adverts^$important
@@ -411,6 +415,14 @@
 -advframecollapse.$important
 -advframecollapse^$important
 -advframecollapse_$important
+-advideo-$important
+-advideo.$important
+-advideo^$important
+-advideo_$important
+-adview-$important
+-adview.$important
+-adview^$important
+-adview_$important
 -advimg-$important
 -advimg.$important
 -advimg^$important
@@ -423,6 +435,10 @@
 -adways.$important
 -adways^$important
 -adways_$important
+-adwords-$important
+-adwords.$important
+-adwords^$important
+-adwords_$important
 -adx-$important
 -adx.$important
 -adx^$important
@@ -1363,6 +1379,10 @@
 .advertising.$important
 .advertising^$important
 .advertising_$important
+.advertisingmodule-$important
+.advertisingmodule.$important
+.advertisingmodule^$important
+.advertisingmodule_$important
 .adverts-$important
 .adverts.$important
 .adverts^$important
@@ -1375,6 +1395,14 @@
 .advframecollapse.$important
 .advframecollapse^$important
 .advframecollapse_$important
+.advideo-$important
+.advideo.$important
+.advideo^$important
+.advideo_$important
+.adview-$important
+.adview.$important
+.adview^$important
+.adview_$important
 .advimg-$important
 .advimg.$important
 .advimg^$important
@@ -1387,6 +1415,10 @@
 .adways.$important
 .adways^$important
 .adways_$important
+.adwords-$important
+.adwords.$important
+.adwords^$important
+.adwords_$important
 .adx-$important
 .adx.$important
 .adx^$important
@@ -2420,6 +2452,10 @@
 ^advertising.$important
 ^advertising^$important
 ^advertising_$important
+^advertisingmodule-$important
+^advertisingmodule.$important
+^advertisingmodule^$important
+^advertisingmodule_$important
 ^adverts-$important
 ^adverts.$important
 ^adverts^$important
@@ -2432,6 +2468,14 @@
 ^advframecollapse.$important
 ^advframecollapse^$important
 ^advframecollapse_$important
+^advideo-$important
+^advideo.$important
+^advideo^$important
+^advideo_$important
+^adview-$important
+^adview.$important
+^adview^$important
+^adview_$important
 ^advimg-$important
 ^advimg.$important
 ^advimg^$important
@@ -2444,6 +2488,10 @@
 ^adways.$important
 ^adways^$important
 ^adways_$important
+^adwords-$important
+^adwords.$important
+^adwords^$important
+^adwords_$important
 ^adx-$important
 ^adx.$important
 ^adx^$important
@@ -3387,6 +3435,10 @@ _advertising-$important
 _advertising.$important
 _advertising^$important
 _advertising_$important
+_advertisingmodule-$important
+_advertisingmodule.$important
+_advertisingmodule^$important
+_advertisingmodule_$important
 _adverts-$important
 _adverts.$important
 _adverts^$important
@@ -3399,6 +3451,14 @@ _advframecollapse-$important
 _advframecollapse.$important
 _advframecollapse^$important
 _advframecollapse_$important
+_advideo-$important
+_advideo.$important
+_advideo^$important
+_advideo_$important
+_adview-$important
+_adview.$important
+_adview^$important
+_adview_$important
 _advimg-$important
 _advimg.$important
 _advimg^$important
@@ -3411,6 +3471,10 @@ _adways-$important
 _adways.$important
 _adways^$important
 _adways_$important
+_adwords-$important
+_adwords.$important
+_adwords^$important
+_adwords_$important
 _adx-$important
 _adx.$important
 _adx^$important
@@ -4064,8 +4128,8 @@ youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
 ||1mp.mobi^$important
 ||1x1rank.com^$important
-||2mdn.net^$important
 ||02ip.ru^$important
+||2mdn.net^$important
 ||2no.co^$important
 ||2o7.net^$important
 ||3cinteractive.com^$important
@@ -4242,6 +4306,7 @@ youtube.com##.ytp-ad-progress
 ||adcomplete.com^$important
 ||adconion.com^$important
 ||adcontent.gamespy.com^$important
+||adcounter*.*.*^$important
 ||adcycle.com^$important
 ||add.newmedia.cz^$important
 ||addapptr.com^$important
