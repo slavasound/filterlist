@@ -1,7 +1,7 @@
 # Press the Attack
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg?style=popout)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Custom filters blocking malicious websites, popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
+Custom filters blocking popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
 
 This project is the original, it is under the MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and created it [Bogachenko Vyacheslav](https://github.com/bogachenko)
 
