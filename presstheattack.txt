@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.114
+! Version: 0.0.115
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 -ad0-
@@ -4395,8 +4395,8 @@ _ad.$popup,important
 _ad^$popup,important
 _ad_$popup,important
 GGBET$image
-||googletagmanager.com^$third-party,important
-||googletagservices.com^$third-party,important
+||googletagmanager.com^$important
+||googletagservices.com^$important
 ||spade.twitch.tv^$important
 ||countess.twitch.tv^$important
 ||scorecardresearch.com^$important
@@ -4535,3 +4535,32 @@ _update_ad_$important
 @@||github.com/search/*$xmlhttprequest,first-party
 @@||github.com/*/comments/$xmlhttprequest,first-party
 ||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=www.twitch.tv
+-googlesyndication-$important
+-googlesyndication.$important
+-googlesyndication^$important
+-googlesyndication_$important
+.googlesyndication-$important
+.googlesyndication.$important
+.googlesyndication^$important
+.googlesyndication_$important
+^googlesyndication-$important
+^googlesyndication.$important
+^googlesyndication^$important
+^googlesyndication_$important
+_googlesyndication-$important
+_googlesyndication.$important
+_googlesyndication^$important
+_googlesyndication_$important
+||googlesyndication.com^$important
+||adservice.google.com^$important
+||id.google.com^$important
+||an.yandex.ru^$important
+||metrika.yandex.ru^$important
+||clck.yandex.com^$important
+||informer.yandex.ru^$important
+||bs.yandex.ru^$important
+||mc.yandex.ru^$important
+||direct.yandex.ru^$important
+||yandex.ru/clck^$important
+||web-metrica.yandex.ru^$important
+||awsync.yandex.ru^$important
