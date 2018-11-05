@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.112
+! Version: 0.0.113
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 -ad0-
@@ -906,10 +906,10 @@
 -sponsored.$important
 -sponsored^$important
 -sponsored_$important
--ssp-$important
--ssp.$important
--ssp^$important
--ssp_$important
+-ssp-
+-ssp.
+-ssp^
+-ssp_
 -stats-$important
 -stats.$important
 -stats^$important
@@ -1954,10 +1954,10 @@
 .sponsored.$important
 .sponsored^$important
 .sponsored_$important
-.ssp-$important
-.ssp.$important
-.ssp^$important
-.ssp_$important
+.ssp-
+.ssp.
+.ssp^
+.ssp_
 .stats-$important
 .stats.$important
 .stats^$important
@@ -3063,10 +3063,10 @@
 ^sponsored.$important
 ^sponsored^$important
 ^sponsored_$important
-^ssp-$important
-^ssp.$important
-^ssp^$important
-^ssp_$important
+^ssp-
+^ssp.
+^ssp^
+^ssp_
 ^stats-$important
 ^stats.$important
 ^stats^$important
@@ -4111,10 +4111,10 @@ _sponsored-$important
 _sponsored.$important
 _sponsored^$important
 _sponsored_$important
-_ssp-$important
-_ssp.$important
-_ssp^$important
-_ssp_$important
+_ssp-
+_ssp.
+_ssp^
+_ssp_
 _stats-$important
 _stats.$important
 _stats^$important
