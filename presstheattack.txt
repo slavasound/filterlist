@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.115
+! Version: 0.0.116
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 -ad0-
@@ -794,10 +794,10 @@
 -piwik.$important
 -piwik^$important
 -piwik_$important
--pixel-$important
--pixel.$important
--pixel^$important
--pixel_$important
+-pixel-
+-pixel.
+-pixel^
+-pixel_
 -pixeltracking-$important
 -pixeltracking.$important
 -pixeltracking^$important
@@ -1842,10 +1842,10 @@
 .piwik.$important
 .piwik^$important
 .piwik_$important
-.pixel-$important
-.pixel.$important
-.pixel^$important
-.pixel_$important
+.pixel-
+.pixel.
+.pixel^
+.pixel_
 .pixeltracking-$important
 .pixeltracking.$important
 .pixeltracking^$important
@@ -2120,7 +2120,22 @@
 /ad.js$script,important
 /adi.js$script,important
 /ads.js$important
-/adsdk.js$script,important
+-adsdk-$important
+-adsdk.$important
+-adsdk^$important
+-adsdk_$important
+.adsdk-$important
+.adsdk.$important
+.adsdk^$important
+.adsdk_$important
+^adsdk-$important
+^adsdk.$important
+^adsdk^$important
+^adsdk_$important
+_adsdk-$important
+_adsdk.$important
+_adsdk^$important
+_adsdk_$important
 /advert2.js$script,important
 /amp.gif$image,important
 /appmeasurement.*^$script,important
@@ -2951,10 +2966,10 @@
 ^piwik.$important
 ^piwik^$important
 ^piwik_$important
-^pixel-$important
-^pixel.$important
-^pixel^$important
-^pixel_$important
+^pixel-
+^pixel.
+^pixel^
+^pixel_
 ^pixeltracking-$important
 ^pixeltracking.$important
 ^pixeltracking^$important
@@ -3999,10 +4014,10 @@ _piwik-$important
 _piwik.$important
 _piwik^$important
 _piwik_$important
-_pixel-$important
-_pixel.$important
-_pixel^$important
-_pixel_$important
+_pixel-
+_pixel.
+_pixel^
+_pixel_
 _pixeltracking-$important
 _pixeltracking.$important
 _pixeltracking^$important
@@ -4564,3 +4579,7 @@ _googlesyndication_$important
 ||yandex.ru/clck^$important
 ||web-metrica.yandex.ru^$important
 ||awsync.yandex.ru^$important
+@@||*.facebook.com/ajax/pagelet/generic.php/*$subdocument
+||yabs.yandex.ru^$important
+@@||yandex.ru/search/*$xmlhttprequest
+@@||api-maps.yandex.ru^$script,first-party
