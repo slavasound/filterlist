@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.117
+! Version: 0.0.118
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 -ad0-
@@ -4586,3 +4586,14 @@ youtube.com##.ytp-ad-progress
 ||yabs.yandex.ru^$important
 ||yandex.ru/clck^$important
 ||yastatic.net/*/atom.js$script,important
+||kiks.yandex.ru^$important
+||tns-counter.ru^$important
+/google-conversion.html$important
+||browser-updater.yandex.net^$important
+kinopoisk.ru##[href*="kinopoisk.ru"]
+##[href*="awaps.yandex.net"]
+||r3.mail.ru^$important
+||rs.mail.ru^$important
+||top-fwz1.mail.ru^$important
+||yadro.ru^$important
+||ad.mail.ru^$important
