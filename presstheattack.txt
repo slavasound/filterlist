@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.125
+! Version: 0.0.126
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex.net"]
@@ -591,10 +591,10 @@
 -campaign.$important
 -campaign^$important
 -campaign_$important
--cct-$important
--cct.$important
--cct^$important
--cct_$important
+-cct-
+-cct.
+-cct^
+-cct_
 -clicktracklog-$important
 -clicktracklog.$important
 -clicktracklog^$important
@@ -1687,10 +1687,10 @@
 .campaign.$important
 .campaign^$important
 .campaign_$important
-.cct-$important
-.cct.$important
-.cct^$important
-.cct_$important
+.cct-
+.cct.
+.cct^
+.cct_
 .clicktracklog-$important
 .clicktracklog.$important
 .clicktracklog^$important
@@ -2852,10 +2852,10 @@ GGBET$image
 ^campaign.$important
 ^campaign^$important
 ^campaign_$important
-^cct-$important
-^cct.$important
-^cct^$important
-^cct_$important
+^cct-
+^cct.
+^cct^
+^cct_
 ^clicktracklog-$important
 ^clicktracklog.$important
 ^clicktracklog^$important
@@ -3950,10 +3950,10 @@ _campaign-$important
 _campaign.$important
 _campaign^$important
 _campaign_$important
-_cct-$important
-_cct.$important
-_cct^$important
-_cct_$important
+_cct-
+_cct.
+_cct^
+_cct_
 _clicktracklog-$important
 _clicktracklog.$important
 _clicktracklog^$important
@@ -4723,3 +4723,21 @@ _visitid-$important
 _visitid.$important
 _visitid^$important
 _visitid_$important
+.com/log?$important
+||csi.gstatic.com^$important
+-logger-$important
+-logger.$important
+-logger^$important
+-logger_$important
+.logger-$important
+.logger.$important
+.logger^$important
+.logger_$important
+^logger-$important
+^logger.$important
+^logger^$important
+^logger_$important
+_logger-$important
+_logger.$important
+_logger^$important
+_logger_$important
