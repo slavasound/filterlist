@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 6 November 2018
+! Last modified: 7 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.124
+! Version: 0.0.125
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex.net"]
@@ -2207,8 +2207,8 @@
 .yandex-metrica-watch.$important
 .yandex-metrica-watch^$important
 .yandex-metrica-watch_$important
-/0.gif^$image,subdocument
 /1x1.*^$important
+/2x2.*^$important
 /\/([0-9]|[a-z]|analytics?|atrk|hit|log|njs|ping|pix|px|stat|track(ers?|ing)?|visitor)\.gif\?/$important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
 /^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
@@ -2244,7 +2244,7 @@
 /inpage_linkid.js$script,important
 /js/track.*$important
 /owa.messageadlist.*$important
-/p.gif^$image,important
+/p.gif^$important
 /ph-functions.js$script,important
 /ping.gif^$image,important
 /prum.*$important
@@ -2257,7 +2257,6 @@
 /track/view/$important
 /uutils.fcg^$important
 /view.*^$important
-/x.gif^$image,important
 /xmsg_ti.js$script,important
 2ch.hk###plashque
 3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
@@ -4569,7 +4568,7 @@ yandex.ru##.stream-promo-popup
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
 ||ad.mail.ru^$important
-||adservice.google.com^$important
+||adservice.google.*^$important
 ||an.yandex.ru^$important
 ||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=www.twitch.tv
 ||awsync.yandex.ru^$important
@@ -4581,7 +4580,7 @@ youtube.com##.ytp-ad-progress
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
-||id.google.com^$important
+||id.google.*^$important
 ||informer.yandex.ru^$important
 ||kiks.yandex.ru^$important
 ||kp.yandex.net/js/vendors.js$script,domain=kinopoisk.ru,important
@@ -4649,3 +4648,78 @@ _adblockerlayer_$important
 ||clck.yandex.ru^$important
 ||awaps.yandex.ru^$important
 /tr?$important
+/pixel.gif$important
+/0.gif$important
+/c.gif$important
+/1.gif$important
+/i.gif$important
+/z.gif$important
+/a.gif$important
+/x.gif$important
+-0pixel-$important
+-0pixel.$important
+-0pixel^$important
+-0pixel_$important
+.0pixel-$important
+.0pixel.$important
+.0pixel^$important
+.0pixel_$important
+^0pixel-$important
+^0pixel.$important
+^0pixel^$important
+^0pixel_$important
+_0pixel-$important
+_0pixel.$important
+_0pixel^$important
+_0pixel_$important
+/blank.gif$important
+-googleTrack-$important
+-googleTrack.$important
+-googleTrack^$important
+-googleTrack_$important
+.googleTrack-$important
+.googleTrack.$important
+.googleTrack^$important
+.googleTrack_$important
+^googleTrack-$important
+^googleTrack.$important
+^googleTrack^$important
+^googleTrack_$important
+_googleTrack-$important
+_googleTrack.$important
+_googleTrack^$important
+_googleTrack_$important
+?track=
+@@||music.yandex.ru/handlers/track.jsx$xmlhttprequest,domain=music.yandex.ru
+-pixelid-$important
+-pixelid.$important
+-pixelid^$important
+-pixelid_$important
+.pixelid-$important
+.pixelid.$important
+.pixelid^$important
+.pixelid_$important
+^pixelid-$important
+^pixelid.$important
+^pixelid^$important
+^pixelid_$important
+_pixelid-$important
+_pixelid.$important
+_pixelid^$important
+_pixelid_$important
+-visitid-$important
+-visitid.$important
+-visitid^$important
+-visitid_$important
+.visitid-$important
+.visitid.$important
+.visitid^$important
+.visitid_$important
+^visitid-$important
+^visitid.$important
+^visitid^$important
+^visitid_$important
+_visitid-$important
+_visitid.$important
+_visitid^$important
+_visitid_$important
