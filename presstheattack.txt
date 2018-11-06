@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.123
+! Version: 0.0.124
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex.net"]
@@ -4646,3 +4646,6 @@ _adblockerlayer-$important
 _adblockerlayer.$important
 _adblockerlayer^$important
 _adblockerlayer_$important
+||clck.yandex.ru^$important
+||awaps.yandex.ru^$important
+/tr?$important
