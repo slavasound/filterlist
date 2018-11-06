@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.126
+! Version: 0.0.127
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex.net"]
@@ -1055,10 +1055,6 @@
 -userad.$important
 -userad^$important
 -userad_$important
--utag-$important
--utag.$important
--utag^$important
--utag_$important
 -vast-$object-subrequest,script,websocket,xmlhttprequest
 -vast.$object-subrequest,script,websocket,xmlhttprequest
 -vast^$object-subrequest,script,websocket,xmlhttprequest
@@ -2151,10 +2147,6 @@
 .userad.$important
 .userad^$important
 .userad_$important
-.utag-$important
-.utag.$important
-.utag^$important
-.utag_$important
 .vast-$object-subrequest,script,websocket,xmlhttprequest
 .vast.$object-subrequest,script,websocket,xmlhttprequest
 .vast^$object-subrequest,script,websocket,xmlhttprequest
@@ -3318,10 +3310,6 @@ GGBET$image
 ^userad.$important
 ^userad^$important
 ^userad_$important
-^utag-$important
-^utag.$important
-^utag^$important
-^utag_$important
 ^vast-$object-subrequest,script,websocket,xmlhttprequest
 ^vast.$object-subrequest,script,websocket,xmlhttprequest
 ^vast^$object-subrequest,script,websocket,xmlhttprequest
@@ -4414,10 +4402,6 @@ _userad-$important
 _userad.$important
 _userad^$important
 _userad_$important
-_utag-$important
-_utag.$important
-_utag^$important
-_utag_$important
 _vast-$object-subrequest,script,websocket,xmlhttprequest
 _vast.$object-subrequest,script,websocket,xmlhttprequest
 _vast^$object-subrequest,script,websocket,xmlhttprequest
