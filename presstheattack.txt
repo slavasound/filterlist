@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.118
+! Version: 0.0.119
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 -ad0-
@@ -4597,3 +4597,24 @@ kinopoisk.ru##[href*="kinopoisk.ru"]
 ||top-fwz1.mail.ru^$important
 ||yadro.ru^$important
 ||ad.mail.ru^$important
+||d3q33rbmdkxzj.cloudfront.net^$important
+||deoi3kwqhv0d5.cloudfront.net^$important
+||djv99sxoqpv11.cloudfront.net^$important
+||d3jcjsor8fnmka.cloudfront.net^$important
+||d2d8qsxiai9qwj.cloudfront.net^$important
+||d3ahinqqx1dy5v.cloudfront.net^$important
+||d2bj2texxib1qg.cloudfront.net^$important
+||d1qk9ujrmkucbl.cloudfront.net^$important
+||dvdsm0rlx65fo.cloudfront.net^$important
+||dk7rftbivnkgr.cloudfront.net^$important
+||dxprljqoay4rt.cloudfront.net^$important
+||d1uanozc5el74n.cloudfront.net^$important
+||djz9es32qen64.cloudfront.net^$important
+||drrcckbju3nd0.cloudfront.net^$important
+||dkm6b5q0h53z4.cloudfront.net^$important
+||d2d8qsxiai9qwj.cloudfront.net^$important
+||dtto8zfzskfoa.cloudfront.net^$important
+||da3uf5ucdz00u.cloudfront.net^$important
+||d3pvcolmug0tz6.cloudfront.net^$important
+||djv99sxoqpv11.cloudfront.net^$important
+||d2nrdy2pg3k168.cloudfront.net^$important
