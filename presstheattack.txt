@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.129
+! Version: 0.0.130
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4725,22 +4725,6 @@ _logger-$important
 _logger.$important
 _logger^$important
 _logger_$important
--counter-$important
--counter.$important
--counter^$important
--counter_$important
-.counter-$important
-.counter.$important
-.counter^$important
-.counter_$important
-^counter-$important
-^counter.$important
-^counter^$important
-^counter_$important
-_counter-$important
-_counter.$important
-_counter^$important
-_counter_$important
 ||mediametrics.ru^$important
 /b[au]nn?er[sz]?/$image
 /[^a-z]top[^a-z].*\..*\?/
