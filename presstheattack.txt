@@ -11,10 +11,10 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.128
+! Version: 0.0.129
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
-##[href*="awaps.yandex.net"]
+##[href*="awaps.yandex."]
 -ad0-
 -ad0.
 -ad0^
@@ -2236,9 +2236,9 @@
 /inpage_linkid.js$script,important
 /js/track.*$important
 /owa.messageadlist.*$important
-/p.gif^$important
+/p.*^$important
 /ph-functions.js$script,important
-/ping.gif^$image,important
+/ping.gif^$important
 /prum.*$important
 /publishertag.*$script,important
 /px.*^$important
@@ -4656,7 +4656,7 @@ _0pixel-$important
 _0pixel.$important
 _0pixel^$important
 _0pixel_$important
-/blank.gif$important
+/blank.gif$
 -googleTrack-$important
 -googleTrack.$important
 -googleTrack^$important
@@ -4745,3 +4745,21 @@ _counter_$important
 /b[au]nn?er[sz]?/$image
 /[^a-z]top[^a-z].*\..*\?/
 /(\W|_)(cgi[-_]?bin|hits?|increment|pagevisit|pixels?|show|stats?|views?|visit)(\W|_)*count(ers?)?[0-9]*(\W|_)/$~stylesheet
+-tsrhitcounter-$important
+-tsrhitcounter.$important
+-tsrhitcounter^$important
+-tsrhitcounter_$important
+.tsrhitcounter-$important
+.tsrhitcounter.$important
+.tsrhitcounter^$important
+.tsrhitcounter_$important
+^tsrhitcounter-$important
+^tsrhitcounter.$important
+^tsrhitcounter^$important
+^tsrhitcounter_$important
+_tsrhitcounter-$important
+_tsrhitcounter.$important
+_tsrhitcounter^$important
+_tsrhitcounter_$important
+||amazon-adsystem.com^$important
+@@||m.vk.com/*/blank.gif$image,domain=m.vk.com
