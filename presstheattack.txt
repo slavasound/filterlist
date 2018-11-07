@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.132
+! Version: 0.0.133
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4861,3 +4861,14 @@ youtube.com##.ytp-ad-progress
 ||yandex.*/search/yandcache.js$important
 ||yastatic.net/*/atom.js$script,important
 ||zen.yandex.*^$important
+/(\W|_)[0-9]*(shar(e|ing)|social((\W|_)?media)?)[0-9]*(\W|_)*(article|auth|background|badges?|bannieres?|bar|block|blog|blogger|bookmark(ing|s)?|btns?|buttons?|cnts?|connect|core|counts?|counters?|embed(ed)?|e[-_]?mail|favorites?|feeds?|float(er)?|flyout|follow|footer|frames?|friends?|header|hover|icns?|icos?|icone|icons?|iframes?|ikons?|(light)?box|likes?|link(s|z)?|login|logos?|manager|menus|modules?|nav(bar|icons?)?|oauth|overlays?|page|panel|popins?|popunders?|popups?|posts?|plugins?|plus|promos?|referrals?|shar(e|ed|er|ing)|sidebars?|sliders?|small|snippet|sprites?|stats?|tab|tag|toolbars?|tools?|top(bar)?|track(ers?|ing)|urls?|videos?|widgets?)[0-9]*(\W|_)/$script,important
+/gtm/gtm$important
+/(\W|_)utm(\W|_)*(campaign|medium|name|source|term|tracking|xkey|xtime)(\W|_)/$important
+@@||avatars.yandex.net^$image
+|http*://counter.*^$important
+||trafficfactory.biz^$important
+translate.yandex.ru###collectionsBanner
+/in.php?referer=$important
+||yandex.*/*stripe.html|$important
+/(\W|_)powered[-_]*by[-_.]*(google|hydra|livefyre|logo|trove|zillow)?[0-9]*(\W|_)/$image
+|http*://informer.*^$important
