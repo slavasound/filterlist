@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 7 November 2018
+! Last modified: 8 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.130
+! Version: 0.0.131
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4551,8 +4551,8 @@ yandex.ru##.serp-footer__main
 yandex.ru##.stream-promo-popup
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
-||ad.mail.ru^$important
-||adservice.google.*^$important
+|http*://ad.*^$important
+|http*://adservice.*^$important
 ||an.yandex.ru^$important
 ||api.twitch.tv/*/channels/*/extensions$xmlhttprequest,domain=www.twitch.tv
 ||awsync.yandex.ru^$important
@@ -4656,7 +4656,7 @@ _0pixel-$important
 _0pixel.$important
 _0pixel^$important
 _0pixel_$important
-/blank.gif$
+/blank.gif
 -googleTrack-$important
 -googleTrack.$important
 -googleTrack^$important
@@ -4802,4 +4802,8 @@ _cycounter_$important
 ||mediator.mail.ru^$important
 /bitrix/spread.php^$important
 /_/batch|$first-party,xmlhttprequest,important
-||counter.*^$important
+|http*://counter.*^$important
+|http*://pixel.*^$important
+|http*://geo.*^$important
+||beap-bc.yahoo.com^$important
+||udc.yahoo.com^$important
