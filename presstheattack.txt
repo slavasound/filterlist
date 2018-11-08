@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.134
+! Version: 0.0.135
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -2405,7 +2405,7 @@
 @@||github.com/*/comments/$xmlhttprequest,first-party
 @@||github.com/search/*$xmlhttprequest,first-party
 @@||instagram.com^*landingpage.
-@@||m.vk.com/*/blank.gif$image,domain=m.vk.com
+@@/blank.gif$image,domain=m.vk.com|vk.com
 @@||music.yandex.*/handlers/track.jsx$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=www.twitch.tv
 @@||vk.com/ads_rotate.php$xmlhttprequest
@@ -4897,3 +4897,4 @@ _branding_
 @@google.com/maps/*=maps*^log^$script,xmlhttprequest
 @@mail.google.com/mail/*=gmail*^adv^$xmlhttprequest
 ||google.com^*/viewerimpressions^$important
+@@google.com^*/branding/$image
