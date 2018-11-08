@@ -11,7 +11,7 @@
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.133
+! Version: 0.0.134
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -2398,7 +2398,7 @@
 3g2upl4pq6kufc4m.onion##.js-onboarding-ed.onboarding-ed
 3g2upl4pq6kufc4m.onion##.social.header--aside__item
 3g2upl4pq6kufc4m.onion##.tag-home__item
-?track=$important
+?track=
 @@||*.facebook.com/ajax/pagelet/generic.php/*$subdocument
 @@||api-maps.yandex.*^$script,first-party
 @@||freebitco.in^
@@ -4818,6 +4818,7 @@ yandex.ru##.stream-promo-popup
 youtube.com##.html5-endscreen
 youtube.com##.ytp-ad-progress
 |http*://ad.*^$important
+|http*://ads.*^$important
 |http*://adservice.*^$important
 |http*://counter.*^$important
 |http*://geo.*^$important
@@ -4872,3 +4873,27 @@ translate.yandex.ru###collectionsBanner
 ||yandex.*/*stripe.html|$important
 /(\W|_)powered[-_]*by[-_.]*(google|hydra|livefyre|logo|trove|zillow)?[0-9]*(\W|_)/$image
 |http*://informer.*^$important
+@@-landing.$domain=avatars.yandex.net
+-branding-
+-branding.
+-branding^
+-branding_
+.branding-
+.branding.
+.branding^
+.branding_
+^branding-
+^branding.
+^branding^
+^branding_
+_branding-
+_branding.
+_branding^
+_branding_
+||r.mail.ru^$important
+/cnt.php$important
+||top.list.ru^$important
+/(\W|_)(search|type)ahead(\W|_)/$script,important
+@@google.com/maps/*=maps*^log^$script,xmlhttprequest
+@@mail.google.com/mail/*=gmail*^adv^$xmlhttprequest
+||google.com^*/viewerimpressions^$important
