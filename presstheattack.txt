@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 8 November 2018
+! Last modified: 9 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.135
+! Version: 0.0.136
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4755,7 +4755,7 @@ outlook.live.com##div#app > div.ms-fabric > div:last-child > div:first-child > d
 pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.floor.first
-translate.google.co.nz,translate.google.co.uk,translate.google.com,translate.google.com.au,translate.google.de,translate.google.es,translate.google.fr#@#.gb_g
+@@gstatic.com/*/branding/*$image
 translate.google.com###gt-promo-lr
 translate.google.ru###gt-promo-lr
 translate.yandex.ru###collectionsbanner
@@ -4862,7 +4862,7 @@ youtube.com##.ytp-ad-progress
 ||yandex.*/search/yandcache.js$important
 ||yastatic.net/*/atom.js$script,important
 ||zen.yandex.*^$important
-/(\W|_)[0-9]*(shar(e|ing)|social((\W|_)?media)?)[0-9]*(\W|_)*(article|auth|background|badges?|bannieres?|bar|block|blog|blogger|bookmark(ing|s)?|btns?|buttons?|cnts?|connect|core|counts?|counters?|embed(ed)?|e[-_]?mail|favorites?|feeds?|float(er)?|flyout|follow|footer|frames?|friends?|header|hover|icns?|icos?|icone|icons?|iframes?|ikons?|(light)?box|likes?|link(s|z)?|login|logos?|manager|menus|modules?|nav(bar|icons?)?|oauth|overlays?|page|panel|popins?|popunders?|popups?|posts?|plugins?|plus|promos?|referrals?|shar(e|ed|er|ing)|sidebars?|sliders?|small|snippet|sprites?|stats?|tab|tag|toolbars?|tools?|top(bar)?|track(ers?|ing)|urls?|videos?|widgets?)[0-9]*(\W|_)/$script,important
+/(\W|_)[0-9]*(shar(e|ing)|social((\W|_)?media)?)[0-9]*(\W|_)*(article|auth|background|badges?|bannieres?|bar|block|blog|blogger|bookmark(ing|s)?|btns?|buttons?|cnts?|connect|core|counts?|counters?|embed(ed)?|e[-_]?mail|favorites?|feeds?|float(er)?|flyout|follow|footer|frames?|friends?|header|hover|icns?|icos?|icone|icons?|iframes?|ikons?|(light)?box|likes?|link(s|z)?|login|logos?|manager|menus|modules?|nav(bar|icons?)?|oauth|overlays?|page|panel|popins?|popunders?|popups?|posts?|plugins?|plus|promos?|referrals?|shar(e|ed|er|ing)|sidebars?|sliders?|small|snippet|sprites?|stats?|tab|tag|toolbars?|tools?|top(bar)?|track(ers?|ing)|urls?|videos?|widgets?)[0-9]*(\W|_)/$script
 /gtm/gtm$important
 /(\W|_)utm(\W|_)*(campaign|medium|name|source|term|tracking|xkey|xtime)(\W|_)/$important
 @@||avatars.yandex.net^$image
@@ -4898,3 +4898,7 @@ _branding_
 @@mail.google.com/mail/*=gmail*^adv^$xmlhttprequest
 ||google.com^*/viewerimpressions^$important
 @@google.com^*/branding/$image
+||mail.yandex.*/monitoring_liza.txt$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
+radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
+||pipe.aria.microsoft.com/collector/$important
+||bing.com/fd/ls/$important
