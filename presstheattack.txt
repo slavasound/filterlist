@@ -5,13 +5,13 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
 ! Homepage: https://bogachenko.github.io/presstheattack
-! Last modified: 9 November 2018
+! Last modified: 10 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.137
+! Version: 0.0.138
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4845,7 +4845,7 @@ youtube.com##.ytp-ad-progress
 ||id.google.*^$important
 ||informer.yandex.ru^$important
 ||kiks.yandex.ru^$important
-||kp.yandex.net/js/vendors.js$script,domain=kinopoisk.ru,important
+yandex.ru##.header-favorites-button_js_inited.i-bem.header-favorites-button
 ||mc.yandex.ru^$important
 ||mediametrics.ru^$important
 ||r3.mail.ru^$important
@@ -4969,3 +4969,35 @@ _adtools-$important
 _adtools.$important
 _adtools^$important
 _adtools_$important
+-phpads-$important
+-phpads.$important
+-phpads^$important
+-phpads_$important
+.phpads-$important
+.phpads.$important
+.phpads^$important
+.phpads_$important
+^phpads-$important
+^phpads.$important
+^phpads^$important
+^phpads_$important
+_phpads-$important
+_phpads.$important
+_phpads^$important
+_phpads_$important
+-kill-adblock-$important
+-kill-adblock.$important
+-kill-adblock^$important
+-kill-adblock_$important
+.kill-adblock-$important
+.kill-adblock.$important
+.kill-adblock^$important
+.kill-adblock_$important
+^kill-adblock-$important
+^kill-adblock.$important
+^kill-adblock^$important
+^kill-adblock_$important
+_kill-adblock-$important
+_kill-adblock.$important
+_kill-adblock^$important
+_kill-adblock_$important
