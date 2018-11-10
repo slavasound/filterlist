@@ -4,14 +4,13 @@
 !              it also includes cosmetic filters for problem sites.
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
-! Homepage: https://bogachenko.github.io/presstheattack
 ! Last modified: 10 November 2018
 ! License: MIT License <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Mail: bogachenkove@gmail.com
 ! Reporting Issues: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.138
+! Version: 0.0.0139
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4775,6 +4774,12 @@ twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="anylvl"]
+twitch.tv##a[href*="aser"]
+twitch.tv##a[href*="campaign"]
+twitch.tv##a[href*="predator"]
+twitch.tv##a[href*="secretlab"]
+twitch.tv##a[href*="kfcmalaysia"]
+twitch.tv##a[href*="monsterenergy"]
 twitch.tv##a[href*="atributika"]
 twitch.tv##a[href*="banner"]
 twitch.tv##a[href*="bet4"]
@@ -5001,3 +5006,4 @@ _kill-adblock-$important
 _kill-adblock.$important
 _kill-adblock^$important
 _kill-adblock_$important
+_240x400_$image
