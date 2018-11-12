@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0142
+! Version: 0.0.0143
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5053,3 +5053,6 @@ _rating-
 _rating.
 _rating^
 _rating_
+||recreativ.ru^$important
+||scrubswim.com^$important
+||mail.ru/grstat^$important
