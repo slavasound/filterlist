@@ -15,13 +15,13 @@
 !              it also includes cosmetic filters for problem sites.
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
-! Last modified: 11 November 2018
+! Last modified: 12 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Email: bogachenkove@gmail.com
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0140
+! Version: 0.0.0141
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -2355,7 +2355,6 @@
 /audience-extraction.*^$script,important
 /axyzsdk.*$script,important
 /b/ss/*/js-*$important
-/b[au]nn?er[sz]?/$image
 /banads/*$important
 /beacon.js$script,important
 /better-stop-adblock/*$important
@@ -5018,3 +5017,21 @@ _kill-adblock.$important
 _kill-adblock^$important
 _kill-adblock_$important
 _240x400_$image
+-ads-blocked-$important
+-ads-blocked.$important
+-ads-blocked^$important
+-ads-blocked_$important
+.ads-blocked-$important
+.ads-blocked.$important
+.ads-blocked^$important
+.ads-blocked_$important
+^ads-blocked-$important
+^ads-blocked.$important
+^ads-blocked^$important
+^ads-blocked_$important
+_ads-blocked-$important
+_ads-blocked.$important
+_ads-blocked^$important
+_ads-blocked_$important
+||ssp.rambler.ru^$important
+||st.top100.ru^$important
