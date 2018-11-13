@@ -15,13 +15,13 @@
 !              it also includes cosmetic filters for problem sites.
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
-! Last modified: 12 November 2018
+! Last modified: 13 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Email: bogachenkove@gmail.com
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0143
+! Version: 0.0.0144
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -2413,7 +2413,6 @@
 @@||freebitco.in^
 @@||github.com/*/comments/$xmlhttprequest,first-party
 @@||github.com/search/*$xmlhttprequest,first-party
-@@||instagram.com^*landingpage.
 @@/blank.gif$image,domain=m.vk.com|vk.com
 @@||music.yandex.*/handlers/track.jsx$xmlhttprequest
 @@||ttvnw.net^$xmlhttprequest,domain=www.twitch.tv
@@ -4880,7 +4879,6 @@ yandex.ru##.header-favorites-button_js_inited.i-bem.header-favorites-button
 /(\W|_)[0-9]*(shar(e|ing)|social((\W|_)?media)?)[0-9]*(\W|_)*(article|auth|background|badges?|bannieres?|bar|block|blog|blogger|bookmark(ing|s)?|btns?|buttons?|cnts?|connect|core|counts?|counters?|embed(ed)?|e[-_]?mail|favorites?|feeds?|float(er)?|flyout|follow|footer|frames?|friends?|header|hover|icns?|icos?|icone|icons?|iframes?|ikons?|(light)?box|likes?|link(s|z)?|login|logos?|manager|menus|modules?|nav(bar|icons?)?|oauth|overlays?|page|panel|popins?|popunders?|popups?|posts?|plugins?|plus|promos?|referrals?|shar(e|ed|er|ing)|sidebars?|sliders?|small|snippet|sprites?|stats?|tab|tag|toolbars?|tools?|top(bar)?|track(ers?|ing)|urls?|videos?|widgets?)[0-9]*(\W|_)/$script
 /gtm/gtm$important
 /(\W|_)utm(\W|_)*(campaign|medium|name|source|term|tracking|xkey|xtime)(\W|_)/$important
-@@||avatars.yandex.net^$image
 |http*://counter.*^$important
 ||trafficfactory.biz^$important
 translate.yandex.ru###collectionsBanner
@@ -4888,7 +4886,6 @@ translate.yandex.ru###collectionsBanner
 ||yandex.*/*stripe.html|$important
 /(\W|_)powered[-_]*by[-_.]*(google|hydra|livefyre|logo|trove|zillow)?[0-9]*(\W|_)/$image
 |http*://informer.*^$important
-@@-landing.$domain=avatars.yandex.net
 -branding-
 -branding.
 -branding^
@@ -5056,3 +5053,6 @@ _rating_
 ||recreativ.ru^$important
 ||scrubswim.com^$important
 ||mail.ru/grstat^$important
+@@landing.$domain=live.com|yandex.ru
+@@landingpage.$domain=instagram.com
+||msecnd.net/scripts/jsll$important
