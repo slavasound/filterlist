@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0151
+! Version: 0.0.0152
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -4912,6 +4912,11 @@ _branding_
 ||mail.yandex.*/monitoring_liza.txt$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
 ||pipe.aria.microsoft.com/collector/$important
+||vortex.data.microsoft.com^$important
+||clicktale.net^$important
+||go-mpulse.net^$important
+||demdex.net^$important
+.microsoft.*/broker.js$domain=~technet.microsoft.com,important
 ||bing.com/fd/ls/$important
 /bcn?
 |http*://*-zone-injection/$important
@@ -5252,3 +5257,5 @@ _clickheat.$important
 _clickheat^$important
 _clickheat_$important
 @@^teaser^$domain=music.yandex.ru
+||polyfill.twitchsvc.net^$important
+||d2v02itv0y9u9t.cloudfront.net^$important
