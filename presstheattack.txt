@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0152
+! Version: 0.0.0153
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5259,3 +5259,7 @@ _clickheat_$important
 @@^teaser^$domain=music.yandex.ru
 ||polyfill.twitchsvc.net^$important
 ||d2v02itv0y9u9t.cloudfront.net^$important
+||mms.cnn.com^$important
+||summerhamster.com^$important
+||optimizely.com^$important
+||collector.githubapp.com^$important
