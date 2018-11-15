@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0147
+! Version: 0.0.0148
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5060,3 +5060,51 @@ _rating_
 @@||api.travis-ci.org/job/*/log
 ||imrworldwide.com^$important
 ^stats.$domain=browserbench.org
+-amp4ads-$important
+-amp4ads.$important
+-amp4ads^$important
+-amp4ads_$important
+.amp4ads-$important
+.amp4ads.$important
+.amp4ads^$important
+.amp4ads_$important
+^amp4ads-$important
+^amp4ads.$important
+^amp4ads^$important
+^amp4ads_$important
+_amp4ads-$important
+_amp4ads.$important
+_amp4ads^$important
+_amp4ads_$important
+-antiblock-$important
+-antiblock.$important
+-antiblock^$important
+-antiblock_$important
+.antiblock-$important
+.antiblock.$important
+.antiblock^$important
+.antiblock_$important
+^antiblock-$important
+^antiblock.$important
+^antiblock^$important
+^antiblock_$important
+_antiblock-$important
+_antiblock.$important
+_antiblock^$important
+_antiblock_$important
+-appad-$important
+-appad.$important
+-appad^$important
+-appad_$important
+.appad-$important
+.appad.$important
+.appad^$important
+.appad_$important
+^appad-$important
+^appad.$important
+^appad^$important
+^appad_$important
+_appad-$important
+_appad.$important
+_appad^$important
+_appad_$important
