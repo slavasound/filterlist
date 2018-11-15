@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0149
+! Version: 0.0.0150
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5172,3 +5172,83 @@ _bannerid-$important
 _bannerid.$important
 _bannerid^$important
 _bannerid_$important
+-banners-
+-banners.
+-banners^
+-banners_
+.banners-
+.banners.
+.banners^
+.banners_
+^banners-
+^banners.
+^banners^
+^banners_
+_banners-
+_banners.
+_banners^
+_banners_
+-clickCount-$important
+-clickCount.$important
+-clickCount^$important
+-clickCount_$important
+.clickCount-$important
+.clickCount.$important
+.clickCount^$important
+.clickCount_$important
+^clickCount-$important
+^clickCount.$important
+^clickCount^$important
+^clickCount_$important
+_clickCount-$important
+_clickCount.$important
+_clickCount^$important
+_clickCount_$important
+-click_count-$important
+-click_count.$important
+-click_count^$important
+-click_count_$important
+.click_count-$important
+.click_count.$important
+.click_count^$important
+.click_count_$important
+^click_count-$important
+^click_count.$important
+^click_count^$important
+^click_count_$important
+_click_count-$important
+_click_count.$important
+_click_count^$important
+_click_count_$important
+-click-count-$important
+-click-count.$important
+-click-count^$important
+-click-count_$important
+.click-count-$important
+.click-count.$important
+.click-count^$important
+.click-count_$important
+^click-count-$important
+^click-count.$important
+^click-count^$important
+^click-count_$important
+_click-count-$important
+_click-count.$important
+_click-count^$important
+_click-count_$important
+-clickheat-$important
+-clickheat.$important
+-clickheat^$important
+-clickheat_$important
+.clickheat-$important
+.clickheat.$important
+.clickheat^$important
+.clickheat_$important
+^clickheat-$important
+^clickheat.$important
+^clickheat^$important
+^clickheat_$important
+_clickheat-$important
+_clickheat.$important
+_clickheat^$important
+_clickheat_$important
