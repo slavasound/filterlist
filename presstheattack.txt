@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0148
+! Version: 0.0.0149
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5108,3 +5108,67 @@ _appad-$important
 _appad.$important
 _appad^$important
 _appad_$important
+-appads-$important
+-appads.$important
+-appads^$important
+-appads_$important
+.appads-$important
+.appads.$important
+.appads^$important
+.appads_$important
+^appads-$important
+^appads.$important
+^appads^$important
+^appads_$important
+_appads-$important
+_appads.$important
+_appads^$important
+_appads_$important
+-banner_iframe-$important
+-banner_iframe.$important
+-banner_iframe^$important
+-banner_iframe_$important
+.banner_iframe-$important
+.banner_iframe.$important
+.banner_iframe^$important
+.banner_iframe_$important
+^banner_iframe-$important
+^banner_iframe.$important
+^banner_iframe^$important
+^banner_iframe_$important
+_banner_iframe-$important
+_banner_iframe.$important
+_banner_iframe^$important
+_banner_iframe_$important
+-bannerAds-$important
+-bannerAds.$important
+-bannerAds^$important
+-bannerAds_$important
+.bannerAds-$important
+.bannerAds.$important
+.bannerAds^$important
+.bannerAds_$important
+^bannerAds-$important
+^bannerAds.$important
+^bannerAds^$important
+^bannerAds_$important
+_bannerAds-$important
+_bannerAds.$important
+_bannerAds^$important
+_bannerAds_$important
+-bannerid-$important
+-bannerid.$important
+-bannerid^$important
+-bannerid_$important
+.bannerid-$important
+.bannerid.$important
+.bannerid^$important
+.bannerid_$important
+^bannerid-$important
+^bannerid.$important
+^bannerid^$important
+^bannerid_$important
+_bannerid-$important
+_bannerid.$important
+_bannerid^$important
+_bannerid_$important
