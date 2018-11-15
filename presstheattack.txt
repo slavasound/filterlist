@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0153
+! Version: 0.0.0154
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -2339,7 +2339,7 @@
 /\/([0-9]|[a-z]|analytics?|atrk|hit|log|njs|ping|pix|px|stat|track(ers?|ing)?|visitor)\.gif\?/$important
 /^http\:\/\/.*[^a-z](partners?|promo|sponsor)[^a-z]/$image,important
 /^https?:\/\/contentbooster\.me+\/(?!manifest)[a-z0-9]{5,45}/$xmlhttprequest,important
-/^https?:\/\/yastatic\.net\/[^\s]{500,}/$important
+/^https?:\/\/yastatic\.net\/[^\s]{500,}/$
 /_/batch|$first-party,xmlhttprequest,important
 /_bm/bd^$important
 /a.gif$important
@@ -5263,3 +5263,5 @@ _clickheat_$important
 ||summerhamster.com^$important
 ||optimizely.com^$important
 ||collector.githubapp.com^$important
+/yandex-video-player-iframe-api-bundles/$domain=kinopoisk.ru
+||github.com/_private/browser/stats$important
