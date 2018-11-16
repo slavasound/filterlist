@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0156
+! Version: 0.0.0157
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5297,3 +5297,35 @@ _clicklog-$important
 _clicklog.$important
 _clicklog^$important
 _clicklog_$important
+-comscore-$important
+-comscore.$important
+-comscore^$important
+-comscore_$important
+.comscore-$important
+.comscore.$important
+.comscore^$important
+.comscore_$important
+^comscore-$important
+^comscore.$important
+^comscore^$important
+^comscore_$important
+_comscore-$important
+_comscore.$important
+_comscore^$important
+_comscore_$important
+-cta-
+-cta.
+-cta^
+-cta_
+.cta-
+.cta.
+.cta^
+.cta_
+^cta-
+^cta.
+^cta^
+^cta_
+_cta-
+_cta.
+_cta^
+_cta_
