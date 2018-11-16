@@ -21,7 +21,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0155
+! Version: 0.0.0156
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -2397,7 +2397,7 @@
 /tr?$important
 /track/view/$important
 /uutils.fcg^$important
-/view.*^
+/view.*^$important
 /x.gif$important
 /xmsg_ti.js$script,important
 /z.gif$important
@@ -5281,3 +5281,19 @@ _sorry-adblocker^$important
 _sorry-adblocker_$important
 @@^logger.$domain=browserbench.org
 @@^stats.$domain=browserbench.org
+-clicklog-$important
+-clicklog.$important
+-clicklog^$important
+-clicklog_$important
+.clicklog-$important
+.clicklog.$important
+.clicklog^$important
+.clicklog_$important
+^clicklog-$important
+^clicklog.$important
+^clicklog^$important
+^clicklog_$important
+_clicklog-$important
+_clicklog.$important
+_clicklog^$important
+_clicklog_$important
