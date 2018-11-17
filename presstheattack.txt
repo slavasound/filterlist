@@ -15,13 +15,13 @@
 !              it also includes cosmetic filters for problem sites.
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack
-! Last modified: 16 November 2018
+! Last modified: 17 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Email: bogachenkove@gmail.com
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0157
+! Version: 0.0.0158
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
@@ -5329,3 +5329,68 @@ _cta-
 _cta.
 _cta^
 _cta_
+||radar.cedexis.com^$important
+-forceadv-$important
+-forceadv.$important
+-forceadv^$important
+-forceadv_$important
+.forceadv-$important
+.forceadv.$important
+.forceadv^$important
+.forceadv_$important
+^forceadv-$important
+^forceadv.$important
+^forceadv^$important
+^forceadv_$important
+_forceadv-$important
+_forceadv.$important
+_forceadv^$important
+_forceadv_$important
+-ad_box-$important
+-ad_box.$important
+-ad_box^$important
+-ad_box_$important
+.ad_box-$important
+.ad_box.$important
+.ad_box^$important
+.ad_box_$important
+^ad_box-$important
+^ad_box.$important
+^ad_box^$important
+^ad_box_$important
+_ad_box-$important
+_ad_box.$important
+_ad_box^$important
+_ad_box_$important
+-ad_url-$important
+-ad_url.$important
+-ad_url^$important
+-ad_url_$important
+.ad_url-$important
+.ad_url.$important
+.ad_url^$important
+.ad_url_$important
+^ad_url-$important
+^ad_url.$important
+^ad_url^$important
+^ad_url_$important
+_ad_url-$important
+_ad_url.$important
+_ad_url^$important
+_ad_url_$important
+-adbannerid-$important
+-adbannerid.$important
+-adbannerid^$important
+-adbannerid_$important
+.adbannerid-$important
+.adbannerid.$important
+.adbannerid^$important
+.adbannerid_$important
+^adbannerid-$important
+^adbannerid.$important
+^adbannerid^$important
+^adbannerid_$important
+_adbannerid-$important
+_adbannerid.$important
+_adbannerid^$important
+_adbannerid_$important
