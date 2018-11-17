@@ -21,10 +21,12 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0160
+! Version: 0.0.0161
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 ##[href*="awaps.yandex."]
+##.adblock-detector
+yandex.ru,yandex.by,yandex.ua##.favorites.headline__bar-item
 -0pixel-$important
 -0pixel.$important
 -0pixel^$important
