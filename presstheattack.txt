@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0168
+! Version: 0.0.0169
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -1302,14 +1302,14 @@
 -trackalyze.$important
 -trackalyze^$important
 -trackalyze_$important
--tracker-$important
--tracker.$important
--tracker^$important
--tracker_$important
--tracking-$important
--tracking.$important
--tracking^$important
--tracking_$important
+-tracker-
+-tracker.
+-tracker^
+-tracker_
+-tracking-
+-tracking.
+-tracking^
+-tracking_
 -trackingaffilies-$important
 -trackingaffilies.$important
 -trackingaffilies^$important
@@ -2676,10 +2676,10 @@
 .trackalyze.$important
 .trackalyze^$important
 .trackalyze_$important
-.tracker-$important
-.tracker.$important
-.tracker^$important
-.tracker_$important
+.tracker-
+.tracker.
+.tracker^
+.tracker_
 .tracking-$important
 .tracking.$important
 .tracking^$important
@@ -4163,10 +4163,10 @@ GGBET$image
 ^trackalyze.$important
 ^trackalyze^$important
 ^trackalyze_$important
-^tracker-$important
-^tracker.$important
-^tracker^$important
-^tracker_$important
+^tracker-
+^tracker.
+^tracker^
+^tracker_
 ^tracking-$important
 ^tracking.$important
 ^tracking^$important
@@ -5536,10 +5536,10 @@ _trackalyze-$important
 _trackalyze.$important
 _trackalyze^$important
 _trackalyze_$important
-_tracker-$important
-_tracker.$important
-_tracker^$important
-_tracker_$important
+_tracker-
+_tracker.
+_tracker^
+_tracker_
 _tracking-$important
 _tracking.$important
 _tracking^$important
@@ -5836,3 +5836,8 @@ youtube.com##.ytp-ad-progress
 ||yandex.*/search/yandcache.js$important
 ||yastatic.net/*/atom.js$script,important
 ||zen.yandex.*^$important
+@@^tracking_$domain=fandom.com
+@@.tracker.$domain=fandom.com
+@@_tracker^$domain=fandom.com
+@@^tracker^$domain=fandom.com
+||amazonaws.com/ki.js/$important
