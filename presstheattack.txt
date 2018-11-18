@@ -13,16 +13,17 @@
 ! Description: Custom filters blocking popular trackers,
 !              banners, loading and displaying ads on website pages and search results,
 !              it also includes cosmetic filters for problem sites.
+! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
-! Github: https://github.com/bogachenko/presstheattack
+! Github: https://github.com/bogachenko/presstheattack/
+! Homepage: https://bogachenko.github.io/presstheattack/
 ! Last modified: 18 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
-! Email: bogachenkove@gmail.com
-! Problem reports: https://github.com/bogachenko/presstheattack/issues
+! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0162
-! Wiki: https://github.com/bogachenko/presstheattack/wiki
+! Version: 0.0.0163
+! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
 ##.adsbygoogle
@@ -5565,6 +5566,8 @@ youtube.com##.ytp-ad-progress
 ||adbetnet.com^$important
 ||admixer.net^$important
 ||adnxs.com^$important
+||bat.bing.com^$important
+||krxd.net^$important
 ||adriver.ru^$important
 ||amazon-adsystem.com^$important
 ||an.yandex.ru^$important
@@ -5641,3 +5644,35 @@ youtube.com##.ytp-ad-progress
 ||yandex.*/search/yandcache.js$important
 ||yastatic.net/*/atom.js$script,important
 ||zen.yandex.*^$important
+-advertorial-$important
+-advertorial.$important
+-advertorial^$important
+-advertorial_$important
+.advertorial-$important
+.advertorial.$important
+.advertorial^$important
+.advertorial_$important
+^advertorial-$important
+^advertorial.$important
+^advertorial^$important
+^advertorial_$important
+_advertorial-$important
+_advertorial.$important
+_advertorial^$important
+_advertorial_$important
+-ad_banner-$important
+-ad_banner.$important
+-ad_banner^$important
+-ad_banner_$important
+.ad_banner-$important
+.ad_banner.$important
+.ad_banner^$important
+.ad_banner_$important
+^ad_banner-$important
+^ad_banner.$important
+^ad_banner^$important
+^ad_banner_$important
+_ad_banner-$important
+_ad_banner.$important
+_ad_banner^$important
+_ad_banner_$important
