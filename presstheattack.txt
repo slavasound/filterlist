@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0165
+! Version: 0.0.0166
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5740,3 +5740,51 @@ _ads-iframe-$important
 _ads-iframe.$important
 _ads-iframe^$important
 _ads-iframe_$important
+-ads-management-$important
+-ads-management.$important
+-ads-management^$important
+-ads-management_$important
+.ads-management-$important
+.ads-management.$important
+.ads-management^$important
+.ads-management_$important
+^ads-management-$important
+^ads-management.$important
+^ads-management^$important
+^ads-management_$important
+_ads-management-$important
+_ads-management.$important
+_ads-management^$important
+_ads-management_$important
+-ads-manager-$important
+-ads-manager.$important
+-ads-manager^$important
+-ads-manager_$important
+.ads-manager-$important
+.ads-manager.$important
+.ads-manager^$important
+.ads-manager_$important
+^ads-manager-$important
+^ads-manager.$important
+^ads-manager^$important
+^ads-manager_$important
+_ads-manager-$important
+_ads-manager.$important
+_ads-manager^$important
+_ads-manager_$important
+-ads-master-$important
+-ads-master.$important
+-ads-master^$important
+-ads-master_$important
+.ads-master-$important
+.ads-master.$important
+.ads-master^$important
+.ads-master_$important
+^ads-master-$important
+^ads-master.$important
+^ads-master^$important
+^ads-master_$important
+_ads-master-$important
+_ads-master.$important
+_ads-master^$important
+_ads-master_$important
