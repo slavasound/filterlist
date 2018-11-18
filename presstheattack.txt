@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0163
+! Version: 0.0.0164
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5676,3 +5676,35 @@ _ad_banner-$important
 _ad_banner.$important
 _ad_banner^$important
 _ad_banner_$important
+-ad_injector-$important
+-ad_injector.$important
+-ad_injector^$important
+-ad_injector_$important
+.ad_injector-$important
+.ad_injector.$important
+.ad_injector^$important
+.ad_injector_$important
+^ad_injector-$important
+^ad_injector.$important
+^ad_injector^$important
+^ad_injector_$important
+_ad_injector-$important
+_ad_injector.$important
+_ad_injector^$important
+_ad_injector_$important
+-ad_leaderboard-$important
+-ad_leaderboard.$important
+-ad_leaderboard^$important
+-ad_leaderboard_$important
+.ad_leaderboard-$important
+.ad_leaderboard.$important
+.ad_leaderboard^$important
+.ad_leaderboard_$important
+^ad_leaderboard-$important
+^ad_leaderboard.$important
+^ad_leaderboard^$important
+^ad_leaderboard_$important
+_ad_leaderboard-$important
+_ad_leaderboard.$important
+_ad_leaderboard^$important
+_ad_leaderboard_$important
