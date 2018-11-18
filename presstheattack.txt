@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0169
+! Version: 0.0.0170
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5841,3 +5841,6 @@ youtube.com##.ytp-ad-progress
 @@_tracker^$domain=fandom.com
 @@^tracker^$domain=fandom.com
 ||amazonaws.com/ki.js/$important
+||youtube.com/api/stats/qoe^$important
+||trowel.twitch.tv^$important
+/(\W|_)advert(is(e|ements?|ers?|ing)?|orial|s)?[0-9]*(\W|_)/$script,important
