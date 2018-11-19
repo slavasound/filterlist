@@ -17,12 +17,12 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 18 November 2018
+! Last modified: 19 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0171
+! Version: 0.0.0172
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5844,3 +5844,67 @@ youtube.com##.ytp-ad-progress
 ||youtube.com/api/stats/qoe^$important
 ||trowel.twitch.tv^$important
 /(\W|_)advert(is(e|ements?|ers?|ing)?|orial|s)?[0-9]*(\W|_)/$script,important
+-customad-$important
+-customad.$important
+-customad^$important
+-customad_$important
+.customad-$important
+.customad.$important
+.customad^$important
+.customad_$important
+^customad-$important
+^customad.$important
+^customad^$important
+^customad_$important
+_customad-$important
+_customad.$important
+_customad^$important
+_customad_$important
+-customads-$important
+-customads.$important
+-customads^$important
+-customads_$important
+.customads-$important
+.customads.$important
+.customads^$important
+.customads_$important
+^customads-$important
+^customads.$important
+^customads^$important
+^customads_$important
+_customads-$important
+_customads.$important
+_customads^$important
+_customads_$important
+-fastpopunder-$important
+-fastpopunder.$important
+-fastpopunder^$important
+-fastpopunder_$important
+.fastpopunder-$important
+.fastpopunder.$important
+.fastpopunder^$important
+.fastpopunder_$important
+^fastpopunder-$important
+^fastpopunder.$important
+^fastpopunder^$important
+^fastpopunder_$important
+_fastpopunder-$important
+_fastpopunder.$important
+_fastpopunder^$important
+_fastpopunder_$important
+-framead-$important
+-framead.$important
+-framead^$important
+-framead_$important
+.framead-$important
+.framead.$important
+.framead^$important
+.framead_$important
+^framead-$important
+^framead.$important
+^framead^$important
+^framead_$important
+_framead-$important
+_framead.$important
+_framead^$important
+_framead_$important
