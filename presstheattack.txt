@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0172
+! Version: 0.0.0173
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5908,3 +5908,51 @@ _framead-$important
 _framead.$important
 _framead^$important
 _framead_$important
+-gatrack-
+-gatrack.
+-gatrack^
+-gatrack_
+.gatrack-
+.gatrack.
+.gatrack^
+.gatrack_
+^gatrack-
+^gatrack.
+^gatrack^
+^gatrack_
+_gatrack-
+_gatrack.
+_gatrack^
+_gatrack_
+-getad-$important
+-getad.$important
+-getad^$important
+-getad_$important
+.getad-$important
+.getad.$important
+.getad^$important
+.getad_$important
+^getad-$important
+^getad.$important
+^getad^$important
+^getad_$important
+_getad-$important
+_getad.$important
+_getad^$important
+_getad_$important
+-getads-$important
+-getads.$important
+-getads^$important
+-getads_$important
+.getads-$important
+.getads.$important
+.getads^$important
+.getads_$important
+^getads-$important
+^getads.$important
+^getads^$important
+^getads_$important
+_getads-$important
+_getads.$important
+_getads^$important
+_getads_$important
