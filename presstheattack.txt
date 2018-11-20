@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0175
+! Version: 0.0.0176
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5994,3 +5994,67 @@ _adServe_$important
 ||metric.gstatic.com^$important
 ||youtube.com/api/stats/playback^$important
 @@^landing_$domain=vk.com
+-getAdv-$important
+-getAdv.$important
+-getAdv^$important
+-getAdv_$important
+.getAdv-$important
+.getAdv.$important
+.getAdv^$important
+.getAdv_$important
+^getAdv-$important
+^getAdv.$important
+^getAdv^$important
+^getAdv_$important
+_getAdv-$important
+_getAdv.$important
+_getAdv^$important
+_getAdv_$important
+-getAdvert-$important
+-getAdvert.$important
+-getAdvert^$important
+-getAdvert_$important
+.getAdvert-$important
+.getAdvert.$important
+.getAdvert^$important
+.getAdvert_$important
+^getAdvert-$important
+^getAdvert.$important
+^getAdvert^$important
+^getAdvert_$important
+_getAdvert-$important
+_getAdvert.$important
+_getAdvert^$important
+_getAdvert_$important
+-getAdvertisement-$important
+-getAdvertisement.$important
+-getAdvertisement^$important
+-getAdvertisement_$important
+.getAdvertisement-$important
+.getAdvertisement.$important
+.getAdvertisement^$important
+.getAdvertisement_$important
+^getAdvertisement-$important
+^getAdvertisement.$important
+^getAdvertisement^$important
+^getAdvertisement_$important
+_getAdvertisement-$important
+_getAdvertisement.$important
+_getAdvertisement^$important
+_getAdvertisement_$important
+-getAdvertisements-$important
+-getAdvertisements.$important
+-getAdvertisements^$important
+-getAdvertisements_$important
+.getAdvertisements-$important
+.getAdvertisements.$important
+.getAdvertisements^$important
+.getAdvertisements_$important
+^getAdvertisements-$important
+^getAdvertisements.$important
+^getAdvertisements^$important
+^getAdvertisements_$important
+_getAdvertisements-$important
+_getAdvertisements.$important
+_getAdvertisements^$important
+_getAdvertisements_$important
