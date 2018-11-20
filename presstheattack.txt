@@ -22,7 +22,7 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0176
+! Version: 0.0.0177
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -6058,3 +6058,83 @@ _getAdvertisements-$important
 _getAdvertisements.$important
 _getAdvertisements^$important
 _getAdvertisements_$important
+-getAdverts-$important
+-getAdverts.$important
+-getAdverts^$important
+-getAdverts_$important
+.getAdverts-$important
+.getAdverts.$important
+.getAdverts^$important
+.getAdverts_$important
+^getAdverts-$important
+^getAdverts.$important
+^getAdverts^$important
+^getAdverts_$important
+_getAdverts-$important
+_getAdverts.$important
+_getAdverts^$important
+_getAdverts_$important
+-getBanner-$important
+-getBanner.$important
+-getBanner^$important
+-getBanner_$important
+.getBanner-$important
+.getBanner.$important
+.getBanner^$important
+.getBanner_$important
+^getBanner-$important
+^getBanner.$important
+^getBanner^$important
+^getBanner_$important
+_getBanner-$important
+_getBanner.$important
+_getBanner^$important
+_getBanner_$important
+-getSponsor-$important
+-getSponsor.$important
+-getSponsor^$important
+-getSponsor_$important
+.getSponsor-$important
+.getSponsor.$important
+.getSponsor^$important
+.getSponsor_$important
+^getSponsor-$important
+^getSponsor.$important
+^getSponsor^$important
+^getSponsor_$important
+_getSponsor-$important
+_getSponsor.$important
+_getSponsor^$important
+_getSponsor_$important
+-getSponsors-$important
+-getSponsors.$important
+-getSponsors^$important
+-getSponsors_$important
+.getSponsors-$important
+.getSponsors.$important
+.getSponsors^$important
+.getSponsors_$important
+^getSponsors-$important
+^getSponsors.$important
+^getSponsors^$important
+^getSponsors_$important
+_getSponsors-$important
+_getSponsors.$important
+_getSponsors^$important
+_getSponsors_$important
+-googleadsense-$important
+-googleadsense.$important
+-googleadsense^$important
+-googleadsense_$important
+.googleadsense-$important
+.googleadsense.$important
+.googleadsense^$important
+.googleadsense_$important
+^googleadsense-$important
+^googleadsense.$important
+^googleadsense^$important
+^googleadsense_$important
+_googleadsense-$important
+_googleadsense.$important
+_googleadsense^$important
+_googleadsense_$important
