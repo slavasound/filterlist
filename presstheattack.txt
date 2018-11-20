@@ -17,12 +17,12 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 19 November 2018
+! Last modified: 20 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0174
+! Version: 0.0.0175
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5991,3 +5991,6 @@ _adServe_$important
 ||clksite.com^$important
 ||whos.amung.us^$important
 ||stats.wp.com^$important
+||metric.gstatic.com^$important
+||youtube.com/api/stats/playback^$important
+@@^landing_$domain=vk.com
