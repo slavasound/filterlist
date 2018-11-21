@@ -17,12 +17,12 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 20 November 2018
+! Last modified: 21 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0177
+! Version: 0.0.0178
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -2858,7 +2858,6 @@
 /view.*^$important
 /x.gif$important
 /xmsg_ti.js$script,important
-/yandex-video-player-iframe-api-bundles/$domain=kinopoisk.ru
 /z.gif$important
 2ch.hk###plashque
 3g2upl4pq6kufc4m.onion##.header__label.showcase.header--aside__item
@@ -5841,7 +5840,6 @@ youtube.com##.ytp-ad-progress
 @@_tracker^$domain=fandom.com
 @@^tracker^$domain=fandom.com
 ||amazonaws.com/ki.js/$important
-||youtube.com/api/stats/qoe^$important
 ||trowel.twitch.tv^$important
 /(\W|_)advert(is(e|ements?|ers?|ing)?|orial|s)?[0-9]*(\W|_)/$script,important
 -customad-$important
@@ -5992,7 +5990,7 @@ _adServe_$important
 ||whos.amung.us^$important
 ||stats.wp.com^$important
 ||metric.gstatic.com^$important
-||youtube.com/api/stats/playback^$important
+||youtube.com/api/stats/$important
 @@^landing_$domain=vk.com
 -getAdv-$important
 -getAdv.$important
