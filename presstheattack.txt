@@ -17,12 +17,12 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 21 November 2018
+! Last modified: 23 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0178
+! Version: 0.0.0179
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -2870,12 +2870,12 @@
 @@^logger.$domain=browserbench.org
 @@^stats.$domain=browserbench.org
 @@^teaser^$domain=music.yandex.ru
-@@google.com/maps/*=maps*^log^$script,xmlhttprequest
+@@||google.com/maps/*=maps*^log^$script,xmlhttprequest
 @@landing.$domain=live.com|yandex.ru
 @@landingpage.$domain=instagram.com
-@@mail.google.com/mail/*=gmail*^adv^$xmlhttprequest
+@@^adv^$domain=mail.google.com
 @@||*.facebook.com/ajax/pagelet/generic.php/*$subdocument
-@@||api-maps.yandex.*^$script,first-party
+@@||api-maps.yandex.*^$script,xmlhttprequest,first-party
 @@||api.travis-ci.org/job/*/log
 @@||freebitco.in^
 @@||github.com/*/comments/$xmlhttprequest,first-party
@@ -6136,3 +6136,10 @@ _googleadsense-$important
 _googleadsense.$important
 _googleadsense^$important
 _googleadsense_$important
+|data:text$popup,important
+/favicon.ico$popup,important
+##.adblock-detector
+yandex.ru##.favorites.home-link
+@@||cloud-api.yandex.*^$script,xmlhttprequest,first-party
+1xbet$important
+1xstavka$important
