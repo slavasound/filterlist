@@ -17,7 +17,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 23 November 2018
+! Last modified: 24 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6147,3 +6147,5 @@ yandex.ru##.favorites.home-link
 @@||cloud-api.yandex.*^$script,xmlhttprequest,first-party
 1xbet$important
 1xstavka$important
+facebookcorewwwi.onion#@##facebook
+||disqus.com/count.js$script,important
