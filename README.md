@@ -13,12 +13,11 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 20 November 2018
+Last modified: 23 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
 URL: https://github.com/bogachenko/presstheattack/blob/master/HELP/firefox.html
-Version: 0.0.0016
 Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip -->
