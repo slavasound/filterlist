@@ -17,7 +17,7 @@ Last modified: 23 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
-URL: https://github.com/bogachenko/presstheattack/blob/master/HELP/firefox.html
+URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/README.md
 Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip -->
@@ -47,14 +47,14 @@ Note that I mainly use uBlock Origin. I will do my best to maintain compatibilit
 
 ## Supported Ad-Blockers
 
-In order to use these rules, you'll need a compatibile browser plugin.
+In order to use these rules, you'll need a compatible browser plugin.
 
 * [uBlock **Origin**](https://github.com/gorhill/uBlock) (not [uBlock](https://www.ublock.org) <sup><small>[why?](https://github.com/bogachenko/presstheattack/wiki/uBlock-Origin-vs-uBlock)</small></sup>)
 	* [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
 	* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 	* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
 
-Each browser and plugin are slightly different from each other, all the plugins presented above with my list filter work properly (checked personally), the plugins presented below were not checked by me personally and therefore I admit that *maybe* there will be incorrect work with some of the filters.
+Every browsers and plugins are slightly different from each other, the plugin presented above with my filter list works correctly (checked personally), the plugins presented below were not checked by me personally, and therefore I admit that it may not work correctly.
 
 * [AdBlock Plus](https://adblockplus.org/)
 	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-plus/)
