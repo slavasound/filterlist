@@ -22,7 +22,6 @@
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
 ! URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt
-! Version: 0.0.0179
 ! Wiki: https://github.com/bogachenko/presstheattack/wiki/
 
 ##.adblock-detector
@@ -5689,6 +5688,11 @@ twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".gg"]
+twitch.tv##a[href*="papajohns"]
+twitch.tv##a[href*="concert"]
+twitch.tv##a[href*="opseat.com"]
+twitch.tv##a[href*="invasion.ru"]
+twitch.tv##a[href*="arozzi.*"]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="aser"]
