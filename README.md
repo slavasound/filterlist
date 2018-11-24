@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 23 November 2018
+Last modified: 24 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
@@ -27,54 +27,20 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Custom filters blocking popular trackers, banners, loading and displaying ads on website pages and search results, it also includes cosmetic filters for problem sites.
+Custom filters block popular trackers, banners, loading and displaying ads on site pages and in search results, and these lists include cosmetic filters for problematic sites.
 
-This project is the original, it is under the MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and created it [Bogachenko Vyacheslav](https://github.com/bogachenko)
+This project is under MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and its creator — [Bogachenko Vyacheslav](https://github.com/bogachenko)
 
-The overall goal of the project is to block ads and reduce traffic coming from domains/websites that you visit.
-The term "ads" is not defined in this project, because as I said above, besides the obvious ads, I also block cosmetic banners and tooltips, which, as I think, create useless traffic without any real benefit.
+The overall goal of the project is to block ads and reduce traffic coming from the domains and websites you visit.
+The term "advertising" in this project is not defined because, as I said above, apart from the obvious advertising, I also block cosmetic banners and tooltips which I think create useless traffic without any real benefit.
 
-My list is not restricted by any region. However, my personal attention is English and Russian regions since I speak these languages.
+My list is not limited to any region. However, my personal attention is paid to the English and Russian regions, as I speak these languages.
 
 ## Disclaimer
 
-You may find that these rules are overzealous, I pay special attention to logging, spying on users, mining and trackers.
-If you find that one or more of the rules breaks the site, identify the problem rule and use the comments to disable it through the plugin settings and/or create a question in "issues".
+You may find these rules to be overly zealous. Yes, I pay special attention to spying on users, developing and tracking, as well as hidden mining.
 
-I am not responsible for any damages you may suffer from the use of these rules, including content mistakenly hidden or violated by one of the rules in this set.
-
-Note that I mainly use uBlock Origin. I will do my best to maintain compatibility with AdBlock Plus, but I cannot test my filter regularly with this plugin. (If you have any problem using AdBlock Plus, please feel free to raise the issue.)
-
-## Supported Ad-Blockers
-
-In order to use these rules, you'll need a compatible browser plugin.
-
-* [uBlock **Origin**](https://github.com/gorhill/uBlock) (not [uBlock](https://www.ublock.org) <sup><small>[why?](https://github.com/bogachenko/presstheattack/wiki/uBlock-Origin-vs-uBlock)</small></sup>)
-	* [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
-	* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-	* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
-
-Every browsers and plugins are slightly different from each other, the plugin presented above with my filter list works correctly (checked personally), the plugins presented below were not checked by me personally, and therefore I admit that it may not work correctly.
-
-* [AdBlock Plus](https://adblockplus.org/)
-	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-plus/)
-	* [Chrome](https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb)
-	* [Opera](https://addons.opera.com/en/extensions/details/adblock-plus/)
-
-* [Adblock](https://getadblock.com/)
-	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-for-firefox)
-	* [Chrome](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
-	* [Opera](https://addons.opera.com/en/extensions/details/adblock/)
-
-* [Opera](https://opera.com)
-    * [Opera Ad blocker](https://addons.opera.com/en/extensions/details/opera-ad-blocker/)
-	
-* [Adguard](https://adguard.com)
-    * [Firefox](https://addons.mozilla.org/en/firefox/addon/adguard-adblocker/)
-	* [Chrome](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg/)
-	* [Opera](https://addons.opera.com/en/extensions/details/adguard/)
-  
-and all other similar plugins...
+However, if you find that one or several rules violate the website, break it, determine the problem rule and use the comments, disable it through the plugin settings and then create a question in the [issues](https://github.com/bogachenko/presstheattack/issues).
 
 ## Usage
 
@@ -84,10 +50,11 @@ and all other similar plugins...
 
 ## Documentation
 
-For a more detailed project description and documentation please see the [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+For a more detailed description of the project and its documentation, see the [WIKI](https://github.com/bogachenko/presstheattack/wiki).
 
 ## Contributions
 
-I accept any requests for additional rules. Please go to the "issues" tab, open the question and report a problem or a wish, **BUT** do not multiply the same questions, problems with the list are solved only here.
-Lovers to communicate and/or use the stream for their own entertainment will be removed and with regular relapse will be prohibited.
-Do not clog it, young people, it wasn't created for this purpose
+I accept any requests for additional rules. Go to the tab — [issues](https://github.com/bogachenko/presstheattack/issues), open a question and report a problem or a wish, but do not duplicate the same questions, please.
+Fans of socializing and/or using this function for their own entertainment will be closed, and regular relapse will be banned.
+
+**Do not clog it, young people, it wasn't created for this purpose.**
