@@ -44,3 +44,22 @@ Wenn Sie jedoch feststellen, dass eine oder mehrere Regeln die Arbeit der Site b
 Ich hafte nicht für Verluste, die durch die Anwendung dieser Regeln entstehen können, einschließlich Inhalte, die versehentlich verborgen werden und Fehlfunktionen verursachen, die den normalen Betrieb aufgrund einer oder mehrerer Regeln in diesem liste behindern.
 
 Bitte beachten Sie, dass ich hauptsächlich uBlock Origin verwende. Ich betone das, weil jeder Browser und Plugin etwas anders ist, das uBlock Origin funktioniert richtig mit meiner Filterliste (persönlich getestet), andere plugins wurden nicht von mir persönlich überprüft, und so gebe ich zu, dass einer von Ihnen und mehr falsch funktionieren könnte.
+
+Trotzdem werde ich mein bestes tun, um die Kompatibilität mit Adblock Plus und anderen bekannten ad-Blocker-plugins zu unterstützen. Sie sollten jedoch verstehen, dass ich meine Filterliste nicht regelmäßig mit anderen Plugins testen kann. Wenn Sie also Probleme mit Adblock Plus und ähnlichen Plugins haben, können Sie dieses Problem gerne unter [issues](https://github.com/bogachenko/presstheattack/issues) ansprechen.
+
+## Verwendung
+
+[ABONNIEREN](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Klicken Sie auf den Link, um eine Filterliste über den Browser hinzuzufügen oder manuell hinzuzufügen:
+
+`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## Dokumentation
+
+Eine genauere Beschreibung des Projekts und seiner Dokumentation finden Sie unter In der [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+
+## Beitrag
+
+Ich akzeptiere alle Anfragen nach zusätzlichen Regeln. Klicken Sie auf die Registerkarte — [issues](https://github.com/bogachenko/presstheattack/issues), Öffnen Sie eine Frage und melden Sie ein Problem oder einen Wunsch, aber wiederholen Sie bitte nicht die gleichen Fragen.
+Liebhaber der Kontakte und/oder nutzen diese Funktion für ihre eigene Unterhaltung, werden geschlossen, und regelmäßige Rückfallsaktion wird verboten.
+
+**Hämmern Sie es nicht, junge Leute, es ist nicht für diesen Zweck geschaffen.**
