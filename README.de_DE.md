@@ -26,3 +26,8 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![site](https://img.shields.io/badge/site-up-%233fb912.svg)](https://bogachenko.github.io/presstheattack/)
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
+
+Kundenspezifische filter, die beliebte tracker, banner, upload und anzeige von anzeigen auf den seiten der websites und in den suchergebnissen blockieren, sowie diese listen enthalten kosmetische filter für problematische websites.
+
+Dieses projekt steht unter lizenz MIT (siehe [Lizenz](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) и его создатель — [Bogachenko Vyacheslav](https://github.com/bogachenko).
+
