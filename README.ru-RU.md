@@ -39,55 +39,27 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 ## Отказ от ответственности
 
 Вы можете обнаружить, что эти правила чрезмерно усердны. Да, я обращаю особое внимание на шпионаж на пользователей, разработку и отслеживание, а так же скрытый майнинг.
-Однако, если вы обнаружите, что одно или несколько правил нарушают работу сайта, ломают его, определите проблемное правило и используя комментарии, отключите его через настройки плагина и после этого создайте вопрос в "[проблемах](https://github.com/bogachenko/presstheattack/issues)".
+Однако, если вы обнаружите, что одно или несколько правил нарушают работу сайта, ломают его, определите проблемное правило и используя комментарии, отключите его через настройки плагина и после этого создайте вопрос в [проблемах](https://github.com/bogachenko/presstheattack/issues).
 
 Я не несу ответственности за любые убытки, которые могут возникнуть в результате использования этих правил, включая контент, который скрыт по ошибке и вызывает сбои, являясь препятствием для нормальной работы из-за одного или нескольких правил в этом наборе.
 
 Обратите внимание, что в основном я использую uBlock Origin. Я подчеркиваю это, потому что каждый браузер и плагин немного отличается друг от друга, плагин uBlock Origin работает правильно с моим списком фильтров (проверено лично), другие плагины не были проверены мной лично, и поэтому я признаю, что один из них и более может работать неправильно.
 
-Несмотря на это, я сделаю все возможное, чтобы поддерживать совместимость с Adblock Plus и другими известными плагинами для блокировки рекламы. Тем не менее, вы должны понимать, что я не могу регулярно тестировать свой список фильтров с другими плагинами, так что если у вас возникли проблемы с использованием Adblock Plus и подобными плагинами, не стесняйтесь поднять этот вопрос в "[проблемах](https://github.com/bogachenko/presstheattack/issues)".
-
-## Поддерживаемые блокировщики рекламы
-
-Чтобы использовать эти правила, вам понадобится совместимый браузер.
-
-* [uBlock **Origin**](https://github.com/gorhill/uBlock) (не [uBlock](https://www.ublock.org) <sup><small>[почему?](https://github.com/bogachenko/presstheattack/wiki/uBlock-Origin-vs-uBlock)</small></sup>)
-	* [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
-	* [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-	* [Opera](https://addons.opera.com/en/extensions/details/ublock/)
-
-* [AdBlock Plus](https://adblockplus.org/)
-	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-plus/)
-	* [Chrome](https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb)
-	* [Opera](https://addons.opera.com/en/extensions/details/adblock-plus/)
-
-* [Adblock](https://getadblock.com/)
-	* [Firefox](https://addons.mozilla.org/en/firefox/addon/adblock-for-firefox)
-	* [Chrome](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
-	* [Opera](https://addons.opera.com/en/extensions/details/adblock/)
-
-* [Opera](https://opera.com)
-    * [Opera Ad blocker](https://addons.opera.com/en/extensions/details/opera-ad-blocker/)
-	
-* [Adguard](https://adguard.com)
-    * [Firefox](https://addons.mozilla.org/en/firefox/addon/adguard-adblocker/)
-	* [Chrome](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg/)
-	* [Opera](https://addons.opera.com/en/extensions/details/adguard/)
-  
-и все другие подобные плагины...
+Несмотря на это, я сделаю все возможное, чтобы поддерживать совместимость с Adblock Plus и другими известными плагинами для блокировки рекламы. Тем не менее, вы должны понимать, что я не могу регулярно тестировать свой список фильтров с другими плагинами, так что если у вас возникли проблемы с использованием Adblock Plus и подобными плагинами, не стесняйтесь поднять этот вопрос в [проблемах](https://github.com/bogachenko/presstheattack/issues).
 
 ## Использование
 
-[ПОДПИСАТЬСЯ](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) - Нажмите ссылку, чтобы добавить список фильтров через браузер или добавить его вручную:
+[ПОДПИСАТЬСЯ](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Нажмите ссылку, чтобы добавить список фильтров через браузер или добавить его вручную:
 
 `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
 
 ## Документация
 
-Более подробное описание проекта и документация см. в разделе [ВИКИ](https://github.com/bogachenko/presstheattack/wiki).
+Более подробное описание проекта и его документация см. в разделе [ВИКИ](https://github.com/bogachenko/presstheattack/wiki).
 
 ## Вклад
 
-Я принимаю любые запросы на дополнительные правила. Перейдите на вкладку "Проблемы", откройте вопрос и сообщите о проблеме или пожелании, но не умножайте одни и те же вопросы, проблемы со списком решаются только здесь.
-Любители пообщаться и/или использовать поток для собственного развлечения будут удалены, и регулярный рецидив будет запрещен.
-Не забивайте его, молодые люди, он не создан для этой цели.
+Я принимаю любые запросы на дополнительные правила. Перейдите во вкладку — [проблемы](https://github.com/bogachenko/presstheattack/issues), откройте вопрос и сообщите о проблеме или пожелании, но не дублируйте одни и те же вопросы, пожалуйста.
+Любители пообщаться и/или использовать эту функцию для собственного развлечения будут закрыты, а регулярный рецидив будет баниться.
+
+**Не забивайте его, молодые люди, он не создан для этой цели.**
