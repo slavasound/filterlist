@@ -17,7 +17,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 25 November 2018
+! Last modified: 26 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -2975,7 +2975,6 @@
 /dreamcash*.*$image,important
 /end-of-adblock-cycle/*$important
 /entry.count?$important
-/favicon.ico$popup,important
 /fingerprint$important
 /ga.js$script,important
 /gads.$script,important
@@ -2991,7 +2990,6 @@
 /owa.messageadlist.*$important
 /p.gif^$important
 /p.js^$important
-/p?$important
 /ph-functions.js$script,important
 /ping.gif^$important
 /pixel.gif$important
@@ -6152,7 +6150,6 @@ youtube.com##.ytp-ad-progress
 ||top-fwz1.mail.ru^$important
 ||top.list.ru^$important
 ||trafficfactory.biz^$important
-||trowel.twitch.tv^$important
 ||udc.yahoo.com^$important
 ||visualwebsiteoptimizer.com^$important
 ||vortex.data.microsoft.com^$important
@@ -6174,3 +6171,39 @@ youtube.com##.ytp-ad-progress
 ||trowel.twitch.tv^$important
 ||omtrdc.net^$important
 /p?$important
+/ph-tracking.js$important
+-metrixevents-$important
+-metrixevents.$important
+-metrixevents^$important
+-metrixevents_$important
+.metrixevents-$important
+.metrixevents.$important
+.metrixevents^$important
+.metrixevents_$important
+^metrixevents-$important
+^metrixevents.$important
+^metrixevents^$important
+^metrixevents_$important
+_metrixevents-$important
+_metrixevents.$important
+_metrixevents^$important
+_metrixevents_$important
+||static.hotjar.com^$important
+-exoclick-$important
+-exoclick.$important
+-exoclick^$important
+-exoclick_$important
+.exoclick-$important
+.exoclick.$important
+.exoclick^$important
+.exoclick_$important
+^exoclick-$important
+^exoclick.$important
+^exoclick^$important
+^exoclick_$important
+_exoclick-$important
+_exoclick.$important
+_exoclick^$important
+_exoclick_$important
+#@#.fa-rss
+/favicon.ico$third-party,image,popup,important
