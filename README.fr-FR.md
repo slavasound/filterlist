@@ -30,3 +30,15 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 Les filtres personnalisés bloquent les trackers populaires, les bannières, le chargement et l'affichage de publicités sur les pages des sites et dans les résultats de recherche. Ces listes incluent également des filtres cosmétiques pour les sites à problèmes.
 
 Ce projet est sous licence MIT (voir la [Licence](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) et son créateur — [Bogachenko Vyacheslav](https://github.com/bogachenko).
+
+L'objectif général du projet est de bloquer les annonces et de réduire le trafic provenant des domaines et des sites Web que vous visitez.
+Le terme  "publicité " dans ce projet n'est pas défini, parce que, comme je l'ai dit ci-dessus, outre la publicité évidente, je bloque aussi les bannières cosmétiques et les info-bulles, qui, je pense, créent un trafic inutile sans aucun avantage réel.
+
+Ma liste n'est limitée à aucune région. Cependant, mon attention personnelle est portée aux régions anglaise et russe, car je parle ces langues.
+
+## Déni de responsabilité
+
+Vous constaterez peut-être que ces règles sont trop zélées. Oui, j'accorde une attention particulière à l'espionnage des utilisateurs, au développement et au suivi, ainsi qu'à l'exploitation minière cachée.
+Toutefois, si vous constatez qu'une ou plusieurs règles enfreignent le site Web, déterminez le problème et utilisez les commentaires, désactivez-le via les paramètres du plug-in, puis créez une question dans [issues](https://github.com/bogachenko/presstheattack/issues).
+
+Je ne suis pas responsable des dommages qui peuvent survenir à la suite de l'utilisation de ces règles, y compris le contenu qui est caché par erreur et causant des échecs, étant un obstacle à un fonctionnement normal en raison d'une ou plusieurs règles dans cet ensemble.
