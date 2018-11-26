@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 24 November 2018
+Last modified: 27 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
@@ -27,24 +27,29 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Custom filters block popular trackers, banners, loading and displaying ads on site pages and in search results, and these lists include cosmetic filters for problematic sites.
+Custom filters — block popular trackers, banners, loading and displaying advertisements on the pages of sites and in search results, and also these lists includes cosmetic filters for problem sites.
 
-This project is under MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and its creator — [Bogachenko Vyacheslav](https://github.com/bogachenko)
+This project is under MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and it is creator — [Bogachenko Vyacheslav](https://github.com/bogachenko)
 
 The overall goal of the project is to block ads and reduce traffic coming from the domains and websites you visit.
-The term "advertising" in this project is not defined because, as I said above, apart from the obvious advertising, I also block cosmetic banners and tooltips which I think create useless traffic without any real benefit.
+The term "advertising" in this project is not defined because, as I said above, apart from the obvious advertising, I also block banners and tooltips which I think create useless traffic without any real benefit.
 
-My list is not limited to any region. However, my personal attention is paid to the English and Russian regions, as I speak these languages.
+My list is not limited to any region. Nevertheless, my personal attention is paid to english and russian regions, as I speak these languages.
 
-## Disclaimer
+## Denial of responsibility
 
-You may find these rules to be overly zealous. Yes, I pay special attention to spying on users, developing and tracking, as well as hidden mining.
+I am not responsible for any damages that may arise from the use of these rules, including content that is hidden in error and interferes with the normal operation of the site.
 
-However, if you find that one or several rules violate the website, break it, determine the problem rule and use the comments, disable it through the plugin settings and then create a question in the [issues](https://github.com/bogachenko/presstheattack/issues).
+You may find these rules to be overly zealous. Yes, I pay special attention to espionage, tracking and covert mining.
+However, if you find that a rule violates a site, disable it using comments, and then create a [question](https://github.com/bogachenko/presstheattack/issues).
+
+Please note that I mostly use uBlock Origin. I emphasize this because each browser and plugin is slightly different from each other. The uBlock Origin plugin works correctly with my list of filters, but I have not tested the functionality of my list with other plugins personally, so I admit that working with them may be incorrect
+
+Despite this, I will do my best to maintain compatibility with Adblock Plus and other known plugins to block ads. However, you should understand that I can't regularly test my filter list with other plugins, so if you're having problems using Adblock Plus and similar plugins, feel free to raise this [issue](https://github.com/bogachenko/presstheattack/issues).
 
 ## Usage
 
-[SUBSCRIBE](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Click on the link to add the filter list through the browser or add it manually:
+[SUBSCRIBE](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Click link or add link manually:
 
 `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
 
@@ -55,6 +60,3 @@ For a more detailed description of the project and its documentation, see the [W
 ## Contributions
 
 I accept any requests for additional rules. Go to the tab — [issues](https://github.com/bogachenko/presstheattack/issues), open a question and report a problem or a wish, but do not duplicate the same questions, please.
-Fans of socializing and/or using this function for their own entertainment will be closed, and regular relapse will be banned.
-
-**Do not clog it, young people, it wasn't created for this purpose.**
