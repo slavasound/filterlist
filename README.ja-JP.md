@@ -29,7 +29,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 カスタムフィルタは、トラッカー、バナー、広告を削除し、このリストには、問題のあるサイトの化粧品フィルターが含まれています。
 
-このプロジェクトにはMITライセンスがあります。(ビュー[ライセンス](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) とその作成者 [ヴャチェスラフ ボガチェンコ](https://github.com/bogachenko).
+このプロジェクトにはMITライセンスがあります。(ビュー[ライセンス](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) とその作成者 [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
 プロジェクトの全体的な目標は、広告をブロックし、訪問したドメインやサイトからのトラフィックを削減することです。
 このプロジェクトの用語"広告"は定義されていません、私は上記のように、離れて明白な広告から、私はまた、私は実際の利益なしに無駄なトラフィックを作成すると思うのバナーやツールチップをブロックします。
