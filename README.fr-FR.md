@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 25 November 2018
+Last modified: 27 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.fr-FR.md
@@ -27,18 +27,36 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Les filtres personnalisés bloquent les trackers populaires, les bannières, le chargement et l'affichage de publicités sur les pages des sites et dans les résultats de recherche. Ces listes incluent également des filtres cosmétiques pour les sites à problèmes.
+Filtres personnalisés — bloquant les trackers populaires, bannières, le téléchargement et l'affichage des annonces sur les pages de sites et les résultats de recherche, ainsi que ces listes comprend des filtres cosmétiques pour les sites problématiques.
 
-Ce projet est sous licence MIT (voir la [Licence](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) et son créateur — [Bogachenko Vyacheslav](https://github.com/bogachenko).
+Le projet est sous la licence MIT (voir la [Licence](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) et son créateur — [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
-L'objectif général du projet est de bloquer les annonces et de réduire le trafic provenant des domaines et des sites Web que vous visitez.
-Le terme  "publicité " dans ce projet n'est pas défini, parce que, comme je l'ai dit ci-dessus, outre la publicité évidente, je bloque aussi les bannières cosmétiques et les info-bulles, qui, je pense, créent un trafic inutile sans aucun avantage réel.
+L'objectif général du projet — est de bloquer les publicités et de réduire le trafic des domaines et des sites que vous visitez.
+Le terme "publicité" dans ce projet n'est pas défini, parce que, comme je l'ai dit ci-dessus, outre la publicité évidente, je bloque également les bannières et les info-bulles, qui je pense créer un trafic inutile sans aucun avantage réel.
 
-Ma liste n'est limitée à aucune région. Cependant, mon attention personnelle est portée aux régions anglaise et russe, car je parle ces langues.
+Ma liste ne se limite pas à une région. Cependant, mon attention personnelle est accordée aux régions anglaises et russes, puisque je parle ces langues.
 
 ## Déni de responsabilité
 
-Vous constaterez peut-être que ces règles sont trop zélées. Oui, j'accorde une attention particulière à l'espionnage des utilisateurs, au développement et au suivi, ainsi qu'à l'exploitation minière cachée.
-Toutefois, si vous constatez qu'une ou plusieurs règles enfreignent le site Web, déterminez le problème et utilisez les commentaires, désactivez-le via les paramètres du plug-in, puis créez une question dans [issues](https://github.com/bogachenko/presstheattack/issues).
+Je ne suis pas responsable des dommages qui pourraient résulter de l'utilisation de ces règles, y compris le contenu qui est caché par erreur et empêche le fonctionnement normal du site.
 
-Je ne suis pas responsable des dommages qui peuvent survenir à la suite de l'utilisation de ces règles, y compris le contenu qui est caché par erreur et causant des échecs, étant un obstacle à un fonctionnement normal en raison d'une ou plusieurs règles dans cet ensemble.
+Vous pouvez constater que ces règles sont trop zélés. Oui, j'accorde une attention particulière à l'espionnage, au suivi et à l'exploitation minière.
+Cependant, si vous constatez qu'une règle casse un site, désactivez-le à l'aide de commentaires, puis créez une [question](https://github.com/bogachenko/presstheattack/issues).
+
+Veuillez noter que j'utilise principalement uBlock Origin. J'insiste sur ce point car chaque navigateur et plug-in est légèrement différent l'un de l'autre. Le plug-in uBlock Origin fonctionne correctement avec ma liste de filtres, mais je n’ai pas personnellement vérifié les performances de ma liste avec d’autres plug-ins et j’admets donc que travailler avec eux peut être incorrect.
+
+Malgré cela, je ferai de mon mieux pour maintenir la compatibilité avec Adblock Plus et d'autres plugins connus pour bloquer les publicités. Cependant, vous devez comprendre que je ne peux pas tester régulièrement ma liste de filtres avec d'autres plugins, donc si vous rencontrez des problèmes en utilisant Adblock Plus et des plugins similaires, n'hésitez pas à soulever cette [question](https://github.com/bogachenko/presstheattack/issues).
+
+## Utiliser
+
+[S'ABONNER](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Cliquez sur le lien ou ajoutez le lien manuellement:
+
+`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## La documentation
+
+Pour une description plus détaillée du projet et de sa documentation, voir la section [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+
+## Contribution
+
+J'accepte toutes les demandes de règles supplémentaires. Allez sur l'onglet — [questions](https://github.com/bogachenko/presstheattack/issues), ouvrez une question et rapportez un problème ou un souhait, mais ne répétez pas les mêmes questions, s'il vous plaît.

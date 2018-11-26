@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 25 November 2018
+Last modified: 27 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.de_DE.md
@@ -27,29 +27,29 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Kundenspezifische Filter, die beliebte Tracker, Banner, Upload und Anzeige von Anzeigen auf den Seiten der Websites und in den Suchergebnissen blockieren, sowie diese Listen enthalten kosmetische Filter für problematische Websites.
+Kundenspezifische Filter — Blockieren beliebter Tracker, Banner, Upload und Anzeige von Anzeigen auf Seiten und Suchergebnissen, und diese Listen enthalten kosmetische Filter für problematische Websites.
 
 Dieses projekt steht unter lizenz MIT (siehe [Lizenz](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) und sein Schöpfer — [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
-Das Allgemeine Ziel des Projekts ist es, Werbung zu blockieren und den Verkehr zu reduzieren, der von den Domänen und Websites stammt, die Sie besuchen.
-Der Begriff "Werbung" wird in diesem Projekt nicht definiert, da ich, wie bereits gesagt, neben offensichtlicher Werbung auch kosmetische Banner und Tooltips blockiere, die meines Erachtens nutzlosen Traffic ohne wirklichen die Vorteile erzeugen.
+Das übergeordnete Ziel des Projekts besteht darin, Anzeigen zu blockieren und den Traffic von besuchten Domänen und Websites zu reduzieren.
+Der Begriff  "Werbung " In diesem Projekt ist nicht definiert, weil, wie ich bereits sagte, neben der offensichtlichen Werbung, blockiert ich auch Banner und Tooltips, die ich denke, nutzlosen Verkehr ohne echten Nutzen zu schaffen.
 
-Meine Liste ist nicht auf eine Region beschränkt. Dennoch wird meine persönliche Aufmerksamkeit auf die englischen und Russischen Regionen gelegt, da ich diese Sprachen spreche.
+Meine Liste ist nicht auf eine Region beschränkt. Meine persönliche Aufmerksamkeit gilt jedoch der englischen und russischen Region, da ich diese Sprachen spreche.
 
 ## Haftungsausschluss
-Sie können feststellen, dass diese Regeln übermäßig fleißig sind. Ja, ich achte besonders auf das Ausspähen von Benutzern, das Entwickeln und Verfolgen sowie das Hidden Mining.
 
-Wenn Sie jedoch feststellen, dass eine oder mehrere Regeln die Arbeit der Site beeinträchtigen, ermitteln Sie die Problemregel und verwenden Sie Kommentare, deaktivieren Sie sie über die Plugin-Einstellungen und erstellen Sie dann eine Frage unter [issues](https://github.com/bogachenko/presstheattack/issues).
+Ich hafte nicht für Verluste, die durch die Anwendung dieser Regeln entstehen können, einschließlich Inhalte, die versehentlich verborgen sind und den normalen Betrieb der Website verhindern.
 
-Ich hafte nicht für Verluste, die durch die Anwendung dieser Regeln entstehen können, einschließlich Inhalte, die versehentlich verborgen werden und Fehlfunktionen verursachen, die den normalen Betrieb aufgrund einer oder mehrerer Regeln in diesem liste behindern.
+Sie werden feststellen, dass diese Regeln zu eifrig sind. Ja, ich achte besonders auf Spionieren, Verfolgen und verstecktes Bergbau.
+Wenn Sie jedoch feststellen, dass eine Regel eine Website beschädigt, deaktivieren Sie sie mithilfe von Kommentaren und erstellen Sie eine [Frage](https://github.com/bogachenko/presstheattack/issues).
 
-Bitte beachten Sie, dass ich hauptsächlich uBlock Origin verwende. Ich betone das, weil jeder Browser und Plugin etwas anders ist, das uBlock Origin funktioniert richtig mit meiner Filterliste (persönlich getestet), andere plugins wurden nicht von mir persönlich überprüft, und so gebe ich zu, dass einer von Ihnen und mehr falsch funktionieren könnte.
+Bitte beachten Sie, dass ich hauptsächlich uBlock Origin verwende. Ich betone das, weil jeder Browser und jedes Plugin sich leicht unterscheidet. Das uBlock Origin Plugin funktioniert richtig mit meiner Liste von filtern, aber die Leistung meiner Liste mit anderen plugins persönlich wurde von mir nicht überprüft und daher gebe ich zu, dass die Arbeit mit Ihnen möglicherweise nicht korrekt ist.
 
-Trotzdem werde ich mein bestes tun, um die Kompatibilität mit Adblock Plus und anderen bekannten ad-Blocker-plugins zu unterstützen. Sie sollten jedoch verstehen, dass ich meine Filterliste nicht regelmäßig mit anderen Plugins testen kann. Wenn Sie also Probleme mit Adblock Plus und ähnlichen Plugins haben, können Sie dieses Problem gerne unter [issues](https://github.com/bogachenko/presstheattack/issues) ansprechen.
+Trotzdem werde ich mein Möglichstes tun, um die Kompatibilität mit Adblock Plus und anderen bekannten Plugins für das Blockieren von Werbung zu gewährleisten. Sie müssen jedoch verstehen, dass ich meine Filterliste nicht regelmäßig mit anderen plugins testen kann, also wenn Sie Probleme mit Adblock Plus und ähnlichen plugins haben, zögern Sie nicht, diese [Frage](https://github.com/bogachenko/presstheattack/issues) zu stellen.
 
 ## Verwendung
 
-[ABONNIEREN](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Klicken Sie auf den Link, um eine Filterliste über den Browser hinzuzufügen oder manuell hinzuzufügen:
+[ABONNIEREN](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Klicken Sie auf den Link oder fügen Sie den Link manuell hinzu:
 
 `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
 
@@ -59,7 +59,4 @@ Eine genauere Beschreibung des Projekts und seiner Dokumentation finden Sie unte
 
 ## Beitrag
 
-Ich akzeptiere alle Anfragen nach zusätzlichen Regeln. Klicken Sie auf die Registerkarte — [issues](https://github.com/bogachenko/presstheattack/issues), Öffnen Sie eine Frage und melden Sie ein Problem oder einen Wunsch, aber wiederholen Sie bitte nicht die gleichen Fragen.
-Liebhaber der Kontakte und/oder nutzen diese Funktion für ihre eigene Unterhaltung, werden geschlossen, und regelmäßige Rückfallsaktion wird verboten.
-
-**Hämmern Sie es nicht, junge Leute, es ist nicht für diesen Zweck geschaffen.**
+Ich akzeptiere alle Anträge auf zusätzliche Regeln. Klicken Sie auf die Registerkarte — [Fragen](https://github.com/bogachenko/presstheattack/issues), öffnen Sie die Frage und melden Sie das Problem oder den Wunsch, aber duplizieren Sie nicht die gleichen Fragen, bitte.
