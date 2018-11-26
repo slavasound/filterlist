@@ -46,3 +46,17 @@ Tuttavia, se trovi che una regola rompe un sito, disabilitala usando i commenti,
 Si prega di notare che io uso principalmente uBlock Origin. Lo sottolineo perché ogni browser e plugin sono leggermente diversi l'uno dall'altro. Il plugin uBlock Origin funziona correttamente con la mia lista di filtri, ma non ho personalmente controllato le prestazioni della mia lista con altri plug-in e quindi ammetto che lavorare con loro potrebbe essere scorretto.
 
 Nonostante questo, farò del mio meglio per mantenere la compatibilità con Adblock Plus e altri famosi plug-in per bloccare la pubblicità. Tuttavia, si dovrebbe capire che non posso testare regolarmente la mia lista di filtri con altri plugin, quindi se hai problemi con Adblock Plus e plugin simili, sentitevi liberi di sollevare questa [domanda](https://github.com/bogachenko/presstheattack/issues).
+
+## Utilizzo
+
+[SOTTOSCRIVERE](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Fare clic sul collegamento o aggiungere manualmente il collegamento:
+
+`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## Documentazione
+
+Per una descrizione più dettagliata del progetto e la relativa documentazione, vedere [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+
+## Contributo
+
+Accetto qualsiasi richiesta di regole aggiuntive. Vai alla scheda — [domande](https://github.com/bogachenko/presstheattack/issues), aprire una domanda e segnalare un problema o desiderio, ma non duplicare le stesse domande, per favore.
