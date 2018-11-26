@@ -56,7 +56,7 @@ uBlock Originプラグインはフィルタリストでうまく動作します�
 
 ## ドキュメンテーション
 
-プロジェクトとそのドキュメントの詳細については、[WIKI](https://github.com/bogachenko/presstheattack/wiki) のセクションを参照してください。
+プロジェクトとそのドキュメントの詳細については、[ウィキ](https://github.com/bogachenko/presstheattack/wiki) のセクションを参照してください。
 
 ## 貢献
 
