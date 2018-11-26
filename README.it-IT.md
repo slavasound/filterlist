@@ -35,3 +35,14 @@ L'obiettivo generale del progetto è bloccare gli annunci e ridurre il traffico 
 Il termine "pubblicità" in questo progetto non è definito perché, come ho detto sopra, oltre alla pubblicità ovvia, sto anche bloccando banner e pop-up che penso producano traffico inutile senza alcun reale beneficio.
 
 La mia lista non è limitata a nessuna regione. Tuttavia, la mia attenzione personale è rivolta alle regioni inglesi e russe, dal momento che parlo in queste lingue.
+
+## Disclaimer
+
+Non mi assumo responsabilità per eventuali danni che possono derivare dall'uso di queste regole, compreso il contenuto, che è nascosto per errore e impedisce il normale funzionamento del sito.
+
+Potreste scoprire che queste regole sono troppo zelanti. Sì, faccio particolare attenzione allo spionaggio, al monitoraggio e all'estrazione mineraria nascosta.
+Tuttavia, se trovi che una regola rompe un sito, disabilitala usando i commenti, quindi crea una [domanda](https://github.com/bogachenko/presstheattack/issues).
+
+Si prega di notare che io uso principalmente uBlock Origin. Lo sottolineo perché ogni browser e plugin sono leggermente diversi l'uno dall'altro. Il plugin uBlock Origin funziona correttamente con la mia lista di filtri, ma non ho personalmente controllato le prestazioni della mia lista con altri plug-in e quindi ammetto che lavorare con loro potrebbe essere scorretto.
+
+Nonostante questo, farò del mio meglio per mantenere la compatibilità con Adblock Plus e altri famosi plug-in per bloccare la pubblicità. Tuttavia, si dovrebbe capire che non posso testare regolarmente la mia lista di filtri con altri plugin, quindi se hai problemi con Adblock Plus e plugin simili, sentitevi liberi di sollevare questa [domanda](https://github.com/bogachenko/presstheattack/issues).
