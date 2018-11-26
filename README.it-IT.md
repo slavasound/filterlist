@@ -30,3 +30,8 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 Filtri personalizzati — blocco popolare inseguitori, banner, download e visualizzazione di annunci pubblicitari nelle pagine web e nei risultati di ricerca, e anche queste liste comprende cosmetici filtri per i siti web problematici.
 
 Questo progetto è sotto la licenza MIT (visualizza [Licenza](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) e il suo creatore — [Bogachenko Vyacheslav](https://github.com/bogachenko).
+
+L'obiettivo generale del progetto è bloccare gli annunci e ridurre il traffico da domini e siti che visiti.
+Il termine "pubblicità" in questo progetto non è definito perché, come ho detto sopra, oltre alla pubblicità ovvia, sto anche bloccando banner e pop-up che penso producano traffico inutile senza alcun reale beneficio.
+
+La mia lista non è limitata a nessuna regione. Tuttavia, la mia attenzione personale è rivolta alle regioni inglesi e russe, dal momento che parlo in queste lingue.
