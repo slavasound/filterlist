@@ -42,3 +42,22 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 これらの規則が過度に勤勉であることが分るかもしれない はい、私はスパイ、追跡と秘密の採掘に特別な注意を払います。
 ただし、ルールでサイトが中断された場合は、コメントを使用してルールを無効にしてから、[質問](https://github.com/bogachenko/presstheattack/issues) を作成します。
+
+私は主にuBlock Originを使用することに注意してください。各ブラウザとプラグインは少し異なるので、私はこれにあなたの注意を引く。
+uBlock Originプラグインはフィルタリストでうまく動作しますが、個人的には他のプラグインでのリストのパフォーマンスをチェックしていないので、これらのプラグインでの作業がエラーである可能性があります。
+
+それにもかかわらず、私はAdblock Plusおよびその他のよく知られている広告ブロックプラグインとの互換性を維持するために最善を尽くします。Adblock Plusなどのプラグインに問題がある場合は、適切なタブに[質問](https://github.com/bogachenko/presstheattack/issues)を作成してください
+
+## の使用
+
+[サブスクリプション](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — リンクをクリックするか手動でリンクを追加してください。
+
+`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## ドキュメンテーション
+
+プロジェクトとそのドキュメントの詳細については、[WIKI](https://github.com/bogachenko/presstheattack/wiki) のセクションを参照してください。
+
+## 貢献
+
+私は追加ルールの要求を受け入れます。 [質問](https://github.com/bogachenko/presstheattack/issues)タブに移動して質問を開き、問題や願いを報告しますが、同じ質問を複製しないでください。
