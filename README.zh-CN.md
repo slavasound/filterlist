@@ -28,3 +28,10 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
 广告拦截、跟踪、挖掘等列表。
+
+这个项目是在麻省理工学院的许可 (请参见 [许可证](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) 和他的创造者 [Bogachenko Vyacheslav](https://github.com/bogachenko).
+
+该项目的总体目标是阻止广告，减少您访问的域名和网站的流量。
+术语 "广告" 在这个项目中没有定义, 因为, 正如我上面所说, 除了明显的广告, 我也块横幅和工具提示, 我认为这创造无用的流量没有任何真正的好处。
+
+我的名单不限于任何地区。 不过, 我会说俄语和英语, 我特别关注这些地区。
