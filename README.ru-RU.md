@@ -27,7 +27,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Пользовательские фильтры — блокирующие популярные трекеры, баннеры, загрузку и отображение рекламы на страницах сайтов и в результатов поиска, а также эти списки включает в себя косметические фильтры для проблемных сайтов.
+Список фильтров для блокировки объявлений, отслеживания, добычи и многого другого.
 
 Этот проект находится под лицензией MIT (посмотреть [Лицензию](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) и его создатель — [Богаченко Вячеслав](https://github.com/bogachenko).
 

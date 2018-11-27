@@ -27,7 +27,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-カスタムフィルタは、トラッカー、バナー、広告を削除し、このリストには、問題のあるサイトの化粧品フィルターが含まれています。
+コンピュータのリソースの広告、監視、および悪用をブロックするフィルタの一覧です。
 
 このプロジェクトにはMITライセンスがあります。(ビュー[ライセンス](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) とその作成者 [Bogachenko Vyacheslav](https://github.com/bogachenko).
 

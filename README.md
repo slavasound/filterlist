@@ -27,7 +27,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Custom filters — block popular trackers, banners, loading and displaying advertisements on the pages of sites and in search results, and also these lists includes cosmetic filters for problem sites.
+Filter list for ad blocking, tracking, mining, and more.
 
 This project is under MIT license (see [License](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) and it is creator — [Bogachenko Vyacheslav](https://github.com/bogachenko)
 

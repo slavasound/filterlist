@@ -27,7 +27,7 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-간첩, 배너 및 광고를 제거하는 맞춤 필터. 거기에는 화장용 필터 목록에 있습니다.
+필터 목록을 위해 광고 차단하고,추적하고,채광.
 
 이 프로젝트는 MIT에서 사용 허가를 받았습니다 (보기 [라이센스](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) 와 그 창조자 — [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
