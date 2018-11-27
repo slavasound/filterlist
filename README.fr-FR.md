@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 27 November 2018
+Last modified: 28 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.fr-FR.md
@@ -27,36 +27,34 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
 
-Liste de filtrage pour le blocage des annonces, le suivi, l'extraction, etc.
+Liste de filtres pour bloquer les annonces, le suivi, l'exploitation minière et plus encore.
 
-Le projet est sous la licence MIT (voir la [Licence](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) et son créateur — [Bogachenko Vyacheslav](https://github.com/bogachenko).
+Ce projet a une licence MIT (voir [Licence](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) et a créé son [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
-L'objectif général du projet — est de bloquer les publicités et de réduire le trafic des domaines et des sites que vous visitez.
-Le terme "publicité" dans ce projet n'est pas défini, parce que, comme je l'ai dit ci-dessus, outre la publicité évidente, je bloque également les bannières et les info-bulles, qui je pense créer un trafic inutile sans aucun avantage réel.
+L'objectif global du projet est de bloquer les publicités et de réduire le trafic des domaines et des sites que vous visitez.
+Le terme "publicité" dans ce projet n'est pas défini, car outre la publicité évidente, je bloque également les bannières et les conseils, ce qui, je pense, crée un trafic inutile.
 
-Ma liste ne se limite pas à une région. Cependant, mon attention personnelle est accordée aux régions anglaises et russes, puisque je parle ces langues.
+Ma liste ne se limite pas à une région. Cependant, je parle le russe et l'anglais Et mon attention est principalement concentrée sur ces régions.
 
 ## Déni de responsabilité
 
-Je ne suis pas responsable des dommages qui pourraient résulter de l'utilisation de ces règles, y compris le contenu qui est caché par erreur et empêche le fonctionnement normal du site.
+Je distribue ce projet dans l'espoir qu'il sera utile. Ce projet est distribué « tel quel », sans garantie d’aucune sorte, expresse ou implicite et JE NE PRENONS AUCUNE RESPONSABILITÉ POUR TOUT DOMMAGE POUVANT RÉSULTER DE L’UTILISATION DE CE PROJET OU DE TOUTE PARTIE SON.
 
-Vous pouvez constater que ces règles sont trop zélés. Oui, j'accorde une attention particulière à l'espionnage, au suivi et à l'exploitation minière.
-Cependant, si vous constatez qu'une règle casse un site, désactivez-le à l'aide de commentaires, puis créez une [question](https://github.com/bogachenko/presstheattack/issues).
+Vous pouvez constater que les règles sur ma liste trop zélés. Oui, j’attire une attention particulière à l'espionnage et l’exploitation minière.
+Cependant, si vous constatez que certaines des règles enfreignent le site, désactivez-le et créez [question](https://github.com/bogachenko/presstheattack/issues).
 
-Veuillez noter que j'utilise principalement uBlock Origin. J'insiste sur ce point car chaque navigateur et plug-in est légèrement différent l'un de l'autre. Le plug-in uBlock Origin fonctionne correctement avec ma liste de filtres, mais je n’ai pas personnellement vérifié les performances de ma liste avec d’autres plug-ins et j’admets donc que travailler avec eux peut être incorrect.
+S'il vous plaît noter Que j'utilise principalement uBlock Origin. Je souligne cela parce que chaque navigateur et plugin sont un peu différents les uns des autres. Cette liste de filtres est écrit pour ce plugin, et si vous utilisez un plugin pour bloquer des annonces, performance et le fonctionnement correct n’est pas garanti.
 
-Malgré cela, je ferai de mon mieux pour maintenir la compatibilité avec Adblock Plus et d'autres plugins connus pour bloquer les publicités. Cependant, vous devez comprendre que je ne peux pas tester régulièrement ma liste de filtres avec d'autres plugins, donc si vous rencontrez des problèmes en utilisant Adblock Plus et des plugins similaires, n'hésitez pas à soulever cette [question](https://github.com/bogachenko/presstheattack/issues).
+Malgré tout, je ferai tout ce qui est en mon pouvoir pour maintenir la compatibilité avec Adblock Plus et d’autres plug-ins bien connus pour le blocage des publicités. Et vous pouvez m'aider si vous avez des problèmes pour utiliser de tels plugins, n'hésitez pas à poser ces [questions](https://github.com/bogachenko/presstheattack/issues).
 
-## Utiliser
+## Utilisation
 
-[S'ABONNER](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Cliquez sur le lien ou ajoutez le lien manuellement:
-
-`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+Pour commencer à utiliser, cliquez sur le lien [S'ABONNER](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) ou l'ajouter manuellement `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
 
 ## La documentation
 
-Pour une description plus détaillée du projet et de sa documentation, voir la section [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+Pour la connaissance et la description détaillée du projet avec sa documentation, passez à la section [WIKI](https://github.com/bogachenko/presstheattack/wiki).
 
 ## Contribution
 
-J'accepte toutes les demandes de règles supplémentaires. Allez sur l'onglet — [questions](https://github.com/bogachenko/presstheattack/issues), ouvrez une question et rapportez un problème ou un souhait, mais ne répétez pas les mêmes questions, s'il vous plaît.
+Si vous souhaitez participer à ce projet, très bien, j’accepte toutes les demandes de règles supplémentaires, et je me réjouis de votre PR.
