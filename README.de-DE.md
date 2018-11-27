@@ -29,34 +29,32 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 
 Filterliste für Anzeigenblockierung, Tracking, Mining und mehr.
 
-Dieses projekt steht unter lizenz MIT (siehe [Lizenz](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) und sein Schöpfer — [Bogachenko Vyacheslav](https://github.com/bogachenko).
+Dieses Projekt hat eine MIT-Lizenz (siehe [Lizenz](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) und er schuf ihn [Bogachenko Vyacheslav](https://github.com/bogachenko).
 
-Das übergeordnete Ziel des Projekts besteht darin, Anzeigen zu blockieren und den Traffic von besuchten Domänen und Websites zu reduzieren.
-Der Begriff  "Werbung " In diesem Projekt ist nicht definiert, weil, wie ich bereits sagte, neben der offensichtlichen Werbung, blockiert ich auch Banner und Tooltips, die ich denke, nutzlosen Verkehr ohne echten Nutzen zu schaffen.
+Das übergeordnete Ziel des Projekts besteht darin, Anzeigen zu blockieren und den Datenverkehr von den besuchten Domänen und Websites zu reduzieren.
+Der Begriff "Werbung" in diesem Projekt ist nicht definiert, da diese Liste neben der offensichtlichen Werbung auch Banner und Tipps enthält, die meines Erachtens nutzlosen Traffic erzeugen.
 
-Meine Liste ist nicht auf eine Region beschränkt. Meine persönliche Aufmerksamkeit gilt jedoch der englischen und russischen Region, da ich diese Sprachen spreche.
+Meine Liste ist nicht auf eine Region beschränkt. Ich spreche jedoch Russisch und Englisch und meine Aufmerksamkeit konzentriert sich hauptsächlich auf diese Regionen.
 
 ## Haftungsausschluss
 
-Ich hafte nicht für Verluste, die durch die Anwendung dieser Regeln entstehen können, einschließlich Inhalte, die versehentlich verborgen sind und den normalen Betrieb der Website verhindern.
+Ich Verbreite dieses Projekt in der Hoffnung, dass es nützlich sein wird. Dieses Projekt wird "WIE BESEHEN" ohne jegliche ausdrückliche oder stillschweigende Garantie verbreitet. ICH BIN NICHT FÜR SCHÄDEN VERANTWORTLICH, DIE ALS ERGEBNIS DIESES PROJEKTS ODER EINES TEILS DIESES ERSCHEINEN KÖNNEN.
 
-Sie werden feststellen, dass diese Regeln zu eifrig sind. Ja, ich achte besonders auf Spionieren, Verfolgen und verstecktes Bergbau.
-Wenn Sie jedoch feststellen, dass eine Regel eine Website beschädigt, deaktivieren Sie sie mithilfe von Kommentaren und erstellen Sie eine [Frage](https://github.com/bogachenko/presstheattack/issues).
+Sie können feststellen, dass die Regeln auf meiner Liste zu hart sind. Ja, ich achte besonders auf Spionage und Bergbau.
+Wenn Sie jedoch feststellen, dass eine der Regeln die Website bricht, deaktivieren Sie Sie und erstellen Sie [Frage](https://github.com/bogachenko/presstheattack/issues).
 
-Bitte beachten Sie, dass ich hauptsächlich uBlock Origin verwende. Ich betone das, weil jeder Browser und jedes Plugin sich leicht unterscheidet. Das uBlock Origin Plugin funktioniert richtig mit meiner Liste von filtern, aber die Leistung meiner Liste mit anderen plugins persönlich wurde von mir nicht überprüft und daher gebe ich zu, dass die Arbeit mit Ihnen möglicherweise nicht korrekt ist.
+Bitte beachten Sie, dass ich im Grunde uBlock Origin verwende. Ich betone dies, weil sich jeder Browser und jedes Plugin leicht voneinander unterscheiden. Diese Liste der Filter ist für dieses Plugin geschrieben, und wenn Sie ein anderes Plugin verwenden, um Werbung zu blockieren, ist die Leistung und die richtige Arbeit nicht garantiert.
 
-Trotzdem werde ich mein Möglichstes tun, um die Kompatibilität mit Adblock Plus und anderen bekannten Plugins für das Blockieren von Werbung zu gewährleisten. Sie müssen jedoch verstehen, dass ich meine Filterliste nicht regelmäßig mit anderen plugins testen kann, also wenn Sie Probleme mit Adblock Plus und ähnlichen plugins haben, zögern Sie nicht, diese [Frage](https://github.com/bogachenko/presstheattack/issues) zu stellen.
+Trotzdem werde ich mein bestes tun, um die Kompatibilität mit Adblock Plus und anderen bekannten ad-Blocker-plugins zu unterstützen. Und Sie können mir helfen, wenn Sie Probleme haben, solche plugins zu verwenden, zögern Sie nicht, diese [Fragen](https://github.com/bogachenko/presstheattack/issues).
 
 ## Verwendung
 
-[ABONNIEREN](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Klicken Sie auf den Link oder fügen Sie den Link manuell hinzu:
-
-`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+Um zu beginnen, klicken Sie auf den Link [ABONNIEREN](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) oder fügen Sie es manuell hinzu `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
 
 ## Dokumentation
 
-Eine genauere Beschreibung des Projekts und seiner Dokumentation finden Sie unter In der [WIKI](https://github.com/bogachenko/presstheattack/wiki).
+Eine detaillierte Beschreibung des Projekts mit seiner Dokumentation finden Sie in der Rubrik [WIKI](https://github.com/bogachenko/presstheattack/wiki).
 
 ## Beitrag
 
-Ich akzeptiere alle Anträge auf zusätzliche Regeln. Klicken Sie auf die Registerkarte — [Fragen](https://github.com/bogachenko/presstheattack/issues), öffnen Sie die Frage und melden Sie das Problem oder den Wunsch, aber duplizieren Sie nicht die gleichen Fragen, bitte.
+Wenn Sie Teil dieses Projekts sein wollen, ausgezeichnet, akzeptiere ich alle Anfragen nach zusätzlichen Regeln, und ich freue mich auf Ihre PR.
