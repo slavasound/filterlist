@@ -39,3 +39,23 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 ## 면책 조항
 
 본인은 사용으로 인해 발생할 수있는 어떠한 손해에 대해서도 책임을지지 않습니다.
+
+이러한 규칙은 매우 근 면을 찾을 수 있습니다. 예. 추적에 특별한주의가 기울입니다. 그러나 사이트가 고장난 경우에는 [질문](https://github.com/bogachenko/presstheattack/issues)을 작성 합니다.
+
+나는 대부분 uBlock Origin를 사용 한다는 점에 유의 하십시오. 각 브라우저와 플러그인은 서로 약간 다르기 때문에 나는이 스트레스.
+uBlock Origin 플러그인은 필자의 필터 목록과 올바르게 작동하지만 개인적으로 내 플러그인의 성능을 다른 플러그인과 비교하지 않았기 때문에 그 플러그인과의 작업이 올바르지 않을 수 있음을 인정합니다.
+
+그럼에도 불구 하 고, 나는 애드 블록 플러스와 광고를 차단 하는 다른 알려진 플러그인과의 호환성을 유지 하기 위해 최선을 할 것입니다. 비슷한 문제가있는 경우 나에게 도움을주고 [질문](https://github.com/bogachenko/presstheattack/issues)을 만들 수 있습니다.
+
+## 사용
+
+[구독하기](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — 링크를 클릭하거나 수동으로 링크를 추가하십시오:
+
+`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+
+## 문서
+
+프로젝트 및 설명서에 대한 자세한 내용은 [WIKI](https://github.com/bogachenko/presstheattack/wiki) 섹션을 참조하십시오.
+
+## 기고
+나는에 대한 요청을 받을 필터입니다. 가[질문](https://github.com/bogachenko/presstheattack/issues)탭에서 열기 질문 및 보고서 문제 또는 제안이 있지만,없어도 이와 같은 질문을 주시기 바랍니다.
