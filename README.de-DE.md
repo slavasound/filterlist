@@ -16,8 +16,8 @@ Github: https://github.com/bogachenko/presstheattack/
 Last modified: 27 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
-Title: README.de_DE.md
-URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/README.de_DE.md
+Title: README.de-DE.md
+URL: https://raw.githubusercontent.com/bogachenko/presstheattack/master/README.de-DE.md
 Wiki: https://github.com/bogachenko/presstheattack/wiki
 
 Download the entire Press the Attack project at https://github.com/bogachenko/presstheattack/archive/master.zip -->
