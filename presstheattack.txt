@@ -10,14 +10,12 @@
 ! For more information, see the MIT license.
 !
 ! Author: Bogachenko Vyacheslav
-! Description: Custom filters blocking popular trackers,
-!              banners, loading and displaying ads on website pages and search results,
-!              it also includes cosmetic filters for problem sites.
+! Description: Filter list for ad blocking, tracking, mining, and more.
 ! Email: bogachenkove@gmail.com
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 26 November 2018
+! Last modified: 27 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6358,6 +6356,9 @@ twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".gg"]
+||adleon*.com^$important
+twitch.tv##a[href*="adleon*.com"]
+twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="anylvl"]
 twitch.tv##a[href*="arozzi.*"]
@@ -6527,3 +6528,4 @@ youtube.com##.ytp-ad-progress
 ||yastatic.net/*/atom.js$script,important
 ||youtube.com/api/stats/$important
 ||zen.yandex.*^$important
+||d2wy8f7a9ursnm.cloudfront.net^
