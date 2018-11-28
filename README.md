@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 27 November 2018
+Last modified: 28 November 2018
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.md
@@ -57,4 +57,4 @@ For acquaintance and the detailed description of the project with its documentat
 
 ## Contributions
 
-I accept any requests for additional rules. Go to the tab — [issues](https://github.com/bogachenko/presstheattack/issues), open a question and report a problem or a wish, but do not duplicate the same questions, please.
+If you want to be part of this project, fine, I accept any requests for additional rules, and I look forward to your PR.
