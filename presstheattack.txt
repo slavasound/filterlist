@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 27 November 2018
+! Last modified: 28 November 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6528,4 +6528,6 @@ youtube.com##.ytp-ad-progress
 ||yastatic.net/*/atom.js$script,important
 ||youtube.com/api/stats/$important
 ||zen.yandex.*^$important
-||d2wy8f7a9ursnm.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^$important
+/zig.js$script,important
+/fp2.js$script,important
