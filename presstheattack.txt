@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 1, 2018
+! Last modified: December 2, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -1140,10 +1140,10 @@
 -iframetracker.$important
 -iframetracker^$important
 -iframetracker_$important
--informer-$important
--informer.$important
--informer^$important
--informer_$important
+-informer-
+-informer.
+-informer^
+-informer_
 -kill-adblock-$important
 -kill-adblock.$important
 -kill-adblock^$important
@@ -2677,10 +2677,10 @@
 .iframetracker.$important
 .iframetracker^$important
 .iframetracker_$important
-.informer-$important
-.informer.$important
-.informer^$important
-.informer_$important
+.informer-
+.informer.
+.informer^
+.informer_
 .kill-adblock-$important
 .kill-adblock.$important
 .kill-adblock^$important
@@ -4337,10 +4337,10 @@
 ^iframetracker.$important
 ^iframetracker^$important
 ^iframetracker_$important
-^informer-$important
-^informer.$important
-^informer^$important
-^informer_$important
+^informer-
+^informer.
+^informer^
+^informer_
 ^invoke.*$script,important
 ^kill-adblock-$important
 ^kill-adblock.$important
@@ -5876,10 +5876,10 @@ _iframetracker-$important
 _iframetracker.$important
 _iframetracker^$important
 _iframetracker_$important
-_informer-$important
-_informer.$important
-_informer^$important
-_informer_$important
+_informer-
+_informer.
+_informer^
+_informer_
 _kill-adblock-$important
 _kill-adblock.$important
 _kill-adblock^$important
@@ -6589,3 +6589,31 @@ _liadsuite-$important
 _liadsuite.$important
 _liadsuite^$important
 _liadsuite_$important
+@@_banners^$domain=market.yandex.ru
+/popup/
+@@/ya-share-cnt.html?url=
+@@/share.php
+@@||api.facebook.com^
+@@||connect.ok.ru^
+#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"]) + .popup
+@@/counter^$script,domain=yastatic.net
+#@#.b-share
+#@##ya_share
+#@#.share__link
+#@#.share__buttons
+#@#a[title="Facebook"]
+#@#a[title="Google Plus"]
+#@#a[title="ВКонтакте"]
+@@||yastatic.net/share2/share.js
+@@/share2
+#@#.share__icon
+#@#.share__list
+#@#a[href^="https://connect.ok.ru/offer?url="]
+#@#a[href^="https://vk.com/share.php?"]
+#@#a[href^="https://vk.com/share.php?url="]
+#@#a[href^="https://www.facebook.com/sharer.php?"]
+#@#div[class^="ya-share"]
+#@#.ya-share2
+#@#.ya-share2__link
+#@#.ya-share2__list
+#@#.ya-share2_inited
