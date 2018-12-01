@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: 28 November 2018
+! Last modified: December 1, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6356,8 +6356,7 @@ twitch.tv##.tw-sm-flex.tw-hide
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.tw-z-default.tw-full-width.tw-absolute.chat-room__notifications
 twitch.tv##a[href*=".gg"]
-||adleon*.com^$important
-twitch.tv##a[href*="adleon*.com"]
+twitch.tv##a[href*="go-tds-site.com"]
 twitch.tv##a[href*="shortme."]
 twitch.tv##a[href*=".online"]
 twitch.tv##a[href*="anylvl"]
@@ -6531,3 +6530,5 @@ youtube.com##.ytp-ad-progress
 ||d2wy8f7a9ursnm.cloudfront.net^$important
 /zig.js$script,important
 /fp2.js$script,important
+@@/images/social-
+||go-tds-site.com^$important
