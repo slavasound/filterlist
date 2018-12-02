@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 2, 2018
+! Last modified: December 3, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6617,3 +6617,44 @@ _liadsuite_$important
 #@#.ya-share2__link
 #@#.ya-share2__list
 #@#.ya-share2_inited
+-npssurvey-$important
+-npssurvey.$important
+-npssurvey^$important
+-npssurvey_$important
+.npssurvey-$important
+.npssurvey.$important
+.npssurvey^$important
+.npssurvey_$important
+^npssurvey-$important
+^npssurvey.$important
+^npssurvey^$important
+^npssurvey_$important
+_npssurvey-$important
+_npssurvey.$important
+_npssurvey^$important
+_npssurvey_$important
+-counters-$important
+-counters.$important
+-counters^$important
+-counters_$important
+.counters-$important
+.counters.$important
+.counters^$important
+.counters_$important
+^counters-$important
+^counters.$important
+^counters^$important
+^counters_$important
+_counters-$important
+_counters.$important
+_counters^$important
+_counters_$important
+@@^informer^$domain=yandex.ru|yandex.ua|yandex.by
+_468_60.
+_468x60.
+_468x60_
+_728_90.
+_728x90.
+_728x90_
+_728x95.
+_728x95_
