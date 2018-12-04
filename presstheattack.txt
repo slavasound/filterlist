@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 3, 2018
+! Last modified: December 4, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6392,9 +6392,7 @@ twitch.tv##a[href*="poker"]
 twitch.tv##a[href*="predator"]
 twitch.tv##a[href*="redirect-"]
 twitch.tv##a[href*="secretlab"]
-twitch.tv##a[href*="shop"]
 twitch.tv##a[href*="swaper.one"]
-twitch.tv##a[href*="ttr"]
 twitch.tv##a[href*="vk.cc"]
 twitch.tv##a[href*="vsemayki"]
 vk.com##aside[aria-label="Актуальные новости"]
@@ -6663,3 +6661,19 @@ _728x90_
 _728x95.
 _728x95_
 @@||img-fotki.yandex.*^$script,xmlhttprequest,first-party
+-videojs.ads.-$important
+-videojs.ads..$important
+-videojs.ads.^$important
+-videojs.ads._$important
+.videojs.ads.-$important
+.videojs.ads..$important
+.videojs.ads.^$important
+.videojs.ads._$important
+^videojs.ads.-$important
+^videojs.ads..$important
+^videojs.ads.^$important
+^videojs.ads._$important
+_videojs.ads.-$important
+_videojs.ads..$important
+_videojs.ads.^$important
+_videojs.ads._$important
