@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 4, 2018
+! Last modified: December 5, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -3140,7 +3140,7 @@
 /bitrix/spread.php^$important
 /blank.gif
 /c.gif$important
-/cleardot.*^$important
+/cleardot.*^
 /clickstream.*^$script,important
 /cnt.php$important
 /count.json?$important
@@ -6677,3 +6677,4 @@ _videojs.ads.-$important
 _videojs.ads..$important
 _videojs.ads.^$important
 _videojs.ads._$important
+@@/cleardot.*^$domain=drive.google.com
