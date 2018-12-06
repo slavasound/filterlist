@@ -15,7 +15,7 @@
 ! Expires: 6 hours
 ! Github: https://github.com/bogachenko/presstheattack/
 ! Homepage: https://bogachenko.github.io/presstheattack/
-! Last modified: December 5, 2018
+! Last modified: December 6, 2018
 ! License: MIT <https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md>
 ! Problem reports: https://github.com/bogachenko/presstheattack/issues/
 ! Title: Press the Attack
@@ -6338,11 +6338,8 @@ pornhub.com###age-verification-container
 pornhub.com###age-verification-wrapper
 prodota.ru##.floor.first
 radio.yandex.ru,radio.yandex.by,radio.yandex.ua##.multi-auth__plus
-translate.google.com###gt-promo-lr
-translate.google.ru###gt-promo-lr
-translate.yandex.ru###collectionsbanner
-translate.yandex.ru###collectionsbanner
-translate.yandex.ru###collectionswrapper
+translate.google.com,translate.google.ru###gt-promo-lr
+yandex.ru##.weather-maps__ad_visible_yes
 translate.yandex.ru##.button_icon_collections.button_icon.button
 tv.yandex.ru##.grid.grid_period_now + :last-child
 tv.yandex.ru##.grid.grid_period_now > :first-child > :first-child + div
