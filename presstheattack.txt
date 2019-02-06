@@ -1,6 +1,6 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack - Personal
-! Last modified: February 6 2019, 23:50
+! Last modified: February 7 2019, 01:53
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
@@ -25,3 +25,5 @@ twitch.tv##.tw-z-default.pinned-cheer-v2
 ~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
 ||www.facebook.com^$domain=~facebook.com,badfilter
 www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
+?partner=$document,badfilter
+||cy-pr.com^$badfilter
