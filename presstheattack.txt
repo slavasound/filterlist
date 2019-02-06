@@ -1,0 +1,27 @@
+![Adblock Plus 3.1]
+! Title: Press the Attack - Private
+! Last modified: February 6 2019, 23:05
+! Expires: 3 hours
+! Homepage: https://github.com/bogachenko/presstheattack/tree/private
+! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md
+
+/jsredir?$document,badfilter
+/track.js$badfilter
+@@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
+||www.youtube-nocookie.com^$badfilter
+^popup^$popup,badfilter
+_campaign=$document,badfilter
+music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
+twitch.tv##.recommended-channels
+twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
+twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
+twitch.tv##.tw-z-above.blue-bar
+twitch.tv##.tw-z-default.pinned-cheer-v2
+||8ch.net^$badfilter
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
+~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
+~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
+||www.facebook.com^$domain=~facebook.com,badfilter
+www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
