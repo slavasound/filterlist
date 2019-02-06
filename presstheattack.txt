@@ -1,9 +1,9 @@
 ![Adblock Plus 3.1]
-! Title: Press the Attack - Private
-! Last modified: February 6 2019, 23:05
+! Title: Press the Attack - Personal
+! Last modified: February 6 2019, 23:50
 ! Expires: 3 hours
-! Homepage: https://github.com/bogachenko/presstheattack/tree/private
-! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/private/LICENSE.md
+! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
+! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 /jsredir?$document,badfilter
 /track.js$badfilter
