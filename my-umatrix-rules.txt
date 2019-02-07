@@ -93,6 +93,7 @@ duckduckgo.com duckduckgo.com cookie allow
 facebook.com facebook.com cookie allow
 github.com github.com cookie allow
 google.com google.com media allow
+google.com.ua google.com.ua media allow
 google.ru google.ru media allow
 instagram.com instagram.com cookie allow
 kinogo.by kinogo.by media allow

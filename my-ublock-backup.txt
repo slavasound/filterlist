@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1549471661690,
+  "timeStamp": 1549560101012,
   "version": "1.18.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": true,
     "dynamicFilteringEnabled": true,
-    "externalLists": "http://tofukko.r.ribbon.to/Adblock_Plus_list.txt\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
+    "externalLists": "https://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -23,8 +23,14 @@
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
-    "http://tofukko.r.ribbon.to/Adblock_Plus_list.txt",
-    "https://raw.githubusercontent.com/bogachenko/presstheattack/private/presstheattack.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt",
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt",
+    "https://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt",
     "https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt",

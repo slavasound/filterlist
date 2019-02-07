@@ -5,25 +5,27 @@
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
-/jsredir?$document,badfilter
-/track.js$badfilter
-@@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
-||www.youtube-nocookie.com^$badfilter
-^popup^$popup,badfilter
-_campaign=$document,badfilter
-music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
-twitch.tv##.recommended-channels
-twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
-twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
-twitch.tv##.tw-z-above.blue-bar
-twitch.tv##.tw-z-default.pinned-cheer-v2
-||8ch.net^$badfilter
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
-~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
 ~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
+~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
+||www.youtube-nocookie.com^$badfilter
 ||www.facebook.com^$domain=~facebook.com,badfilter
-www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
-?partner=$document,badfilter
+||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
+||pr-cy.ru^$badfilter
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
 ||cy-pr.com^$badfilter
+||8ch.net^$badfilter
+www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
+twitch.tv##.tw-z-default.pinned-cheer-v2
+twitch.tv##.tw-z-above.blue-bar
+twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
+twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
+twitch.tv##.recommended-channels
+music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
+_campaign=$document,badfilter
+^popup^$popup,badfilter
+@@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
+?partner=$document,badfilter
+/track.js$badfilter
+/jsredir?$document,badfilter
