@@ -1,8 +1,8 @@
 <!--
 This file is part of the Press the Attack project,
-Copyright (c) 2018 Bogachenko Vyacheslav
+Copyright (c) 2019 Bogachenko Vyacheslav
 
-Press the Attack is a free project: you can distribute it and/or modify
+Press the Attack is a free project: You can distribute it and/or modify
 it in accordance with the MIT license published by the Massachusetts Institute of Technology.
 
 The Press the Attack project is distributed in the hope that it will be useful,
@@ -13,7 +13,7 @@ For more information, see the MIT license.
 Author: Bogachenko Vyacheslav <https://github.com/bogachenko>
 Email: bogachenkove@gmail.com
 Github: https://github.com/bogachenko/presstheattack/
-Last modified: 24 November 2018
+Last modified: February 7, 2019
 License: MIT <https://github.com/bogachenko/presstheattack/blob/master/LICENSE.md>
 Problem reports: https://github.com/bogachenko/presstheattack/issues
 Title: README.ru-RU.md
@@ -26,40 +26,39 @@ Download the entire Press the Attack project at https://github.com/bogachenko/pr
 [![site](https://img.shields.io/badge/site-up-%233fb912.svg)](https://bogachenko.github.io/presstheattack/)
 [![wiki](https://img.shields.io/badge/wiki-up-%233fb912.svg)](https://github.com/bogachenko/presstheattack/wiki)
 [![license](https://img.shields.io/badge/license-MIT-%233fb912.svg)](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)
+[![syntax](https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg)](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
 
-Пользовательские фильтры блокирующие популярные трекеры, баннеры, загрузку и отображение рекламы на страницах сайтов и в результатов поиска, а также эти списки включает в себя косметические фильтры для проблемных сайтов.
+Список фильтров для блокировки объявлений, отслеживания, майнинга и многого другого.
 
-Этот проект находится под лицензией MIT (посмотреть [Лицензию](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)) и его создатель — [Богаченко Вячеслав](https://github.com/bogachenko).
+## O проекте
 
-Общая цель проекта — блокировать рекламу и уменьшать трафик, поступающий с доменов и веб-сайтов, которые вы посещаете.
-Термин "реклама" в этом проекте не определен, потому что, как я уже сказал выше, помимо очевидной рекламы, я также блокирую косметические баннеры и всплывающие подсказки, которые, как я думаю, создают бесполезный трафик без какой-либо реальной выгоды.
+Общая цель проекта это блокировка рекламы и снижение трафика с доменов и сайтов, которые Вы посещаете.
+Термин "реклама" в этом проекте не определен, потому что помимо очевидной рекламы, Я также блокирую баннеры и подсказки, которые, как Я думаю, создают бесполезный трафик.
 
-Мой список не ограничен ни одним регионом. Тем не менее, мое личное внимание уделяется — английским и русским регионам, так как я говорю на этих языках.
+Мой список не ограничивается каким-либо регионом. Тем не менее, Я говорю на русском и английском языках и мое внимание в основном сосредоточено на этих регионах.
 
 ## Отказ от ответственности
 
-Вы можете обнаружить, что эти правила чрезмерно усердны. Да, я обращаю особое внимание на шпионаж на пользователей, разработку и отслеживание, а так же скрытый майнинг.
-Однако, если вы обнаружите, что одно или несколько правил нарушают работу сайта, ломают его, определите проблемное правило и используя комментарии, отключите его через настройки плагина и после этого создайте вопрос в [проблемах](https://github.com/bogachenko/presstheattack/issues).
+Я распространяю этот проект в надежде, что он будет полезен. Этот проект распространяется "КАК ЕСТЬ", без каких-либо гарантий, явных или подразумеваемых, и Я НЕ НЕСУ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ УБЫТКИ, КОТОРЫЕ МОГУТ ВОЗНИКНУТЬ В РЕЗУЛЬТАТЕ ИСПОЛЬЗОВАНИЯ ЭТОГО ПРОЕКТА ИЛИ ЛЮБОЙ ЕГО ЧАСТИ.
 
-Я не несу ответственности за любые убытки, которые могут возникнуть в результате использования этих правил, включая контент, который скрыт по ошибке и вызывает сбои, являясь препятствием для нормальной работы из-за одного или нескольких правил в этом наборе.
+Вы можете обнаружить, что правила в моем списке слишком усердны. Да, Я обращаю особое внимание на шпионаж и майнинг.
+Однако, если Вы обнаружите, что какое-то из правил ломает сайт, отключите его и создайте [вопрос](https://github.com/bogachenko/presstheattack/issues).
 
-Обратите внимание, что в основном я использую uBlock Origin. Я подчеркиваю это, потому что каждый браузер и плагин немного отличается друг от друга, плагин uBlock Origin работает правильно с моим списком фильтров (проверено лично), другие плагины не были проверены мной лично, и поэтому я признаю, что один из них и более может работать неправильно.
+Пожалуйста, обратите внимание, что Я в основном использую uBlock Origin. Я подчеркиваю это, потому что каждый браузер и плагин немного отличаются друг от друга. Этот список фильтров написан для этого плагина, и если Вы используете иной плагин для блокировки рекламы, производительность и правильная работа не гарантируется.
 
-Несмотря на это, я сделаю все возможное, чтобы поддерживать совместимость с Adblock Plus и другими известными плагинами для блокировки рекламы. Тем не менее, вы должны понимать, что я не могу регулярно тестировать свой список фильтров с другими плагинами, так что если у вас возникли проблемы с использованием Adblock Plus и подобными плагинами, не стесняйтесь поднять этот вопрос в [проблемах](https://github.com/bogachenko/presstheattack/issues).
+Несмотря на это, Я буду делать все возможное, чтобы поддерживать совместимость с Adblock Plus и другими известными плагинами для блокировки рекламы. И Вы можете мне помочь, если у вас возникают проблемы с использованием таких плагинов, не стесняйтесь поднимать эти [вопросы](https://github.com/bogachenko/presstheattack/issues).
 
 ## Использование
 
-[ПОДПИСАТЬСЯ](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) — Нажмите ссылку, чтобы добавить список фильтров через браузер или добавить его вручную:
+Чтобы начать использовать нажмите на ссылку [ПОДПИСАТЬСЯ](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fbogachenko%2Fpresstheattack%2Fmaster%2Fpresstheattack.txt&title=Press%20the%20Attack) или добавьте его вручную `https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
 
-`https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt`
+## Лицензия
+Этот проект имеет лицензию MIT (посмотреть [Лицензию](https://raw.githubusercontent.com/bogachenko/presstheattack/master/LICENSE.md)).
 
 ## Документация
 
-Более подробное описание проекта и его документация см. в разделе [ВИКИ](https://github.com/bogachenko/presstheattack/wiki).
+Для ознакомления и подробного описание проекта с его документацией перейдите в раздел [ВИКИ](https://github.com/bogachenko/presstheattack/wiki).
 
 ## Вклад
 
-Я принимаю любые запросы на дополнительные правила. Перейдите во вкладку — [проблемы](https://github.com/bogachenko/presstheattack/issues), откройте вопрос и сообщите о проблеме или пожелании, но не дублируйте одни и те же вопросы, пожалуйста.
-Любители пообщаться и/или использовать эту функцию для собственного развлечения будут закрыты, а регулярный рецидив будет забанен.
-
-**Не забивайте его, молодые люди, он не создан для этой цели.**
+Если вы хотите стать частью этого проекта, отлично, я принимаю любые просьбы о дополнительных правилах, и я с нетерпением жду вашего PR.

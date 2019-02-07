@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+﻿[Adblock Plus 2.0]
 ! Checksum: 47JkBPIwaApjJdr2SiqQnw
 ! Title: Press the Attack
 ! Last modified: 2019-02-08 02:18
