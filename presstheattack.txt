@@ -1,6 +1,5 @@
 ![Adblock Plus 3.1]
 ! Title: Press the Attack - Personal
-! Last modified: February 7 2019, 01:53
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
@@ -29,3 +28,4 @@ _campaign=$document,badfilter
 ?partner=$document,badfilter
 /track.js$badfilter
 /jsredir?$document,badfilter
+_campaign=$popup,badfilter
