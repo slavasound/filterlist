@@ -15,6 +15,7 @@
 ^popup^$popup,badfilter
 _campaign=$document,badfilter
 _campaign=$popup,badfilter
+infourok.ru###aa-popup
 infourok.ru##+js(abort-on-property-read.js, document.oncontextmenu)
 infourok.ru##+js(abort-on-property-read.js, document.ondragstart)
 infourok.ru##+js(abort-on-property-read.js, document.onselectstart)
@@ -30,11 +31,13 @@ twitch.tv##.tw-z-above.blue-bar
 twitch.tv##.tw-z-default.pinned-cheer-v2
 www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
 ||8ch.net^$badfilter
+||connect.ok.ru^$badfilter
 ||cy-pr.com^$badfilter
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
 ||pr-cy.ru^$badfilter
+||rambler.ru^$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 ||www.facebook.com^$domain=~facebook.com,badfilter
 ||www.youtube-nocookie.com^$badfilter
