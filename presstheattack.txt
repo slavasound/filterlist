@@ -4,28 +4,39 @@
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
-~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
-~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
-||www.youtube-nocookie.com^$badfilter
-||www.facebook.com^$domain=~facebook.com,badfilter
-||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
-||pr-cy.ru^$badfilter
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
-||cy-pr.com^$badfilter
-||8ch.net^$badfilter
-www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
-twitch.tv##.tw-z-default.pinned-cheer-v2
-twitch.tv##.tw-z-above.blue-bar
-twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
-twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
-twitch.tv##.recommended-channels
-music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
-_campaign=$document,badfilter
-^popup^$popup,badfilter
-@@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
-?partner=$document,badfilter
-/track.js$badfilter
+!infourok.ru##+js(set-constant.js, questionOpenFullscreen, noopFunc)
 /jsredir?$document,badfilter
+/track.js$badfilter
+?partner=$document,badfilter
+@@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
+@@.analytics.$domain=gitlab.com
+@@||githubapp.com^
+@@||pladform.ru^
+^popup^$popup,badfilter
+_campaign=$document,badfilter
 _campaign=$popup,badfilter
+infourok.ru##+js(abort-on-property-read.js, document.oncontextmenu)
+infourok.ru##+js(abort-on-property-read.js, document.ondragstart)
+infourok.ru##+js(abort-on-property-read.js, document.onselectstart)
+infourok.ru##+js(addEventListener-defuser.js, focus)
+infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
+infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
+music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
+twitch.tv##.recommended-channels
+twitch.tv##.tw-button--overlay.tw-button--hollow.tw-button--dropmenu.tw-button.tw-interactive
+twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
+twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b
+twitch.tv##.tw-z-above.blue-bar
+twitch.tv##.tw-z-default.pinned-cheer-v2
+www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
+||8ch.net^$badfilter
+||cy-pr.com^$badfilter
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
+||pr-cy.ru^$badfilter
+||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
+||www.facebook.com^$domain=~facebook.com,badfilter
+||www.youtube-nocookie.com^$badfilter
+~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
+~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
