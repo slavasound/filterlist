@@ -12,6 +12,9 @@
 .ads-$document,badfilter
 .ads.$document,badfilter
 .ads^$document,badfilter
+||vkontakte.ru^$domain=~vk.com|~vkontakte.ru,badfilter
+@@_dfp_$script,domain=kinopoisk.ru
+||connect.facebook.net^$badfilter
 .ads_$document,badfilter
 /jsredir?$document,badfilter
 /track.js$badfilter
