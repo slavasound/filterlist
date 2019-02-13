@@ -59,9 +59,6 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 ||connect.ok.ru^$third-party,badfilter
 ||cy-pr.com^$badfilter
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,badfilter
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,badfilter
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
