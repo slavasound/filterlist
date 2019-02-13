@@ -29,11 +29,13 @@
 ^ads.$document,badfilter
 ^ads^$document,badfilter
 ^ads_$document,badfilter
+^logimpressions^$badfilter
 ^popup^$popup,badfilter
 _ads-$document,badfilter
 _ads.$document,badfilter
 _ads^$document,badfilter
 _ads_$document,badfilter
+_banner*$badfilter
 _campaign=$document,badfilter
 _campaign=$popup,badfilter
 infourok.ru###aa-popup
@@ -71,3 +73,4 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 ||www.youtube-nocookie.com^$badfilter
 ~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
 ~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
+~twitter.com##[class*="-ad9"]:not(:root):not(body):not(input)
