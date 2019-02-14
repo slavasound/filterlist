@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1550008295532,
+  "timeStamp": 1550120469502,
   "version": "1.18.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": true,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -23,13 +23,6 @@
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt",
     "https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt",
     "https://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
@@ -37,15 +30,10 @@
     "https://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt",
     "https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt",
     "https://filters.adtidy.org/extension/chromium/filters/2.txt",
     "RUS-0",
     "RUS-2",
-    "NOR-0",
-    "JPN-1",
-    "JPN-0",
-    "CHN-0",
     "plowe-0",
     "mvps-0",
     "hphosts",
@@ -56,6 +44,9 @@
     "easyprivacy",
     "adguard-spyware",
     "easylist",
+    "ublock-unbreak",
+    "ublock-annoyances",
+    "ublock-filters",
     "user-filters"
   ],
   "hiddenSettings": {
@@ -81,5 +72,5 @@
   "dynamicFilteringString": "",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-remote-fonts: * true\nno-csp-reports: * true\nno-scripting: behind-the-scene false",
-  "userFilters": ""
+  "userFilters": "!/^https?:\\/\\/[^\\s]+\\.(cc\\/$|club|com|online|ru)/$xmlhttprequest,domain=hdgo.cc|vio.to\n||mradx.net^$badfilter\n#@#a[href*=\"-ads-\"]\n\n\n\n\nrambler.ru##+js(setTimeout-defuser.js, (), 1000)\n"
 }
