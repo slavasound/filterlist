@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1550120469502,
+  "timeStamp": 1550121884549,
   "version": "1.18.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -72,5 +72,5 @@
   "dynamicFilteringString": "",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-remote-fonts: * true\nno-csp-reports: * true\nno-scripting: behind-the-scene false",
-  "userFilters": "!/^https?:\\/\\/[^\\s]+\\.(cc\\/$|club|com|online|ru)/$xmlhttprequest,domain=hdgo.cc|vio.to\n||mradx.net^$badfilter\n#@#a[href*=\"-ads-\"]\n\n\n\n\nrambler.ru##+js(setTimeout-defuser.js, (), 1000)\n"
+  "userFilters": ""
 }
