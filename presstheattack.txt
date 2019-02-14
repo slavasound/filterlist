@@ -25,6 +25,12 @@
 @@||connect.facebook.net^
 @@||githubapp.com^
 @@||pladform.ru^
+#@#*[class$="_ad"]
+#@#KNO-SHARE-BUTTON
+||luxup.ru^$important
+#@#a[href$="/ads"]
+#@#a[title="ВКонтакте"]
+#@#a[title="YouTube"]
 @@||pladform.ru^$badfilter
 ^ads-$document,badfilter
 ^ads.$document,badfilter
