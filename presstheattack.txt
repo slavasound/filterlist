@@ -15,8 +15,10 @@
 #@#a[href$="/ads"]
 #@#a[href*="-ads-"]
 #@#a[href*="advertisement"]
+#@#a[title="Instagram"]
 #@#a[title="YouTube"]
 #@#a[title="ВКонтакте"]
+$font,important,badfilter
 -ads-$document,badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
@@ -28,6 +30,7 @@
 .mail.ru$important,third-party,script,badfilter
 /facebook.svg$badfilter
 /icons/social/*$badfilter
+/images/*twitter-$badfilter
 /jsredir?$document,badfilter
 /social/facebook.$image,badfilter
 /social/google-$badfilter

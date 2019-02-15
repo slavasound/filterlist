@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1550121884549,
+  "timeStamp": 1550273705097,
   "version": "1.18.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -8,9 +8,9 @@
     "cloudStorageEnabled": false,
     "collapseBlocked": true,
     "colorBlindFriendly": false,
-    "contextMenuEnabled": true,
+    "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt\nhttps://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -18,7 +18,7 @@
     "parseAllABPHideFilters": true,
     "prefetchingDisabled": true,
     "requestLogMaxEntries": 1000,
-    "showIconBadge": true,
+    "showIconBadge": false,
     "tooltipsDisabled": true,
     "webrtcIPAddressHidden": true
   },
@@ -32,6 +32,7 @@
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "https://raw.githubusercontent.com/CHEF-KOCH/CKs-FilterList/master/filters/ads-tracker.txt",
     "https://filters.adtidy.org/extension/chromium/filters/2.txt",
+    "https://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt",
     "RUS-0",
     "RUS-2",
     "plowe-0",
@@ -71,6 +72,6 @@
   "netWhitelist": "about-scheme\nchrome-extension-scheme\nchrome-scheme\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme",
   "dynamicFilteringString": "",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "no-remote-fonts: * true\nno-csp-reports: * true\nno-scripting: behind-the-scene false",
+  "hostnameSwitchesString": "no-csp-reports: * true\nno-scripting: behind-the-scene false",
   "userFilters": ""
 }
