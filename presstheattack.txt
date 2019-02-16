@@ -13,6 +13,13 @@
 #@#.icon-twitter
 #@#.social
 #@#.social-box
+#@#.share-buttons
+github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.content
+#@#a[title="RSS"]
+#@#.tw_share
+#@#.fb_share
+#@#.b-share
+#@#a[title="Google+"]
 #@#.social-section
 #@#.social-teasers
 #@#.ya-share2
