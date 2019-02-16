@@ -5,17 +5,31 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 !infourok.ru##+js(set-constant.js, questionOpenFullscreen, noopFunc)
+#@##block_social_open
 #@#*[class$="_ad"]
+#@#.block_social
 #@#.icon-facebook
 #@#.icon-google-plus
 #@#.icon-twitter
 #@#.social
 #@#.social-box
+#@#.social-section
+#@#.social-teasers
+#@#.ya-share2
+#@#.ya-share2__link
+#@#.ya-share2__list
+#@#.ya-share2_inited
 #@#KNO-SHARE-BUTTON
 #@#a[href$="/ads"]
 #@#a[href*="-ads-"]
 #@#a[href*="advertisement"]
+#@#a[href^="https://connect.ok.ru/offer?url="]
+#@#a[href^="https://twitter.com/intent/tweet?"]
+#@#a[href^="https://vk.com/share.php?"]
+#@#a[href^="https://www.facebook.com/sharer.php?"]
+#@#a[title="Facebook"]
 #@#a[title="Instagram"]
+#@#a[title="Twitter"]
 #@#a[title="YouTube"]
 #@#a[title="ВКонтакте"]
 $font,important,badfilter
@@ -29,9 +43,16 @@ $font,important,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /facebook.svg$badfilter
+/footer-facebook-$badfilter
+/footer-instagram-$badfilter
+/footer-twitter-$badfilter
+/footer-youtube-$badfilter
 /icons/social/*$badfilter
 /images/*twitter-$badfilter
+/img/*/social-$badfilter
 /jsredir?$document,badfilter
+/share2/*$script,badfilter
+/share2/*$subdocument,badfilter
 /social/facebook.$image,badfilter
 /social/google-$badfilter
 /social/twitter.$image,badfilter
@@ -46,6 +67,7 @@ $font,important,badfilter
 @@||githubapp.com^
 @@||pladform.ru^
 @@||pladform.ru^$badfilter
+@@||vkontakte.ru/js/api/openapi.js^$script
 ^ads-$document,badfilter
 ^ads.$document,badfilter
 ^ads^$document,badfilter
