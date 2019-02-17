@@ -106,6 +106,8 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 ||8ch.net^$badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
 ||connect.facebook.net^$badfilter
+@@||ajax.cloudflare.com^
+#@#:not([title^="Войти через"]) > .social-icon
 ||connect.ok.ru^$badfilter
 ||connect.ok.ru^$third-party,badfilter
 ||cy-pr.com^$badfilter
