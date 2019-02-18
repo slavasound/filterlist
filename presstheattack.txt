@@ -123,6 +123,13 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 ||mradx.net^$badfilter
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
+#@#a[href^="https://api.whatsapp.com/send?"]
+#@#a[href^="https://pinterest.com/pin/create/"]
+#@#a[href^="https://telegram.me/share/"]
+#@#a[href^="https://telegram.me/share/url?"]
+#@#a[title="Pinterest"]
+||vkontakte.ru/share.php?$third-party,badfilter
+||vk.com/share.php?$third-party,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 ||vk.com^$important,third-party,badfilter
