@@ -139,6 +139,24 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 #@#.googleplus
 #@#.share-control
 #@#.overlay-open-share
+#@#.social_links
+#@#div[id^="vk_group"]
+#@#a[href^="https://www.linkedin.com/shareArticle?"]
+#@#a[title="LinkedIn"]
+#@#a[title="Tumblr"]
+#@#.ytp-share-button
+/telegram-icon.$badfilter
+/social/instagram-$badfilter
+/social/pinterest-$badfilter
+english-films.com##.owl-height.owl-stage-outer > .owl-stage
+english-films.com###mainSlider-controls
+english-films.com##.wrp_baner
+english-films.com##.active.tabs-content > p
+english-films.com##.section.linksBlock
+english-films.com##.box.redBox.section.helperBlock
+english-films.com##.footer
+english-films.com##div.orangeBlock.block
+english-films.com##div.redBlock.block
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
 ||vk.com/share.php?$third-party,badfilter
