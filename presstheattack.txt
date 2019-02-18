@@ -132,6 +132,13 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||luxup.ru^$important
 ||mradx.net^$badfilter
+#@#.facebook
+#@#.socials
+#@#.twitter
+#@#.social-button
+#@#.googleplus
+#@#.share-control
+#@#.overlay-open-share
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
 ||vk.com/share.php?$third-party,badfilter
