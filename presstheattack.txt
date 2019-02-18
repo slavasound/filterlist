@@ -24,6 +24,12 @@ github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.conten
 #@#.social-teasers
 #@#.ya-share2
 #@#.ya-share2__link
+||googlesyndication.com^$important,badfilter
+||google-analytics.$important,badfilter
+||google.*/ads$important,badfilter
+||google.*/gen_204?$important,badfilter
+||google.*/pagead$important,badfilter
+||facebook.*^$important,third-party,domain=~instagram.com,badfilter
 #@#.ya-share2__list
 #@#.ya-share2_inited
 #@#KNO-SHARE-BUTTON
