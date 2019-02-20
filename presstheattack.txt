@@ -15,8 +15,6 @@ $font,important,badfilter
 .ads^$document,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
-/track.js$badfilter
-/twitter.svg$badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
