@@ -20,6 +20,9 @@ $font,important,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
 @@.analytics.$domain=gitlab.com
 @@_dfp_$script,domain=kinopoisk.ru
+$important,inline-font,badfilter
+||platform.twitter.com^$badfilter
+||onesignal.com^$badfilter
 @@||ajax.cloudflare.com^
 @@||connect.facebook.net^
 @@||githubapp.com^
