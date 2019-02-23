@@ -4,8 +4,8 @@
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
-!infourok.ru##+js(set-constant.js, questionOpenFullscreen, noopFunc)
 $font,important,badfilter
+$inline-font,important,badfilter
 -ads-$document,badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
@@ -15,18 +15,14 @@ $font,important,badfilter
 .ads^$document,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
+/img/banner/*$badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
 @@.analytics.$domain=gitlab.com
 @@_dfp_$script,domain=kinopoisk.ru
-$important,inline-font,badfilter
-||platform.twitter.com^$badfilter
-||onesignal.com^$badfilter
 @@||ajax.cloudflare.com^
-@@||connect.facebook.net^
 @@||githubapp.com^
-@@||pladform.ru^
 @@||pladform.ru^$badfilter
 @@||vkontakte.ru/js/api/openapi.js^$script
 ^ads-$document,badfilter
@@ -72,19 +68,15 @@ twitch.tv##.tw-z-default.pinned-cheer-v2
 www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
 ||8ch.net^$badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
-||connect.facebook.net^$badfilter
-||connect.ok.ru^$badfilter
-||connect.ok.ru^$third-party,badfilter
 ||cy-pr.com^$badfilter
 ||facebook.*^$important,third-party,domain=~instagram.com,badfilter
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
-||google-analytics.$important,badfilter
-||google.*/ads$important,badfilter
-||google.*/gen_204?$important,badfilter
-||google.*/pagead$important,badfilter
-||googlesyndication.com^$important,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||mradx.net^$badfilter
+||onesignal.com^$badfilter
+||platform.twitter.com/widgets.js$badfilter
+||platform.twitter.com/widgets/widget_iframe$badfilter
+||platform.twitter.com^$badfilter
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
 ||vk.com/share.php?$third-party,badfilter
@@ -95,7 +87,3 @@ www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-back
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru,badfilter
 ||www.facebook.com^$domain=~facebook.com,badfilter
 ||www.youtube-nocookie.com^$badfilter
-~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class$="-ad"]:not(html):not(body)
-~disk.yandex.ru,~disk.yandex.ua,~disk.yandex.by##[class*="-ad "]:not(html):not(body)
-~mail.yandex.ru,~mail.yandex.ua,~mail.yandex.by##*[class*="_ads "]
-~twitter.com##[class*="-ad9"]:not(:root):not(body):not(input)
