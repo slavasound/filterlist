@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
+#@#.back-to-top
 $font,important,badfilter
 $inline-font,important,badfilter
 -ads-$document,badfilter
@@ -15,7 +16,10 @@ $inline-font,important,badfilter
 .ads^$document,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
+/cookieconsent.$badfilter
+/cookieconsent.$script,badfilter
 /img/banner/*$badfilter
+/libs/cookieconsent2/*$badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
@@ -50,6 +54,7 @@ english-films.com##.superBanner
 english-films.com##.wrp_baner
 english-films.com##div.orangeBlock.block
 english-films.com##div.redBlock.block
+freebitco.in##.reveal-modal-bg, #myModal22
 github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.content
 infourok.ru###aa-popup
 infourok.ru##+js(abort-on-property-read.js, document.oncontextmenu)
@@ -66,8 +71,10 @@ twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.t
 twitch.tv##.tw-z-above.blue-bar
 twitch.tv##.tw-z-default.pinned-cheer-v2
 www.twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
+zn.ua##^script:has-text("zmctrack")
 ||8ch.net^$badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
+||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||cy-pr.com^$badfilter
 ||facebook.*^$important,third-party,domain=~instagram.com,badfilter
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
