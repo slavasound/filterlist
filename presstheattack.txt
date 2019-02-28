@@ -14,6 +14,12 @@ $inline-font,important,badfilter
 .ads-$document,badfilter
 .ads.$document,badfilter
 .ads^$document,badfilter
+qaru.site##.wraptip
+zn.ua###myModal
+twitch.tv##.tw-button--text.tw-button--overlay.tw-button.tw-interactive
+twitch.tv##.tw-relative.prime-offers > .tw-relative > div > .tw-tooltip-wrapper.tw-inline-flex
+twitch.tv##.tw-absolute.prime-offers__pill
+twitch.tv##.tw-top-0.tw-right-0.tw-absolute > button.tw-button-icon--secondary.tw-button-icon.tw-interactive:first-child
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /cookieconsent.$badfilter
