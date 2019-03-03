@@ -67,6 +67,14 @@ music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
 qaru.site##.wraptip
 twitch.tv##.player-alert
 twitch.tv##.prime-offers__pill
+twitch.tv##.recommended-channels
+twitch.tv##.tw-button--full-width.tw-button--dropmenu.tw-button.tw-interactive
+twitch.tv##.tw-button--text.tw-button--overlay.tw-button.tw-interactive
+twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
+twitch.tv##.tw-pd-t-05.tw-flex-wrap.tw-flex > div
+twitch.tv##.tw-relative.chat-rules
+twitch.tv##.tw-relative.tw-pd-1.tw-mg-x-2.tw-mg-b-1.tw-elevation-3.tw-c-background-base.tw-border-radius-medium
+twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##[data-a-target="bits-button"]
 twitch.tv##[data-a-target="get-bits-button"]
 twitch.tv##[data-a-target="prime-offers-icon"]
