@@ -17,6 +17,8 @@ $inline-font,important,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /cookieconsent.$badfilter
+kinopoisk.ru#@#div[data-type="teaserspec"]
+twitch.tv##button.pl-button--icon.pl-button--follow.pl-button:last-child
 /cookieconsent.$script,badfilter
 /img/banner/*$badfilter
 /libs/cookieconsent2/*$badfilter
