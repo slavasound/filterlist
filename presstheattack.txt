@@ -17,6 +17,7 @@ $inline-font,important,badfilter
 ||uptolike.com^$badfilter
 ||mc.yandex.ru/metrika/watch.js$script,redirect=silent-noeval.js,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua,badfilter
 .ads^$document,badfilter
+||platform.twitter.com/js/button.$badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /cookieconsent.$badfilter
