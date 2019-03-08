@@ -13,8 +13,7 @@
 .ads-$document,badfilter
 *$inline-font,important
 _analytics_$badfilter
-|http*:*^tracker^$domain=~fandom.com
-||amazonaws.com/ki.js$script,important
+twitch.tv##a[href*="vk.com/altasutashop"] > img
 .ads.$document,badfilter
 /cookie-law-$stylesheet,badfilter
 ||uptolike.com^$badfilter
