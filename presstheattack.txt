@@ -5,13 +5,16 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 #@#.back-to-top
-$font,important,badfilter
-$inline-font,important,badfilter
+*$font,important,badfilter
 -ads-$document,badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
 -ads_$document,badfilter
 .ads-$document,badfilter
+*$inline-font,important
+_analytics_$badfilter
+|http*:*^tracker^$domain=~fandom.com
+||amazonaws.com/ki.js$script,important
 .ads.$document,badfilter
 /cookie-law-$stylesheet,badfilter
 ||uptolike.com^$badfilter
