@@ -32,6 +32,13 @@ twitch.tv##button.pl-button--icon.pl-button--follow.pl-button:last-child
 /cookieconsent.$script,badfilter
 /img/banner/*$badfilter
 /libs/cookieconsent2/*$badfilter
+tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
+yandex.ru##:xpath(//div[@class='container container__heap container__line heap heap_direction_column'])
+yandex.ru##.rows__row_last.rows__row.row
+yandex.ru##.media-grid__media-content
+yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
+yandex.ru##.footer.col
+rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/header[1]/div[2]/div[1]/div[10])
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
