@@ -21,6 +21,10 @@ $inline-font,important,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /cookieconsent.$badfilter
+news.rambler.ru##.topline
+mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
+mail.ru###projects
+health.mail.ru##.pm-toolbar__separator_last-in-group.pm-toolbar__separator.js-separator
 yandex.ru##:xpath(//div[contains(@class,'desk-notif-card  desk-notif-card_stickers_yes desk-notif-card_icon_no desk-notif-card_details_no desk-notif-card_actions_yes desk-notif-card_minified_yes desk-notif-card_animated_yes i-bem desk-notif-card_js_inited')])
 yandex.ru##:xpath(//div[contains(@class,'desk-notif-card  desk-notif-card_stream_yes desk-notif-card_icon_yes desk-notif-card_details_yes desk-notif-card_actions_yes desk-notif-card_minified_yes desk-notif-card_animated_yes desk-notif-card_bg_default i-bem desk-notif-card_js_inited')])
 news.yandex.ru##:xpath(//div[@class='rubber__col rubber__col_right'])
