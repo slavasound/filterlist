@@ -16,6 +16,16 @@ _analytics_$badfilter
 twitch.tv##a[href*="vk.com/altasutashop"] > img
 .ads.$document,badfilter
 /cookie-law-$stylesheet,badfilter
+kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV > a[href="https://yandex.ru/support/common/troubleshooting/yandex-in-adblock.html"]
+kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV[class*="adblock-warning"] > span
+kinopoisk.ru##div#partial_component__header-topline > DIV > div > DIV > DIV > DIV[class*="adblock-warning"] > p
+kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV[class*="adblock-warning"]
+kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="toaster"] > DIV[class*="adblock-warning"]
+kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="toaster"] > DIV[class*="adblock-warning"] > DIV[class*="adblock-warning"]
+kinopoisk.ru#@#.social-teasers
+kinopoisk.ru##html > body.svg-background_yes > DIV.feature_promo.feature_promo-active.feature_promo-animate
+kinopoisk.ru##a[href*="//zen.yandex.ru/"]
+@@-teasers^$domain=kinopoisk.ru
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
 translate.yandex.ru###collectionsWrapper > .overlay-content
 yandex.ru##div#banner.b-banner__content > div.b-banner__wrap > iframe.banner-iframe[src^="https://awaps.yandex.net/"]
