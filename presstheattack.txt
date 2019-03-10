@@ -93,8 +93,6 @@ news.yandex.ru##div.proffit.proffit_layout_footer.proffit_name_footer.proffit_hi
 news.yandex.ru##div.proffit.proffit_name_first.proffit_hideneded
 news.yandex.ru##div.proffit.proffit_name_top.proffit_hideneded
 news.yandex.ru##div.proffit.proffit_sticky_yes.proffit_name_main.proffit_hideneded
-news.yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus.i-ua_b_mozilla > body.b-page.b-page_touch_no.b-page_name_index.b-page_type_rubric.b-page_lang_ru.b-page_view_normal.detect-scripts.proffit-manager.b-page__body.i-global.i-ua.i-ua_interaction_yes.i-bem.b-page_js_inited.detect-scripts_js_inited.i-global_js_inited.proffit-manager_js_inited.i-ua_platform_other.i-ua_js_inited > div.rubber.rubber_content > div.rubber__col.rubber__col_left > div.page-content > div.proffit-wrap > div.sticky.proffit__container.i-bem.sticky_js_inited > div.proffit.proffit_name_alt
-news.yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus.i-ua_b_mozilla > body.b-page.b-page_touch_no.b-page_name_index.b-page_type_rubric.b-page_lang_ru.b-page_view_normal.detect-scripts.proffit-manager.b-page__body.i-global.i-ua.i-ua_interaction_yes.i-bem.b-page_js_inited.detect-scripts_js_inited.i-global_js_inited.proffit-manager_js_inited.i-ua_platform_other.i-ua_js_inited > div.rubber.rubber_content > div.rubber__col.rubber__col_right
 qaru.site##.wraptip
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/div[1]/div[2])
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/header[1]/div[2]/div[1]/div[10])
@@ -103,6 +101,7 @@ translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collec
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv##.player-alert
 twitch.tv##.prime-offers__pill
+news.yandex.ru##[class]:first-child + [class] + [class] > [class]:first-child + [class]:last-child
 twitch.tv##.tw-button--full-width.tw-button--dropmenu.tw-button.tw-interactive
 twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
 twitch.tv##.tw-pd-t-05.tw-flex-wrap.tw-flex > div
