@@ -23,6 +23,9 @@
 /libs/cookieconsent2/*$badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
+music.yandex.ru##.sidebar__under
+music.yandex.ru##:xpath(//div[@class='sidebar__under'])
+music.yandex.ru##:xpath(/html[1]/body[1]/div[7]/div[6]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1])
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
 @@-teasers^$domain=kinopoisk.ru
 @@.analytics.$domain=gitlab.com
