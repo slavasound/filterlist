@@ -75,8 +75,7 @@ kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DI
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV[class*="adblock-warning"]
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="toaster"] > DIV[class*="adblock-warning"]
 kinopoisk.ru##html > body.svg-background_yes > DIV.feature_promo.feature_promo-active.feature_promo-animate
-kinopoisk.ru#@#.social-teasers
-kinopoisk.ru#@#div[data-type="teaserspec"]
+|connect.facebook.net^
 mail.ru###projects
 mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
 mail.ru##div#grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__main-col > div.grid__ccol.i-pull-left > div.news-item.o-media.news-item_tgb.news-item_long_title.tgb.tgb_invisible
