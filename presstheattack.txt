@@ -7,19 +7,18 @@
 #@#.back-to-top
 *$font,important,badfilter
 *$inline-font,important
+-ads-$badfilter
 -ads-$document,badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
 -ads_$document,badfilter
-novinky.cz##^script:has-text(Number()
-novinky.cz##+js(cookie-remover.js)
-novinky.cz##+js(setTimeout-defuser.js, O())
-novinky.cz##+js(addEventListener-defuser.js, /^(beforeunload|load)$/)
+-adv_$badfilter
 .ads-$document,badfilter
 .ads.$document,badfilter
 .ads^$document,badfilter
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
+/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
 /cookie-law-$stylesheet,badfilter
 /cookieconsent.$badfilter
 /cookieconsent.$script,badfilter
@@ -62,6 +61,7 @@ english-films.com##.superBanner
 english-films.com##.wrp_baner
 english-films.com##div.orangeBlock.block
 english-films.com##div.redBlock.block
+free.proxy-sale.com##:xpath(//p[@class='copy-buffer'][contains(.,'Скопировать в буфер')])
 freebitco.in##.reveal-modal-bg, #myModal22
 github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.content
 google.com##div#bottomads
@@ -96,17 +96,23 @@ news.yandex.ru##div.proffit.proffit_layout_footer.proffit_name_footer.proffit_hi
 news.yandex.ru##div.proffit.proffit_name_first.proffit_hideneded
 news.yandex.ru##div.proffit.proffit_name_top.proffit_hideneded
 news.yandex.ru##div.proffit.proffit_sticky_yes.proffit_name_main.proffit_hideneded
+novinky.cz##+js(addEventListener-defuser.js, /^(beforeunload|load)$/)
+novinky.cz##+js(cookie-remover.js)
+novinky.cz##+js(setTimeout-defuser.js, O())
+novinky.cz##^script:has-text(Number()
 qaru.site##.wraptip
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/div[1]/div[2])
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/header[1]/div[2]/div[1]/div[10])
 translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
+tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv##.player-alert
 twitch.tv##.prime-offers__pill
 twitch.tv##.tw-button--full-width.tw-button--dropmenu.tw-button.tw-interactive
 twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
 twitch.tv##.tw-pd-t-05.tw-flex-wrap.tw-flex > div
+twitch.tv##.tw-relative.chat-rules
 twitch.tv##[data-a-target="bits-button"]
 twitch.tv##[data-a-target="get-bits-button"]
 twitch.tv##[data-a-target="prime-offers-icon"]
@@ -124,7 +130,6 @@ twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__prime.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.prime-offers.tw-relative > div.tw-relative > div > div.tw-inline-flex.tw-tooltip-wrapper > div
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-l-05.tw-mg-r-1 > div.tw-relative > div > button.tw-button.tw-button--overlay.tw-button--text.tw-interactive
 vk.com##div#ads_left
-twitch.tv##.tw-relative.chat-rules
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.ru##.clearfix.footer
@@ -134,6 +139,7 @@ yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru##.rows__row_last.rows__row.row
 yandex.ru##:xpath(//div[contains(@class,'desk-notif-card  desk-notif-card_stickers_yes desk-notif-card_icon_no desk-notif-card_details_no desk-notif-card_actions_yes desk-notif-card_minified_yes desk-notif-card_animated_yes i-bem desk-notif-card_js_inited')])
+yandex.ru##:xpath(//span[@data-lego='react'][contains(.,'Будьте в Плюсе')])
 yandex.ru##body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_main > div.col.main.widgets > div.container.container__heap.container__line.heap.heap_direction_column
 yandex.ru##div#banner.b-banner__content > div.b-banner__wrap > iframe.banner-iframe[src^="https://awaps.yandex.net/"]
 yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus > body.b-page.b-page_type_index.b-page_align_center.i-metrika.detect-scripts.b-page__body.i-ua.i-global.i-bem.b-page_js_inited.i-global_js_inited.detect-scripts_js_inited.i-ua_platform_other.i-ua_js_inited > div.b-page__container > div.adv.adv_pos_popup
@@ -175,9 +181,6 @@ zn.ua##^script:has-text("zmctrack")
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||connect.facebook.net^
-/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
-||resize.yandex.net^$image,domain=yandex.ru,important
-yandex.ru##:xpath(//span[@data-lego='react'][contains(.,'Будьте в Плюсе')])
 ||cy-pr.com^$badfilter
 ||facebook.*^$important,third-party,domain=~instagram.com,badfilter
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
@@ -192,6 +195,7 @@ yandex.ru##:xpath(//span[@data-lego='react'][contains(.,'Будьте в Плю�
 ||platform.twitter.com^$badfilter
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
+||resize.yandex.net^$image,domain=yandex.ru,important
 ||uptolike.com^$badfilter
 ||vk.com/share.php?$third-party,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
@@ -201,3 +205,4 @@ yandex.ru##:xpath(//span[@data-lego='react'][contains(.,'Будьте в Плю�
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru,badfilter
 ||www.facebook.com^$domain=~facebook.com,badfilter
 ||www.youtube-nocookie.com^$badfilter
+||yastatic.net,yandex.ru$font,important
