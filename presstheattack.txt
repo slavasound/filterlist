@@ -120,16 +120,16 @@ twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__prime.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.prime-offers.tw-relative > div.tw-relative > div > div.tw-inline-flex.tw-tooltip-wrapper > div
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-l-05.tw-mg-r-1 > div.tw-relative > div > button.tw-button.tw-button--overlay.tw-button--text.tw-interactive
 vk.com##div#ads_left
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative > div.right-column.tw-flex-shrink-0.tw-full-height.tw-relative > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.room-selector.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-full-width.tw-relative > section.chat-room.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-shrink-1.tw-full-width > div.chat-room__content.tw-c-text-base.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-relative > div.tw-pd-x-2 > div.chat-rules.tw-relative
+twitch.tv##.tw-relative.chat-rules
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.ru##.clearfix.footer
 yandex.ru##.footer.col
+yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link:has-text(Получить Плюс)
 yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru##.rows__row_last.rows__row.row
 yandex.ru##:xpath(//div[contains(@class,'desk-notif-card  desk-notif-card_stickers_yes desk-notif-card_icon_no desk-notif-card_details_no desk-notif-card_actions_yes desk-notif-card_minified_yes desk-notif-card_animated_yes i-bem desk-notif-card_js_inited')])
-yandex.ru##:xpath(//div[contains(@class,'desk-notif-card  desk-notif-card_stream_yes desk-notif-card_icon_yes desk-notif-card_details_yes desk-notif-card_actions_yes desk-notif-card_minified_yes desk-notif-card_animated_yes desk-notif-card_bg_default i-bem desk-notif-card_js_inited')])
 yandex.ru##body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_main > div.col.main.widgets > div.container.container__heap.container__line.heap.heap_direction_column
 yandex.ru##div#banner.b-banner__content > div.b-banner__wrap > iframe.banner-iframe[src^="https://awaps.yandex.net/"]
 yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus > body.b-page.b-page_type_index.b-page_align_center.i-metrika.detect-scripts.b-page__body.i-ua.i-global.i-bem.b-page_js_inited.i-global_js_inited.detect-scripts_js_inited.i-ua_platform_other.i-ua_js_inited > div.b-page__container > div.adv.adv_pos_popup
@@ -169,9 +169,11 @@ zn.ua###myModal
 zn.ua##^script:has-text("zmctrack")
 ||8ch.net^$badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
-||avatars.mds.yandex.net^$image,domain=yandex.ru,important
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||connect.facebook.net^
+/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
+||resize.yandex.net^$image,domain=yandex.ru,important
+yandex.ru##:xpath(//span[@data-lego='react'][contains(.,'Будьте в Плюсе')])
 ||cy-pr.com^$badfilter
 ||facebook.*^$important,third-party,domain=~instagram.com,badfilter
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
