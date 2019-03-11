@@ -11,6 +11,10 @@
 -ads.$document,badfilter
 -ads^$document,badfilter
 -ads_$document,badfilter
+novinky.cz##^script:has-text(Number()
+novinky.cz##+js(cookie-remover.js)
+novinky.cz##+js(setTimeout-defuser.js, O())
+novinky.cz##+js(addEventListener-defuser.js, /^(beforeunload|load)$/)
 .ads-$document,badfilter
 .ads.$document,badfilter
 .ads^$document,badfilter
