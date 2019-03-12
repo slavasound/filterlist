@@ -25,6 +25,8 @@
 /img/banner/*$badfilter
 /jsredir?$document,badfilter
 /libs/cookieconsent2/*$badfilter
+###footer_cookie:not(html):not(body)
+|https://$third-party,script,domain=xvideos.com,badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
