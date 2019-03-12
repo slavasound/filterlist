@@ -29,8 +29,9 @@
 |https://$third-party,script,domain=xvideos.com,badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
+www.kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
+www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
-@@-teasers^$domain=kinopoisk.ru
 @@.analytics.$domain=gitlab.com
 @@_dfp_$script,domain=kinopoisk.ru
 @@||ajax.cloudflare.com^
