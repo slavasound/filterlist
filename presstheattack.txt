@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
+###footer_cookie:not(html):not(body)
 #@#.back-to-top
 *$font,important,badfilter
 *$inline-font,important
@@ -13,6 +14,7 @@
 -ads^$document,badfilter
 -ads_$document,badfilter
 -adv_$badfilter
+-sponsored-$badfilter
 .ads-$document,badfilter
 .ads.$document,badfilter
 .ads^$document,badfilter
@@ -25,12 +27,8 @@
 /img/banner/*$badfilter
 /jsredir?$document,badfilter
 /libs/cookieconsent2/*$badfilter
-###footer_cookie:not(html):not(body)
-|https://$third-party,script,domain=xvideos.com,badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
-www.kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
-www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
 @@.analytics.$domain=gitlab.com
 @@_dfp_$script,domain=kinopoisk.ru
@@ -44,6 +42,7 @@ www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(О
 ^ads_$document,badfilter
 ^logimpressions^$badfilter
 ^popup^$popup,badfilter
+^promo_$badfilter
 _ads-$document,badfilter
 _ads.$document,badfilter
 _ads^$document,badfilter
@@ -133,10 +132,10 @@ twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__prime.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.prime-offers.tw-relative > div.tw-relative > div > div.tw-inline-flex.tw-tooltip-wrapper > div
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-l-05.tw-mg-r-1 > div.tw-relative > div > button.tw-button.tw-button--overlay.tw-button--text.tw-interactive
 vk.com##div#ads_left
+www.kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
+www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
-yandex.ru##.clearfix.footer
-yandex.ru##.footer.col
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link:has-text(Получить Плюс)
 yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
@@ -180,6 +179,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-renderer
 youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 zn.ua###myModal
 zn.ua##^script:has-text("zmctrack")
+|https://$third-party,script,domain=xvideos.com,badfilter
 ||8ch.net^$badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
