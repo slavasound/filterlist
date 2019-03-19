@@ -9,6 +9,10 @@
 *$font,important,badfilter
 *$inline-font,important
 -ads-$badfilter
+kinopoisk.ru##+js(addEventListener-defuser.js, click)
+yandex.ru,yandex.ua,yandex.by##.serp-item:has-text(/реклама/i)
+yandex.ru,yandex.ua,yandex.by##:xpath(//div[@class='serp-item']//div[@class='composite composite_gap_s composite_separated_no']):has-text(Реклама)
+||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
 -ads-$document,badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
