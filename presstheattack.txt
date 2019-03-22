@@ -7,11 +7,18 @@
 ###footer_cookie:not(html):not(body)
 #@#.back-to-top
 *$font,important,badfilter
-*$inline-font,important
+*$inline-font,important,badfilter
 -ads-$badfilter
 kinopoisk.ru##+js(addEventListener-defuser.js, click)
 yandex.ru,yandex.ua,yandex.by##.serp-item:has-text(/реклама/i)
 yandex.ru,yandex.ua,yandex.by##:xpath(//div[@class='serp-item']//div[@class='composite composite_gap_s composite_separated_no']):has-text(Реклама)
+-ads.$badfilter
+^ads_$badfilter
+^ads^$badfilter
+||facebook.com/plugins/like.php$important,badfilter
+||facebook.com*/plugins/like.php?$third-party,badfilter
+||tumblr.com^$important,third-party,domain=~media.tumblr.com,badfilter
+||platform.tumblr.com^$third-party,badfilter
 ||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
 -ads-$document,badfilter
 -ads.$document,badfilter
