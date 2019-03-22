@@ -30,6 +30,13 @@ yandex.ru,yandex.ua,yandex.by##:xpath(//div[@class='serp-item']//div[@class='com
 /cookieconsent.$script,badfilter
 /img/banner/*$badfilter
 /jsredir?$document,badfilter
+www.twitch.tv##.tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar
+||yimg.com/cv/$badfilter
+||yimg.com/rq/$badfilter
+||yimg.*/lib/*/cs_$script,badfilter
+||yimg.*/lib/3pm/$script,badfilter
+||twimg.com^$important,third-party,domain=~twitter.com|~moz-extension-scheme|~about-scheme|~behind-the-scene,badfilter
+||twitter.com^$important,third-party,badfilter
 /libs/cookieconsent2/*$badfilter
 0.0.0.0 212.122.5.136
 ?partner=$document,badfilter
