@@ -14,6 +14,10 @@ yandex.ru,yandex.ua,yandex.by##.serp-item:has-text(/реклама/i)
 yandex.ru,yandex.ua,yandex.by##:xpath(//div[@class='serp-item']//div[@class='composite composite_gap_s composite_separated_no']):has-text(Реклама)
 -ads.$badfilter
 ^ads_$badfilter
+||google.*/ads$important,badfilter
+^logger.$badfilter
+*$beacon
+*$other
 ^ads^$badfilter
 ||facebook.com/plugins/like.php$important,badfilter
 ||facebook.com*/plugins/like.php?$third-party,badfilter
