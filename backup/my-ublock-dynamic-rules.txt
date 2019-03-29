@@ -1,0 +1,35 @@
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+no-scripting: behind-the-scene false
+no-scripting: view-source-scheme true
+* * 3p-frame block
+* * 3p-script block
+* adfox.ru * block
+* akamaized.net * noop
+* an.yandex.ru * block
+* awaps.yandex.ru * block
+* clck.yandex.ru * block
+* csp.yandex.net * block
+* fonts.googleapis.com * noop
+* github.com * noop
+* githubassets.com * noop
+* google.com * noop
+* googletagmanager.com * block
+* gstatic.com * noop
+* mc.yandex.ru * block
+* music-browser.music.yandex.net * block
+* recaptcha.net * noop
+* spade.twitch.tv * block
+* static-mon.yandex.net * block
+* twitch.tv * noop
+* twitchcdn.net * noop
+* yandex.net * noop
+* yandex.ru * noop
+* yastatic.net * noop
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
