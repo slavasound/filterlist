@@ -11,6 +11,7 @@
 *$inline-font,important,badfilter
 *$other
 -ads-$badfilter
+/counters^$badfilter
 -ads-$document,badfilter
 -ads.$badfilter
 -ads.$document,badfilter
@@ -97,13 +98,6 @@ music.yandex.ru##.sidebar__under
 music.yandex.ru##:xpath(//div[@class='sidebar__under'])
 music.yandex.ru##:xpath(/html[1]/body[1]/div[7]/div[6]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1])
 music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
-news.rambler.ru##.topline
-news.yandex.ru##:xpath(//div[@class='rubber__col rubber__col_right'])
-news.yandex.ru##[class]:first-child + [class] + [class] > [class]:first-child + [class]:last-child
-news.yandex.ru##div.proffit.proffit_layout_footer.proffit_name_footer.proffit_hideneded
-news.yandex.ru##div.proffit.proffit_name_first.proffit_hideneded
-news.yandex.ru##div.proffit.proffit_name_top.proffit_hideneded
-news.yandex.ru##div.proffit.proffit_sticky_yes.proffit_name_main.proffit_hideneded
 novinky.cz##+js(addEventListener-defuser.js, /^(beforeunload|load)$/)
 novinky.cz##+js(cookie-remover.js)
 novinky.cz##+js(setTimeout-defuser.js, O())
