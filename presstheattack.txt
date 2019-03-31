@@ -196,7 +196,6 @@ zn.ua##^script:has-text("zmctrack")
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||mc.yandex.ru/metrika/watch.js$script,redirect=silent-noeval.js,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua,badfilter
 ||mradx.net^$badfilter
-||news.yandex.ru^$inline-script,domain=news.yandex.ru,important
 ||onesignal.com^$badfilter
 ||platform.tumblr.com^$third-party,badfilter
 ||platform.twitter.com/js/button.$badfilter
