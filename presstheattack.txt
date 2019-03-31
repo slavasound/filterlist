@@ -25,7 +25,8 @@
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
-/^https?:\/\/strm\.yandex\.ru\/log\/$important
+/^https?:\/\/strm\.yandex\.ru\/log/$important
+^rum-$third-party,badfilter
 /cookie-law-$stylesheet,badfilter
 /cookieconsent.$badfilter
 /cookieconsent.$script,badfilter
