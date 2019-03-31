@@ -25,6 +25,7 @@
 .ads_$document,badfilter
 .mail.ru$important,third-party,script,badfilter
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
+/^https?:\/\/strm\.yandex\.ru\/log\/$important
 /cookie-law-$stylesheet,badfilter
 /cookieconsent.$badfilter
 /cookieconsent.$script,badfilter
@@ -194,10 +195,10 @@ zn.ua##^script:has-text("zmctrack")
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
 ||google.*/ads$important,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
-||mc.yandex.ru/metrika/watch.js$script,redirect=silent-noeval.js,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua,badfilter
 ||mradx.net^$badfilter
 ||onesignal.com^$badfilter
 ||platform.tumblr.com^$third-party,badfilter
+||news.yandex.*^$first-party,important,script
 ||platform.twitter.com/js/button.$badfilter
 ||platform.twitter.com/widgets.js$badfilter
 ||platform.twitter.com/widgets/widget_iframe$badfilter
