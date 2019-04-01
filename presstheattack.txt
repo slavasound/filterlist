@@ -211,6 +211,11 @@ zn.ua##^script:has-text("zmctrack")
 ||twimg.com^$important,third-party,domain=~twitter.com|~moz-extension-scheme|~about-scheme|~behind-the-scene,badfilter
 ||twitter.com^$important,third-party,badfilter
 ||uptolike.com^$badfilter
+.analytics.$badfilter
+||gravatar.com^$important,third-party,badfilter
+||signavatar.com^$third-party,important,badfilter
+||zencdn.net^$important,badfilter
+||zencdn.net^$badfilter
 ||vk.com/share.php?$third-party,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
