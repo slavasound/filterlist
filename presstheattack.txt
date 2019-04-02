@@ -1743,6 +1743,28 @@
 /cookieconsent.$badfilter
 /cookieconsent.$script,badfilter
 /counters^$badfilter
+#@#[data-link^="https://twitter.com/share?"]
+#@#[data-test="social-icon-twitter"]
+#@#[data-type="twitter-bottom-share"]
+#@#[href^="//twitter.com/share"]
+#@#[href^="//www.twitter.com/share"]
+#@#[name="Click to follow us on twitter"]
+#@#[onclick^="window.open('http://twitter.com/share?"]
+#@#[uk-icon="twitter"]
+#@#a[alt="follow us on twitter"]
+#@#a[onclick^="window.open('http://twitter.com/home?status="]
+#@#a[rel="share-on-twitter"]
+#@#a[title="Follow on twitter"]
+#@#a[title="condividi su twitter"]
+#@#a[title="twitter"]
+#@#a[title^="Follow us on twitter"]
+#@#button[onclick^="Javascript:void(window.open('http://twitter.com/share?text="]
+#@#button[onclick^="window.open('https://twitter.com/intent/tweet?url="]
+#@#div[data-jsonurl^="/nfl-assets/data/twitter/"]
+#@#img[alt="Connect to us with twitter"]
+#@#img[alt="Link to twitter"]
+#@#img[alt="follow with twitter"]
+#@#img[alt="twitter"]
 /dc-facebook-$badfilter
 /facebook1.png|$domain=~facebook.com,badfilter
 /facebook2.$badfilter
