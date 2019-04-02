@@ -2961,6 +2961,32 @@ zn.ua##^script:has-text("zmctrack")
 ||vk.com/widget_community_messages.php?$third-party,badfilter
 ||vk.com/widget_groups.php?$third-party,badfilter
 ||vk.com/widget_like.php$third-party,badfilter
+#@#[id^="vk_group"]
+#@#aside.groups--vk
+#@##enter_vk_holder
+#@##rgb_ads_vk
+#@##the_share
+#@##vk_groups
+#@##vk_popup_popup
+#@##vkfb
+#@#.b-widget-vk
+#@#.data-banner > #vk
+#@#.header > .vk-bar
+#@#.icon.vk
+#@#.ok-vk-block
+#@#.vk-block
+#@#.vk-mini
+#@#.vk-osn
+#@#.vk-popup
+#@#.vk-widget
+#@#.vkblock
+#@#.vkcomms
+#@#.vkgr
+#@#.vkgs
+#@#.vkontakte:not(.login-with)
+#@#a[href*="vk.cc"]
+#@#div[id^="vkapi_like"]
+#@#div[style^="background:url(/i/vkbg.gif)"]
 ||vk.com/widget_poll.php?$third-party,badfilter
 ||vk.com/widget_post.php$domain=kritika24.ru,badfilter
 ||vk.com/widget_recommended.php?$third-party,badfilter
