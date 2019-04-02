@@ -5,6 +5,9 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 ###footer_cookie:not(html):not(body)
+#@#.b-widget-facebook
+#@#.facebook
+#@#.facebook__box,.mask
 #@##.icon-social-facebook
 #@##FIN_facebook_fanbox
 #@##article-headline-facebook
@@ -33,6 +36,7 @@
 #@##dcssb-facebook
 #@##div_facebook
 #@##dropdown-facebook-ask
+#@##facebook
 #@##facebook-after-post
 #@##facebook-bottom-like-box
 #@##facebook-box
@@ -66,6 +70,7 @@
 #@##facebook-twitter-block
 #@##facebook-twitter-block-bottom
 #@##facebook-twitter-page-top
+#@##facebook-userbar
 #@##facebook-wdgt
 #@##facebook-widget
 #@##facebook-widget-sidebar
@@ -143,6 +148,8 @@
 #@##facebooksocialplugin
 #@##facebooktrend
 #@##facebookwidget
+#@##fbContainer
+#@##fb_header
 #@##feeds-facebook
 #@##floaty-facebook
 #@##follow-facebook
@@ -172,6 +179,7 @@
 #@##koddostu_facebook_begen
 #@##like-bar-facebook
 #@##like_facebook
+#@##likebtn
 #@##link_facebook
 #@##ls-facebook-box
 #@##lst-facebook
@@ -186,6 +194,7 @@
 #@##newfacebookpanel
 #@##overlay-facebook
 #@##page-header-facebook
+#@##pagelet_growth_expanding_cta
 #@##plug-facebook
 #@##popinfacebook
 #@##right-side-facebook
@@ -205,6 +214,7 @@
 #@##share_facebook2
 #@##share_facebook
 #@##share_facebook_trigger
+#@##share_feed
 #@##share_on_facebook
 #@##side_facebook
 #@##sidebar-facebook
@@ -293,6 +303,7 @@
 #@#.common-ui-facebook-bottom
 #@#.component-facebook-like
 #@#.connect-button-facebook
+#@#.connect_widget
 #@#.count-facebook
 #@#.dashicons-facebook
 #@#.drop_facebook
@@ -392,6 +403,7 @@
 #@#.facebook-social-likes
 #@#.facebook-solid-control
 #@#.facebook-toolbar
+#@#.facebook-tools
 #@#.facebook-top
 #@#.facebook-top-button
 #@#.facebook-twitter
@@ -773,9 +785,9 @@
 #@#.socicon-facebook
 #@#.sofacebook
 #@#.sp_facebook
-#@#.sprite-facebook25x25
 #@#.sprite-facebook
 #@#.sprite-facebook15x15
+#@#.sprite-facebook25x25
 #@#.sprite-share-facebook
 #@#.sprite-social-facebook
 #@#.sprite_condividi_facebook_button
@@ -870,6 +882,7 @@
 #@#a[href^="https://www.facebook.com/share.php?"]
 #@#a[href^="https://www.facebook.com/sharer.php?"]
 #@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#a[onclick*="facebook.com/sharer.php?"]
 #@#a[onclick^="window.open('http://www.facebook.com/sharer.php?"]
 #@#a[rel="share-on-facebook"]
 #@#a[title="Facebook"]
@@ -881,6 +894,7 @@
 #@#a[title^="follow us on facebook"]
 #@#button[onclick^="Javascript:void(window.open('http://www.facebook.com/sharer.php?"]
 #@#button[onclick^="window.open('https://www.facebook.com/dialog/share?"]
+#@#iframe[src^="http://www.facebook."] + br + table[border="0"]
 #@#iframe[src^="http://www.facebook.com/plugins/activity.php?"]
 #@#iframe[src^="http://www.facebook.com/plugins/likebox.php?"]
 #@#iframe[src^="http://www.facebook.com/plugins/recommendations.php?"]
@@ -1394,6 +1408,7 @@ zn.ua##^script:has-text("zmctrack")
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
 ||blogsmithmedia.com^*facebook$image,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
+||cloudfront.net/*/facebook.png$badfilter
 ||connect.facebook.net^
 ||cy-pr.com^$badfilter
 ||facebook.*^$important,third-party,domain=~instagram.com,badfilter
@@ -1402,6 +1417,7 @@ zn.ua##^script:has-text("zmctrack")
 ||facebook.com/connect/connect.php?*width*&height$third-party,badfilter
 ||facebook.com/dialog/oauth?display=popup$popup,domain=humorhub.org,badfilter
 ||facebook.com/plugins/activity.php?$third-party,badfilter
+||facebook.com/plugins/comments.php?$badfilter
 ||facebook.com/plugins/facepile.php?$third-party,badfilter
 ||facebook.com/plugins/fan.php?$third-party,badfilter
 ||facebook.com/plugins/follow.php$third-party,badfilter
@@ -1463,62 +1479,6 @@ zn.ua##^script:has-text("zmctrack")
 ||vk.com/widget_community.php$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 ||vk.com^$important,third-party,badfilter
-#@#.connect_widget
-||facebook.com*/plugins/like.php?$third-party,badfilter
-||facebook.com/connect/connect.*connections$third-party,domain=~farmville.com,badfilter
-||facebook.com/connect/connect.php?*width*&height$third-party,badfilter
-||facebook.com/dialog/oauth?display=popup$popup,domain=humorhub.org,badfilter
-||facebook.com/plugins/activity.php?$third-party,badfilter
-||facebook.com/plugins/facepile.php?$third-party,badfilter
-||facebook.com/plugins/fan.php?$third-party,badfilter
-||facebook.com/plugins/follow.php$third-party,badfilter
-||facebook.com/plugins/follow?$third-party,badfilter
-||facebook.com/plugins/like_box.php$third-party,badfilter
-||facebook.com/plugins/likebox/$third-party,badfilter
-||facebook.com/plugins/page.php?$third-party,badfilter
-||facebook.com/plugins/recommendations.php?$third-party,badfilter
-||facebook.com/plugins/recommendations_bar.php?$third-party,badfilter
-||facebook.com/plugins/save.php?$third-party,badfilter
-||facebook.com/plugins/send.php?$third-party,badfilter
-||facebook.com/plugins/subscribe.php$third-party,badfilter
-||facebook.com/plugins/subscribe?$third-party,badfilter
-||facebook.com/restserver.php?*.getStats&$third-party,badfilter
-||facebook.com/whitepages/wpminiprofile.php$third-party,badfilter
-||facebook.com/widgets/activity.php?$third-party,badfilter
-||facebook.com/widgets/fan.php?$third-party,badfilter
-||facebook.com/widgets/recommendations.php?$third-party,badfilter
-||facebook.com^*/plugins/activity.php?$third-party,badfilter
-||facebook.com^*/plugins/facepile.php?$third-party,badfilter
-||facebook.com^*/plugins/fan.php?$third-party,badfilter
-||facebook.com^*/plugins/follow.php?$third-party,badfilter
-||facebook.com^*/plugins/follow?$third-party,badfilter
-||facebook.com^*/plugins/like.php?$third-party,badfilter
-||facebook.com^*/plugins/like_box.php?$third-party,badfilter
-||facebook.com^*/plugins/likebox/$third-party,badfilter
-||facebook.com^*/plugins/page.php?$third-party,badfilter
-||facebook.com^*/plugins/recommendations.php?$third-party,badfilter
-||facebook.com^*/plugins/recommendations_bar.php?$third-party,badfilter
-||facebook.com^*/plugins/save.php?$third-party,badfilter
-||facebook.com^*/plugins/send.php?$third-party,badfilter
-||facebook.com^*/plugins/subscribe.php$third-party,badfilter
-||facebook.com^*/plugins/subscribe?$third-party,badfilter
-||facebook.com^*/quote.php?$third-party,badfilter
-#@##button_facebook
-#@##facebook-icon
-#@##facebook_btn
-#@##facebook_button
-#@##facebook_like_button_holder
-#@##fbContainer
-#@##fb_header
-#@##likebtn
-#@##share_feed
-#@#.-facebook
-#@#.btn--facebook
-#@#.btn-facebook
-#@#.btn_facebook
-#@#.button--facebook
-#@#.fa-facebook-square
-#@#.facebook-btn
 ||vkontakte.ru/share.php?$third-party,badfilter
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru,badfilter
 ||www.facebook.com^$domain=~facebook.com,badfilter
