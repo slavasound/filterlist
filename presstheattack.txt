@@ -1086,6 +1086,13 @@ zn.ua##^script:has-text("zmctrack")
 ||platform.twitter.com/widgets/widget_iframe$badfilter
 ||platform.twitter.com^$badfilter
 ||pr-cy.ru^$badfilter
+#@#[data-link^="https://www.facebook.com/sharer.php?"]
+#@#[data-test="social-icon-facebook"]
+#@#[data-type="facebook-bottom-share"]
+#@#[onclick^="window.open('https://facebook.com/sharer/sharer.php?"]
+#@#[onclick^="window.open('https://www.facebook.com/sharer/sharer.php?"]
+#@#[uk-icon="facebook"]
+#@#a[href*="facebook.com/sharer/sharer.php?"]
 ||rambler.ru^$third-party,badfilter
 ||resize.yandex.net^$image,domain=yandex.ru,important
 ||signavatar.com^$third-party,important,badfilter
