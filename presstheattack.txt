@@ -6,17 +6,6 @@
 
 ###footer_cookie:not(html):not(body)
 #@##.icon-social-facebook
-#@#.back-to-top
-#@#.facebook-button
-#@#.facebook-container
-#@#.facebook-icon
-#@#.facebook-link
-#@#.facebook-share
-#@#.facebook-widget
-#@#.facebook.icon
-#@#.facebookBtn
-#@#.facebookLikeBox
-#@#.facebook_account
 #@##FIN_facebook_fanbox
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
@@ -213,8 +202,8 @@
 #@##share-facebook
 #@##share-facebook-menu
 #@##share-game-facebook
-#@##share_facebook
 #@##share_facebook2
+#@##share_facebook
 #@##share_facebook_trigger
 #@##share_on_facebook
 #@##side_facebook
@@ -236,6 +225,17 @@
 #@##ugf-facebook
 #@##widget-facebook
 #@##widget_facebook
+#@#.back-to-top
+#@#.facebook-button
+#@#.facebook-container
+#@#.facebook-icon
+#@#.facebook-link
+#@#.facebook-share
+#@#.facebook-widget
+#@#.facebook.icon
+#@#.facebookBtn
+#@#.facebookLikeBox
+#@#.facebook_account
 #@#.facebook_button
 #@#.facebookbutton
 #@#.fb-like
