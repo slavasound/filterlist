@@ -14,6 +14,13 @@
 #@##article-social-twitter
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
+#@#[data-link^="https://twitter.com/share?"]
+#@#[data-test="social-icon-twitter"]
+#@#[data-type="twitter-bottom-share"]
+#@#[href^="//twitter.com/share"]
+#@#[href^="//www.twitter.com/share"]
+#@#[name="Click to follow us on twitter"]
+#@#[onclick^="window.open('http://twitter.com/share?"]
 #@##as_facebook_recommend
 #@##badge-facebook-like
 #@##badge-twitter
