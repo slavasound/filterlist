@@ -5,15 +5,8 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 ###footer_cookie:not(html):not(body)
+#@##.icon-social-facebook
 #@#.back-to-top
-*$beacon
-*$font,important,badfilter
-*$inline-font,important,badfilter
-*$other
--ads-$badfilter
-/counters^$badfilter
--ads-$document,badfilter
--ads.$badfilter
 #@#.facebook-button
 #@#.facebook-container
 #@#.facebook-icon
@@ -40,7 +33,6 @@
 #@#.ico-facebook
 #@#.icon-facebook
 #@#.icon-facebook2
-#@##.icon-social-facebook
 #@#.likeButton
 #@#.mod-facebook
 #@#.post-fb-like
@@ -61,10 +53,35 @@
 #@#a[href^="https://facebook.com/sharer.php?"]
 #@#a[href^="https://www.facebook.com/dialog/feed?"]
 #@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#a[rel="share-on-facebook"]
+#@#a[title="Follow on facebook"]
+#@#a[title="Seguici su facebook"]
 #@#a[title="facebook"]
+#@#a[title="facebook"]
+#@#a[title^="Share this page on facebook"]
+#@#a[title^="Share via facebook"]
+#@#a[title^="follow us on facebook"]
+#@#button[onclick^="Javascript:void(window.open('http://www.facebook.com/sharer.php?"]
+#@#button[onclick^="window.open('https://www.facebook.com/dialog/share?"]
+#@#iframe[src^="http://www.facebook.com/plugins/activity.php?"]
+#@#iframe[src^="http://www.facebook.com/plugins/likebox.php?"]
+#@#iframe[src^="http://www.facebook.com/plugins/recommendations.php?"]
+#@#img[alt="Connect to us with facebook"]
 #@#img[alt="Facebook"]
+#@#img[alt="Fan us on facebook"]
 #@#img[alt="Pinterest"]
 #@#img[alt="facebook"]
+#@#img[alt="facebook"]
+#@#img[alt="facebook-box"]
+#@#img[alt="follow on facebook"]
+#@#img[alt="link to facebook"]
+*$beacon
+*$font,important,badfilter
+*$inline-font,important,badfilter
+*$other
+-ads-$badfilter
+-ads-$document,badfilter
+-ads.$badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
 -ads_$document,badfilter
@@ -74,13 +91,14 @@
 .ads.$document,badfilter
 .ads^$document,badfilter
 .ads_$document,badfilter
+.analytics.$badfilter
 .mail.ru$important,third-party,script,badfilter
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
 /^https?:\/\/strm\.yandex\.ru\/log/$important
-^rum-$third-party,badfilter
 /cookie-law-$stylesheet,badfilter
 /cookieconsent.$badfilter
 /cookieconsent.$script,badfilter
+/counters^$badfilter
 /img/banner/*$badfilter
 /jsredir?$document,badfilter
 /libs/cookieconsent2/*$badfilter
@@ -102,6 +120,7 @@
 ^logimpressions^$badfilter
 ^popup^$popup,badfilter
 ^promo_$badfilter
+^rum-$third-party,badfilter
 _ads-$document,badfilter
 _ads.$document,badfilter
 _ads^$document,badfilter
@@ -246,11 +265,12 @@ zn.ua##^script:has-text("zmctrack")
 ||facebook.com/plugins/like.php$important,badfilter
 ||facebook.com^*/plugins/page.php?$third-party,badfilter
 ||google.*/ads$important,badfilter
+||gravatar.com^$important,third-party,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||mradx.net^$badfilter
+||news.yandex.*^$first-party,important,script
 ||onesignal.com^$badfilter
 ||platform.tumblr.com^$third-party,badfilter
-||news.yandex.*^$first-party,important,script
 ||platform.twitter.com/js/button.$badfilter
 ||platform.twitter.com/widgets.js$badfilter
 ||platform.twitter.com/widgets/widget_iframe$badfilter
@@ -258,15 +278,11 @@ zn.ua##^script:has-text("zmctrack")
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
 ||resize.yandex.net^$image,domain=yandex.ru,important
+||signavatar.com^$third-party,important,badfilter
 ||tumblr.com^$important,third-party,domain=~media.tumblr.com,badfilter
 ||twimg.com^$important,third-party,domain=~twitter.com|~moz-extension-scheme|~about-scheme|~behind-the-scene,badfilter
 ||twitter.com^$important,third-party,badfilter
 ||uptolike.com^$badfilter
-.analytics.$badfilter
-||gravatar.com^$important,third-party,badfilter
-||signavatar.com^$third-party,important,badfilter
-||zencdn.net^$important,badfilter
-||zencdn.net^$badfilter
 ||vk.com/share.php?$third-party,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
@@ -281,3 +297,5 @@ zn.ua##^script:has-text("zmctrack")
 ||yimg.*/lib/*/cs_$script,badfilter
 ||yimg.com/cv/$badfilter
 ||yimg.com/rq/$badfilter
+||zencdn.net^$badfilter
+||zencdn.net^$important,badfilter
