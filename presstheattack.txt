@@ -2558,6 +2558,14 @@
 /share/twitter_$badfilter
 /share_twitter.$badfilter
 /share_twitter_$badfilter
+-twitter-btn.$badfilter
+-twitter-icon-$badfilter
+-twitter-icon.$badfilter
+-twitter-rnd.$badfilter
+-twitter-social.$badfilter
+-twitter-white-$badfilter
+-twitter.js$badfilter
+-twitter.svg$badfilter
 /twitter-85.$badfilter
 /twitter-Custom.$badfilter
 /twitter-after-$badfilter
