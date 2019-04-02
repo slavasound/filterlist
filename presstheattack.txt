@@ -25,7 +25,6 @@
 #@##block-boxes-facebookrecentactivity
 #@##block-bulletin-facebook-activity-feed
 #@##block-custom_blocks-facebook_twitter_widgets
-#@##block-custom_blocks-facebook_twitter_widgets
 #@##block-ex_article-article_facebook_block
 #@##block-ex_article-homepage_facebook_block
 #@##block-rww_twitter-on_twitter
@@ -88,10 +87,7 @@
 #@##facebook-share-bot
 #@##facebook-slider
 #@##facebook-twitter-block
-#@##facebook-twitter-block
 #@##facebook-twitter-block-bottom
-#@##facebook-twitter-block-bottom
-#@##facebook-twitter-page-top
 #@##facebook-twitter-page-top
 #@##facebook-userbar
 #@##facebook-wdgt
@@ -326,7 +322,6 @@
 #@##twitter-button
 #@##twitter-button-content
 #@##twitter-entry
-#@##twitter-facebook-widgets
 #@##twitter-facebook-widgets
 #@##twitter-feed
 #@##twitter-follow
@@ -639,10 +634,7 @@
 #@#.facebook-top
 #@#.facebook-top-button
 #@#.facebook-twitter
-#@#.facebook-twitter
 #@#.facebook-twitter-share
-#@#.facebook-twitter-share
-#@#.facebook-twitter-wrap
 #@#.facebook-twitter-wrap
 #@#.facebook-widget
 #@#.facebook.box
@@ -1165,7 +1157,6 @@
 #@#.share-button--twitter
 #@#.share-facebook
 #@#.share-facebook-like
-#@#.share-facebook-twitter
 #@#.share-facebook-twitter
 #@#.share-kit__facebook
 #@#.share-kit__twitter
@@ -2232,7 +2223,6 @@
 /twitter.gif$badfilter
 /twitter.jpg$badfilter
 /twitter.svg$badfilter
-/twitter/facebook_$badfilter
 /twitter/facebook_$badfilter
 /twitter/lookup?$badfilter
 /twitter/twitter_$badfilter
