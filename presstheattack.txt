@@ -2930,6 +2930,16 @@ zn.ua##^script:has-text("zmctrack")
 #@##vk_groupsVK
 #@##vk_groups_ls
 #@##vk_groups_new
+#@##app_container_outer + div[style]
+#@##cookies_policy_wrap
+#@##public_market
+#@##pv_hh
+#@##vk_subscribe
+#@#.feed_friends_recomm
+#@#.vk-share
+#@#a[href^="//vk.com/share.php?"]
+#@#a[href^="https://vk.com/share.php?"]
+#@#a[onclick^="window.open('http"][onclick*="://vk.com/share.php?"]
 #@##vk_invite_wrapper
 #@##vk_recommended
 #@##vk_right
