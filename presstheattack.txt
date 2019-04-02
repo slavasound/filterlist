@@ -2619,6 +2619,17 @@ _twitter_24.$badfilter
 #@#.twitter-feed
 #@#.twitter-follow-button
 #@#.twitter-icon
+||platform.twitter.com*/widget/$third-party,badfilter
+||platform.twitter.com*/widgets/$third-party,badfilter
+||platform.twitter.com/anywhere.js$third-party,badfilter
+||platform.twitter.com/embed/$~stylesheet,third-party,badfilter
+||platform.twitter.com/js/button.$third-party,badfilter
+||twitter.com/*statuses/user_timeline/$third-party,badfilter
+||twitter.com/account/$third-party,badfilter
+||twitter.com/javascripts/$third-party,badfilter
+||twitter.com/js/timeline.$script,third-party,badfilter
+||twitter.com/widgets.js$domain=hdrezka.tv,badfilter
+#@#.tw-icon
 #@#.twitter-image
 #@#.twitter-link
 #@#.twitter-share
