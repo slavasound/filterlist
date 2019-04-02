@@ -329,12 +329,10 @@
 #@#.facebook-broadcasting-widget
 #@#.facebook-btn
 #@#.facebook-button
-#@#.facebook-button
 #@#.facebook-button-colorbox
 #@#.facebook-button-link
 #@#.facebook-circle
 #@#.facebook-connect-dialog
-#@#.facebook-container
 #@#.facebook-container
 #@#.facebook-count
 #@#.facebook-count-single
@@ -352,7 +350,6 @@
 #@#.facebook-hover
 #@#.facebook-hover-horizontal
 #@#.facebook-icon
-#@#.facebook-icon
 #@#.facebook-icon-small
 #@#.facebook-image
 #@#.facebook-inner
@@ -366,7 +363,6 @@
 #@#.facebook-like-static
 #@#.facebook-likebox
 #@#.facebook-likebox-promo
-#@#.facebook-link
 #@#.facebook-link
 #@#.facebook-menu
 #@#.facebook-messenger-avatar
@@ -382,7 +378,6 @@
 #@#.facebook-right-rail
 #@#.facebook-row
 #@#.facebook-section
-#@#.facebook-share
 #@#.facebook-share
 #@#.facebook-share-bottom
 #@#.facebook-share-btn
@@ -403,14 +398,11 @@
 #@#.facebook-twitter-share
 #@#.facebook-twitter-wrap
 #@#.facebook-widget
-#@#.facebook-widget
 #@#.facebook.box
-#@#.facebook.icon
 #@#.facebook.icon
 #@#.facebookActivity
 #@#.facebookBloc_png
 #@#.facebookBox
-#@#.facebookBtn
 #@#.facebookBtn
 #@#.facebookButtonDiv
 #@#.facebookConnect
@@ -427,7 +419,6 @@
 #@#.facebookImage
 #@#.facebookItem
 #@#.facebookLike
-#@#.facebookLikeBox
 #@#.facebookLikeBox
 #@#.facebookLikeBoxSmall
 #@#.facebookLikeboxContentContainer
@@ -453,14 +444,12 @@
 #@#.facebookWrapperModule
 #@#.facebook_24
 #@#.facebook_account
-#@#.facebook_account
 #@#.facebook_activity
 #@#.facebook_badge
 #@#.facebook_block
 #@#.facebook_box
 #@#.facebook_box_sidebar
 #@#.facebook_btn
-#@#.facebook_button
 #@#.facebook_button
 #@#.facebook_button_bg
 #@#.facebook_cont
@@ -493,7 +482,6 @@
 #@#.facebook_widget
 #@#.facebookactivity
 #@#.facebookbox
-#@#.facebookbutton
 #@#.facebookbutton
 #@#.facebookcommon
 #@#.facebookcss
@@ -581,7 +569,6 @@
 #@#.icn_facebook
 #@#.icn_follow_facebook
 #@#.ico-facebook
-#@#.ico-facebook
 #@#.ico-facebook-1
 #@#.ico-facebook-circle
 #@#.ico__facebook
@@ -594,8 +581,6 @@
 #@#.icon--facebook__white
 #@#.icon-circle-facebook
 #@#.icon-facebook2
-#@#.icon-facebook2
-#@#.icon-facebook
 #@#.icon-facebook
 #@#.icon-facebook16
 #@#.icon-facebook-24
@@ -681,7 +666,6 @@
 #@#.mh_magazine_facebook_page
 #@#.mobile-facebook
 #@#.mod-facebook
-#@#.mod-facebook
 #@#.mod-facebook-fanbox
 #@#.mod_facebook
 #@#.moduletable_facebook
@@ -733,7 +717,6 @@
 #@#.share--facebook
 #@#.share-button--facebook
 #@#.share-facebook
-#@#.share-facebook
 #@#.share-facebook-like
 #@#.share-facebook-twitter
 #@#.share-kit__facebook
@@ -769,7 +752,6 @@
 #@#.social-buttons-global__facebook
 #@#.social-circles-facebook
 #@#.social-facebook
-#@#.social-facebook
 #@#.social-facebook-friendpile
 #@#.social-facebook-link
 #@#.social-facebook-slider
@@ -784,9 +766,7 @@
 #@#.social-share-facebook
 #@#.social-share__listitem--facebook
 #@#.social__facebook
-#@#.social__facebook
 #@#.social__facebook_wrap
-#@#.social_facebook
 #@#.social_facebook
 #@#.socialbutton--facebook
 #@#.socialize-icon--facebook
@@ -796,7 +776,6 @@
 #@#.sprite-facebook15x15
 #@#.sprite-facebook25x25
 #@#.sprite-facebook
-#@#.sprite-facebook
 #@#.sprite-share-facebook
 #@#.sprite-social-facebook
 #@#.sprite_condividi_facebook_button
@@ -805,7 +784,6 @@
 #@#.ss-facebook
 #@#.sscb-facebook
 #@#.sshare-facebook
-#@#.ssk-facebook
 #@#.ssk-facebook
 #@#.st_facebook_custom
 #@#.st_facebook_hcount
@@ -866,7 +844,6 @@
 #@#.wl-ico-facebook
 #@#.wpzoom-facebook-3
 #@#.wx-social-share-story-facebook
-#@#.x-facebook
 #@#.x-facebook
 #@#.x-social-facebook
 #@#.ymsb-facebook-module
