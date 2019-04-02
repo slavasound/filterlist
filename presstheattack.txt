@@ -47,16 +47,22 @@
 #@#.x-facebook
 #@#a[href*="facebook.com/sharer/sharer.php?"]
 #@#a[href^="http://facebook.com/sharer.php?"]
+#@#a[href^="http://www.facebook.com/dialog/feed?"]
 #@#a[href^="http://www.facebook.com/share.php"]
 #@#a[href^="http://www.facebook.com/sharer.php"]
 #@#a[href^="http://www.facebook.com/sharer/sharer.php"]
+#@#a[href^="https://facebook.com/dialog/share?"]
+#@#a[href^="https://facebook.com/share.php?u="]
 #@#a[href^="https://facebook.com/sharer.php?"]
 #@#a[href^="https://www.facebook.com/dialog/feed?"]
+#@#a[href^="https://www.facebook.com/dialog/share?"]
+#@#a[href^="https://www.facebook.com/share.php?"]
+#@#a[href^="https://www.facebook.com/sharer.php?"]
 #@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#a[onclick^="window.open('http://www.facebook.com/sharer.php?"]
 #@#a[rel="share-on-facebook"]
 #@#a[title="Follow on facebook"]
 #@#a[title="Seguici su facebook"]
-#@#a[title="facebook"]
 #@#a[title="facebook"]
 #@#a[title^="Share this page on facebook"]
 #@#a[title^="Share via facebook"]
@@ -71,7 +77,6 @@
 #@#img[alt="Fan us on facebook"]
 #@#img[alt="Pinterest"]
 #@#img[alt="facebook"]
-#@#img[alt="facebook"]
 #@#img[alt="facebook-box"]
 #@#img[alt="follow on facebook"]
 #@#img[alt="link to facebook"]
@@ -82,20 +87,6 @@
 -ads-$badfilter
 -ads-$document,badfilter
 -ads.$badfilter
-#@#a[href^="http://facebook.com/sharer.php?"]
-#@#a[href^="http://www.facebook.com/dialog/feed?"]
-#@#a[href^="http://www.facebook.com/share.php"]
-#@#a[href^="http://www.facebook.com/sharer.php"]
-#@#a[href^="http://www.facebook.com/sharer/sharer.php"]
-#@#a[href^="https://facebook.com/dialog/share?"]
-#@#a[href^="https://facebook.com/share.php?u="]
-#@#a[href^="https://facebook.com/sharer.php?"]
-#@#a[href^="https://www.facebook.com/dialog/feed?"]
-#@#a[href^="https://www.facebook.com/dialog/share?"]
-#@#a[href^="https://www.facebook.com/share.php?"]
-#@#a[href^="https://www.facebook.com/sharer.php?"]
-#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
-#@#a[onclick^="window.open('http://www.facebook.com/sharer.php?"]
 -ads.$document,badfilter
 -ads^$document,badfilter
 -ads_$document,badfilter
@@ -198,6 +189,7 @@ tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv##.player-alert
 twitch.tv##.prime-offers__pill
 twitch.tv##.tw-button--full-width.tw-button--dropmenu.tw-button.tw-interactive
+twitch.tv##.tw-interactive.tw-button--text.tw-button--overlay.tw-button
 twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
 twitch.tv##.tw-pd-t-05.tw-flex-wrap.tw-flex > div
 twitch.tv##.tw-relative.chat-rules
@@ -216,7 +208,6 @@ twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative > div.side-nav.tw-flex-shrink-0.tw-full-height.tw-relative > div.tw-flex-shrink-0.tw-full-height.tw-full-width.tw-root--hover.tw-root--theme-dark > div.side-nav__theme-wrapper.tw-border-r.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height.tw-full-width.tw-relative > div.side-nav__overlay-wrapper.tw-flex.tw-flex-nowrap.tw-full-height.tw-full-width.tw-overflow-hidden.tw-relative > div.tw-flex-grow-1.tw-full-width.tw-overflow-hidden.scrollable-area.scrollable-area--suppress-scroll-x > div.simplebar-scroll-content > div.simplebar-content > div > div.tw-flex-grow-1.tw-full-width > div.recommended-channels
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex > a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__prime.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.prime-offers.tw-relative > div.tw-relative > div > div.tw-inline-flex.tw-tooltip-wrapper > div
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-l-05.tw-mg-r-1 > div.tw-relative > div > button.tw-button.tw-button--overlay.tw-button--text.tw-interactive
 vk.com##div#ads_left
 www.kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
 www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
