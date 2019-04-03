@@ -4579,6 +4579,17 @@ infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
 kinopoisk.ru##.adfox.adfox_theme_default
 kinopoisk.ru##a[href*="//zen.yandex.ru/"]
+||freebitco.in^$badfilter
+||static1.freebitco.in^$badfilter
+||static2.freebitco.in^$badfilter
+||static3.freebitco.in^$badfilter
+||static4.freebitco.in^$badfilter
+||static5.freebitco.in^$badfilter
+||static6.freebitco.in^$badfilter
+||static7.freebitco.in^$badfilter
+||static8.freebitco.in^$badfilter
+||captchas.freebitco.in^$badfilter
+||fbtc-audio.freebitco.in^$badfilter
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV > a[href="https://yandex.ru/support/common/troubleshooting/yandex-in-adblock.html"]
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV[class*="adblock-warning"]
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="toaster"] > DIV[class*="adblock-warning"]
