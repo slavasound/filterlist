@@ -9,6 +9,9 @@
 #@##FIN_facebook_fanbox
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
+/tw_icon.$badfilter
+/img/*rss.png$badfilter
+||nsimg.net^$badfilter
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
 #@##article-social-facebook
