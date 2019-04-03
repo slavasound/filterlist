@@ -4794,6 +4794,10 @@ _rss_mobile.$badfilter
 _rss_small.$badfilter
 _rss_square.$badfilter
 _rssbig.$badfilter
+_twitter_icon.$badfilter
+_twittericon.$badfilter
+_xmlrss.$badfilter
+_youtube_icon.$badfilter
 _rssfeed_$badfilter
 _rssicon.$badfilter
 _rssicon.$badfilter
