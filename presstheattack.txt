@@ -20,6 +20,10 @@
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
 #@##badge-facebook-like
+||apis.google.com/js/platform.js$third-party,badfilter
+/share-bar/*$badfilter
+/images/social/*$badfilter
+/icons/social-$badfilter
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
