@@ -4577,7 +4577,6 @@ infourok.ru##+js(abort-on-property-read.js, document.onselectstart)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-kinopoisk.ru##+js(addEventListener-defuser.js, click)
 kinopoisk.ru##.adfox.adfox_theme_default
 kinopoisk.ru##a[href*="//zen.yandex.ru/"]
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV > a[href="https://yandex.ru/support/common/troubleshooting/yandex-in-adblock.html"]
