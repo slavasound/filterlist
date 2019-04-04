@@ -21,6 +21,10 @@
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 /social_share_$badfilter
 ||thepiratebay.org^$badfilter
+/back-to-top.$badfilter
+/back-to-top-$badfilter
+/social/share_$badfilter
+/img/social/*$image,badfilter
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
