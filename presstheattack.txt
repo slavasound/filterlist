@@ -5,7 +5,7 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 ###footer_cookie:not(html):not(body)
-#@##.icon-social-facebook
+#@#.icon-social-facebook
 #@##FIN_facebook_fanbox
 #@##acx-social-icons-widget-2
 #@##adbl-social-icons
@@ -4786,7 +4786,7 @@ zn.ua##^script:has-text("zmctrack")
 ||vk.com/share.php?$third-party,badfilter
 ||vk.com/widget_comments.php?$third-party,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
-||vk.com/widget_community_messages.php$domain=,badfilter
+||vk.com/widget_community_messages.php$domain=$badfilter
 ||vk.com/widget_community_messages.php?$third-party,badfilter
 ||vk.com/widget_groups.php?$third-party,badfilter
 ||vk.com/widget_like.php$third-party,badfilter
