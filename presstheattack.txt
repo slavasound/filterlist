@@ -1,4 +1,4 @@
-![Adblock Plus 3.1]
+﻿![Adblock Plus 3.1]
 ! Title: Press the Attack - Personal
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
@@ -9,6 +9,12 @@
 #@##FIN_facebook_fanbox
 #@##acx-social-icons-widget-2
 #@##adbl-social-icons
+/images/linkedin$badfilter
+||gelbooru.com^$badfilter
+/share42/*$badfilter
+/share42.js$badfilter
+/share2/*$script,badfilter
+/share2/*$subdocument,badfilter
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
 #@##article-detail-social-icons
