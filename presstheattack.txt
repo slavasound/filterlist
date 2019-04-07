@@ -19,6 +19,15 @@
 /social_buttons/*$badfilter
 #@##article-social-facebook
 #@##article-social-twitter
+translate.ru##.topAdv.row
+||syndication.twimg.com/widgets/$third-party,badfilter
+/share/js/*$badfilter
+/sharedaddy/*$script,badfilter
+||typekit.net^$badfilter
+||consent.truste.com^$badfilter
+/images/*/social_$badfilter
+/social-twit.$badfilter
+/social-fb.$badfilter
 /push-notifications/*$badfilter
 -social-share/$badfilter
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
