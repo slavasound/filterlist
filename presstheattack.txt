@@ -19,6 +19,9 @@
 #@##app_container_outer + div[style]
 #@##article-detail-social-icons
 #@##article-headline-facebook
+/sharethis.js$badfilter
+||google.*/cse/brand?form=$badfilter
+||sharethis.com^$third-party,badfilter
 #@##article-sidebar-action-facebook
 /wp-content/*twitter.png$badfilter
 /google_plus.png$badfilter
