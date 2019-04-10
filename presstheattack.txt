@@ -11,6 +11,13 @@
 #@##adbl-social-icons
 /images/linkedin$badfilter
 ||gelbooru.com^$badfilter
+||google.com^*/fastbutton?$third-party,badfilter
+||hentaihaven.org^$badfilter
+||statcounter.com^$important,badfilter
+||statcounter.com^$badfilter
+||www.statcounter.com^$badfilter
+fonts.googleapis.com^$important,domain=~google,badfilter
+twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--text.tw-core-button--padded.tw-core-button--overlay.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 /share42/*$badfilter
 /share42.js$badfilter
 /share2/*$script,badfilter
