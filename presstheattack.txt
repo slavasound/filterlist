@@ -13,6 +13,10 @@
 #@##article-detail-social-icons
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
+/image/share_$badfilter
+||zergnet.com^$badfilter
+/images/share.$badfilter
+||app.hubspot.com^$badfilter
 #@##article-social-facebook
 #@##article-social-twitter
 #@##article_twitter
