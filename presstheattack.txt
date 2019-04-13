@@ -21,6 +21,12 @@
 #@##article-social-twitter
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
+twitch.tv##.tw-z-default.pinned-cheer-v2
+twitch.tv##.recommended-channels
+twitch.tv##.tw-animation--timing-ease.tw-animation--slide-in-top.tw-animation--fill-mode-both.tw-animation--duration-medium.tw-animation--delay-medium.tw-animation--animate.tw-animation
+twitch.tv##:xpath(//div[@class='tw-mg-x-1'])
+twitch.tv##.channel-panels
+twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowrap.tw-flex-column-reverse.tw-flex
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
