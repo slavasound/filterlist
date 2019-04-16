@@ -20,6 +20,11 @@
 #@##article-social-facebook
 #@##article-social-twitter
 #@##article_twitter
+|http://ad.$badfilter
+||apis.google.com/js/plusone.js$third-party,badfilter
+||facebook.com/plugins/like$third-party,domain=~fb.com,badfilter
+||facebook.com/plugins/like$third-party,badfilter
+||apis.google.com/js/plusone.js^$third-party,badfilter
 #@##as_facebook_mem_likebox_widgets
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##.recommended-channels
@@ -3070,7 +3075,6 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 *$beacon
 *$font,important,badfilter
 *$inline-font,important,badfilter
-*$other
 -ads-$badfilter
 -ads-$document,badfilter
 -ads.$badfilter
