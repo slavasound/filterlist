@@ -13,25 +13,10 @@
 #@##article-detail-social-icons
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
-/image/share_$badfilter
-||zergnet.com^$badfilter
-/images/share.$badfilter
-||app.hubspot.com^$badfilter
 #@##article-social-facebook
 #@##article-social-twitter
 #@##article_twitter
-|http://ad.$badfilter
-||apis.google.com/js/plusone.js$third-party,badfilter
-||facebook.com/plugins/like$third-party,domain=~fb.com,badfilter
-||facebook.com/plugins/like$third-party,badfilter
-||apis.google.com/js/plusone.js^$third-party,badfilter
 #@##as_facebook_mem_likebox_widgets
-twitch.tv##.tw-z-default.pinned-cheer-v2
-twitch.tv##.recommended-channels
-twitch.tv##.tw-animation--timing-ease.tw-animation--slide-in-top.tw-animation--fill-mode-both.tw-animation--duration-medium.tw-animation--delay-medium.tw-animation--animate.tw-animation
-twitch.tv##:xpath(//div[@class='tw-mg-x-1'])
-twitch.tv##.channel-panels
-twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowrap.tw-flex-column-reverse.tw-flex
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
@@ -410,8 +395,8 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@##share-twitter
 #@##share-twitter-menu
 #@##share-youtube
-#@##share_facebook
 #@##share_facebook2
+#@##share_facebook
 #@##share_facebook_trigger
 #@##share_feed
 #@##share_icon
@@ -458,8 +443,8 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@##social-media-icons-container
 #@##social-networking-icons-round
 #@##social-rss
-#@##social-twitter32x32
 #@##social-twitter
+#@##social-twitter32x32
 #@##social-youtube
 #@##socialMedia-facebook
 #@##socialMedia-twitter
@@ -889,9 +874,9 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.fa-rss-square
 #@#.fa-twitter-square
 #@#.fa-youtube-square
+#@#.facebook
 #@#.facebook2
 #@#.facebook28Ico
-#@#.facebook
 #@#.facebook-24x24
 #@#.facebook--like
 #@#.facebook-activity
@@ -1128,9 +1113,9 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.fixed-header__nav__social__icon
 #@#.fixed-soc-icon
 #@#.flare-button-icon
+#@#.flaticon-facebook3
 #@#.flaticon-facebook
 #@#.flaticon-facebook2
-#@#.flaticon-facebook3
 #@#.flaticon-linkedin1
 #@#.flickr_icon
 #@#.floating-facebook
@@ -1372,11 +1357,11 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.ico__youtube
 #@#.ico_facebook
 #@#.ico_twitter
-#@#.icomoon-facebook
 #@#.icomoon-facebook2
+#@#.icomoon-facebook
 #@#.icomoon-instagram
-#@#.icomoon-twitter
 #@#.icomoon-twitter2
+#@#.icomoon-twitter
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -1418,9 +1403,9 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
-#@#.icon-facebook16
-#@#.icon-facebook
 #@#.icon-facebook2
+#@#.icon-facebook
+#@#.icon-facebook16
 #@#.icon-facebook-24
 #@#.icon-facebook-32
 #@#.icon-facebook-alt
@@ -1470,9 +1455,9 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
-#@#.icon-googleplus16
-#@#.icon-googleplus8
 #@#.icon-googleplus
+#@#.icon-googleplus8
+#@#.icon-googleplus16
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -1503,8 +1488,8 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-instagramm
 #@#.icon-ion-android-share-alt
 #@#.icon-link--share
-#@#.icon-linkedin2
 #@#.icon-linkedin
+#@#.icon-linkedin2
 #@#.icon-linkedin-box
 #@#.icon-linkedin-circled
 #@#.icon-linkedin-sign
@@ -1526,9 +1511,9 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
-#@#.icon-pinterest16
-#@#.icon-pinterest
 #@#.icon-pinterest3
+#@#.icon-pinterest
+#@#.icon-pinterest16
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -1546,8 +1531,8 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-pocket
 #@#.icon-polyvore
 #@#.icon-post-share
-#@#.icon-reddit
 #@#.icon-reddit2
+#@#.icon-reddit
 #@#.icon-rss
 #@#.icon-rss-mini
 #@#.icon-rss-round
@@ -1561,8 +1546,8 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share
 #@#.icon-share2
+#@#.icon-share
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -1614,10 +1599,10 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
-#@#.icon-twitter2
-#@#.icon-twitter
 #@#.icon-twitter3
 #@#.icon-twitter16
+#@#.icon-twitter
+#@#.icon-twitter2
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -3810,6 +3795,7 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 /icorss.$badfilter
 /icotwitter.$badfilter
 /ig_icon.$badfilter
+/image/share_$badfilter
 /imagen_rss_$badfilter
 /images2/*twitter.png$badfilter
 /images/*/social_$badfilter
@@ -3830,6 +3816,7 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 /images/linkedin$badfilter
 /images/rss-$badfilter
 /images/rss_$badfilter
+/images/share.$badfilter
 /images/social/*$badfilter
 /images/twitter$badfilter
 /images/vk-$badfilter
@@ -3937,6 +3924,8 @@ twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowra
 /nmt_twitter_$badfilter
 /nmt_youtube_$badfilter
 /odnoklassniki_icon_$badfilter
+/particles.js$badfilter
+/particles.min.js$badfilter
 /pics/*facebook.png$badfilter
 /pics/*twitter.png$badfilter
 /picto-rss-$badfilter
@@ -4640,14 +4629,20 @@ translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
+twitch.tv##.channel-panels
 twitch.tv##.player-alert
 twitch.tv##.prime-offers__pill
+twitch.tv##.recommended-channels
+twitch.tv##.tw-animation--timing-ease.tw-animation--slide-in-top.tw-animation--fill-mode-both.tw-animation--duration-medium.tw-animation--delay-medium.tw-animation--animate.tw-animation
 twitch.tv##.tw-button--full-width.tw-button--dropmenu.tw-button.tw-interactive
 twitch.tv##.tw-interactive.tw-button--text.tw-button--overlay.tw-button
 twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
+twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowrap.tw-flex-column-reverse.tw-flex
 twitch.tv##.tw-pd-t-05.tw-flex-wrap.tw-flex > div
 twitch.tv##.tw-relative.chat-rules
 twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--text.tw-core-button--padded.tw-core-button--overlay.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
+twitch.tv##.tw-z-default.pinned-cheer-v2
+twitch.tv##:xpath(//div[@class='tw-mg-x-1'])
 twitch.tv##[data-a-target="bits-button"]
 twitch.tv##[data-a-target="get-bits-button"]
 twitch.tv##[data-a-target="prime-offers-icon"]
@@ -4713,11 +4708,16 @@ youtube.com##dom-module#ytd-video-masthead-ad-renderer
 youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 zn.ua###myModal
 zn.ua##^script:has-text("zmctrack")
+|http://ad.$badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
 ||8ch.net^$badfilter
 ||apis.google.com/js/platform.js$third-party,badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
+||apis.google.com/js/plusone.js$third-party,badfilter
+||apis.google.com/js/plusone.js^$third-party,badfilter
+||app.hubspot.com^$badfilter
 ||blogsmithmedia.com^*facebook$image,badfilter
+||bugsnag.com^$badfilter
 ||captchas.freebitco.in^$badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||cloudfront.net/*/facebook.png$badfilter
@@ -4735,6 +4735,8 @@ zn.ua##^script:has-text("zmctrack")
 ||facebook.com/plugins/fan.php?$third-party,badfilter
 ||facebook.com/plugins/follow.php$third-party,badfilter
 ||facebook.com/plugins/follow?$third-party,badfilter
+||facebook.com/plugins/like$third-party,badfilter
+||facebook.com/plugins/like$third-party,domain=~fb.com,badfilter
 ||facebook.com/plugins/like.php$important,badfilter
 ||facebook.com/plugins/like_box.php$third-party,badfilter
 ||facebook.com/plugins/likebox/$third-party,badfilter
@@ -4820,6 +4822,7 @@ zn.ua##^script:has-text("zmctrack")
 ||twitter.com^$important,third-party,badfilter
 ||typekit.net^$badfilter
 ||uptolike.com^$badfilter
+||vifog.com^$badfilter
 ||vk.com/images/$third-party,badfilter
 ||vk.com/js/api/$domain=anistar.ru,badfilter
 ||vk.com/share.php?$third-party,badfilter
@@ -4856,3 +4859,4 @@ zn.ua##^script:has-text("zmctrack")
 ||yimg.com/rq/$badfilter
 ||zencdn.net^$badfilter
 ||zencdn.net^$important,badfilter
+||zergnet.com^$badfilter
