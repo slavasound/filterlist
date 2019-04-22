@@ -4435,7 +4435,6 @@
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
 @@_dfp_$script,domain=kinopoisk.ru
 @@||ajax.cloudflare.com^
-@@||githubapp.com^
 @@||pladform.ru^$badfilter
 @@||vkontakte.ru/js/api/openapi.js^$script
 ^ads-$document,badfilter
@@ -4452,6 +4451,8 @@
 _40x40_twitter.$badfilter
 _40x40_youtube.$badfilter
 _ads-$document,badfilter
+kinogo.by##.social_buttons
+twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 _ads.$document,badfilter
 _ads^$document,badfilter
 _ads_$document,badfilter
