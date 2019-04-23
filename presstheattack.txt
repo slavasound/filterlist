@@ -26,6 +26,16 @@
 #@##base64-share-twitter
 #@##base64-share-vk
 #@##blgtwitter
+||openload.co^$badfilter
+english-films.com##:xpath(//li[@data-target='tabs_pay'][contains(.,'English-Films плеер')])
+english-films.com##:xpath(//div[@class='block-content'][contains(.,'Онлайн чат')])
+english-films.com##.div:has-text:has-text(Подборки фильмов)
+english-films.com##div.block.blueBlock:has-text(Подборки фильмов)
+english-films.com##div.block.blueBlock:has-text(Изучаем английский)
+english-films.com##div.saladBlock:has-text(Курс: "Заговори на английском за 2 месяца!")
+english-films.com##div.saladBlock:has-text(Вопросы по работе сайта)
+english-films.com##.width > .siteEnter
+english-films.com##.mainNav
 #@##block-boxes-facebook
 #@##block-boxes-facebookrecentactivity
 #@##block-bulletin-facebook-activity-feed
