@@ -20,7 +20,7 @@
 ||metrica.yandex.ru^$badfilter
 ^promo-$badfilter
 -adv^$badfilter
-^surveys^$third-party,domain=~metrika.yandex.ru
+^surveys^$third-party,domain=~metrika.yandex.ru|~metrica.yandex.com
 ^analytics-$badfilter
 ^analytics_$badfilter
 _analytics.$badfilter
@@ -3293,13 +3293,13 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 .advertising^$badfilter
 ^advertising^$badfilter
 ||yandex.ru/metrika/$badfilter
-||yandex.ru/metrika/$domain=~metrika.yandex.ru
+||yandex.ru/metrika/$domain=~metrika.yandex.ru|~metrica.yandex.com
 /back-to-top-$badfilter
 /back-to-top.$badfilter
 /badge_twitter.$badfilter
 /base/rss-$badfilter
 ||webvisor.com^$badfilter
-||webvisor.com^$domain=~metrika.yandex.ru|~webvisor.com
+||webvisor.com^$domain=~metrika.yandex.ru|~metrica.yandex.com|~webvisor.com
 /bg_rss_$badfilter
 /big-facebook.$badfilter
 /big-twitter.$badfilter
