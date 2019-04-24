@@ -1596,6 +1596,7 @@ www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-colum
 #@#.icon-social-tumblr
 #@#.icon-social-twitter
 #@#.icon-social-twitter-circle
+mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 #@#.icon-social-youtube
 #@#.icon-social__link
 #@#.icon-social_facebook_bl
