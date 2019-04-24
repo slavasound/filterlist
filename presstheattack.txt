@@ -20,6 +20,7 @@
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
+vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
@@ -4639,7 +4640,6 @@ translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
-twitch.tv##.channel-panels
 twitch.tv##.player-alert
 twitch.tv##.prime-offers__pill
 twitch.tv##.recommended-channels
