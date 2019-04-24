@@ -15,6 +15,8 @@
 ^analytics^$badfilter
 /adsense/$badfilter
 /analytics/web/*$badfilter
+^surveys^$third-party,badfilter
+^surveys^$third-party,domain=~metrika.yandex.ru
 ^analytics-$badfilter
 ^analytics_$badfilter
 _analytics.$badfilter
@@ -3279,6 +3281,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /metrika/*$badfilter
 .advertising^$badfilter
 ^advertising^$badfilter
+||yandex.ru/metrika/$badfilter
 ||yandex.ru/metrika/$domain=~metrika.yandex.ru
 /back-to-top-$badfilter
 /back-to-top.$badfilter
