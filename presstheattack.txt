@@ -14,7 +14,9 @@
 ||analytics.google.com^$third-party
 ^analytics^$badfilter
 /adsense/$badfilter
-/analytics/web/*$domain=~analytics.google.com
+/analytics/web/*$badfilter
+^analytics-$badfilter
+^analytics_$badfilter
 ^analytics.$domain=~analytics.twitter.com,badfilter
 ||google-analytics.$important,badfilter
 #@##article-detail-social-icons
