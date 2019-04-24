@@ -3287,6 +3287,8 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /back-to-top.$badfilter
 /badge_twitter.$badfilter
 /base/rss-$badfilter
+||webvisor.com^$badfilter
+||webvisor.com^$domain=~metrika.yandex.ru
 /bg_rss_$badfilter
 /big-facebook.$badfilter
 /big-twitter.$badfilter
