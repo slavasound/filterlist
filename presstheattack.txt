@@ -48,6 +48,10 @@ english-films.com##:xpath(//li[@data-target='tabs_pay'][contains(.,'English-Film
 english-films.com##:xpath(//div[@class='block-content'][contains(.,'Онлайн чат')])
 english-films.com##div.block.blueBlock:has-text(Подборки фильмов)
 english-films.com##div.block.blueBlock:has-text(Изучаем английский)
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$empty,important
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox)\.yandex\.[A-Za-z.]{2,7}/$empty,important,domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|tagmanager|analytics)\.google(apis)?\.[A-Za-z.]{2,7}/$empty,important,domain=~analytics.google.com|~tagmanager.google.com
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.[A-Za-z.]{2,7}/$empty,important
 english-films.com##div.saladBlock:has-text(Курс: "Заговори на английском за 2 месяца!")
 english-films.com##div.saladBlock:has-text(Вопросы по работе сайта)
 english-films.com##.width > .siteEnter
