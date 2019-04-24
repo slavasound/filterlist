@@ -10,6 +10,10 @@
 #@##adbl-social-icons
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
+||analytics.google.com^$badfilter
+||analytics.google.com^$third-party
+^analytics.$domain=~analytics.twitter.com,badfilter
+||google-analytics.$important,badfilter
 #@##article-detail-social-icons
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
