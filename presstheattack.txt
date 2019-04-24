@@ -4640,36 +4640,9 @@ translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
-twitch.tv##.player-alert
-twitch.tv##.prime-offers__pill
-twitch.tv##.recommended-channels
-twitch.tv##.tw-animation--timing-ease.tw-animation--slide-in-top.tw-animation--fill-mode-both.tw-animation--duration-medium.tw-animation--delay-medium.tw-animation--animate.tw-animation
-twitch.tv##.tw-button--full-width.tw-button--dropmenu.tw-button.tw-interactive
-twitch.tv##.tw-interactive.tw-button--text.tw-button--overlay.tw-button
-twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
-twitch.tv##.tw-pd-b-3.tw-mg-x-auto.tw-md-flex-row.tw-flex-shrink-1.tw-flex-nowrap.tw-flex-column-reverse.tw-flex
-twitch.tv##.tw-pd-t-05.tw-flex-wrap.tw-flex > div
-twitch.tv##.tw-relative.chat-rules
-twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
-twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--text.tw-core-button--padded.tw-core-button--overlay.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
-twitch.tv##.tw-z-default.pinned-cheer-v2
-twitch.tv##:xpath(//div[@class='tw-mg-x-1'])
-twitch.tv##[data-a-target="bits-button"]
-twitch.tv##[data-a-target="get-bits-button"]
-twitch.tv##[data-a-target="prime-offers-icon"]
-twitch.tv##[data-a-target="try-prime-link"]
-twitch.tv##a[href*="vk.com/altasutashop"] > img
-twitch.tv##button.pl-button--icon.pl-button--follow.pl-button:last-child
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.toast-manager__container.tw-align-items-center.tw-fixed.tw-flex-column.tw-justify-content-center.tw-z-above
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative > div.right-column.right-column--theatre.tw-fixed.tw-flex-shrink-0.tw-full-height.tw-right-0.tw-top-0 > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.room-selector.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-full-width.tw-relative > section.chat-room.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-shrink-1.tw-full-width > div.chat-room__content.tw-c-text-base.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-relative > div.tw-border-radius-medium.tw-c-background-base.tw-elevation-3.tw-mg-b-1.tw-mg-x-2.tw-pd-1.tw-relative
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative > div.right-column.tw-flex-shrink-0.tw-full-height.tw-relative > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.companion-ad.tw-align-items-center.tw-flex-grow-0.tw-flex-shrink-0.tw-flex-wrap.tw-full-width.tw-hide.tw-justify-content-center.tw-pd-b-1.tw-pd-t-2
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative > div.right-column.tw-flex-shrink-0.tw-full-height.tw-relative > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.room-selector.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-full-width.tw-relative > section.chat-room.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-shrink-1.tw-full-width > div.chat-room__content.tw-c-text-base.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-relative > div.tw-border-radius-medium.tw-c-background-base.tw-elevation-3.tw-mg-b-1.tw-mg-x-2.tw-pd-1.tw-relative
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex > a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
-twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0.twilight-root > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__prime.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.prime-offers.tw-relative > div.tw-relative > div > div.tw-inline-flex.tw-tooltip-wrapper > div
 vk.com##div#ads_left
 www.kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
 www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
-www.twitch.tv##.tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link:has-text(Получить Плюс)
