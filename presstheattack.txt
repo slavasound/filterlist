@@ -12,6 +12,9 @@
 #@##app_container_outer + div[style]
 ||analytics.google.com^$badfilter
 ||analytics.google.com^$third-party
+^analytics^$badfilter
+/adsense/$badfilter
+/analytics/web/*$domain=~analytics.google.com
 ^analytics.$domain=~analytics.twitter.com,badfilter
 ||google-analytics.$important,badfilter
 #@##article-detail-social-icons
