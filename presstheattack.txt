@@ -3276,6 +3276,10 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /assets/facebook_$badfilter
 /assets/twitter-$image,badfilter
 /assets/twitter_$badfilter
+/metrika/*$badfilter
+.advertising^$badfilter
+^advertising^$badfilter
+||yandex.ru/metrika/$domain=~metrika.yandex.ru
 /back-to-top-$badfilter
 /back-to-top.$badfilter
 /badge_twitter.$badfilter
