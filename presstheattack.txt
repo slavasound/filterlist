@@ -17,6 +17,9 @@
 /analytics/web/*$badfilter
 ||metrica.yandex.com^$badfilter
 ^surveys^$third-party,badfilter
+||metrica.yandex.ru^$badfilter
+^promo-$badfilter
+-adv^$badfilter
 ^surveys^$third-party,domain=~metrika.yandex.ru
 ^analytics-$badfilter
 ^analytics_$badfilter
