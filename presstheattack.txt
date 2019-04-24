@@ -15,6 +15,7 @@
 ^analytics^$badfilter
 /adsense/$badfilter
 /analytics/web/*$badfilter
+||metrica.yandex.com^$badfilter
 ^surveys^$third-party,badfilter
 ^surveys^$third-party,domain=~metrika.yandex.ru
 ^analytics-$badfilter
