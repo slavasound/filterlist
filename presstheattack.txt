@@ -1588,6 +1588,11 @@ english-films.com##.mainNav
 #@#.icon-social-round-youtube
 #@#.icon-social-rss
 #@#.icon-social-spotify
+www.twitch.tv##.recommended-channels
+www.twitch.tv##.tw-z-default.pinned-cheer-v2
+www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex
+www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex > a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
+www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative
 #@#.icon-social-tumblr
 #@#.icon-social-twitter
 #@#.icon-social-twitter-circle
