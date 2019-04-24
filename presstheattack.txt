@@ -18,6 +18,8 @@
 ^analytics-$badfilter
 ^analytics_$badfilter
 _analytics.$badfilter
+||google.*/gen_204?$important,badfilter
+||metrika.yandex.ru^$badfilter
 _adsense.$badfilter
 ^analytics.$domain=~analytics.twitter.com,badfilter
 ||google-analytics.$important,badfilter
@@ -3265,7 +3267,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /Youicon.$badfilter
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
-/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru
+/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru|~metrika.yandex.ru
 /^https?:\/\/strm\.yandex\.ru\/log/$important
 /aspexi-facebook-$badfilter
 /assets/*facebook.png$badfilter
