@@ -17,6 +17,8 @@
 /analytics/web/*$badfilter
 ^analytics-$badfilter
 ^analytics_$badfilter
+_analytics.$badfilter
+_adsense.$badfilter
 ^analytics.$domain=~analytics.twitter.com,badfilter
 ||google-analytics.$important,badfilter
 #@##article-detail-social-icons
