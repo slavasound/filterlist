@@ -14,6 +14,14 @@
 ||analytics.google.com^$third-party
 ^analytics^$badfilter
 /adsense/$badfilter
+||mail.google.com/*&view=ad&$important,badfilter
+||google.com/availability/$important,badfilter
+||google.com/setgmail$important,badfilter
+||mail.google.com/mail/*/cleardot.gif$important,badfilter
+||gstatic.com/kpui/social/$important
+@@||googlesyndication.com/pagead/$third-party,badfilter
+_ads^$badfilter
+_ads_$popup,badfilter
 /analytics/web/*$badfilter
 ||metrica.yandex.com^$badfilter
 ^surveys^$third-party,badfilter
