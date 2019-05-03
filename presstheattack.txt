@@ -10,6 +10,8 @@
 #@##adbl-social-icons
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
+/ua-parser.$badfilter
+|http*:*^stat_$badfilter
 ||analytics.google.com^$badfilter
 ||analytics.google.com^$third-party
 ^analytics^$badfilter
