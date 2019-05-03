@@ -10,35 +10,6 @@
 #@##adbl-social-icons
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
-/ua-parser.$badfilter
-|http*:*^stat_$badfilter
-||analytics.google.com^$badfilter
-||analytics.google.com^$third-party
-^analytics^$badfilter
-/adsense/$badfilter
-||mail.google.com/*&view=ad&$important,badfilter
-||google.com/availability/$important,badfilter
-||google.com/setgmail$important,badfilter
-||mail.google.com/mail/*/cleardot.gif$important,badfilter
-||gstatic.com/kpui/social/$important
-@@||googlesyndication.com/pagead/$third-party,badfilter
-_ads^$badfilter
-_ads_$popup,badfilter
-/analytics/web/*$badfilter
-||metrica.yandex.com^$badfilter
-^surveys^$third-party,badfilter
-||metrica.yandex.ru^$badfilter
-^promo-$badfilter
--adv^$badfilter
-^surveys^$third-party,domain=~metrika.yandex.ru|~metrica.yandex.com
-^analytics-$badfilter
-^analytics_$badfilter
-_analytics.$badfilter
-||google.*/gen_204?$important,badfilter
-||metrika.yandex.ru^$badfilter
-_adsense.$badfilter
-^analytics.$domain=~analytics.twitter.com,badfilter
-||google-analytics.$important,badfilter
 #@##article-detail-social-icons
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
@@ -49,45 +20,13 @@ _adsense.$badfilter
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
-vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
 #@##base64-share-twitter
-||phncdn.com^$badfilter
-||imgur.com/min/runslots.js$important,script,badfilter
-||youtube.com/subscribe_embed?$third-party,badfilter
-||vk.com^$third-party,badfilter
-/webpush/*$badfilter
-/images/social-$badfilter
-||getsocial.io/widget/$third-party,badfilter
-||share.yandex.*/gpp.xml?url=$badfilter
-||w.org^$badfilter
-/urban-airship-$badfilter
-_social.png$badfilter
-/tweet_button.$badfilter
-||disqus.com/count.js$important,script,badfilter
-||referrer.disqus.com^$important,badfilter
 #@##base64-share-vk
 #@##blgtwitter
-||openload.co^$badfilter
-english-films.com##:xpath(//li[@data-target='tabs_pay'][contains(.,'English-Films плеер')])
-english-films.com##:xpath(//div[@class='block-content'][contains(.,'Онлайн чат')])
-english-films.com##div.block.blueBlock:has-text(Подборки фильмов)
-english-films.com##div.block.blueBlock:has-text(Изучаем английский)
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$empty,important
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox)\.yandex\.[A-Za-z.]{2,7}/$empty,important,domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|tagmanager|analytics)\.google(apis)?\.[A-Za-z.]{2,7}/$empty,important,domain=~analytics.google.com|~tagmanager.google.com
-/^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.[A-Za-z.]{2,7}/$empty,important
-english-films.com##div.saladBlock:has-text(Курс: "Заговори на английском за 2 месяца!")
-english-films.com##div.saladBlock:has-text(Вопросы по работе сайта)
-english-films.com##.width > .siteEnter
-english-films.com##.mainNav
 #@##block-boxes-facebook
-||yandex.ru^$third-party,badfilter
-||metrika.yandex.ru^$third-party,badfilter
-||metrika.yandex.$third-party,badfilter
-||metrika.yandex.com^$badfilter
 #@##block-boxes-facebookrecentactivity
 #@##block-bulletin-facebook-activity-feed
 #@##block-custom_blocks-facebook_twitter_widgets
@@ -935,8 +874,8 @@ english-films.com##.mainNav
 #@#.fa-rss-square
 #@#.fa-twitter-square
 #@#.fa-youtube-square
-#@#.facebook
 #@#.facebook2
+#@#.facebook
 #@#.facebook28Ico
 #@#.facebook-24x24
 #@#.facebook--like
@@ -1174,9 +1113,9 @@ english-films.com##.mainNav
 #@#.fixed-header__nav__social__icon
 #@#.fixed-soc-icon
 #@#.flare-button-icon
-#@#.flaticon-facebook3
-#@#.flaticon-facebook
 #@#.flaticon-facebook2
+#@#.flaticon-facebook
+#@#.flaticon-facebook3
 #@#.flaticon-linkedin1
 #@#.flickr_icon
 #@#.floating-facebook
@@ -1421,8 +1360,8 @@ english-films.com##.mainNav
 #@#.icomoon-facebook2
 #@#.icomoon-facebook
 #@#.icomoon-instagram
-#@#.icomoon-twitter2
 #@#.icomoon-twitter
+#@#.icomoon-twitter2
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -1464,8 +1403,8 @@ english-films.com##.mainNav
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
-#@#.icon-facebook2
 #@#.icon-facebook
+#@#.icon-facebook2
 #@#.icon-facebook16
 #@#.icon-facebook-24
 #@#.icon-facebook-32
@@ -1507,8 +1446,8 @@ english-films.com##.mainNav
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus
 #@#.icon-google-plus2
+#@#.icon-google-plus
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -1638,15 +1577,9 @@ english-films.com##.mainNav
 #@#.icon-social-round-youtube
 #@#.icon-social-rss
 #@#.icon-social-spotify
-www.twitch.tv##.recommended-channels
-www.twitch.tv##.tw-z-default.pinned-cheer-v2
-www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex
-www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex > a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
-www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative
 #@#.icon-social-tumblr
 #@#.icon-social-twitter
 #@#.icon-social-twitter-circle
-mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 #@#.icon-social-youtube
 #@#.icon-social__link
 #@#.icon-social_facebook_bl
@@ -1666,10 +1599,10 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
+#@#.icon-twitter2
+#@#.icon-twitter
 #@#.icon-twitter3
 #@#.icon-twitter16
-#@#.icon-twitter
-#@#.icon-twitter2
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2121,8 +2054,8 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box2
 #@#.rss_box
+#@#.rss_box2
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -2491,9 +2424,9 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 #@#.sotwitter
 #@#.sp_facebook
 #@#.sp_twitter
+#@#.sprite-facebook
 #@#.sprite-facebook15x15
 #@#.sprite-facebook25x25
-#@#.sprite-facebook
 #@#.sprite-icon-fb
 #@#.sprite-icon-gp
 #@#.sprite-icon-rss
@@ -3133,6 +3066,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 -ads.$document,badfilter
 -ads^$document,badfilter
 -ads_$document,badfilter
+-adv^$badfilter
 -adv_$badfilter
 -blog-rss.$badfilter
 -blue-rss.$badfilter
@@ -3274,6 +3208,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 .ads.$document,badfilter
 .ads^$document,badfilter
 .ads_$document,badfilter
+.advertising^$badfilter
 .analytics.$badfilter
 .facebookLikePopUp.$badfilter
 .mail.ru$important,third-party,script,badfilter
@@ -3304,8 +3239,14 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /Youicon.$badfilter
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(([0-9]{1,2})?l\-hit|([0-9]{1,2})?l\-view|r([0-9]{1,2})?|rs|staging|(vk|stepan\-fe)\.go|reklama|ads?|recostream\.go|([^\s]{10,}\.)?top([0-9]{1}|\-(fwz([0-9]{1,2})?))?|mediator|[^\s]{3,}\.radar|g?stat|xray|t|fmdata)\.(imgs)?mail\.ru/$empty,important
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(an|awaps|awsync|(rosenberg\.|report\.)?appmetrica|bs|direct|grade\.market|informer|kiks|clck|main\.zdevx|mc|yabs|zen|browser\-updater|bs\-meta|bann?ers?(\-slb)?\.mobile|(external\-promo\-|web\-)?metric[as]|startup(\-slb)?\.mobile|analytics?(\.mobile)?|adfox)\.yandex\.[A-Za-z.]{2,7}/$empty,important,domain=~metrika.yandex.ru|~webvisor.com|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|tagmanager|analytics)\.google(apis)?\.[A-Za-z.]{2,7}/$empty,important,domain=~analytics.google.com|~tagmanager.google.com
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.[A-Za-z.]{2,7}/$empty,important
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru|~metrika.yandex.ru
 /^https?:\/\/strm\.yandex\.ru\/log/$important
+/adsense/$badfilter
+/analytics/web/*$badfilter
 /aspexi-facebook-$badfilter
 /assets/*facebook.png$badfilter
 /assets/*twitter.png$badfilter
@@ -3313,17 +3254,10 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /assets/facebook_$badfilter
 /assets/twitter-$image,badfilter
 /assets/twitter_$badfilter
-/metrika/*$badfilter
-.advertising^$badfilter
-^advertising^$badfilter
-||yandex.ru/metrika/$badfilter
-||yandex.ru/metrika/$domain=~metrika.yandex.ru|~metrica.yandex.com
 /back-to-top-$badfilter
 /back-to-top.$badfilter
 /badge_twitter.$badfilter
 /base/rss-$badfilter
-||webvisor.com^$badfilter
-||webvisor.com^$domain=~metrika.yandex.ru|~metrica.yandex.com|~webvisor.com
 /bg_rss_$badfilter
 /big-facebook.$badfilter
 /big-twitter.$badfilter
@@ -3891,6 +3825,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /images/rss-$badfilter
 /images/rss_$badfilter
 /images/share.$badfilter
+/images/social-$badfilter
 /images/social/*$badfilter
 /images/twitter$badfilter
 /images/vk-$badfilter
@@ -3974,6 +3909,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /media/*twitter20.png$badfilter
 /media/*twitter.png$badfilter
 /media/*youtube20.png$badfilter
+/metrika/*$badfilter
 /mobile_top_icon.$badfilter
 /nav-facebook-$badfilter
 /nav-twitter-$badfilter
@@ -4300,6 +4236,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /tw-icon.$badfilter
 /tw-icons.$badfilter
 /tw_icon.$badfilter
+/tweet_button.$badfilter
 /tweeticon-$badfilter
 /twit-icon.$badfilter
 /twit_icon.$badfilter
@@ -4434,6 +4371,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /twt-icon.$badfilter
 /twt_icon.$badfilter
 /twtr_icon_$badfilter
+/ua-parser.$badfilter
 /uploads/*facebook.jpg$badfilter
 /uploads/*rss.png$badfilter
 /uploads/*twitter.png$badfilter
@@ -4441,6 +4379,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /uploads/facebook.$badfilter
 /uploads/twitter-$badfilter
 /uploads/youtube2.$badfilter
+/urban-airship-$badfilter
 /utube-icon.$badfilter
 /vimeo-icon.$badfilter
 /vimeo_icon_$badfilter
@@ -4448,6 +4387,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 /vkontakte2_icon.$badfilter
 /vkontakte.png$badfilter
 /vkontakte_icon_$badfilter
+/webpush/*$badfilter
 /whatsapp_icon.$badfilter
 /widgets/twitter/*$badfilter
 /wp-content/*facebook.jpg$badfilter
@@ -4509,6 +4449,7 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
 @@_dfp_$script,domain=kinopoisk.ru
 @@||ajax.cloudflare.com^
+@@||googlesyndication.com/pagead/$third-party,badfilter
 @@||pladform.ru^$badfilter
 @@||vkontakte.ru/js/api/openapi.js^$script
 ^ads-$document,badfilter
@@ -4517,17 +4458,29 @@ mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 ^ads^$document,badfilter
 ^ads_$badfilter
 ^ads_$document,badfilter
+^advertising^$badfilter
+^analytics-$badfilter
+^analytics.$domain=~analytics.twitter.com,badfilter
+^analytics^$badfilter
+^analytics_$badfilter
 ^logger.$badfilter
 ^logimpressions^$badfilter
 ^popup^$popup,badfilter
+^promo-$badfilter
 ^promo_$badfilter
 ^rum-$third-party,badfilter
+^surveys^$third-party,badfilter
+^surveys^$third-party,domain=~metrika.yandex.ru|~metrica.yandex.com
 _40x40_twitter.$badfilter
 _40x40_youtube.$badfilter
 _ads-$document,badfilter
 _ads.$document,badfilter
+_ads^$badfilter
 _ads^$document,badfilter
 _ads_$document,badfilter
+_ads_$popup,badfilter
+_adsense.$badfilter
+_analytics.$badfilter
 _analytics_$badfilter
 _banner*$badfilter
 _btn_facebook.$badfilter
@@ -4609,6 +4562,7 @@ _share_twitter.$badfilter
 _sns_twitter.$badfilter
 _soc_rss.$badfilter
 _social-twitter.$badfilter
+_social.png$badfilter
 _social_facebook.$badfilter
 _social_icon2.$badfilter
 _social_icon.$badfilter
@@ -4653,14 +4607,22 @@ english-films.com###mainSlider-controls
 english-films.com##.active.tabs-content > p
 english-films.com##.box.redBox.section.helperBlock
 english-films.com##.footer
+english-films.com##.mainNav
 english-films.com##.mc-head
 english-films.com##.owl-height.owl-stage-outer > .owl-stage
 english-films.com##.relatedNews
 english-films.com##.section.linksBlock
 english-films.com##.superBanner
+english-films.com##.width > .siteEnter
 english-films.com##.wrp_baner
+english-films.com##:xpath(//div[@class='block-content'][contains(.,'Онлайн чат')])
+english-films.com##:xpath(//li[@data-target='tabs_pay'][contains(.,'English-Films плеер')])
+english-films.com##div.block.blueBlock:has-text(Изучаем английский)
+english-films.com##div.block.blueBlock:has-text(Подборки фильмов)
 english-films.com##div.orangeBlock.block
 english-films.com##div.redBlock.block
+english-films.com##div.saladBlock:has-text(Вопросы по работе сайта)
+english-films.com##div.saladBlock:has-text(Курс: "Заговори на английском за 2 месяца!")
 fonts.googleapis.com^$important,domain=~google,badfilter
 free.proxy-sale.com##:xpath(//p[@class='copy-buffer'][contains(.,'Скопировать в буфер')])
 freebitco.in##.reveal-modal-bg, #myModal22
@@ -4683,6 +4645,7 @@ kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="to
 kinopoisk.ru##html > body.svg-background_yes > DIV.feature_promo.feature_promo-active.feature_promo-animate
 mail.ru###projects
 mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
+mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
 mail.ru##div#grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__main-col > div.grid__ccol.i-pull-left > div.news-item.o-media.news-item_tgb.news-item_long_title.tgb.tgb_invisible
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid-down.grid__container.i-clearfix > div.grid__lcol.i-pull-left > div.well.notify.i-link-no-deco.i-absolute.m-bordered.m-animated-shadow.m-animated-borderless
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md
@@ -4703,9 +4666,15 @@ translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
+vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
 vk.com##div#ads_left
 www.kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
 www.kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
+www.twitch.tv##.recommended-channels
+www.twitch.tv##.tw-z-default.pinned-cheer-v2
+www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex
+www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex > a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
+www.twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link:has-text(Получить Плюс)
@@ -4752,9 +4721,12 @@ youtube.com##dom-module#ytd-video-masthead-ad-renderer
 youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 zn.ua###myModal
 zn.ua##^script:has-text("zmctrack")
+|http*:*^stat_$badfilter
 |http://ad.$badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
 ||8ch.net^$badfilter
+||analytics.google.com^$badfilter
+||analytics.google.com^$third-party
 ||apis.google.com/js/platform.js$third-party,badfilter
 ||apis.google.com/js/plusone.js$important,third-party,badfilter
 ||apis.google.com/js/plusone.js$third-party,badfilter
@@ -4768,6 +4740,7 @@ zn.ua##^script:has-text("zmctrack")
 ||connect.facebook.net^
 ||consent.truste.com^$badfilter
 ||cy-pr.com^$badfilter
+||disqus.com/count.js$important,script,badfilter
 ||facebook.*^$important,third-party,domain=~instagram.com,badfilter
 ||facebook.com*/plugins/like.php?$third-party,badfilter
 ||facebook.com/connect/connect.*connections$third-party,domain=~farmville.com,badfilter
@@ -4816,18 +4789,35 @@ zn.ua##^script:has-text("zmctrack")
 ||fbtc-audio.freebitco.in^$badfilter
 ||freebitco.in^$badfilter
 ||gelbooru.com^$badfilter
+||getsocial.io/widget/$third-party,badfilter
+||google-analytics.$important,badfilter
 ||google.*/ads$important,badfilter
 ||google.*/cse/brand?form=$badfilter
+||google.*/gen_204?$important,badfilter
+||google.com/availability/$important,badfilter
+||google.com/setgmail$important,badfilter
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 ||google.com^*/fastbutton?$third-party,badfilter
 ||graph.facebook.com/fql?q=SELECT$third-party,badfilter
 ||gravatar.com^$important,third-party,badfilter
+||gstatic.com/kpui/social/$important
 ||hentaihaven.org^$badfilter
+||imgur.com/min/runslots.js$important,script,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
+||mail.google.com/*&view=ad&$important,badfilter
+||mail.google.com/mail/*/cleardot.gif$important,badfilter
+||metrica.yandex.com^$badfilter
+||metrica.yandex.ru^$badfilter
+||metrika.yandex.$third-party,badfilter
+||metrika.yandex.com^$badfilter
+||metrika.yandex.ru^$badfilter
+||metrika.yandex.ru^$third-party,badfilter
 ||mradx.net^$badfilter
 ||news.yandex.*^$first-party,important,script
 ||nsimg.net^$badfilter
 ||onesignal.com^$badfilter
+||openload.co^$badfilter
+||phncdn.com^$badfilter
 ||platform.tumblr.com^$third-party,badfilter
 ||platform.twitter.com*/widget/$third-party,badfilter
 ||platform.twitter.com*/widgets/$third-party,badfilter
@@ -4840,7 +4830,9 @@ zn.ua##^script:has-text("zmctrack")
 ||platform.twitter.com^$badfilter
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
+||referrer.disqus.com^$important,badfilter
 ||resize.yandex.net^$image,domain=yandex.ru,important
+||share.yandex.*/gpp.xml?url=$badfilter
 ||sharethis.com^$third-party,badfilter
 ||signavatar.com^$third-party,important,badfilter
 ||statcounter.com^$badfilter
@@ -4882,6 +4874,7 @@ zn.ua##^script:has-text("zmctrack")
 ||vk.com/widget_subscribe.php?$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 ||vk.com^$important,third-party,badfilter
+||vk.com^$third-party,badfilter
 ||vkontakte.ru/js/api/$third-party,domain=~arudex.com|,badfilter
 ||vkontakte.ru/share.php?$third-party,badfilter
 ||vkontakte.ru/widget_comments.php?$third-party,badfilter
@@ -4892,15 +4885,22 @@ zn.ua##^script:has-text("zmctrack")
 ||vkontakte.ru/widget_recommended.php?$third-party,badfilter
 ||vkontakte.ru/widget_subscribe.php?$third-party,badfilter
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru,badfilter
+||w.org^$badfilter
+||webvisor.com^$badfilter
+||webvisor.com^$domain=~metrika.yandex.ru|~metrica.yandex.com|~webvisor.com
 ||www.facebook.com^$domain=~facebook.com,badfilter
 ||www.statcounter.com^$badfilter
 ||www.youtube-nocookie.com^$badfilter
 ||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
+||yandex.ru/metrika/$badfilter
+||yandex.ru/metrika/$domain=~metrika.yandex.ru|~metrica.yandex.com
+||yandex.ru^$third-party,badfilter
 ||yastatic.net,yandex.ru$font,important
 ||yimg.*/lib/3pm/$script,badfilter
 ||yimg.*/lib/*/cs_$script,badfilter
 ||yimg.com/cv/$badfilter
 ||yimg.com/rq/$badfilter
+||youtube.com/subscribe_embed?$third-party,badfilter
 ||zencdn.net^$badfilter
 ||zencdn.net^$important,badfilter
 ||zergnet.com^$badfilter
