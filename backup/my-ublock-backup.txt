@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1556040650723,
-  "version": "1.18.16",
+  "timeStamp": 1557467127346,
+  "version": "1.18.17rc5",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -23,12 +23,9 @@
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kame_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kotori_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/kujira_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt",
     "https://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
@@ -110,7 +107,7 @@
     "selfieAfter": 11,
     "strictBlockingBypassDuration": 120,
     "suspendTabsUntilReady": "unset",
-    "userResourcesLocation": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt"
+    "userResourcesLocation": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt"
   },
   "netWhitelist": "about-scheme\nmoz-extension-scheme",
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
