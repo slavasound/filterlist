@@ -17,6 +17,8 @@
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
+||yastatic.net/*/zen-lib/$important
+/\/[-a-z0-9_]{1}\.(a?png|gif|aspx|jpe?g)/$image,script,important
 #@##back-to-top-icon
 #@##badge-facebook-like
 #@##badge-twitter
