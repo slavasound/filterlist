@@ -9,6 +9,10 @@
 #@##adbl-social-icons
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
+twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b
+^rum^$third-party,badfilter
+/downlaod1.png$image
+##a[href^="https://bit.ly/"][target="_blank"]
 #@##article-detail-social-icons
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
