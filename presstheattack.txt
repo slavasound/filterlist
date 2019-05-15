@@ -23,6 +23,13 @@ twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.t
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
+||googletagmanager.com^$important,badfilter
+@@/js/ads.js$script,badfilter
+*/ads.js$important
+*/advertise/*.js$important
+||googlesyndication.com^$important,badfilter
+pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog']//div[@data-test-id='signup']//div//div//h3[contains(text(),'Бесплатный аккаунт открывает доступ к нашим лучшим')])
+^popunder^$document,badfilter
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
