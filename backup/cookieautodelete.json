@@ -1,0 +1,68 @@
+{
+  "default": [
+    {
+      "expression": "*.google.*",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "KCQzwG1g8"
+    },
+    {
+      "expression": "*.yandex.*",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "hyesPJPnu"
+    },
+    {
+      "expression": "2ch.hk",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "fIJ3toYWb"
+    },
+    {
+      "expression": "github.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "6BEPC7wto"
+    },
+    {
+      "expression": "reddit.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "mDi3GyOy6"
+    },
+    {
+      "expression": "twitch.tv",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "IG2RQ0EH_"
+    },
+    {
+      "expression": "twitter.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "WB6IyFc32"
+    },
+    {
+      "expression": "vk.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "yUg9_TFnG",
+      "cleanLocalStorage": false
+    },
+    {
+      "expression": "youtube.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "PWKAoZ-Yu"
+    }
+  ]
+}

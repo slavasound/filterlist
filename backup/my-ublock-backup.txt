@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1557844636208,
+  "timeStamp": 1557898921289,
   "version": "1.19.3b2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -112,5 +112,5 @@
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-scripting: behind-the-scene false\nno-csp-reports: * true\nno-scripting: view-source-scheme true",
-  "userFilters": "!thehill\n"
+  "userFilters": "!thehill\n||presdithas.pw^\n||uriqirelle.xyz^\n||wtg-ads.com^\n/^https?:\\/\\/[^\\s]+(\\W|\\_)partner[sa]?[^\\s]+\\.js/$important,script\n\n\n||googletagmanager.com^$important,badfilter\n"
 }

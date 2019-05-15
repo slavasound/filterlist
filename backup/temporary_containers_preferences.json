@@ -1,0 +1,73 @@
+{
+  "version": "0.97",
+  "date": 1557899068370,
+  "preferences": {
+    "automaticMode": {
+      "active": false,
+      "newTab": "created"
+    },
+    "notifications": false,
+    "container": {
+      "namePrefix": "",
+      "color": "red",
+      "colorRandom": true,
+      "icon": "circle",
+      "iconRandom": true,
+      "numberMode": "keep",
+      "removal": "instant"
+    },
+    "iconColor": "black-simple",
+    "isolation": {
+      "global": {
+        "navigation": {
+          "action": "never"
+        },
+        "mouseClick": {
+          "middle": {
+            "action": "never",
+            "container": "deleteshistory"
+          },
+          "ctrlleft": {
+            "action": "never",
+            "container": "deleteshistory"
+          },
+          "left": {
+            "action": "never",
+            "container": "deleteshistory"
+          }
+        },
+        "excluded": {}
+      },
+      "domain": {},
+      "mac": {
+        "action": "disabled"
+      }
+    },
+    "browserActionPopup": false,
+    "pageAction": false,
+    "contextMenu": false,
+    "keyboardShortcuts": {
+      "AltC": false,
+      "AltP": true,
+      "AltN": false,
+      "AltShiftC": false,
+      "AltX": false
+    },
+    "replaceTabs": false,
+    "ignoreRequestsToAMO": false,
+    "ignoreRequestsToPocket": false,
+    "cookies": {
+      "domain": {}
+    },
+    "deletesHistory": {
+      "automaticMode": "automatic",
+      "contextMenu": false,
+      "containerAlwaysPerDomain": "automatic",
+      "containerIsolation": "automatic",
+      "containerRemoval": "instant",
+      "containerMouseClicks": "automatic",
+      "statistics": false
+    },
+    "statistics": false
+  }
+}
