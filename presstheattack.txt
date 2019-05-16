@@ -70,6 +70,10 @@ pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog'
 #@##crestashareiconincontent
 #@##ctl00_facebookLink
 #@##ctl00_twitterLink
+@@||drive.google.com$document,badfilter
+@@||addons.opera.com/ru/extensions/details/$document,badfilter
+@@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script,badfilter
+yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@##ctl00_ucFaceBook_facebook
 #@##ctl00_youtubeLink
 #@##customtwitter
