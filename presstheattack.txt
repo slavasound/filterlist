@@ -4,15 +4,12 @@
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
 
 ###footer_cookie:not(html):not(body)
+##a[href^="https://bit.ly/"][target="_blank"]
 #@##FIN_facebook_fanbox
 #@##acx-social-icons-widget-2
 #@##adbl-social-icons
 #@##advanced-twitter-widget
 #@##app_container_outer + div[style]
-twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b
-^rum^$third-party,badfilter
-/downlaod1.png$image
-##a[href^="https://bit.ly/"][target="_blank"]
 #@##article-detail-social-icons
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
@@ -23,13 +20,6 @@ twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.t
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
-||googletagmanager.com^$important,badfilter
-@@/js/ads.js$script,badfilter
-*/ads.js$important
-*/advertise/*.js$important
-||googlesyndication.com^$important,badfilter
-pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog']//div[@data-test-id='signup']//div//div//h3[contains(text(),'Бесплатный аккаунт открывает доступ к нашим лучшим')])
-^popunder^$document,badfilter
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
@@ -70,10 +60,6 @@ pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog'
 #@##crestashareiconincontent
 #@##ctl00_facebookLink
 #@##ctl00_twitterLink
-@@||drive.google.com$document,badfilter
-@@||addons.opera.com/ru/extensions/details/$document,badfilter
-@@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script,badfilter
-yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@##ctl00_ucFaceBook_facebook
 #@##ctl00_youtubeLink
 #@##customtwitter
@@ -457,8 +443,8 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@##social-media-icons-container
 #@##social-networking-icons-round
 #@##social-rss
-#@##social-twitter32x32
 #@##social-twitter
+#@##social-twitter32x32
 #@##social-youtube
 #@##socialMedia-facebook
 #@##socialMedia-twitter
@@ -888,9 +874,9 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@#.fa-rss-square
 #@#.fa-twitter-square
 #@#.fa-youtube-square
-#@#.facebook2
-#@#.facebook
 #@#.facebook28Ico
+#@#.facebook
+#@#.facebook2
 #@#.facebook-24x24
 #@#.facebook--like
 #@#.facebook-activity
@@ -1460,8 +1446,8 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus
 #@#.icon-google-plus2
+#@#.icon-google-plus
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -1469,9 +1455,9 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
-#@#.icon-googleplus16
 #@#.icon-googleplus
 #@#.icon-googleplus8
+#@#.icon-googleplus16
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -1614,9 +1600,9 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@#.icon-tweet
 #@#.icon-twitch
 #@#.icon-twitter2
-#@#.icon-twitter3
-#@#.icon-twitter
 #@#.icon-twitter16
+#@#.icon-twitter
+#@#.icon-twitter3
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2455,8 +2441,8 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 #@#.sprite-social-rss
 #@#.sprite-social-twitter
 #@#.sprite-social-youtube
-#@#.sprite-twitter
 #@#.sprite-twitter25x25
+#@#.sprite-twitter
 #@#.sprite-twitter_16
 #@#.sprite-youtube
 #@#.sprite_condividi_facebook_button
@@ -3074,8 +3060,12 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 *$beacon
 *$font,important,badfilter
 *$inline-font,important,badfilter
+*/ads.js$important
+*/advertise/*.js$important
+*/advertisement.js$important
 -ads-$badfilter
 -ads-$document,badfilter
+-ads-$popup,badfilter
 -ads.$badfilter
 -ads.$document,badfilter
 -ads^$document,badfilter
@@ -3187,6 +3177,7 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 -socialicons.$badfilter
 -sponsored-$badfilter
 -stumbleupon-icon-24.$badfilter
+-teaser-$badfilter
 -twitter1.$badfilter
 -twitter2.$badfilter
 -twitter14.$badfilter
@@ -3324,6 +3315,7 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 /delicious-icon.$badfilter
 /delicious_icon.$badfilter
 /digg-icon.$badfilter
+/downlaod1.png$image
 /email-icon-$badfilter
 /f_rss.$badfilter
 /facebkiconnet/*$badfilter
@@ -4463,6 +4455,8 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 @@$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAOlUFqneVkVRi0X0yw6vwDnR4iay2IsP1OKzCdQfjFIMKjwwzJwhASIy24icvR7KGmJM9TVre/b1Gfh38UnZ02sCAwEAAQ,badfilter
 @@*$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALo4A9ch0h+1WaF7eiREQsF8ZSdjSPKx9KkKjCqabhCJSzV17noE3IU0F05CJ672CxyFRxdONAgr69GDBpn7MRECAwEAAQ,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
+@@/advertisement.js$script,badfilter
+@@/js/ads.js$script,badfilter
 @@_dfp_$script,domain=kinopoisk.ru
 @@||01net.com/recherche/$elemhide,badfilter
 @@||2dehands.be^$elemhide,badfilter
@@ -4484,6 +4478,7 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 @@||abritel.fr^$elemhide,badfilter
 @@||ad.apsalar.com^$image,domain=reddit.com,badfilter
 @@||ad.doubleclick.net/ddm/$image,domain=reddit.com,badfilter
+@@||addons.opera.com/ru/extensions/details/$document,badfilter
 @@||adfarm.mediaplex.com^$image,domain=reddit.com,badfilter
 @@||adsensecustomsearchads.com^*adsense/search/*ads.js|$badfilter
 @@||adsensecustomsearchads.com^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
@@ -5069,6 +5064,7 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 @@||dogpile.com^$elemhide,badfilter
 @@||donedeal.ie^$elemhide,badfilter
 @@||dongtw.com/?s=$elemhide,badfilter
+@@||drive.google.com$document,badfilter
 @@||dsl.de^$elemhide,badfilter
 @@||duckhk.com/hotsearch.php?$elemhide,badfilter
 @@||easydialsearch.com^$elemhide,badfilter
@@ -6994,6 +6990,7 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 @@||wyszukajprace.pl^$elemhide,badfilter
 @@||xuite.net/search_index.php$elemhide,badfilter
 @@||yapo.cl^$elemhide,badfilter
+@@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script,badfilter
 @@||yellowpages.aol.com^$elemhide,badfilter
 @@||yellowpages.com^$elemhide,badfilter
 @@||yelp.com/search?$elemhide,badfilter
@@ -7028,11 +7025,13 @@ yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 ^analytics_$badfilter
 ^logger.$badfilter
 ^logimpressions^$badfilter
+^popunder^$document,badfilter
 ^popup^$popup,badfilter
 ^promo-$badfilter
 ^promo^$document,badfilter
 ^promo_$badfilter
 ^rum-$third-party,badfilter
+^rum^$third-party,badfilter
 ^surveys^$third-party,badfilter
 ^surveys^$third-party,domain=~metrika.yandex.ru|~metrica.yandex.com
 _40x40_twitter.$badfilter
@@ -7142,6 +7141,7 @@ _social_twitter.$badfilter
 _socialicons.$badfilter
 _socialicons_$badfilter
 _socials_icons.$badfilter
+_teaser_$badfilter
 _tw_icon.$badfilter
 _twitter01.$badfilter
 _twitter3.$badfilter
@@ -7225,6 +7225,7 @@ novinky.cz##+js(cookie-remover.js)
 novinky.cz##+js(setTimeout-defuser.js, O())
 novinky.cz##^script:has-text(Number()
 openload.co,oload.*##+js(eclick.js, #videooverlay)
+pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog']//div[@data-test-id='signup']//div//div//h3[contains(text(),'Бесплатный аккаунт открывает доступ к нашим лучшим')])
 qaru.site##.wraptip
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/div[1]/div[2])
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/header[1]/div[2]/div[1]/div[10])
@@ -7234,6 +7235,7 @@ translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collec
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv##.recommended-channels
+twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##a[href*="&BannerId="]
 twitch.tv##a[href*="&bonus="]
@@ -7292,6 +7294,7 @@ twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative
 vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
 vk.com##div#ads_left
+yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link:has-text(Получить Плюс)
@@ -7415,9 +7418,11 @@ zn.ua##^script:has-text("zmctrack")
 ||google.com/setgmail$important,badfilter
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 ||google.com^*/fastbutton?$third-party,badfilter
+||googlesyndication.com^$important,badfilter
+||googletagmanager.com^$important,badfilter
 ||graph.facebook.com/fql?q=SELECT$third-party,badfilter
 ||gravatar.com^$important,third-party,badfilter
-||gstatic.com/kpui/social/$important
+||gstatic.com/kpui/social/$important,badfilter
 ||hentaihaven.org^$badfilter
 ||imgur.com/min/runslots.js$important,script,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
