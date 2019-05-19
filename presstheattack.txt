@@ -20,6 +20,15 @@
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
+/\/[-a-z0-9_]{1}\.gif/$important,image
+/\/advert([0-9]{1})?\.js/$important,script
+||cliqz.com^$important,badfilter
+||torrent-soft.net$inline-script,important
+duckduckgo.com##.js-onboarding-ed.onboarding-ed
+duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
+duckduckgo.com##.social.header--aside__item
+duckduckgo.com##.header__label.showcase.header--aside__item
+/\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
