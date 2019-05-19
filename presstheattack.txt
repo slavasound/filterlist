@@ -20,15 +20,6 @@
 #@##as_facebook_recommend
 #@##back-to-top-icon
 #@##badge-facebook-like
-/\/[-a-z0-9_]{1}\.gif/$important,image
-/\/advert([0-9]{1})?\.js/$important,script
-||cliqz.com^$important,badfilter
-||torrent-soft.net$inline-script,important
-duckduckgo.com##.js-onboarding-ed.onboarding-ed
-duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
-duckduckgo.com##.social.header--aside__item
-duckduckgo.com##.header__label.showcase.header--aside__item
-/\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com
 #@##badge-twitter
 #@##badge_twitter
 #@##base64-share-facebook
@@ -1366,8 +1357,8 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.ico__youtube
 #@#.ico_facebook
 #@#.ico_twitter
-#@#.icomoon-facebook
 #@#.icomoon-facebook2
+#@#.icomoon-facebook
 #@#.icomoon-instagram
 #@#.icomoon-twitter2
 #@#.icomoon-twitter
@@ -1412,8 +1403,8 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
-#@#.icon-facebook2
 #@#.icon-facebook
+#@#.icon-facebook2
 #@#.icon-facebook16
 #@#.icon-facebook-24
 #@#.icon-facebook-32
@@ -1464,9 +1455,9 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
-#@#.icon-googleplus8
 #@#.icon-googleplus16
 #@#.icon-googleplus
+#@#.icon-googleplus8
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -1521,8 +1512,8 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
 #@#.icon-pinterest3
-#@#.icon-pinterest16
 #@#.icon-pinterest
+#@#.icon-pinterest16
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -1540,8 +1531,8 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.icon-pocket
 #@#.icon-polyvore
 #@#.icon-post-share
-#@#.icon-reddit2
 #@#.icon-reddit
+#@#.icon-reddit2
 #@#.icon-rss
 #@#.icon-rss-mini
 #@#.icon-rss-round
@@ -1555,8 +1546,8 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share2
 #@#.icon-share
+#@#.icon-share2
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -1609,9 +1600,9 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.icon-tweet
 #@#.icon-twitch
 #@#.icon-twitter2
-#@#.icon-twitter16
 #@#.icon-twitter
 #@#.icon-twitter3
+#@#.icon-twitter16
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2433,9 +2424,9 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 #@#.sotwitter
 #@#.sp_facebook
 #@#.sp_twitter
-#@#.sprite-facebook25x25
-#@#.sprite-facebook
 #@#.sprite-facebook15x15
+#@#.sprite-facebook
+#@#.sprite-facebook25x25
 #@#.sprite-icon-fb
 #@#.sprite-icon-gp
 #@#.sprite-icon-rss
@@ -3256,7 +3247,9 @@ duckduckgo.com##.header__label.showcase.header--aside__item
 /Youicon.$badfilter
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
-/\/[-a-z0-9_]{1}\.js/$image,script,important
+/\/[-a-z0-9_]{1}\.gif/$important,image
+/\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com
+/\/advert([0-9]{1})?\.js/$important,script
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[^\s]{60,100}/$important,image,domain=yandex.ru|~metrika.yandex.ru
 /^https?:\/\/lh([0-9]{1})\.googleusercontent\.com\/proxy\//$important,app=chrome.exe
 /^https?:\/\/strm\.yandex\.ru\/log/$important
@@ -7181,6 +7174,10 @@ _youtube_channel.$badfilter
 _youtube_icon.$badfilter
 _youtube_small.$badfilter
 _youtube_social_$badfilter
+duckduckgo.com##.header__label.showcase.header--aside__item
+duckduckgo.com##.js-onboarding-ed.onboarding-ed
+duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
+duckduckgo.com##.social.header--aside__item
 english-films.com###mainSlider-controls
 english-films.com##.active.tabs-content > p
 english-films.com##.box.redBox.section.helperBlock
@@ -7386,6 +7383,7 @@ zn.ua##^script:has-text("zmctrack")
 ||ciscobinary.openh264.org/openh264-win32-*.zip$important,app=firefox.exe
 ||clients*.google.com^$important
 ||clientservices.googleapis.com^$important
+||cliqz.com^$important,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||cloudfront.net/*/facebook.png$badfilter
 ||collections.yandex.ru/collections/api^$important
@@ -7527,6 +7525,7 @@ zn.ua##^script:has-text("zmctrack")
 ||syndication.twimg.com/widgets/$third-party,badfilter
 ||thepiratebay.org^$badfilter
 ||tools.google.com/service^$important,app=chrome.exe
+||torrent-soft.net$inline-script,important
 ||translate.googleapis.com/translate_a/$important,app=chrome.exe
 ||tumblr.com^$important,third-party,domain=~media.tumblr.com,badfilter
 ||twimg.com^$important,third-party,domain=~twitter.com|~moz-extension-scheme|~about-scheme|~behind-the-scene,badfilter
