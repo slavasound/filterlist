@@ -5047,6 +5047,7 @@
 *$beacon
 *$font,important,badfilter
 *$inline-font,important,badfilter
+*/*.gif|$document
 */ads.js$important
 */advertise/*.js$important
 */advertisement.js$important
@@ -5101,6 +5102,8 @@
 -followicons.$badfilter
 -foot-twitter.$badfilter
 -footer-youtube-$badfilter
+-google-analytics.$first-party,important
+-google-analytics/$first-party,important
 -google-icon.$badfilter
 -ico-twitter.$badfilter
 -icon-facebook.$badfilter
@@ -5127,6 +5130,7 @@
 -instagram_logo.$badfilter
 -linkedin-icon.$badfilter
 -links-rss-$badfilter
+-metrics^$badfilter
 -pinterest-button-$badfilter
 -pinterest-button.$badfilter
 -pinterest-icon-$badfilter
@@ -5640,6 +5644,7 @@
 /givememydigg.$badfilter
 /google+-icon-$badfilter
 /google+color.$badfilter
+/google-analytics.$first-party,important
 /google-icon-$badfilter
 /google-icon.$badfilter
 /google-plus.png$badfilter
@@ -5651,6 +5656,7 @@
 /google_plus_icon.$badfilter
 /google_plus_icon_$badfilter
 /google_plus_one.$badfilter
+/googleanalytics.js$first-party,important
 /googleicon.$badfilter
 /googleplus-$badfilter
 /googleplus.png$badfilter
@@ -6883,16 +6889,11 @@
 @@$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAOlUFqneVkVRi0X0yw6vwDnR4iay2IsP1OKzCdQfjFIMKjwwzJwhASIy24icvR7KGmJM9TVre/b1Gfh38UnZ02sCAwEAAQ,badfilter
 @@*$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALo4A9ch0h+1WaF7eiREQsF8ZSdjSPKx9KkKjCqabhCJSzV17noE3IU0F05CJ672CxyFRxdONAgr69GDBpn7MRECAwEAAQ,badfilter
 @@-landing.$third-party,domain=yandex.ru|yandex.ua|yandex.by
-@@/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}\/islands/$image
+@@/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}(\/(islands|normal))/$image
+@@/^https?:\/\/yastatic\.net\/mail\/[-0-9a-zA-Z_/]{45,50}\_lang\-[a-z]{2}\.gif/$image
 @@/advertisement.js$script,badfilter
 @@/js/ads.js$script,badfilter
 @@_dfp_$script,domain=kinopoisk.ru
--google-analytics/$first-party,important
--google-analytics.$first-party,important
-/googleanalytics.js$first-party,important
-/google-analytics.$first-party,important
-yandex.ru##+js(abort-on-property-read.js, Ya.Direct)
-*/*.gif|$document
 @@||01net.com/recherche/$elemhide,badfilter
 @@||2dehands.be^$elemhide,badfilter
 @@||2ememain.be^$elemhide,badfilter
@@ -9762,6 +9763,7 @@ www.twitch.tv##button.pl-button--icon.pl-button--follow.pl-button
 yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
+yandex.ru##+js(abort-on-property-read.js, Ya.Direct)
 yandex.ru##.home-link_intense-blue_yes.desk-notif-card_login-plus.home-link:has-text(Получить Плюс)
 yandex.ru##.media-grid__media-content
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid
@@ -10036,7 +10038,6 @@ zn.ua##^script:has-text("zmctrack")
 ||yandex.ru^$third-party,badfilter
 ||yastatic.net,yandex.ru$font,important
 ||yastatic.net/*/zen-lib/$important
-||yastatic.net/react/*/react-with-dom.min.js$important
 ||yastatic.net/s3/bro-bg-store^$important
 ||yastatic.net/s3/chat-static^$important
 ||yastatic.net/s3/distribution^$important
