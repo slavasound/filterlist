@@ -21,6 +21,16 @@
 #@##back-to-top-icon
 #@##badge-facebook-like
 #@##badge-twitter
+yandex.ru##.head-promo-plus__title
+yandex.ru##.head-promo-plus__icon
+yandex.ru##.favorites__icon
+||yandex.ru/portal/set/any/$domain=yandex.ru
+yandex.ru##.home-arrow__bottom
+yandex.ru##iframe
+yandex.ru##div.container.rows:first-child > div.row.rows__row.rows__row_main:nth-child(3) > div.desk-notif__wrapper:first-child > div.desk-notif.i-bem.desk-notif_js_inited > div.desk-notif-card.desk-notif-card_domik_yes.desk-notif-card_icon_no.desk-notif-card_details_yes.desk-notif-card_actions_no.desk-notif-card_expanded_yes.desk-notif-card_has-mail_yes.desk-notif-card_bg_default.i-bem.desk-notif-card_js_inited:first-child > div.desk-notif-card__card:first-child > div.desk-notif-card__details:last-child > div.desk-notif-card__toggled:nth-child(2) > div.desk-notif-card__domik-item:last-child > a.home-link.home-link_intense-blue_yes
+yandex.ru##div.container.rows:first-child > div.row.rows__row.rows__row_main:nth-child(3) > div.desk-notif__wrapper:first-child > div.desk-notif.i-bem.desk-notif_js_inited > div.desk-notif-card.desk-notif-card_sport_yes.desk-notif-card_icon_no.desk-notif-card_details_yes.desk-notif-card_actions_yes.desk-notif-card_minified_yes.desk-notif-card_animated_yes.desk-notif-card_bg_default.i-bem.desk-notif-card_js_inited.desk-notif-card_match-result_yes:last-child > div.desk-notif-card__card.i-swipe-controller:first-child
+twitch.tv###root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height:nth-child(2) > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative:last-child > div.right-column.right-column--beside.right-column--theatre.tw-block.tw-fixed.tw-flex-shrink-0.tw-full-height.tw-right-0.tw-top-0:last-child > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative:first-child > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.room-selector.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-full-width.tw-relative:last-child > section.chat-room.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-shrink-1.tw-full-width:nth-child(2) > div.chat-room__content.tw-c-text-base.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-relative > div.tw-z-default:first-child > div.pinned-cheer-v2.tw-z-default
+^fuckadblock.$domain=~github.com,badfilter
 #@##badge_twitter
 #@##base64-share-facebook
 #@##base64-share-twitter
