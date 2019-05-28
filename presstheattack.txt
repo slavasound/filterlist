@@ -19,6 +19,8 @@
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
 #@##back-to-top-icon
+/^https?:\/\/www\.wp.pl\/[^\s]{470,}\D/$script,domain=www.wp.pl
+www.twitch.tv##.pl-notif
 #@##badge-facebook-like
 #@##badge-twitter
 yandex.ru##.head-promo-plus__title
