@@ -25,6 +25,12 @@ www.twitch.tv##.pl-notif
 #@##badge-twitter
 yandex.ru##.head-promo-plus__title
 yandex.ru##.head-promo-plus__icon
+www.twitch.tv##.tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header
+www.twitch.tv##.player-alert
+www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
+www.twitch.tv##.tw-relative.prime-offers > .tw-relative
+www.twitch.tv##.tw-relative.prime-offers
+www.twitch.tv##a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
 yandex.ru##.favorites__icon
 ||yandex.ru/portal/set/any/$domain=yandex.ru
 yandex.ru##.home-arrow__bottom
