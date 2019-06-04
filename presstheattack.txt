@@ -18,6 +18,8 @@
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
+/social/tw.$badfilter
+/social/fb.$badfilter
 #@##back-to-top-icon
 /^https?:\/\/www\.wp.pl\/[^\s]{470,}\D/$script,domain=www.wp.pl
 www.twitch.tv##.pl-notif
