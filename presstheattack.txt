@@ -14,6 +14,9 @@
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
 #@##article-social-facebook
+twitch.tv##.tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1
+*/service-worker.js$important,script,redirect=noopjs
+*/sw.js$important,script,redirect=noopjs
 #@##article-social-twitter
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
