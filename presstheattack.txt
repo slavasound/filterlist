@@ -29,6 +29,10 @@ www.twitch.tv##.pl-notif
 #@##badge-facebook-like
 #@##badge-twitter
 yandex.ru##.head-promo-plus__title
+fakedrivingschool.com###catfish-banner
+twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay
+vk.com###stl_left
+vk.com###stl_side
 yandex.ru##.head-promo-plus__icon
 www.twitch.tv##.tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header
 www.twitch.tv##.player-alert
