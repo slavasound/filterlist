@@ -9703,6 +9703,7 @@ qaru.site##.wraptip
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/div[1]/div[2])
 rambler.ru##:xpath(/html[1]/body[1]/div[1]/div[1]/main[1]/div[4]/header[1]/div[2]/div[1]/div[10])
 rambler.ru##^script:has-text((Number,)
+rambler.ru##+js(set-constant.js, Math.random, trueFunc)
 translate.ru##.topAdv.row
 translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
@@ -9785,7 +9786,7 @@ www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-inte
 www.twitch.tv##a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
 www.twitch.tv##button.pl-button--icon.pl-button--follow.pl-button
 yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
-yandex.*,kinopoisk.ru##+js(abort-on-property-read.js, advBlock)
+yandex.*,kinopoisk.ru,mail.ru##+js(abort-on-property-read.js, advBlock)
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
 yandex.ru##+js(abort-on-property-read.js, Ya.Direct)
