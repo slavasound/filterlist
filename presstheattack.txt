@@ -9701,7 +9701,6 @@ otvet.mail.ru##+js(remove-inline-script.js, adblock)
 pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog']//div[@data-test-id='signup']//div//div//h3[contains(text(),'Бесплатный аккаунт открывает доступ к нашим лучшим')])
 qaru.site##.wraptip
 rambler.ru##+js(set-constant.js, Math.random, trueFunc)
-rambler.ru##+js(remove-inline-script.js, __capirs_script)
 translate.ru##.topAdv.row
 translate.yandex.ru###collectionsWrapper > .overlay-content
 translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collections'])
@@ -9783,11 +9782,10 @@ www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-inte
 www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 www.twitch.tv##a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
 www.twitch.tv##button.pl-button--icon.pl-button--follow.pl-button
-yandex.*#%#AG_removeCookie('/blcrm|bltsr|^my\$|^mda\$/');
 yandex.*,kinopoisk.ru,mail.ru##+js(abort-on-property-read.js, advBlock)
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
 yandex.by,yandex.ru,yandex.ua##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
-yandex.ru##+js(abort-on-property-read.js, Ya.Direct)
+yandex.*##+js(abort-on-property-read.js, Ya.Direct)
 yandex.ru##.favorites__icon
 yandex.ru##.head-promo-plus__icon
 yandex.ru##.head-promo-plus__title
