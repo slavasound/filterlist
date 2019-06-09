@@ -20,6 +20,8 @@
 #@##back-to-top-icon
 #@##badge-facebook-like
 #@##badge-twitter
+vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
+youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 #@##badge_twitter
 #@##base64-share-facebook
 #@##base64-share-twitter
