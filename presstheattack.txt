@@ -1142,8 +1142,8 @@
 #@#.fa-twitter-square
 #@#.fa-youtube-square
 #@#.faceBookButton
-#@#.facebook
 #@#.facebook2
+#@#.facebook
 #@#.facebook28Ico
 #@#.facebook-24x24
 #@#.facebook--like
@@ -1437,9 +1437,9 @@
 #@#.fixed-share-bar
 #@#.fixed-soc-icon
 #@#.flare-button-icon
-#@#.flaticon-facebook
 #@#.flaticon-facebook2
 #@#.flaticon-facebook3
+#@#.flaticon-facebook
 #@#.flaticon-linkedin1
 #@#.flattr-button
 #@#.flexi-social-connect
@@ -1771,8 +1771,8 @@
 #@#.icomoon-facebook2
 #@#.icomoon-facebook
 #@#.icomoon-instagram
-#@#.icomoon-twitter2
 #@#.icomoon-twitter
+#@#.icomoon-twitter2
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -1844,8 +1844,8 @@
 #@#.icon-fb-small
 #@#.icon-fb-square
 #@#.icon-fb-white
-#@#.icon-feed2
 #@#.icon-feed
+#@#.icon-feed2
 #@#.icon-feed-white
 #@#.icon-flickr
 #@#.icon-flipboard
@@ -1957,8 +1957,8 @@
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share
 #@#.icon-share2
+#@#.icon-share
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -2011,9 +2011,9 @@
 #@#.icon-tweet
 #@#.icon-twitch
 #@#.icon-twitter2
+#@#.icon-twitter
 #@#.icon-twitter3
 #@#.icon-twitter16
-#@#.icon-twitter
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box2
 #@#.rss_box
+#@#.rss_box2
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -3066,8 +3066,8 @@
 #@#.social-header
 #@#.social-height
 #@#.social-helpers
-#@#.social-icon
 #@#.social-icon2
+#@#.social-icon
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -3392,9 +3392,9 @@
 #@#.sp_facebook
 #@#.sp_twitter
 #@#.sphinn-button-single
+#@#.sprite-facebook15x15
 #@#.sprite-facebook25x25
 #@#.sprite-facebook
-#@#.sprite-facebook15x15
 #@#.sprite-icon-fb
 #@#.sprite-icon-gp
 #@#.sprite-icon-rss
@@ -6887,6 +6887,7 @@
 /yt-icon.$badfilter
 /ytwitter_widget_$badfilter
 0.0.0.0 212.122.5.136
+2ch.hk##.logo
 ?partner=$document,badfilter
 @@#/nativendo/aid/*/cid/$elemhide,badfilter
 @@$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ,badfilter
@@ -9702,6 +9703,7 @@ tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay
 twitch.tv###root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height:nth-child(2) > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative:last-child > div.right-column.right-column--beside.right-column--theatre.tw-block.tw-fixed.tw-flex-shrink-0.tw-full-height.tw-right-0.tw-top-0:last-child > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative:first-child > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.room-selector.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-full-width.tw-relative:last-child > section.chat-room.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-shrink-1.tw-full-width:nth-child(2) > div.chat-room__content.tw-c-text-base.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-relative > div.tw-z-default:first-child > div.pinned-cheer-v2.tw-z-default
+twitch.tv##+js(eclick2.js, .player-button.qa-pause-play-button)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##.recommended-channels
 twitch.tv##.tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1
@@ -9763,6 +9765,7 @@ twitch.tv##a[href*="upskill.ru"]
 twitch.tv##a[href*="vk.cc"]>img
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex
 twitch.tv##div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative
+vk.com###profile_friends_recomm
 vk.com###stl_left
 vk.com###stl_side
 vk.com##+js(autoplay-defuser.js)
