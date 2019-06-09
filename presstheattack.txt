@@ -9672,11 +9672,12 @@ infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
 kinogo.by##.social_buttons
 kinopoisk.ru##+js(remove-inline-script.js, window.Metrika)
+vk.com##+js(autoplay-defuser.js)
 kinopoisk.ru##+js(remove-inline-style.js, __brandingCss)
 kinopoisk.ru##.adfox.adfox_theme_default
 kinopoisk.ru##.header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item
 kinopoisk.ru##a[href*="//zen.yandex.ru/"]
-kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV > a[href="https://yandex.ru/support/common/troubleshooting/yandex-in-adblock.html"]
+kinopoisk.ru##div > a[href*="/yandex-in-adblock.html"]
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DIV[class*="adblock-warning"]
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="toaster"] > DIV[class*="adblock-warning"]
 kinopoisk.ru##html > body.svg-background_yes > DIV.feature_promo.feature_promo-active.feature_promo-animate
@@ -9690,7 +9691,6 @@ mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.g
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix
 music.yandex.ru##.sidebar__under
 music.yandex.ru##:xpath(//div[@class='sidebar__under'])
-music.yandex.ru##:xpath(/html[1]/body[1]/div[7]/div[6]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1])
 music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
 novinky.cz##+js(addEventListener-defuser.js, /^(beforeunload|load)$/)
 novinky.cz##+js(cookie-remover.js)
