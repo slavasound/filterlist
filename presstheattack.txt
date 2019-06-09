@@ -12,6 +12,7 @@
 #@##app_container_outer + div[style]
 #@##article-detail-social-icons
 #@##article-headline-facebook
+||disqus.com/embed.js$script,badfilter
 #@##article-sidebar-action-facebook
 #@##article-social-facebook
 twitch.tv##.tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1
