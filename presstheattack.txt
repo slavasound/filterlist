@@ -23,6 +23,9 @@
 vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
 youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 #@##badge_twitter
+vk.com##.apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block
+music.yandex.ru##.notify_shown.deco-tooltip_notify
+music.yandex.ru##.teaser
 #@##base64-share-facebook
 #@##base64-share-twitter
 #@##base64-share-vk
