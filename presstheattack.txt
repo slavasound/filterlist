@@ -20,12 +20,7 @@
 #@##back-to-top-icon
 #@##badge-facebook-like
 #@##badge-twitter
-vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
-youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 #@##badge_twitter
-vk.com##.apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block
-music.yandex.ru##.notify_shown.deco-tooltip_notify
-music.yandex.ru##.teaser
 #@##base64-share-facebook
 #@##base64-share-twitter
 #@##base64-share-vk
@@ -399,8 +394,8 @@ music.yandex.ru##.teaser
 #@##share-twitter
 #@##share-twitter-menu
 #@##share-youtube
-#@##share_facebook2
 #@##share_facebook
+#@##share_facebook2
 #@##share_facebook_trigger
 #@##share_feed
 #@##share_icon
@@ -447,8 +442,8 @@ music.yandex.ru##.teaser
 #@##social-media-icons-container
 #@##social-networking-icons-round
 #@##social-rss
-#@##social-twitter
 #@##social-twitter32x32
+#@##social-twitter
 #@##social-youtube
 #@##socialMedia-facebook
 #@##socialMedia-twitter
@@ -1147,8 +1142,8 @@ music.yandex.ru##.teaser
 #@#.fa-twitter-square
 #@#.fa-youtube-square
 #@#.faceBookButton
-#@#.facebook2
 #@#.facebook
+#@#.facebook2
 #@#.facebook28Ico
 #@#.facebook-24x24
 #@#.facebook--like
@@ -1442,9 +1437,9 @@ music.yandex.ru##.teaser
 #@#.fixed-share-bar
 #@#.fixed-soc-icon
 #@#.flare-button-icon
-#@#.flaticon-facebook2
 #@#.flaticon-facebook3
 #@#.flaticon-facebook
+#@#.flaticon-facebook2
 #@#.flaticon-linkedin1
 #@#.flattr-button
 #@#.flexi-social-connect
@@ -1773,8 +1768,8 @@ music.yandex.ru##.teaser
 #@#.ico__youtube
 #@#.ico_facebook
 #@#.ico_twitter
-#@#.icomoon-facebook2
 #@#.icomoon-facebook
+#@#.icomoon-facebook2
 #@#.icomoon-instagram
 #@#.icomoon-twitter
 #@#.icomoon-twitter2
@@ -1843,14 +1838,14 @@ music.yandex.ru##.teaser
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb2
 #@#.icon-fb
+#@#.icon-fb2
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
 #@#.icon-fb-white
-#@#.icon-feed
 #@#.icon-feed2
+#@#.icon-feed
 #@#.icon-feed-white
 #@#.icon-flickr
 #@#.icon-flipboard
@@ -1862,8 +1857,8 @@ music.yandex.ru##.teaser
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus2
 #@#.icon-google-plus
+#@#.icon-google-plus2
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -1871,8 +1866,8 @@ music.yandex.ru##.teaser
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
-#@#.icon-googleplus8
 #@#.icon-googleplus
+#@#.icon-googleplus8
 #@#.icon-googleplus16
 #@#.icon-googleplus-white
 #@#.icon-gp
@@ -1904,8 +1899,8 @@ music.yandex.ru##.teaser
 #@#.icon-instagramm
 #@#.icon-ion-android-share-alt
 #@#.icon-link--share
-#@#.icon-linkedin
 #@#.icon-linkedin2
+#@#.icon-linkedin
 #@#.icon-linkedin-box
 #@#.icon-linkedin-circled
 #@#.icon-linkedin-sign
@@ -1947,8 +1942,8 @@ music.yandex.ru##.teaser
 #@#.icon-pocket
 #@#.icon-polyvore
 #@#.icon-post-share
-#@#.icon-reddit
 #@#.icon-reddit2
+#@#.icon-reddit
 #@#.icon-rss
 #@#.icon-rss-mini
 #@#.icon-rss-round
@@ -2817,8 +2812,8 @@ music.yandex.ru##.teaser
 #@#.share_facebook
 #@#.share_group
 #@#.share_icon
-#@#.share_icons
 #@#.share_icons1
+#@#.share_icons
 #@#.share_icons_big
 #@#.share_icons_container
 #@#.share_inline_header
@@ -3201,8 +3196,8 @@ music.yandex.ru##.teaser
 #@#.social-twitter
 #@#.social-twitter-link
 #@#.social-utils-top
-#@#.social-v
 #@#.social-v3-twitter
+#@#.social-v
 #@#.social-vk
 #@#.social-white__rss
 #@#.social-widget
@@ -3333,8 +3328,8 @@ music.yandex.ru##.teaser
 #@#.socialbadge
 #@#.socialbarwrapper
 #@#.socialbkmark
-#@#.socialbox
 #@#.socialbox2
+#@#.socialbox
 #@#.socialbtns
 #@#.socialbutton--facebook
 #@#.socialbutton--twitter
@@ -3397,9 +3392,9 @@ music.yandex.ru##.teaser
 #@#.sp_facebook
 #@#.sp_twitter
 #@#.sphinn-button-single
+#@#.sprite-facebook
 #@#.sprite-facebook15x15
 #@#.sprite-facebook25x25
-#@#.sprite-facebook
 #@#.sprite-icon-fb
 #@#.sprite-icon-gp
 #@#.sprite-icon-rss
@@ -4188,8 +4183,8 @@ music.yandex.ru##.teaser
 #@#@#.bfanbox
 #@#@#.blike
 #@#@#.blikebg
-#@#@#.blikebot
 #@#@#.blikebot123
+#@#@#.blikebot
 #@#@#.blikepop
 #@#@#.bout-edition-social
 #@#@#.brecommend
@@ -4625,8 +4620,8 @@ music.yandex.ru##.teaser
 #@#@#.ocialNav
 #@#@#.ocialNetworkIconContainer
 #@#@#.ocialNetworkingBar
-#@#@#.ocialNetworks
 #@#@#.ocialNetworks2
+#@#@#.ocialNetworks
 #@#@#.ocialSidebar
 #@#@#.ocialSiteSites
 #@#@#.ocialTools
@@ -9693,7 +9688,9 @@ mail.ru##div#grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__mai
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid-down.grid__container.i-clearfix > div.grid__lcol.i-pull-left > div.well.notify.i-link-no-deco.i-absolute.m-bordered.m-animated-shadow.m-animated-borderless
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix
+music.yandex.ru##.notify_shown.deco-tooltip_notify
 music.yandex.ru##.sidebar__under
+music.yandex.ru##.teaser
 music.yandex.ru##:xpath(//div[@class='sidebar__under'])
 music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
 openload.co,oload.*##+js(eclick.js, #videooverlay)
@@ -9713,6 +9710,7 @@ twitch.tv##+js(twitch-videoad.js)
 twitch.tv##.recommended-channels
 twitch.tv##.tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1
 twitch.tv##.tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b
+twitch.tv##.tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0
 twitch.tv##.tw-z-default.pinned-cheer-v2
 twitch.tv##a[href*="&BannerId="]
 twitch.tv##a[href*="&bonus="]
@@ -9774,6 +9772,8 @@ vk.com###profile_friends_recomm
 vk.com###stl_left
 vk.com###stl_side
 vk.com##+js(autoplay-defuser.js)
+vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
+vk.com##.apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block
 vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
 vk.com##div#ads_left
 www.twitch.tv##.pl-notif
@@ -9814,6 +9814,7 @@ yandex.ru##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_d
 yandex.ru##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_desktop.i-ua_platform_windows.utilityfocus.m-stat > body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_main > div.col.main.widgets > div.container.container__banner.container__line
 yandex.ru##iframe
 yandex.ru,yandex.ua,yandex.by##:xpath(//div[@class='serp-item']//div[@class='composite composite_gap_s composite_separated_no']):has-text(Реклама)
+youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 youtube.com##div#masthead-ad.style-scope.ytd-browse
 youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.video-ads.ytp-ad-module
 youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-ad-persistent-progress-bar-container
@@ -9839,6 +9840,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 zn.ua###myModal
 zn.ua##^script:has-text("zmctrack")
 |http*:*^stat_$badfilter
+|http:*-ad-$badfilter
 |http://ad.$badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
 ||8ch.net^$badfilter
