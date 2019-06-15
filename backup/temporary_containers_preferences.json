@@ -1,6 +1,6 @@
 {
-  "version": "0.97",
-  "date": 1557899068370,
+  "version": "0.98",
+  "date": 1560564896074,
   "preferences": {
     "automaticMode": {
       "active": false,
@@ -13,14 +13,14 @@
       "colorRandom": true,
       "icon": "circle",
       "iconRandom": true,
-      "numberMode": "keep",
+      "numberMode": "reuse",
       "removal": "instant"
     },
     "iconColor": "black-simple",
     "isolation": {
       "global": {
         "navigation": {
-          "action": "never"
+          "action": "always"
         },
         "mouseClick": {
           "middle": {
@@ -48,7 +48,7 @@
     "contextMenu": false,
     "keyboardShortcuts": {
       "AltC": false,
-      "AltP": true,
+      "AltP": false,
       "AltN": false,
       "AltShiftC": false,
       "AltX": false

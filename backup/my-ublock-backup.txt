@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1559624752442,
+  "timeStamp": 1560564650564,
   "version": "1.19.7rc0",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://adblock.dk/block.csv\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
+    "externalLists": "https://adblock.dk/block.csv\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/master/AdBlockID/adservers.adbl\nhttps://raw.githubusercontent.com/realodix/AdBlockID/master/addons/resource-abuse.adbl\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -86,7 +86,9 @@
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt"
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt",
+    "https://raw.githubusercontent.com/realodix/AdBlockID/master/AdBlockID/adservers.adbl",
+    "https://raw.githubusercontent.com/realodix/AdBlockID/master/addons/resource-abuse.adbl"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -112,7 +114,7 @@
     "userResourcesLocation": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt"
   },
   "netWhitelist": "about-scheme\nmoz-extension-scheme",
-  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop\n* local.adguard.org * allow",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true\nno-scripting: view-source-scheme true",
   "userFilters": ""

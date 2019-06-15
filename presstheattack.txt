@@ -1768,8 +1768,8 @@
 #@#.ico__youtube
 #@#.ico_facebook
 #@#.ico_twitter
-#@#.icomoon-facebook
 #@#.icomoon-facebook2
+#@#.icomoon-facebook
 #@#.icomoon-instagram
 #@#.icomoon-twitter
 #@#.icomoon-twitter2
@@ -1857,8 +1857,8 @@
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus
 #@#.icon-google-plus2
+#@#.icon-google-plus
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -1899,8 +1899,8 @@
 #@#.icon-instagramm
 #@#.icon-ion-android-share-alt
 #@#.icon-link--share
-#@#.icon-linkedin2
 #@#.icon-linkedin
+#@#.icon-linkedin2
 #@#.icon-linkedin-box
 #@#.icon-linkedin-circled
 #@#.icon-linkedin-sign
@@ -2011,9 +2011,9 @@
 #@#.icon-tweet
 #@#.icon-twitch
 #@#.icon-twitter2
+#@#.icon-twitter16
 #@#.icon-twitter
 #@#.icon-twitter3
-#@#.icon-twitter16
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2812,8 +2812,8 @@
 #@#.share_facebook
 #@#.share_group
 #@#.share_icon
-#@#.share_icons1
 #@#.share_icons
+#@#.share_icons1
 #@#.share_icons_big
 #@#.share_icons_container
 #@#.share_inline_header
@@ -3392,9 +3392,9 @@
 #@#.sp_facebook
 #@#.sp_twitter
 #@#.sphinn-button-single
-#@#.sprite-facebook
 #@#.sprite-facebook15x15
 #@#.sprite-facebook25x25
+#@#.sprite-facebook
 #@#.sprite-icon-fb
 #@#.sprite-icon-gp
 #@#.sprite-icon-rss
@@ -9869,6 +9869,7 @@ zn.ua##^script:has-text("zmctrack")
 ||ccleaner.com/auto^$important,app=CCleaner64.exe
 ||cdn.ap.bittorrent.com/control/feature/tags/ut.json$important,app=uTorrent.exe
 ||cdn.ap.bittorrent.com/control/tags^$important,app=uTorrent.exe
+||cdn.jsdelivr.net^$badfilter
 ||ciscobinary.openh264.org/openh264-win32-*.zip$important,app=firefox.exe
 ||clients*.google.com^$important,domain=~drive.google.com
 ||clientservices.googleapis.com^$important
