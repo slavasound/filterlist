@@ -10007,7 +10007,9 @@ zn.ua##^script:has-text("zmctrack")
 ||referrer.disqus.com^$important,badfilter
 ||reklama.mail.ru^$important
 ||resize.yandex.net^$image,domain=yandex.ru,important
-||rs.mail.ru^$domain=~account.mail.ru,important
+||rs.mail.ru^$important
+||r3.mail.ru^$important
+||r0.mail.ru^$important
 ||sba.cdn.yandex.net/csd^$important
 ||sba.yandex.net^$important
 ||sec.api.browser.yandex.ru^$important
