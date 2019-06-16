@@ -26,6 +26,9 @@
 #@##base64-share-vk
 #@##blgtwitter
 #@##block-boxes-facebook
+twitter.com#@#.tooltip-inner
+||twitter.com/*/trends$important,badfilter
+-popunder^$document,badfilter
 #@##block-boxes-facebookrecentactivity
 #@##block-bulletin-facebook-activity-feed
 #@##block-custom_blocks-facebook_twitter_widgets
@@ -9718,6 +9721,7 @@ twitch.tv##a[href*=".click"]
 twitch.tv##a[href*=".com/ad/"]
 twitch.tv##a[href*=".gg"]
 twitch.tv##a[href*=".net/ad/"]
+twitch.tv##a[href*="starladder.com"]
 twitch.tv##a[href*=".org/ad/"]
 twitch.tv##a[href*=".ru/ad/"]
 twitch.tv##a[href*="/?r="]
