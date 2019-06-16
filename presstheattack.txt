@@ -1844,8 +1844,8 @@
 #@#.icon-fb-small
 #@#.icon-fb-square
 #@#.icon-fb-white
-#@#.icon-feed2
 #@#.icon-feed
+#@#.icon-feed2
 #@#.icon-feed-white
 #@#.icon-flickr
 #@#.icon-flipboard
@@ -1922,8 +1922,8 @@
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
-#@#.icon-pinterest
 #@#.icon-pinterest3
+#@#.icon-pinterest
 #@#.icon-pinterest16
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
@@ -1957,8 +1957,8 @@
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share
 #@#.icon-share2
+#@#.icon-share
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -2010,10 +2010,10 @@
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
-#@#.icon-twitter
 #@#.icon-twitter2
-#@#.icon-twitter3
+#@#.icon-twitter
 #@#.icon-twitter16
+#@#.icon-twitter3
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -3066,8 +3066,8 @@
 #@#.social-header
 #@#.social-height
 #@#.social-helpers
-#@#.social-icon
 #@#.social-icon2
+#@#.social-icon
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -3995,8 +3995,8 @@
 #@#.wl-ico-facebook
 #@#.wl-ico-twitter
 #@#.wp-graphics-social-tools
-#@#.wp-post-share
 #@#.wp-post-share2
+#@#.wp-post-share
 #@#.wp-share
 #@#.wp-social-icons
 #@#.wpa-social-icons
@@ -4630,8 +4630,8 @@
 #@#@#.ocialWidget
 #@#@#.ocialWidgetLinks
 #@#@#.ocialWire
-#@#@#.ocialWrapper
 #@#@#.ocialWrapper2
+#@#@#.ocialWrapper
 #@#@#.ocial_Box
 #@#@#.ocial_bar
 #@#@#.ocial_body
@@ -9684,6 +9684,7 @@ kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV > DIV > DI
 kinopoisk.ru##div#partial_component__header-topline > DIV > DIV > DIV[class*="toaster"] > DIV[class*="adblock-warning"]
 kinopoisk.ru##html > body.svg-background_yes > DIV.feature_promo.feature_promo-active.feature_promo-animate
 kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
+kinopoisk.ru#%#//scriptlet("abort-current-inline-script", "window.Metrika")
 mail.ru###projects
 mail.ru##.i-pull-right.grid__rcol_aside.grid__rcol
 mail.ru##.o-media__body, .news-item__body, .news-item__body_fade
@@ -9692,6 +9693,7 @@ mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.g
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix
 music.yandex.ru##.notify_shown.deco-tooltip_notify
+music.yandex.ru##.page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line
 music.yandex.ru##.sidebar__under
 music.yandex.ru##.teaser
 music.yandex.ru##:xpath(//div[@class='sidebar__under'])
@@ -9707,7 +9709,6 @@ translate.yandex.ru##:xpath(//span[@class='button button_icon button_icon_collec
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
 twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay
-twitch.tv###root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height:nth-child(2) > div.tw-flex.tw-flex-nowrap.tw-full-height.tw-overflow-hidden.tw-relative:last-child > div.right-column.right-column--beside.right-column--theatre.tw-block.tw-fixed.tw-flex-shrink-0.tw-full-height.tw-right-0.tw-top-0:last-child > div.tw-block.tw-flex-grow-0.tw-flex-shrink-0.tw-full-height.tw-relative:first-child > div.channel-root__right-column.tw-border-l.tw-flex.tw-flex-column.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-full-height > div.room-selector.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-full-width.tw-relative:last-child > section.chat-room.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-shrink-1.tw-full-width:nth-child(2) > div.chat-room__content.tw-c-text-base.tw-flex.tw-flex-column.tw-flex-grow-1.tw-flex-nowrap.tw-full-height.tw-relative > div.tw-z-default:first-child > div.pinned-cheer-v2.tw-z-default
 twitch.tv##+js(eclick2.js, .player-button.qa-pause-play-button)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##.recommended-channels
@@ -9785,7 +9786,6 @@ www.twitch.tv##.pl-notif
 www.twitch.tv##.player-alert
 www.twitch.tv##.tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header
 www.twitch.tv##.tw-relative.prime-offers
-www.twitch.tv##.tw-relative.prime-offers > .tw-relative
 www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 www.twitch.tv##a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
@@ -9807,7 +9807,6 @@ yandex.ru##.rows__row_last.rows__row.row
 yandex.ru##:xpath(//div[contains(@class,'desk-notif-card  desk-notif-card_stickers_yes desk-notif-card_icon_no desk-notif-card_details_no desk-notif-card_actions_yes desk-notif-card_minified_yes desk-notif-card_animated_yes i-bem desk-notif-card_js_inited')])
 yandex.ru##:xpath(//span[@data-lego='react'][contains(.,'Будьте в Плюсе')])
 yandex.ru##body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_main > div.col.main.widgets > div.container.container__heap.container__line.heap.heap_direction_column
-yandex.ru##div#banner.b-banner__content > div.b-banner__wrap > iframe.banner-iframe[src^="https://awaps.yandex.net/"]
 yandex.ru##div.container.rows:first-child > div.row.rows__row.rows__row_main:nth-child(3) > div.desk-notif__wrapper:first-child > div.desk-notif.i-bem.desk-notif_js_inited > div.desk-notif-card.desk-notif-card_domik_yes.desk-notif-card_icon_no.desk-notif-card_details_yes.desk-notif-card_actions_no.desk-notif-card_expanded_yes.desk-notif-card_has-mail_yes.desk-notif-card_bg_default.i-bem.desk-notif-card_js_inited:first-child > div.desk-notif-card__card:first-child > div.desk-notif-card__details:last-child > div.desk-notif-card__toggled:nth-child(2) > div.desk-notif-card__domik-item:last-child > a.home-link.home-link_intense-blue_yes
 yandex.ru##div.container.rows:first-child > div.row.rows__row.rows__row_main:nth-child(3) > div.desk-notif__wrapper:first-child > div.desk-notif.i-bem.desk-notif_js_inited > div.desk-notif-card.desk-notif-card_sport_yes.desk-notif-card_icon_no.desk-notif-card_details_yes.desk-notif-card_actions_yes.desk-notif-card_minified_yes.desk-notif-card_animated_yes.desk-notif-card_bg_default.i-bem.desk-notif-card_js_inited.desk-notif-card_match-result_yes:last-child > div.desk-notif-card__card.i-swipe-controller:first-child
 yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus > body.b-page.b-page_type_index.b-page_align_center.i-metrika.detect-scripts.b-page__body.i-ua.i-global.i-bem.b-page_js_inited.i-global_js_inited.detect-scripts_js_inited.i-ua_platform_other.i-ua_js_inited > div.b-page__container > div.adv.adv_pos_popup
@@ -9851,6 +9850,7 @@ zn.ua##^script:has-text("zmctrack")
 |http://ad.$badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
 ||8ch.net^$badfilter
+||ad.mail.ru^$important
 ||addons-media.operacdn.com/media/CACHE^$important,app=opera.exe
 ||addons.opera.com/themes/api^$important,app=opera.exe
 ||an.yandex.ru^$important
@@ -9867,7 +9867,9 @@ zn.ua##^script:has-text("zmctrack")
 ||apps.bittorrent.com/utorrent-onboarding/player.btapp$important,app=uTorrent.exe
 ||autoupdate.geo.opera.com/$important
 ||autoupdate.geo.opera.com/geolocation/$important,app=opera.exe
+||awaps.yandex.net^$important
 ||awaps.yandex.ru^$important
+||awsync.yandex.ru^$important
 ||bench.utorrent.com^$important,app=uTorrent.exe
 ||blocklist.palemoon.org/*/blocklist.xml$important,app=palemoon.exe
 ||blogsmithmedia.com^*facebook$image,badfilter
@@ -9960,8 +9962,8 @@ zn.ua##^script:has-text("zmctrack")
 ||google.com/translate_a/element.js?cb=googletranslateelementinit|$badfilter
 ||google.com^*/fastbutton?$third-party,badfilter
 ||googleapis.com/chromewebstore/*/items/verify$important,app=chrome.exe
-||googlesyndication.com^$important,badfilter
-||googletagmanager.com^$important,badfilter
+||googlesyndication.com^$important
+||googletagmanager.com^$important
 ||graph.facebook.com/fql?q=SELECT$third-party,badfilter
 ||gravatar.com^$important,third-party,badfilter
 ||gstatic.com/*/cleardot.gif$important,badfilter
@@ -9973,9 +9975,7 @@ zn.ua##^script:has-text("zmctrack")
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
 ||main.zdevx.yandex.ru^$important
-||mc.yandex.ru/metrika^$important
-||mc.yandex.ru/watch^$important
-||mc.yandex.ru/webvisor^$important
+||mc.yandex.ru^$important
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
 ||metrika.yandex.$third-party,badfilter
@@ -10005,7 +10005,9 @@ zn.ua##^script:has-text("zmctrack")
 ||pr-cy.ru^$badfilter
 ||rambler.ru^$third-party,badfilter
 ||referrer.disqus.com^$important,badfilter
+||reklama.mail.ru^$important
 ||resize.yandex.net^$image,domain=yandex.ru,important
+||rs.mail.ru^$domain=~account.mail.ru,important
 ||sba.cdn.yandex.net/csd^$important
 ||sba.yandex.net^$important
 ||sec.api.browser.yandex.ru^$important
@@ -10030,7 +10032,9 @@ zn.ua##^script:has-text("zmctrack")
 ||store.yahoo.net^*/facebook.png$third-party,badfilter
 ||syndication.twimg.com/widgets/$third-party,badfilter
 ||thepiratebay.org^$badfilter
+||tns-counter.ru^$important
 ||tools.google.com/service^$important,app=chrome.exe
+||top-fwz1.mail.ru^$important
 ||torrent-soft.net$inline-script,important
 ||translate.googleapis.com/translate_a/$important,app=chrome.exe
 ||tumblr.com^$important,third-party,domain=~media.tumblr.com,badfilter
@@ -10080,7 +10084,9 @@ zn.ua##^script:has-text("zmctrack")
 ||www.facebook.com^$domain=~facebook.com,badfilter
 ||www.statcounter.com^$badfilter
 ||www.youtube-nocookie.com^$badfilter
+||xray.mail.ru^$important
 ||yabs.yandex.ru^$important
+||yadro.ru^$important
 ||yandex.net/images/film_background/*$image,domain=kinopoisk.ru
 ||yandex.ru/metrika/$badfilter
 ||yandex.ru/metrika/$domain=~metrika.yandex.ru|~metrica.yandex.com
