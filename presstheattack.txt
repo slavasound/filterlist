@@ -1771,8 +1771,8 @@
 #@#.icomoon-facebook2
 #@#.icomoon-facebook
 #@#.icomoon-instagram
-#@#.icomoon-twitter
 #@#.icomoon-twitter2
+#@#.icomoon-twitter
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -2010,10 +2010,10 @@
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
-#@#.icon-twitter2
 #@#.icon-twitter
-#@#.icon-twitter16
+#@#.icon-twitter2
 #@#.icon-twitter3
+#@#.icon-twitter16
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box2
 #@#.rss_box
+#@#.rss_box2
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -4183,8 +4183,8 @@
 #@#@#.bfanbox
 #@#@#.blike
 #@#@#.blikebg
-#@#@#.blikebot123
 #@#@#.blikebot
+#@#@#.blikebot123
 #@#@#.blikepop
 #@#@#.bout-edition-social
 #@#@#.brecommend
@@ -5308,6 +5308,10 @@
 /addtogoogle.$badfilter
 /addtomyyahoo4.$badfilter
 /adsense/$badfilter
+/adsense/*$badfilter
+/adsense/*$domain=~analytics.google.com
+/adwords/*$badfilter
+/adwords/*$domain=~analytics.google.com
 /altClickToSearch.$badfilter
 /analytics/web/*$badfilter
 /app/social.$badfilter
@@ -9692,6 +9696,7 @@ mail.ru##div#grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__mai
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid-down.grid__container.i-clearfix > div.grid__lcol.i-pull-left > div.well.notify.i-link-no-deco.i-absolute.m-bordered.m-animated-shadow.m-animated-borderless
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix
+metrika.yandex.ru##.metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app
 music.yandex.ru##.notify_shown.deco-tooltip_notify
 music.yandex.ru##.page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line
 music.yandex.ru##.sidebar__under
@@ -9884,7 +9889,7 @@ zn.ua##^script:has-text("zmctrack")
 ||cdn.jsdelivr.net^$badfilter
 ||ciscobinary.openh264.org/openh264-win32-*.zip$important,app=firefox.exe
 ||clck.yandex.ru^$important
-||clients*.google.com^$important,domain=~drive.google.com
+||clients*.google.com^$important,domain=~drive.google.com|~analytics.google.com
 ||clientservices.googleapis.com^$important
 ||cliqz.com^$important,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
@@ -10003,13 +10008,13 @@ zn.ua##^script:has-text("zmctrack")
 ||platform.twitter.com/widgets/widget_iframe$badfilter
 ||platform.twitter.com^$badfilter
 ||pr-cy.ru^$badfilter
+||r0.mail.ru^$important
+||r3.mail.ru^$important
 ||rambler.ru^$third-party,badfilter
 ||referrer.disqus.com^$important,badfilter
 ||reklama.mail.ru^$important
 ||resize.yandex.net^$image,domain=yandex.ru,important
 ||rs.mail.ru^$important
-||r3.mail.ru^$important
-||r0.mail.ru^$important
 ||sba.cdn.yandex.net/csd^$important
 ||sba.yandex.net^$important
 ||sec.api.browser.yandex.ru^$important
