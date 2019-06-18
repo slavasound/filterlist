@@ -1922,8 +1922,8 @@
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
-#@#.icon-pinterest3
 #@#.icon-pinterest
+#@#.icon-pinterest3
 #@#.icon-pinterest16
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box
 #@#.rss_box2
+#@#.rss_box
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -2812,8 +2812,8 @@
 #@#.share_facebook
 #@#.share_group
 #@#.share_icon
-#@#.share_icons
 #@#.share_icons1
+#@#.share_icons
 #@#.share_icons_big
 #@#.share_icons_container
 #@#.share_inline_header
@@ -3066,8 +3066,8 @@
 #@#.social-header
 #@#.social-height
 #@#.social-helpers
-#@#.social-icon2
 #@#.social-icon
+#@#.social-icon2
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -3328,8 +3328,8 @@
 #@#.socialbadge
 #@#.socialbarwrapper
 #@#.socialbkmark
-#@#.socialbox
 #@#.socialbox2
+#@#.socialbox
 #@#.socialbtns
 #@#.socialbutton--facebook
 #@#.socialbutton--twitter
@@ -4630,8 +4630,8 @@
 #@#@#.ocialWidget
 #@#@#.ocialWidgetLinks
 #@#@#.ocialWire
-#@#@#.ocialWrapper2
 #@#@#.ocialWrapper
+#@#@#.ocialWrapper2
 #@#@#.ocial_Box
 #@#@#.ocial_bar
 #@#@#.ocial_body
@@ -9484,6 +9484,7 @@
 ^rum^$third-party,badfilter
 ^surveys^$third-party,badfilter
 ^surveys^$third-party,domain=~metrika.yandex.ru|~metrica.yandex.com
+^teaser^$badfilter
 _40x40_twitter.$badfilter
 _40x40_youtube.$badfilter
 _FollowUs.$badfilter
@@ -9948,6 +9949,7 @@ zn.ua##^script:has-text("zmctrack")
 ||facebook.com^*/plugins/subscribe?$third-party,badfilter
 ||facebook.com^*/quote.php?$third-party,badfilter
 ||facebookicon.net^$third-party,badfilter,badfilter
+||fbcdn.net/safe_image.php$important,badfilter
 ||fbtc-audio.freebitco.in^$badfilter
 ||features.opera-api.com/api^$important
 ||freebitco.in^$badfilter
@@ -9977,6 +9979,7 @@ zn.ua##^script:has-text("zmctrack")
 ||hentaihaven.org^$badfilter
 ||imgur.com/min/runslots.js$important,script,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
+||mabila.ua^$badfilter
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
 ||main.zdevx.yandex.ru^$important
