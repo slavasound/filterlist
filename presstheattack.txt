@@ -1838,8 +1838,8 @@
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb
 #@#.icon-fb2
+#@#.icon-fb
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
@@ -1922,9 +1922,9 @@
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
-#@#.icon-pinterest
 #@#.icon-pinterest3
 #@#.icon-pinterest16
+#@#.icon-pinterest
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -1942,8 +1942,8 @@
 #@#.icon-pocket
 #@#.icon-polyvore
 #@#.icon-post-share
-#@#.icon-reddit2
 #@#.icon-reddit
+#@#.icon-reddit2
 #@#.icon-rss
 #@#.icon-rss-mini
 #@#.icon-rss-round
@@ -1957,8 +1957,8 @@
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share2
 #@#.icon-share
+#@#.icon-share2
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box2
 #@#.rss_box
+#@#.rss_box2
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -3066,8 +3066,8 @@
 #@#.social-header
 #@#.social-height
 #@#.social-helpers
-#@#.social-icon
 #@#.social-icon2
+#@#.social-icon
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -3409,8 +3409,8 @@
 #@#.sprite-social-rss
 #@#.sprite-social-twitter
 #@#.sprite-social-youtube
-#@#.sprite-twitter25x25
 #@#.sprite-twitter
+#@#.sprite-twitter25x25
 #@#.sprite-twitter_16
 #@#.sprite-youtube
 #@#.sprite_condividi_facebook_button
@@ -3995,8 +3995,8 @@
 #@#.wl-ico-facebook
 #@#.wl-ico-twitter
 #@#.wp-graphics-social-tools
-#@#.wp-post-share2
 #@#.wp-post-share
+#@#.wp-post-share2
 #@#.wp-share
 #@#.wp-social-icons
 #@#.wpa-social-icons
@@ -4630,8 +4630,8 @@
 #@#@#.ocialWidget
 #@#@#.ocialWidgetLinks
 #@#@#.ocialWire
-#@#@#.ocialWrapper
 #@#@#.ocialWrapper2
+#@#@#.ocialWrapper
 #@#@#.ocial_Box
 #@#@#.ocial_bar
 #@#@#.ocial_body
@@ -5307,6 +5307,7 @@
 /addthis_widget.$badfilter
 /addtogoogle.$badfilter
 /addtomyyahoo4.$badfilter
+/ads.$badfilter
 /adsense/$badfilter
 /adsense/*$badfilter
 /adsense/*$domain=~analytics.google.com
@@ -6895,6 +6896,7 @@
 /ytwitter_widget_$badfilter
 0.0.0.0 212.122.5.136
 2ch.hk##.logo
+://ads.$badfilter
 ?partner=$document,badfilter
 @@#/nativendo/aid/*/cid/$elemhide,badfilter
 @@$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ,badfilter
@@ -6928,6 +6930,7 @@
 @@||ad.doubleclick.net/ddm/$image,domain=reddit.com,badfilter
 @@||addons.opera.com/ru/extensions/details/$document,badfilter
 @@||adfarm.mediaplex.com^$image,domain=reddit.com,badfilter
+@@||ads.google.com^$document,important
 @@||adsensecustomsearchads.com^*adsense/search/*ads.js|$badfilter
 @@||adsensecustomsearchads.com^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||ahui3c.com/?s=$elemhide,badfilter
@@ -9466,6 +9469,7 @@
 ^ads^$document,badfilter
 ^ads_$badfilter
 ^ads_$document,badfilter
+^advertising-$badfilter
 ^advertising^$badfilter
 ^analytics-$badfilter
 ^analytics.$domain=~analytics.twitter.com,badfilter
@@ -9672,6 +9676,7 @@ github.com##.js-notice-dismiss
 google.*#%#//scriptlet("ubo-remove-attr.js", "ping", "div[class] > a[ping]")
 google.com##div#bottomads
 health.mail.ru##.pm-toolbar__separator_last-in-group.pm-toolbar__separator.js-separator
+http://ads.*/$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~teleradiopadrepio.it|~tzetze.it|~reachadv.it|~mediaset.it,badfilter
 infourok.ru###aa-popup
 infourok.ru##+js(abort-on-property-read.js, document.oncontextmenu)
 infourok.ru##+js(abort-on-property-read.js, document.ondragstart)
@@ -9862,6 +9867,8 @@ zn.ua##^script:has-text("zmctrack")
 ||ad.mail.ru^$important
 ||addons-media.operacdn.com/media/CACHE^$important,app=opera.exe
 ||addons.opera.com/themes/api^$important,app=opera.exe
+||ads.$badfilter
+||ads.google.com^$badfilter
 ||an.yandex.*^$important
 ||analytics.google.com^$badfilter
 ||analytics.google.com^$third-party
