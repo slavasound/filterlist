@@ -1437,8 +1437,8 @@
 #@#.fixed-share-bar
 #@#.fixed-soc-icon
 #@#.flare-button-icon
-#@#.flaticon-facebook
 #@#.flaticon-facebook2
+#@#.flaticon-facebook
 #@#.flaticon-facebook3
 #@#.flaticon-linkedin1
 #@#.flattr-button
@@ -1866,9 +1866,9 @@
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
+#@#.icon-googleplus16
 #@#.icon-googleplus
 #@#.icon-googleplus8
-#@#.icon-googleplus16
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -3995,8 +3995,8 @@
 #@#.wl-ico-facebook
 #@#.wl-ico-twitter
 #@#.wp-graphics-social-tools
-#@#.wp-post-share
 #@#.wp-post-share2
+#@#.wp-post-share
 #@#.wp-share
 #@#.wp-social-icons
 #@#.wpa-social-icons
@@ -8747,6 +8747,7 @@
 @@||listings.surveysonlinegroup.com^*.cfm?$elemhide,badfilter
 @@||littlepet.cc/search/$elemhide,badfilter
 @@||local.com^$elemhide,badfilter
+@@||login.live.com^$document,important
 @@||lookany.com/search/$elemhide,badfilter
 @@||lookany.com^*/search/$elemhide,badfilter
 @@||looksmart.com^$elemhide,badfilter
@@ -9479,6 +9480,7 @@
 ^analytics^$badfilter
 ^analytics_$badfilter
 ^fuckadblock.$domain=~github.com,badfilter
+^landing.$third-party,badfilter
 ^logger.$badfilter
 ^logimpressions^$badfilter
 ^metrics^$badfilter
