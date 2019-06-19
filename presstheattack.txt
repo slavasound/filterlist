@@ -1142,8 +1142,8 @@
 #@#.fa-twitter-square
 #@#.fa-youtube-square
 #@#.faceBookButton
-#@#.facebook2
 #@#.facebook
+#@#.facebook2
 #@#.facebook28Ico
 #@#.facebook-24x24
 #@#.facebook--like
@@ -1814,9 +1814,9 @@
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
+#@#.icon-facebook
 #@#.icon-facebook2
 #@#.icon-facebook16
-#@#.icon-facebook
 #@#.icon-facebook-24
 #@#.icon-facebook-32
 #@#.icon-facebook-alt
@@ -1838,14 +1838,14 @@
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb
 #@#.icon-fb2
+#@#.icon-fb
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
 #@#.icon-fb-white
-#@#.icon-feed2
 #@#.icon-feed
+#@#.icon-feed2
 #@#.icon-feed-white
 #@#.icon-flickr
 #@#.icon-flipboard
@@ -1857,8 +1857,8 @@
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus2
 #@#.icon-google-plus
+#@#.icon-google-plus2
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -1957,8 +1957,8 @@
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share2
 #@#.icon-share
+#@#.icon-share2
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -2011,9 +2011,9 @@
 #@#.icon-tweet
 #@#.icon-twitch
 #@#.icon-twitter2
-#@#.icon-twitter3
 #@#.icon-twitter
 #@#.icon-twitter16
+#@#.icon-twitter3
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box
 #@#.rss_box2
+#@#.rss_box
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -3066,8 +3066,8 @@
 #@#.social-header
 #@#.social-height
 #@#.social-helpers
-#@#.social-icon2
 #@#.social-icon
+#@#.social-icon2
 #@#.social-icon-ar
 #@#.social-icon-background
 #@#.social-icon-bar
@@ -4620,8 +4620,8 @@
 #@#@#.ocialNav
 #@#@#.ocialNetworkIconContainer
 #@#@#.ocialNetworkingBar
-#@#@#.ocialNetworks2
 #@#@#.ocialNetworks
+#@#@#.ocialNetworks2
 #@#@#.ocialSidebar
 #@#@#.ocialSiteSites
 #@#@#.ocialTools
@@ -6900,6 +6900,7 @@
 2ch.hk##.logo
 ://ads.$badfilter
 ?partner=$document,badfilter
+?partner=$third-party,badfilter
 @@#/nativendo/aid/*/cid/$elemhide,badfilter
 @@$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ,badfilter
 @@$elemhide,sitekey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAOlUFqneVkVRi0X0yw6vwDnR4iay2IsP1OKzCdQfjFIMKjwwzJwhASIy24icvR7KGmJM9TVre/b1Gfh38UnZ02sCAwEAAQ,badfilter
@@ -6928,6 +6929,7 @@
 @@||aboutzenlife.com/?s=$elemhide,badfilter
 @@||abrabbit.com/?s=$elemhide,badfilter
 @@||abritel.fr^$elemhide,badfilter
+@@||account.microsoft.com^$document,important
 @@||ad.apsalar.com^$image,domain=reddit.com,badfilter
 @@||ad.doubleclick.net/ddm/$image,domain=reddit.com,badfilter
 @@||addons.opera.com/ru/extensions/details/$document,badfilter
@@ -8746,6 +8748,7 @@
 @@||listings.freeonlineopinion.com^*.cfm?$elemhide,badfilter
 @@||listings.surveysonlinegroup.com^*.cfm?$elemhide,badfilter
 @@||littlepet.cc/search/$elemhide,badfilter
+@@||live.com^$document,important
 @@||local.com^$elemhide,badfilter
 @@||login.live.com^$document,important
 @@||lookany.com/search/$elemhide,badfilter
@@ -9488,6 +9491,7 @@
 ^popup^$popup,badfilter
 ^promo-$badfilter
 ^promo.$badfilter
+^promo^$badfilter
 ^promo^$document,badfilter
 ^promo_$badfilter
 ^rum-$third-party,badfilter
@@ -9495,6 +9499,7 @@
 ^surveys^$third-party,badfilter
 ^surveys^$third-party,domain=~metrika.yandex.ru|~metrica.yandex.com
 ^teaser^$badfilter
+^telemetry-$badfilter
 _40x40_twitter.$badfilter
 _40x40_youtube.$badfilter
 _FollowUs.$badfilter
