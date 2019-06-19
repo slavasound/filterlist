@@ -1437,8 +1437,8 @@
 #@#.fixed-share-bar
 #@#.fixed-soc-icon
 #@#.flare-button-icon
-#@#.flaticon-facebook2
 #@#.flaticon-facebook
+#@#.flaticon-facebook2
 #@#.flaticon-facebook3
 #@#.flaticon-linkedin1
 #@#.flattr-button
@@ -1771,8 +1771,8 @@
 #@#.icomoon-facebook2
 #@#.icomoon-facebook
 #@#.icomoon-instagram
-#@#.icomoon-twitter2
 #@#.icomoon-twitter
+#@#.icomoon-twitter2
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -1814,9 +1814,9 @@
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
-#@#.icon-facebook
 #@#.icon-facebook2
 #@#.icon-facebook16
+#@#.icon-facebook
 #@#.icon-facebook-24
 #@#.icon-facebook-32
 #@#.icon-facebook-alt
@@ -1838,14 +1838,14 @@
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb2
 #@#.icon-fb
+#@#.icon-fb2
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
 #@#.icon-fb-white
-#@#.icon-feed
 #@#.icon-feed2
+#@#.icon-feed
 #@#.icon-feed-white
 #@#.icon-flickr
 #@#.icon-flipboard
@@ -1857,8 +1857,8 @@
 #@#.icon-github
 #@#.icon-google
 #@#.icon-google-32
-#@#.icon-google-plus
 #@#.icon-google-plus2
+#@#.icon-google-plus
 #@#.icon-google-plus-2
 #@#.icon-google-plus-circle
 #@#.icon-google-plus-icon
@@ -1957,8 +1957,8 @@
 #@#.icon-sd-linkedin
 #@#.icon-sd-pinterest
 #@#.icon-sd-twitter
-#@#.icon-share
 #@#.icon-share2
+#@#.icon-share
 #@#.icon-share-2
 #@#.icon-share-alt
 #@#.icon-share-facebook
@@ -2010,9 +2010,9 @@
 #@#.icon-tw-white
 #@#.icon-tweet
 #@#.icon-twitch
-#@#.icon-twitter
 #@#.icon-twitter2
 #@#.icon-twitter3
+#@#.icon-twitter
 #@#.icon-twitter16
 #@#.icon-twitter-2
 #@#.icon-twitter-24
@@ -3196,8 +3196,8 @@
 #@#.social-twitter
 #@#.social-twitter-link
 #@#.social-utils-top
-#@#.social-v3-twitter
 #@#.social-v
+#@#.social-v3-twitter
 #@#.social-vk
 #@#.social-white__rss
 #@#.social-widget
@@ -3393,8 +3393,8 @@
 #@#.sp_twitter
 #@#.sphinn-button-single
 #@#.sprite-facebook15x15
-#@#.sprite-facebook25x25
 #@#.sprite-facebook
+#@#.sprite-facebook25x25
 #@#.sprite-icon-fb
 #@#.sprite-icon-gp
 #@#.sprite-icon-rss
@@ -5044,6 +5044,7 @@
 #@#img[alt="link to facebook"]
 #@#img[alt="link to youtube"]
 #@#img[alt="twitter"]
+&clickid=$document,badfilter
 *$beacon
 *$font,important,badfilter
 *$inline-font,important,badfilter
@@ -5300,6 +5301,8 @@
 /\/[-a-z0-9_]{1}\.gif/$important,image
 /\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com
 /\/advert([0-9]{1})?\.js/$important,script
+/^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl,badfilter
+/^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
 /^https?:\/\/lh([0-9]{1})\.googleusercontent\.com\/proxy\//$important,app=chrome.exe
 /^https?:\/\/strm\.yandex\.ru\/log/$important
@@ -5797,7 +5800,6 @@
 /icon-linkedin.$badfilter
 /icon-newsletter.$badfilter
 /icon-pinterest-$badfilter
-/icon-print-friendly-$third-party$badfilter
 /icon-print-friendly-$third-party,badfilter
 /icon-py.$badfilter
 /icon-reddit2.$badfilter
@@ -7019,6 +7021,7 @@
 @@||blake.com.tw/?s=$elemhide,badfilter
 @@||blog.mixflavor.com^$elemhide,badfilter
 @@||bluekiwi.de^$elemhide,badfilter
+@@||bogachenko.github.io^$document,important
 @@||bomnegocio.com^$elemhide,badfilter
 @@||boo2k.com/?s=$elemhide,badfilter
 @@||boost.ur-search.com/search^$elemhide,badfilter
@@ -9642,6 +9645,7 @@ _youtube_channel.$badfilter
 _youtube_icon.$badfilter
 _youtube_small.$badfilter
 _youtube_social_$badfilter
+ads.google.com##.h-c--idle-widget__visible.ng-isolate-scope.h-c--idle-widget
 duckduckgo.com##.header__label.showcase.header--aside__item
 duckduckgo.com##.js-onboarding-ed.onboarding-ed
 duckduckgo.com##.js-tag-home.no-js__hide.tag-home--slide.tag-home
@@ -9989,7 +9993,7 @@ zn.ua##^script:has-text("zmctrack")
 ||mabila.ua^$badfilter
 ||mail.google.com/*&view=ad&$important,badfilter
 ||mail.google.com/mail/*/cleardot.gif$important,badfilter
-||main.zdevx.yandex.ru^$important
+||mail.ru^$third-party,important
 ||mc.yandex.ru^$important
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
@@ -10122,6 +10126,7 @@ zn.ua##^script:has-text("zmctrack")
 ||yimg.com/cv/$badfilter
 ||yimg.com/rq/$badfilter
 ||youtube.com/subscribe_embed?$third-party,badfilter
+||zdevx.yandex.ru^$important
 ||zen-test.yandex.ru^$important
 ||zen.yandex.ru/yabro/index.html$important
 ||zen.yandex.ru/yabro/service-worker.js$important
