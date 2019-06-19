@@ -1,0 +1,110 @@
+no-csp-reports: * true
+no-popups: * true
+no-popups: facebook.com false
+no-popups: google.com false
+no-popups: mail.ru false
+no-popups: yandex.ru false
+no-popups: youtube.com false
+no-remote-fonts: * true
+no-remote-fonts: google.com false
+no-remote-fonts: twitter.com false
+no-remote-fonts: vk.com false
+no-scripting: * true
+no-scripting: 2ch.hk false
+no-scripting: analytics.google.com false
+no-scripting: facebook.com false
+no-scripting: github.com false
+no-scripting: google.com false
+no-scripting: instagram.com false
+no-scripting: kinopoisk.ru false
+no-scripting: mail.ru false
+no-scripting: ok.ru false
+no-scripting: twitch.tv false
+no-scripting: twitter.com false
+no-scripting: vk.com false
+no-scripting: yandex.ru false
+no-scripting: youtube.com false
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+* admixer.net * block
+* ajax.googleapis.com * allow
+* atdmt.com * block
+* cdninstagram.com * noop
+* cloudflare.com * allow
+* doubleclick.net * block
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+* fbsbx.com * block
+* fonts.googleapis.com * allow
+* ggpht.com * noop
+* google-analytics.com * block
+* google.com * block
+* googletagservices.com * block
+* googlevideo.com * noop
+* gstatic.com * allow
+* instagram.com * noop
+* jquery.com * allow
+* jtvnw.net * noop
+* mail.ru * block
+* maps.googleapis.com * noop
+* mradx.net * block
+* ok.ru * block
+* scorecardresearch.com * block
+* tns-counter.ru * block
+* top100.ru * block
+* ttvnw.net * noop
+* twitch.tv * noop
+* twitchcdn.net * noop
+* twitter.com * block
+* vk.com * block
+* yadro.ru * block
+* yandex.net * block
+* yandex.ru * block
+* yandex.st * block
+* yastatic.net * block
+* youtube.com * noop
+* ytimg.com * noop
+* zmctrack.net * block
+analytics.google.com * 3p noop
+analytics.google.com google.com * noop
+facebook.com * 3p noop
+facebook.com * 3p-frame noop
+facebook.com * 3p-script noop
+facebook.com facebook.com * noop
+facebook.com fbcdn.net * noop
+facebook.com fbsbx.com * noop
+github.com * 3p noop
+github.com * 3p-script noop
+google.com * 3p noop
+google.com * 3p-script noop
+google.com google.com * noop
+kinopoisk.ru yandex.net * noop
+kinopoisk.ru yandex.ru * noop
+kinopoisk.ru yastatic.net * noop
+mail.ru * 3p noop
+mail.ru * 3p-frame noop
+mail.ru * 3p-script noop
+mail.ru mail.ru * noop
+ok.ru * 3p noop
+ok.ru * 3p-script noop
+ok.ru ok.ru * noop
+twitch.tv * 3p noop
+twitch.tv * 3p-script noop
+twitter.com * 3p noop
+twitter.com * 3p-frame noop
+twitter.com * 3p-script noop
+twitter.com twitter.com * noop
+vk.com * 3p noop
+vk.com vk.com * noop
+yandex.ru * 3p noop
+yandex.ru * 3p-frame noop
+yandex.ru * 3p-script noop
+yandex.ru yandex.net * noop
+yandex.ru yandex.ru * noop
+yandex.ru yastatic.net * noop
+youtube.com * 3p noop
+youtube.com * 3p-frame noop
+youtube.com * 3p-script noop
+youtube.com google.com * noop
