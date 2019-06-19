@@ -5312,6 +5312,7 @@
 /adsense/*$domain=~analytics.google.com
 /adwords/*$badfilter
 /adwords/*$domain=~analytics.google.com
+/adx*$badfilter
 /altClickToSearch.$badfilter
 /analytics/web/*$badfilter
 /app/social.$badfilter
@@ -8046,7 +8047,6 @@
 @@||google.com/ads$domain=target.com,badfilter
 @@||google.com/ads$domain=webmd.com|medicinenet.com|emedicinehealth.com|rxlist.com,badfilter
 @@||google.com/ads$domain=yelp.com,badfilter
-@@||google.com/analytics/web/$document,badfilter
 @@||google.com/uds/$script,subdocument,document,domain=bestbuy.com,badfilter
 @@||google.com/uds/$script,subdocument,document,domain=cdiscount.com,badfilter
 @@||google.com/uds/$script,subdocument,document,domain=ehealthinsurance.com,badfilter
@@ -9888,7 +9888,7 @@ zn.ua##^script:has-text("zmctrack")
 ||cdn.jsdelivr.net^$badfilter
 ||ciscobinary.openh264.org/openh264-win32-*.zip$important,app=firefox.exe
 ||clck.yandex.*^$important
-||clients*.google.com^$important,domain=~analytics.google.com|~analyticsinsights-pa.clients1.google.com|~analyticsinsights-pa.clients2.google.com|~analyticsinsights-pa.clients3.google.com|~analyticsinsights-pa.clients4.google.com|~analyticsinsights-pa.clients5.google.com|~analyticsinsights-pa.clients6.google.com|~drive.google.com
+||clients*.google.com^$important,domain=~analytics.google.com|~analyticsinsights-pa.clients1.google.com|~analyticsinsights-pa.clients2.google.com|~analyticsinsights-pa.clients3.google.com|~analyticsinsights-pa.clients4.google.com|~analyticsinsights-pa.clients5.google.com|~analyticsinsights-pa.clients6.google.com|~drive.google.com|~analyticssuitefrontend-pa.clients6.google.com
 ||clientservices.googleapis.com^$important
 ||cliqz.com^$important,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
