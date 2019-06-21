@@ -1771,8 +1771,8 @@
 #@#.icomoon-facebook2
 #@#.icomoon-facebook
 #@#.icomoon-instagram
-#@#.icomoon-twitter
 #@#.icomoon-twitter2
+#@#.icomoon-twitter
 #@#.icomoon-youtube
 #@#.icon2-facebook
 #@#.icon2-linkedin
@@ -1838,8 +1838,8 @@
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb2
 #@#.icon-fb
+#@#.icon-fb2
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
@@ -2012,8 +2012,8 @@
 #@#.icon-twitch
 #@#.icon-twitter2
 #@#.icon-twitter
-#@#.icon-twitter16
 #@#.icon-twitter3
+#@#.icon-twitter16
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box2
 #@#.rss_box
+#@#.rss_box2
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -3196,8 +3196,8 @@
 #@#.social-twitter
 #@#.social-twitter-link
 #@#.social-utils-top
-#@#.social-v
 #@#.social-v3-twitter
+#@#.social-v
 #@#.social-vk
 #@#.social-white__rss
 #@#.social-widget
@@ -9448,6 +9448,7 @@
 @@||www.viral.site^$elemhide,badfilter
 @@||wyszukajprace.pl^$elemhide,badfilter
 @@||xuite.net/search_index.php$elemhide,badfilter
+@@||yandex.$important,document,~third-party
 @@||yapo.cl^$elemhide,badfilter
 @@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script,badfilter
 @@||yellowpages.aol.com^$elemhide,badfilter
@@ -9469,6 +9470,7 @@
 @@||zoo.com^$elemhide,badfilter
 @@||zuhause.de^$elemhide,badfilter
 @@||zvents.com^$elemhide,badfilter
+^adinfo^$badfilter
 ^ads-$document,badfilter
 ^ads.$badfilter
 ^ads.$document,badfilter
