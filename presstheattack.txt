@@ -442,8 +442,8 @@
 #@##social-media-icons-container
 #@##social-networking-icons-round
 #@##social-rss
-#@##social-twitter
 #@##social-twitter32x32
+#@##social-twitter
 #@##social-youtube
 #@##socialMedia-facebook
 #@##socialMedia-twitter
@@ -1866,9 +1866,9 @@
 #@#.icon-google-plus-sign
 #@#.icon-googlePlus
 #@#.icon-google_plus
-#@#.icon-googleplus16
-#@#.icon-googleplus
 #@#.icon-googleplus8
+#@#.icon-googleplus
+#@#.icon-googleplus16
 #@#.icon-googleplus-white
 #@#.icon-gp
 #@#.icon-gplus
@@ -1922,9 +1922,9 @@
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
+#@#.icon-pinterest
 #@#.icon-pinterest3
 #@#.icon-pinterest16
-#@#.icon-pinterest
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -1942,8 +1942,8 @@
 #@#.icon-pocket
 #@#.icon-polyvore
 #@#.icon-post-share
-#@#.icon-reddit
 #@#.icon-reddit2
+#@#.icon-reddit
 #@#.icon-rss
 #@#.icon-rss-mini
 #@#.icon-rss-round
@@ -2812,8 +2812,8 @@
 #@#.share_facebook
 #@#.share_group
 #@#.share_icon
-#@#.share_icons1
 #@#.share_icons
+#@#.share_icons1
 #@#.share_icons_big
 #@#.share_icons_container
 #@#.share_inline_header
@@ -3409,8 +3409,8 @@
 #@#.sprite-social-rss
 #@#.sprite-social-twitter
 #@#.sprite-social-youtube
-#@#.sprite-twitter
 #@#.sprite-twitter25x25
+#@#.sprite-twitter
 #@#.sprite-twitter_16
 #@#.sprite-youtube
 #@#.sprite_condividi_facebook_button
@@ -4620,8 +4620,8 @@
 #@#@#.ocialNav
 #@#@#.ocialNetworkIconContainer
 #@#@#.ocialNetworkingBar
-#@#@#.ocialNetworks
 #@#@#.ocialNetworks2
+#@#@#.ocialNetworks
 #@#@#.ocialSidebar
 #@#@#.ocialSiteSites
 #@#@#.ocialTools
@@ -5301,6 +5301,10 @@
 /\/[-a-z0-9_]{1}\.gif/$important,image
 /\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com
 /\/advert([0-9]{1})?\.js/$important,script
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|fundingchoicesmessages)\.google(apis)?\.[A-Za-z.]{2,7}/$important
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?(id|gg|adservice|mobilecrashreporting|imasdk|tagmanager|analytics|fundingchoicesmessages)\.google(apis)?\.[A-Za-z.]{2,7}/$important,badfilter
+/^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,badfilter
+/^https?:\/\/(analysis|analytic[as]?)([0-9]{1,2})?\./$important,domain=~analytics.google.com
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl,badfilter
 /^https?:\/\/ad[bsxv]?([0-9]{1,2})?\./$important,domain=~ad.nl|~ads.google.com
 /^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}/$image,domain=yandex.ru|~metrika.yandex.ru
@@ -8922,6 +8926,7 @@
 @@||opodo.no^$elemhide,badfilter
 @@||opodo.pl^$elemhide,badfilter
 @@||opodo.se^$elemhide,badfilter
+@@||optimize.google.com^$document,important
 @@||orange-dog.com/?s=$elemhide,badfilter
 @@||orange.fr^*^kw=$elemhide,badfilter
 @@||orange.re^$elemhide,badfilter
@@ -9276,6 +9281,7 @@
 @@||t.myvisualiq.net^$image,domain=reddit.com,badfilter
 @@||tabletstart.lenovo.com/search/$elemhide,badfilter
 @@||tag.researchnow.com^$image,domain=reddit.com,badfilter
+@@||tagmanager.google.com^$document,important
 @@||tagmum.com/search?$elemhide,badfilter
 @@||tagpopular.com/search?$elemhide,badfilter
 @@||tagsis.com/search?$elemhide,badfilter
@@ -9683,6 +9689,7 @@ fakedrivingschool.com###catfish-banner
 fonts.googleapis.com^$important,domain=~google,badfilter
 free.proxy-sale.com##:xpath(//p[@class='copy-buffer'][contains(.,'Скопировать в буфер')])
 freebitco.in##.reveal-modal-bg, #myModal22
+github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-5.col-lg-3.col-md-3.col-12.team-left-column
 github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.content
 github.com##.js-notice-dismiss
@@ -9725,6 +9732,7 @@ music.yandex.ru##:xpath(//div[@class='sidebar__under'])
 music.yandex.ru,music.yandex.ua,music.yandex.by##.footer
 openload.co,oload.*##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(remove-inline-script.js, adblock)
+passport.yandex.ru###qr-promo-tooltip
 pinterest.ru##:xpath(//div[@class='FullPageModal__scroller']//div[@role='dialog']//div[@data-test-id='signup']//div//div//h3[contains(text(),'Бесплатный аккаунт открывает доступ к нашим лучшим')])
 qaru.site##.wraptip
 rambler.ru##+js(set-constant.js, Math.random, trueFunc)
