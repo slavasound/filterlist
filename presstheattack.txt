@@ -14,6 +14,14 @@
 #@##article-sidebar-action-facebook
 #@##article-social-facebook
 #@##article-social-twitter
+yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"])
+yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"]) + .popup
+||googletagmanager.com^$important,badfilter
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|tagmanager|adservices|tagservices)\.[A-Za-z.]{2,7}/$important,badfilter
+/^https?:\/\/([A-Za-z0-9]{3,}\.)?google(\-analytics|syndication|adservices|tagservices)\.[A-Za-z.]{2,7}/$important
+||googletagmanager.com^$badfilter
+||www.googletagmanager.com^$badfilter
+||top100.rambler.ru^$badfilter
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
