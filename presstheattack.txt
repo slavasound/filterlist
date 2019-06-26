@@ -1899,8 +1899,8 @@
 #@#.icon-instagramm
 #@#.icon-ion-android-share-alt
 #@#.icon-link--share
-#@#.icon-linkedin
 #@#.icon-linkedin2
+#@#.icon-linkedin
 #@#.icon-linkedin-box
 #@#.icon-linkedin-circled
 #@#.icon-linkedin-sign
@@ -2011,9 +2011,9 @@
 #@#.icon-tweet
 #@#.icon-twitch
 #@#.icon-twitter2
-#@#.icon-twitter
 #@#.icon-twitter3
 #@#.icon-twitter16
+#@#.icon-twitter
 #@#.icon-twitter-2
 #@#.icon-twitter-24
 #@#.icon-twitter-alt
@@ -3328,8 +3328,8 @@
 #@#.socialbadge
 #@#.socialbarwrapper
 #@#.socialbkmark
-#@#.socialbox2
 #@#.socialbox
+#@#.socialbox2
 #@#.socialbtns
 #@#.socialbutton--facebook
 #@#.socialbutton--twitter
@@ -4630,8 +4630,8 @@
 #@#@#.ocialWidget
 #@#@#.ocialWidgetLinks
 #@#@#.ocialWire
-#@#@#.ocialWrapper2
 #@#@#.ocialWrapper
+#@#@#.ocialWrapper2
 #@#@#.ocial_Box
 #@#@#.ocial_bar
 #@#@#.ocial_body
@@ -6903,6 +6903,7 @@
 0.0.0.0 212.122.5.136
 2ch.hk##.logo
 ://ads.$badfilter
+?offer=$document,badfilter
 ?partner=$document,badfilter
 ?partner=$third-party,badfilter
 @@#/nativendo/aid/*/cid/$elemhide,badfilter
@@ -9820,6 +9821,7 @@ www.twitch.tv##.player-alert
 www.twitch.tv##.tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header
 www.twitch.tv##.tw-relative.prime-offers
 www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
+www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 www.twitch.tv##.tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center
 www.twitch.tv##a.top-nav__nav-link.tw-interactive[href^="https://www.twitch.tv/prime"]
 www.twitch.tv##button.pl-button--icon.pl-button--follow.pl-button
@@ -9998,7 +10000,7 @@ zn.ua##^script:has-text("zmctrack")
 ||google.com^*/fastbutton?$third-party,badfilter
 ||googleapis.com/chromewebstore/*/items/verify$important,app=chrome.exe
 ||googlesyndication.com^$important
-||googletagmanager.com^$important
+||googletagmanager.com^$third-party,important
 ||graph.facebook.com/fql?q=SELECT$third-party,badfilter
 ||gravatar.com^$important,third-party,badfilter
 ||gstatic.com/*/cleardot.gif$important,badfilter
