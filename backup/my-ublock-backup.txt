@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1560564650564,
-  "version": "1.19.7rc0",
+  "timeStamp": 1561549924169,
+  "version": "1.20.1b3",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://adblock.dk/block.csv\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/master/AdBlockID/adservers.adbl\nhttps://raw.githubusercontent.com/realodix/AdBlockID/master/addons/resource-abuse.adbl\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
+    "externalLists": "https://adblock.dk/block.csv\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/presstheattack.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt\nhttps://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/master/AdBlockID/adservers.adbl\nhttps://raw.githubusercontent.com/realodix/AdBlockID/master/addons/resource-abuse.adbl\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt\nhttps://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt\nhttps://tgc.cloud/downloads/iOSAds.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -72,6 +72,9 @@
     "THA-0",
     "VIE-1",
     "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+    "https://raw.githubusercontent.com/realodix/AdBlockID/master/AdBlockID/adservers.adbl",
+    "https://raw.githubusercontent.com/realodix/AdBlockID/master/addons/resource-abuse.adbl",
+    "https://tgc.cloud/downloads/iOSAds.txt",
     "https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt",
     "https://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt",
     "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
@@ -82,13 +85,13 @@
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
     "https://adblock.dk/block.csv",
+    "https://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
     "https://raw.githubusercontent.com/toshiya44/myAssets/master/filters-exp.txt",
+    "https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/ichigo_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/negi_filter.txt",
     "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt",
-    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt",
-    "https://raw.githubusercontent.com/realodix/AdBlockID/master/AdBlockID/adservers.adbl",
-    "https://raw.githubusercontent.com/realodix/AdBlockID/master/addons/resource-abuse.adbl"
+    "https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter_extended.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -113,9 +116,9 @@
     "suspendTabsUntilReady": "unset",
     "userResourcesLocation": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt"
   },
-  "netWhitelist": "about-scheme\nmoz-extension-scheme",
-  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop\n* local.adguard.org * allow",
+  "netWhitelist": "# chrome-extension-scheme\n# chrome-scheme\n# opera-scheme\n# vivaldi-scheme\n# wyciwyg-scheme\nabout-scheme\nbogachenko.github.io\nmoz-extension-scheme",
+  "dynamicFilteringString": "* * 3p block\n* gstatic.com * allow\nwww.google.com * 3p noop\n* adservice.google.com * block\n* google.com * noop\nwww.youtube.com * 3p noop\n* ytimg.com * noop\n* youtube.com * noop\n* ggpht.com * noop\n* googleusercontent.com * noop\n* googlevideo.com * noop\nwww.twitch.tv * 3p noop\n* twitchcdn.net * noop\n* ttvnw.net * noop\n* twitch.tv * noop\n* jtvnw.net * noop\n* yabs.yandex.ru * block\n* mc.yandex.ru * block\nyandex.ru * 3p noop\n* csp.yandex.net * block\n* an.yandex.ru * block\n* googletagmanager.com * block\n* clck.yandex.ru * block\nwww.kinopoisk.ru * 3p noop\n* awaps.yandex.net * block\n* awsync.yandex.ru * block\n* matchid.adfox.yandex.ru * block\n* adriver.ru * block\n* tns-counter.ru * block\n* browser-updater.yandex.net * block\n* google.ru * noop\n* id.google.com * block\n* cloudflare.com * allow\n* jquery.com * allow\n* googletagservices.com * block\n* googlesyndication.com * block\n* top-fwz1.mail.ru * block\n* googleadservices.com * block\n* top100.ru * block\n* yadro.ru * block\n* google-analytics.com * block\n* scorecardresearch.com * block\n* ajax.googleapis.com * allow\nvk.com * 3p noop\n* mradx.net * block\n* r3.mail.ru * block\nmail.ru * 3p noop\n* rs.mail.ru * block\n* ad.mail.ru * block\n* reklama.mail.ru * block\n* xray.mail.ru * block\n* cspreport.mail.ru * block\ngithub.com * 3p noop\n* recostream.go.mail.ru * block\n* fonts.googleapis.com * allow\n* fontawesome.com * allow\n* top100.rambler.ru * block\n* counter.rambler.ru * block\n* trafficfactory.biz * block\nwww.xvideos.com * 3p noop\n* trafficjunky.net * block\nrt.pornhub.com * 3p noop\n* amazon-adsystem.com * block\n* imrworldwide.com * block\n* imasdk.googleapis.com * block\n* spade.twitch.tv * block\n* client-event-reporter.twitch.tv * block\n* countess.twitch.tv * block\n* r0.mail.ru * block\n* vk-portal.net * block\n* vk.go.mail.ru * block\n* pladform.ru * block\n* imgur.com * noop\n* addthis.com * block\n* deloplen.com * block\n* adskeeper.co.uk * block\nwww.instagram.com * 3p noop\n* connect.facebook.net * block\n* advertserve.com * block\n* www.googleapis.com * allow\ntwitter.com * 3p noop\n* twitter.com * noop\n* zen.yandex.ru * block\nru.wikipedia.org * 3p noop\nwww.rambler.ru * 3p noop\n* doubleclick.net * block\nen.wikipedia.org * 3p noop\nopenload.co * 3p noop\n* openload.co * noop\n* oloadcdn.net * noop\n* streamango.com * noop\n* fruithosted.net * noop\n* camo.githubusercontent.com * allow\nphishcheck.me * 3p noop\n* maps.googleapis.com * noop\nwww.microsoft.com * 3p noop\nenglish-films.com * 3p noop\nok.ru * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true\nno-scripting: view-source-scheme true",
+  "hostnameSwitchesString": "no-csp-reports: * true",
   "userFilters": ""
 }

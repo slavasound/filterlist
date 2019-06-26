@@ -32,6 +32,17 @@ yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer
 #@##base64-share-facebook
 #@##base64-share-twitter
 #@##base64-share-vk
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,badfilter
+/^https?:\/\/s?metric[as]?([0-9]{1,2})?\./$important,domain=~metrika.yandex.ru|~metrika.yandex.com|~metrica.yandex.com|~metrica.yandex.ru
+^admob_$third-party,badfiler
+.ru/ads/$badfilter
+||google.com/ads/$important,script,badfilter
+||google.com/adsense/$important,script,badfilter
+||ru/ads/$badfilter
+^admob_$third-party,badfilter
+||google.com/adsense/$important,subdocument,badfilter
+/ads/images/*$badfilter
+/ads/*$image,badfilter
 #@##blgtwitter
 #@##block-boxes-facebook
 #@##block-boxes-facebookrecentactivity
