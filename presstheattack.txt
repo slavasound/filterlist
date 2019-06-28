@@ -9460,7 +9460,7 @@
 @@||ww2.erp.com^*.cfm?$elemhide,badfilter
 @@||wyszukajprace.pl^$elemhide,badfilter
 @@||xuite.net/search_index.php$elemhide,badfilter
-@@||yandex.$important,document,~third-party
+@@||music.yandex.$generichide
 @@||yapo.cl^$elemhide,badfilter
 @@||yastatic.net/awaps-ad-sdk-js$domain=kinopoisk.ru|video.yandex.ru,script,badfilter
 @@||yellowpages.aol.com^$elemhide,badfilter
