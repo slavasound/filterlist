@@ -8402,6 +8402,7 @@
 @@||googlesyndication.com^*adsense/search/*ads.js|$badfilter
 @@||googlesyndication.com^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||googlesyndication.com^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
+@@||googlevideo.com^*?*&ip=$domain=youtube.com,badfilter
 @@||gopher.com/search/$elemhide,badfilter
 @@||gopher.com^$elemhide,badfilter
 @@||gosearchresults.com/?$elemhide,badfilter
@@ -9708,7 +9709,7 @@ mail.ru##div#grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__mai
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid-down.grid__container.i-clearfix > div.grid__lcol.i-pull-left > div.well.notify.i-link-no-deco.i-absolute.m-bordered.m-animated-shadow.m-animated-borderless
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md
 mail.ru##html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix
-music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app
+music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider
 music.yandex.ru##:xpath(//div[@class='sidebar__under'])
 openload.co,oload.*##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(remove-inline-script.js, adblock)
@@ -9894,6 +9895,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 ||google.*/complete/search^$important,app=chrome.exe
 ||google.*/cse/brand?form=$badfilter
 ||google.*/gen_204?$important,badfilter
+||google.*/pagead$important,badfilter
 ||google.*/searchdomaincheck^$important
 ||google.com/ads/$important,script,badfilter
 ||google.com/adsense/$important,script,badfilter
@@ -9914,6 +9916,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 ||gstatic.com/kpui/social/$important,badfilter
 ||gstatic.com/safebrowsing^$important
 ||hentaihaven.org^$badfilter
+||i1.ytimg.com^$badfilter
 ||imgur.com/min/runslots.js$important,script,badfilter
 ||instagram.com^$important,third-party,domain=~facebook.com,badfilter
 ||mabila.ua^$badfilter
@@ -10052,6 +10055,8 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 ||yimg.com/cv/$badfilter
 ||yimg.com/rq/$badfilter
 ||youtube-nocookie.com^$badfilter
+||youtube.com/api/stats$important,badfilter
+||youtube.com/csi_204$important,badfilter
 ||youtube.com/subscribe_embed?$third-party,badfilter
 ||zdevx.yandex.ru^$important
 ||zen-test.yandex.ru^$important
