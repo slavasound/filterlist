@@ -1814,8 +1814,8 @@
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
-#@#.icon-facebook
 #@#.icon-facebook2
+#@#.icon-facebook
 #@#.icon-facebook16
 #@#.icon-facebook-24
 #@#.icon-facebook-32
@@ -1899,8 +1899,8 @@
 #@#.icon-instagramm
 #@#.icon-ion-android-share-alt
 #@#.icon-link--share
-#@#.icon-linkedin
 #@#.icon-linkedin2
+#@#.icon-linkedin
 #@#.icon-linkedin-box
 #@#.icon-linkedin-circled
 #@#.icon-linkedin-sign
@@ -1922,9 +1922,9 @@
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
-#@#.icon-pinterest3
 #@#.icon-pinterest16
 #@#.icon-pinterest
+#@#.icon-pinterest3
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -3995,8 +3995,8 @@
 #@#.wl-ico-facebook
 #@#.wl-ico-twitter
 #@#.wp-graphics-social-tools
-#@#.wp-post-share
 #@#.wp-post-share2
+#@#.wp-post-share
 #@#.wp-share
 #@#.wp-social-icons
 #@#.wpa-social-icons
@@ -9879,6 +9879,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 ||freebitco.in^$badfilter
 ||gelbooru.com^$badfilter
 ||getsocial.io/widget/$third-party,badfilter
+||github.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.githubassets.com *.githubusercontent.com *.amazonaws.com;
 ||google-analytics.$important,badfilter
 ||google-analytics.com^$important
 ||google.*/ads$important,badfilter
@@ -9946,6 +9947,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 ||r0.mail.ru^$important
 ||r3.mail.ru^$important
 ||rambler.ru^$third-party,badfilter
+||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.reddit.com *.redditmedia.com *.redditstatic.com *.amazonaws.com *.redd.it;
 ||referrer.disqus.com^$important,badfilter
 ||reklama.mail.ru^$important
 ||resize.yandex.net^$image,domain=yandex.ru,important
