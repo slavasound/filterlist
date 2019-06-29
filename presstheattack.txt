@@ -1142,9 +1142,9 @@
 #@#.fa-twitter-square
 #@#.fa-youtube-square
 #@#.faceBookButton
-#@#.facebook28Ico
-#@#.facebook
 #@#.facebook2
+#@#.facebook
+#@#.facebook28Ico
 #@#.facebook-24x24
 #@#.facebook--like
 #@#.facebook-activity
@@ -1838,8 +1838,8 @@
 #@#.icon-facebook_master
 #@#.icon-fackbook
 #@#.icon-fark
-#@#.icon-fb
 #@#.icon-fb2
+#@#.icon-fb
 #@#.icon-fb-footer
 #@#.icon-fb-small
 #@#.icon-fb-square
@@ -10011,6 +10011,7 @@ youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
 ||vk.com/widget_recommended.php?$third-party,badfilter
 ||vk.com/widget_subscribe.php?$third-party,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: vk.com *.vk.com *.facebook.com *.facebook.net *.google.com *.gstatic.com *.userapi.com *.vkuseraudio.net vkuseraudio.net *.vkuservideo.net vkuservideo.net;
 ||vk.com^$important,third-party,badfilter
 ||vk.com^$third-party,badfilter
 ||vkontakte.ru/js/api/$third-party,domain=~arudex.com|,badfilter
