@@ -9698,7 +9698,7 @@ kinogo.*##.social_buttons
 kinopoisk.ru##.adfox.adfox_theme_default, .header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item, a[href*="//zen.yandex.ru/"], div > a[href*="/yandex-in-adblock.html"], DIV[class*="adblock-warning"], html > body.svg-background_yes > DIV.feature_promo.feature_promo-active.feature_promo-animate
 kinopoisk.ru##li.header-fresh-partial-component__navigation-item:has-text(Онлайн) > .header-fresh-partial-component__navigation-item-content
 mail.ru###projects, .i-pull-right.grid__rcol_aside.grid__rcol, .o-media__body, .news-item__body, .news-item__body_fade, #grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__main-col > div.grid__ccol.i-pull-left > div.news-item.o-media.news-item_tgb.news-item_long_title.tgb.tgb_invisible, html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid-down.grid__container.i-clearfix > div.grid__lcol.i-pull-left > div.well.notify.i-link-no-deco.i-absolute.m-bordered.m-animated-shadow.m-animated-borderless, html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md, html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix
-music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider
+music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below
 music.yandex.ru##:xpath(//div[@class='sidebar__under'])
 openload.co,oload.*##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(remove-inline-script.js, adblock)
@@ -9720,13 +9720,6 @@ twitter.com#@#.tooltip-inner
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
 vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
-yandex.*##+js(abort-on-property-read.js, Ya.Direct)
-yandex.*##+js(set-constant.js, Object.prototype.initYaContext, undefined)
-yandex.*##+js(set-constant.js, Object.prototype.initYaDirect, undefined)
-yandex.*##:xpath(//a[@class='home-link home-link_intense-blue_yes'])
-yandex.*##:xpath(//a[@class='link link_theme_normal yaplus__link i-bem'][contains(.,'Будьте в Плюсе')])
-yandex.*##:xpath(//div[@class='serp-item']//div[@class='composite composite_gap_s composite_separated_no']):has-text(Реклама)
-yandex.*#%#//scriptlet("abort-on-property-read", "Ya.Direct")
 yandex.*,kinopoisk.ru,mail.ru##+js(abort-on-property-read.js, advBlock)
 yandex.*,kinopoisk.ru,mail.ru#%#//scriptlet("abort-on-property-read", "advBlock")
 yandex.ru##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row
