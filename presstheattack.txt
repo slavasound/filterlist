@@ -9745,33 +9745,15 @@ yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus > body.b-page.b-page_t
 yandex.ru##html.i-ua_js_no.i-ua_css_standard.utilityfocus > body.b-page.b-page_type_month.b-page_align_center.i-metrika.detect-scripts.b-page__body.i-ua.i-global.i-bem.b-page_js_inited.i-global_js_inited.detect-scripts_js_inited.i-ua_platform_other.i-ua_js_inited > div.b-page__container > div.content > section.content__section.climate-calendar-container > div.climate-calendar-container__content > div.climate-calendar-container__content-section.climate-calendar-container__content-section_page30days_yes > div.climate-calendar-container__adv-thin > div.adv.adv_pos_month-side-narrow
 yandex.ru##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_desktop.i-ua_platform_windows.utilityfocus.m-stat > body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.gap.gap_side_bottom
 yandex.ru##html.i-ua_js_no.i-ua_css_standart.i-ua_browser_firefox.i-ua_browser_desktop.i-ua_platform_windows.utilityfocus.m-stat > body.logged.b-page_infinity-zen_yes.i-ua.i-bem.b-page.b-page_desk-notif_default.b-page_arrow-middle_yes.b-page_media-footer-collapsed_no.b-page_hide-media-footer_full.b-page_media-footer-lifted_no.i-ua_platform_other.i-ua_js_inited > div.container.rows > div.row.rows__row.rows__row_main > div.col.main.widgets > div.container.container__banner.container__line
-yandex.ru##iframe
 yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"])
 yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"]) + .popup
-youtube.com###sponsor-button
 youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
-youtube.com##div#masthead-ad.style-scope.ytd-browse
-youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.video-ads.ytp-ad-module
+youtube.com###masthead-ad.style-scope.ytd-browse, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.video-ads.ytp-ad-module, #sponsor-button
 youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-ad-persistent-progress-bar-container
 youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div.ytp-progress-bar > div.ytp-progress-list > div.ytp-ad-progress-list
 youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-top.ytp-share-button-visible > div.ytp-chrome-top-buttons
 youtube.com##div#movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-paid-content-overlay
-youtube.com##div#offer-module.style-scope.ytd-watch-next-secondary-results-renderer
-youtube.com##div#player-ads.style-scope.ytd-watch-flexy
-youtube.com##div#ticker.style-scope.ytd-masthead
-youtube.com##dom-module#yt-masthead-ad-renderer
-youtube.com##dom-module#ytd-action-companion-ad-renderer
-youtube.com##dom-module#ytd-ad-hover-text-button-renderer
-youtube.com##dom-module#ytd-ad-info-dialog-renderer
-youtube.com##dom-module#ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com##dom-module#ytd-search-pyv-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-advertiser-info-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-expandable-thumbnail-tile-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-expandable-video-tile-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-primary-video-overlay-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-primary-video-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-renderer
-youtube.com##dom-module#ytd-video-masthead-ad-v3-renderer
+youtube.com###yt-masthead-ad-renderer, #ytd-action-companion-ad-renderer, #ytd-ad-hover-text-button-renderer, #ytd-ad-info-dialog-renderer, #ytd-player-legacy-desktop-watch-ads-renderer, #ytd-search-pyv-renderer, #ytd-video-masthead-ad-advertiser-info-renderer, #ytd-video-masthead-ad-expandable-thumbnail-tile-renderer, #ytd-video-masthead-ad-expandable-video-tile-renderer, #ytd-video-masthead-ad-primary-video-overlay-renderer, #ytd-video-masthead-ad-primary-video-renderer, #ytd-video-masthead-ad-v3-renderer, #ticker.style-scope.ytd-masthead, #player-ads.style-scope.ytd-watch-flexy, #offer-module.style-scope.ytd-watch-next-secondary-results-renderer
 |http*:*^stat_$badfilter
 |http:*-ad-$badfilter
 |http://ad.$badfilter
