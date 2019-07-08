@@ -1,6 +1,6 @@
 {
-  "version": "0.98",
-  "date": 1560564896074,
+  "version": "0.103",
+  "date": 1562564630973,
   "preferences": {
     "automaticMode": {
       "active": false,
@@ -20,7 +20,7 @@
     "isolation": {
       "global": {
         "navigation": {
-          "action": "always"
+          "action": "never"
         },
         "mouseClick": {
           "middle": {
@@ -68,6 +68,14 @@
       "containerMouseClicks": "automatic",
       "statistics": false
     },
-    "statistics": false
+    "statistics": false,
+    "closeRedirectorTabs": {
+      "active": false,
+      "delay": 2000,
+      "domains": [
+        "t.co",
+        "outgoing.prod.mozaws.net"
+      ]
+    }
   }
 }

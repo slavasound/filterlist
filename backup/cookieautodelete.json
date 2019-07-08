@@ -1,60 +1,81 @@
 {
   "default": [
     {
+      "expression": "*.bing.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "pfNzMYRmn"
+    },
+    {
       "expression": "*.google.*",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "KCQzwG1g8"
+      "id": "j7A_lg2OF"
+    },
+    {
+      "expression": "*.microsoftonline.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "LVC5quTQX"
     },
     {
       "expression": "*.yandex.*",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "hyesPJPnu"
+      "id": "HX3VJeGKhg"
     },
     {
       "expression": "2ch.hk",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "fIJ3toYWb"
+      "id": "yreEALqSjc"
+    },
+    {
+      "expression": "crowdin.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "n34eoLwDg"
     },
     {
       "expression": "github.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "6BEPC7wto"
+      "id": "-zU48ZVPbz"
     },
     {
       "expression": "reddit.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "mDi3GyOy6"
+      "id": "wWZhRN42n6"
     },
     {
       "expression": "twitch.tv",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "IG2RQ0EH_"
+      "id": "34O21PnesB"
     },
     {
       "expression": "twitter.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "WB6IyFc32"
+      "id": "Ljj-sXAvkb"
     },
     {
       "expression": "vk.com",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "yUg9_TFnG",
+      "id": "6vturLzRxm",
       "cleanLocalStorage": false
     },
     {
@@ -62,7 +83,7 @@
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
-      "id": "PWKAoZ-Yu"
+      "id": "Q2ADZvfeQj"
     }
   ]
 }
