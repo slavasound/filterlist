@@ -1,73 +1,89 @@
 {
-  "version": "0.98",
-  "date": 1560564896074,
-  "preferences": {
-    "automaticMode": {
-      "active": false,
-      "newTab": "created"
+  "default": [
+    {
+      "expression": "*.bing.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "pfNzMYRmn"
     },
-    "notifications": false,
-    "container": {
-      "namePrefix": "",
-      "color": "red",
-      "colorRandom": true,
-      "icon": "circle",
-      "iconRandom": true,
-      "numberMode": "reuse",
-      "removal": "instant"
+    {
+      "expression": "*.google.*",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "j7A_lg2OF"
     },
-    "iconColor": "black-simple",
-    "isolation": {
-      "global": {
-        "navigation": {
-          "action": "always"
-        },
-        "mouseClick": {
-          "middle": {
-            "action": "never",
-            "container": "deleteshistory"
-          },
-          "ctrlleft": {
-            "action": "never",
-            "container": "deleteshistory"
-          },
-          "left": {
-            "action": "never",
-            "container": "deleteshistory"
-          }
-        },
-        "excluded": {}
-      },
-      "domain": {},
-      "mac": {
-        "action": "disabled"
-      }
+    {
+      "expression": "*.microsoftonline.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "LVC5quTQX"
     },
-    "browserActionPopup": false,
-    "pageAction": false,
-    "contextMenu": false,
-    "keyboardShortcuts": {
-      "AltC": false,
-      "AltP": false,
-      "AltN": false,
-      "AltShiftC": false,
-      "AltX": false
+    {
+      "expression": "*.yandex.*",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "HX3VJeGKhg"
     },
-    "replaceTabs": false,
-    "ignoreRequestsToAMO": false,
-    "ignoreRequestsToPocket": false,
-    "cookies": {
-      "domain": {}
+    {
+      "expression": "2ch.hk",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "yreEALqSjc"
     },
-    "deletesHistory": {
-      "automaticMode": "automatic",
-      "contextMenu": false,
-      "containerAlwaysPerDomain": "automatic",
-      "containerIsolation": "automatic",
-      "containerRemoval": "instant",
-      "containerMouseClicks": "automatic",
-      "statistics": false
+    {
+      "expression": "crowdin.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "n34eoLwDg"
     },
-    "statistics": false
-  }
+    {
+      "expression": "github.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "-zU48ZVPbz"
+    },
+    {
+      "expression": "reddit.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "wWZhRN42n6"
+    },
+    {
+      "expression": "twitch.tv",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "34O21PnesB"
+    },
+    {
+      "expression": "twitter.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "Ljj-sXAvkb"
+    },
+    {
+      "expression": "vk.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "6vturLzRxm",
+      "cleanLocalStorage": false
+    },
+    {
+      "expression": "youtube.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "Q2ADZvfeQj"
+    }
+  ]
 }
