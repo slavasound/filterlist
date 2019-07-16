@@ -442,8 +442,8 @@
 #@##social-media-icons-container
 #@##social-networking-icons-round
 #@##social-rss
-#@##social-twitter32x32
 #@##social-twitter
+#@##social-twitter32x32
 #@##social-youtube
 #@##socialMedia-facebook
 #@##socialMedia-twitter
@@ -1814,9 +1814,9 @@
 #@#.icon-dailymotion
 #@#.icon-delicious
 #@#.icon-digg
+#@#.icon-facebook2
 #@#.icon-facebook16
 #@#.icon-facebook
-#@#.icon-facebook2
 #@#.icon-facebook-24
 #@#.icon-facebook-32
 #@#.icon-facebook-alt
@@ -1844,8 +1844,8 @@
 #@#.icon-fb-small
 #@#.icon-fb-square
 #@#.icon-fb-white
-#@#.icon-feed
 #@#.icon-feed2
+#@#.icon-feed
 #@#.icon-feed-white
 #@#.icon-flickr
 #@#.icon-flipboard
@@ -1922,9 +1922,9 @@
 #@#.icon-p-gplus-m
 #@#.icon-p-linkedin-m
 #@#.icon-p-twitter-m
+#@#.icon-pinterest3
 #@#.icon-pinterest16
 #@#.icon-pinterest
-#@#.icon-pinterest3
 #@#.icon-pinterest-alt
 #@#.icon-pinterest-circle
 #@#.icon-pinterest-circled
@@ -2597,8 +2597,8 @@
 #@#.rssFeeds
 #@#.rssIco
 #@#.rssIcon
-#@#.rss_box2
 #@#.rss_box
+#@#.rss_box2
 #@#.rss_box_content
 #@#.rss_box_title
 #@#.rss_count
@@ -9734,6 +9734,7 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 |http:*-ad-$badfilter
 |http://ad.$badfilter
 |https:*?*&ip=$third-party,badfilter
+|https:*_ad^$badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
 ||2ch.net^$badfilter
 ||8ch.net^$badfilter
