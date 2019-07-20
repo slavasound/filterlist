@@ -27,6 +27,12 @@
 #@##blgtwitter
 #@##block-boxes-facebook
 #@##block-boxes-facebookrecentactivity
+|https:*_ad^$badfilter
+/redirect/*$document,badfilter
+playground.ru##+js(nano-setTimeout-booster.js)
+||playground.ru/img/blank.mp4$media,redirect=noopmp4-1s
+playground.ru#@#.adsbygoogle
+youtube.com###contentWrapper > .ytd-popup-container.style-scope
 #@##block-bulletin-facebook-activity-feed
 #@##block-custom_blocks-facebook_twitter_widgets
 #@##block-ex_article-article_facebook_block
