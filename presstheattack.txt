@@ -25,6 +25,8 @@
 #@##base64-share-twitter
 #@##base64-share-vk
 #@##blgtwitter
+_campaign=$document,badfilter
+pornhub.com##div[id*=age-verification-wrapper], div[id*=age-verification-container]
 #@##block-boxes-facebook
 #@##block-boxes-facebookrecentactivity
 |https:*_ad^$badfilter
