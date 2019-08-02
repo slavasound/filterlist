@@ -2,22 +2,32 @@ no-csp-reports: * true
 no-remote-fonts: * true
 no-remote-fonts: 2ch.hk false
 no-remote-fonts: 2ip.ru false
-no-remote-fonts: alphabetizer.flap.tv false
+no-remote-fonts: achievementstats.com false
 no-remote-fonts: bing.com false
+no-remote-fonts: daily.afisha.ru false
 no-remote-fonts: duckduckgo.com false
+no-remote-fonts: english-films.com false
+no-remote-fonts: fandom.com false
+no-remote-fonts: flap.tv false
 no-remote-fonts: flaticon.com false
 no-remote-fonts: forums.lanik.us false
 no-remote-fonts: google.com false
 no-remote-fonts: imgur.com false
 no-remote-fonts: instagram.com false
 no-remote-fonts: kinopoisk.ru false
+no-remote-fonts: lenta.ru false
 no-remote-fonts: medialeaks.ru false
 no-remote-fonts: openload.co false
+no-remote-fonts: pikabu.ru false
+no-remote-fonts: playground.ru false
+no-remote-fonts: pornhub.com false
 no-remote-fonts: reddit.com false
+no-remote-fonts: reverso.net false
 no-remote-fonts: ria.ru false
+no-remote-fonts: steamcommunity.com false
 no-remote-fonts: streamango.com false
 no-remote-fonts: twitter.com false
-no-remote-fonts: vim.fandom.com false
+no-remote-fonts: virustotal.com false
 no-remote-fonts: vk.com false
 no-remote-fonts: xakep.ru false
 no-remote-fonts: xnxx.com false
@@ -31,15 +41,24 @@ no-scripting: * true
 no-scripting: 2ch.hk false
 no-scripting: 2ip.ru false
 no-scripting: abpvn.com false
+no-scripting: achievementstats.com false
 no-scripting: adblockplus.org false
-no-scripting: alphabetizer.flap.tv false
+no-scripting: avito.ru false
+no-scripting: bandcamp.com false
 no-scripting: beautifier.io false
 no-scripting: bing.com false
+no-scripting: calc.ru false
 no-scripting: codebeautify.org false
+no-scripting: daily.afisha.ru false
 no-scripting: duckduckgo.com false
+no-scripting: english-films.com false
+no-scripting: facebook.com false
+no-scripting: fandom.com false
+no-scripting: flap.tv false
 no-scripting: flaticon.com false
 no-scripting: forums.lanik.us false
 no-scripting: github.com false
+no-scripting: github.io false
 no-scripting: google.com false
 no-scripting: google.ru false
 no-scripting: htmlcompressor.com false
@@ -49,19 +68,25 @@ no-scripting: imgur.com false
 no-scripting: instagram.com false
 no-scripting: kinogo.by false
 no-scripting: kinopoisk.ru false
+no-scripting: lenta.ru false
 no-scripting: mail.ru false
 no-scripting: medialeaks.ru false
 no-scripting: ok.ru false
 no-scripting: openload.co false
+no-scripting: pikabu.ru false
+no-scripting: play2048.co false
+no-scripting: playground.ru false
+no-scripting: pornhub.com false
 no-scripting: reddit.com false
+no-scripting: reverso.net false
 no-scripting: ria.ru false
-no-scripting: rt.pornhub.com false
 no-scripting: stackoverflow.com false
+no-scripting: steamcommunity.com false
 no-scripting: streamango.com false
 no-scripting: twitch.tv false
 no-scripting: twitter.com false
 no-scripting: vidstreaming.io false
-no-scripting: vim.fandom.com false
+no-scripting: virustotal.com false
 no-scripting: vk.com false
 no-scripting: wikipedia.org false
 no-scripting: xakep.ru false
@@ -79,12 +104,14 @@ no-scripting: youtube.com false
 * ad.mail.ru * block
 * addthis.com * block
 * adfox.yandex.ru * block
+* admetrica.ru * block
 * adriver.ru * block
 * advertserve.com * block
 * amazon-adsystem.com * block
 * an.yandex.ru * block
 * analytics.twitter.com * block
 * awaps.yandex.net * block
+* awaps.yandex.ru * block
 * awsync.yandex.ru * block
 * bing.com * noop
 * bootstrapcdn.com * noop
@@ -99,6 +126,9 @@ no-scripting: youtube.com false
 * csp.yandex.net * block
 * cspreport.mail.ru * block
 * doubleclick.net * block
+* facebook.com * noop
+* facebook.net * noop
+* fbcdn.net * block
 * fruithosted.net * noop
 * ggpht.com * noop
 * google-analytics.com * block
@@ -114,12 +144,14 @@ no-scripting: youtube.com false
 * instagram.com * noop
 * iwanttodeliver.com * block
 * jquery.com * allow
+* jstracer.yandex.ru * block
 * jtvnw.net * noop
 * jwpcdn.com * noop
 * jwplayer.com * noop
 * jwpsrv.com * noop
 * kinopoisk.ru * noop
 * mail.ru * noop
+* matchid.adfox.yandex.ru * block
 * mc.yandex.ru * block
 * mload.stream * noop
 * mradx.net * block
@@ -140,6 +172,7 @@ no-scripting: youtube.com false
 * reklama.mail.ru * block
 * rs.mail.ru * block
 * scorecardresearch.com * block
+* sharethis.com * block
 * spade.twitch.tv * block
 * stat.radar.imgsmail.ru * block
 * static-mon.yandex.net * block
@@ -161,6 +194,7 @@ no-scripting: youtube.com false
 * vk.go.mail.ru * block
 * vkuseraudio.net * noop
 * vkuservideo.net * noop
+* weborama.fr * block
 * xray.mail.ru * block
 * yabs.yandex.ru * block
 * yadro.ru * block
@@ -171,10 +205,28 @@ no-scripting: youtube.com false
 * youtube.com * noop
 * ytimg.com * noop
 * zdevx.yandex.ru * block
+* zen.yandex.ru * block
+avito.ru * 3p noop
+avito.ru * 3p-script noop
+bandcamp.com * 3p noop
+bandcamp.com * 3p-script noop
 beautifier.io * 3p noop
 bing.com * 3p noop
 bing.com * 3p-frame noop
 bing.com * 3p-script noop
+daily.afisha.ru * 3p noop
+daily.afisha.ru * 3p-frame noop
+daily.afisha.ru * 3p-script noop
+english-films.com * 3p noop
+english-films.com * 3p-frame noop
+english-films.com * 3p-script noop
+facebook.com * 3p noop
+facebook.com * 3p-script noop
+facebook.com facebook.com * noop
+facebook.com fbcdn.net * noop
+fandom.com * 3p noop
+fandom.com * 3p-frame noop
+fandom.com * 3p-script noop
 forums.lanik.us * 3p noop
 forums.lanik.us * 3p-script noop
 github.com * 3p noop
@@ -184,6 +236,9 @@ google.com * 3p-frame noop
 google.com * 3p-script noop
 help.twitter.com * 3p noop
 imgur.com * 3p noop
+lenta.ru * 3p noop
+lenta.ru * 3p-frame noop
+lenta.ru * 3p-script noop
 mail.ru * 3p noop
 mail.ru * 3p-frame noop
 mail.ru * 3p-script noop
@@ -193,12 +248,25 @@ medialeaks.ru * 3p-script noop
 ok.ru * 3p noop
 ok.ru * 3p-frame noop
 ok.ru * 3p-script noop
+pikabu.ru * 3p noop
+pikabu.ru * 3p-frame noop
+pikabu.ru * 3p-script noop
+playground.ru * 3p noop
+playground.ru * 3p-script noop
 ria.ru * 3p noop
 ria.ru * 3p-script noop
 stackoverflow.com * 3p noop
+steamcommunity.com * 3p noop
+steamcommunity.com * 3p-frame noop
+steamcommunity.com * 3p-script noop
 twitch.tv * 3p noop
 twitch.tv * 3p-script noop
-vim.fandom.com * 3p noop
+twitter.com * 3p noop
+twitter.com * 3p-frame noop
+twitter.com * 3p-script noop
+virustotal.com * 3p noop
+virustotal.com * 3p-frame noop
+virustotal.com * 3p-script noop
 vk.com * 3p noop
 wikipedia.org * 3p noop
 wikipedia.org * 3p-frame noop
