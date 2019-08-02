@@ -17,6 +17,11 @@
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
+/ezgif-$image,badfilter
+||212.122.5.136$document,1p
+/annotations_$domain=youtube.com,badfilter
+_popunder_$document,badfilter
+music.yandex.*##.teaser ~ div
 #@##back-to-top-icon
 #@##badge-facebook-like
 #@##badge-twitter
@@ -6912,7 +6917,6 @@ youtube.com###contentWrapper > .ytd-popup-container.style-scope
 /yt-icon1.$badfilter
 /yt-icon.$badfilter
 /ytwitter_widget_$badfilter
-0.0.0.0 212.122.5.136
 2ch.hk##.logo
 ://ads.$badfilter
 ?offer=$document,badfilter
