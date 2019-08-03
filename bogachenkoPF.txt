@@ -58,7 +58,7 @@ yandex.ru##div > a[href*="//plus.yandex."]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-/^https?:\/\/p([0-9]{1,2})?\./$important,domain=so.com
+/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~so.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
 #@##button_facebook
 #@##button_twitter
