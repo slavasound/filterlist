@@ -1,7 +1,7 @@
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
-! Title: Press the Attack - Personal
+! Title: bogachenko Personal Filters
 ###footer_cookie:not(html):not(body)
 ##a[href^="https://bit.ly/"][target="_blank"]
 #@##FIN_facebook_fanbox
