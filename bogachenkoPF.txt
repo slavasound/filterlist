@@ -49,14 +49,17 @@ youtube.com###contentWrapper > .ytd-popup-container.style-scope
 #@##block-menu-menu-social-icons
 #@##block-menu-menu-social-icons-top
 #@##block-rww_twitter-on_twitter
+|https://$third-party,subdocument,domain=proxyfrom.asia,badfilter
 #@##block-views-twitter-block
 #@##blog-rss
 #@##bottom-menu-social-icons
+|https://$third-party,subdocument,domain=superproxy.biz,badfilter
 #@##box-twitter
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv|~microsoft.com
 yandex.ru##div > a[href*="//plus.yandex."]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
+|https://$third-party,subdocument,domain=tpb.hid.li,badfilter
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 /^https?:\/\/p([0-9]{1,2})?\./$important,domain=~so.com
 /^https?:\/\/r([0-9]{1,2})?\./$important
