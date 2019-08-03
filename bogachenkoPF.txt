@@ -51,6 +51,12 @@ youtube.com###contentWrapper > .ytd-popup-container.style-scope
 #@##blog-rss
 #@##bottom-menu-social-icons
 #@##box-twitter
+/^https?:\/\/c([0-9]{1,2})?\./$important
+twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
+twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
+/^https?:\/\/p([0-9]{1,2})?\./$important
+/^https?:\/\/r([0-9]{1,2})?\./$important
 #@##button_facebook
 #@##button_twitter
 #@##byline-facebook-share
