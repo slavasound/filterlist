@@ -13,6 +13,8 @@
 #@##article-headline-facebook
 #@##article-sidebar-action-facebook
 #@##article-social-facebook
+kinopoisk.ru##+js(abort-on-property-read.js, window.Metrika)
+mail.ru##+js(nowebrtc.js)
 #@##article-social-twitter
 #@##article_twitter
 #@##as_facebook_mem_likebox_widgets
