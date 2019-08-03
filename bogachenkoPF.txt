@@ -1,7 +1,7 @@
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/presstheattack/tree/personal
 ! Licence: https://raw.githubusercontent.com/bogachenko/presstheattack/personal/LICENSE.md
-! Title: bogachenko Personal Filters
+! Title: bogachenko's Personal Filters
 ###footer_cookie:not(html):not(body)
 ##a[href^="https://bit.ly/"][target="_blank"]
 #@##FIN_facebook_fanbox
@@ -9732,12 +9732,13 @@ twitch.tv##+js(eclick2.js, button#mature-link.player-content-button.js-player-ma
 twitch.tv##+js(eclick2.js, button.player-button.player-button--volume.qa-control-volume)
 twitch.tv##+js(twitch-videoad.js)
 twitter.com#@#.tooltip-inner
+@@/\/yandex.*\/search/$generichide,badfilter
+yandex.ru##+js(remove-inline-script, AdvManager)
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
 vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
-yandex.*##.main [class=""] > :matches-css(margin-bottom: 0px)
 yandex.*#$#.main [class=""] :matches-css(background-repeat: no-repeat):has(.home-logo) { background-image: none!important; }
-yandex.ru##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem
+yandex.*##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main
 yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"])
 yandex.ru#@#.popup__under_type_paranja:not([class*="zindex"]):not([class*="offer"]) + .popup
 youtube.com###masthead-ad.style-scope.ytd-browse, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.video-ads.ytp-ad-module, #sponsor-button, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-ad-persistent-progress-bar-container, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div.ytp-progress-bar > div.ytp-progress-list > div.ytp-ad-progress-list, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-top.ytp-share-button-visible > div.ytp-chrome-top-buttons, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-paid-content-overlay, #yt-masthead-ad-renderer, #ytd-action-companion-ad-renderer, #ytd-ad-hover-text-button-renderer, #ytd-ad-info-dialog-renderer, #ytd-player-legacy-desktop-watch-ads-renderer, #ytd-search-pyv-renderer, #ytd-video-masthead-ad-advertiser-info-renderer, #ytd-video-masthead-ad-expandable-thumbnail-tile-renderer, #ytd-video-masthead-ad-expandable-video-tile-renderer, #ytd-video-masthead-ad-primary-video-overlay-renderer, #ytd-video-masthead-ad-primary-video-renderer, #ytd-video-masthead-ad-v3-renderer, #ticker.style-scope.ytd-masthead, #player-ads.style-scope.ytd-watch-flexy, #offer-module.style-scope.ytd-watch-next-secondary-results-renderer
