@@ -53,7 +53,7 @@ youtube.com###contentWrapper > .ytd-popup-container.style-scope
 #@##blog-rss
 #@##bottom-menu-social-icons
 #@##box-twitter
-/^https?:\/\/c([0-9]{1,2})?\./$important
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv
 yandex.ru##div > a[href*="//plus.yandex."]
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
