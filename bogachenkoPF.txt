@@ -9557,7 +9557,6 @@ _analytics_$badfilter
 _banner*$badfilter
 _btn_facebook.$badfilter
 _btn_twitter.$badfilter
-_campaign=$document,badfilter
 _campaign=$popup,badfilter
 _delicious_btn.$badfilter
 _facebook01.$badfilter
@@ -9762,7 +9761,6 @@ kinopoisk.ru,yandex.ru,mail.ru##+js(abort-on-property-read.js, advBlock)
 twitch.tv##.tw-full-width > .tw-mg-b-2
 |http://ad.$badfilter
 |https:*?*&ip=$third-party,badfilter
-|https:*_ad^$badfilter
 |https://$third-party,script,domain=xvideos.com,badfilter
 ||2ch.net^$badfilter
 ||8ch.net^$badfilter
@@ -9888,7 +9886,6 @@ twitch.tv##.tw-full-width > .tw-mg-b-2
 ||googleapis.com/chromewebstore/*/items/verify$important,app=chrome.exe
 ||googlesyndication.com^$important
 ||googletagmanager.com^$badfilter
-||googletagmanager.com^$badfilter
 ||googletagmanager.com^$important,badfilter
 ||googletagmanager.com^$third-party,important
 ||graph.facebook.com/fql?q=SELECT$third-party,badfilter
@@ -9951,7 +9948,6 @@ news.yandex.ru##+js(noeval.js)
 ||sovetnik.market.yandex.ru^$important
 ||speeddials.opera.com/api^$important,app=opera.exe
 ||start.palemoon.org/$important,app=palemoon.exe
-||statcounter.com^$badfilter
 ||statcounter.com^$badfilter
 ||statcounter.com^$important,badfilter
 ||static1.freebitco.in^$badfilter
