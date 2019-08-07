@@ -68,6 +68,13 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 #@##byline-facebook-share
 #@##cf2_facebook
 #@##ck_facebook
+|https:*_ad_$badfilter
+_AD1-$badfilter
+|https:*-ad-$badfilter
+|https:*-ad_$badfilter
+/favicon.ico$third-party,image,domain=~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
+|https://$third-party,script,domain=01fmovies.com,badfilter
+|https://$third-party,xmlhttprequest,domain=01fmovies.com,badfilter
 #@##ck_facebook_1
 #@##ck_facebook_2
 #@##ck_twitter
