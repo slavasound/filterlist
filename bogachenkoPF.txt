@@ -6946,6 +6946,9 @@ _AD1-$badfilter
 @@/^https?:\/\/avatars\.mds\.yandex\.net\/get\-[a-z]{2,6}\/[0-9]{5}\/[^\s]{60,}(\/(islands|normal))/$image
 @@/^https?:\/\/yastatic\.net\/mail\/[-0-9a-zA-Z_/]{45,50}\_lang\-[a-z]{2}\.gif/$image
 @@/advertisement.js$script,badfilter
+*/rum.min.js$script
+*/rum.js$script
+_dfp5-$third-party,badfilter
 @@/js/ads.js$script,badfilter
 @@_dfp_$script,domain=kinopoisk.ru
 @@||01net.com/recherche/$elemhide,badfilter
