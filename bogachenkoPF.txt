@@ -9794,6 +9794,7 @@ twitter.com#@#.tooltip-inner
 ^ad8_$badfilter
 ^ad9-$badfilter
 ^ad9.$badfilter
+@@*$stealth,domain=music.yandex.ru|music.yandex.ua|music.yandex.by
 ^ad9^$badfilter
 ^ad9_$badfilter
 @@/\/yandex.*\/search/$generichide,badfilter

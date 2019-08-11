@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1565505598034,
+  "timeStamp": 1565506147306,
   "version": "1.21.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://adblock.dk/block.csv\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/bogachenkoPF.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/bogachenkoPF.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -46,7 +46,6 @@
     "https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
-    "https://adblock.dk/block.csv",
     "https://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
     "https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt",
     "https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt"
