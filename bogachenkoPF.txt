@@ -9745,7 +9745,6 @@ qaru.site##.wraptip, .wtip
 yandex.ru#@#div[class^="ya-share"]
 /adverts/$badfilter
 |https:*_ad-$badfilter
-rambler.ru,yandex.ru,yandex.ua,yandex.by##+js(set-constant.js, Math.random, trueFunc)
 translate.ru##.topAdv.row
 translate.yandex.ru###collectionsWrapper > .overlay-content, .container_rubber_footer, .button_icon_collections.button_icon.button
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
