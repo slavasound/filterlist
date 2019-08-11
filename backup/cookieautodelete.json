@@ -22,11 +22,25 @@
       "id": "LVC5quTQX"
     },
     {
+      "expression": "*.wikipedia.org",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "4rB4Q90Yr"
+    },
+    {
       "expression": "*.yandex.*",
       "listType": "WHITE",
       "storeId": "default",
       "cookieNames": [],
       "id": "HX3VJeGKhg"
+    },
+    {
+      "expression": "*.youtube.com",
+      "listType": "WHITE",
+      "storeId": "default",
+      "cookieNames": [],
+      "id": "zkALrG9rD"
     },
     {
       "expression": "2ch.hk",
@@ -77,13 +91,6 @@
       "cookieNames": [],
       "id": "6vturLzRxm",
       "cleanLocalStorage": false
-    },
-    {
-      "expression": "youtube.com",
-      "listType": "WHITE",
-      "storeId": "default",
-      "cookieNames": [],
-      "id": "Q2ADZvfeQj"
     }
   ]
 }

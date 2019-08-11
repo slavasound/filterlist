@@ -9798,7 +9798,7 @@ twitter.com#@#.tooltip-inner
 ^ad9_$badfilter
 @@/\/yandex.*\/search/$generichide,badfilter
 yandex.ru##+js(eclick.js, .button2_js_inited.i-bem.weather-maps__webgl-popup-button-hide.button2_view_classic.button2_size_xm.button2_theme_normal.button2)
-yandex.ru##+js(rm-js, AdvManager)
+yandex.ru,~music.yandex.ru##+js(rm-js, AdvManager)
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
 vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
@@ -9855,7 +9855,7 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 |https:*^ad9^$badfilter
 |https:*^ad9_$badfilter
 _ad1*$badfilter
-kinopoisk.ru,yandex.ru,mail.ru##+js(abort-on-property-read.js, advBlock)
+kinopoisk.ru,yandex.ru,mail.ru,~music.yandex.ru##+js(abort-on-property-read.js, advBlock)
 @@://yandex.ru/|$generichide,badfilter
 |http:*-ad-$badfilter
 twitch.tv##.tw-full-width > .tw-mg-b-2
