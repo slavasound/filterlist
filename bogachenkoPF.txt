@@ -9797,7 +9797,8 @@ twitter.com#@#.tooltip-inner
 ^ad9^$badfilter
 ^ad9_$badfilter
 @@/\/yandex.*\/search/$generichide,badfilter
-yandex.ru##+js(eclick.js, .button2_js_inited.i-bem.weather-maps__webgl-popup-button-hide.button2_view_classic.button2_size_xm.button2_theme_normal.button2)
+||static-mon.yandex.net^$important
+||csp.yandex.net^$important
 yandex.ru,~music.yandex.ru##+js(rm-js, AdvManager)
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
