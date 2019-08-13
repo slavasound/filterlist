@@ -6941,7 +6941,7 @@ direct-link.net,direkt-wissen.com##+js(setTimeout-defuser.js, nextFunction, 2000
 2ch.hk##.logo
 ://ads.$badfilter
 ?offer=$document,badfilter
-streamcherry.com,rapidvideo.com,openload.*,oload.*,openloed.*,oladblock.*##+js(addEventListener-defuser, contextmenu)
+streamcherry.com,rapidvideo.com,openload.*,oload.*,openloed.*,oladblock.*,verystream.com##+js(addEventListener-defuser, contextmenu)
 ?partner=$document,badfilter
 ?partner=$third-party,badfilter
 @@#/nativendo/aid/*/cid/$elemhide,badfilter
