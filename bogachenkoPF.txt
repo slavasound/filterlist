@@ -56,7 +56,7 @@ _ad7-$badfilter
 #@##bottom-menu-social-icons
 |https://$third-party,subdocument,domain=superproxy.biz,badfilter
 #@##box-twitter
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv|~microsoft.com
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv|~microsoft.com|~scenelife.org
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 |https://$third-party,subdocument,domain=tpb.hid.li,badfilter
