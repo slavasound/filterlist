@@ -9824,6 +9824,7 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 ||yandex.*/clck/$important,redirect=nooptext,xmlhttprequest
 ||yandex.*/clck/$important,redirect=noopframe,subdocument
 ||yandex.*/clck/$important,redirect=noopcss,stylesheet
+||yandex.*/clck/$important,redirect=1x1-transparent.gif,image
 |https:*^ad2-$badfilter
 |https:*^ad2.$badfilter
 |https:*^ad2^$badfilter
