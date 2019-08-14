@@ -56,7 +56,7 @@ _ad7-$badfilter
 #@##bottom-menu-social-icons
 |https://$third-party,subdocument,domain=superproxy.biz,badfilter
 #@##box-twitter
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv|~microsoft.com|~scenelife.org
+/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv|~microsoft.com|~scenelife.org|~vidlox.me
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 |https://$third-party,subdocument,domain=tpb.hid.li,badfilter
@@ -6941,7 +6941,7 @@ direct-link.net,direkt-wissen.com##+js(setTimeout-defuser.js, nextFunction, 2000
 2ch.hk##.logo
 ://ads.$badfilter
 ?offer=$document,badfilter
-streamcherry.com,rapidvideo.com,openload.*,oload.*,openloed.*,oladblock.*,verystream.com##+js(addEventListener-defuser, contextmenu)
+streamcherry.com,rapidvideo.com,openload.*,oload.*,openloed.*,oladblock.*,verystream.com,gounlimited.to##+js(addEventListener-defuser, contextmenu)
 ?partner=$document,badfilter
 ?partner=$third-party,badfilter
 @@#/nativendo/aid/*/cid/$elemhide,badfilter
@@ -9742,6 +9742,7 @@ openload.co,oload.*,streamcherry.com##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(rm-js, adblock)
 passport.yandex.ru###qr-promo-tooltip
 qaru.site##.wraptip, .wtip
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 yandex.ru#@#div[class^="ya-share"]
 /adverts/$badfilter
 |https:*_ad-$badfilter
