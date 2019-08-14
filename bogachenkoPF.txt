@@ -52,21 +52,23 @@ _ad7-$badfilter
 #@##block-rww_twitter-on_twitter
 |https://$third-party,subdocument,domain=proxyfrom.asia,badfilter
 #@##block-views-twitter-block
+@@||p.jwpcdn.com^
 #@##blog-rss
 #@##bottom-menu-social-icons
 |https://$third-party,subdocument,domain=superproxy.biz,badfilter
 #@##box-twitter
-/^https?:\/\/c([0-9]{1,2})?\./$important,domain=~hqq.tv|~microsoft.com|~scenelife.org|~vidlox.me
+/^https?:\/\/c([0-9]{1,2})?\./$script,domain=~hqq.tv|~microsoft.com|~scenelife.org|~vidlox.me|~kissasian.sh
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 |https://$third-party,subdocument,domain=tpb.hid.li,badfilter
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-/^https?:\/\/p([0-9]{1,2})?\./$important,domain=~so.com
-/^https?:\/\/r([0-9]{1,2})?\./$important
+/^https?:\/\/p([0-9]{1,2})?\./$script,domain=~so.com
+/^https?:\/\/r([0-9]{1,2})?\./$script
 #@##button_facebook
 #@##button_twitter
 #@##byline-facebook-share
 #@##cf2_facebook
+kissasian.*##+js(nano-setTimeout-booster.js)
 #@##ck_facebook
 |https:*_ad_$badfilter
 _AD1-$badfilter
