@@ -10426,12 +10426,14 @@ _ad9_$badfilter
 ||metrica.yandex.com^$badfilter
 ||metrica.yandex.ru^$badfilter
 ||metrika.yandex.$third-party,badfilter
+||strm.yandex.ru/get/$image,script
+||yastatic.net^$other
 ||metrika.yandex.com^$badfilter
 ||metrika.yandex.ru^$badfilter
 ||metrika.yandex.ru^$third-party,badfilter
 ||mobile.yandex.net^$important
 ||mradx.net^$badfilter
-yandex.ru,~tv.yandex.ru##+js(noeval.js)
+yandex.ru,~tv.yandex.ru,widgets.kinopoisk.ru##+js(noeval.js)
 ||notification.adblockplus.org/notification.json^$important,app=palemoon.exe
 ||nsimg.net^$badfilter
 ||ocsp.digicert.com/$important
