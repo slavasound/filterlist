@@ -1,3 +1,6 @@
+# Collection of scriptlets to be used for injection/redirection on specific domains.
+# It was all stolen by me from here - https://github.com/uBlock-user/uBO-Scriptlets/
+
 # autoplay-blocker
 # example.com##+js(autoplay-defuser)
 autoplay-defuser.js application/javascript
@@ -60,4 +63,66 @@ eclick2.js application/javascript
 		} else {
 			addEventListener('load', click);
 		}
+})();
+
+# decodeURIComponent-defuser
+noduc.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	realnoduc = window.decodeURIComponent;
+	window.decodeURIComponent = function(a) {
+		if ( !needle.test(a.toString()) ) {
+			realnoduc.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# decodeURIComponent-logger
+duc-logger.js application/javascript
+(function() {
+	let z = window.decodeURIComponent,
+		log = console.log.bind(console);
+	window.decodeURIComponent = function(a) {
+		log('uBO: decodeURIComponent("%s")', a.toString());
+		return z.apply(this, arguments);
+	}.bind(window);
+})();
+
+# encodeURIComponent-defuser
+noeuc.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	realnoeuc = window.encodeURIComponent;
+	window.encodeURIComponent = function(a) {
+		if ( !needle.test(a.toString()) ) {
+			realnoeuc.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# encodeURIComponent-logger
+euc-logger.js application/javascript
+(function() {
+	let z = window.encodeURIComponent,
+		log = console.log.bind(console);
+	window.encodeURIComponent = function(a) {
+		log('uBO: encodeURIComponent("%s")', a.toString());
+		return z.apply(this, arguments);
+	}.bind(window);
 })();
