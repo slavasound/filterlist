@@ -9815,7 +9815,8 @@ yandex.ru#@#li[class^="ya-share2"][class$="twitter"]
 @@/\/yandex.*\/search/$generichide,badfilter
 ||static-mon.yandex.net^$important
 ||csp.yandex.net^$important
-mail.ru,~yandex.ru,~tv.yandex.ru,news.yandex.ru,~music.yandex.ru##+js(noeuc.js)
+mail.ru,news.yandex.ru##+js(noeuc.js)
+kinopoisk.ru##+js(rm-js, advBlock)
 yandex.ru,~music.yandex.ru,~tv.yandex.ru##+js(rm-js, AdvManager)
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
