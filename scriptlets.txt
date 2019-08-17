@@ -2,7 +2,6 @@
 # It was all stolen by me from here - https://github.com/uBlock-user/uBO-Scriptlets/
 
 # autoplay-blocker
-# example.com##+js(autoplay-defuser)
 autoplay-defuser.js application/javascript
 (() => {
 	      'use strict';
@@ -22,7 +21,6 @@ autoplay-defuser.js application/javascript
 })();
 
 # element-clicker
-# example.com##+js(eclick, #example)
 eclick.js application/javascript
 (() => {
 		'use strict';
@@ -46,7 +44,6 @@ eclick.js application/javascript
 })();
 
 # element-clicker-onload
-# example.com##+js(eclick2, .example)
 eclick2.js application/javascript
 (() => {
 		'use strict';
@@ -209,7 +206,7 @@ stcharat-defuser.js application/javascript
 	}.bind(window);
 })();
 
-# String.prototype.charCodeAt-logger 
+# String.prototype.charCodeAt-logger
 stcharat-logger.js application/javascript
 (function() {
 	let z = window.String.prototype.charCodeAt,
@@ -251,37 +248,6 @@ dwrite-logger.js application/javascript
 	}.bind(window);
 })();
 
-# HSTS-setter
-https-always.js application/javascript
-(function() {
-	let docu = document;
-	if (!docu.head) { return; }
-	let meta = docu.createElement('meta');
-	meta.setAttribute('name', 'Strict-Transport-Security');
-	meta.setAttribute('content', 'max-age=31536000; includeSubDomains');
-	docu.head.appendChild(meta);
-})();
-
-# document.createElement-defuser
-dce.js application/javascript
-(function() {
-	let needle = '{{1}}';
-	if ( needle === '' || needle === '{{1}}' ) {
-		needle = '.?';
-	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
-		needle = needle.slice(1,-1);
-	} else {
-		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-	}
-	needle = new RegExp(needle);
-	rdce = document.createElement.bind(document);
-	window.document.createElement = function(a) {
-		if ( !needle.test(a.toString()) ) {
-			rdce.call(window, a);
-		}
-	}.bind(window);
-})();
-
 # document.createElement-logger
 dce-logger.js application/javascript
 (function() {
@@ -293,26 +259,6 @@ dce-logger.js application/javascript
 	}.bind(window);
 })();
 
-# document.getElementsByName-defuser
-dgebn.js application/javascript
-(function() {
-	let needle = '{{1}}';
-	if ( needle === '' || needle === '{{1}}' ) {
-		needle = '.?';
-	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
-		needle = needle.slice(1,-1);
-	} else {
-		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-	}
-	needle = new RegExp(needle);
-	rdgebn = document.getElementsByName.bind(document);
-	window.document.getElementsByName = function(a) {
-		if ( !needle.test(a.toString()) ) {
-			rdgebn.call(window, a);
-		}
-	}.bind(window);
-})();
-
 # document.getElementsByName-logger
 dgebn-logger.js application/javascript
 (function() {
@@ -321,26 +267,6 @@ dgebn-logger.js application/javascript
 	window.document.getElementsByName = function(a) {
 		log('uBO: document.getElementsByName("%s")', a.toString());
 		return z.apply(this, arguments);
-	}.bind(window);
-})();
-
-# document.getElementsByTagName-defuser
-dgebtn.js application/javascript
-(function() {
-	let needle = '{{1}}';
-	if ( needle === '' || needle === '{{1}}' ) {
-		needle = '.?';
-	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
-		needle = needle.slice(1,-1);
-	} else {
-		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-	}
-	needle = new RegExp(needle);
-	rdgebtn = document.getElementsByTagName.bind(document);
-	window.document.getElementsByTagName = function(a) {
-		if ( !needle.test(a.toString()) ) {
-			rdgebtn.call(window, a);
-		}
 	}.bind(window);
 })();
 
@@ -384,4 +310,15 @@ atob-logger.js application/javascript
 		log('uBO: atob("%s")', a.toString());
 		return z.apply(this, arguments);
 	}.bind(window);
+})();
+
+# fuck-windows
+fuck-windows.js application/javascript
+(() => {
+	     'use strict';
+	      window.open = () => {};
+	      this.open = () => {};
+	      parent.open = () => {};
+	      window.opener = () => {};
+		  w.open = () => {};
 })();
