@@ -9769,6 +9769,7 @@ twitch.tv##+js(eclick2.js, .qa-control-volume)
 twitch.tv##+js(twitch-videoad.js)
 twitter.com#@#.tooltip-inner
 ^ad0-$badfilter
+##[src*="://ad.doubleclick.net/"]
 ^ad0.$badfilter
 ^ad0^$badfilter
 ^ad0_$badfilter
@@ -9817,7 +9818,8 @@ yandex.ru#@#li[class^="ya-share2"][class$="twitter"]
 ||csp.yandex.net^$important
 mail.ru,news.yandex.ru##+js(noeuc.js)
 kinopoisk.ru##+js(rm-js, advBlock)
-yandex.ru,~music.yandex.ru,~tv.yandex.ru##+js(rm-js, AdvManager)
+market.yandex.ru##a[href^="https://fenek.market.yandex."]
+yandex.ru,~music.yandex.ru,~tv.yandex.ru,~market.yandex.ru##+js(rm-js, AdvManager)
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
 ||sandbox.music.yandex.net^$script,subdocument,domain=music.yandex.ru
