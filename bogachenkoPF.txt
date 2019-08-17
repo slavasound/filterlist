@@ -48,6 +48,15 @@ youtube.com###contentWrapper > .ytd-popup-container.style-scope
 _ad7-$badfilter
 #@##block-ex_article-homepage_facebook_block
 #@##block-menu-menu-social-icons
+/ss-social.$font,badfilter
+/social_sprite_$badfilter
+/img/*/social_$badfilter
+||adf.ly^$badfilter
+#@#.ss-social
+giphy.com#@#div[class^="flash-message"]
+#@#[title="Share to Facebook"]:not(.wpel-icon-right)
+2ch.hk###plashque
+||adguardteam.github.io/AnonymousRedirect/redirect.html$document
 #@##block-menu-menu-social-icons-top
 #@##block-rww_twitter-on_twitter
 |https://$third-party,subdocument,domain=proxyfrom.asia,badfilter
