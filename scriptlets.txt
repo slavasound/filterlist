@@ -126,3 +126,96 @@ euc-logger.js application/javascript
 		return z.apply(this, arguments);
 	}.bind(window);
 })();
+
+# parseInt-defuser
+nopi.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	realnopi = window.parseInt;
+	window.parseInt = function(a) {
+		if ( !needle.test(String(a)) ) {
+			realnopi.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# parseInt-logger
+nopi-logger.js application/javascript
+(function() {
+	let z = window.parseInt,
+		log = console.log.bind(console);
+	window.parseInt = function(a) {
+		log('uBO: parseInt("%s")', String(a));
+		return z.apply(this, arguments);
+	}.bind(window);
+})();
+
+# String.fromCharCode-defuser
+schar.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	realschar = window.String.fromCharCode;
+	window.String.fromCharCode = function(a) {
+		if ( !needle.test(String(a)) ) {
+			realschar.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# String.fromCharCode-logger
+schar-logger.js application/javascript
+(function() {
+	let z = window.String.fromCharCode,
+		log = console.log.bind(console);
+	window.String.fromCharCode = function(a) {
+		log('uBO: String.fromCharCode("%s")', String(a));
+		return z.apply(this, arguments);
+	}.bind(window);
+})();
+
+# String.prototype.charCodeAt-defuser
+stcharat-defuser.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	realstcharat = window.String.prototype.charCodeAt;
+	window.String.prototype.charCodeAt = function(a) {
+		if ( !needle.test(String(a)) ) {
+			realstcharat.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# String.prototype.charCodeAt-logger 
+stcharat-logger.js application/javascript
+(function() {
+	let z = window.String.prototype.charCodeAt,
+		log = console.log.bind(console);
+	window.String.prototype.charCodeAt = function(a) {
+		log('uBO: String.prototype.charCodeAt("%s")', String(a));
+		return z.apply(this, arguments);
+	}.bind(window);
+})();
