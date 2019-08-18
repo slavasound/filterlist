@@ -9758,6 +9758,7 @@ yandex.ru#@#div[class^="ya-share"]
 /adverts/$badfilter
 |https:*_ad-$badfilter
 translate.ru##.topAdv.row
+twitch.tv#@#.tw-z-above.tw-left-0.tw-full-width.tw-bottom-0.tw-absolute
 translate.yandex.ru###collectionsWrapper > .overlay-content, .container_rubber_footer, .button_icon_collections.button_icon.button
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
 tv.yandex.ru##:xpath(//div[@class='grid-chunk__column-box'])
