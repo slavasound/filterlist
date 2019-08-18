@@ -390,13 +390,16 @@ alt-logger.js application/javascript
 	}.bind(window);
 })();
 
-# propsetter
-ps.js application/javascript
+# readOnly-property-setter
+ro.js application/javascript
 (() => {
     'use strict';
+    const prop = '{{1}}';
+    if (prop === '' || prop === '{{1}}') {
+        return;
+    }
+    const props = prop.split(/\s*\|\s*/);
     const ps = ev => {
-        const prop = '{{1}}';
-        const props = prop.split(/\s*\|\s*/);
         if (ev) {
             window.removeEventListener(ev.type, ps, true);
         }
