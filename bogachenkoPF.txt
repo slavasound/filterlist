@@ -9783,6 +9783,7 @@ twitter.com#@#.tooltip-inner
 ##[src*="://ad.doubleclick.net/"]
 ^ad0.$badfilter
 ^ad0^$badfilter
+yandex.ru##+js(noatob.js)
 ^ad0_$badfilter
 ^ad1-$badfilter
 ^ad1.$badfilter
