@@ -1,5 +1,5 @@
 # Collection of scriptlets to be used for injection/redirection on specific domains.
-# It was all stolen by me from here - https://github.com/uBlock-user/uBO-Scriptlets/
+# Most of these scriptlets have been stolen by me from here https://github.com/uBlock-user/uBO-Scriptlets/
 
 # autoplay-blocker
 autoplay-defuser.js application/javascript
@@ -314,18 +314,6 @@ atob-logger.js application/javascript
     }.bind(window);
 })();
 
-# FuckWindows
-fuckwindows.js application/javascript
-(function() {
-    'use strict';
-    window.open = function() {};
-    this.open = function() {};
-    parent.open = function() {};
-    window.opener = function() {};
-    w.open = function() {};
-	winopen = function() {};
-})();
-
 # MouseClick-defuser
 mouseclk.js application/javascript
 (function() {
@@ -338,4 +326,77 @@ mouseclk.js application/javascript
     document.oncopy=null;
     document.onselectstart=null;
     document.ondragstart=null;
+})();
+
+# btoa-defuser
+nobtoa.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	realNoBtoa = window.btoa;
+	window.btoa = function(a) {
+		if ( !needle.test(a.toString()) ) {
+			realNoBtoa.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# btoa-logger
+btoa-logger.js application/javascript
+(function() {
+	let z = window.btoa,
+		log = console.log.bind(console);
+	window.btoa = function(a) {
+		log('uBO: btoa("%s")', a.toString());
+		return z.apply(this, arguments);
+	}.bind(window);
+})();
+
+# window.alert-defuser
+alt.js application/javascript
+(function() {
+	let needle = '{{1}}';
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	ralt = window.alert;
+	window.alert = function(a) {
+		if ( !needle.test(a.toString()) ) {
+			ralt.call(window, a);
+		}
+	}.bind(window);
+})();
+
+# window.alert-logger
+alt-logger.js application/javascript
+(function() {
+	let z = window.alert,
+		log = console.log.bind(console);
+	window.alert = function(a) {
+		log('uBO: window.alert("%s")', a.toString());
+		return z.apply(this, arguments);
+	}.bind(window);
+})();
+
+# cookie-blocker-experimental
+cb.js application/javascript
+(function() {
+	let docu = document;
+	if (!docu.head) { return; }
+	let meta = docu.createElement('meta');
+	meta.setAttribute('http-equiv', 'cookie');
+	meta.setAttribute('content', '  ');
+	docu.head.appendChild(meta);
 })();
