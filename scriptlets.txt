@@ -315,7 +315,7 @@ atob-logger.js application/javascript
 })();
 
 # MouseClick-defuser
-mouseclk.js application/javascript
+mousedef.js application/javascript
 (() => {
     'use strict';
     document.body.removeAttribute('oncontextmenu');
