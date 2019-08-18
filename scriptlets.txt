@@ -314,8 +314,8 @@ atob-logger.js application/javascript
     }.bind(window);
 })();
 
-# fuck-windows
-fuck-windows.js application/javascript
+# FuckWindows
+fuckwindows.js application/javascript
 (() => {
     'use strict';
     window.open = () => {};
@@ -325,14 +325,16 @@ fuck-windows.js application/javascript
     w.open = () => {};
 })();
 
-# right-click-lock
-rightclk.js application/javascript
+# MouseClick-defuser
+mouseclk.js application/javascript
 (function() {
     'use strict';
     document.body.removeAttribute('oncontextmenu');
     document.body.removeAttribute('oncopy');
     document.body.removeAttribute('onselectstart');
+    document.body.removeAttribute('ondragstart');
     document.oncontextmenu=null;
     document.oncopy=null;
     document.onselectstart=null;
+    document.ondragstart=null;
 })();
