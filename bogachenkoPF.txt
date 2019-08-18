@@ -17,6 +17,7 @@ kinopoisk.ru##+js(abort-on-property-read.js, window.Metrika)
 mail.ru##+js(nowebrtc.js)
 #@##article-social-twitter
 #@##article_twitter
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 #@##as_facebook_mem_likebox_widgets
 #@##as_facebook_recommend
 /ezgif-$image,badfilter
