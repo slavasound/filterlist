@@ -324,3 +324,15 @@ fuck-windows.js application/javascript
     window.opener = () => {};
     w.open = () => {};
 })();
+
+# right-click-lock
+rightclk.js application/javascript
+(function() {
+    'use strict';
+    document.body.removeAttribute('oncontextmenu');
+    document.body.removeAttribute('oncopy');
+    document.body.removeAttribute('onselectstart');
+    document.oncontextmenu=null;
+    document.oncopy=null;
+    document.onselectstart=null;
+})();
