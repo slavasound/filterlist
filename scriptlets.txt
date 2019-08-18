@@ -389,14 +389,3 @@ alt-logger.js application/javascript
 		return z.apply(this, arguments);
 	}.bind(window);
 })();
-
-# cookie-blocker-experimental
-cb.js application/javascript
-(function() {
-	let docu = document;
-	if (!docu.head) { return; }
-	let meta = docu.createElement('meta');
-	meta.setAttribute('http-equiv', 'cookie');
-	meta.setAttribute('content', '  ');
-	docu.head.appendChild(meta);
-})();
