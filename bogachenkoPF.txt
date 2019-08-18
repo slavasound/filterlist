@@ -9755,13 +9755,19 @@ music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua#@#.page-root > d
 openload.co,oload.*,streamcherry.com##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(rm-js, adblock)
 passport.yandex.ru###qr-promo-tooltip
+#@#[onclick^="window.open('https://plus.google.com/share?"]
 qaru.site##.wraptip, .wtip
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 yandex.ru#@#div[class^="ya-share"]
 /adverts/$badfilter
+#@#a[onclick^="window.open('http://www.facebook.com/share.php?"]
+#@#a[onclick^="window.open('http://vk.com/share.php"]
 |https:*_ad-$badfilter
+#@#a[onclick^="window.open('http://twitter.com/share"]
 ||kope.cc^$script,third-party
+#@#a[href^="http://vk.com/share.php"]
 translate.ru##.topAdv.row
+#@#a[href^="https://plus.google.com/share"]
 twitch.tv#@#.tw-z-above.tw-left-0.tw-full-width.tw-bottom-0.tw-absolute
 translate.yandex.ru###collectionsWrapper > .overlay-content, .container_rubber_footer, .button_icon_collections.button_icon.button
 tv.yandex.ru##+js(abort-on-property-read.js, navigator.sendBeacon)
