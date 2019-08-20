@@ -9820,17 +9820,23 @@ yandex.ru,~music.yandex.ru,~passport.yandex.ru##+js(noatob.js)
 ^ad2^$badfilter
 ^ad2_$badfilter
 ^ad3-$badfilter
+passport.yandex.ru###qr-promo-tooltip-large
 ^ad3.$badfilter
+ka4ka.ru##+js(abort-current-inline-script.js, document.createElement, 'script')
 ^ad3^$badfilter
 ^ad3_$badfilter
 ^ad4-$badfilter
 ^ad4.$badfilter
 ^ad4^$badfilter
 ^ad4_$badfilter
+#@#[aria-label="More sharing options"]
 ^ad5-$badfilter
 ^ad5.$badfilter
+nytimes.com#@#a[aria-label="Email"]
 ^ad5^$badfilter
 ^ad5_$badfilter
+www.latimes.com##.met-flyout
+#@#a[aria-label="Email"]
 ^ad6-$badfilter
 ^ad6.$badfilter
 ^ad6^$badfilter

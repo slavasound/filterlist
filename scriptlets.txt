@@ -1,5 +1,4 @@
 # Collection of scriptlets to be used for injection/redirection on specific domains.
-# Most of these scriptlets have been stolen by me from here https://github.com/uBlock-user/uBO-Scriptlets/
 
 # eval-logger
 # example.com##+js(eval-logger)
@@ -432,3 +431,10 @@ ro.js application/javascript
         ro();
     }
 })();
+
+noopvast-2.0 text/xml
+<VAST version="2.0"></VAST>
+
+noopvast-3.0 text/xml
+<VAST version="3.0"></VAST>
+
