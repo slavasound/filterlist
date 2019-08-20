@@ -9851,8 +9851,10 @@ yandex.ru##+js(abort-on-property-read, Element.prototype.attachShadow)
 @@/\/yandex.*\/search/$generichide,badfilter
 ||static-mon.yandex.net^$important
 ||csp.yandex.net^$important
+yandex.ru##+js(cookie-set, my, Yy4BAQA=, 2114785965)
+||yandex.ru/search/yandcache.js$script
 market.yandex.ru##.main > noindex
-mail.ru,news.yandex.ru##+js(noeuc.js)
+news.yandex.ru##+js(noeuc.js)
 kinopoisk.ru##+js(rm-js, advBlock)
 market.yandex.ru##a[href^="https://fenek.market.yandex."]
 yandex.ru,~music.yandex.ru,~tv.yandex.ru,~market.yandex.ru##+js(rm-js, AdvManager)
@@ -9882,6 +9884,7 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 |https:*^ad3-$badfilter
 |https:*^ad3.$badfilter
 |https:*^ad3^$badfilter
+||yahoo.com^$third-party,important
 |https:*^ad3_$badfilter
 |https:*^ad4-$badfilter
 |https:*^ad4.$badfilter
