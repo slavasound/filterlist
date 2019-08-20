@@ -432,9 +432,17 @@ ro.js application/javascript
     }
 })();
 
+# noopvast-2
 noopvast-2.0 text/xml
 <VAST version="2.0"></VAST>
 
+# noopvast-3
 noopvast-3.0 text/xml
 <VAST version="3.0"></VAST>
 
+# cookie-setter
+cookie-set.js application/javascript
+(() => {
+	     'use strict';
+	     document.cookie = '{{1}}={{2}}; max-age={{3}}; secure; path=/;';
+})();
