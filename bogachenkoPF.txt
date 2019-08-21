@@ -159,9 +159,7 @@ _AD1-$badfilter
 #@##facebook-likebox
 #@##facebook-likebox-wrap
 #@##facebook-link
-1tv.ru#@#.social-buttons-compact
 #@#.social-buttons-compact
-1tv.ru#@#.side-promo-place-right
 #@#.side-promo-place-right
 #@##facebook-module
 #@##facebook-page-plugin
@@ -4227,7 +4225,6 @@ _AD1-$badfilter
 #@#.b-rec-box
 #@#.b-recommend
 #@#.b-share-counter-link
-#@#.b-social
 #@#.b-social-callout-div
 #@#.b-timeline-btn
 #@#.b-timeline-driver
@@ -4237,7 +4234,6 @@ _AD1-$badfilter
 #@#.b_300x250
 #@#.b_card
 #@#.b_container
-#@#.b_facebook
 #@#.b_fb_like
 #@#.b_ico
 #@#.b_reader_container
@@ -8303,7 +8299,6 @@ _dfp5-$third-party,badfilter
 @@||google.is^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.is^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.it.ao^*adsense/search/*ads.js|$badfilter
-komputerswiat.pl#@#.social-container
 #@#.social-container
 @@||google.it.ao^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.it.ao^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
@@ -8313,9 +8308,6 @@ komputerswiat.pl#@#.social-container
 @@||google.je^*adsense/search/*ads.js|$badfilter
 @@||google.je^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 #@#a[title="YouTube"]
-#@#a[href^="whatsapp://send?text="]
-#@#a[href^="whatsapp://send"]
-#@#a[href^="https://www.facebook.com/sharer.php"]
 #@#a[href^="https://reddit.com/submit?url="]
 #@#a[href^="https://reddit.com/submit?"]
 #@#a[href^="https://plusone.google.com/_/+1/confirm?"]
@@ -9849,7 +9841,6 @@ yandex.ru,~music.yandex.ru,~passport.yandex.ru##+js(noatob.js)
 ^ad1^$badfilter
 #@#a[href^="https://pinterest.com/pin/create/"]
 #@#a[href^="https://pinterest.com/pin/create/button/"]
-#@#a[href^="https://plus.google.com/share"]
 #@#a[href^="https://www.linkedin.com/shareArticle"]
 #@#a[href^="https://www.linkedin.com/shareArticle?"]
 ^ad1_$badfilter
@@ -9875,7 +9866,6 @@ ka4ka.ru##+js(abort-current-inline-script.js, document.createElement, 'script')
 #@#[aria-label="More sharing options"]
 ^ad5-$badfilter
 ^ad5.$badfilter
-nytimes.com#@#a[aria-label="Email"]
 ^ad5^$badfilter
 ^ad5_$badfilter
 www.latimes.com##.met-flyout
@@ -10173,7 +10163,6 @@ _ad0_$badfilter
 _ad1-$badfilter
 _ad1.$badfilter
 _ad1^$badfilter
-_ad1_$badfilter
 _ad2-$badfilter
 _ad2.$badfilter
 _ad2^$badfilter
@@ -10194,7 +10183,6 @@ _ad6-$badfilter
 _ad6.$badfilter
 _ad6^$badfilter
 _ad6_$badfilter
-_ad7-$badfilter
 _ad7.$badfilter
 _ad7^$badfilter
 _ad7_$badfilter
@@ -10544,7 +10532,6 @@ yandex.ru,~tv.yandex.ru,widgets.kinopoisk.ru##+js(noeval.js)
 ||platform.twitter.com*/widget/$third-party,badfilter
 ||platform.twitter.com*/widgets/$third-party,badfilter
 ||platform.twitter.com/anywhere.js$third-party,badfilter
-||static-mon.yandex.net^$important
 ||platform.twitter.com/embed/$~stylesheet,third-party,badfilter
 ||platform.twitter.com/js/button.$badfilter
 ||platform.twitter.com/js/button.$third-party,badfilter
