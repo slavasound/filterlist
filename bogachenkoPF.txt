@@ -87,8 +87,8 @@ twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклам�
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 |https://$third-party,subdocument,domain=tpb.hid.li,badfilter
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
-/^https?:\/\/p([0-9]{1,2})?\./$script,domain=~so.com
-/^https?:\/\/r([0-9]{1,2})?\./$script
+/^https?:\/\/p([0-9]{1,2})?\./$script,domain=~so.com|~live.com
+/^https?:\/\/r([0-9]{1,2})?\./$script,domain=~live.com
 #@##button_facebook
 #@##button_twitter
 #@##byline-facebook-share
@@ -8834,7 +8834,6 @@ _dfp5-$third-party,badfilter
 @@||littlepet.cc/search/$elemhide,badfilter
 @@||live.com^$document,important
 @@||local.com^$elemhide,badfilter
-@@||login.live.com^$document,important
 @@||lookany.com/search/$elemhide,badfilter
 @@||lookany.com^*/search/$elemhide,badfilter
 @@||looksmart.com^$elemhide,badfilter
@@ -9017,6 +9016,8 @@ _dfp5-$third-party,badfilter
 @@||ownersdirect.co.uk^$elemhide,badfilter
 @@||owntitle.com/search^$elemhide,badfilter
 @@||p.placed.com^$image,domain=reddit.com,badfilter
+#@##social-links
+#@#.addthis_sharing_toolbox
 @@||pageset.com^$elemhide,badfilter
 @@||papacat.xyz^$elemhide,badfilter
 @@||parallaxsearch.com^$elemhide,badfilter
