@@ -328,6 +328,20 @@ atob-logger.js application/javascript
 
 # MouseClick-defuser
 mousedef.js application/javascript
+(() => {
+    'use strict';
+    document.body.removeAttribute('oncontextmenu');
+    document.body.removeAttribute('oncopy');
+    document.body.removeAttribute('onselectstart');
+    document.body.removeAttribute('ondragstart');
+    document.oncontextmenu=null;
+    document.oncopy=null;
+    document.onselectstart=null;
+    document.ondragstart=null;
+})();
+
+# MouseClick-defuser-2
+mousedef2.js application/javascript
 ! function() {
     function e(e) {
         for (var t = 0; t < r.length; t++) {
