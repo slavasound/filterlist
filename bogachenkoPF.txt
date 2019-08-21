@@ -92,6 +92,7 @@ twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/
 #@##button_facebook
 #@##button_twitter
 #@##byline-facebook-share
+*/CookieCompliance.js$object,domain=live.com
 #@##cf2_facebook
 kissasian.*##+js(nano-setTimeout-booster.js)
 #@##ck_facebook
@@ -158,10 +159,16 @@ _AD1-$badfilter
 #@##facebook-likebox
 #@##facebook-likebox-wrap
 #@##facebook-link
+1tv.ru#@#.social-buttons-compact
+#@#.social-buttons-compact
+1tv.ru#@#.side-promo-place-right
+#@#.side-promo-place-right
 #@##facebook-module
 #@##facebook-page-plugin
+/^https?:\/\/mail\.yandex\.(by|kz|ru|ua)\/[^\s]{200,}/$script,important
 #@##facebook-panel
 #@##facebook-popup
+#@#a[title="ВКонтакте"]
 #@##facebook-share
 #@##facebook-share-bot
 #@##facebook-slider
@@ -10521,6 +10528,7 @@ yandex.ru,~tv.yandex.ru,widgets.kinopoisk.ru##+js(noeval.js)
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.reddit.com *.redditmedia.com *.redditstatic.com *.amazonaws.com *.redd.it;
 ||referrer.disqus.com^$important,badfilter
 ||reklama.mail.ru^$important
+reddit.com##.promotedlink, div.promotedlink, div.promotedvideolink
 ||resize.yandex.net^$image,domain=yandex.ru,important
 ||rs.mail.ru^$important
 ||ru/ads/$badfilter
