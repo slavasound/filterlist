@@ -9826,6 +9826,11 @@ ka4ka.ru##+js(abort-current-inline-script.js, document.createElement, 'script')
 ^ad3^$badfilter
 ^ad3_$badfilter
 ^ad4-$badfilter
+#@#a[href^="http://www.linkedin.com/shareArticle?"]
+#@#a[href^="http://www.linkedin.com/shareArticle"]
+#@#a[href^="http://www.facebook.com/sharer.php?"]
+#@#a[href^="http://plus.google.com/share"]
+#@#a[href^="http://pinterest.com/pin/create/button/"]
 ^ad4.$badfilter
 ^ad4^$badfilter
 ^ad4_$badfilter
@@ -9842,7 +9847,16 @@ www.latimes.com##.met-flyout
 ^ad6^$badfilter
 ^ad6_$badfilter
 ^ad7-$badfilter
+#@#a[title="Tweet this"]
 ^ad7.$badfilter
+#@#.addthis_32x32_style
+#@#.addthis_toolbox
+#@##share_link
+#@#.idblog-social-share
+#@#.idblog-sharebtn
+#@#a[href^="https://api.whatsapp.com/send?"]
+#@#a[href^="https://api.whatsapp.com/send?text="]
+#@#a[onclick^="popUp=window.open('https://plus.google.com/share?"]
 ^ad7^$badfilter
 ^ad7_$badfilter
 ^ad8-$badfilter
