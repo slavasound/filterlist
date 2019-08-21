@@ -10523,12 +10523,16 @@ yandex.ru,~tv.yandex.ru,widgets.kinopoisk.ru##+js(noeval.js)
 ||platform.twitter.com^$badfilter
 ||pr-cy.ru^$badfilter
 ||r0.mail.ru^$important
+reddit.com#@#._3RPJ8hHnfFohktLZca18J6
+reddit.com#@#div[id^="sidebar-atf-"]
+reddit.com#@#div[id^="sidebar-btf"]
+reddit.com#@#div[id^="sidebar-btf-"]
 ||r3.mail.ru^$important
 ||rambler.ru^$third-party,badfilter
 ||reddit.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.reddit.com *.redditmedia.com *.redditstatic.com *.amazonaws.com *.redd.it;
 ||referrer.disqus.com^$important,badfilter
 ||reklama.mail.ru^$important
-reddit.com##.promotedlink, div.promotedlink, div.promotedvideolink
+reddit.com##.promotedlink, div.promotedlink, div.promotedvideolink, .avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV, ._1b1Jalg2nxA_Z-BjKXRfAV
 ||resize.yandex.net^$image,domain=yandex.ru,important
 ||rs.mail.ru^$important
 ||ru/ads/$badfilter
