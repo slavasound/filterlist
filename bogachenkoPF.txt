@@ -9796,7 +9796,7 @@ http://ads.*/$domain=~mail.yahoo.com|~docs.yahoo.com|~finance.yahoo.com|~telerad
 #@#.sharePage
 #@#body .twitter-share-button
 infourok.ru###aa-popup
-infourok.ru##+js(mousedef.js)
+infourok.ru,bogachenko.github.io##+js(mousedef2.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
