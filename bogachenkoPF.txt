@@ -4548,6 +4548,7 @@
 ^ad0.$badfilter
 ^ad0^$badfilter
 ^ad0_$badfilter
+#@#.social-links
 ^ad1-$badfilter
 ^ad1.$badfilter
 ^ad1^$badfilter
@@ -4906,7 +4907,7 @@ yandex.ru#@#li[class^="ya-share2"][class$="odnoklassniki"]
 yandex.ru#@#li[class^="ya-share2"][class$="twitter"]
 yandex.ru#@#li[class^="ya-share2"][class$="vkontakte"]
 yandex.ru,~music.yandex.ru,~passport.yandex.ru##+js(noatob.js)
-yandex.ru,~music.yandex.ru,~tv.yandex.ru,~market.yandex.ru##+js(rm-js, AdvManager)
+yandex.ru,~music.yandex.ru,~tv.yandex.ru,~market.yandex.ru,~passport.yandex.ru##+js(rm-js, AdvManager)
 yandex.ru,~tv.yandex.ru,widgets.kinopoisk.ru##+js(noeval.js)
 youtube.com###contentWrapper > .ytd-popup-container.style-scope
 youtube.com###masthead-ad.style-scope.ytd-browse, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.video-ads.ytp-ad-module, #sponsor-button, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-ad-persistent-progress-bar-container, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-bottom > div.ytp-progress-bar-container > div.ytp-progress-bar > div.ytp-progress-list > div.ytp-ad-progress-list, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-chrome-top.ytp-share-button-visible > div.ytp-chrome-top-buttons, #movie_player.html5-video-player.ytp-transparent.ytp-hide-info-bar.ytp-large-width-mode.ad-created.paused-mode > div.ytp-paid-content-overlay, #yt-masthead-ad-renderer, #ytd-action-companion-ad-renderer, #ytd-ad-hover-text-button-renderer, #ytd-ad-info-dialog-renderer, #ytd-player-legacy-desktop-watch-ads-renderer, #ytd-search-pyv-renderer, #ytd-video-masthead-ad-advertiser-info-renderer, #ytd-video-masthead-ad-expandable-thumbnail-tile-renderer, #ytd-video-masthead-ad-expandable-video-tile-renderer, #ytd-video-masthead-ad-primary-video-overlay-renderer, #ytd-video-masthead-ad-primary-video-renderer, #ytd-video-masthead-ad-v3-renderer, #ticker.style-scope.ytd-masthead, #player-ads.style-scope.ytd-watch-flexy, #offer-module.style-scope.ytd-watch-next-secondary-results-renderer
@@ -4918,20 +4919,56 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 |http:*-ad0_$badfilter
 |http:*-ad1-$badfilter
 |http:*-ad1.$badfilter
+#@#a[title="Youtube"]
+#@#.ya-share2
+#@#.social-icons-block
+#@#a[title="Instagram"]
+#@#a[title="Facebook"]
+#@#.article-social
 |http:*-ad1^$badfilter
 |http:*-ad1_$badfilter
+#@#.footer-facebook
+#@#.footer-social
+#@#.footer-social-icon
+#@#.footer-twitter
 |http:*-ad2-$badfilter
+#@#.fa-facebook-square
 |http:*-ad2.$badfilter
+#@#.btn-social
 |http:*-ad2^$badfilter
+#@#.socialwidget
+#@#.footer-social
+#@#.fa-facebook-square
+#@#.block-social
+#@##social-foot
+#@##fb-root:not(body):not(html)
 |http:*-ad2_$badfilter
 |http:*-ad3-$badfilter
+#@#[title^="Share on Facebook"]
 |http:*-ad3.$badfilter
 |http:*-ad3^$badfilter
 |http:*-ad3_$badfilter
 |http:*-ad4-$badfilter
 |http:*-ad4.$badfilter
 |http:*-ad4^$badfilter
+#@#.btn-facebook
 |http:*-ad4_$badfilter
+#@##fb-root:not(body):not(html)
+#@#.ss-facebook
+#@#.social
+#@#.btn-fb
+#@#.social:not(body)
+#@#a[title="Facebook"]
+#@#a[title="Twitter"]
+#@#a[title="YouTube"]
+#@#div[title="Share link on Reddit"]
+#@#.facebook.icon
+#@#.fb-like
+#@#.footer-social
+#@#.social-likes-icons
+#@#.social-likes
+#@#.twitter-follow-button
+#@#.twitter.icon
 |http:*-ad5-$badfilter
 |http:*-ad5.$badfilter
 |http:*-ad5^$badfilter
@@ -4945,6 +4982,8 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 |http:*-ad7^$badfilter
 |http:*-ad7_$badfilter
 |http:*-ad8-$badfilter
+#@#.footer-social
+#@##social-foot
 |http:*-ad8.$badfilter
 |http:*-ad8^$badfilter
 |http:*-ad8_$badfilter
