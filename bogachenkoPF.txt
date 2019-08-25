@@ -10,9 +10,14 @@
 *$inline-font,important,badfilter
 */*.gif|$document
 */CookieCompliance.js$object,domain=live.com
-*/ads.js$important
+/^(https?|wss|ftp):\/\/(www\.)?.*\/(\W|\_)?ad[svbx]?([0-9]{1,2}|(\W|\_).*|\.min)?\.js/$important
 */advertise/*.js$important
-*/advertisement.js$important
+/^(https?|wss|ftp):\/\/(www\.)?.*\/adv(ert(ise|ising|isement)?)?([0-9]{1,2}|(\W|\_).*|\.min)?\.js/$important
+#@#.mh-share-buttons
+#@#.mh-share-button
+#@#a[title="Share on Facebook"]
+#@#a[onclick^="window.open('https://www.facebook.com/sharer.php"]
+#@#a[onclick^="window.open('https://twitter.com/share"]
 */checkupdate.php^$xmlhttprequest,script
 */iecompatviewlist.xml$xmlhttprequest,script
 */iedomainsuggestions^$xmlhttprequest,script
@@ -23,6 +28,12 @@
 -ad0-$badfilter
 -ad0.$badfilter
 -ad0^$badfilter
+#@#a[href^="https://www.linkedin.com/shareArticle?"]
+#@#a[href^="https://www.linkedin.com/shareArticle"]
+#@#a[href^="https://twitter.com/share?"]
+#@#a[href^="https://twitter.com/share"]
+#@#.entry-share
+#@#.fa-pinterest-p
 -ad0_$badfilter
 -ad1-$badfilter
 -ad1.$badfilter
