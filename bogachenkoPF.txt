@@ -30,6 +30,18 @@
 -ad1_$badfilter
 -ad2-$badfilter
 -ad2.$badfilter
+#@#a[title^="Share on Google"]
+#@#a[title="Tweet this"]
+#@#a[href^="//www.stumbleupon.com/submit?url="]
+#@#a[href^="//www.reddit.com/submit?"]
+#@#[title^="Share on Tumblr"]
+#@#a[href^="//twitter.com/share"]
+#@#[title^="Share on Google+"]
+#@#[title="Share on Tumblr"]
+#@#[href^="//twitter.com/share"]
+#@#.shareIcons
+#@#.share-sites-thumbs
+#@#.icon-share
 -ad2^$badfilter
 -ad2_$badfilter
 -ad3-$badfilter
