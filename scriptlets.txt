@@ -478,7 +478,7 @@ bis.js application/javascript
 					try {
         					const element = document.querySelector(selector);
         					element.style.backgroundImage = '{{2}}';
-                                                element.style.backgroundSize = '{{3}}'; 
+                                                element.style.backgroundRepeat = '{{3}}'; 
                 			} catch (ex) { 
 					}
 		};
