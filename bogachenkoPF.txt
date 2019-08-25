@@ -4922,6 +4922,8 @@ twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклам�
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
 twitter.com#@#.tooltip-inner
+#@#a[title="ВКонтакте"]
+#@#KNO-SHARE-BUTTON
 vk.com###profile_friends_recomm, #stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left
 vk.com##+js(autoplay-defuser.js)
 vk.com##+js(eclick2.js, .videoplayer_play_icon.videoplayer_btn_icon)
