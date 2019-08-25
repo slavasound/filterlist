@@ -4921,12 +4921,15 @@ youtube.com##+js(eclick2.js, .ytp-button.ytp-play-button)
 #@#a[href^="https://www.twitter.com/share"]
 |http:*-ad0^$badfilter
 |http:*-ad0_$badfilter
-kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images/noBrandBg.jpg))
+kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images/noBrandBg.jpg), no-repeat)
 |http:*-ad1-$badfilter
 |http:*-ad1.$badfilter
 #@#a[title="Youtube"]
 #@#.ya-share2
 #@#.social-icons-block
+#@#.share-box
+#@#.i-share
+#@#.video-share
 #@#a[title="Instagram"]
 #@#a[title="Facebook"]
 #@#.article-social
@@ -4949,11 +4952,23 @@ kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images/noBrandBg.jpg))
 #@##fb-root:not(body):not(html)
 |http:*-ad2_$badfilter
 |http:*-ad3-$badfilter
+/wp-content/plugins/ultimate-social-media-plus/*$badfilter
 #@#[title^="Share on Facebook"]
 |http:*-ad3.$badfilter
 |http:*-ad3^$badfilter
+#@#body .twitter-share-button
+#@#.twitter-share-button
+#@#.fb-xfbml-parse-ignore
+#@#.fb-share-button
+#@#.fb-like
+#@#a[href^="https://www.pinterest.com/pin/create/button/"]
+#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+#@#a[href*="facebook.com/sharer/sharer.php?"]
+#@#.sfsiaftrpstwpr
+#@##fb-root:not(body):not(html)
 |http:*-ad3_$badfilter
 |http:*-ad4-$badfilter
+#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 |http:*-ad4.$badfilter
 |http:*-ad4^$badfilter
 #@#.btn-facebook
@@ -5059,6 +5074,9 @@ kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images/noBrandBg.jpg))
 |http:*.ad5-$badfilter
 |http:*.ad5.$badfilter
 |http:*.ad5^$badfilter
+#@#a[title="Pinterest"]
+#@#a[title="Facebook"]
+#@#a[title="Google+"]
 |http:*.ad5_$badfilter
 |http:*.ad6-$badfilter
 |http:*.ad6.$badfilter
