@@ -28,7 +28,10 @@
 #@#a[title="Tumblr"]
 #@#.mc-share-toggle
 #@#.mc-share-cnt
-
+#@#.sns-share-icon
+#@#img[alt="Facebook"]
+#@#.sharethis-inline-share-buttons
+#@#img[alt="Twitter"]
 */service-worker.js$important,script,redirect=noopjs
 */sw.js$important,script,redirect=noopjs
 #@#.social-icons
@@ -44,8 +47,28 @@
 -ad0_$badfilter
 -ad1-$badfilter
 -ad1.$badfilter
+#@#.twitter_share_count
+#@#.social-listing
+#@#.sidebar-social
+#@#.ism_share_counts
+#@#.ism_box_twitter
+#@#.ism_box_linkedin
+#@#.ism_box_facebook
+#@#.facebook_share_count
+#@#a[title="Share on Twitter"]
+#@#.cactus-share-and-like
+#@#a[href^="whatsapp://send"]
+#@#a[href^="whatsapp://send?text="]
+#@##subFooterSocial
+#@#a[href^="https://www.reddit.com/submit?"]
+#@#a[href^="https://www.reddit.com/submit"]
+#@#a[href^="https://bufferapp.com/add?url="]
+#@#[title^="Share on Twitter"]
+#@#[onclick^="window.open('https://www.facebook.com/sharer/sharer.php?"]
 -ad1^$badfilter
 -ad1_$badfilter
+#@#.fa-share-alt
+#@#.shareButtons
 -ad2-$badfilter
 -ad2.$badfilter
 #@#a[title^="Share on Google"]
