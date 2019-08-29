@@ -3627,8 +3627,22 @@
 @@||hallar.com.pe^$elemhide,badfilter
 @@||hallar.com.py^$elemhide,badfilter
 @@||hallar.com.uy^$elemhide,badfilter
+#@##social-wrapper
 @@||hallar.es^$elemhide,badfilter
 @@||handy-tab.com^$elemhide,badfilter
+#@#a[href*="pinterest.com/js/pinmarklet.js?"]
+#@#a[href^="http://www.facebook.com/sharer.php"]
+#@#a[href^="http://www.facebook.com/sharer.php?"]
+#@#a[href^="http://www.linkedin.com/shareArticle"]
+#@#a[href^="http://www.linkedin.com/shareArticle?"]
+#@#a[href^="https://share.flipboard.com/bookmarklet/"]
+#@#a[href^="https://share.flipboard.com/bookmarklet/popout?"]
+#@#a[title="Condividi su Facebook"]
+#@#a[title="Condividi su Pinterest"]
+#@#a[title="Condividi su Twitter"]
+#@#.icon-instagram
+#@#.icon-linkedin
+#@#.icon-pinterest
 @@||happies.club/?s=$elemhide,badfilter
 @@||hargray.net/search/$elemhide,badfilter
 @@||hawaiiantel.net/search/$elemhide,badfilter
@@ -3660,6 +3674,16 @@
 @@||homeaway.co.uk^$elemhide,badfilter
 @@||homeaway.com.ar^$elemhide,badfilter
 @@||homeaway.com.au^$elemhide,badfilter
+#@#.share-icons
+#@#.social-menu
+#@#.home-socials
+#@#.socialmenu
+#@#a[href^="http://www.facebook.com/sharer.php?"]
+#@#a[href^="http://www.facebook.com/sharer.php"]
+#@#.fa-share
+#@##likebox
+.sociallocker.$badfilter
+#@#.social-icon
 @@||homeaway.com.co^$elemhide,badfilter
 @@||homeaway.com.mx^$elemhide,badfilter
 @@||homeaway.com^$elemhide,badfilter
