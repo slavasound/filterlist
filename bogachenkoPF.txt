@@ -3357,6 +3357,16 @@
 @@||google.ga^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.ge^*adsense/search/*ads.js|$badfilter
 @@||google.ge^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
+#@#a[href^="https://m.facebook.com/sharer.php"]
+#@#img[alt="Instagram"]
+#@#.socials
+#@#.share-block
+#@#.js-twitter-share
+#@#.normal_social
+#@#.q_social_icon_holder
+#@#.simple_social
+#@##social-nav
+#@#.dp-share
 @@||google.ge^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.gg^*adsense/search/*ads.js|$badfilter
 @@||google.gg^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
