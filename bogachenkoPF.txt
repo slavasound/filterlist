@@ -3130,6 +3130,10 @@
 @@||google.com.np^*adsense/search/*ads.js|$badfilter
 @@||google.com.np^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.np^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
+#@#.social__item
+#@#.share-container
+#@#.share-label
+/img/*/google.png$domain=~github.io,badfilter
 @@||google.com.om^*adsense/search/*ads.js|$badfilter
 @@||google.com.om^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.om^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
@@ -3140,12 +3144,28 @@
 @@||google.com.pe^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.pe^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.pg^*adsense/search/*ads.js|$badfilter
+#@#.vjs-share-button
+#@#.vjs-share-block
+#@##share_pinterest
+#@#iframe[src^="http://www.facebook.com/plugins/likebox.php?"]
+#@#a[href="http://twitter.com/share"]
+#@#.w2bslikebox
+#@##pageshare
+#@##gplusone
 @@||google.com.pg^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.pg^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.ph^*adsense/search/*ads.js|$badfilter
 @@||google.com.ph^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.ph^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.pk^*adsense/search/*ads.js|$badfilter
+#@#a[href^="https://api.whatsapp.com/send?"]
+#@#a[href^="https://api.whatsapp.com/send?text="]
+#@#.social_twitter
+#@#.social_facebook
+#@#a[onclick^="window.open ('http://www.facebook.com/sharer.php"]
+#@#a[onclick^="popUp=window.open('https://plus.google.com/share?"]
+#@#a[href^="http://www.facebook.com/sharer.php"]
+#@#a[href^="http://www.facebook.com/sharer.php?"]
 @@||google.com.pk^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.pk^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.pr^*adsense/search/*ads.js|$badfilter
@@ -3159,11 +3179,17 @@
 @@||google.com.qa^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.ru^*adsense/search/*ads.js|$badfilter
 @@||google.com.ru^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
+#@##header-social
+#@#img[alt="Google+"]
+#@#.social-link
+#@#.social-icons-item
 @@||google.com.ru^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.sa^*adsense/search/*ads.js|$badfilter
 @@||google.com.sa^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.sa^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.sb^*adsense/search/*ads.js|$badfilter
+#@#img[title="Share on Digg"]
+#@#a[href^="https://www.stumbleupon.com/submit?url="]
 @@||google.com.sb^*afs/ads?*&client=pub-*&output=uds_ads_only$badfilter
 @@||google.com.sb^*afs/ads?*&client=pub-*&output=uds_ads_only$elemhide,badfilter
 @@||google.com.sg^*adsense/search/*ads.js|$badfilter
