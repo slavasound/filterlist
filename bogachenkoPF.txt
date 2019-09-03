@@ -470,6 +470,13 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /back-to-top-$badfilter
 /back-to-top.$badfilter
 /badge_twitter.$badfilter
+#@#.shareTrig
+#@#.plusone
+||dditscdn.com^*&ispromo=$badfilter
+*$script,domain=pornhd.com,badfilter
+||pornhd.com/pornhd/$badfilter
+#@##shareLink
+@@*$generichide,domain=pornhd.com
 /base/rss-$badfilter
 /bg-share.$badfilter
 /bg-social.$badfilter
