@@ -8,7 +8,7 @@
 *$beacon,important
 *$font,important,badfilter
 *$inline-font,important,badfilter
-*/*.gif|$document
+*/*.gif|$document,domain=~github.com
 */CookieCompliance.js$object,domain=live.com
 /^(https?|wss|ftp):\/\/(www\.)?.*\/(\W|\_)?ad[svbx]?([0-9]{1,2}|(\W|\_).*|\.min)?\.js/$important
 */advertise/*.js$important
@@ -504,7 +504,20 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /btn-share.$badfilter
 /btn-social-$badfilter
 /btn-tweet.$badfilter
+#@#.addthis_toolbox
+#@#.addthis_default_style
+#@#.addthis_button_twitter
+#@#.addthis_button_reddit
+#@#.addthis_button_pinterest_share
+#@#.addthis_button_google_plusone_share
+#@#.addthis_button_facebook
+#@#.addthis_button_compact
 /btn-twitter-$badfilter
+#@#.social-love
+@@*/css/ads.css$stylesheet
+@@*/css/ad.css$stylesheet
+#@#.st_facebook_hcount
+#@#.st_twitter_hcount
 /btn-twitter.$badfilter
 /btn-youtube-$badfilter
 /btnFacebook.$badfilter
@@ -4083,6 +4096,12 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 @@||metarab.com^$elemhide,badfilter
 @@||metasearch.ae^$elemhide,badfilter
 @@||metasearch.co.il^$elemhide,badfilter
+#@#a[href^="https://vk.com/share.php?"]
+#@#a[href^="https://vk.com/share.php"]
+#@#a[href^="https://connect.ok.ru/offer?url="]
+#@#.ya-share2_inited
+#@#.ya-share2__link
+#@#.ya-share2__list
 @@||metasearch.co.nz^$elemhide,badfilter
 @@||metasearch.com.my^$elemhide,badfilter
 @@||metasearch.com.ph^$elemhide,badfilter
@@ -5086,11 +5105,12 @@ openload.co,oload.*,streamcherry.com##+js(eclick.js, #videooverlay)
 otvet.mail.ru##+js(rm-js, adblock)
 passport.yandex.ru###qr-promo-tooltip
 passport.yandex.ru###qr-promo-tooltip-large
-playground.ru,kissasian.*,sourceforge.net##+js(nano-setTimeout-booster.js)
+playground.ru,kissasian.*,sourceforge.net,kimcartoon.to##+js(nano-setTimeout-booster.js)
 playground.ru#@#.adsbygoogle
 #@##socialdiv
 #@#.twitter-timeline
 pornhub.com##div[id*=age-verification-wrapper], div[id*=age-verification-container]
+#@#.stumbleupon
 qaru.site##.wraptip, .wtip
 reddit.com##.promotedlink, div.promotedlink, div.promotedvideolink, .avKlJzxZU3brq4nAX0_i1._1G4yU68P50vRZ4USXfaceV, ._1b1Jalg2nxA_Z-BjKXRfAV
 reddit.com#@#._3RPJ8hHnfFohktLZca18J6
