@@ -1294,6 +1294,24 @@ wp.pl#@#body > script + iframe + div:not([id])[class]
 /linkin_icon.$badfilter
 /links/facebook.$badfilter
 /links/twitter.$badfilter
+#@#.bottom-share
+#@#.google_plus
+#@#.post-share
+#@#.social-item
+#@#.top-share
+#@#.better-social-counter
+#@#.social-list
+#@#a[title="Google Plus"]
+#@#.soc-youtube
+#@#.soc-twitter
+#@#.soc-facebook
+#@#a[href^="viber://forward?text="]
+#@#a[href^="https://www.livejournal.com/update.bml"]
+#@#a[href^="https://telegram.me/share/url?"]
+#@#a[href^="https://telegram.me/share/url"]
+#@#a[href^="https://connect.mail.ru/share"]
+#@#a[href^="https://connect.mail.ru/share?"]
+#@#a[title="LinkedIn"]
 /links/youtube.$badfilter
 /logo-facebook.$badfilter
 /logo-instagram.$badfilter
