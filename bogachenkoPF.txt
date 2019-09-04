@@ -8,7 +8,7 @@
 *$beacon,important
 *$font,important,badfilter
 *$inline-font,important,badfilter
-*/*.gif|$document,domain=~github.com
+*/*.gif|$document,domain=~github.com|~wikimedia.org
 */CookieCompliance.js$object,domain=live.com
 /^(https?|wss|ftp):\/\/(www\.)?.*\/(\W|\_)?ad[svbx]?([0-9]{1,2}|(\W|\_).*|\.min)?\.js/$important
 */advertise/*.js$important
@@ -19,6 +19,7 @@
 #@#a[onclick^="window.open('https://www.facebook.com/sharer.php"]
 #@#a[onclick^="window.open('https://twitter.com/share"]
 */checkupdate.php^$xmlhttprequest,script
+||share.pluso.ru^$third-party,badfilter
 */iecompatviewlist.xml$xmlhttprequest,script
 */iedomainsuggestions^$xmlhttprequest,script
 */rum.js$script
