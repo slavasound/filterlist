@@ -117,7 +117,6 @@
 #@#img[alt^="Follow us on Twitter"]
 #@#[alt="Like us on Facebook"]
 /social-likes.min.js$domain=~zastenchivosti.net|~gorod-812.ru|~sputnik.by|~sputnik-news.ee|~animalreader.ru|~ichip.ru|~keddr.com|~kino-max.com|~kino24x7.com|~make-3d.ru|~miuipro.ru|~omelchuck.ru|~podfm.ru|~serial-online.com|~sputniknews.com|~trinixy.ru|~kinogo-kinopoisk.net|~bobfilm-online.ru|~westernfilm.ru|~bobfilm.tv|~kinokrik.net|~kinogo720.net|~kinogo-net-co.ru|~kinoklad.net|~intex-press.by|~kino-max.org|~farming-simulator15.ru|~trikky.ru|~trv-science.ru|~unzensuriert.at|~lizaalert.beeline.ru|~megapolisonline.ru,badfilter
-#@#img[alt^="Follow us on Twitter"]
 #@#[title^="Like us on Facebook"]
 #@#.dt_social_single
 -ad6-$badfilter
@@ -125,7 +124,6 @@
 -ad6.$badfilter
 #@##social-media
 #@#a[href^="https://pinterest.com/pin/create/link/?"]
-#@#a[href^="https://pinterest.com/pin/create/"]
 #@#.social-share
 -ad6^$badfilter
 -ad6_$badfilter
@@ -1984,8 +1982,6 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 #@#.tw-icon
 /twitter_top_icon.$badfilter
 #@#.addthis_native_toolbox
-#@#a[href^="https://www.facebook.com/sharer.php?"]
-#@#a[href^="https://www.facebook.com/sharer.php"]
 /twitterbadge.$badfilter
 /twitterbadge/*$badfilter
 #@#a[href^="https://www.facebook.com/share.php?"]
@@ -2853,7 +2849,6 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 #@#.vjs-share-control
 #@##fb-root:not(body):not(html)
 #@#.fb-like
-#@#.fb-page
 #@#.fb-xfbml-parse-ignore
 #@#.ssocial
 #@#.share_social
@@ -2862,7 +2857,6 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 #@#.social_linkedin
 #@#.share-whatsapp
 #@#.idmuvi-topbanner
-#@##share_link
 #@#.share__button
 #@#.share-text
 #@#.share-bar
@@ -3725,8 +3719,6 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 @@||hallar.es^$elemhide,badfilter
 @@||handy-tab.com^$elemhide,badfilter
 #@#a[href*="pinterest.com/js/pinmarklet.js?"]
-#@#a[href^="http://www.facebook.com/sharer.php"]
-#@#a[href^="http://www.facebook.com/sharer.php?"]
 #@#a[href^="http://www.linkedin.com/shareArticle"]
 #@#a[href^="http://www.linkedin.com/shareArticle?"]
 #@#a[href^="https://share.flipboard.com/bookmarklet/"]
@@ -3772,8 +3764,6 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 #@#.social-menu
 #@#.home-socials
 #@#.socialmenu
-#@#a[href^="http://www.facebook.com/sharer.php?"]
-#@#a[href^="http://www.facebook.com/sharer.php"]
 #@#.fa-share
 #@##likebox
 .sociallocker.$badfilter
@@ -4859,7 +4849,6 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 ^ad9_$badfilter
 ^adinfo^$badfilter
 ^admob_$third-party,badfilter
-^admob_$third-party,badfilter
 ^ads-$document,badfilter
 ^ads.$badfilter
 ^ads.$document,badfilter
@@ -5189,7 +5178,6 @@ twitch.tv##+js(eclick2.js, .qa-control-volume)
 twitch.tv##+js(eclick2.js, player-content-button.js-player-mature-accept.js-mature-accept-label)
 twitch.tv##+js(twitch-videoad.js)
 twitch.tv##.tw-full-width > .tw-mg-b-2
-#@#div[class^="widget-social"]
 twitch.tv#@#.tw-z-above.tw-left-0.tw-full-width.tw-bottom-0.tw-absolute
 twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/):not(:xpath(//span[contains(text(),'Реклама в Твиттере')]))
 twitter.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Реклама/):xpath(..)
@@ -5250,11 +5238,8 @@ kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images
 #@#.btn-social
 |http:*-ad2^$badfilter
 #@#.socialwidget
-#@#.footer-social
-#@#.fa-facebook-square
 #@#.block-social
 #@##social-foot
-#@##fb-root:not(body):not(html)
 |http:*-ad2_$badfilter
 |http:*-ad3-$badfilter
 /wp-content/plugins/ultimate-social-media-plus/*$badfilter
@@ -5263,47 +5248,34 @@ kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images
 |http:*-ad3^$badfilter
 #@#body .twitter-share-button
 #@#.twitter-share-button
-#@#.fb-xfbml-parse-ignore
 #@#.fb-share-button
-#@#.fb-like
 #@#a[href^="https://www.pinterest.com/pin/create/button/"]
-#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
-#@#a[href*="facebook.com/sharer/sharer.php?"]
 #@#.sfsiaftrpstwpr
-#@##fb-root:not(body):not(html)
 |http:*-ad3_$badfilter
 |http:*-ad4-$badfilter
-#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 |http:*-ad4.$badfilter
 |http:*-ad4^$badfilter
 #@#.btn-facebook
 |http:*-ad4_$badfilter
-#@##fb-root:not(body):not(html)
 #@#.ss-facebook
 #@#.social
 #@#.btn-fb
 #@#.social:not(body)
-#@#a[title="Facebook"]
 #@#a[title="Twitter"]
 #@#a[title="YouTube"]
 #@#div[title="Share link on Reddit"]
 #@#.facebook.icon
-#@#.fb-like
-#@#.footer-social
 #@#.social-likes-icons
 #@#.social-likes
 #@#.twitter-follow-button
 #@#.twitter.icon
 |http:*-ad5-$badfilter
 |http:*-ad5.$badfilter
-#@#.social-links
 |http:*-ad5^$badfilter
 |http:*-ad5_$badfilter
-#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 #@#a[href^="https://twitter.com/home?status="]
 #@#a[href^="https://twitter.com/home?"]
 #@#a[href^="https://plus.google.com/share"]
-#@#a[href*="facebook.com/sharer/sharer.php?"]
 |http:*-ad6-$badfilter
 |http:*-ad6.$badfilter
 #@#.ion-social-twitter
@@ -5317,13 +5289,9 @@ kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images
 |http:*-ad7-$badfilter
 |http:*-ad7.$badfilter
 #@#.like-box-wrap
-#@##fb-root:not(body):not(html)
-#@#.fb-xfbml-parse-ignore
 |http:*-ad7^$badfilter
 |http:*-ad7_$badfilter
 |http:*-ad8-$badfilter
-#@#.footer-social
-#@##social-foot
 |http:*-ad8.$badfilter
 |http:*-ad8^$badfilter
 |http:*-ad8_$badfilter
@@ -5337,12 +5305,8 @@ kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images
 |http:*-ad9^$badfilter
 |http:*-ad9_$badfilter
 #@#a[href^="https://twitter.com/intent/tweet?"]
-#@#a[href^="https://plus.google.com/share"]
-#@#a[href^="http://www.facebook.com/sharer/sharer.php"]
-#@#a[href*="facebook.com/sharer/sharer.php?"]
 #@#.article-social-buttons
 #@#.share-link
-#@#.article-social
 #@##menu-social
 |http:*-ad-$badfilter
 |http:*.ad0-$badfilter
@@ -5357,12 +5321,9 @@ kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images
 #@#a[onclick^="window.open('http://www.facebook.com/share.php?"]
 #@#a[onclick^="window.open('http://vk.com/share.php"]
 #@#a[onclick^="window.open('http://twitter.com/share"]
-#@#a[href^="https://plus.google.com/share"]
 #@#a[href^="http://www.facebook.com/share.php"]
 #@#a[href^="http://vk.com/share.php?"]
 #@#a[href^="http://vk.com/share.php"]
-#@#a[href^="http://twitter.com/share?"]
-#@#a[href^="http://twitter.com/share"]
 |http:*.ad2.$badfilter
 #@#[onclick^="window.open('http://twitter.com/share?"]
 #@#[onclick^="window.open('https://plus.google.com/share?"]
@@ -5380,7 +5341,6 @@ kinopoisk.ru,~m.kinopoisk.ru##+js(bis, body, url(https://st.kp.yandex.net/images
 |http:*.ad5.$badfilter
 |http:*.ad5^$badfilter
 #@#a[title="Pinterest"]
-#@#a[title="Facebook"]
 #@#a[title="Google+"]
 |http:*.ad5_$badfilter
 |http:*.ad6-$badfilter
