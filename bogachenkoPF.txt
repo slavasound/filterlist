@@ -4901,6 +4901,10 @@ _FollowUs.$badfilter
 _SocialSprite.$badfilter
 _ad0-$badfilter
 _ad0.$badfilter
+||pladform.ru^$important,badfilter
+||pladform.ru^$third-party,badfilter
+/\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com|~rutube.ru
+#@#.subscribe-button
 _ad0^$badfilter
 _ad0_$badfilter
 _ad1*$badfilter
