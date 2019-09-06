@@ -1763,6 +1763,7 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 /socialbookmarks.$badfilter
 /socialbutton_$badfilter
 /socialcounters/*$badfilter
+||focusfilm.org/universal.js$script
 /socialfacebookdark.$badfilter
 /socialicons2.$badfilter
 /socialicons/*$badfilter
