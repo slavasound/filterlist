@@ -4869,6 +4869,7 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 ^ads_$document,badfilter
 ^adsid^$badfilter
 ^advertising-$badfilter
+/\/adv(ert(ise|ising|isement)?)?(?:[0-9]{1,2}|\.min)?\/[A-Za-z-_=&#.,]{4,}\?type\=/$important,script,xmlhttprequest
 ^advertising^$badfilter
 ^analytics-$badfilter
 ^analytics.$domain=~analytics.twitter.com,badfilter
@@ -4882,6 +4883,14 @@ music.yandex.*#?#span:contains(Отключить рекламу)
 ^popunder^$document,badfilter
 ^popup^$popup,badfilter
 ^promo-$badfilter
+#@#.twitter-icon
+#@#.socialite
+#@#.social-buttons
+#@#.icon-share-alt
+#@#.googleplus-one
+#@#.facebook-icon
+#@##pm-vc-share-content
+#@##pm-vc-share
 ^promo.$badfilter
 ^promo^$badfilter
 ^promo^$document,badfilter
@@ -4901,12 +4910,13 @@ _SocialSprite.$badfilter
 _ad0-$badfilter
 _ad0.$badfilter
 ||pladform.ru^$important,badfilter
-||pladform.ru^$third-party,badfilter
+||pladform.ru^$third-party
 /\/[-a-z0-9_]{1}\.js/$important,script,domain=~duckduckgo.com|~rutube.ru
 #@#.subscribe-button
 _ad0^$badfilter
 _ad0_$badfilter
 _ad1*$badfilter
+@@||video-*.pladform.ru^
 _ad1-$badfilter
 _ad1.$badfilter
 _ad1^$badfilter
