@@ -5884,6 +5884,7 @@ ok.ru#@##anonymPageContent > div[data-promo]
 ||vk.com/widget_post.php$domain=kritika24.ru,badfilter
 ||vk.com/widget_recommended.php?$third-party,badfilter
 ||vk.com/widget_subscribe.php?$third-party,badfilter
+||xyz^$third-party,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kinosklad.biz|~kristinita.ru|~magicfilm.net|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~shamancoal.com|~soccer365.ru|~streetbee.io|~streetbee.ru|~vk.com,badfilter
 ||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 ||vk.com^$important,third-party,badfilter
 ||vk.com^$third-party,badfilter
