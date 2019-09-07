@@ -421,83 +421,9 @@ alt-logger.js application/javascript
 	}.bind(window);
 })();
 
-
-# readOnly-property-setter
-ro.js application/javascript
-(() => {
-    'use strict';
-    const prop = '{{1}}';
-    if (prop === '' || prop === '{{1}}') {
-        return;
-    }
-    const props = prop.split(/\s*\|\s*/);
-    const ro = ev => {
-        if (ev) {
-            window.removeEventListener(ev.type, ro, true);
-        }
-        try {
-            for (const propsetter of props) {
-                Reflect.defineProperty(window, propsetter, {
-                    value: '{{2}}'
-                });
-            }
-        } catch (ex) {}
-    };
-    if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', ro, true);
-    } else {
-        ro();
-    }
-})();
-
 # cookie-setter
 cookie-set.js application/javascript
 (() => {
 	     'use strict';
 	     document.cookie = '{{1}}={{2}}; max-age={{3}}; secure; path=/;';
-})();
-
-# background-image-setter
-bis.js application/javascript
-(() => {
-		'use strict';
-         	const selector = '{{1}}';
- 		if ( selector === '' || selector === '{{1}}' ) {
-        		return;
-    		}
-    		const bis = ev => {
-	 				if (ev) { window.removeEventListener(ev.type, bis, true); }
-					try {
-        					const element = document.querySelector(selector);
-        					element.style.backgroundImage = '{{2}}';
-                                                element.style.backgroundRepeat = '{{3}}'; 
-                			} catch (ex) { 
-					}
-		};
-    		if (document.readyState === 'loading') {
-        		 window.addEventListener('DOMContentLoaded', bis, true);
-    		} else {
-        		 bis();
-    		}
-})();
-
-# sharedWorker-defuser
-sharedWorker-defuser.js application/javascript
-(function() {
-	if ( window.SharedWorker instanceof Function === false ) { return; }
-	var needle = '{{1}}';
-	if ( needle === '' || needle === '{{1}}' ) { needle = '.?'; }
-	else if ( /^\/.+\/$/.test(needle) ) { needle = needle.slice(1,-1); }
-	else { needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
-	needle = new RegExp(needle);
-	var RealSharedWorker = window.SharedWorker;
-	var WrappedSharedWorker = function(a, b) {
-		if ( this instanceof WrappedSharedWorker === false ) { return RealSharedWorker(); }
-		if ( needle.test(a) ) {
-			return new RealSharedWorker(window.URL.createObjectURL(new Blob([';'], {type:'text/javascript'})));
-		}
-		return new RealSharedWorker(a, b);
-	};
-	WrappedSharedWorker.prototype = RealSharedWorker.prototype;
-	window.SharedWorker = WrappedSharedWorker.bind(window);
 })();
