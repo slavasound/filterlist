@@ -5657,7 +5657,6 @@ ok.ru#@##anonymPageContent > div[data-promo]
 ||awsync.yandex.*^$important
 ||bench.utorrent.com^$xmlhttprequest,script
 ||blockadblock.com^$badfilter
-||blocklist.palemoon.org/*/blocklist.xml$xmlhttprequest,script,redirect=noopvast-2
 ||blogsmithmedia.com^*facebook$image,badfilter
 ||browser-resources.s3.yandex.net^$important
 ||browser.yandex.ru^$important
