@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1565506147306,
-  "version": "1.21.2",
+  "timeStamp": 1567838031016,
+  "version": "1.21.9b7",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,10 +10,10 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt\nhttps://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/bogachenkoPF.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
+    "externalLists": "https://easylist-downloads.adblockplus.org/advblock.txt\nhttps://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt\nhttps://raw.githubusercontent.com/bogachenko/presstheattack/personal/bogachenkoPF.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
-    "ignoreGenericCosmeticFilters": true,
+    "ignoreGenericCosmeticFilters": false,
     "largeMediaSize": 50,
     "parseAllABPHideFilters": true,
     "prefetchingDisabled": true,
@@ -37,18 +37,16 @@
     "dpollock-0",
     "hphosts",
     "plowe-0",
-    "RUS-0",
     "https://raw.githubusercontent.com/bogachenko/presstheattack/personal/bogachenkoPF.txt",
     "https://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt",
     "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    "https://raw.githubusercontent.com/WowDude/PornList/master/PornList.txt",
     "https://raw.githubusercontent.com/bogachenko/presstheattack/master/presstheattack.txt",
+    "https://easylist-downloads.adblockplus.org/advblock.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
     "https://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
-    "https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt",
-    "https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt"
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -73,20 +71,21 @@
     "selfieAfter": 11,
     "strictBlockingBypassDuration": 120,
     "suspendTabsUntilReady": "unset",
-    "userResourcesLocation": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt"
+    "updateAssetBypassBrowserCache": false,
+    "userResourcesLocation": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/bogachenko/presstheattack/personal/scriptlets.txt"
   },
   "whitelist": [
-    "# chrome-extension-scheme",
-    "# chrome-scheme",
-    "# opera-scheme",
-    "# vivaldi-scheme",
-    "# wyciwyg-scheme",
     "about-scheme",
-    "moz-extension-scheme"
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
   ],
-  "netWhitelist": "# chrome-extension-scheme\n# chrome-scheme\n# opera-scheme\n# vivaldi-scheme\n# wyciwyg-scheme\nabout-scheme\nmoz-extension-scheme",
+  "netWhitelist": "about-scheme\nchrome-extension-scheme\nchrome-scheme\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme\nwyciwyg-scheme",
   "dynamicFilteringString": "",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-csp-reports: * true",
-  "userFilters": "!thehill\n"
+  "userFilters": ""
 }
