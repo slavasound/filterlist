@@ -10,9 +10,6 @@
 *$inline-font,important,badfilter
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */CookieCompliance.js$object,domain=live.com
-/^(https?|wss|ftp):\/\/(www\.)?.*\/(\W|\_)?ad[svbx]?([0-9]{1,2}|(\W|\_).*|\.min)?\.js/$important
-*/advertise/*.js$important
-/^(https?|wss|ftp):\/\/(www\.)?.*\/adv(ert(ise|ising|isement)?)?([0-9]{1,2}|(\W|\_).*|\.min)?\.js/$important
 #@#.mh-share-buttons
 #@#.mh-share-button
 #@#a[title="Share on Facebook"]
@@ -46,7 +43,13 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 */service-worker.js$important,script,redirect=noopjs
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
-*/sw.js$important,script,redirect=noopjs
+/^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification|pab)\-)?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/sw(\-(vodlocker|service))?\.js/$important,script
+/\/service[_-]worker/$important,script
+/^https?:\/\/[^\s]+\/worker(\-(asmjs|bundle))\.js/$important,script
+|http*:*/worker.js$script
+|http*:*/serviceworker.js$important,script
+|http*:*/yads-async.js$important,script
 #@#.social-icons
 -ad0-$badfilter
 -ad0.$badfilter
@@ -1644,6 +1647,8 @@ music.yandex.ru#?#span:contains(Отключить рекламу)
 /soc_med_$badfilter
 /soc_rss_$badfilter
 /soc_twitter2.$badfilter
+#@#a[title^="Follow us on Instagram"]
+#@#img[alt="facebook"]
 /soc_twitter.$badfilter
 /soc_twitter_$badfilter
 /soc_youtube_$badfilter
