@@ -20,6 +20,8 @@ wikipedia.org###centralNotice
 instagram.com##.Yx5HN.RnEpo
 ||share.pluso.ru^$third-party,badfilter
 */iecompatviewlist.xml$xmlhttprequest,script
+kinogo.*##body:style(background-image: none !important;)
+32nod-key.com##.remodal
 */iedomainsuggestions^$xmlhttprequest,script
 */rum.js$script
 */rum.min.js$script
