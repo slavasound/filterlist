@@ -70,6 +70,7 @@ filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 #@#.ism_share_counts
 #@#.ism_box_twitter
 #@#.ism_box_linkedin
+/(\W|\_)a(d[vs]e?|nnounceme|ds?)[rn][tev](s|ing|covers?|server?|isements?|ising|e(rs?)?|ements|ur)?/$important,popup
 #@#.ism_box_facebook
 #@#.facebook_share_count
 #@#a[title="Share on Twitter"]
