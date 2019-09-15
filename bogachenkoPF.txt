@@ -715,6 +715,7 @@ track$important,script,badfilter
 /facebook_badge.$badfilter
 /facebook_button$badfilter
 /facebook_button.$badfilter
+*clid=$important,first-party,document,badfilter
 /facebook_circle-$badfilter
 /facebook_follow.$badfilter
 /facebook_footer.$badfilter
