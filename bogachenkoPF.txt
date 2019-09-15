@@ -1570,6 +1570,7 @@ music.yandex.ru#?#span:contains(Отключить рекламу)
 /share-sprite.$badfilter
 /share-twitter1a.$badfilter
 /share-twitter-$badfilter
+#@##vk_groups
 /share-twitter.$badfilter
 /share/*/facebook.png$badfilter
 /share/*/twitter.png$badfilter
@@ -5776,7 +5777,6 @@ ok.ru#@##anonymPageContent > div[data-promo]
 ||freebitco.in^$badfilter
 ||gelbooru.com^$badfilter
 ||getsocial.io/widget/$third-party,badfilter
-||github.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.githubassets.com *.githubusercontent.com *.amazonaws.com local.adguard.org;
 ||google-analytics.$important,badfilter
 ||google-analytics.com^$important
 ||google.*/ads$important,badfilter
