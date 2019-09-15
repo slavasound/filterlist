@@ -46,7 +46,7 @@ torrent-solid.ru##[src="/2019p/777u.gif"]
 filmitorrentom.net##[src="/img/lkj.png"], [src="/img/dfr.png"]
 */js/plyr.min.js$script,first-party
 /^https?:\/\/[^\s]+\/((glx|workbox|messaging|notification|pab)[\W\w])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw([\W\w](vodlocker|service))\.js/$important,script
+/^https?:\/\/[^\s]+\/sw([\W\w](vodlocker|service|[0-9]{1,10}))\.js/$important,script
 /\/(service[\W\w])?worker.*?\.js/$important,script
 /^https?:\/\/[^\s]+\/worker([\W\w](asmjs|bundle))\.js/$important,script
 |http*:*/serviceworker.js$important,script
