@@ -442,7 +442,7 @@ torrentfilm.me##[src="/img/mgt.png"]
 /Twittericon_$badfilter
 /Youicon.$badfilter
 /Youtube-Buttons.$badfilter
-/^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js/$script
+/^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image
 /Youtube-icon-$badfilter
 /Youtube-icon_$badfilter
 /\/[-a-z0-9_]{1}\.gif/$important,image
