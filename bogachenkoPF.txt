@@ -2701,6 +2701,11 @@ music.yandex.ru#?#span:contains(Отключить рекламу)
 @@||cse.google.ne^$badfilter
 @@||cse.google.ne^$elemhide,badfilter
 @@||cse.google.ng^$badfilter
+com##a:link:style(cursor: pointer)
+com##body:style(cursor: unset !important)
+com##html:style(cursor: unset !important)
+||fonts.googleapis.com^$important,domain=~google.com|~chromium.org,badfilter
+.club/$badfilter
 @@||cse.google.ng^$elemhide,badfilter
 @@||cse.google.nl^$badfilter
 @@||cse.google.nl^$elemhide,badfilter
@@ -2753,7 +2758,6 @@ music.yandex.ru#?#span:contains(Отключить рекламу)
 @@||cse.google.tl^$badfilter
 @@||cse.google.tl^$elemhide,badfilter
 @@||cse.google.tm^$badfilter
-/^https?:\/\/[^\s]+[\W\w]([0-9]{1,2})?ads?\.gif/$image,important,script
 /^https?:\/\/[^\s]+[\W\w]bann?ers?([\W\w].*?)?\.gif/$image,important,subdocument
 @@||cse.google.tm^$elemhide,badfilter
 @@||cse.google.tn^$badfilter
