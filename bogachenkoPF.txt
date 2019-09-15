@@ -700,6 +700,9 @@ music.yandex.ru#?#span:contains(Отключить рекламу)
 /facebook_18x18_$badfilter
 /facebook_24.$badfilter
 /facebook_29.$badfilter
+track$important,script,badfilter
+||addthis.com^$third-party,domain=~civilization.com|~imgur.com,badfilter
+*$websocket,badfilter
 /facebook_30.$badfilter
 /facebook_32$badfilter
 /facebook_32.$badfilter
