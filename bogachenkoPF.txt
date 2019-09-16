@@ -5190,7 +5190,7 @@ infourok.ru###aa-popup
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,hqq.tv##+js(mousedef2.js)
 ka4ka.ru##+js(abort-current-inline-script.js, document.createElement, 'script')
 kinogo.*##.social_buttons
 kinopoisk.ru##.adfox.adfox_theme_default, .header-fresh-partial-component__navigation-item_oscar.header-fresh-partial-component__navigation-item, div > a[href*="/yandex-in-adblock.html"], DIV[class*="adblock-warning"], .wcuskf__container > div
@@ -5198,6 +5198,9 @@ kinopoisk.ru,yandex.ru,mail.ru,~music.yandex.ru##+js(abort-on-property-read.js, 
 mail.ru###projects, .i-pull-right.grid__rcol_aside.grid__rcol, .o-media__body, .news-item__body, .news-item__body_fade, #grid\:middle.grid-middle.grid__container.i-clearfix > div.grid__main-col > div.grid__ccol.i-pull-left > div.news-item.o-media.news-item_tgb.news-item_long_title.tgb.tgb_invisible, html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid-down.grid__container.i-clearfix > div.grid__lcol.i-pull-left > div.well.notify.i-link-no-deco.i-absolute.m-bordered.m-animated-shadow.m-animated-borderless, html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main > div.grid__header.i-relative > div.toolbar.i-block.i-relative.i-link-no-deco.i-font-md, html > body.is-toolbar > div.grid.grid_desktop.is-loggedout.grid_x-xl.grid_y-sm.is-main-default.is-main.is-animate-tab > section.feed-generic__container.i-clearfix, .news-item_main.news-item_media.o-media.news-item > .i-link-no-deco.i-relative.i-block.news-item__link, .zeropixel
 mail.ru##+js(nowebrtc.js)
 ||google.com/js/bg/$badfilter
+.top/$badfilter
+||.gdn^$document,domain=~ Warning displayed due to: It's a topical domain whose sites have an unusally big chance of being fraudulent.,badfilter
+||vkcdnservice.com^$badfilter
 market.yandex.ru##.main > noindex
 market.yandex.ru##a[href^="https://fenek.market.yandex."]
 music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"]
