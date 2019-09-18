@@ -389,8 +389,17 @@ github.com#@#.col-9:style(width: 100% !important)
 .ad9_$badfilter
 .ads-$document,badfilter
 .ads.$document,badfilter
+github.com#@#.u-photo .avatar:style(width: 230px !important)
+github.com#@#.h-card:style(width: 230px; margin-right: 16px)
+github.com#@#.discussion-timeline:style(width: 100% !important)
+github.com#@#.container-xl:style(max-width: none !important)
+github.com#@#.user-profile-sticky-bar
+github.com#@#.commit-desc > .text-small:style(max-width: none !important)
+github.com#@#+js(eremove, .survey-container\, .js-notice-dismiss)
+github.com#@#.repository-content:style(width: 100% !important)
 .ads^$document,badfilter
 .ads_$document,badfilter
+||google.*/async/bgasy?ei=$important,badfilter
 .advertising^$badfilter
 .analytics.$badfilter
 .facebookLikePopUp.$badfilter
