@@ -2834,13 +2834,19 @@ com##html:style(cursor: unset !important)
 @@||ebay.com^$elemhide,badfilter
 @@||ebay.de^$elemhide,badfilter
 @@||ebay.es^$elemhide,badfilter
+/share42.js$domain=~dontreg.ru|~kinopovod.tv,badfilter
 @@||ebay.eu^$elemhide,badfilter
 @@||ebay.fr^$elemhide,badfilter
 @@||ebay.ie^$elemhide,badfilter
 @@||ebay.in^$elemhide,badfilter
+||connect.facebook.net^$important,badfilter
+/ad/*$badfilter
 @@||ebay.it^$elemhide,badfilter
+#@#div#disqus_thread
 @@||ebay.nl^$elemhide,badfilter
 @@||ebay.ph^$elemhide,badfilter
+_banner*$domain=~utah.edu|~cable.co.uk,badfilter
+||myanimelist.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.myanimelist.net;img-src *;upgrade-insecure-requests,badfilter
 @@||ebay.pl^$elemhide,badfilter
 @@||ebay.vn^$elemhide,badfilter
 @@||ebayanuncios.es^$elemhide,badfilter
@@ -2852,13 +2858,18 @@ com##html:style(cursor: unset !important)
 @@||edreams.co.uk^$elemhide,badfilter
 @@||edreams.com.ar^$elemhide,badfilter
 @@||edreams.com.br^$elemhide,badfilter
+pixel.$important,image,badfilter
 @@||edreams.com.mx^$elemhide,badfilter
 @@||edreams.com.ru^$elemhide,badfilter
+||facebook.com/ajax/bz^$badfilter
 @@||edreams.com.tr^$elemhide,badfilter
+||facebook.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.fbcdn.net,badfilter
 @@||edreams.com.ve^$elemhide,badfilter
+/widget/share_$badfilter
 @@||edreams.com^$elemhide,badfilter
 @@||edreams.de^$elemhide,badfilter
 @@||edreams.es^$elemhide,badfilter
+||connect.mail.ru/share_button$badfilter
 @@||edreams.fr^$elemhide,badfilter
 @@||edreams.hk^$elemhide,badfilter
 @@||edreams.in^$elemhide,badfilter
