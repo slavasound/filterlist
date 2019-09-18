@@ -5509,6 +5509,11 @@ youtube.com#@#ytd-popup-container > .ytd-popup-container > #contentWrapper > .yt
 |http:*_ad5_$badfilter
 |http:*_ad6-$badfilter
 |http:*_ad6.$badfilter
+||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com  *.oloadcdn.net *.google.com,badfilter
+||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com *.oloadcdn.net *.google.com,badfilter
+/log_event$important,badfilter
+||streamango.com/assets/js/license$important,badfilter
+||streamango.com/assets/js/script$important
 |http:*_ad6^$badfilter
 |http:*_ad6_$badfilter
 |http:*_ad7-$badfilter
