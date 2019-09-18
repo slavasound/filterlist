@@ -4886,6 +4886,13 @@ pixel.$important,image,badfilter
 ^ad1^$badfilter
 ^ad1_$badfilter
 ^ad2-$badfilter
+||openload.co/cdn-cgi/apps/head/$badfilter
+||openload.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval',badfilter
+||openload.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.openload.co cdnjs.cloudflare.com *.oloadcdn.net *.google.com,badfilter
+||sendpulse.com^$third-party,badfilter
+/social/pinterest-$badfilter
+/banner*$badfilter
+*$xmlhttprequest,domain=streamango.com,badfilter
 ^ad2.$badfilter
 ^ad2^$badfilter
 ^ad2_$badfilter
@@ -5171,9 +5178,11 @@ _vkontakte.png$badfilter
 _xmlrss.$badfilter
 _youtube-button.$badfilter
 _youtube_32.$badfilter
+||streamango.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.streamango.com *.fruithosted.net cdnjs.cloudflare.com;upgrade-insecure-requests,badfilter
 _youtube_channel.$badfilter
 _youtube_icon.$badfilter
 _youtube_small.$badfilter
+||streamango.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cloudflare.com,badfilter
 _youtube_social_$badfilter
 ads.google.com##.h-c--idle-widget__visible.ng-isolate-scope.h-c--idle-widget, .header__label.showcase.header--aside__item, .js-onboarding-ed.onboarding-, js-tag-home.no-js__hide.tag-home--slide.tag-home, .social.header--aside__item
 direct-link.net,direkt-wissen.com##+js(setTimeout-defuser.js, nextFunction, 2000)
@@ -5182,12 +5191,6 @@ direct-link.net,direkt-wissen.com,link-to.net##+js(nano-setInterval-booster.js, 
 direct-link.net,direkt-wissen.com,link-to.net##+js(set-constant, app.addonIsInstalled, trueFunc)
 direct-link.net,link-to.net,direkt-wissen.com##+js(nano-setInterval-booster.js, countdown)
 english-films.com###mainSlider-controls, .active.tabs-content > p, .box.redBox.section.helperBlock, .footer, .mainNav, .mc-head, .owl-height.owl-stage-outer > .owl-stage, .relatedNews, .section.linksBlock, .superBanner, .width > .siteEnter, .wrp_baner, div.orangeBlock.block, div.redBlock.block
-english-films.com##:xpath(//div[@class='block-content'][contains(.,'Онлайн чат')])
-english-films.com##:xpath(//li[@data-target='tabs_pay'][contains(.,'English-Films плеер')])
-english-films.com##div.block.blueBlock:has-text(Изучаем английский)
-english-films.com##div.block.blueBlock:has-text(Подборки фильмов)
-english-films.com##div.saladBlock:has-text(Вопросы по работе сайта)
-english-films.com##div.saladBlock:has-text(Курс: "Заговори на английском за 2 месяца!")
 fakedrivingschool.com###catfish-banner
 flaticon.com##.modal-credit.fi-modal > .modal-fade-screen > .text-center.modal-inner
 fonts.googleapis.com^$important,domain=~google,badfilter
