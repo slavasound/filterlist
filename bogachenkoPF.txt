@@ -370,10 +370,18 @@ disqus.com$important,badfilter
 .ad7-$badfilter
 .ad7.$badfilter
 .ad7^$badfilter
+openload.co$first-party,xmlhttprequest,badfilter
 .ad7_$badfilter
 .ad8-$badfilter
 .ad8.$badfilter
 .ad8^$badfilter
+github.com#@#.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com#@#.is-placeholder
+github.com#@#.js-notice
+github.com#@#.container-lg:style(max-width: none !important)
+github.com#@##dashboard:style(position: relative !important)
+github.com#@#.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com#@#.col-9:style(width: 100% !important)
 .ad8_$badfilter
 .ad9-$badfilter
 .ad9.$badfilter
