@@ -5733,6 +5733,8 @@ support.mozilla.org###announcements
 /img/*facebook.png$badfilter
 /img/*twitter.png$badfilter
 ||blogsmithmedia.com^*facebook$image,badfilter
+||r.mail.ru^$badfilter
+@@||r.mail.ru/*/e.mail.ru/login?$document,xmlhttprequest
 ||browser-resources.s3.yandex.net^$important
 ||browser.yandex.ru^$important
 ||bs.yandex.*^$important
@@ -5743,8 +5745,10 @@ support.mozilla.org###announcements
 ||cdn.ap.bittorrent.com/control/tags^$xmlhttprequest,script
 ||cdn.jsdelivr.net^$badfilter
 ||ciscobinary.openh264.org/openh264-win32-*.zip$xmlhttprequest,script
-||clck.yandex.*^$important
+||clck.yandex.*^$document
 ||clientservices.googleapis.com^$important
+||clck.yandex.ru^$badfilter
+@@||clck.yandex.*/*https://passport.yandex.$document,xmlhttprequest
 ||cliqz.com^$important,badfilter
 ||cloudflare.com/ajax/libs/cookieconsent2/$badfilter
 ||cloudfront.net/*/facebook.png$badfilter
