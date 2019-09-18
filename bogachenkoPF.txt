@@ -5589,6 +5589,7 @@ ok.ru#@##anonymPageContent > div[data-promo]
 |https:*.ad6^$badfilter
 |https:*.ad6_$badfilter
 |https:*.ad7-$badfilter
+support.mozilla.org###announcements
 |https:*.ad7.$badfilter
 |https:*.ad7^$badfilter
 |https:*.ad7_$badfilter
