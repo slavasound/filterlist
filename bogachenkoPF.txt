@@ -174,7 +174,7 @@
 ||yastatic.net^$popup,important
 ||click2go.me^$popup,important
 ||gemius.pl^$popup,important
-salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,youtube.com##+js(addEventListener-defuser.js, contextmenu)
+salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai##body:style(background-image: none !important;)
 8fornod.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
@@ -736,6 +736,7 @@ akvideo.stream#@#+js(acis, setTimeout, mypop)
 /scrollbtntop.$badfilter
 *$first-party,subdocument,domain=mp4upload.com,badfilter
 *$popup,domain=dailyuploads.net,badfilter
+/img/fb.$badfilter
 *$third-party,script,domain=jetload.net|waaw.tv|hentai-share.tv|hentai-share.tv|gdriveplayer.us|hindipix.in,badfilter
 *$third-party,stylesheet,domain=rapidvideo.com|vidlox.me,badfilter
 uii.io#@#+js(addEventListener-defuser, mouseup, _blank)
@@ -1065,7 +1066,7 @@ get-to.link#@#+js(aopr, exoJsPop101)
 #@#a[href*="://www.reddit.com/submit?"]
 #@#a[href*="connect.ok.ru/dk?st.cmd="][href*="share"]
 vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*#@#+js(acis, Math, zfgloaded)
-fembed.com,xstreamcdn.com#@#+js(aopr, jwplayer.utils.Timer)
+fembed.com,xstreamcdn.com,embed.media#@#+js(aopr, jwplayer.utils.Timer)
 fembed.com#@#+js(setInterval-defuser, (), 500)
 #@#a[href*="facebook.com/sharer/sharer.php?"]
 #@#a[href*="odnoklassniki.ru/dk?st.cmd=addShare"]
