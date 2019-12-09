@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1575879986826,
+  "timeStamp": 1575882879064,
   "version": "1.24.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/1.txt\nhttps://filters.adtidy.org/extension/chromium/filters/14.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://filters.adtidy.org/extension/chromium/filters/3.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt\nhttps://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://filters.adtidy.org/extension/chromium/filters/1.txt\nhttps://filters.adtidy.org/extension/chromium/filters/14.txt\nhttps://filters.adtidy.org/extension/chromium/filters/2.txt\nhttps://filters.adtidy.org/extension/chromium/filters/3.txt\nhttps://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt\nhttps://raw.githubusercontent.com/StevenBlack/hosts/master/hosts\nhttps://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt\nhttps://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt\nhttps://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://raw.githubusercontent.com/smed79/blacklist/master/abp.txt\nhttps://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -43,7 +43,9 @@
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
     "https://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
-    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+    "https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt",
+    "https://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,

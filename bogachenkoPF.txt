@@ -27,6 +27,7 @@
 ||googletagservices.com^$empty,important
 ||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;,badfilter
 ||dropboxusercontent.com^
+||pmir.3g.qq.com^$app=com.kingroot.kinguser
 ||www.dropbox.com^
 !#endif
 !#endif
