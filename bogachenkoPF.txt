@@ -200,6 +200,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##.b-cookies
 *##.cookie-consent
 *##.ezoic-ad
+*###cookieWrapper
 *###cookies-policy
 *##cookies-policy-confirm
 *##.cookie-notice-container
@@ -276,6 +277,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 */yandex-metrica-watch/*$important
 */analytics/web/*$domain=~analytics.google.com
 */sailthru/*$important
+*/cookieconsent/*$important
 */ads.htm$important
 */plugins/ga-google-analytics/*$important
 */plugins/google-analytics-for-wordpress/*$important
@@ -535,6 +537,8 @@ putlockertv.*#@#+js(abort-current-inline-script, atob, zfgloadedpush)
 #@##icon-rss
 ||assets.pinterest.com^$badfilter
 ||platform.linkedin.com^$badfilter
+/social-buttons-$script,badfilter
+go99tech.com##.banner-inner
 /twitter3.$badfilter
 ||platform.stumbleupon.com/*/widgets.js$3p,badfilter
 ||platform.stumbleupon.com^$badfilter
@@ -655,11 +659,14 @@ hqq.*,waaw.tv#@#+js(aopr, adBlockDetected)
 #@#.fa-tumblr-square
 #@#.fa-twitter-square
 #@#.facebook
+||google.*/coop/cse/brand?$badfilter
+||vk.com/widget_like.php$3p,badfilter
 ||goraps.com^$badfilter
 ||yllix.com^$badfilter
 /wp-content/*twitter.png$badfilter
 /images/facebook$badfilter
 /images/*twitter-$badfilter
+/images/vk-$badfilter
 /images/googleplus$badfilter
 /images/reddit-$badfilter
 egybest.*#@#+js(window.open-defuser, , click)
