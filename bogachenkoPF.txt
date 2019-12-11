@@ -232,6 +232,7 @@ my.mail.ru##.b-music__main__banner, .rb-counter
 pornhub.*##.premiumPromoBanner, .tooltipPromo
 forums.opera.com###download-opera
 hdtube.porn##.description__channel
+ok.ru##.gift-slider, #MusicGrowl
 mail.ru##.o-media__img.news-item__img-wrapper
 tolko-russkoe.com###notice-holder
 rezka.ag##.clearfix.b-post__status_wrapper
@@ -304,9 +305,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
-/^https?:\/\/(www\.)?hdtube\.porn\/xdman\/\?[a-z]+\=[0-9]{1,3}$/$important,script,subdocument
-/^https?:\/\/(www\.)?hdtube\.porn\/xdman\/[0-9a-z]{4}\.js$/$important,script,subdocument
-/^https?:\/\/(www\.)?hdtube\.porn\/xdman\/[0-9a-z]{4}\.php\?/$important,script,subdocument
+/^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 */ezgif-com-optimize.gif$image
 ||english-films.com/uploads/4_35.jpg$image
 ||english-films.com/uploads/How-download_20.jpg$image
@@ -540,6 +539,9 @@ putlockertv.*#@#+js(abort-current-inline-script, atob, zfgloadedpush)
 #@##icon-instagram
 #@##icon-rss
 ||assets.pinterest.com^$badfilter
+/share42.js$badfilter
+||biqle.ru^$badfilter
+*$3p,popup,stylesheet,domain=biqle.ru,badfilter
 ||platform.linkedin.com^$badfilter
 /social-buttons-$script,badfilter
 go99tech.com##.banner-inner
