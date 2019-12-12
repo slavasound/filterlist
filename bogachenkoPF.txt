@@ -268,13 +268,14 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
 /^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua http://yandex.com https://yandex.com https://yandex.by http://yandex.by api-maps.yandex.ru suggest-maps.yandex.ru https://cloud-api.yandex.net; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net api-maps.yandex.ru static-maps.yandex.ru; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by *.yandex.net wss:; object-src 'none';
+||kinogo.*^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.jquery.com *.google.com *.gstatic.com https://kinogo.eu http://kinogo.eu http://kinogo.by https://kinogo.by http://kinogo.cc https://kinogo.cc http://kinogo.video https://kinogo.video *.vk.com vk.com *.googleapis.com http://kinogo.casa https://kinogo.casa; img-src 'self' data: *.ytimg.com *.kinopoisk.ru; media-src *; connect-src data: https://kinogo.by;
 ||my.mail.ru^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' my.mail.ru *.imgsmail.ru https://auth.mail.ru https://ok.ru; img-src data: *.my.mail.ru *.imgsmail.ru *.foto.mail.ru;
 ||rutube.ru^$csp=script-src data: blob: 'unsafe-inline' 'unsafe-eval' *.rutube.ru rutube.ru; connect-src data: *.rutube.ru *.pladform.ru rutube.ru; img-src data: *.rutube.ru rutube.ru;
+||temp-mail.org^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jquery.com;
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.com *.github.com *.twitter.com;
 ||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.com;
-||temp-mail.org^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jquery.com;
 */rsya-tag-users/*$important
 */yandex-metrica-watch/*$important
 */analytics/web/*$domain=~analytics.google.com
@@ -312,10 +313,9 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 ||english-films.com/uploads/001/Skyeng_English-Films.jpg$image
 ||kinogo-2019.club/templates/kinogo720/images/mstiteli.jpg$image
 ||panels-images.twitch.tv/panel-21802540-image-4565b1db-f071-48c2-af1e-3cc54bd2c5fa$image
-/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
+/^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
 /^https?:\/\/[^\s]+\/dist\/js\/po[_-]v[0-9]{1}\.js\?v\=[0-9]{7,10}$/$script,important
 /^https?:\/\/([^\s]+\.)?firebaseapp\.com\/adx\/[0-9]{8}\.js$/$script,important
-/^https?:\/\/[^\s]+\/count(ers?)?([0-9]{1,3})?(\.js(on)?\??|\/)/$script,important
 /^https?:\/\/[^\s]+\/popup[0-9]{1}\.js$/$script
 ||bc.vc/js/app.v5.js$script,important
 |http*:*/annotations_module.js|$script,domain=youtube.com,important
