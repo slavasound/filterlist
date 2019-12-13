@@ -971,9 +971,11 @@ swatchseries.to#@#+js(abort-current-inline-script, atob, TextDecoder)
 #@#.sharethis-inline-share-buttons
 #@#.social
 #@#.social-box
+||adf.ly^$badfilter
 #@#.social-btn
 #@#.social-button
 #@#.social-buttons-compact
+lin-ks.net#@#+js(set-constant, canRunAds, true)
 /addthis_widget.$badfilter
 ||addthis.com^$3p,badfilter
 ||m.addthis.com^$badfilter
