@@ -281,7 +281,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 */analytics/web/*$domain=~analytics.google.com
 */sailthru/*$important
 */cookieconsent/*$important
-*/ads.htm$important
+/\/ads([0-9]{1})?\.html?$/$important
 */plugins/ga-google-analytics/*$important
 */plugins/google-analytics-for-wordpress/*$important
 */plugins/google-analytics-dashboard-for-wp/*$important
@@ -713,6 +713,7 @@ monova.*#@#+js(abort-on-property-read, adblock)
 #@#.footer-social-wrap
 #@#.footer__social
 #@#.footer__social-links
+||uiz.io^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
 #@#.footer__socials
 #@#.footer_social
 /facebook2.$badfilter
@@ -736,10 +737,17 @@ mac-torrent-download.net#@#+js(std, _0x)
 #@#.icon-facebook
 #@#.icon-facebook-circle
 ||usocial.pro^$3p,badfilter
+uiz.io#@#+js(bab-defuser)
+uiz.io#@#+js(aopr, HTMLElement)
+uiz.io#@#+js(aopr, NaConf)
+uiz.io#@#+js(aopr, adsBlocked)
+uiz.io#@#+js(acis, $, adBlock)
+*/*$script,domain=uiz.io,3p,redirect-rule=noopjs,badfilter
 #@#.icon-google-plus-circle
 #@#.icon-share
 #@#.icon-telegram
 #@#.icon-twitter
+gelbooru.com#@#+js(acis, BPJS)
 #@#.icon-twitter-circle
 #@#.icon-vk
 #@#.icon-youtube
@@ -748,6 +756,8 @@ mac-torrent-download.net#@#+js(std, _0x)
 |https://$third-party,subdocument,domain=akvideo.stream,badfilter
 akvideo.stream#@#+js(acis, setTimeout, mypop)
 ||zencdn.net^$badfilter
+||gelbooru.com^$badfilter
+||gelbooru.com^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com,badfilter
 *$domain=kinozal-tv.appspot.com,badfilter
 /scrollbtntop.$badfilter
 *$first-party,subdocument,domain=mp4upload.com,badfilter
