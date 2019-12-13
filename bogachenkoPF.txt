@@ -203,6 +203,17 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *###cookieWrapper
 *###cookies-policy
 *##cookies-policy-confirm
+*##[href*="//64.91.252.215"]
+*###mybannerpopup
+*##[href*="//72.52.214.50"]
+*##[href*="//5.153.13.193/"]
+*##[href*="//81.19.186.167/"]
+*##[href*="//www.aseanjoker.net"]
+*##[href*="//www.bola100.net"]
+*###mybannerpopup2
+*###mybannerbottom
+*###bannerplayerheader
+*###bannerplayerfooter
 *##.cookie-notice-container
 *##.cookies-policy
 *##.cookies-reminder
@@ -531,6 +542,7 @@ putlockertv.*#@#+js(abort-current-inline-script, atob, zfgloadedpush)
 -social-icon-$badfilter
 ||cdn.jsdelivr.net^$badfilter
 -userbar.$image,badfilter
+/instagram.svg$badfilter
 #@##icon-facebook
 ||freebitco.in^$badfilter
 ||static1.freebitco.in^$badfilter
@@ -747,6 +759,7 @@ uiz.io#@#+js(acis, $, adBlock)
 #@#.icon-share
 #@#.icon-telegram
 #@#.icon-twitter
+/icon-instagram.$badfilter
 gelbooru.com#@#+js(acis, BPJS)
 #@#.icon-twitter-circle
 #@#.icon-vk
