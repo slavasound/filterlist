@@ -797,6 +797,8 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 ||eztv.*^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||eztv.io^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||gemius.pl^$third-party,badfilter
+/share/js/*$badfilter
+||mediametrics.ru^$badfilter
 ||katcr.co^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||kinozal-tv.appspot.com^$badfilter
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline',badfilter
@@ -811,15 +813,17 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 ||linkbucks.com^$badfilter
 ||odnoklassniki.ru/dk?st.cmd=extlike$3p,badfilter
 ||www.linkbucks.com^$badfilter
-dwrfslsqpdfqfwy.net#@#+js(aopr, open)
+dwrfslsqpdfqfwy.net,shrtfly.*#@#+js(aopr, open)
 temp-mail.org#@#+js(set-constant, checkadBlock, noopFunc)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
 xhamster.*#@#+js(aopw, wil-popunder)
 megatube.xxx#@#+js(remove-attr, oncontextmenu)
 megatube.xxx#@#.p-ig
+shrtfly.*#@#+js(aopr, tabUnder)
 @@//yandex.*/search/$generichide,badfilter
 ||solarmovie.cr^$csp=script-src 'self' * 'unsafe-inline',badfilter
+||liveinternet.ru^$badfilter
 ||swatchseries.to^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||toros.co^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||vshare.eu^$first-party,subdocument,badfilter
@@ -835,10 +839,13 @@ megatube.xxx#@#.p-ig
 #@#.icons-facebook
 #@#.icons-flickr
 #@#.icons-googleplus
+starmusiq.*#@#+js(set, isAdBlockActive, false)
 streamapi.xyz#@#+js(std, window.open)
 streamapi.xyz#@#+js(std, overlay, 0)
 #@#.icons-gplus
 #@#.icons-instagram
+ovagames.com#@#+js(abort-current-inline-script, disableSelection, reEnable)
+ovagames.com#@#+js(abort-on-property-write, document.oncontextmenu)
 #@#.icons-linkedin
 #@#.icons-pinterest
 #@#.icons-rss-feed
@@ -888,13 +895,12 @@ streamp1ay.*#@#+js(aopr, puOverlay)
 icutlink.com#@#+js(aopr, eval)
 icutlink.com#@#+js(ra, onclick)
 adshort.*#@#+js(aopw, Fingerprint2)
-adshort.*,ventax.net,shorten.*,movienear.me#@#+js(aopr, app_vars.force_disable_adblock)
+adshort.*,ventax.net,shorten.*,movienear.me,shrtfly.*#@#+js(aopr, app_vars.force_disable_adblock)
 icutlink.com#@#+js(abort-on-property-write, atob)
 #@#.js-sharing-popup-twitter
 #@#.js-triggerShare
 #@#.jw-settings-sharing
 likn.xyz#@#+js(aopw, Fingerprint2)
-likn.xyz#@#+js(aopw, _pop)
 likn.xyz#@#+js(aopr, blockAdBlock)
 likn.xyz#@#+js(abort-on-property-read, oncontextmenu)
 fas.li#@#+js(abort-on-property-read, blockAdBlock)
@@ -944,7 +950,7 @@ fas.li#@#+js(abort-on-property-read, blockAdBlock)
 #@#.share-sites-thumbs
 #@#.share-text
 ventax.net#@#+js(acis, fuckAdBlock, importFAB)
-ventax.net,onlystream.tv,wstream.*,shorten.*#@#+js(aopw, _pop)
+ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*#@#+js(aopw, _pop)
 @@/js/ads.js|$first-party,script,domain=~internethaber.com|~knaqu.tv,badfilter
 ||kisshentai.net^$badfilter
 #@#.share-twitter
