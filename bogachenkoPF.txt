@@ -315,7 +315,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif$/$image,important,subdocument
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.js$/$script,image,domain=~rutube.ru
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
