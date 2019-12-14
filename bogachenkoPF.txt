@@ -557,6 +557,9 @@ links4earn.com#@#.banner
 #@##icon-rss
 ||assets.pinterest.com^$badfilter
 /share42.js$badfilter
+mangahosted.com#@#+js(aopr, onload)
+mangahosted.com#@#+js(std, ads)
+mangahosted.com#@#+js(acis, caIsHere, BlockAdblock)
 ||biqle.ru^$badfilter
 *$3p,popup,stylesheet,domain=biqle.ru,badfilter
 ||platform.linkedin.com^$badfilter
@@ -564,12 +567,14 @@ links4earn.com#@#.banner
 go99tech.com##.banner-inner
 /twitter3.$badfilter
 ||platform.stumbleupon.com/*/widgets.js$3p,badfilter
+australianfrequentflyer.com.au#@#+js(acis, $, adsBlocked)
 ||platform.stumbleupon.com^$badfilter
 #@##icon-snapchat
 ||google.com^*/fastbutton?$3p,badfilter
 #@##icon-twitter
 #@##icon-youtube
 #@##like-btn
+-social-icons/$image,badfilter
 #@##menu-social-links
 #@##return-to-top
 #@##scroll-to-top
