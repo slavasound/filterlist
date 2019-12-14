@@ -180,7 +180,7 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.
 8fornod.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 hotlink.cc##+js(nano-setInterval-booster.js)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online##+js(mousedef2.js)
 peserialehd.us,europixhd.*##+js(mousedef.js)
 yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 infourok.ru##+js(addEventListener-defuser.js, focus)
@@ -320,6 +320,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
+/^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party,domain=~is123moviesto.com
 */ezgif-com-optimize.gif$image
 ||english-films.com/uploads/4_35.jpg$image
 ||english-films.com/uploads/How-download_20.jpg$image
@@ -839,7 +840,7 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 ||linkbucks.com^$badfilter
 ||odnoklassniki.ru/dk?st.cmd=extlike$3p,badfilter
 ||www.linkbucks.com^$badfilter
-dwrfslsqpdfqfwy.net,shrtfly.*#@#+js(aopr, open)
+dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*#@#+js(aopr, open)
 temp-mail.org#@#+js(set-constant, checkadBlock, noopFunc)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
@@ -853,6 +854,8 @@ shrtfly.*#@#+js(aopr, tabUnder)
 ||swatchseries.to^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||toros.co^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||vshare.eu^$first-party,subdocument,badfilter
+oload.*,streamhoe.*#@#+js(aopr, _pop)
+oload.*#@#+js(aopr, decodeURI)
 ||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||stripst.com^$badfilter
 ||thumb-v-cl.xhcdn.com^$badfilter
