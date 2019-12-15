@@ -191,6 +191,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */*.mp4|$media,app=game.maddex.jump
 */*.mp4|$media,domain=vb17103elmerwatson.pw
+/\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
 */melbet.mp4$media,redirect=noopmp4-1s,important
 ||kinogo.*/player/*.mp4$important,media,redirect=noopmp3-0.1s,domain=kinogo.by
 *###bannerplayerfooter
@@ -217,6 +218,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##[href*="//72.52.214.50"]
 *##[href*="//81.19.186.167/"]
 *##[href*="//www.aseanjoker.net"]
+*##[href^="http://bebasjudi.com"]
+*##[href^="https://indoxbet.com"]
 *##[href*="//www.bola100.net"]
 *##[href="http://earnoffice.com/go-edudeg-com/"]
 *##[href^="http://onvictinitor.com/afu.php"]
@@ -623,6 +626,7 @@ lewat.club#@#+js(aeld, click, trigger)
 #@#.addthis_button_expanded
 #@#.addthis_button_reddit
 #@#.addthis_button_stumbleupon
+/images/twitter$badfilter
 #@#.addthis_button_tumblr
 ||pubsub-edge.twitch.tv^$badfilter
 agar.io#@#+js(abort-on-property-write, hasAdblock)
