@@ -43,6 +43,7 @@
 *##+js(abort-on-property-write.js, _pop)
 *##+js(nofab.js)
 *##+js(js-rm.js, GoogleAnalyticsObject)
+*##+js(js-rm.js, window._taboola)
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,important
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
@@ -764,6 +765,7 @@ mac-torrent-download.net#@#+js(std, _0x)
 #@#.gig-share-bar-container
 #@#.gig-share-button-container
 #@#.glyphicon-arrow-up
+||adf.ly^$3p,script,domain=~j.gs|~q.gs,badfilter
 #@#.go-top
 #@#.google-plus
 #@#.header-social
