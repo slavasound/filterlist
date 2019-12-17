@@ -41,6 +41,7 @@
 *##+js(abort-on-property-write.js, CoinNebula)
 *##+js(abort-on-property-write.js, Fingerprint2)
 *##+js(abort-on-property-write.js, _pop)
+*##+js(js-rm.js, OneSignal)
 *##+js(nofab.js)
 *##+js(js-rm.js, GoogleAnalyticsObject)
 *##+js(js-rm.js, window._taboola)
@@ -292,7 +293,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 ||temp-mail.org^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jquery.com local.adguard.com;
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.com; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.com *.github.com *.twitter.com;
-||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;
+||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com local.adguard.com; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.com;
 */rsya-tag-users/*$important
 */yandex-metrica-watch/*$important
@@ -891,7 +892,7 @@ oload.*#@#+js(aopr, decodeURI)
 #@#.icons-facebook
 #@#.icons-flickr
 #@#.icons-googleplus
-starmusiq.*#@#+js(set, isAdBlockActive, false)
+starmusiq.*,filehorse.com#@#+js(set, isAdBlockActive, false)
 streamapi.xyz#@#+js(std, window.open)
 streamapi.xyz#@#+js(std, overlay, 0)
 #@#.icons-gplus
@@ -902,6 +903,14 @@ ovagames.com#@#+js(abort-on-property-write, document.oncontextmenu)
 #@#.icons-pinterest
 #@#.icons-rss-feed
 ||r.mail.ru^$badfilter
+||simplesharebuttons.com^$3p,badfilter
+/tumblr.png$badfilter
+/stumbleupon.png|$domain=~stumbleupon.com,badfilter
+/reddit.png$badfilter
+/pinterest.png$badfilter
+/linkedin.png$badfilter
+/images/*pinterest.png$domain=~pinterest.com,badfilter
+/images/*linkedin.png$badfilter
 #@#.icons-stumbleupon
 #@#.icons-twitter
 /likebox.$badfilter
