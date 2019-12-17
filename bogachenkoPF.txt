@@ -570,16 +570,16 @@ mangahosted.com#@#+js(aopr, onload)
 mangahosted.com#@#+js(std, ads)
 mangahosted.com#@#+js(acis, caIsHere, BlockAdblock)
 ||biqle.ru^$badfilter
-*$3p,popup,stylesheet,domain=biqle.ru,badfilter
+*$third-party,popup,stylesheet,domain=biqle.ru,badfilter
 ||platform.linkedin.com^$badfilter
 /social-buttons-$script,badfilter
 go99tech.com##.banner-inner
 /twitter3.$badfilter
-||platform.stumbleupon.com/*/widgets.js$3p,badfilter
+||platform.stumbleupon.com/*/widgets.js$third-party,badfilter
 australianfrequentflyer.com.au#@#+js(acis, $, adsBlocked)
 ||platform.stumbleupon.com^$badfilter
 #@##icon-snapchat
-||google.com^*/fastbutton?$3p,badfilter
+||google.com^*/fastbutton?$third-party,badfilter
 #@##icon-twitter
 #@##icon-youtube
 #@##like-btn
@@ -602,8 +602,8 @@ wstream.*#@#+js(ra, onclick)
 #@##social-foot
 #@##social-links-toggle
 #@##social-plugins
-||platform.twitter.com/widgets/follow_button$3p,badfilter
-||twitter.com/js/timeline.$3p,script,badfilter
+||platform.twitter.com/widgets/follow_button$third-party,badfilter
+||twitter.com/js/timeline.$third-party,script,badfilter
 #@##subscribe-email
 #@##thread-share-bar
 #@##vk_groups
@@ -616,7 +616,7 @@ rustorka.com#@#.scroll.clickable
 #@#.Subscribe
 /images/social/*$badfilter
 /images/share-$badfilter
-||addtoany.com^$3p,badfilter
+||addtoany.com^$third-party,badfilter
 /footer_facebook.$badfilter
 /facebook_logo.$badfilter
 #@#.addthis-smartlayers
@@ -656,7 +656,7 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 #@#.btn-facebook
 #@#.btn-social
 ||gamedl.ru^$badfilter
-||addthis.com^$important,3p,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
+||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
 #@#.btn-twitter
 #@#.c-global-header__social
 #@#.comment__share
@@ -681,16 +681,20 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 #@#.fa-linkedin-square
 #@#.fa-pinterest-p
 ||facebook.com/plugins/$domain=~facebook.com|~freepresets.com,badfilter
-||youtube.com/subscribe_embed?$3p,badfilter
+||youtube.com/subscribe_embed?$third-party,badfilter
 #@#.fa-rss
 ||ad.mail.ru/adp/$important,xmlhttprequest,redirect=nooptext,badfilter
 ||ad.mail.ru/adq/$important,script,redirect=noopjs,badfilter
 ||ad.mail.ru/vast/$xmlhttprequest,redirect=nooptext,badfilter
 ||img1.imgsmail.ru^$badfilter
+/analytics/web/*$badfilter
 ||typekit.net^$badfilter
 ||thumb-v1.xhcdn.com^$badfilter
 #@#.fa-rss-square
 #@#.fa-share
+||analytics.google.com^$badfilter
+||metrika.yandex.ru^$badfilter
+||metrika.yandex.$third-party,badfilter
 #@#.fa-share-alt
 #@#.fa-share-square-o
 ||gounlimited.to^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data:,badfilter
@@ -708,7 +712,7 @@ hqq.*,waaw.tv#@#+js(aopr, adBlockDetected)
 #@#.fa-twitter-square
 #@#.facebook
 ||google.*/coop/cse/brand?$badfilter
-||vk.com/widget_like.php$3p,badfilter
+||vk.com/widget_like.php$third-party,badfilter
 ||goraps.com^$badfilter
 ||yllix.com^$badfilter
 /wp-content/*twitter.png$badfilter
@@ -725,7 +729,7 @@ egybest.*#@#+js(set, _AdBlock, noopFunc)
 /rss.png$badfilter
 yts.*#@#+js(acis, $, blocked)
 /wp-content/plugins/ultimate-social-media-plus/*$badfilter
-||assets.pinterest.com/js/pinit.js$3p,badfilter
+||assets.pinterest.com/js/pinit.js$third-party,badfilter
 monova.*#@#+js(abort-on-property-write, small_dl)
 monova.*#@#+js(abort-on-property-write, zoneNativeSett)
 /scrolltop.$badfilter
@@ -765,24 +769,24 @@ monova.*#@#+js(abort-on-property-read, adblock)
 #@#.g1-socials-section
 #@#.g-plus
 #@#.g-plusone
-|https://$3p,script,domain=mac-torrent-download.net,badfilter
+|https://$third-party,script,domain=mac-torrent-download.net,badfilter
 mac-torrent-download.net#@#+js(std, _0x)
 #@#.gig-share-bar-container
 #@#.gig-share-button-container
 #@#.glyphicon-arrow-up
-||adf.ly^$3p,script,domain=~j.gs|~q.gs,badfilter
+||adf.ly^$third-party,script,domain=~j.gs|~q.gs,badfilter
 #@#.go-top
 #@#.google-plus
 #@#.header-social
 #@#.icon-facebook
 #@#.icon-facebook-circle
-||usocial.pro^$3p,badfilter
+||usocial.pro^$third-party,badfilter
 uiz.io#@#+js(bab-defuser)
 uiz.io#@#+js(aopr, HTMLElement)
 uiz.io#@#+js(aopr, NaConf)
 uiz.io#@#+js(aopr, adsBlocked)
 uiz.io#@#+js(acis, $, adBlock)
-*/*$script,domain=uiz.io,3p,redirect-rule=noopjs,badfilter
+*/*$script,domain=uiz.io,third-party,redirect-rule=noopjs,badfilter
 #@#.icon-google-plus-circle
 #@#.icon-share
 #@#.icon-telegram
@@ -858,11 +862,11 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 ||rapidvideo.com^$script,badfilter
 ||rjno1.com^$csp=script-src 'self' * 'unsafe-eval',badfilter
 ||rjno1.com^$csp=script-src 'self' *;style-src,badfilter
-||vk.com/share.php$3p,badfilter
+||vk.com/share.php$third-party,badfilter
 ||rule34hentai.net^$script,~third-party,badfilter
 /social-likes.$domain=~animalreader.ru|~animego.org|~bigcinemahd.net|~catalog.onliner.by|~cutur.ru|~films-2019.club|~inosmi.ru|~kinomore.xyz|~kinomovi.xyz|~kinoo2019.ru|~kinozubr.net|~loungefilm.club|~m24.ru|~megapolisonline.ru|~miuipro.info|~mobnovelty.ru|~netsofta.net|~postila.ru|~sport28.net|~topfile.tj|~vipkinoman.net|~westernfilm.ru|~wfilm.club,badfilter
 ||linkbucks.com^$badfilter
-||odnoklassniki.ru/dk?st.cmd=extlike$3p,badfilter
+||odnoklassniki.ru/dk?st.cmd=extlike$third-party,badfilter
 ||www.linkbucks.com^$badfilter
 dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*#@#+js(aopr, open)
 temp-mail.org#@#+js(set-constant, checkadBlock, noopFunc)
@@ -903,7 +907,7 @@ ovagames.com#@#+js(abort-on-property-write, document.oncontextmenu)
 #@#.icons-pinterest
 #@#.icons-rss-feed
 ||r.mail.ru^$badfilter
-||simplesharebuttons.com^$3p,badfilter
+||simplesharebuttons.com^$third-party,badfilter
 /tumblr.png$badfilter
 /stumbleupon.png|$domain=~stumbleupon.com,badfilter
 /reddit.png$badfilter
@@ -937,7 +941,7 @@ onlystream.tv#@#+js(aopr, BetterJsPop)
 ||short.pe^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.google-analytics.com *.google.com *.recaptcha.net *.solvemedia.com *.scorecardresearch.com *.googletagmanager.com *.googletagservices.com; child-src 'self' *.recaptcha.net *.solvemedia.com *.gstatic.com *.google.com,badfilter
 short.pe#@#+js(abort-current-inline-script, RegExp, POSTBACK_PIXEL)
 short.pe,hqq.*,swatchseries.to,streamp1ay.*#@#+js(aopr, console.clear)
-||pinterest.com/v1/urls/count.json$3p,badfilter
+||pinterest.com/v1/urls/count.json$third-party,badfilter
 #@#.js-sharing-popup-facebook
 #@#.js-sharing-popup-linkedin
 ||realtime.services.disqus.com^$badfilter
@@ -948,9 +952,9 @@ streamp1ay.*#@#+js(aopr, puOverlay)
 ||imgadult.com^$badfilter
 /wp-content/plugins/social-warfare/*$badfilter
 ||streamp1ay.me^$csp=worker-src 'none';,badfilter
-||addthis.com^$3p,domain=~civilization.com|~imgur.com|~uploadship.com,badfilter
+||addthis.com^$third-party,domain=~civilization.com|~imgur.com|~uploadship.com,badfilter
 ||addthis.com/live/$badfilter
-||addthis.com/live/$3p,script,badfilter
+||addthis.com/live/$third-party,script,badfilter
 ||addthisedge.com/live/$badfilter
 ||addthisedge.com/live/boost/*/_ate.track$badfilter
 icutlink.com#@#+js(aopr, eval)
@@ -971,7 +975,7 @@ fas.li#@#+js(abort-on-property-read, blockAdBlock)
 #@#.navbar-social
 #@#.newsletter_form
 /plugins/social-$script,badfilter
-||lastpass.com^*/analyticsjs$1p,script,badfilter
+||lastpass.com^*/analyticsjs$~third-party,script,badfilter
 /analyticsjs.$badfilter
 #@#.pin_share
 #@#.pluso
@@ -979,7 +983,7 @@ fas.li#@#+js(abort-on-property-read, blockAdBlock)
 #@#.post-share-box
 #@#.rdsocial
 #@#.result-item-share
-||platform.twitter.com/widgets/tweet_button$3p,badfilter
+||platform.twitter.com/widgets/tweet_button$third-party,badfilter
 /share.png$badfilter
 /wp-content/*youtube.png$badfilter
 -pinterest.$badfilter
@@ -1038,11 +1042,11 @@ swatchseries.to#@#+js(abort-current-inline-script, atob, TextDecoder)
 #@#.social-buttons-compact
 lin-ks.net#@#+js(set-constant, canRunAds, true)
 /addthis_widget.$badfilter
-||addthis.com^$3p,badfilter
+||addthis.com^$third-party,badfilter
 ||m.addthis.com^$badfilter
 ||disqus.com/api/*/listrelated.json?$badfilter
 ||s7.addthis.com^$badfilter
-||syndication.twimg.com/widgets/$3p,badfilter
+||syndication.twimg.com/widgets/$third-party,badfilter
 #@#.social-icon
 #@#.social-icons
 #@#.social-item
@@ -1068,7 +1072,7 @@ bmovies.*#@#+js(abort-on-property-read, zfgloadedpopup)
 #@#.social_buttons
 #@#.social_m
 #@#.socialicon
-||vk.com/images/$3p,badfilter
+||vk.com/images/$third-party,badfilter
 #@#.socialicontd
 #@#.socials
 #@#.socials-link
@@ -1091,7 +1095,7 @@ bmovies.*#@#+js(abort-on-property-read, zfgloadedpopup)
 #@#.td_block_social_counter
 @@/images/social/*$domain=anitokyo.tv|ren-tv.com|zaycev.net,badfilter
 /images/rss_$badfilter
-||vk.com/widget_community.php$3p,badfilter
+||vk.com/widget_community.php$third-party,badfilter
 /social_icons.$badfilter
 #@#.td_social_type
 #@#.teaser_social_block_trigger
@@ -1183,12 +1187,12 @@ fembed.com#@#+js(setInterval-defuser, (), 500)
 #@#a[href^="http://www.linkedin.com/shareArticle"]
 #@#a[href^="http://www.linkedin.com/shareArticle?"]
 #@#a[href^="http://www.reddit.com/submit"]
-||mixdrop.co^$3p,badfilter
+||mixdrop.co^$third-party,badfilter
 ||share.pluso.ru^$badfilter
-||share.pluso.ru^$3p,badfilter
+||share.pluso.ru^$third-party,badfilter
 ||sockjs.pusher.com^$badfilter
-||pusherapp.com^$3p,badfilter
-||pusher.com^$3p,domain=~onefm.ro,badfilter
+||pusherapp.com^$third-party,badfilter
+||pusher.com^$third-party,domain=~onefm.ro,badfilter
 /pluso-like.js$badfilter
 #@#a[href^="http://www.twitter.com/share"]
 #@#a[href^="http://www.twitter.com/share?"]
