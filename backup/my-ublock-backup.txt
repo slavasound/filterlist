@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1575882879064,
+  "timeStamp": 1576571642137,
   "version": "1.24.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -36,6 +36,8 @@
     "https://filters.adtidy.org/extension/chromium/filters/2.txt",
     "https://filters.adtidy.org/extension/chromium/filters/1.txt",
     "https://filters.adtidy.org/extension/chromium/filters/3.txt",
+    "https://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt",
+    "https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt",
     "https://gitlab.com/CHEF-KOCH/cks-filterlist/raw/master/filters/ads-tracker.txt",
     "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
     "https://www.i-dont-care-about-cookies.eu/abp/",
@@ -43,9 +45,7 @@
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
     "https://easylist-downloads.adblockplus.org/cntblock.txt",
     "https://raw.githubusercontent.com/smed79/blacklist/master/abp.txt",
-    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-    "https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt",
-    "https://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt"
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -74,7 +74,7 @@
     "strictBlockingBypassDuration": 120,
     "suspendTabsUntilReady": "unset",
     "updateAssetBypassBrowserCache": false,
-    "userResourcesLocation": "https://raw.githubusercontent.com/bogachenko/presstheattack/personal/scriptlets.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt "
+    "userResourcesLocation": "https://raw.githubusercontent.com/bogachenko/filterlist/personal/scriptlets.txt https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resources.txt "
   },
   "whitelist": [
     "about-scheme",
