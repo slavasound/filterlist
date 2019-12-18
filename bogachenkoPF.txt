@@ -182,7 +182,7 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.
 8fornod.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 hotlink.cc##+js(nano-setInterval-booster.js)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to##+js(mousedef2.js)
 peserialehd.us,europixhd.*##+js(mousedef.js)
 yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 infourok.ru##+js(addEventListener-defuser.js, focus)
@@ -680,6 +680,7 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 #@#.fa-facebook-square
 #@#.fa-linkedin-square
 #@#.fa-pinterest-p
+kisscartoon.*#@#+js(addEventListener-defuser, mousedown, clientX)
 ||facebook.com/plugins/$domain=~facebook.com|~freepresets.com,badfilter
 ||youtube.com/subscribe_embed?$third-party,badfilter
 #@#.fa-rss
@@ -687,6 +688,15 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 ||ad.mail.ru/adq/$important,script,redirect=noopjs,badfilter
 ||ad.mail.ru/vast/$xmlhttprequest,redirect=nooptext,badfilter
 ||img1.imgsmail.ru^$badfilter
+/pinterest.svg$badfilter
+/img/twitter.$badfilter
+/img/facebook.$badfilter
+/plugins/*twitter.png$badfilter
+/wp-content/*/google.png$badfilter
+/plugins/*facebook.png$badfilter
+/plugins/*google.png$badfilter
+/icons/google$badfilter
+watchcartoonsonline.*#@#+js(abort-current-inline-script, document.createElement, jsc.mgid.com)
 /analytics/web/*$badfilter
 ||typekit.net^$badfilter
 ||thumb-v1.xhcdn.com^$badfilter
@@ -868,7 +878,7 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 ||linkbucks.com^$badfilter
 ||odnoklassniki.ru/dk?st.cmd=extlike$third-party,badfilter
 ||www.linkbucks.com^$badfilter
-dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*#@#+js(aopr, open)
+dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh#@#+js(aopr, open)
 temp-mail.org#@#+js(set-constant, checkadBlock, noopFunc)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
@@ -959,13 +969,12 @@ streamp1ay.*#@#+js(aopr, puOverlay)
 ||addthisedge.com/live/boost/*/_ate.track$badfilter
 icutlink.com#@#+js(aopr, eval)
 icutlink.com#@#+js(ra, onclick)
-adshort.*#@#+js(aopw, Fingerprint2)
+adshort.*,likn.xyz,oko.sh#@#+js(aopw, Fingerprint2)
 adshort.*,ventax.net,shorten.*,movienear.me,shrtfly.*#@#+js(aopr, app_vars.force_disable_adblock)
 icutlink.com#@#+js(abort-on-property-write, atob)
 #@#.js-sharing-popup-twitter
 #@#.js-triggerShare
 #@#.jw-settings-sharing
-likn.xyz#@#+js(aopw, Fingerprint2)
 likn.xyz#@#+js(aopr, blockAdBlock)
 likn.xyz#@#+js(abort-on-property-read, oncontextmenu)
 fas.li#@#+js(abort-on-property-read, blockAdBlock)
