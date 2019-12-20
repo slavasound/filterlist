@@ -34,6 +34,7 @@
 
 !#if env_firefox
 !#if env_mobile
+@@*$generichide
 *##+js(abort-current-inline-script.js, Math, zfgloaded)
 *##+js(abort-current-inline-script.js, Object.defineProperty, vocabulary)
 *##+js(abort-on-property-read.js, BetterJsPop)
@@ -354,6 +355,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 |http*:*/swb.js|$script,important
 |http*:*/video.counters.js$script,important
 |http*:*/gajs/analytics.js|$script,important
+|http*:*/detectmobilebrowser.js|$script,important
 |http*:*/rodo/rodo.js|$script,important
 ||hdeuropix.com^$script
 ||yastatic.net^*/widget_ya.js|$script,important
@@ -784,6 +786,7 @@ monova.*#@#+js(abort-on-property-read, adblock)
 mac-torrent-download.net#@#+js(std, _0x)
 #@#.gig-share-bar-container
 #@#.gig-share-button-container
+@@://yandex.ru/|$generichide,badfilter
 #@#.glyphicon-arrow-up
 ||adf.ly^$third-party,script,domain=~j.gs|~q.gs,badfilter
 #@#.go-top
@@ -794,6 +797,7 @@ mac-torrent-download.net#@#+js(std, _0x)
 ||usocial.pro^$third-party,badfilter
 uiz.io#@#+js(bab-defuser)
 uiz.io#@#+js(aopr, HTMLElement)
+@@||1movies.*/*.html$1p,csp,badfilter
 uiz.io#@#+js(aopr, NaConf)
 uiz.io#@#+js(aopr, adsBlocked)
 uiz.io#@#+js(acis, $, adBlock)
