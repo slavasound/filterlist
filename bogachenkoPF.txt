@@ -35,15 +35,7 @@
 !#if env_firefox
 !#if env_mobile
 @@*$generichide
-*##+js(abort-current-inline-script.js, Math, zfgloaded)
-*##+js(abort-current-inline-script.js, Object.defineProperty, vocabulary)
-*##+js(abort-on-property-read.js, BetterJsPop)
-*##+js(abort-on-property-read.js, miner)
-*##+js(abort-on-property-write.js, CoinNebula)
-*##+js(abort-on-property-write.js, Fingerprint2)
-*##+js(abort-on-property-write.js, _pop)
 *##+js(js-rm.js, OneSignal)
-*##+js(nofab.js)
 *##+js(js-rm.js, GoogleAnalyticsObject)
 *##+js(js-rm.js, window._taboola)
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
@@ -363,7 +355,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 ||st.kp.yandex.net/images/bnnr/brand/$image
 ||torrentfilm.me/img/bg.jpg$image
 ||kinomore.xyz/templates/*/img/logoface.png$image
@@ -797,6 +789,7 @@ mac-torrent-download.net#@#+js(std, _0x)
 ||usocial.pro^$third-party,badfilter
 uiz.io#@#+js(bab-defuser)
 uiz.io#@#+js(aopr, HTMLElement)
+@@||twimg.com/tweets.json?*callback$script,badfilter
 @@||1movies.*/*.html$1p,csp,badfilter
 uiz.io#@#+js(aopr, NaConf)
 uiz.io#@#+js(aopr, adsBlocked)
