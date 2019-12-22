@@ -25,7 +25,6 @@
 ||unity3d.com^
 ||amazon-adsystem.com^$empty,important
 ||googletagservices.com^$empty,important
-||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;,badfilter
 ||dropboxusercontent.com^
 ||pmir.3g.qq.com^$app=com.kingroot.kinguser
 ||www.dropbox.com^
@@ -246,6 +245,7 @@ money.yandex.ru,money.yandex.ua,money.yandex.by##.clearfix.footer_type_external.
 my.mail.ru##.b-music__main__banner, .rb-counter
 pornhub.*##.premiumPromoBanner, .tooltipPromo
 forums.opera.com###download-opera
+goblins-online.ru##.customb-top-center-desc
 hdtube.porn##.description__channel
 ok.ru##.gift-slider, #MusicGrowl
 mail.ru##.o-media__img.news-item__img-wrapper
@@ -291,8 +291,6 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 ||temp-mail.org^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jquery.com local.adguard.org;
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.org; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org *.github.com *.twitter.com *.arkoselabs.com;
-||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com local.adguard.org; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;
-||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 ||pornhub.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.phncdn.com *.pornhub.com *.nsimg.net *.google.com *.googleapis.com *.gstatic.com *.recaptcha.net;
@@ -309,7 +307,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 */plugins/google-analytics-for-wordpress/*$important
 */plugins/google-analytics-dashboard-for-wp/*$important
 */plugins/google-analyticator/*$important
-/^https?:\/\/[^\s]+\/([a-zA-Z]{1,7})?stat(s|istics?)?([0-9]{1,3})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]/$important,domain=~webmoney.ru
+/^https?:\/\/[^\s]+\/([a-zA-Z]{1,7})?stat(s|istics?)?([0-9]{1,3})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]/$important,domain=~webmoney.ru|~my.mail.ru
 ||yastatic.net/tableau/tableau.html$subdocument
 */revenuehits.html|$subdocument
 */sapphirum250.html|$subdocument
