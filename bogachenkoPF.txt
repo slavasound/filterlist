@@ -376,6 +376,10 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org *.github.com *.twitter.com *.arkoselabs.com;
 ||vk.com^$csp=script-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' vk.com *.vk.com *.gstatic.com *.youtube.com *.ytimg.com *.google.com local.adguard.org; img-src 'self' data: *.userapi.com *.ytimg.com; connect-src 'self' data: blob: *.vkuservideo.net *.vk.com vk.com *.vkuseraudio.net *.vk-cdn.net;
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org;
+/^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
+/^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
+||pornhub.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.phncdn.com *.pornhub.com *.nsimg.net *.google.com *.googleapis.com *.gstatic.com *.recaptcha.net;
+||vivo.sx^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
 */rsya-tag-users/*$important
 */yandex-metrica-watch/*$important
 */analytics/web/*$domain=~analytics.google.com
@@ -818,6 +822,9 @@ hqq.*,waaw.tv#@#+js(aopr, adBlockDetected)
 /images/reddit-$badfilter
 egybest.*#@#+js(window.open-defuser, , click)
 egybest.*#@#+js(std, WinMsgHtml)
+vidcloud.co#@#+js(set-constant, pop_cnt, 1)
+vidcloud.*#@#+js(acis, Math, zfgloaded)
+vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 ||hotlink.cc^$badfilter
 /wp-content/*facebook.png$badfilter
