@@ -211,84 +211,85 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##.cookies-reminder
 *##.ezoic-ad
 *##.idmuvi-floatbanner
-*##[href*="//5.153.13.193/"]
+*##[href*="//5.153.13.193"]
 *##[href*="//64.91.252.215"]
 *##[href*="//72.52.214.50"]
-*##[href*="//81.19.186.167/"]
+*##[href*="//81.19.186.167"]
 *##[href*="//www.aseanjoker.net"]
-*##[href^="http://bebasjudi.com"]
-*##[href^="https://indoxbet.com"]
 *##[href*="//www.bola100.net"]
-*##[href="http://earnoffice.com/go-edudeg-com/"]
-*##[href^="http://onvictinitor.com/afu.php"]
-*##[href^="https://trueimg.xyz/click.php"]
-*##[src*="://ad.doubleclick.net/"]
-*##a[href*="//bit.ly/"]
+*##[href="://earnoffice.com/go-edudeg-com"]
+*##[href^="://bebasjudi.com"]
+*##[href^="://indoxbet.com"]
+*##[href^="://onvictinitor.com/afu.php"]
+*##[href^="://trueimg.xyz/click.php"]
+*##[src*="://ad."]
+*##a[href*="//ampaleare.site"]
+*##a[href*="//bit.ly"]
+*##a[href*="//bitly.com"]
+*##a[href*="//click2go.me"]
+*##a[href*="//dwatngkas.xyz"]
+*##a[href*="//dwatngks.icu"]
+*##a[href*="//goo.gl"]
+*##a[href*="//nagaikn.club"]
+*##a[href*="//rebrand.ly"]
+*##a[href*="//unibetasia.org"]
+*##a[href*="//vk.me"]
 *##a[href*="//www.telatbangun.com"]
 *##a[href*="//www.untungvip.com"]
-*##a[href*="//bitly.com/"]
-*##a[href*="//dwatngks.icu/"]
-*##a[href*="//ampaleare.site/"]
+*##a[href*="/pasang-iklan"]
+*##a[href*="://ad."]
 *##a[href*="://ads."]
-*##a[href*="//rebrand.ly/"]
+*##a[href*="://look.djfiln.com/offer"]
+*##a[href*="://parandaya.com"]
 *##a[href*="://www.kuncidisini.com"]
 *##a[href*="://www.wasiteuro.com"]
-*##a[href*="//goo.gl/"]
-*##a[href*="//nagaikn.club/"]
-*##a[href*="//vk.me/"]
-*##a[href*="/pasang-iklan/"]
+*##a[href*="www.ibet96ace.com"]
 *##a[href*="yabrowser"]
-*##a[href^="//click2go.me/"]
-*##a[href^="//dwatngkas.xyz/"]
-*##a[href^="//unibetasia.org/"]
-*##a[href^="https://look.djfiln.com/offer"]
-*##a[href^="https://parandaya.com/"]
-*##a[href^="www.ibet96ace.com/"]
 *##cookies-policy-confirm
-eio.io##.r-bg
 2ch.*##.logo
-gomovies.bid##[href="/user/profile/premium-membership"], .ico.close
-money.yandex.ru,money.yandex.ua,money.yandex.by##.clearfix.footer_type_external.footer, .offerwall-banner
-my.mail.ru##.b-music__main__banner, .rb-counter
-pornhub.*##.premiumPromoBanner, .tooltipPromo
-forums.opera.com###download-opera
-goblins-online.ru##.customb-top-center-desc
-hdtube.porn##.description__channel
-ok.ru##.gift-slider, #MusicGrowl
-mail.ru##.o-media__img.news-item__img-wrapper
-tolko-russkoe.com###notice-holder
-rezka.ag##.clearfix.b-post__status_wrapper
-kino-v-4k.com###movie > div:nth-of-type(3)
-public.upera.co##[href*="//upera.shop/"]
-lisotvet.ru###tBird
-xhamster2.*,xhamster.*##.no-popunder.wig-sponsor-banner, .promo-message, .wig-sponsor-link
-megatube.xxx##[href^='https\:\/\/www\.megatube\.xxx\/go\/']
-webmoney.ru##.left_sidebar-ad_banner
-ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
-torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
-lastpass.com##.lp-popup.lp-pg-popup
-torrentfilm.me##[src="/img/mgt.png"], [src="/img/ubr.png"]
 8fornod.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
+eio.io##.r-bg
 english-films.com###mainSlider-controls, #mainSlider, .mainNav, .superBanner, .helperBlock, .footer, .section.linksBlock, div.redBlock.block, div.saladBlock, div.orangeBlock, .sidebar > .block-content, .relatedNews, .comercical > .text-center, .wrap_login, #tabs_pay, .wrp_baner, .active.tabs-content > p, .enterSocial
-megatube.xxx##:xpath(/html/body[@class='no-touch']//div[@class='header-panel-1'])
 english-films.com##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Покупка абонемента'])
 english-films.com##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Трейлер'])
 english-films.com##div.blueBlock.block:has-text(Наши телеграм каналы)
 filmitorrentom.*##[src="/img/lkj.png"], [src="/img/dfr.png"], #top-link-block
+forums.opera.com###download-opera
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container
 gamepedia.com###policy-notice-root
+goblins-online.ru##.customb-top-center-desc
+gomovies.bid##[href="/user/profile/premium-membership"], .ico.close
 gtorrent.ru##[href="//up.gtorrent.ru/ya_1/"]
+hdtube.porn##.description__channel
 infourok.ru###aa-popup
+kino-v-4k.com###movie > div:nth-of-type(3)
 kinogo-2019.club##[src="/uploads/pley2.jpg"], [src="/uploads/cverhu.jpg"], .clearfix.site-desc
+lastpass.com##.lp-popup.lp-pg-popup
+lisotvet.ru###tBird
+mail.ru##.o-media__img.news-item__img-wrapper
+megatube.xxx##:xpath(/html/body[@class='no-touch']//div[@class='header-panel-1'])
+megatube.xxx##[href^='https\:\/\/www\.megatube\.xxx\/go\/']
 metrika.yandex.ru##div.notification-wrapper_js_inited.i-bem.notification-wrapper
+money.yandex.ru,money.yandex.ua,money.yandex.by##.clearfix.footer_type_external.footer, .offerwall-banner
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by#?#span:contains(Отключить рекламу)
+my.mail.ru##.b-music__main__banner, .rb-counter
+ok.ru##.gift-slider, #MusicGrowl
+pornhub.*##.premiumPromoBanner, .tooltipPromo
+public.upera.co##[href*="//upera.shop/"]
+rezka.ag##.clearfix.b-post__status_wrapper
+ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
+tolko-russkoe.com###notice-holder
+torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
+torrentfilm.me##[src="/img/mgt.png"], [src="/img/ubr.png"]
 twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay, .pl-notif, .player-alert, .recommended-channels, .tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1, .tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b, .tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header, .tw-relative.prime-offers, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0, .tw-z-default.pinned-cheer-v2, .tw-interactive[href^="https://twitch.amazon.com/"], a[href*="megafon.ru"], a[href*="mercedes-benz.com"], a[href*="mybestcontent.ru"], a[href*="mydota2.net"], a[href*="noblechairs.com"], a[href*="poker"], a[href*="starladder.com"], a[href*="streamfest.ru"], a[href*="suveniry"], a[href*="upskill.ru"], a[href*="vk.cc"]>img, a[href*="&BannerId="], a[href*="&bonus="], a[href*=".click"], a[href*=".com/ad/"], a[href*=".gg"], a[href*=".net/ad/"], a[href*=".org/ad/"], a[href*=".ru/ad/"], a[href*="/?r="], a[href*="/buy/"], a[href*="/go/"], a[href*="/joinchat/"], a[href*="/promo/"], a[href*="/shop/"], a[href*="?AffiliateUserId="], a[href*="?br="], a[href*="?btag="], a[href*="atributika"], a[href*="bet4.pm"], a[href*="betsdota2.c"], a[href*="bit.ly"], a[href*="boostmmr.ru"], a[href*="campaign"], a[href*="casino"], a[href*="clck.ru"], a[href*="col.vg"], a[href*="cutter.li"], a[href*="cyberbetpromo.net"], a[href*="domruchamp.ru"], a[href*="dota2camp.ru"], a[href*="dota.money"], a[href*="dotapl.us"], a[href*="dxracer-europe.com"], a[href*="fragstore.ru"], a[href*="g2a.com"], a[href*="gamefuel.com"], a[href*="garnitura"], a[href*="gearboost.eu"], a[href*="gg.bet"], a[href*="goo.gl"], a[href*="goodgame.pm"], a[href*="gosu.ai"], a[href*="intel.com"], a[href*="invasion.ru"], button.pl-button--icon.pl-button--follow.pl-button, a[href*="is.gd"], a[href*="rusfond.ru"], .pl-single-rec-wrapper.recommendations-overlay.player-overlay, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative, a[href*="myway2win.com"]>img, a[href*="webto.ru"]>img, a[href*="hero.logitech.promo"]>img, .tw-z-above.tw-pd-t-05.tw-absolute.subtember-callout, a[href*="cybertraff.info/"], .tw-z-default.channel-leaderboard, .tw-full-width > .tw-mg-b-2, .tw-transition__fade--enter-done.tw-transition__fade.tw-transition--enter-done.tw-transition--duration-long.tw-transition, .tw-z-default.channel-leaderboard, .tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar, .tw-z-default.tw-full-width.tw-absolute.chat-room__notifications, .tw-lg-flex.tw-hide > .tw-relative, .tw-pd-x-05.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.muted-segments-alert, .tw-top-0.tw-right-0.tw-pd-2.tw-bottom-0.tw-absolute.player-overlay-background-sidebar.player-overlay-background--darkness-3.player-overlay-background, a[href*="vsemaykishop.ru"], a[href*="tiny.cc"], .tw-relative.tw-inline > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button.tw-button-icon--secondary.tw-button-icon.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, a[href*="opseat.com"], a[href*="//vk.com/altasutashop"]>img, a[href*="http://drpositive.ru/"]>img, .toast-manager__container, .float-animation__children-wrapper, a[href*="//pm6.site"], .tw-z-above.tw-pd-t-05.tw-absolute.megacommerce-callout, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--secondary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-mg-t-05.tw-justify-content-between.tw-flex-wrap.tw-flex.tw-align-items-start, .tw-pd-x-1.tw-justify-content-between.tw-flex-nowrap.tw-flex.theatre-social-panel, .live-notifications__btn, a[href*="//torobrand.com/"]>img
+vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils
+webmoney.ru##.left_sidebar-ad_banner
+xhamster2.*,xhamster.*##.no-popunder.wig-sponsor-banner, .promo-message, .wig-sponsor-link
 yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem, .dist-popup__content.popup__content, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_weather_yes.desk-notif-card, .container__line.container__banner.container, div > a[href*="//plus.yandex."], [class*="desk-notif-card"] > a[href*="/plus.yandex"], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_dark-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, [class*="desk-notif-card"] > a[href*="/plus.yandex"], .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.nqpJ9Xng.user2__tooltip.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .popup2_visible_yes.popup2_direction_bottom-center.popup2_js_inited.i-bem.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_yes.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.i-bem.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .widgets__col_td_2, .widget_id_teaser, .media-promo, .popup2_visible_yes.popup2_direction_bottom-right.serp-user_js_inited.promo-popup_js_inited._popup2-destructor_js_inited._popup2-destructor.popup2_js_inited.i-bem.serp-user__promo-popup.serp-user.promo-popup_social_yes.promo-popup_type_promo.promo-popup_shadow_yes.promo-popup_theme_ffffff.promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_theme_clear.popup2_target_anchor.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_grey.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .notifier__box, .notifier_js_inited.notifier_has-unread_yes.i-bem.serp-header__notifier.notifier_fade_yes.notifier_size_m.notifier_no-login_yes.notifier_header.notifier, .header-favorites-button_js_inited.i-bem.header-favorites-button, .distr-popup__content.popup2__content, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.i-bem.carousel__yabro-tooltip.tooltip-api_theme_promo.tooltip-api.tooltip_autoclosable_yes.tooltip_align_left.tooltip_view_classic.tooltip_tone_dark.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .main__carousel_js_inited.serp_js_inited.i-bem.serp.main__carousel > .serp-item, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.tooltip_js_inited.i-bem.cover__yabro-tooltip.tooltip-api_onboarding.tooltip-api_theme_promo.tooltip-api.tooltip_align_left.tooltip_view_classic.tooltip_tone_default.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2, .sticky, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.sofOvnj8.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, div#masthead-ad, #alert-banner
 youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содержит прямую рекламу или продакт-плейсмент'])
-vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils
 *$csp=worker-src 'none',domain=freebitco.in
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
 /^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua http://yandex.com https://yandex.com https://yandex.by http://yandex.by api-maps.yandex.ru suggest-maps.yandex.ru https://cloud-api.yandex.net local.adguard.org *.youtube.com ok.ru; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net api-maps.yandex.ru static-maps.yandex.ru; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by *.yandex.net wss: ok.ru; object-src 'none';
