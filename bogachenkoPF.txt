@@ -223,6 +223,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##[href^="://onvictinitor.com/afu.php"]
 *##[href^="://trueimg.xyz/click.php"]
 *##[src*="://ad."]
+*##a[href*="/go.click?"]
 *##a[href*="//ampaleare.site"]
 *##a[href*="//bit.ly"]
 *##a[href*="//bitly.com"]
@@ -327,7 +328,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.gif$/$image,important,subdocument
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com
@@ -366,7 +366,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/gajs/analytics.js|$script,important
 |http*:*/rodo/rodo.js|$script,important
 |http*:*/google-analytics.$xmlhttprequest,script,important
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?.*(x|\-|\*|\.).*)\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,script,image,domain=~twitch.tv|~9anime.xyz
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?[A-Za-z0-9]+)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
@@ -669,7 +669,7 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 #@#.btn-facebook
 #@#.btn-social
 ||gamedl.ru^$badfilter
-||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~serialomaniak.pl,badfilter
+||addthis.com^$important,third-party,domain=~missingkids.com|~missingkids.org|~sainsburys.jobs|~sitecore.com|~amd.com|~serialomaniak.pl,badfilter
 #@#.btn-twitter
 #@#.c-global-header__social
 #@#.comment__share
@@ -681,6 +681,8 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 ||naiadsystems.com^$badfilter
 #@#.dashicons-rss
 #@#.dashicons-twitter
+upornia.com#@#+js(aopr, WarBringer.addZone)
+||dditscdn.com^$badfilter
 #@#.essb_item
 ||static.addtoany.com^$badfilter
 ||facebook.com/plugins/page.php?$third-party,badfilter
@@ -758,12 +760,14 @@ yts.*#@#+js(acis, $, blocked)
 /wp-content/plugins/ultimate-social-media-plus/*$badfilter
 ||assets.pinterest.com/js/pinit.js$third-party,badfilter
 monova.*#@#+js(abort-on-property-write, small_dl)
+/wp-content/*twitter.jpg$badfilter
 monova.*#@#+js(abort-on-property-write, zoneNativeSett)
 /scrolltop.$badfilter
 tube8.com#@#+js(abort-on-property-write, loadAdFromHeaderTab)
 tube8.com#@#+js(abort-on-property-write, IS_ADBLOCK)
 tube8.com#@#+js(abort-on-property-read, _goat)
 /fb1-right.$badfilter
+/addtoany.$badfilter
 monova.*#@#+js(abort-on-property-read, adblock)
 ||monova.to^$csp=script-src 'self' 'unsafe-inline',badfilter
 #@#.facebook-share
