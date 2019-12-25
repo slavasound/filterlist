@@ -212,6 +212,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##.cookies-reminder
 *##.ezoic-ad
 *##.idmuvi-floatbanner
+*###videoroll
 *##[href*="//5.153.13.193"]
 *##[href*="//64.91.252.215"]
 *##[href*="//72.52.214.50"]
@@ -677,6 +678,7 @@ web2.0calc.com#@#+js(abort-on-property-read, doads)
 #@#.d-share
 /share/twitter.$badfilter
 /share/facebook.$badfilter
+/skm/assets/share/*$badfilter
 /social-icons-$badfilter
 /social_media_$badfilter
 ||naiadsystems.com^$badfilter
