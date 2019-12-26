@@ -279,6 +279,7 @@ music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by#?#span:contains
 my.mail.ru##.b-music__main__banner, .rb-counter
 ok.ru##.gift-slider, #MusicGrowl
 pornhub.*##.premiumPromoBanner, .tooltipPromo
+torrentic-film.com##[src="/2lgb.png"]
 public.upera.co##[href*="//upera.shop/"]
 rezka.ag##.clearfix.b-post__status_wrapper
 ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
@@ -901,6 +902,12 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 ||kinozal-tv.appspot.com^$badfilter
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||newrutor.eu.org^$badfilter
+||yandex.st/share/$badfilter
+/social.png$badfilter
+||connect.ok.ru^$badfilter
+||connect.mail.ru^$3p,badfilter
+||connect.ok.ru^$3p,badfilter
+||mail.ru/share_count?$badfilter
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 ||rapidvideo.com^$script,badfilter
 ||rjno1.com^$csp=script-src 'self' * 'unsafe-eval',badfilter
