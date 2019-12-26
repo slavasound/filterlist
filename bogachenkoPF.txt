@@ -64,7 +64,7 @@
 @@-adserver/$media,domain=player.pl
 @@||clients2.google.com/service/update2/crx?
 
-# SITE
+! SITE
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /a\.[a-z0-9]{43}\.com$/
 ||0.0.0.0^$third-party
@@ -166,9 +166,9 @@
 ||utclient.utorrent.com^
 ||vungle.com^
 ||xray.mail.ru^
-# SITE END
+! SITE END
 
-# IMAGE
+! IMAGE
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
@@ -185,24 +185,24 @@
 ||english-films.com/uploads/001/Skyeng_English-Films.jpg$image
 ||kinogo-2019.club/templates/kinogo720/images/mstiteli.jpg$image
 ||panels-images.twitch.tv/panel-21802540-image-4565b1db-f071-48c2-af1e-3cc54bd2c5fa$image
-# IMAGE END
+! IMAGE END
 
-# POP-UPS
+! POP-UP
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
 ||yastatic.net^$popup,important
 ||click2go.me^$popup,important
 ||gemius.pl^$popup,important
-# POP-UPS END
+! POP-UP END
 
-# MEDIA
+! MEDIA
 */*.mp4|$media,app=game.maddex.jump
 */*.mp4|$media,domain=vb17103elmerwatson.pw
 /\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
 */melbet.mp4$media,redirect=noopmp4-1s,important
 ||kinogo.*/player/*.mp4$important,media,redirect=noopmp3-0.1s,domain=kinogo.by
-# MEDIA END
+! MEDIA END
 
-# SCRIPTLET
+! SCRIPTLET
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
@@ -215,9 +215,9 @@ infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
 abandonmail.com##+js(abort-on-property-read.js, indexedDB.open)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-# SCRIPTLET END
+! SCRIPTLET END
 
-# CSS
+! CSS
 *###bannerplayerfooter
 *###bannerplayerheader
 *###cookie-bar
@@ -318,17 +318,17 @@ webmoney.ru##.left_sidebar-ad_banner
 xhamster2.*,xhamster.*##.no-popunder.wig-sponsor-banner, .promo-message, .wig-sponsor-link
 yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem, .dist-popup__content.popup__content, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_weather_yes.desk-notif-card, .container__line.container__banner.container, div > a[href*="//plus.yandex."], [class*="desk-notif-card"] > a[href*="/plus.yandex"], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_dark-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, [class*="desk-notif-card"] > a[href*="/plus.yandex"], .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.nqpJ9Xng.user2__tooltip.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .popup2_visible_yes.popup2_direction_bottom-center.popup2_js_inited.i-bem.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_yes.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.i-bem.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .widgets__col_td_2, .widget_id_teaser, .media-promo, .popup2_visible_yes.popup2_direction_bottom-right.serp-user_js_inited.promo-popup_js_inited._popup2-destructor_js_inited._popup2-destructor.popup2_js_inited.i-bem.serp-user__promo-popup.serp-user.promo-popup_social_yes.promo-popup_type_promo.promo-popup_shadow_yes.promo-popup_theme_ffffff.promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_theme_clear.popup2_target_anchor.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_grey.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .notifier__box, .notifier_js_inited.notifier_has-unread_yes.i-bem.serp-header__notifier.notifier_fade_yes.notifier_size_m.notifier_no-login_yes.notifier_header.notifier, .header-favorites-button_js_inited.i-bem.header-favorites-button, .distr-popup__content.popup2__content, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.i-bem.carousel__yabro-tooltip.tooltip-api_theme_promo.tooltip-api.tooltip_autoclosable_yes.tooltip_align_left.tooltip_view_classic.tooltip_tone_dark.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .main__carousel_js_inited.serp_js_inited.i-bem.serp.main__carousel > .serp-item, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.tooltip_js_inited.i-bem.cover__yabro-tooltip.tooltip-api_onboarding.tooltip-api_theme_promo.tooltip-api.tooltip_align_left.tooltip_view_classic.tooltip_tone_default.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2, .sticky, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.sofOvnj8.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, div#masthead-ad, #alert-banner
-# CSS
+! CSS
 
-# XPATH
+! XPATH
 english-films.com##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Покупка абонемента'])
 english-films.com##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Трейлер'])
 megatube.xxx##:xpath(/html/body[@class='no-touch']//div[@class='header-panel-1'])
 youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содержит прямую рекламу или продакт-плейсмент'])
-# XPATH END
+! XPATH END
 
-# Content Security Policy (CSP)
+! Content Security Policy (CSP)
 *$csp=worker-src 'none',domain=freebitco.in
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
@@ -342,9 +342,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.org; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org *.github.com *.twitter.com *.arkoselabs.com;
 ||vivo.sx^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
-# Content Security Policy (CSP) END
+! Content Security Policy (CSP) END
 
-# OTHER
+! OTHER
 *$beacon,important
 */adoverlay/*$important
 */analytics/web/*$domain=~analytics.google.com
@@ -517,24 +517,24 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||monitor49.
 ||monitor50.
 ||monitor.
-# OTHER END
+! OTHER END
 
-# DOCUMENT
+! DOCUMENT
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */redirect.html$document
 ||msftconnecttest.com/redirect$document
 ||youtube.com/*dQw4w9WgXcQ$document
-# DOCUMENT END
+! DOCUMENT END
 
-# SUBDOCUMENT
+! SUBDOCUMENT
 */revenuehits.html|$subdocument
 */sapphirum250.html|$subdocument
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party,domain=~is123moviesto.com
 ||fas.li^$subdocument,domain=likn.xyz
 ||yastatic.net/tableau/tableau.html$subdocument
-# SUBDOCUMENT END
+! SUBDOCUMENT END
 
-# SCRIPT
+! SCRIPT
 /^https?:\/\/([^\s]+\.)?firebaseapp\.com\/adx\/[0-9]{8}\.js$/$script,important
 /^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
 /^https?:\/\/(www\.)?mail\.yandex\.(by|kz|ru|ua)\/[^\s]{160,}/$script,important
@@ -560,14 +560,14 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||bc.vc/js/app.v5.js$script,important
 ||hdeuropix.com^$script
 ||yastatic.net^*/widget_ya.js|$script,important
-# SCRIPT END
+! SCRIPT END
 
-# XMLHTTPREQUEST
+! XMLHTTPREQUEST
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
-# XMLHTTPREQUEST END
+! XMLHTTPREQUEST END
 
-# COMBINED
+! COMBINED
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
@@ -576,7 +576,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
-# COMBINED END
+! COMBINED END
 
 ! ~~~~~~~ Not my shitty rules ~~~~~~~
 
