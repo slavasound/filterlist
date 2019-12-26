@@ -179,6 +179,7 @@ kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.
 8fornod.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 hotlink.cc##+js(nano-setInterval-booster.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com##+js(mousedef2.js)
 peserialehd.us,europixhd.*##+js(mousedef.js)
 yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 infourok.ru##+js(addEventListener-defuser.js, focus)
@@ -364,7 +365,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/js/youmaylike/*$script,important
 |http*:*/promo-banner.js|$script,domain=pornhub.com,important
 |http*:*/swb.js|$script,important
-|http*:*/video.counters.js$script,important
 |http*:*/gajs/analytics.js|$script,important
 |http*:*/rodo/rodo.js|$script,important
 |http*:*/google-analytics.$xmlhttprequest,script,important
@@ -629,6 +629,7 @@ rustorka.com#@#.scroll.clickable
 #@##xb_ScrollUp
 #@#.Icon--twitter
 #@#.ListSocial
+||softonic.com^$badfilter
 #@#.Subscribe
 /images/social/*$badfilter
 /images/share-$badfilter
