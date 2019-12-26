@@ -815,7 +815,13 @@ mac-torrent-download.net#@#+js(std, _0x)
 ||adf.ly^$third-party,script,domain=~j.gs|~q.gs,badfilter
 #@#.go-top
 #@#.google-plus
+pornsocket.com#@#+js(set-constant, _site_ads_ns, true)
 #@#.header-social
+youporn.com#@#+js(abort-on-property-write, rAb)
+youporn.com#@#+js(abort-on-property-read, zone_2547)
+youporn.com#@#+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
+youporn.com#@#+js(abort-on-property-read, _goat)
+|http*://*?$3p,popup,domain=pornhub.com|pornsocket.com|redtube.com|spankwire.com|tube8.com|vidz78.com|xxxkingtube.com|youporn.com|youporngay.com,badfilter
 #@#.icon-facebook
 #@#.icon-facebook-circle
 ||usocial.pro^$third-party,badfilter
