@@ -58,11 +58,13 @@
 !#endif
 !#endif
 
+! WHITELIST
 @@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru|vk.com|webmoney.ru
 @@*/wp-content/plugins/remove-disqus-ads/*
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@-adserver/$media,domain=player.pl
 @@||clients2.google.com/service/update2/crx?
+! WHITELIST END
 
 ! SITE
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
@@ -82,6 +84,8 @@
 ||535447ed91a7b31514021d69bb3ee1b3.com^
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
 ||ad.mail.ru^
+||geo.kaspersky.com^
+||ksn-crypto-catm-geo.kaspersky-labs.com^
 ||adaware.com^$third-party
 ||adcolony.com^
 ||adfox.yandex.ru^
