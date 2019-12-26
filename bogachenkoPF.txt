@@ -47,10 +47,6 @@
 !#endif
 !#endif
 
-!#if env_firefox
-@@*$generichide
-!#endif
-
 !#if !ext_ublock
 !#if (adguard_ext_firefox && adguard_ext_opera && adguard_ext_chromium)
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important
@@ -58,6 +54,7 @@
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,important
+@@//www.kinopoisk.ru^$document
 !#endif
 !#endif
 
@@ -66,7 +63,6 @@
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@-adserver/$media,domain=player.pl
 @@||clients2.google.com/service/update2/crx?
-@@*$stealth,domain=1movies.la|24video.site|9anime.is|9anime.ru|9anime.to|9anime.tv|cablegratis.tv|embed.streamx.live|fmovies.to|hotmovs.com|hxload.co|pictogo.net|premiumtvchannels.com|prettyfast.to|redcdn.pl|solidfiles.com|stream365.live|sweetbc4.club|thegay.com|tvokazje.pl|txxx.com|upornia.com|xn--e1afprfv.org|yaeby.me|yourupload.com|moviescouch.club|moviescouch.in|embed.streamx.me|freebitco.in
 *$beacon,important
 /a\.[a-z0-9]{43}\.com$/
 ||2edd6c0fea91f88494d1cc37672db524.com^
@@ -369,8 +365,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/gajs/analytics.js|$script,important
 |http*:*/rodo/rodo.js|$script,important
 |http*:*/google-analytics.$xmlhttprequest,script,important
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?[A-Za-z0-9]+)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz
-/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-]?[A-Za-z0-9]+)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
+/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
@@ -633,6 +629,7 @@ rustorka.com#@#.scroll.clickable
 ||softonic.com^$badfilter
 #@#.Subscribe
 /images/social/*$badfilter
+||connect.facebook.net^$badfilter
 /images/share-$badfilter
 ||addtoany.com^$third-party,badfilter
 /footer_facebook.$badfilter
