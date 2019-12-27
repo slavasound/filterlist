@@ -63,7 +63,7 @@
 @@*/wp-content/plugins/remove-disqus-ads/*
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@-adserver/$media,domain=player.pl
-@@||clients2.google.com/service/update2/crx?
+@@||clients2.google.com/*/crx?$other
 ! WHITELIST END
 
 ! SITE
@@ -99,6 +99,8 @@
 ||appmetrica.yandex.net^
 ||apps.bittorrent.com^
 ||autoupdate.geo.opera.com^
+||proxy_auth.trigger.hola.org^
+||perr.hola.org^
 ||awaps.yandex.net^
 ||awsync.yandex.ru^
 ||ba2121292eda2ecd41203af62a59d608.com^
@@ -136,6 +138,7 @@
 ||imasdk.googleapis.com^
 ||inmobi.com^
 ||ipm-provider.ff.avast.com^
+||crm-cdn.zenguard.biz^
 ||jstracer.yandex.ru^
 ||license.piriform.com^
 ||live.thunderbird.net^
@@ -290,6 +293,7 @@ filmitorrentom.*##[src="/img/lkj.png"], [src="/img/dfr.png"], #top-link-block
 forums.opera.com###download-opera
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container
 gamepedia.com###policy-notice-root
+scrubstv.net##center > table > tbody > tr > td:nth-of-type(4)
 goblins-online.ru##.customb-top-center-desc
 gomovies.bid##[href="/user/profile/premium-membership"], .ico.close
 gtorrent.ru##[href="//up.gtorrent.ru/ya_1/"]
