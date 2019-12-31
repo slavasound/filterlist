@@ -284,7 +284,12 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##a[href*="bltks.club/sukamovieclub"]
 *##a[href*="fifacash88c.com"]
 *##a[href*="idwinner.club"]
-*##a[href*="idwinner.club"]
+*##a[href*="murnigoal.com"]
+*##a[href*="hitsbola.icu"]
+*##a[href*="bets78.com"]
+*##a[href*="baksomerdeka.com"]
+*##a[href*="merdekabola365.org"]
+*##a[href*="auredzeon.com"]
 *##a[href*="kdpoker.asia"]
 *##a[href*="koin4da.com"]
 *##a[href*="lucky77.world"]
@@ -1431,8 +1436,6 @@ yts.*#@#+js(acis, $, blocked)
 /img/social/*$image,badfilter
 /public/*twitter.png$badfilter
 /public/*facebook.png$badfilter
-/social/twitter.$image,badfilter
-/social/facebook.$image,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
 ||vk.com/widget_like.php$third-party,badfilter
 ||vkontakte.ru/share.php?$third-party,badfilter
