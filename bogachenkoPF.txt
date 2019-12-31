@@ -215,7 +215,7 @@
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
-hotlink.cc##+js(nano-setInterval-booster.js)
+hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co##+js(mousedef2.js)
 peserialehd.us,europixhd.*##+js(mousedef.js)
 yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
@@ -253,26 +253,8 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##a[href*="//64.91.252.215"]
 *##a[href*="//72.52.214.50"]
 *##a[href*="//81.19.186.167"]
-*##a[href*="//www.aseanjoker.net"]
-*##a[href^="http://fifacash88c.com/"]
-*##a[href^="https://maxbetqq.net/"]
-*##a[href^="http://qqgaming88e.com/"]
-*##a[href^="http://tgks.vip/sukamovieclub"]
-*##a[href^="http://bltks.club/sukamovieclub"]
-*##a[href^="http://www.panpoker88.info/"]
-*##a[href^="http://sbomoney11.com/"]
-*##a[href^="http://koin4da.com/"]
-*##a[href="http://www.markasvip.com/"]
-*##a[href^="http://103.10.200.62/"]
-*##a[href*="//www.bola100.net"]
-*##a[href="://earnoffice.com/go-edudeg-com"]
-*##a[href^="://bebasjudi.com"]
-*##a[href^="://indoxbet.com"]
-*##a[href^="://trueimg.xyz/click.php"]
-*##a[src*="://ad."]
 *##a[href*="//ampaleare.site"]
 *##a[href*="//bit.ly"]
-*##a[href^="http://tgks.vip/lebahkacacom"]
 *##a[href*="//bitly.com"]
 *##a[href*="//click2go.me"]
 *##a[href*="//dwatngkas.xyz"]
@@ -282,19 +264,45 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##a[href*="//rebrand.ly"]
 *##a[href*="//unibetasia.org"]
 *##a[href*="//vk.me"]
-*##a[href*="//www.telatbangun.com"]
-*##a[href*="//www.untungvip.com"]
 *##a[href*="/go.click?"]
 *##a[href*="/pasang-iklan"]
 *##a[href*="://ad."]
 *##a[href*="://ads."]
 *##a[href*="://look.djfiln.com/offer"]
-*##a[href*="://parandaya.com"]
-*##a[href*="://www.kuncidisini.com"]
-*##a[href^="http://tototix.net/"]
-*##a[href^="https://www.salamsbo.com/"]
-*##a[href*="://www.wasiteuro.com"]
-*##a[href*="www.ibet96ace.com"]
+*##a[href*="parandaya.com"]
+*##a[href*="kuncidisini.com"]
+*##a[href*="wasiteuro.com"]
+*##a[href*="aseanjoker.net"]
+*##a[href*="bola100.net"]
+*##a[href*="telatbangun.com"]
+*##a[href*="untungvip.com"]
+*##a[href*="ibet96ace.com"]
+*##a[href*="earnoffice.com/go-edudeg-com"]
+*##a[href*="http:markasvip.com"]
+*##a[href*="103.10.200.62"]
+*##a[href*="157.230.81.198"]
+*##a[href*="bltks.club/sukamovieclub"]
+*##a[href*="fifacash88c.com"]
+*##a[href*="idwinner.club"]
+*##a[href*="idwinner.club"]
+*##a[href*="kdpoker.asia"]
+*##a[href*="koin4da.com"]
+*##a[href*="lucky77.world"]
+*##a[href*="maxbetqq.net"]
+*##a[href*="multiqq.org"]
+*##a[href*="qqgaming88e.com"]
+*##a[href*="sbomoney11.com"]
+*##a[href*="tgks.vip/lebahkacacom"]
+*##a[href*="tgks.vip/sukamovieclub"]
+*##a[href*="totojek.world"]
+*##a[href*="tototix.net"]
+*##a[href*="uniplay99.com"]
+*##a[href*="bebasjudi.com"]
+*##a[href*="indoxbet.com"]
+*##a[href*="trueimg.xyz"]
+*##a[href*="panpoker88.info"]
+*##a[href*="salamsbo.com"]
+*##a[src*="://ad."]
 *##a[href*="yabrowser"]
 *##cookies-policy-confirm
 2ch.*##.logo
@@ -1180,6 +1188,9 @@ lewat.club#@#+js(acis, $, open)
 lewat.club#@#+js(aeld, click, trigger)
 likn.xyz#@#+js(abort-on-property-read, oncontextmenu)
 likn.xyz#@#+js(aopr, blockAdBlock)
+*$script,3p,domain=kino-fox.com,badfilter
+||vk.com/images/upload.gif$domain=~kirmuseum.org|~vk.com,badfilter
+/dk?st.cmd=widgetgroup&st.groupid=$badfilter
 lin-ks.net#@#+js(set-constant, canRunAds, true)
 links4earn.com#@#.banner
 mac-torrent-download.net#@#+js(std, _0x)
