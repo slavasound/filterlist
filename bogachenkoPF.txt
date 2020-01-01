@@ -73,6 +73,7 @@
 ||2edd6c0fea91f88494d1cc37672db524.com^
 ||3fdf2a5f924760915ca68b5ad01cfdae.com^
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
+||6d47c1118927cf53ba9654931df80e8d.com^
 ||8.253.207.117:443^
 ||34.199.118.167:443^
 ||59.151.128.36:443^
@@ -282,9 +283,12 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##a[href*="/go.click?"]
 *##a[href*="/pasang-iklan"]
 *##a[href*="://ad."]
+*##a[href*="kdaffiliates.com"]
+*##.cc_container--open.cc_container.cc_banner
 *##a[href*="://ads."]
 *##a[href*="ampaleare.site"]
 *##a[href*="aseanjoker.net"]
+*##a[href*="join-adf.ly"]
 *##a[href*="auredzeon.com"]
 *##a[href*="baksomerdeka.com"]
 *##a[href*="bebasjudi.com"]
