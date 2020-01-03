@@ -121,6 +121,7 @@
 ||clients5.google.com^
 ||contributor.google.com^
 ||criteo.com^
+||af.opera.com^
 ||exchange.opera.com^
 ||f4f0b34558fe45a583ca23ba60e7bd44.com^
 ||fa04089b99473e2ffd6dccb10cfd6d18.com^
@@ -598,6 +599,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! SUBDOCUMENT
 */revenuehits.html|$subdocument
 */sapphirum250.html|$subdocument
+||phncdn.com/iframe$subdocument
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party,domain=~is123moviesto.com
 ||fas.li^$subdocument,domain=likn.xyz
 ||yastatic.net/tableau/tableau.html$subdocument
@@ -645,6 +647,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
+/^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -974,6 +977,7 @@ wstream.*#@#+js(nostif, display)
 #@#a[href^="https://share.yandex.net/go.xml?service="]
 #@#a[href^="https://telegram.me/share/"]
 #@#a[href^="https://telegram.me/share/url?"]
+||pr-cy.ru^$badfilter
 #@#a[href^="https://twitter.com/intent/follow?"]
 #@#a[href^="https://twitter.com/intent/tweet?"]
 #@#a[href^="https://twitter.com/share"]
