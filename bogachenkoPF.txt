@@ -611,7 +611,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! SCRIPT
 /^https?:\/\/([^\s]+\.)?firebaseapp\.com\/adx\/[0-9]{8}\.js$/$script,important
-/^https?:\/\/[^\s]+\/([a-z]+[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?)?count(ers?)?([0-9]{1,3})?[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]/$important,script,domain=~github.com|~twtich.tv|~bbc.com
 /^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
 /^https?:\/\/(www\.)?mail\.yandex\.(by|kz|ru|ua)\/[^\s]{160,}/$script,important
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
@@ -654,6 +653,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
+/^https?:\/\/[^\s]+\/([a-z]+[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?)?count(ers?)?([0-9]{1,3})?[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]/$image,important,other,script,xmlhttprequest,domain=~github.com|~twtich.tv|~bbc.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
