@@ -349,11 +349,11 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##a[src*="://ads."]
 *##a[src="/images/sidebanner.jpg"]
 *##cookies-policy-confirm
+8fornod.net,trialeset.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
+8fornod.net,trialeset.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
+eio.io##.r-bg
 vivatube.com##.puFloatLine, .drt-sponsor-block
 2ch.*##.logo
-8fornod.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
-8fornod.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
-eio.io##.r-bg
 english-films.com###mainSlider-controls, #mainSlider, .mainNav, .superBanner, .helperBlock, .footer, .section.linksBlock, div.redBlock.block, div.saladBlock, div.orangeBlock, .sidebar > .block-content, .relatedNews, .comercical > .text-center, .wrap_login, #tabs_pay, .wrp_baner, .active.tabs-content > p, .enterSocial
 english-films.com##div.blueBlock.block:has-text(Наши телеграм каналы)
 filmitorrentom.*##[src="/img/lkj.png"], [src="/img/dfr.png"], #top-link-block
