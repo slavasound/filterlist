@@ -420,7 +420,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! OTHER
 *$beacon,important
 */adoverlay/*$important
-||google.*/ads/$important
 */analytics/web/*$domain=~analytics.google.com
 */cookieconsent2/*$important
 */cookieconsent/*$important
@@ -539,6 +538,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||beacon.
 ||ccleaner.com/auto?$other
 ||ccleaner.com/go/app_cc_pro_trialkey$other
+||google.*/ads/$important
 ||monitor0.
 ||monitor1.
 ||monitor2.
@@ -603,14 +603,15 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! SUBDOCUMENT
 */revenuehits.html|$subdocument
 */sapphirum250.html|$subdocument
-||phncdn.com/iframe$subdocument
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party,domain=~is123moviesto.com
 ||fas.li^$subdocument,domain=likn.xyz
+||phncdn.com/iframe$subdocument
 ||yastatic.net/tableau/tableau.html$subdocument
 ! SUBDOCUMENT END
 
 ! SCRIPT
 /^https?:\/\/([^\s]+\.)?firebaseapp\.com\/adx\/[0-9]{8}\.js$/$script,important
+/^https?:\/\/[^\s]+\/([a-z]+[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?)?count(ers?)?([0-9]{1,3})?[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]/$important,script,domain=~github.com|~twtich.tv|~bbc.com
 /^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
 /^https?:\/\/(www\.)?mail\.yandex\.(by|kz|ru|ua)\/[^\s]{160,}/$script,important
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
@@ -650,9 +651,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru
+/^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
-/^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -780,7 +781,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.icon-share
 #@#.icon-telegram
 #@#.icon-twitter
-wstream.*#@#+js(nostif, display)
 #@#.icon-twitter-circle
 #@#.icon-vk
 #@#.icon-youtube
@@ -901,8 +901,6 @@ wstream.*#@#+js(nostif, display)
 #@#.teaser_social_block_trigger
 #@#.top-social
 #@#.twitter
-/images/*instagram.png$badfilter
-/icon-twitter.$badfilter
 #@#.twitter-follow-button
 #@#.twitter-share-button
 #@#.twitter-timeline
@@ -910,9 +908,6 @@ wstream.*#@#+js(nostif, display)
 #@#.twitterIcon
 #@#.twitter_share
 #@#.twtr
-/social/facebook.$image,badfilter
-/social/twitter.$image,badfilter
-/tweets.js$badfilter
 #@#.video-share
 #@#.vjs-share-block
 #@#.vjs-share-button
@@ -982,7 +977,6 @@ wstream.*#@#+js(nostif, display)
 #@#a[href^="https://share.yandex.net/go.xml?service="]
 #@#a[href^="https://telegram.me/share/"]
 #@#a[href^="https://telegram.me/share/url?"]
-||pr-cy.ru^$badfilter
 #@#a[href^="https://twitter.com/intent/follow?"]
 #@#a[href^="https://twitter.com/intent/tweet?"]
 #@#a[href^="https://twitter.com/share"]
@@ -1018,9 +1012,6 @@ wstream.*#@#+js(nostif, display)
 #@#a[title="Google+"]
 #@#a[title="Instagram"]
 #@#a[title="LinkedIn"]
-/linkedin-$domain=~linkedin.com,badfilter
-/youtube.svg$badfilter
-/social-warfare/*$badfilter
 #@#a[title="More share options"]
 #@#a[title="Pinterest"]
 #@#a[title="RSS"]
@@ -1066,6 +1057,7 @@ wstream.*#@#+js(nostif, display)
 *$domain=kinozal-tv.appspot.com,badfilter
 *$first-party,subdocument,domain=mp4upload.com,badfilter
 *$popup,domain=dailyuploads.net,badfilter
+*$script,3p,domain=kino-fox.com,badfilter
 *$third-party,popup,stylesheet,domain=biqle.ru,badfilter
 *$third-party,script,domain=jetload.net|waaw.tv|hentai-share.tv|hentai-share.tv|gdriveplayer.us|hindipix.in,badfilter
 *$third-party,stylesheet,domain=rapidvideo.com|vidlox.me,badfilter
@@ -1089,6 +1081,7 @@ wstream.*#@#+js(nostif, display)
 /analytics/web/*$badfilter
 /analyticsjs.$badfilter
 /assets/*facebook.png$badfilter
+/dk?st.cmd=widgetgroup&st.groupid=$badfilter
 /facebook2.$badfilter
 /facebook.svg$badfilter
 /facebook_logo.$badfilter
@@ -1101,11 +1094,14 @@ wstream.*#@#+js(nostif, display)
 /icon-instagram.$badfilter
 /icon-pinterest-$badfilter
 /icon-twitter-$badfilter
+/icon-twitter.$badfilter
 /icon-youtube.$badfilter
 /icons/facebook$badfilter
 /icons/google$badfilter
+/icons/share.$badfilter
 /icons/twitter$badfilter
 /images/*facebook.png$domain=~facebook.com,badfilter
+/images/*instagram.png$badfilter
 /images/*linkedin.png$badfilter
 /images/*pinterest.png$domain=~pinterest.com,badfilter
 /images/*twitter-$badfilter
@@ -1125,10 +1121,13 @@ wstream.*#@#+js(nostif, display)
 /img/*youtube.png$domain=~github.io,badfilter
 /img/facebook.$badfilter
 /img/fb.$badfilter
+/img/instagram-$badfilter
+/img/social/*$image,badfilter
 /img/twitter.$badfilter
 /instagram-icon.$badfilter
 /instagram.svg$badfilter
 /likebox.$badfilter
+/linkedin-$domain=~linkedin.com,badfilter
 /linkedin.png$badfilter
 /pinterest-icon.$badfilter
 /pinterest.png$badfilter
@@ -1138,6 +1137,8 @@ wstream.*#@#+js(nostif, display)
 /plugins/*twitter.png$badfilter
 /plugins/social-$script,badfilter
 /pluso-like.js$badfilter
+/public/*facebook.png$badfilter
+/public/*twitter.png$badfilter
 /reddit.png$badfilter
 /rss.png$badfilter
 /scroll_top.$badfilter
@@ -1154,22 +1155,25 @@ wstream.*#@#+js(nostif, display)
 /sharedaddy/*$image,script,badfilter
 /sharethis.js$badfilter
 /skm/assets/share/*$badfilter
-/img/instagram-$badfilter
 /social-buttons-$script,badfilter
 /social-icons-$badfilter
 /social-likes.$domain=~animalreader.ru|~animego.org|~bigcinemahd.net|~catalog.onliner.by|~cutur.ru|~films-2019.club|~inosmi.ru|~kinomore.xyz|~kinomovi.xyz|~kinoo2019.ru|~kinozubr.net|~loungefilm.club|~m24.ru|~megapolisonline.ru|~miuipro.info|~mobnovelty.ru|~netsofta.net|~postila.ru|~sport28.net|~topfile.tj|~vipkinoman.net|~westernfilm.ru|~wfilm.club,badfilter
 /social-likes.min.js$domain=~animego.org|~zastenchivosti.net|~gorod-812.ru|~sputnik.by|~sputnik-news.ee|~animalreader.ru|~ichip.ru|~keddr.com|~kino-max.com|~kino24x7.com|~make-3d.ru|~miuipro.ru|~omelchuck.ru|~podfm.ru|~serial-online.com|~sputniknews.com|~trinixy.ru|~kinogo-kinopoisk.net|~bobfilm-online.ru|~westernfilm.ru|~bobfilm.tv|~kinokrik.net|~kinogo720.net|~kinogo-net-co.ru|~kinoklad.net|~intex-press.by|~kino-max.org|~farming-simulator15.ru|~trikky.ru|~trv-science.ru|~unzensuriert.at|~lizaalert.beeline.ru|~megapolisonline.ru,badfilter
 /social-logos.$badfilter
 /social-logos/*$badfilter
+/social-warfare/*$badfilter
 /social.png$badfilter
+/social/facebook.$image,badfilter
 /social/instagram-$badfilter
 /social/pinterest-$badfilter
+/social/twitter.$image,badfilter
 /social_icons.$badfilter
 /social_media_$badfilter
 /stumbleupon.png|$domain=~stumbleupon.com,badfilter
 /telegram-icon.$badfilter
 /tumblr.png$badfilter
 /tweet_button.$badfilter
+/tweets.js$badfilter
 /twiticon.$badfilter
 /twitter3.$badfilter
 /twitter.jpg$badfilter
@@ -1183,6 +1187,7 @@ wstream.*#@#+js(nostif, display)
 /wp-content/plugins/sassy-social-share/*$badfilter
 /wp-content/plugins/social-warfare/*$badfilter
 /wp-content/plugins/ultimate-social-media-plus/*$badfilter
+/youtube.svg$badfilter
 123link.*#@#+js(abort-current-inline-script, $, test-block)
 123link.*#@#+js(abort-on-property-read, jQuery.adblock)
 123link.*#@#+js(acis, $, adi)
@@ -1192,6 +1197,7 @@ wstream.*#@#+js(nostif, display)
 @@://yandex.ru/|$generichide,badfilter
 @@||1movies.*/*.html$~third-party,csp,badfilter
 @@||1337x.to/torrent/$first-party,csp,badfilter
+@@||addons.opera.com/ru/extensions/details/$document,badfilter
 @@||google.com/recaptcha/$csp,badfilter
 @@||google.com^*recaptcha/$subdocument,badfilter
 @@||gstatic.com/recaptcha/$script,stylesheet,badfilter
@@ -1229,20 +1235,16 @@ hqq.*#@#+js(set-constant, sadbl, false)
 hqq.*,waaw.tv#@#+js(aopr, adBlockDetected)
 hqq.tv#@#+js(setTimeout-defuser, check, 100)
 icutlink.com#@#+js(abort-on-property-write, atob)
-icutlink.com,files.cx#@#+js(aopr, absda)
 icutlink.com#@#+js(aopr, confirm)
 icutlink.com#@#+js(aopr, eval)
 icutlink.com#@#+js(ra, onclick)
+icutlink.com,files.cx#@#+js(aopr, absda)
 kimcartoon.to#@#+js(setTimeout-defuser, adbWarnContainer)
 kisscartoon.*#@#+js(addEventListener-defuser, mousedown, clientX)
 lewat.club#@#+js(acis, $, open)
-@@||addons.opera.com/ru/extensions/details/$document,badfilter
 lewat.club#@#+js(aeld, click, trigger)
 likn.xyz#@#+js(abort-on-property-read, oncontextmenu)
 likn.xyz#@#+js(aopr, blockAdBlock)
-*$script,3p,domain=kino-fox.com,badfilter
-||vk.com/images/upload.gif$domain=~kirmuseum.org|~vk.com,badfilter
-/dk?st.cmd=widgetgroup&st.groupid=$badfilter
 lin-ks.net#@#+js(set-constant, canRunAds, true)
 links4earn.com#@#.banner
 mac-torrent-download.net#@#+js(std, _0x)
@@ -1320,6 +1322,7 @@ voxc.org#@#+js(aopw, adBlockDetected)
 voxc.org#@#+js(aopw, document.oncontextmenu)
 watchcartoonsonline.*#@#+js(abort-current-inline-script, document.createElement, jsc.mgid.com)
 web2.0calc.com#@#+js(abort-on-property-read, doads)
+wstream.*#@#+js(nostif, display)
 wstream.*#@#+js(ra, onclick)
 wstream.*#@#+js(std, height)
 xhamster.*#@#+js(aeld, , pop)
@@ -1435,6 +1438,7 @@ yts.*#@#+js(acis, $, blocked)
 ||platform.twitter.com/widgets/tweet_button$third-party,badfilter
 ||platform.twitter.com^$badfilter
 ||play.google.com/log?$empty,badfilter
+||pr-cy.ru^$badfilter
 ||pubsub-edge.twitch.tv^$badfilter
 ||pusher.com^$third-party,domain=~onefm.ro,badfilter
 ||pusherapp.com^$third-party,badfilter
@@ -1475,14 +1479,11 @@ yts.*#@#+js(acis, $, blocked)
 ||usocial.pro^$third-party,badfilter
 ||virustotal.com^$badfilter
 ||vk.com/images/$third-party,badfilter
+||vk.com/images/upload.gif$domain=~kirmuseum.org|~vk.com,badfilter
 ||vk.com/share.php$third-party,badfilter
 ||vk.com/share.php?$third-party,badfilter
 ||vk.com/widget_$domain=~redspell.ru|~vk.com,badfilter
 ||vk.com/widget_comments.php?$third-party,badfilter
-/icons/share.$badfilter
-/img/social/*$image,badfilter
-/public/*twitter.png$badfilter
-/public/*facebook.png$badfilter
 ||vk.com/widget_community.php$third-party,badfilter
 ||vk.com/widget_like.php$third-party,badfilter
 ||vkontakte.ru/share.php?$third-party,badfilter
