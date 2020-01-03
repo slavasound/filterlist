@@ -11,30 +11,30 @@
 !#if !ext_ublock
 !#if (adguard_app_android && adguard_app_ios)
 /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\:443/$important
-@@||vk.com^$stealth
+@@||appmetrica.yandex.net^
 @@||crashlytics.com^
 @@||tracker-api.my.com^
-@@||appmetrica.yandex.net^
+@@||vk.com^$stealth
+||amazon-adsystem.com^$empty,important
 ||connect.facebook.net^$important
+||dropboxusercontent.com^
 ||googlesyndication.com^$script,redirect=noopjs,important
 ||googlesyndication.com^$xmlhttprequest,redirect=nooptext,important
 ||googlesyndication.com^$~script,~xmlhttprequest,empty,important
+||googletagservices.com^$empty,important
 ||imasdk.googleapis.com^$script,redirect=noopjs,important
 ||imasdk.googleapis.com^$xmlhttprequest,redirect=nooptext,important
 ||imasdk.googleapis.com^$~script,~xmlhttprequest,empty,important
-||unity3d.com^
-||amazon-adsystem.com^$empty,important
-||googletagservices.com^$empty,important
-||dropboxusercontent.com^
 ||pmir.3g.qq.com^$app=com.kingroot.kinguser
+||unity3d.com^
 ||www.dropbox.com^
 !#endif
 !#endif
 
 !#if env_firefox
 !#if env_mobile
-*##+js(js-rm.js, OneSignal)
 *##+js(js-rm.js, GoogleAnalyticsObject)
+*##+js(js-rm.js, OneSignal)
 *##+js(js-rm.js, window._taboola)
 *##+js(js-rm.js, yandex_metrika_callbacks)
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
@@ -49,20 +49,20 @@
 
 !#if !ext_ublock
 !#if (adguard_ext_firefox && adguard_ext_opera && adguard_ext_chromium)
+@@//www.kinopoisk.ru^$document
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important
 ||google-analytics.com/ga.js$script,redirect=google-analytics-ga,important
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,important
-@@//www.kinopoisk.ru^$document
 !#endif
 !#endif
 
 ! WHITELIST
 @@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru|vk.com|webmoney.ru
 @@*/wp-content/plugins/remove-disqus-ads/*
-@@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@-adserver/$media,domain=player.pl
+@@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@||clients2.google.com/*/crx?$other,xmlhttprequest
 ! WHITELIST END
 
@@ -85,23 +85,22 @@
 ||535447ed91a7b31514021d69bb3ee1b3.com^
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
 ||ad.mail.ru^
-||geo.kaspersky.com^
-||ksn-crypto-catm-geo.kaspersky-labs.com^
 ||adaware.com^$third-party
 ||adcolony.com^
+||addons-media.operacdn.com^
+||addons-themes.operacdn.com^
 ||adfox.yandex.ru^
 ||adservice.google.com^
 ||adtilt.com^
+||af.opera.com^
 ||alt*-mtalk.google.com^
 ||an.yandex.ru^
+||api.recsys.opera.com^
 ||app-measurement.com^
 ||appbaqend.com^
 ||applovin.com^
 ||appmetrica.yandex.net^
 ||apps.bittorrent.com^
-||autoupdate.geo.opera.com^
-||proxy_auth.trigger.hola.org^
-||perr.hola.org^
 ||awaps.yandex.net^
 ||awsync.yandex.ru^
 ||ba2121292eda2ecd41203af62a59d608.com^
@@ -121,13 +120,17 @@
 ||clients5.google.com^
 ||contributor.google.com^
 ||criteo.com^
-||af.opera.com^
+||crm-cdn.zenguard.biz^
+||crm.zenguard.biz^
+||doubleclick.net^
 ||exchange.opera.com^
 ||f4f0b34558fe45a583ca23ba60e7bd44.com^
 ||fa04089b99473e2ffd6dccb10cfd6d18.com^
 ||features.opera-api.com^
 ||flurry.com^
 ||fundingchoicesmessages.google.com^
+||geo.kaspersky.com^
+||geo.opera.com^
 ||google-analytics.com^
 ||googleadservices.com^
 ||googlesyndication.com^
@@ -139,9 +142,10 @@
 ||illicium.web.money^
 ||imasdk.googleapis.com^
 ||inmobi.com^
+||ip-info.zenmate.com^
 ||ipm-provider.ff.avast.com^
-||crm-cdn.zenguard.biz^
 ||jstracer.yandex.ru^
+||ksn-crypto-catm-geo.kaspersky-labs.com^
 ||license.piriform.com^
 ||live.thunderbird.net^
 ||localhost^$third-party
@@ -153,7 +157,9 @@
 ||mtalk.google.com^
 ||my.com^
 ||partnercoll.github.io^$third-party,important
+||perr.hola.org^
 ||playatoms-pa.googleapis.com^
+||proxy_auth.trigger.hola.org^
 ||r3.mail.ru^
 ||rayjump.com^
 ||recostream.go.mail.ru^
@@ -163,16 +169,14 @@
 ||rs.mail.ru^
 ||safebrowsing.googleapis.com^
 ||sd-images.operacdn.com^
+||sitecheck2.opera.com^
 ||sitecheck.opera.com^
 ||speeddials.opera.com^
 ||startappservice.com^
-||doubleclick.net^
 ||startup.mobile.yandex.net^
 ||tapjoy.com^
 ||tapjoyads.com^
 ||top-fwz1.mail.ru^
-||ip-info.zenmate.com^
-||crm.zenguard.biz^
 ||update.utorrent.com^
 ||update.utorrent.li^
 ||utclient.utorrent.com^
@@ -181,22 +185,22 @@
 ! SITE END
 
 ! IMAGE
+*/ezgif-com-optimize.gif$image
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
-||st.kp.yandex.net/images/bnnr/brand/$image
-||torrentfilm.me/img/bg.jpg$image
-||kinomore.xyz/templates/*/img/logoface.png$image
-/^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
 /^https?:\/\/[^\s]+\/wp\-content\/uploads\/[0-9]{4}\/[0-9]{2,4}\/[_a-zA-Z-]{7,20}\.gif$/$image,important
-||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
-*/ezgif-com-optimize.gif$image
+/^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
+||english-films.com/uploads/001/Skyeng_English-Films.jpg$image
 ||english-films.com/uploads/4_35.jpg$image
 ||english-films.com/uploads/How-download_20.jpg$image
-||english-films.com/uploads/001/Skyeng_English-Films.jpg$image
 ||kinogo-2019.club/templates/kinogo720/images/mstiteli.jpg$image
+||kinomore.xyz/templates/*/img/logoface.png$image
 ||panels-images.twitch.tv/panel-21802540-image-4565b1db-f071-48c2-af1e-3cc54bd2c5fa$image
+||st.kp.yandex.net/images/bnnr/brand/$image
+||torrentfilm.me/img/bg.jpg$image
+||yastatic.net/*.gif$image,important,domain=~mail.yandex.by|~mail.yandex.ru|~mail.yandex.ua
 ! IMAGE END
 
 ! POP-UP
@@ -209,8 +213,8 @@
 ! MEDIA
 */*.mp4|$media,app=game.maddex.jump
 */*.mp4|$media,domain=vb17103elmerwatson.pw
-/\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
 */melbet.mp4$media,redirect=noopmp4-1s,important
+/\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
 ||kinogo.*/player/*.mp4$important,media,redirect=noopmp3-0.1s,domain=kinogo.by
 ! MEDIA END
 
@@ -244,6 +248,7 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *###mybannerpopup2
 *###videoroll
 *##.b-cookies
+*##.cc_container--open.cc_container.cc_banner
 *##.cookie-consent
 *##.cookie-notice-container
 *##.cookie-notify
@@ -251,45 +256,26 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##.cookies-policy
 *##.cookies-reminder
 *##.ezoic-ad
-*##a[src="/images/sidebanner.jpg"]
 *##.idmuvi-floatbanner
-*##a[href*="/cdn-cgi/l/email-protection"]
-*##a[href*="anaktogel88.net"]
-*##a[href*="bltks.club"]
-*##a[href*="roketbola.com"]
-*##a[href*="142.91.170.80"]
-*##a[href*="satumaster.com"]
-*##a[href*="123klik.xyz"]
-*##a[href*="bospoker.live"]
-*##a[href*="dcbet.cc"]
-*##a[href*="andpoker.online"]
-*##a[href*="momopkr88.com"]
-*##a[href*="seksipkr88.com"]
-*##a[href*="bromo.poker"]
-*##a[href*="wismakita.com"]
-*##a[href*="wymbet338.com"]
-*##a[href*="asia777.me"]
-*##a[href*="guepoker88.com"]
-*##a[href*="ubcpoker.cc"]
-*##a[href*="global303.com"]
-*##a[href*="unikpoker.net"]
-*##a[href*="dnadewa.com"]
-*##a[href*="qq8778.online"]
 *##a[href*="5.153.13.193"]
 *##a[href*="64.91.252.215"]
 *##a[href*="72.52.214.50"]
 *##a[href*="81.19.186.167"]
 *##a[href*="103.10.200.62"]
+*##a[href*="123klik.xyz"]
+*##a[href*="142.91.170.80"]
 *##a[href*="157.230.81.198"]
+*##a[href*="180.215.14.98"]
+*##a[href*="/cdn-cgi/l/email-protection"]
 *##a[href*="/go.click?"]
 *##a[href*="/pasang-iklan"]
 *##a[href*="://ad."]
-*##a[href*="kdaffiliates.com"]
-*##.cc_container--open.cc_container.cc_banner
 *##a[href*="://ads."]
 *##a[href*="ampaleare.site"]
+*##a[href*="anaktogel88.net"]
+*##a[href*="andpoker.online"]
 *##a[href*="aseanjoker.net"]
-*##a[href*="join-adf.ly"]
+*##a[href*="asia777.me"]
 *##a[href*="auredzeon.com"]
 *##a[href*="baksomerdeka.com"]
 *##a[href*="bebasjudi.com"]
@@ -297,52 +283,70 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 *##a[href*="bit.ly"]
 *##a[href*="bitly.com"]
 *##a[href*="bltks.club"]
+*##a[href*="bltks.club"]
 *##a[href*="bola100.net"]
+*##a[href*="bospoker.live"]
+*##a[href*="bromo.poker"]
+*##a[href*="capsa228.com"]
 *##a[href*="click2go.me"]
+*##a[href*="dcbet.cc"]
 *##a[href*="djfiln.com"]
+*##a[href*="dnadewa.com"]
 *##a[href*="dwatngkas.xyz"]
 *##a[href*="dwatngks.icu"]
 *##a[href*="earnoffice.com"]
 *##a[href*="fifacash88c.com"]
+*##a[href*="global303.com"]
 *##a[href*="goo.gl"]
+*##a[href*="guepoker88.com"]
 *##a[href*="hitsbola.icu"]
-*##a[href*="markasvip.com"]
+*##a[href*="hoki228.net"]
 *##a[href*="ibet96ace.com"]
 *##a[href*="idwinner.club"]
 *##a[href*="indoxbet.com"]
+*##a[href*="join-adf.ly"]
+*##a[href*="kdaffiliates.com"]
 *##a[href*="kdpoker.asia"]
 *##a[href*="koin4da.com"]
 *##a[href*="kuncidisini.com"]
+*##a[href*="liga88.world"]
 *##a[href*="lucky77.world"]
+*##a[href*="markasvip.com"]
 *##a[href*="maxbetqq.net"]
 *##a[href*="merdekabola365.org"]
+*##a[href*="momopkr88.com"]
 *##a[href*="multiqq.org"]
 *##a[href*="murnigoal.com"]
 *##a[href*="nagaikn.club"]
 *##a[href*="panpoker88.info"]
 *##a[href*="parandaya.com"]
+*##a[href*="qq8778.online"]
 *##a[href*="qqgaming88e.com"]
 *##a[href*="rebrand.ly"]
+*##a[href*="roketbola.com"]
 *##a[href*="salamsbo.com"]
-*##a[href*="liga88.world"]
-*##a[href*="warna365.net"]
-*##a[href*="capsa228.com"]
-*##a[href*="hoki228.net"]
-*##a[href*="180.215.14.98"]
+*##a[href*="satumaster.com"]
 *##a[href*="sbomoney11.com"]
+*##a[href*="seksipkr88.com"]
 *##a[href*="telatbangun.com"]
 *##a[href*="tgks.vip"]
 *##a[href*="totojek.world"]
 *##a[href*="tototix.net"]
 *##a[href*="trueimg.xyz"]
+*##a[href*="ubcpoker.cc"]
 *##a[href*="unibetasia.org"]
+*##a[href*="unikpoker.net"]
 *##a[href*="uniplay99.com"]
 *##a[href*="untungvip.com"]
 *##a[href*="vk.me"]
+*##a[href*="warna365.net"]
 *##a[href*="wasiteuro.com"]
+*##a[href*="wismakita.com"]
+*##a[href*="wymbet338.com"]
 *##a[href*="yabrowser"]
 *##a[src*="://ad."]
 *##a[src*="://ads."]
+*##a[src="/images/sidebanner.jpg"]
 *##cookies-policy-confirm
 2ch.*##.logo
 8fornod.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
@@ -354,7 +358,6 @@ filmitorrentom.*##[src="/img/lkj.png"], [src="/img/dfr.png"], #top-link-block
 forums.opera.com###download-opera
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container
 gamepedia.com###policy-notice-root
-scrubstv.net##center > table > tbody > tr > td:nth-of-type(4)
 goblins-online.ru##.customb-top-center-desc
 gomovies.bid##[href="/user/profile/premium-membership"], .ico.close
 gtorrent.ru##[href="//up.gtorrent.ru/ya_1/"]
@@ -377,6 +380,7 @@ pornhub.*##.premiumPromoBanner, .tooltipPromo
 public.upera.co##[href*="//upera.shop/"]
 rezka.ag##.clearfix.b-post__status_wrapper
 ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
+scrubstv.net##center > table > tbody > tr > td:nth-of-type(4)
 tolko-russkoe.com###notice-holder
 torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
 torrentfilm.me##[src="/img/mgt.png"], [src="/img/ubr.png"]
@@ -636,6 +640,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! XMLHTTPREQUEST
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
+||addons.opera.com/themes/$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
@@ -1149,6 +1154,7 @@ wstream.*#@#+js(nostif, display)
 /sharedaddy/*$image,script,badfilter
 /sharethis.js$badfilter
 /skm/assets/share/*$badfilter
+/img/instagram-$badfilter
 /social-buttons-$script,badfilter
 /social-icons-$badfilter
 /social-likes.$domain=~animalreader.ru|~animego.org|~bigcinemahd.net|~catalog.onliner.by|~cutur.ru|~films-2019.club|~inosmi.ru|~kinomore.xyz|~kinomovi.xyz|~kinoo2019.ru|~kinozubr.net|~loungefilm.club|~m24.ru|~megapolisonline.ru|~miuipro.info|~mobnovelty.ru|~netsofta.net|~postila.ru|~sport28.net|~topfile.tj|~vipkinoman.net|~westernfilm.ru|~wfilm.club,badfilter
