@@ -920,6 +920,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.vkontakte
 #@#.widget_bimber_widget_facebook_page
 #@#.widget_blog_subscription
+||upload4earn.org^$document,badfilter
 #@#.widget_mc4wp_form_widget
 #@#.widget_social
 #@#.ya-share2
