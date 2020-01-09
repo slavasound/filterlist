@@ -130,6 +130,10 @@
 ||features.opera-api.com^
 ||flurry.com^
 ||fundingchoicesmessages.google.com^
+||ba.yandex.net^
+||offlinepages-pa.googleapis.com^
+||se.social.sc.sonymobile.com^
+||sba.yandex.net^
 ||geo.kaspersky.com^
 ||geo.opera.com^
 ||google-analytics.com^
@@ -157,7 +161,7 @@
 ||mradx.net^
 ||mtalk.google.com^
 ||my.com^
-||partnercoll.github.io^$third-party,important
+||partnercoll.github.io^
 ||perr.hola.org^
 ||playatoms-pa.googleapis.com^
 ||proxy_auth.trigger.hola.org^
@@ -618,6 +622,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party,domain=~is123moviesto.com
 ||fas.li^$subdocument,domain=likn.xyz
 ||phncdn.com/iframe$subdocument
+*/ga.html|$subdocument
 ||yastatic.net/tableau/tableau.html$subdocument
 ! SUBDOCUMENT END
 
