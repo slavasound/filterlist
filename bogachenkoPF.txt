@@ -187,6 +187,8 @@
 
 ! IMAGE
 */ezgif-com-optimize.gif$image
+*/yujgs.png$image
+*/700.png$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
@@ -278,6 +280,7 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="://ads."]
 *##a[href*="ampaleare.site"]
 *##a[href*="anaktogel88.net"]
+*##a[href*="fenek.market.yandex."]
 *##a[href*="andpoker.online"]
 *##a[href*="aseanjoker.net"]
 *##a[href*="asia777.me"]
@@ -350,6 +353,7 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="wasiteuro.com"]
 *##a[href*="wismakita.com"]
 *##a[href*="wymbet338.com"]
+fandom.com###recirculation-rail
 *##a[href*="yabrowser"]
 *##a[src*="://ad."]
 *##a[src*="://ads."]
@@ -639,6 +643,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/promo-banner.js|$script,domain=pornhub.com,important
 |http*:*/rodo/rodo.js|$script,important
 |http*:*/snow.js|$script
+|http*:*/push/subscribe.js?$script,important
 |http*:*/swb.js|$script,important
 ||bc.vc/js/app.v5.js$script,important
 ||hdeuropix.com^$script
@@ -655,7 +660,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
-/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net|~twitter.com
+/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net|~twitter.com|~steamloopback.host|~yandex.ru|~yandex.ua|~yandex.by
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
@@ -685,6 +690,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@##gotoTop
 #@##gotop
 #@##icon-facebook
+/share_button.$badfilter
+fandom.com#@#body:style(overflow: auto !important;)
+fandom.com#@#+js(set, wgAffiliateEnabled, false)
 #@##icon-instagram
 #@##icon-rss
 #@##icon-snapchat
@@ -694,6 +702,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@##menu-social-links
 #@##return-to-top
 #@##scroll-to-top
+/footer/instagram.$badfilter
 #@##scrollTop
 #@##share
 #@##share-container
@@ -1107,6 +1116,8 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /facebook_logo.$badfilter
 /fb1-right.$badfilter
 /footer_facebook.$badfilter
+/ico_twitter.$badfilter
+/ico_facebook.$badfilter
 /googleplus.png$badfilter
 /gotop.$badfilter
 ||facebook.com/plugins/comments.php?$badfilter
@@ -1189,6 +1200,7 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /social/pinterest-$badfilter
 /social/twitter.$image,badfilter
 /social_icons.$badfilter
+/footer/instagram.$badfilter
 /social_media_$badfilter
 /stumbleupon.png|$domain=~stumbleupon.com,badfilter
 /telegram-icon.$badfilter
@@ -1449,6 +1461,7 @@ yts.*#@#+js(acis, $, blocked)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=temp-mail.org,empty,important,badfilter
 ||pinterest.com/v1/urls/count.json$third-party,badfilter
 ||pladform.ru^$badfilter
+_social-bar/$badfilter
 ||pladform.ru^$third-party,badfilter
 ||platform.linkedin.com^$badfilter
 ||platform.stumbleupon.com/*/widgets.js$third-party,badfilter
