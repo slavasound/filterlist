@@ -68,6 +68,8 @@
 
 ! SITE
 ||pbprof.com^$third-party
+||twitch.tv^$third-party
+||twitchcdn.net^$third-party
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /a\.[a-z0-9]{43}\.com$/
 ||0.0.0.0^$third-party
@@ -162,6 +164,27 @@
 ||mtalk.google.com^
 ||my.com^
 ||partnercoll.github.io^
+||maribacaberita.com^
+||meta^
+||adn.insight.ucweb.com^
+||gjapplog.ucweb.com^
+||uodoo.com^
+||event.
+||us-unpm-upaas.ucweb.com^
+||us-ucdc-upaas.ucweb.com^
+||img.ucweb.com^
+||openwifi.ucweb.com^
+||an.facebook.com^
+||bts-la.ucweb.com^
+||HolmesHelp.ucweb.com^
+||sf-userver-upaas.ucweb.com^
+||px-intl.
+||yastroka.yandex.net^
+||suggest.yandex.net^
+||newsgenious.com^
+||navicms.ucweb.com^
+||napi.ucweb.com^
+||image.uc.cn^
 ||perr.hola.org^
 ||playatoms-pa.googleapis.com^
 ||proxy_auth.trigger.hola.org^
