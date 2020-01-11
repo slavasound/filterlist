@@ -588,7 +588,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||safebrowsing9.
 ||safebrowsing10.
 ||safebrowsing.
-||yandex.*/suggest/
+||yandex.*/suggest/$other,xmlhttprequest
 ! OTHER END
 
 ! DOCUMENT
