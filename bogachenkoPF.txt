@@ -111,7 +111,6 @@
 ||appbaqend.com^
 ||applovin.com^
 ||appmetrica.yandex.net^
-||appmetrica.yandex.net^
 ||apps.bittorrent.com^
 ||awaps.yandex.net^
 ||awsync.yandex.ru^
@@ -189,7 +188,7 @@
 ||license.piriform.com^
 ||live.thunderbird.net^
 ||localhost^$third-party
-||main.zdevx.yandex.ru^
+||main.zdevx.yandex.ru^$third-party
 ||maribacaberita.com^
 ||mc-portal.mail.ru^
 ||mc.yandex.ru^
@@ -224,8 +223,6 @@
 ||reklama.mail.ru^
 ||rs.mail.ru^
 ||safe.ucweb.com^
-||safebrowsing.clients.google.com^
-||safebrowsing.googleapis.com^
 ||savebrwsr.com^
 ||sba.yandex.net^
 ||sd-images.operacdn.com^
@@ -263,14 +260,12 @@
 ||webrowser.mail.ru^
 ||wow.ucweb.com^
 ||xray.mail.ru^
-||yabro3.zen-test.yandex.ru^
-||yabs.yandex.by^
-||yabs.yandex.ru^
-||yabs.yandex.ua^
+||zen-test.yandex.ru^
+||yabs.yandex.
 ||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com
 ||yastroka.yandex.net^
 ||zen.yandex.ru^$third-party
-|||amigo.mail.ru^$third-party
+||amigo.mail.ru^$third-party
 ! SITE END
 
 ! IMAGE
@@ -693,6 +688,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||monitor49.
 ||monitor50.
 ||monitor.
+||safebrowsing.
 ||yandex.*/suggest/
 ||google.*/complete/
 ! OTHER END
