@@ -89,8 +89,8 @@
 ||ad.mail.ru^
 ||adaware.com^$third-party
 ||adcolony.com^
-||addons-media.operacdn.com^
-||addons-themes.operacdn.com^
+||addons-media.operacdn.com^$domain=~opera.com|~opera.ru
+||addons-themes.operacdn.com^$domain=~opera.com|~opera.ru
 ||adfox.yandex.ru^
 ||adn.insight.ucweb.com^
 ||adservice.google.com^
@@ -140,6 +140,7 @@
 ||gjapplog.ucweb.com^
 ||google-analytics.com^
 ||googleadservices.com^
+||taboola.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
@@ -693,7 +694,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net|~twitter.com|~steamloopback.host|~yandex.ru|~yandex.ua|~yandex.by|~pandamovies.me|~xopenload.pw|~pandamovie.in
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?.*?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
@@ -1100,6 +1101,8 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 #@#div.fb_iframe_widget
 #@#div[button="share"]
 #@#div[class*="share-link"]
+/i/twitter.$badfilter
+/i/vk.$badfilter
 #@#div[class^="widget-social"]
 #@#div[class^="ya-share"]
 #@#div[id^="vk_comments"]
