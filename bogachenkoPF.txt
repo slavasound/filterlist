@@ -129,7 +129,6 @@
 ||crm-cdn.zenguard.biz^
 ||crm.zenguard.biz^
 ||doubleclick.net^
-||event.
 ||exchange.opera.com^
 ||f4f0b34558fe45a583ca23ba60e7bd44.com^
 ||fa04089b99473e2ffd6dccb10cfd6d18.com^
@@ -163,7 +162,6 @@
 ||maribacaberita.com^
 ||mc.yandex.ru^
 ||merchandise.opera-api.com^
-||meta^
 ||moatads.com^
 ||mradx.net^
 ||mtalk.google.com^
@@ -178,7 +176,6 @@
 ||perr.hola.org^
 ||playatoms-pa.googleapis.com^
 ||proxy_auth.trigger.hola.org^
-||px-intl.
 ||r3.mail.ru^
 ||rayjump.com^
 ||recostream.go.mail.ru^
@@ -536,8 +533,11 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||beacon6.
 ||beacon7.
 ||beacon8.
+||event.
 ||beacon9.
 ||beacon10.
+||meta^
+||px-intl.
 ||beacon11.
 ||beacon12.
 ||beacon13.
@@ -693,7 +693,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net|~twitter.com|~steamloopback.host|~yandex.ru|~yandex.ua|~yandex.by|~pandamovies.me|~xopenload.pw|~pandamovie.in
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?([!"#$%&'()*+,:;<=>?@/\^_`{|}~-].*?)?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
@@ -827,6 +827,7 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@#.g-plusone
 #@#.gig-share-bar-container
 #@#.gig-share-button-container
+/ya-share-cnt.html?url=$badfilter
 #@#.glyphicon-arrow-up
 #@#.go-top
 #@#.google-plus
