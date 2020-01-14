@@ -84,6 +84,39 @@
 ||136.243.134.204:443^
 ||162.125.80.6:443^
 ||185.30.176.248:443^
+||103.229.10.134:443^
+||103.229.10.220:443^
+||108.177.14.97:443^
+||13.224.143.39:443^
+||173.194.220.136:443^
+||173.194.222.154:443^
+||173.194.222.156:443^
+||173.194.222.157:443^
+||173.194.222.97:443^
+||173.194.73.154:443^
+||173.194.73.155:443^
+||213.180.204.131:443^
+||216.58.208.238:443^
+||23.210.249.164:443^
+||3.11.46.38:443^
+||34.98.67.61:443^
+||37.9.112.35:443^
+||64.233.162.154:443^
+||64.233.162.156:443^
+||64.233.162.97:443^
+||64.233.163.156:443^
+||64.233.163.157:443^
+||64.233.163.97:443^
+||64.233.164.97:443^
+||64.233.165.132:443^
+||64.233.165.154:443^
+||64.233.165.156:443^
+||64.233.165.157:443^
+||87.250.250.119:443^
+||87.250.250.254:443^
+||87.250.250.91:443^
+||87.250.251.119:443^
+||93.158.134.119:443^
 ||212.122.5.136^
 ||535447ed91a7b31514021d69bb3ee1b3.com^
 ||HolmesHelp.ucweb.com^
@@ -655,6 +688,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||bc.vc/js/app.v5.js$script,important
 ||hdeuropix.com^$script
 ||yastatic.net^*/widget_ya.js|$script,important
+||vivaldi.com/rep/rep.js|$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -673,11 +707,12 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
-||apple.com/*/startpage/$xmlhttprequest,other
-||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other
-||yandex.ru/prefetch.txt$xmlhttprequest,other
-||vk.com/feed2.php$other,xmlhttprequest
-||mobile.yandex.net/psuh/$other,xmlhttprequest
+||apple.com/*/startpage/$xmlhttprequest,other,important
+||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
+||yandex.ru/prefetch.txt$xmlhttprequest,other,important
+||vk.com/feed2.php$other,xmlhttprequest,important
+||mobile.yandex.net/psuh/$other,xmlhttprequest,important
+||gstatic.com/safebrowsing$other,xmlhttprequest,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
