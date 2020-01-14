@@ -194,6 +194,7 @@
 ||mrbrwsr.com^
 ||mrds.mail.ru^
 ||mtalk.google.com^
+||desktop-dna.osp.opera.software^
 ||my.com^
 ||napi.ucweb.com^
 ||navicms.ucweb.com^
@@ -595,12 +596,24 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||safebrowsing10.
 ||safebrowsing.
 ||yandex.*/suggest/$other,xmlhttprequest
+||analytics.
+||analytics0.
+||analytics1.
+||analytics2.
+||analytics3.
+||analytics4.
+||analytics5.
+||analytics6.
+||analytics7.
+||analytics8.
+||analytics9.
 ! OTHER END
 
 ! DOCUMENT
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */redirect.html$document
 ||msftconnecttest.com/redirect$document
+||vk.com/badbrowser.php$document
 ||youtube.com/*dQw4w9WgXcQ$document
 ! DOCUMENT END
 
@@ -660,7 +673,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
-/^https?:\/\/[^\s]+\/([a-z]+[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?)?count(ers?)?([0-9]{1,3})?[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]/$image,important,other,script,xmlhttprequest,domain=~github.com|~twtich.tv|~bbc.com
+/^https?:\/\/[^\s]+\/([a-z]+[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?)?count(ers?)?([0-9]{1,3})?[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?/$image,important,other,script,xmlhttprequest,domain=~github.com|~twtich.tv|~bbc.com
 ||apple.com/*/startpage/$xmlhttprequest,other
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other
 ||yandex.ru/prefetch.txt$xmlhttprequest,other
@@ -940,6 +953,7 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@#.widget_bimber_widget_facebook_page
 #@#.widget_blog_subscription
 ||upload4earn.org^$document,badfilter
+/scroll-top.$badfilter
 #@#.widget_mc4wp_form_widget
 #@#.widget_social
 #@#.ya-share2
@@ -947,6 +961,11 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@#.ya-share2__list
 #@#.ya-share2_inited
 #@#.yashare-auto-init
+yesmovies.*#@#+js(aopr, AaDetector)
+yesmovies.*#@#+js(aopw, Fingerprint2)
+yesmovies.*#@#+js(acis, Math, zfgloaded)
+yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
+yesmovies.*#@#+js(aopr, zfgloadedpopup)
 #@#.yx-share
 #@#:not(.sharingOptionsGroup) > .share-menu
 #@#[class^="adv-"]
