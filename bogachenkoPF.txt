@@ -673,7 +673,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
 ||megatube.xxx/atrm/$xmlhttprequest,script,important
-/^https?:\/\/[^\s]+\/([a-z]+[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?)?count(ers?)?([0-9]{1,3})?[!"#$%&'()*+,.:;<=>?@/\^_`{|}~-]?/$image,important,other,script,xmlhttprequest,domain=~github.com|~twtich.tv|~bbc.com
+/^https?:\/\/[^\s]+\/count(ers?)?$/$image,important,other,script,xmlhttprequest
 ||apple.com/*/startpage/$xmlhttprequest,other
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other
 ||yandex.ru/prefetch.txt$xmlhttprequest,other
@@ -1475,6 +1475,11 @@ yts.*#@#+js(acis, $, blocked)
 ||kisshentai.net^$badfilter
 ||lastpass.com^*/analyticsjs$~third-party,script,badfilter
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline',badfilter
+||yandex.*/clck/$important,badfilter
+||yandex.*/clck/$badfilter
+||yandex.ru/clck/jclck/$badfilter
+||yandex.ru/clck/click$badfilter
+||yandex.*/clck/$xmlhttprequest,badfilter
 ||linkbucks.com^$badfilter
 ||liveinternet.ru^$badfilter
 ||m.addthis.com^$badfilter
