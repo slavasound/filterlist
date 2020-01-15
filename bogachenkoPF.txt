@@ -62,172 +62,170 @@
 @@-adserver/$media,domain=player.pl
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@||clients2.google.com/*/crx?$other,xmlhttprequest
-@@||ocsp.globalsign.com^
 @@||ocsp2.globalsign.com^
+@@||ocsp.globalsign.com^
 ! WHITELIST END
 
 ! SITE
 /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\:443/$important
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
-/a\.[a-z0-9]{43}\.com$/
+/a\.[a-z0-9]{33,43}\.com$/
 ||0.0.0.0^$third-party
 ||2edd6c0fea91f88494d1cc37672db524.com^
+||3.11.46.38:443^
 ||3fdf2a5f924760915ca68b5ad01cfdae.com^
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
 ||6d47c1118927cf53ba9654931df80e8d.com^
-||3.11.46.38:443^
 ||8.253.207.117:443^
 ||13.224.143.39:443^
+||13.224.151.55:443^
 ||13.224.151.106:443^
+||13.225.157.114:443^
+||13.249.153.89:443^
+||13.249.166.157:443^
+||13.249.166.165:443^
 ||23.210.249.164:443^
 ||34.98.67.61:443^
 ||34.199.118.167:443^
+||35.186.205.6:443^
+||35.190.88.7:443^
 ||37.9.112.35:443^
+||37.9.112.36:443^
 ||59.151.128.36:443^
+||64.233.161.100:443^
+||64.233.161.101:443^
+||64.233.161.102:443^
 ||64.233.161.113:443^
 ||64.233.161.139:443^
-||64.233.162.97:443^
-||64.233.162.154:443^
-||64.233.163.97:443^
-||74.125.205.154:443^
-||173.194.73.156:443^
-||74.125.205.157:443^
-||147.75.94.109:443^
-||151.101.66.217:443^
-||35.190.88.7:443^
 ||64.233.161.154:443^
 ||64.233.161.155:443^
 ||64.233.161.156:443^
-||74.125.205.113:443^
-||173.194.73.94:443^
-||64.233.165.95:443^
-||64.233.162.157:443^
+||64.233.161.157:443^
+||64.233.162.97:443^
+||64.233.162.154:443^
 ||64.233.162.156:443^
-||147.75.92.61:443^
-||64.233.161.101:443^
-||99.86.193.112:443^
-||209.85.233.157:443^
+||64.233.162.157:443^
+||64.233.163.97:443^
+||64.233.163.154:443^
+||64.233.163.155:443^
 ||64.233.163.156:443^
 ||64.233.163.157:443^
 ||64.233.164.97:443^
+||64.233.164.154:443^
+||64.233.164.155:443^
 ||64.233.164.156:443^
+||64.233.164.157:443^
+||64.233.165.95:443^
 ||64.233.165.132:443^
+||64.233.165.148:443^
 ||64.233.165.154:443^
 ||64.233.165.155:443^
 ||64.233.165.156:443^
 ||64.233.165.157:443^
+||74.125.205.100:443^
+||74.125.205.102:443^
+||74.125.205.113:443^
 ||74.125.205.138:443^
+||74.125.205.139:443^
 ||74.125.205.148:443^
+||74.125.205.154:443^
+||74.125.205.156:443^
+||74.125.205.157:443^
 ||77.88.21.90:443^
 ||77.88.21.119:443^
+||77.88.21.131:443^
+||84.17.57.7:443^
+||87.250.250.90:443^
 ||87.250.250.91:443^
+||87.250.250.92:443^
 ||87.250.250.119:443^
+||87.250.250.131:443^
+||87.250.250.210:443^
 ||87.250.250.254:443^
 ||87.250.251.119:443^
+||88.85.82.153:443^
+||88.212.201.198:443^
+||88.212.201.216:443^
 ||93.158.134.90:443^
+||93.158.134.91:443^
 ||93.158.134.119:443^
+||93.158.134.131:443^
+||94.100.180.72:443^
+||94.100.180.197:443^
+||94.100.184.85:443^
+||95.167.17.108:443^
+||95.167.17.115:443^
+||99.86.193.112:443^
+||99.86.193.113:443^
 ||103.229.10.134:443^
 ||103.229.10.220:443^
 ||104.17.73.8:443^
+||104.20.2.47:443^
 ||104.155.184.63:443^
+||104.244.42.72:443^
+||108.161.188.158:443^
 ||108.177.14.97:443^
+||108.177.14.155:443^
 ||136.243.134.204:443^
+||147.75.92.61:443^
 ||147.75.92.151:443^
+||147.75.94.109:443^
+||151.101.66.217:443^
+||151.101.78.2:443^
 ||162.125.80.6:443^
 ||172.217.160.99:443^
-||173.194.222.157:443^
-||87.250.250.131:443^
-||37.9.112.36:443^
-||95.167.17.108:443^
-||195.209.108.36:443^
-||213.180.204.91:443^
-||77.88.21.131:443^
-||195.209.108.37:443^
-||173.194.73.155:443^
-||213.180.204.90:443^
-||87.250.250.92:443^
-||13.224.151.55:443^
-||173.194.73.157:443^
-||74.125.205.139:443^
-||64.233.164.154:443^
-||64.233.164.157:443^
-||13.249.153.89:443^
-||173.194.222.155:443^
-||99.86.193.113:443^
-||35.186.205.6:443^
-||87.250.250.90:443^
-||173.194.222.156:443^
-||173.194.222.154:443^
-||173.194.220.148:443^
-||64.233.161.100:443^
-||64.233.165.148:443^
-||64.233.164.155:443^
-||173.194.220.157:443^
-||64.233.161.157:443^
-||74.125.205.100:443^
+||173.194.73.94:443^
 ||173.194.73.154:443^
-||185.146.158.61:443^
-||93.158.134.131:443^
-||87.250.250.210:443^
-||108.177.14.155:443^
-||213.180.193.131:443^
-||93.158.134.91:443^
-||194.226.130.227:443^
-||95.167.17.115:443^
-||213.180.193.210:443^
-||213.180.193.90:443^
-||94.100.180.72:443^
-||217.69.139.244:443^
-||94.100.180.197:443^
-||88.212.201.216:443^
-||194.226.130.228:443^
-||88.212.201.198:443^
-||217.69.141.142:443^
-||94.100.184.85:443^
-||217.69.133.145:443^
-||185.5.137.247:443^
-||185.5.137.178:443^
-||13.249.166.157:443^
-||74.125.205.156:443^
-||13.225.157.114:443^
-||209.85.233.156:443^
-||209.85.233.154:443^
-||64.233.161.102:443^
-||13.249.166.165:443^
-||64.233.163.154:443^
-||64.233.163.155:443^
-||174.137.133.18:443^
-||188.72.202.155:443^
-||104.244.42.72:443^
-||88.85.82.153:443^
-||198.134.112.242:443^
-||84.17.57.7:443^
-||108.161.188.158:443^
-||104.20.2.47:443^
-||198.134.112.241:443^
-||151.101.78.2:443^
-||74.125.205.102:443^
-||205.185.216.10:443^
-||205.185.216.42:443^
+||173.194.73.155:443^
+||173.194.73.156:443^
+||173.194.73.157:443^
 ||173.194.220.136:443^
+||173.194.220.148:443^
 ||173.194.220.156:443^
+||173.194.220.157:443^
 ||173.194.221.154:443^
 ||173.194.221.155:443^
 ||173.194.221.156:443^
 ||173.194.221.157:443^
 ||173.194.222.97:443^
+||173.194.222.154:443^
+||173.194.222.155:443^
+||173.194.222.156:443^
+||173.194.222.157:443^
+||174.137.133.18:443^
+||185.5.137.178:443^
+||185.5.137.247:443^
 ||185.30.176.248:443^
+||185.146.158.61:443^
+||188.72.202.155:443^
+||194.226.130.227:443^
+||194.226.130.228:443^
+||195.209.108.36:443^
+||195.209.108.37:443^
+||198.134.112.241:443^
+||198.134.112.242:443^
+||205.185.216.10:443^
+||205.185.216.42:443^
 ||209.85.233.132:443^
+||209.85.233.154:443^
+||209.85.233.156:443^
+||209.85.233.157:443^
+||212.122.5.136^
+||213.180.193.90:443^
+||213.180.193.131:443^
+||213.180.193.210:443^
+||213.180.204.90:443^
+||213.180.204.91:443^
 ||213.180.204.131:443^
 ||216.58.208.238:443^
-||212.122.5.136^
+||217.69.133.145:443^
+||217.69.139.244:443^
+||217.69.141.142:443^
 ||535447ed91a7b31514021d69bb3ee1b3.com^
 ||HolmesHelp.ucweb.com^
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
 ||ad.mail.ru^
 ||adaware.com^$third-party
-||demdex.net^$third-party
-||csp.yandex.net^
 ||adcolony.com^
 ||addons-media.operacdn.com^$domain=~opera.com|~opera.ru
 ||addons-themes.operacdn.com^$domain=~opera.com|~opera.ru
@@ -240,6 +238,7 @@
 ||aliexpress.com^$third-party
 ||alt*-mtalk.google.com^
 ||amigo.appsmail.ru^
+||amigo.mail.ru^$third-party
 ||an.facebook.com^
 ||an.yandex.ru^
 ||api.browser.yandex.$important
@@ -275,11 +274,14 @@
 ||criteo.com^
 ||crm-cdn.zenguard.biz^
 ||crm.zenguard.biz^
+||csp.yandex.net^
 ||data-ntp.browser.mail.ru^
 ||data.amigo.mail.ru^
 ||data.browser.mail.ru^
 ||deloplen.com^
 ||deloplenn.com^
+||demdex.net^$third-party
+||desktop-dna.osp.opera.software^
 ||dolohen.com^
 ||doubleclick.net^
 ||doublepimp.com^
@@ -297,7 +299,6 @@
 ||gjapplog.ucweb.com^
 ||google-analytics.com^
 ||googleadservices.com^
-||suggest.yandex.ru^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
@@ -330,7 +331,6 @@
 ||mrbrwsr.com^
 ||mrds.mail.ru^
 ||mtalk.google.com^
-||desktop-dna.osp.opera.software^
 ||my.com^
 ||napi.ucweb.com^
 ||navicms.ucweb.com^
@@ -370,6 +370,7 @@
 ||startappservice.com^
 ||startup.mobile.yandex.net^
 ||suggest.yandex.net^
+||suggest.yandex.ru^
 ||suggests.go.mail.ru^
 ||taboola.com^
 ||taobao.com^
@@ -393,18 +394,17 @@
 ||webrowser.mail.ru^
 ||wow.ucweb.com^
 ||xray.mail.ru^
-||zen-test.yandex.ru^
 ||yabs.yandex.
 ||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com
 ||yastroka.yandex.net^
+||zen-test.yandex.ru^
 ||zen.yandex.ru^$third-party
-||amigo.mail.ru^$third-party
 ! SITE END
 
 ! IMAGE
+*/700.png$image
 */ezgif-com-optimize.gif$image
 */yujgs.png$image
-*/700.png$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
@@ -424,9 +424,9 @@
 
 ! POP-UP
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
-||yastatic.net^$popup,important
 ||click2go.me^$popup,important
 ||gemius.pl^$popup,important
+||yastatic.net^$popup,important
 ! POP-UP END
 
 ! MEDIA
@@ -438,22 +438,22 @@
 ! MEDIA END
 
 ! SCRIPTLET
-salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co##+js(addEventListener-defuser.js, contextmenu)
-ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
-kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
+1057maxfm.com,108clip.com,1472588.com,300mbfilms.*,5sinvesting.com,8teenz.info,ab-dl.ru,abonentik.ru,acmeta.com,aimshospital.co.in,airwheelweb.com,alnadawi.com,americandad.fr,amsterdamda.com,appsuke.com,arabxnx.com,archiepanjabi.com,arian-it.ir,atashafroz.ir,atk-exotics.com,babyjav.com,backpacker.net.cn,bandejadeplata.com,bangaloretrips.info,bayimg.com,bayimg.org,benotos.com,bestvideonline.com,bichotoblog.com,bitcoincashfaucet.co,blogspot.com,brazzanews.fr,brickprice.ru,bso.com.lb,btcsatoshi.com,burstanime.com,camerahacker.com,cherry-market.ru,china-xiao.com,circuitdb.com,clicsantaluzia.com,colls.ru,constitutiontw.org,coozo.in,craft-o-maniac.com,crazymeme.eu,crypto-loving.com,cryptomundo.com,csubakka.hu,cubagoa.com,cybersoftware.tk,darwinforaday.org,deathtube.net,display.js.org,djs.sk,dnafutsal.it,dobromovie.ru,dogecoinfaucet.co,dokumonster.de,dolezite.sk,domainslisting.com,dz4cours.com,e-learning.ly,egypt-branches.com,ekitabix.club,emoticonfun.org,en,english-lectures.ru,escalaeducacional.com.br,eversport.tv,exapik.com,farmasiexperience.com,farmods.net,filmovix.com,filmovix.net,filmovix.org,filmovysvet.eu,finalfantasy7pc.com,find-roommate.net,findbsbnumbers.com.au,findswiftcodes.com.au,firetyres.com,flashgamesfan.com,flickandshare.com,fonts4web.ru,formaweb.fr,gayathriashram.org,googlememo.com,grantorrent.com,grupoalmos.com.mx,guanciarossa.it,gxg8g.com,handchemistry.com,happyjav.com,hd-world.org,hotelminsk.by,howcooktasty.ru,hreeb-bihan.com,httpp.gdn,i100rik.com.ua,iiv.pl,ilovekindle.com.ua,imanbrand.com,imgtiger.com,imoveisorocabaimobiliaria.com.br,indepthscreening.in,indianfunpic.com,instasnatcher.com,iscs.ac.ir,israelcompras.com,izno.com.ua,iznotest.info,japan-asian.com,japanmadness.com,jav100.com,javabplus.rozblog.com,javbros.com,javdl.co,javdude.com,javstreaming.online,javsuper.com,jbrothersgroup.com,jomrezeki.com,joop.in,kazeroonkhabar.ir,killfilms.ru,klubnitka.com.ua,knopkastarta.ru,kotobyte.com,kuponut.com,l2-clan.ru,laspalabras.net,leblond-shop.com,lifestylejustice.com,litecoinfaucet.co,liyuanrt.com.tw,love-cofe.ru,lunkus.com,makefriendsonline.com,medicinarf.ru,megagym.com,mengbi.org,mladipodnikatelia.sk,monerowebminer.com,montre24.com,moranbondaroff.com,mp3cube.net,mumbaimylove.com,mypartitur.com,nahdetelmahrousa.org,narps.net,nastysnack.com,navaye-karbala.ir,nepalizone.net,news-brasil.com,newspettacolo.com,nextfable.com,normann.ru,nxload.com,odo.lt,okela.net,onitube.com,openblogger.org,ozonegroup.com,payal.org,pepitos.tv,piratebay247.net,playspal.com,pornohalva.net,portal.bg,preschoolgazette.com,psicologiauv.com,psystems.gr,publishyourarticles.net,qcgameprivate.com,ratinbourse.ir,realgreatgames.com,recaptcha-in.pw,redheadsworld.com,rmletstart.com,sa-economy.com,sabayacafe.com,sabiduriayciencia.com,sakura-shop.ru,senior-formation.com,sensationconquer.com,seriesdanko.to,sharpei-online.com,shpargalko.com,siamboran.com,siastats.info,skolarbete.nu,slovenskyviral.com,smileart.in,smokingarchive.com,smopro.ru,somosalos.com.br,sparechange.io,steb.us,streamaclic.fr,streamplay.*,studentinsider.com,subtitlecat.com,sucataeletroinfo.com.br,sunset-grancanaria.com,superiorglobalsupplycompany.com,sweetrosestudio.com,tablatures.tk,tabmine.com,taodreams.com,tapemovie.com,tech-quake.com,techno-sensei.com,tempestmux.com,thebestfreeporn.org,thejbos.com,thepiratebay.ae,thepiratebay.blue,thepiratebay.cd,thisjav.com,torrage.com,tpbproxyone.org,tubettajat.net,tublogdearquitectura.com,tubreveespacio.com,tuvanthammy.com,undeaduprising.net,vash-novy-god.ru,ventureplaza.net,versuri-si-creatii.ro,vidup.*,virtualrun.id,w220.ee,wallpoper.com,wasawards.com,waysis.com.br,webmining.top,xmoviesforyou.com,xn--cumpleaosdefamosos-t0b.com,xpp.ir,yeuvahan.com,youfinder.ru,yourjav.com,youserials.com,youssef-rabbaoui.de,zworks.net##+js(abort-on-property-read.js, miner)
+abandonmail.com##+js(abort-on-property-read.js, indexedDB.open)
+aimshospital.co.in,amarsong.net,ansarian.ir,anytube.pl,arnaques-internet.info,arquitecturadecasas.info,axenter.ru,best-anime.eu,bigbadmonkey.com,bitcoinn.biz,blogspot.com,bookmarkspot.com,boukan-taxi.ir,btcholding.biz,carrierecalciatori.it,cherrysock.com,clubeben.com.br,coinminingonline.com,compuseriestotal.com,czechfreepress.cz,dbroker.com.ua,digisekeh.com,dnd5spells.rpgist.net,download-free-fonts.com,easa.ac.za,easyupdate.ir,erechargemoney.com,esol.cl,fotonatan.sk,fotoromandigital.com.ar,golf-info-guide.com,guitar-arrangements.jimdo.com,i-lens.jp,inside-out.xyz,iranixea.com,iranopen.ir,isolarstreetlight.com,jornaldamanhamarilia.com.br,kellybroganmd.com,kharasach.com,knigopoisk.com,kogamtv.kz,konev.cz,kundun1069.com,kursk-izvestia.ru,kurskcity.ru,lambanh365.com,marinegyaan.com,mitsubnt.com,mobology.ir,monero-miner.com,moto-x.lv,moviemela.live,mp3song-s.com,mrwatches.cn,neurozinzin.com,nungjeen.com,ogar.pw,onlinetechstudio.xyz,ozgurdemircelik.com,payu2do.com,phonesalute.com,politehvpo.ru,pornmam.com,pracuj2.pl,punjabimaa.com,rareholidays.com,rednubes.de,rootologyhealth.com,runwaywp.com,scorphq.com,shop-divarma.ir,sirsyedschooluch.com,skyplanners.com,sniperarmasbahia.com.br,softbizplus.com,space-blogs.net,space-forums.net,speedtest.ir,subland.info,sunliker.com.tw,telemax.com.mx,theskillsets.com,toppersexam.com,tuvanthammy.com,uandblog.com,ubuntututorials.com,utorrent.hu,viacaosanremo.com.br,videoshia.com,visual-basic.it,vstars.pl,walking-dead.ru,wispapp.com,worldresearchlibrary.org,worlds-in-arabic.net,wrnr.it,wypr.pl,uptostream.com,uptobox.com,shortbitsfree.net##+js(abort-on-property-read.js, _client)
+bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,taktaserver.ir,unluresim.com,valeconferir.com.br##+js(abort-on-property-write.js, CoinNebula)
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream##+js(mousedef2.js)
-peserialehd.us,europixhd.*##+js(mousedef.js)
-yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-abandonmail.com##+js(abort-on-property-read.js, indexedDB.open)
-google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-1057maxfm.com,108clip.com,1472588.com,300mbfilms.*,5sinvesting.com,8teenz.info,ab-dl.ru,abonentik.ru,acmeta.com,aimshospital.co.in,airwheelweb.com,alnadawi.com,americandad.fr,amsterdamda.com,appsuke.com,arabxnx.com,archiepanjabi.com,arian-it.ir,atashafroz.ir,atk-exotics.com,babyjav.com,backpacker.net.cn,bandejadeplata.com,bangaloretrips.info,bayimg.com,bayimg.org,benotos.com,bestvideonline.com,bichotoblog.com,bitcoincashfaucet.co,blogspot.com,brazzanews.fr,brickprice.ru,bso.com.lb,btcsatoshi.com,burstanime.com,camerahacker.com,cherry-market.ru,china-xiao.com,circuitdb.com,clicsantaluzia.com,colls.ru,constitutiontw.org,coozo.in,craft-o-maniac.com,crazymeme.eu,crypto-loving.com,cryptomundo.com,csubakka.hu,cubagoa.com,cybersoftware.tk,darwinforaday.org,deathtube.net,display.js.org,djs.sk,dnafutsal.it,dobromovie.ru,dogecoinfaucet.co,dokumonster.de,dolezite.sk,domainslisting.com,dz4cours.com,e-learning.ly,egypt-branches.com,ekitabix.club,emoticonfun.org,en,english-lectures.ru,escalaeducacional.com.br,eversport.tv,exapik.com,farmasiexperience.com,farmods.net,filmovix.com,filmovix.net,filmovix.org,filmovysvet.eu,finalfantasy7pc.com,find-roommate.net,findbsbnumbers.com.au,findswiftcodes.com.au,firetyres.com,flashgamesfan.com,flickandshare.com,fonts4web.ru,formaweb.fr,gayathriashram.org,googlememo.com,grantorrent.com,grupoalmos.com.mx,guanciarossa.it,gxg8g.com,handchemistry.com,happyjav.com,hd-world.org,hotelminsk.by,howcooktasty.ru,hreeb-bihan.com,httpp.gdn,i100rik.com.ua,iiv.pl,ilovekindle.com.ua,imanbrand.com,imgtiger.com,imoveisorocabaimobiliaria.com.br,indepthscreening.in,indianfunpic.com,instasnatcher.com,iscs.ac.ir,israelcompras.com,izno.com.ua,iznotest.info,japan-asian.com,japanmadness.com,jav100.com,javabplus.rozblog.com,javbros.com,javdl.co,javdude.com,javstreaming.online,javsuper.com,jbrothersgroup.com,jomrezeki.com,joop.in,kazeroonkhabar.ir,killfilms.ru,klubnitka.com.ua,knopkastarta.ru,kotobyte.com,kuponut.com,l2-clan.ru,laspalabras.net,leblond-shop.com,lifestylejustice.com,litecoinfaucet.co,liyuanrt.com.tw,love-cofe.ru,lunkus.com,makefriendsonline.com,medicinarf.ru,megagym.com,mengbi.org,mladipodnikatelia.sk,monerowebminer.com,montre24.com,moranbondaroff.com,mp3cube.net,mumbaimylove.com,mypartitur.com,nahdetelmahrousa.org,narps.net,nastysnack.com,navaye-karbala.ir,nepalizone.net,news-brasil.com,newspettacolo.com,nextfable.com,normann.ru,nxload.com,odo.lt,okela.net,onitube.com,openblogger.org,ozonegroup.com,payal.org,pepitos.tv,piratebay247.net,playspal.com,pornohalva.net,portal.bg,preschoolgazette.com,psicologiauv.com,psystems.gr,publishyourarticles.net,qcgameprivate.com,ratinbourse.ir,realgreatgames.com,recaptcha-in.pw,redheadsworld.com,rmletstart.com,sa-economy.com,sabayacafe.com,sabiduriayciencia.com,sakura-shop.ru,senior-formation.com,sensationconquer.com,seriesdanko.to,sharpei-online.com,shpargalko.com,siamboran.com,siastats.info,skolarbete.nu,slovenskyviral.com,smileart.in,smokingarchive.com,smopro.ru,somosalos.com.br,sparechange.io,steb.us,streamaclic.fr,streamplay.*,studentinsider.com,subtitlecat.com,sucataeletroinfo.com.br,sunset-grancanaria.com,superiorglobalsupplycompany.com,sweetrosestudio.com,tablatures.tk,tabmine.com,taodreams.com,tapemovie.com,tech-quake.com,techno-sensei.com,tempestmux.com,thebestfreeporn.org,thejbos.com,thepiratebay.ae,thepiratebay.blue,thepiratebay.cd,thisjav.com,torrage.com,tpbproxyone.org,tubettajat.net,tublogdearquitectura.com,tubreveespacio.com,tuvanthammy.com,undeaduprising.net,vash-novy-god.ru,ventureplaza.net,versuri-si-creatii.ro,vidup.*,virtualrun.id,w220.ee,wallpoper.com,wasawards.com,waysis.com.br,webmining.top,xmoviesforyou.com,xn--cumpleaosdefamosos-t0b.com,xpp.ir,yeuvahan.com,youfinder.ru,yourjav.com,youserials.com,youssef-rabbaoui.de,zworks.net##+js(abort-on-property-read.js, miner)
-aimshospital.co.in,amarsong.net,ansarian.ir,anytube.pl,arnaques-internet.info,arquitecturadecasas.info,axenter.ru,best-anime.eu,bigbadmonkey.com,bitcoinn.biz,blogspot.com,bookmarkspot.com,boukan-taxi.ir,btcholding.biz,carrierecalciatori.it,cherrysock.com,clubeben.com.br,coinminingonline.com,compuseriestotal.com,czechfreepress.cz,dbroker.com.ua,digisekeh.com,dnd5spells.rpgist.net,download-free-fonts.com,easa.ac.za,easyupdate.ir,erechargemoney.com,esol.cl,fotonatan.sk,fotoromandigital.com.ar,golf-info-guide.com,guitar-arrangements.jimdo.com,i-lens.jp,inside-out.xyz,iranixea.com,iranopen.ir,isolarstreetlight.com,jornaldamanhamarilia.com.br,kellybroganmd.com,kharasach.com,knigopoisk.com,kogamtv.kz,konev.cz,kundun1069.com,kursk-izvestia.ru,kurskcity.ru,lambanh365.com,marinegyaan.com,mitsubnt.com,mobology.ir,monero-miner.com,moto-x.lv,moviemela.live,mp3song-s.com,mrwatches.cn,neurozinzin.com,nungjeen.com,ogar.pw,onlinetechstudio.xyz,ozgurdemircelik.com,payu2do.com,phonesalute.com,politehvpo.ru,pornmam.com,pracuj2.pl,punjabimaa.com,rareholidays.com,rednubes.de,rootologyhealth.com,runwaywp.com,scorphq.com,shop-divarma.ir,sirsyedschooluch.com,skyplanners.com,sniperarmasbahia.com.br,softbizplus.com,space-blogs.net,space-forums.net,speedtest.ir,subland.info,sunliker.com.tw,telemax.com.mx,theskillsets.com,toppersexam.com,tuvanthammy.com,uandblog.com,ubuntututorials.com,utorrent.hu,viacaosanremo.com.br,videoshia.com,visual-basic.it,vstars.pl,walking-dead.ru,wispapp.com,worldresearchlibrary.org,worlds-in-arabic.net,wrnr.it,wypr.pl,uptostream.com,uptobox.com,shortbitsfree.net##+js(abort-on-property-read.js, _client)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream##+js(mousedef2.js)
+kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
+peserialehd.us,europixhd.*##+js(mousedef.js)
+salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co##+js(addEventListener-defuser.js, contextmenu)
 shortbitsfree.net,btcleets.xyz,faupto.com##+js(abort-on-property-read.js, _coinzilla_fp_id_)
-bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,taktaserver.ir,unluresim.com,valeconferir.com.br##+js(abort-on-property-write.js, CoinNebula)
+ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
+yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~mail.yandex.by,~mail.yandex.ru,~mail.yandex.ua,~market.yandex.by,~market.yandex.ru,~market.yandex.ua,~mobile.yandex.by,~mobile.yandex.ru,~mobile.yandex.ua,~money.yandex.by,~money.yandex.ru,~money.yandex.ua,~music.yandex.by,~music.yandex.ru,~music.yandex.ua,~rabota.yandex.by,~rabota.yandex.ru,~rabota.yandex.ua,~rasp.yandex.by,~rasp.yandex.ru,~rasp.yandex.ua,~realty.yandex.by,~realty.yandex.ru,~realty.yandex.ua,~taxi.yandex.by,~taxi.yandex.ru,~taxi.yandex.ua,~translate.yandex.by,~translate.yandex.ru,~translate.yandex.ua,~tv.yandex.by,~tv.yandex.ru,~tv.yandex.ua##+js(cookie-set.js, my, Yy4BAQA=, 2114785965)
 ! SCRIPTLET END
 
 ! CSS
@@ -478,15 +478,11 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##.cookies-policy
 *##.cookies-reminder
 *##.ezoic-ad
-*##.ipsAdvertisement
 *##.idmuvi-floatbanner
+*##.ipsAdvertisement
+*##[href^="https://www.onclickmega.com/jump/next.php"]
 *##a[href*="5.153.13.193"]
 *##a[href*="64.91.252.215"]
-*##a[href*="limaq9.net"]
-*##a[href*="sport855.live"]
-*##a[href*="bandar95.com"]
-*##a[href*="indoft95.org"]
-*##a[href*="b.link"]
 *##a[href*="72.52.214.50"]
 *##a[href*="81.19.186.167"]
 *##a[href*="103.10.200.62"]
@@ -501,12 +497,13 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="://ads."]
 *##a[href*="ampaleare.site"]
 *##a[href*="anaktogel88.net"]
-*##a[href*="fenek.market.yandex."]
 *##a[href*="andpoker.online"]
 *##a[href*="aseanjoker.net"]
 *##a[href*="asia777.me"]
 *##a[href*="auredzeon.com"]
+*##a[href*="b.link"]
 *##a[href*="baksomerdeka.com"]
+*##a[href*="bandar95.com"]
 *##a[href*="bebasjudi.com"]
 *##a[href*="bets78.com"]
 *##a[href*="bit.ly"]
@@ -519,11 +516,11 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="click2go.me"]
 *##a[href*="dcbet.cc"]
 *##a[href*="djfiln.com"]
-*##a[href="/user/premiummembership"]
 *##a[href*="dnadewa.com"]
 *##a[href*="dwatngkas.xyz"]
 *##a[href*="dwatngks.icu"]
 *##a[href*="earnoffice.com"]
+*##a[href*="fenek.market.yandex."]
 *##a[href*="fifacash88c.com"]
 *##a[href*="global303.com"]
 *##a[href*="goo.gl"]
@@ -532,6 +529,7 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="hoki228.net"]
 *##a[href*="ibet96ace.com"]
 *##a[href*="idwinner.club"]
+*##a[href*="indoft95.org"]
 *##a[href*="indoxbet.com"]
 *##a[href*="join-adf.ly"]
 *##a[href*="kdaffiliates.com"]
@@ -539,6 +537,7 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="koin4da.com"]
 *##a[href*="kuncidisini.com"]
 *##a[href*="liga88.world"]
+*##a[href*="limaq9.net"]
 *##a[href*="lucky77.world"]
 *##a[href*="markasvip.com"]
 *##a[href*="maxbetqq.net"]
@@ -557,6 +556,7 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="satumaster.com"]
 *##a[href*="sbomoney11.com"]
 *##a[href*="seksipkr88.com"]
+*##a[href*="sport855.live"]
 *##a[href*="telatbangun.com"]
 *##a[href*="tgks.vip"]
 *##a[href*="totojek.world"]
@@ -566,27 +566,26 @@ bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,t
 *##a[href*="unibetasia.org"]
 *##a[href*="unikpoker.net"]
 *##a[href*="uniplay99.com"]
-*##[href^="https://www.onclickmega.com/jump/next.php"]
 *##a[href*="untungvip.com"]
 *##a[href*="vk.me"]
 *##a[href*="warna365.net"]
 *##a[href*="wasiteuro.com"]
 *##a[href*="wismakita.com"]
-*##a[href^="http://ref.mov168.xyz/index.php"]
 *##a[href*="wymbet338.com"]
-fandom.com###recirculation-rail
 *##a[href*="yabrowser"]
+*##a[href="/user/premiummembership"]
+*##a[href^="http://ref.mov168.xyz/index.php"]
 *##a[src*="://ad."]
 *##a[src*="://ads."]
 *##a[src="/images/sidebanner.jpg"]
 *##cookies-policy-confirm
+2ch.*##.logo
 8fornod.net,trialeset.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
 8fornod.net,trialeset.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
 eio.io##.r-bg
-vivatube.com##.puFloatLine, .drt-sponsor-block
-2ch.*##.logo
 english-films.com###mainSlider-controls, #mainSlider, .mainNav, .superBanner, .helperBlock, .footer, .section.linksBlock, div.redBlock.block, div.saladBlock, div.orangeBlock, .sidebar > .block-content, .relatedNews, .comercical > .text-center, .wrap_login, #tabs_pay, .wrp_baner, .active.tabs-content > p, .enterSocial
 english-films.com##div.blueBlock.block:has-text(Наши телеграм каналы)
+fandom.com###recirculation-rail
 filmitorrentom.*##[src="/img/lkj.png"], [src="/img/dfr.png"], #top-link-block
 forums.opera.com###download-opera
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container
@@ -619,12 +618,13 @@ torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
 torrentfilm.me##[src="/img/mgt.png"], [src="/img/ubr.png"]
 torrentic-film.com##[src="/2lgb.png"]
 twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay, .pl-notif, .player-alert, .recommended-channels, .tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1, .tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b, .tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header, .tw-relative.prime-offers, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0, .tw-z-default.pinned-cheer-v2, .tw-interactive[href^="https://twitch.amazon.com/"], a[href*="megafon.ru"], a[href*="mercedes-benz.com"], a[href*="mybestcontent.ru"], a[href*="mydota2.net"], a[href*="noblechairs.com"], a[href*="poker"], a[href*="starladder.com"], a[href*="streamfest.ru"], a[href*="suveniry"], a[href*="upskill.ru"], a[href*="vk.cc"]>img, a[href*="&BannerId="], a[href*="&bonus="], a[href*=".click"], a[href*=".com/ad/"], a[href*=".gg"], a[href*=".net/ad/"], a[href*=".org/ad/"], a[href*=".ru/ad/"], a[href*="/?r="], a[href*="/buy/"], a[href*="/go/"], a[href*="/joinchat/"], a[href*="/promo/"], a[href*="/shop/"], a[href*="?AffiliateUserId="], a[href*="?br="], a[href*="?btag="], a[href*="atributika"], a[href*="bet4.pm"], a[href*="betsdota2.c"], a[href*="bit.ly"], a[href*="boostmmr.ru"], a[href*="campaign"], a[href*="casino"], a[href*="clck.ru"], a[href*="col.vg"], a[href*="cutter.li"], a[href*="cyberbetpromo.net"], a[href*="domruchamp.ru"], a[href*="dota2camp.ru"], a[href*="dota.money"], a[href*="dotapl.us"], a[href*="dxracer-europe.com"], a[href*="fragstore.ru"], a[href*="g2a.com"], a[href*="gamefuel.com"], a[href*="garnitura"], a[href*="gearboost.eu"], a[href*="gg.bet"], a[href*="goo.gl"], a[href*="goodgame.pm"], a[href*="gosu.ai"], a[href*="intel.com"], a[href*="invasion.ru"], button.pl-button--icon.pl-button--follow.pl-button, a[href*="is.gd"], a[href*="rusfond.ru"], .pl-single-rec-wrapper.recommendations-overlay.player-overlay, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative, a[href*="myway2win.com"]>img, a[href*="webto.ru"]>img, a[href*="hero.logitech.promo"]>img, .tw-z-above.tw-pd-t-05.tw-absolute.subtember-callout, a[href*="cybertraff.info/"], .tw-z-default.channel-leaderboard, .tw-full-width > .tw-mg-b-2, .tw-transition__fade--enter-done.tw-transition__fade.tw-transition--enter-done.tw-transition--duration-long.tw-transition, .tw-z-default.channel-leaderboard, .tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar, .tw-z-default.tw-full-width.tw-absolute.chat-room__notifications, .tw-lg-flex.tw-hide > .tw-relative, .tw-pd-x-05.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.muted-segments-alert, .tw-top-0.tw-right-0.tw-pd-2.tw-bottom-0.tw-absolute.player-overlay-background-sidebar.player-overlay-background--darkness-3.player-overlay-background, a[href*="vsemaykishop.ru"], a[href*="tiny.cc"], .tw-relative.tw-inline > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button.tw-button-icon--secondary.tw-button-icon.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, a[href*="opseat.com"], a[href*="//vk.com/altasutashop"]>img, a[href*="http://drpositive.ru/"]>img, .toast-manager__container, .float-animation__children-wrapper, a[href*="//pm6.site"], .tw-z-above.tw-pd-t-05.tw-absolute.megacommerce-callout, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--secondary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-mg-t-05.tw-justify-content-between.tw-flex-wrap.tw-flex.tw-align-items-start, .tw-pd-x-1.tw-justify-content-between.tw-flex-nowrap.tw-flex.theatre-social-panel, .live-notifications__btn, a[href*="//torobrand.com/"]>img, a[href*="//cutt.ly/"], a[href*="https://vk.com/gnummetv?w=wall-66138380_737072"]>img
+vivatube.com##.puFloatLine, .drt-sponsor-block
 vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils
 webmoney.ru##.left_sidebar-ad_banner
 xhamster2.*,xhamster.*##.no-popunder.wig-sponsor-banner, .promo-message, .wig-sponsor-link
 yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem, .dist-popup__content.popup__content, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_weather_yes.desk-notif-card, .container__line.container__banner.container, div > a[href*="//plus.yandex."], [class*="desk-notif-card"] > a[href*="/plus.yandex"], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_dark-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, [class*="desk-notif-card"] > a[href*="/plus.yandex"], .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.nqpJ9Xng.user2__tooltip.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .popup2_visible_yes.popup2_direction_bottom-center.popup2_js_inited.i-bem.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_yes.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.i-bem.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .widgets__col_td_2, .widget_id_teaser, .media-promo, .popup2_visible_yes.popup2_direction_bottom-right.serp-user_js_inited.promo-popup_js_inited._popup2-destructor_js_inited._popup2-destructor.popup2_js_inited.i-bem.serp-user__promo-popup.serp-user.promo-popup_social_yes.promo-popup_type_promo.promo-popup_shadow_yes.promo-popup_theme_ffffff.promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_theme_clear.popup2_target_anchor.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_grey.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .notifier__box, .notifier_js_inited.notifier_has-unread_yes.i-bem.serp-header__notifier.notifier_fade_yes.notifier_size_m.notifier_no-login_yes.notifier_header.notifier, .header-favorites-button_js_inited.i-bem.header-favorites-button, .distr-popup__content.popup2__content, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.i-bem.carousel__yabro-tooltip.tooltip-api_theme_promo.tooltip-api.tooltip_autoclosable_yes.tooltip_align_left.tooltip_view_classic.tooltip_tone_dark.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .main__carousel_js_inited.serp_js_inited.i-bem.serp.main__carousel > .serp-item, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.tooltip_js_inited.i-bem.cover__yabro-tooltip.tooltip-api_onboarding.tooltip-api_theme_promo.tooltip-api.tooltip_align_left.tooltip_view_classic.tooltip_tone_default.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2, .sticky, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.sofOvnj8.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, div#masthead-ad, #alert-banner
-! CSS
+! CSS END
 
 ! XPATH
 english-films.com##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Покупка абонемента'])
@@ -653,6 +653,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! OTHER
 *$beacon,important
 */adoverlay/*$important
+*/ads/
+*/adsense/
+*/advertising/
 */analytics/web/*$domain=~analytics.google.com
 */cookieconsent2/*$important
 */cookieconsent/*$important
@@ -664,9 +667,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 */sailthru/*$important
 */yandex-metrica-watch/*$important
 /\/ads([0-9]{1})?\.html?$/$important
-*/advertising/
-*/ads/
-*/adsense/
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,7})?stat(s|istics?)?([0-9]{1,3})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]/$important,domain=~webmoney.ru|~my.mail.ru
 ||ads0.
 ||ads1.
@@ -680,6 +680,17 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||ads9.
 ||ads10.
 ||ads.$domain=~ads.google.com
+||analytics0.
+||analytics1.
+||analytics2.
+||analytics3.
+||analytics4.
+||analytics5.
+||analytics6.
+||analytics7.
+||analytics8.
+||analytics9.
+||analytics.
 ||beacon0.
 ||beacon1.
 ||beacon2.
@@ -707,7 +718,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||event10.
 ||event.
 ||google.*/ads/$important
-||google.*/complete/
+||google.*/complete/$other,xmlhttprequest
 ||meta^
 ||monitor0.
 ||monitor1.
@@ -735,17 +746,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||safebrowsing10.
 ||safebrowsing.
 ||yandex.*/suggest/$other,xmlhttprequest
-||analytics.
-||analytics0.
-||analytics1.
-||analytics2.
-||analytics3.
-||analytics4.
-||analytics5.
-||analytics6.
-||analytics7.
-||analytics8.
-||analytics9.
 ! OTHER END
 
 ! DOCUMENT
@@ -757,12 +757,12 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! DOCUMENT END
 
 ! SUBDOCUMENT
+*/ga.html|$subdocument
 */revenuehits.html|$subdocument
 */sapphirum250.html|$subdocument
 /^https?:\/\/[a-z0-9]{4,12}\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|host|info|loan|men|ml|online|ovh|party|pro|pw|racing|review|rocks|science|site|space|stream|tk|top|trade|webcam|website|win|xyz|store|solutions|software|social|site|shop|services|sale|run|rip|reviews|restaurant|report|zone)\/[\w\/\-.+]{120,}/$subdocument,third-party,domain=~is123moviesto.com
 ||fas.li^$subdocument,domain=likn.xyz
 ||phncdn.com/iframe$subdocument
-*/ga.html|$subdocument
 ||yastatic.net/tableau/tableau.html$subdocument
 ! SUBDOCUMENT END
 
@@ -781,20 +781,20 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/endscreen.js|$script,domain=youtube.com,important
 |http*:*/gajs/analytics.js|$script,important
 |http*:*/gtag.js|$script,important
-||yastatic.net/nearest.js|$script
 |http*:*/hdmgor.js|$script,important
 |http*:*/js/*zss*.js|$script,important
 |http*:*/js/hdgugan.js|$script,important
 |http*:*/js/youmaylike/*$script,important
 |http*:*/promo-banner.js|$script,domain=pornhub.com,important
+|http*:*/push/subscribe.js?$script,important
 |http*:*/rodo/rodo.js|$script,important
 |http*:*/snow.js|$script
-|http*:*/push/subscribe.js?$script,important
 |http*:*/swb.js|$script,important
 ||bc.vc/js/app.v5.js$script,important
 ||hdeuropix.com^$script
-||yastatic.net^*/widget_ya.js|$script,important
 ||vivaldi.com/rep/rep.js|$script,important
+||yastatic.net/nearest.js|$script
+||yastatic.net^*/widget_ya.js|$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -812,13 +812,13 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
-||megatube.xxx/atrm/$xmlhttprequest,script,important
 ||apple.com/*/startpage/$xmlhttprequest,other,important
-||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
-||yandex.ru/prefetch.txt$xmlhttprequest,other,important
-||vk.com/feed2.php$other,xmlhttprequest,important
-||mobile.yandex.net/psuh/$other,xmlhttprequest,important
 ||gstatic.com/safebrowsing$other,xmlhttprequest,important
+||megatube.xxx/atrm/$xmlhttprequest,script,important
+||mobile.yandex.net/psuh/$other,xmlhttprequest,important
+||vk.com/feed2.php$other,xmlhttprequest,important
+||yandex.ru/prefetch.txt$xmlhttprequest,other,important
+||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -836,15 +836,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@##fb-root:not(body):not(html)
 #@##go-top
 #@##goToTop
-/footer/facebook.$badfilter
-/footer/twitter.$badfilter
-||adobedtm.com^$badfilter
 #@##gotoTop
 #@##gotop
 #@##icon-facebook
-/share_button.$badfilter
-fandom.com#@#body:style(overflow: auto !important;)
-fandom.com#@#+js(set, wgAffiliateEnabled, false)
 #@##icon-instagram
 #@##icon-rss
 #@##icon-snapchat
@@ -854,20 +848,15 @@ fandom.com#@#+js(set, wgAffiliateEnabled, false)
 #@##menu-social-links
 #@##return-to-top
 #@##scroll-to-top
-/footer/instagram.$badfilter
 #@##scrollTop
 #@##share
 #@##share-container
 #@##share-post
-videomega.co#@#+js(set, canRunAds, true)
 #@##share_button
 #@##share_facebook
 #@##share_pinterest
 #@##share_twitter
 #@##social-foot
-videobin.co#@#+js(set, adb, 0)
-videobin.co#@#+js(acis, Math, zfgloaded)
-||reddit.com/api/info.json?$third-party,badfilter
 #@##social-links-toggle
 #@##social-plugins
 #@##subscribe-email
@@ -876,6 +865,7 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@##vk_groups
 #@##vk_like
 #@##xb_ScrollUp
+#@#*
 #@#.Icon--twitter
 #@#.ListSocial
 #@#.Subscribe
@@ -947,7 +937,6 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@#.g-plusone
 #@#.gig-share-bar-container
 #@#.gig-share-button-container
-/ya-share-cnt.html?url=$badfilter
 #@#.glyphicon-arrow-up
 #@#.go-top
 #@#.google-plus
@@ -1092,8 +1081,6 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@#.vkontakte
 #@#.widget_bimber_widget_facebook_page
 #@#.widget_blog_subscription
-||upload4earn.org^$document,badfilter
-/scroll-top.$badfilter
 #@#.widget_mc4wp_form_widget
 #@#.widget_social
 #@#.ya-share2
@@ -1101,11 +1088,6 @@ videobin.co#@#+js(acis, Math, zfgloaded)
 #@#.ya-share2__list
 #@#.ya-share2_inited
 #@#.yashare-auto-init
-yesmovies.*#@#+js(aopr, AaDetector)
-yesmovies.*#@#+js(aopw, Fingerprint2)
-yesmovies.*#@#+js(acis, Math, zfgloaded)
-yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
-yesmovies.*#@#+js(aopr, zfgloadedpopup)
 #@#.yx-share
 #@#:not(.sharingOptionsGroup) > .share-menu
 #@#[class^="adv-"]
@@ -1132,10 +1114,6 @@ yesmovies.*#@#+js(aopr, zfgloadedpopup)
 #@#a[href^="//vk.com/share.php?"]
 #@#a[href^="//www.facebook.com/sharer.php?"]
 #@#a[href^="//www.pinterest.com/pin/create/button/"]
-||datoporn.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.peer5.com *.jwpcdn.com *.googletagmanager.com,badfilter
-datoporn.co#@#+js(set-constant, cRAds, true)
-datoporn.co#@##a[onclick]
--share-buttons3/$badfilter
 #@#a[href^="//www.reddit.com/submit"]
 #@#a[href^="//www.reddit.com/submit?"]
 #@#a[href^="http://digg.com/submit?"]
@@ -1213,8 +1191,6 @@ datoporn.co#@##a[onclick]
 #@#a[title="twitter"]
 #@#a[title="ВКонтакте"]
 #@#a[title^="Follow us on Google"]
-clik.pw#@#+js(addEventListener-defuser, /^(?:error|load)$/, P5)
-clik.pw#@#+js(addEventListener-defuser, mouseup, click)
 #@#a[title^="Follow us on Instagram"]
 #@#a[title^="Follow us on Tumblr"]
 #@#a[uk-totop]
@@ -1222,16 +1198,9 @@ clik.pw#@#+js(addEventListener-defuser, mouseup, click)
 #@#button[class*="share-button"]
 #@#div#disqus_thread
 #@#div.fb-comments
-aii.sh#@#+js(acis, String.prototype.charCodeAt)
-aii.sh#@#+js(aopr, Date.prototype.toUTCString)
-aii.sh#@#+js(acis, Object.defineProperty, vocabulary)
-aii.sh#@#+js(acis, Math, zfgloaded)
-mirrorace.com#@#+js(acis, RegExp, _0x)
 #@#div.fb_iframe_widget
 #@#div[button="share"]
 #@#div[class*="share-link"]
-/i/twitter.$badfilter
-/i/vk.$badfilter
 #@#div[class^="widget-social"]
 #@#div[class^="ya-share"]
 #@#div[id^="vk_comments"]
@@ -1264,8 +1233,8 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 */*$script,domain=uiz.io,third-party,redirect-rule=noopjs,badfilter
 -google-plus-$badfilter
 -pinterest.$badfilter
+-share-buttons3/$badfilter
 -social-icon-$badfilter
-|https://$script,third-party,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
 -social-icons/$image,badfilter
 -social-share/$badfilter
 -userbar.$image,badfilter
@@ -1284,12 +1253,16 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /facebook.svg$badfilter
 /facebook_logo.$badfilter
 /fb1-right.$badfilter
+/footer/facebook.$badfilter
+/footer/instagram.$badfilter
+/footer/twitter.$badfilter
 /footer_facebook.$badfilter
-/ico_twitter.$badfilter
-/ico_facebook.$badfilter
 /googleplus.png$badfilter
 /gotop.$badfilter
-||facebook.com/plugins/comments.php?$badfilter
+/i/twitter.$badfilter
+/i/vk.$badfilter
+/ico_facebook.$badfilter
+/ico_twitter.$badfilter
 /icon-facebook-$badfilter
 /icon-facebook.$badfilter
 /icon-instagram.$badfilter
@@ -1315,7 +1288,6 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /images/social.$badfilter
 /images/social/*$badfilter
 /images/twitter$badfilter
-#@#*
 /images/vk-$badfilter
 /img/*/social-$badfilter
 /img/*facebook.png$domain=~github.io,badfilter
@@ -1343,6 +1315,7 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /public/*twitter.png$badfilter
 /reddit.png$badfilter
 /rss.png$badfilter
+/scroll-top.$badfilter
 /scroll_top.$badfilter
 /scrollbtntop.$badfilter
 /scrolltop.$badfilter
@@ -1354,6 +1327,7 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /share/facebook.$badfilter
 /share/js/*$badfilter
 /share/twitter.$badfilter
+/share_button.$badfilter
 /sharedaddy/*$image,script,badfilter
 /sharethis.js$badfilter
 /skm/assets/share/*$badfilter
@@ -1389,6 +1363,7 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 /wp-content/plugins/sassy-social-share/*$badfilter
 /wp-content/plugins/social-warfare/*$badfilter
 /wp-content/plugins/ultimate-social-media-plus/*$badfilter
+/ya-share-cnt.html?url=$badfilter
 /youtube.svg$badfilter
 123link.*#@#+js(abort-current-inline-script, $, test-block)
 123link.*#@#+js(abort-on-property-read, jQuery.adblock)
@@ -1407,22 +1382,34 @@ mirrorace.com#@#+js(acis, RegExp, _0x)
 @@||twimg.com/tweets.json?*callback$script,badfilter
 @@||xhamster.com/videos/$first-party,csp,badfilter
 @@||yastatic.net/share2/share.js$badfilter
+_social-bar/$badfilter
 adshort.*,likn.xyz,oko.sh#@#+js(aopw, Fingerprint2)
 adshort.*,ventax.net,shorten.*,movienear.me,shrtfly.*#@#+js(aopr, app_vars.force_disable_adblock)
 agar.io#@#+js(abort-on-property-write, hasAdblock)
+aii.sh#@#+js(acis, Math, zfgloaded)
+aii.sh#@#+js(acis, Object.defineProperty, vocabulary)
+aii.sh#@#+js(acis, String.prototype.charCodeAt)
+aii.sh#@#+js(aopr, Date.prototype.toUTCString)
 akvideo.stream#@#+js(acis, setTimeout, mypop)
 australianfrequentflyer.com.au#@#+js(acis, $, adsBlocked)
 bmovies.*#@#+js(abort-on-property-read, zfgloadedpopup)
 bolly4umovies.xyz#@#+js(set, zfgformats, noopFunc)
 ckk.ai#@#+js(acis, Object.defineProperty, vocabulary)
 ckk.ai#@#+js(aopr, parcelRequire)
+clik.pw#@#+js(addEventListener-defuser, /^(?:error|load)$/, P5)
+clik.pw#@#+js(addEventListener-defuser, mouseup, click)
+clipwatching.com#@#+js(aopr, mm)
+clipwatching.com#@#+js(set-constant, adblock, false)
+datoporn.co#@##a[onclick]
+datoporn.co#@#+js(set-constant, cRAds, true)
 derstandard.*#@#+js(aopw, _sp_)
 dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
 entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx#@#+js(aopr, AaDetector)
-||connect.facebook.net^*/fbds.js$third-party,badfilter
+fandom.com#@#+js(set, wgAffiliateEnabled, false)
+fandom.com#@#body:style(overflow: auto !important;)
 fas.li#@#+js(abort-on-property-read, blockAdBlock)
 fembed.com#@#+js(setInterval-defuser, (), 500)
 fembed.com,xstreamcdn.com,embed.media,clipwatching.com#@#+js(aopr, jwplayer.utils.Timer)
@@ -1431,8 +1418,6 @@ get-to.link#@#+js(aopr, Date.prototype.toUTCString)
 get-to.link#@#+js(aopr, document.dispatchEvent)
 get-to.link#@#+js(aopr, exoJsPop101)
 get-to.link#@#+js(aopw, ai_adb_overlay)
-clipwatching.com#@#+js(aopr, mm)
-clipwatching.com#@#+js(set-constant, adblock, false)
 go99tech.com##.banner-inner
 gounlimited.to#@#+js(abort-on-property-read, _0x4aea)
 gounlimited.to#@#+js(acis, $, adb)
@@ -1444,6 +1429,11 @@ icutlink.com#@#+js(aopr, confirm)
 icutlink.com#@#+js(aopr, eval)
 icutlink.com#@#+js(ra, onclick)
 icutlink.com,files.cx#@#+js(aopr, absda)
+jawcloud.co#@#+js(acis, Math, zfgloaded)
+jawcloud.co#@#+js(aopr, AaDetector)
+jawcloud.co#@#+js(aopr, console.clear)
+jawcloud.co#@#+js(aopr, open)
+jawcloud.co#@#+js(aopw, Fingerprint2)
 kimcartoon.to#@#+js(setTimeout-defuser, adbWarnContainer)
 kisscartoon.*#@#+js(addEventListener-defuser, mousedown, clientX)
 lewat.club#@#+js(acis, $, open)
@@ -1460,6 +1450,7 @@ mediafire.com#@#+js(abort-current-inline-script, document.getElementById, adbloc
 mediafire.com#@#+js(setTimeout-defuser, scan, 500)
 megatube.xxx#@#+js(remove-attr, oncontextmenu)
 megatube.xxx#@#.p-ig
+mirrorace.com#@#+js(acis, RegExp, _0x)
 monova.*#@#+js(abort-on-property-read, adblock)
 monova.*#@#+js(abort-on-property-write, small_dl)
 monova.*#@#+js(abort-on-property-write, zoneNativeSett)
@@ -1468,6 +1459,9 @@ my.mail.ru#@#+js(window.open-defuser, , clb670603)
 my.mail.ru#@#div[class^="sp-video__item-page-new__share"]
 nekopoi.*#@#+js(aeld, , adsense)
 newsfilter.org#@#+js(aopr, dataPopUnder)
+nyafilmer.*#@#+js(acis, Math, eval)
+nyafilmer.*#@#+js(aopr, Object.prototype._isPopunderAvailable)
+nyafilmer.*#@#+js(aopr, console.clear)
 ok.ru#@##anonymPageContent > div[data-promo]
 oload.*#@#+js(aopr, decodeURI)
 oload.*,streamhoe.*#@#+js(aopr, _pop)
@@ -1478,6 +1472,7 @@ ovagames.com#@#+js(abort-current-inline-script, disableSelection, reEnable)
 ovagames.com#@#+js(abort-on-property-write, document.oncontextmenu)
 pl#@#.ad
 pl#@#[id*="ad-container"]:not(#documents-upload-container)
+platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.querySelectorAll('div[style^="padding-bottom: 0px;"] > div[style^="padding-top:"] > div:not([class]):not([style]').forEach(function(b){Object.keys(b).some(function(a){if(a.includes("reactEventHandlers")){a=b[a];try{var c=a.children._owner.memoizedProps.id;c.includes("promotedTweet")&&(b.style="display:none!important;")}catch(d){}}})})})).observe(document,{childList:!0,subtree:!0})}();
 pornhub.com#@#+js(abort-current-inline-script, Math, createShadowRoot)
 pornhub.com#@#+js(abort-on-property-write, isAdblockOn)
 pornhub.com#@#+js(addEventListener-defuser, DOMContentLoaded, [native code])
@@ -1520,6 +1515,9 @@ ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*#@#+js(aopw, _p
 vidcloud.*#@#+js(acis, Math, zfgloaded)
 vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set-constant, pop_cnt, 1)
+videobin.co#@#+js(acis, Math, zfgloaded)
+videobin.co#@#+js(set, adb, 0)
+videomega.co#@#+js(set, canRunAds, true)
 vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(abort-on-property-read, links)
 voxc.org#@#+js(aeld, load, onload)
@@ -1532,15 +1530,12 @@ wstream.*#@#+js(ra, onclick)
 wstream.*#@#+js(std, height)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
-nyafilmer.*#@#+js(aopr, Object.prototype._isPopunderAvailable)
-nyafilmer.*#@#+js(aopr, console.clear)
-nyafilmer.*#@#+js(acis, Math, eval)
-jawcloud.co#@#+js(aopw, Fingerprint2)
-jawcloud.co#@#+js(aopr, open)
-jawcloud.co#@#+js(aopr, console.clear)
-jawcloud.co#@#+js(aopr, AaDetector)
-jawcloud.co#@#+js(acis, Math, zfgloaded)
 xhamster.*#@#+js(aopw, wil-popunder)
+yesmovies.*#@#+js(acis, Math, zfgloaded)
+yesmovies.*#@#+js(aopr, AaDetector)
+yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
+yesmovies.*#@#+js(aopr, zfgloadedpopup)
+yesmovies.*#@#+js(aopw, Fingerprint2)
 youporn.com#@#+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 youporn.com#@#+js(abort-on-property-read, _goat)
 youporn.com#@#+js(abort-on-property-read, zone_2547)
@@ -1551,11 +1546,11 @@ yts.*#@#+js(acis, $, blocked)
 |http*://$image,domain=ip.cn,badfilter
 |http*://*?$third-party,popup,domain=pornhub.com|pornsocket.com|redtube.com|spankwire.com|tube8.com|vidz78.com|xxxkingtube.com|youporn.com|youporngay.com,badfilter
 |http://$script,third-party,xmlhttprequest,domain=rule34hentai.net,badfilter
+|https://$script,third-party,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
 |https://$script,third-party,xmlhttprequest,domain=rule34hentai.net,badfilter
 |https://$third-party,script,domain=kimcartoon.to,badfilter
 |https://$third-party,script,domain=mac-torrent-download.net,badfilter
 |https://$third-party,script,domain=movies123.xyz,badfilter
-platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.querySelectorAll('div[style^="padding-bottom: 0px;"] > div[style^="padding-top:"] > div:not([class]):not([style]').forEach(function(b){Object.keys(b).some(function(a){if(a.includes("reactEventHandlers")){a=b[a];try{var c=a.children._owner.memoizedProps.id;c.includes("promotedTweet")&&(b.style="display:none!important;")}catch(d){}}})})})).observe(document,{childList:!0,subtree:!0})}();
 |https://$third-party,stylesheet,domain=movies123.xyz,badfilter
 |https://$third-party,subdocument,domain=akvideo.stream,badfilter
 |https://$third-party,subdocument,domain=gowatchseries.tv,badfilter
@@ -1575,6 +1570,7 @@ platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.qu
 ||addtoany.com^$third-party,badfilter
 ||adf.ly^$badfilter
 ||adf.ly^$third-party,script,domain=~j.gs|~q.gs,badfilter
+||adobedtm.com^$badfilter
 ||adtival.network^$third-party,badfilter
 ||an.yandex.ru^$script,redirect=noopjs,badfilter
 ||an.yandex.ru^$xmlhttprequest,redirect=nooptext,badfilter
@@ -1595,16 +1591,19 @@ platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.qu
 ||checkadblock.ru^$csp=script-src 'self' * data:,badfilter
 ||coinverti.com^$badfilter
 ||connect.facebook.net^$badfilter
+||connect.facebook.net^*/fbds.js$third-party,badfilter
 ||connect.mail.ru^$third-party,badfilter
 ||connect.ok.ru^$badfilter
 ||connect.ok.ru^$third-party,badfilter
 ||count-server.sharethis.com^$badfilter
+||datoporn.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.peer5.com *.jwpcdn.com *.googletagmanager.com,badfilter
 ||dditscdn.com^$badfilter
 ||disqus.com/api/*/listrelated.json?$badfilter
 ||eztv.*^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||eztv.io^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||facebook.com*/plugins/like.php?$third-party,badfilter
 ||facebook.com/plugins/$domain=~facebook.com|~freepresets.com,badfilter
+||facebook.com/plugins/comments.php?$badfilter
 ||facebook.com/plugins/page.php?$third-party,badfilter
 ||fbtc-audio.freebitco.in^$badfilter
 ||freebitco.in^$badfilter
@@ -1626,11 +1625,6 @@ platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.qu
 ||kisshentai.net^$badfilter
 ||lastpass.com^*/analyticsjs$~third-party,script,badfilter
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline',badfilter
-||yandex.*/clck/$important,badfilter
-||yandex.*/clck/$badfilter
-||yandex.ru/clck/jclck/$badfilter
-||yandex.ru/clck/click$badfilter
-||yandex.*/clck/$xmlhttprequest,badfilter
 ||linkbucks.com^$badfilter
 ||liveinternet.ru^$badfilter
 ||m.addthis.com^$badfilter
@@ -1647,7 +1641,6 @@ platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.qu
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=temp-mail.org,empty,important,badfilter
 ||pinterest.com/v1/urls/count.json$third-party,badfilter
 ||pladform.ru^$badfilter
-_social-bar/$badfilter
 ||pladform.ru^$third-party,badfilter
 ||platform.linkedin.com^$badfilter
 ||platform.stumbleupon.com/*/widgets.js$third-party,badfilter
@@ -1666,6 +1659,7 @@ _social-bar/$badfilter
 ||r.mail.ru^$badfilter
 ||rapidvideo.com^$script,badfilter
 ||realtime.services.disqus.com^$badfilter
+||reddit.com/api/info.json?$third-party,badfilter
 ||rjno1.com^$csp=script-src 'self' * 'unsafe-eval',badfilter
 ||rjno1.com^$csp=script-src 'self' *;style-src,badfilter
 ||rule34hentai.net^$script,~third-party,badfilter
@@ -1694,6 +1688,7 @@ _social-bar/$badfilter
 ||typekit.net^$badfilter
 ||uii.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.google.com *.googletagmanager.com,badfilter
 ||uiz.io^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
+||upload4earn.org^$document,badfilter
 ||uptolike.com^$badfilter
 ||use.typekit.net^$badfilter
 ||usocial.pro^$third-party,badfilter
@@ -1714,6 +1709,11 @@ _social-bar/$badfilter
 ||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||www.linkbucks.com^$badfilter
 ||xyz^$third-party,xmlhttprequest,script,subdocument,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~vk.com,badfilter
+||yandex.*/clck/$badfilter
+||yandex.*/clck/$important,badfilter
+||yandex.*/clck/$xmlhttprequest,badfilter
+||yandex.ru/clck/click$badfilter
+||yandex.ru/clck/jclck/$badfilter
 ||yandex.st/share/$badfilter
 ||yllix.com^$badfilter
 ||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline',badfilter
