@@ -1494,6 +1494,14 @@ wstream.*#@#+js(ra, onclick)
 wstream.*#@#+js(std, height)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
+nyafilmer.*#@#+js(aopr, Object.prototype._isPopunderAvailable)
+nyafilmer.*#@#+js(aopr, console.clear)
+nyafilmer.*#@#+js(acis, Math, eval)
+jawcloud.co#@#+js(aopw, Fingerprint2)
+jawcloud.co#@#+js(aopr, open)
+jawcloud.co#@#+js(aopr, console.clear)
+jawcloud.co#@#+js(aopr, AaDetector)
+jawcloud.co#@#+js(acis, Math, zfgloaded)
 xhamster.*#@#+js(aopw, wil-popunder)
 youporn.com#@#+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 youporn.com#@#+js(abort-on-property-read, _goat)
@@ -1509,6 +1517,7 @@ yts.*#@#+js(acis, $, blocked)
 |https://$third-party,script,domain=kimcartoon.to,badfilter
 |https://$third-party,script,domain=mac-torrent-download.net,badfilter
 |https://$third-party,script,domain=movies123.xyz,badfilter
+platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.querySelectorAll('div[style^="padding-bottom: 0px;"] > div[style^="padding-top:"] > div:not([class]):not([style]').forEach(function(b){Object.keys(b).some(function(a){if(a.includes("reactEventHandlers")){a=b[a];try{var c=a.children._owner.memoizedProps.id;c.includes("promotedTweet")&&(b.style="display:none!important;")}catch(d){}}})})})).observe(document,{childList:!0,subtree:!0})}();
 |https://$third-party,stylesheet,domain=movies123.xyz,badfilter
 |https://$third-party,subdocument,domain=akvideo.stream,badfilter
 |https://$third-party,subdocument,domain=gowatchseries.tv,badfilter
