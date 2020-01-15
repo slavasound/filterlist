@@ -369,9 +369,6 @@
 ||sputnik.ru^
 ||startappservice.com^
 ||startup.mobile.yandex.net^
-||suggest.yandex.net^
-||suggest.yandex.ru^
-||suggests.go.mail.ru^
 ||taboola.com^
 ||taobao.com^
 ||tapjoy.com^
@@ -699,6 +696,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||beacon5.
 ||beacon6.
 ||beacon7.
+||suggest.
+||suggests.
 ||beacon8.
 ||beacon9.
 ||beacon10.
@@ -981,6 +980,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.newsletter_form
 #@#.pin_share
 #@#.pluso
+/back-to-top.$badfilter
 #@#.plusone
 #@#.post-share-box
 #@#.rdsocial
