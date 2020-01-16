@@ -48,6 +48,7 @@
 !#if !ext_ublock
 !#if (adguard_ext_firefox && adguard_ext_opera && adguard_ext_chromium)
 @@//www.kinopoisk.ru^$document
+@@//www.xvideos.com^$document
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important
 ||google-analytics.com/ga.js$script,redirect=google-analytics-ga,important
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important
@@ -417,7 +418,7 @@
 ||wow.ucweb.com^
 ||xray.mail.ru^
 ||yabs.yandex.
-||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com
+||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk
 ||yastroka.yandex.net^
 ||zen-test.yandex.ru^
 ||zen.yandex.ru^$third-party
