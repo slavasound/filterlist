@@ -691,16 +691,16 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! Content Security Policy END
 
 ! OTHER
+*$beacon,important
 */YandexDownloader.exe
 */YandexPackLoader.exe
-*$beacon,important
 */adoverlay/*$important
 */ads/
 */adsense/
 */advertising/
 */analytics/web/*$domain=~analytics.google.com
-*/cookieconsent2/*$important
-*/cookieconsent/*$important
+*/cookieconsent2/
+*/cookieconsent/
 */plugins/ga-google-analytics/*$important
 */plugins/google-analyticator/*$important
 */plugins/google-analytics-dashboard-for-wp/*$important
@@ -741,8 +741,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||beacon5.
 ||beacon6.
 ||beacon7.
-||suggest.
-||suggests.
 ||beacon8.
 ||beacon9.
 ||beacon10.
@@ -759,9 +757,19 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||event9.
 ||event10.
 ||event.
+||geo0.
+||geo1.
+||geo2.
+||geo3.
+||geo4.
+||geo5.
+||geo6.
+||geo7.
+||geo8.
+||geo9.
+||geo10.
 ||geo.
 ||google.*/ads/$important
-||google.*/complete/$other,xmlhttprequest
 ||meta^
 ||monitor0.
 ||monitor1.
@@ -788,7 +796,30 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||safebrowsing9.
 ||safebrowsing10.
 ||safebrowsing.
-||yandex.*/suggest/$other,xmlhttprequest
+||suggest0.
+||suggest1.
+||suggest2.
+||suggest3.
+||suggest4.
+||suggest5.
+||suggest6.
+||suggest7.
+||suggest8.
+||suggest9.
+||suggest10.
+||suggest.
+||suggests0.
+||suggests1.
+||suggests2.
+||suggests3.
+||suggests4.
+||suggests5.
+||suggests6.
+||suggests7.
+||suggests8.
+||suggests9.
+||suggests10.
+||suggests.
 ! OTHER END
 
 ! DOCUMENT
@@ -862,6 +893,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||vk.com/feed2.php$other,xmlhttprequest,important
 ||yandex.ru/prefetch.txt$xmlhttprequest,other,important
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
+||google.*/complete/$other,xmlhttprequest
+||yandex.*/suggest/$other,xmlhttprequest
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1536,6 +1569,7 @@ streamapi.xyz#@#+js(std, window.open)
 streamp1ay.*#@#+js(aopr, puOverlay)
 swatchseries.to#@#+js(abort-current-inline-script, atob, TextDecoder)
 swatchseries.to#@#+js(abort-on-property-read, setAdblockerCookie)
+@@||upload.wikimedia.org/wikipedia/$badfilter
 tapochek.net#@#+js(abort-on-property-read, ads_script)
 tapochek.net#@#+js(abort-on-property-read, antiadblock)
 temp-mail.org#@#+js(set-constant, checkadBlock, noopFunc)
