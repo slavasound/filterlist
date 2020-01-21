@@ -12,7 +12,7 @@
 !#if (adguard_app_android && adguard_app_ios)
 @@||crashlytics.com^
 @@||tracker-api.my.com^
-@@||vk.com^$stealth
+@@*$stealth,domain=vk.com
 ||amazon-adsystem.com^$empty,important
 ||connect.facebook.net^$important
 ||dropboxusercontent.com^
@@ -177,6 +177,25 @@
 ||94.100.180.197:443^
 ||94.100.184.85:443^
 ||95.167.17.108:443^
+||5.45.229.132:443^
+||5.45.229.130:443^
+||213.180.204.91:443^
+||213.180.204.131:443^
+||173.194.222.156:443^
+||213.180.193.210:443^
+||209.85.233.156:443^
+||213.180.204.90:443^
+||173.194.73.154:443^
+||173.194.222.155:443^
+||173.194.73.157:443^
+||108.177.14.97:443^
+||173.194.222.132:443^
+||209.85.233.155:443^
+||64.233.161.97:443^
+||209.85.233.154:443^
+||173.194.73.155:443^
+||173.194.73.156:443^
+||147.75.92.61:443^
 ||95.167.17.115:443^
 ||99.86.193.112:443^
 ||99.86.193.113:443^
@@ -187,7 +206,6 @@
 ||104.155.184.63:443^
 ||104.244.42.72:443^
 ||108.161.188.158:443^
-||108.177.14.97:443^
 ||108.177.14.154:443^
 ||108.177.14.155:443^
 ||108.177.14.156:443^
@@ -196,7 +214,6 @@
 ||143.204.77.90:443^
 ||143.204.77.169:443^
 ||143.204.77.220:443^
-||147.75.92.61:443^
 ||147.75.92.149:443^
 ||147.75.92.151:443^
 ||147.75.94.109:443^
@@ -207,10 +224,6 @@
 ||162.125.80.6:443^
 ||172.217.160.99:443^
 ||173.194.73.94:443^
-||173.194.73.154:443^
-||173.194.73.155:443^
-||173.194.73.156:443^
-||173.194.73.157:443^
 ||173.194.220.136:443^
 ||173.194.220.148:443^
 ||173.194.220.156:443^
@@ -220,11 +233,8 @@
 ||173.194.221.156:443^
 ||173.194.221.157:443^
 ||173.194.222.97:443^
-||173.194.222.132:443^
 ||173.194.222.148:443^
 ||173.194.222.154:443^
-||173.194.222.155:443^
-||173.194.222.156:443^
 ||173.194.222.157:443^
 ||174.137.133.18:443^
 ||185.5.137.178:443^
@@ -245,17 +255,10 @@
 ||205.185.216.10:443^
 ||205.185.216.42:443^
 ||209.85.233.132:443^
-||209.85.233.154:443^
-||209.85.233.155:443^
-||209.85.233.156:443^
 ||209.85.233.157:443^
 ||212.122.5.136^
 ||213.180.193.90:443^
 ||213.180.193.131:443^
-||213.180.193.210:443^
-||213.180.204.90:443^
-||213.180.204.91:443^
-||213.180.204.131:443^
 ||216.58.208.238:443^
 ||217.69.133.145:443^
 ||217.69.139.244:443^
@@ -365,6 +368,7 @@
 ||mc.yandex.ru^
 ||merchandise.opera-api.com^
 ||moatads.com^
+||ogs.google.com^
 ||mradx.net^
 ||mrbrwsr.com^
 ||mrds.mail.ru^
@@ -710,6 +714,12 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 */yandex-metrica-watch/*$important
 /\/ads([0-9]{1})?\.html?$/$important
 /^https?:\/\/[^\s]+\/([a-zA-Z]{1,7})?stat(s|istics?)?([0-9]{1,3})?[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]/$important,domain=~webmoney.ru|~my.mail.ru
+||chrome.google.com/*/ldgpjdiadomhinpimgchmeembbgojnjk
+||chrome.google.com/*/ppiaojpbclpegkkkmikabinlpbahhbha
+||gstatic.com/*OneGoogleWidgetUi
+||google.com/async/newtab_promos
+||google.com/async/newtab_ogb
+||google.com/async/ddljson
 ||ads0.
 ||ads1.
 ||ads2.
@@ -769,7 +779,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||geo9.
 ||geo10.
 ||geo.
-||google.*/ads/$important
 ||meta^
 ||monitor0.
 ||monitor1.
@@ -875,6 +884,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||addons.opera.com/themes/$xmlhttprequest
+||gstatic.com/autofill/weekly/merchants.json$xmlhttprequest
+||gstatic.com/autofill/hourly/bins.json$xmlhttprequest
+||update.googleapis.com/service/update2/json$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
