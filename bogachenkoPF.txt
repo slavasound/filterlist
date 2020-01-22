@@ -615,6 +615,7 @@ yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~m
 *##a[href*="warna365.net"]
 *##a[href*="wasiteuro.com"]
 *##a[href*="wismakita.com"]
+*##a[href*="mob1ledev1ces.com"]
 *##a[href*="wymbet338.com"]
 *##a[href*="yabrowser"]
 *##a[href="/user/premiummembership"]
@@ -623,6 +624,9 @@ yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~m
 *##a[src*="://ads."]
 *##a[src="/images/sidebanner.jpg"]
 *##cookies-policy-confirm
+*##.eu-cookie
+*##.ru-cookie
+*##.us-cookie
 2ch.*##.logo
 8fornod.net,trialeset.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
 8fornod.net,trialeset.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
@@ -878,6 +882,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||vivaldi.com/rep/rep.js|$script,important
 ||yastatic.net/nearest.js|$script
 ||yastatic.net^*/widget_ya.js|$script,important
+|http*:*/snippet.js|$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1070,6 +1075,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.pin_share
 #@#.pluso
 /back-to-top.$badfilter
+@@||p.jwpcdn.com/player/v/$script,3p,badfilter
+|https:*?*&ip=$3p,badfilter
 #@#.plusone
 #@#.post-share-box
 #@#.rdsocial
@@ -1475,7 +1482,6 @@ _social-bar/$badfilter
 adshort.*,likn.xyz,oko.sh#@#+js(aopw, Fingerprint2)
 adshort.*,ventax.net,shorten.*,movienear.me,shrtfly.*#@#+js(aopr, app_vars.force_disable_adblock)
 agar.io#@#+js(abort-on-property-write, hasAdblock)
-aii.sh#@#+js(acis, Math, zfgloaded)
 aii.sh#@#+js(acis, Object.defineProperty, vocabulary)
 aii.sh#@#+js(acis, String.prototype.charCodeAt)
 aii.sh#@#+js(aopr, Date.prototype.toUTCString)
@@ -1496,7 +1502,7 @@ dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
-entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx#@#+js(aopr, AaDetector)
+entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co#@#+js(aopr, AaDetector)
 fandom.com#@#+js(set, wgAffiliateEnabled, false)
 fandom.com#@#body:style(overflow: auto !important;)
 fas.li#@#+js(abort-on-property-read, blockAdBlock)
@@ -1505,21 +1511,20 @@ fembed.com,xstreamcdn.com,embed.media,clipwatching.com#@#+js(aopr, jwplayer.util
 gelbooru.com#@#+js(acis, BPJS)
 get-to.link#@#+js(aopr, Date.prototype.toUTCString)
 get-to.link#@#+js(aopr, document.dispatchEvent)
+^ads^$document,badfilter
 get-to.link#@#+js(aopr, exoJsPop101)
 get-to.link#@#+js(aopw, ai_adb_overlay)
 go99tech.com##.banner-inner
 gounlimited.to#@#+js(abort-on-property-read, _0x4aea)
 gounlimited.to#@#+js(acis, $, adb)
 hqq.*#@#+js(set-constant, sadbl, false)
-hqq.*,waaw.tv,waaws.*#@#+js(aopr, adBlockDetected)
+hqq.*,waaw.tv,waaws.*,uiz.io#@#+js(aopr, adBlockDetected)
 hqq.tv#@#+js(setTimeout-defuser, check, 100)
 icutlink.com#@#+js(abort-on-property-write, atob)
 icutlink.com#@#+js(aopr, confirm)
 icutlink.com#@#+js(aopr, eval)
 icutlink.com#@#+js(ra, onclick)
 icutlink.com,files.cx#@#+js(aopr, absda)
-jawcloud.co#@#+js(acis, Math, zfgloaded)
-jawcloud.co#@#+js(aopr, AaDetector)
 jawcloud.co#@#+js(aopr, console.clear)
 jawcloud.co#@#+js(aopr, open)
 jawcloud.co#@#+js(aopw, Fingerprint2)
@@ -1601,15 +1606,14 @@ upornia.com#@#+js(acis, vdaList)
 upornia.com#@#+js(aopr, ExoLoader)
 upornia.com#@#+js(aopr, WarBringer.addZone)
 upornia.com#@#+js(aopw, ads_priv)
-ventax.net#@#+js(acis, fuckAdBlock, importFAB)
-ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*#@#+js(aopw, _pop)
-vidcloud.*#@#+js(acis, Math, zfgloaded)
+ventax.net,uiz.io#@#+js(acis, fuckAdBlock, importFAB)
+ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*,uiz.io#@#+js(aopw, _pop)
 vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set-constant, pop_cnt, 1)
 videobin.co#@#+js(acis, Math, zfgloaded)
 videobin.co#@#+js(set, adb, 0)
 videomega.co#@#+js(set, canRunAds, true)
-vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*#@#+js(acis, Math, zfgloaded)
+vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(abort-on-property-read, links)
 voxc.org#@#+js(aeld, load, onload)
 voxc.org#@#+js(aopw, adBlockDetected)
@@ -1622,8 +1626,6 @@ wstream.*#@#+js(std, height)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
 xhamster.*#@#+js(aopw, wil-popunder)
-yesmovies.*#@#+js(acis, Math, zfgloaded)
-yesmovies.*#@#+js(aopr, AaDetector)
 yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
 yesmovies.*#@#+js(aopr, zfgloadedpopup)
 yesmovies.*#@#+js(aopw, Fingerprint2)
