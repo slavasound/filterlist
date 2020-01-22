@@ -285,6 +285,8 @@
 ||an.facebook.com^
 ||an.yandex.ru^
 ||api.browser.yandex.$important
+||ksn-cinfo-geo.kaspersky-labs.com^
+||qq.com^
 ||api.recsys.opera.com^
 ||app-measurement.com^
 ||appbaqend.com^
@@ -591,6 +593,7 @@ yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~m
 *##a[href*="murnigoal.com"]
 *##a[href*="nagaikn.club"]
 *##a[href*="panpoker88.info"]
+*##.cc-banner.cc-window
 *##a[href*="parandaya.com"]
 *##a[href*="qq8778.online"]
 *##a[href*="qqgaming88e.com"]
@@ -1011,6 +1014,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.facebook
 #@#.facebook-share
 #@#.facebook_share
+/logos/facebook-$badfilter
 #@#.fb-like
 #@#.fb-page
 #@#.fb-send-to-messenger

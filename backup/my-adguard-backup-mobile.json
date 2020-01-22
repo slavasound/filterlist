@@ -3885,31 +3885,55 @@
   "settingsFiltersConfiguration" : {
     "customFilters" : [ {
       "enabled" : true,
-      "filterId" : 10000,
-      "name" : "bogachenko's Filter List",
-      "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt",
-      "homePage" : "https://github.com/bogachenko/filterlist/",
-      "timeUpdated" : 1578731993192,
-      "trusted" : true,
-      "version" : "20200111110726"
-    }, {
-      "enabled" : true,
       "filterId" : 10001,
       "name" : "Fuck Fuckadblock ",
       "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt",
       "homePage" : "https://github.com/bogachenko/fuckfuckadblock",
-      "timeUpdated" : 1578731983802,
+      "timeUpdated" : 1579690224164,
       "trusted" : true
+    }, {
+      "enabled" : true,
+      "filterId" : 10000,
+      "name" : "bogachenko's Filter List",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt",
+      "homePage" : "https://github.com/bogachenko/filterlist/",
+      "timeUpdated" : 1579690225329,
+      "trusted" : true,
+      "version" : "20200122175552"
     }, {
       "enabled" : true,
       "filterId" : 10002,
       "name" : "bogachenko's Personal Filters",
       "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt",
       "homePage" : "https://github.com/bogachenko/filterlist/tree/personal",
-      "timeUpdated" : 1578731988343,
+      "timeUpdated" : 1579690226451,
+      "trusted" : true
+    }, {
+      "enabled" : true,
+      "filterId" : 10003,
+      "name" : "https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts",
+      "timeUpdated" : 1579690817469,
+      "trusted" : true
+    }, {
+      "enabled" : true,
+      "filterId" : 10004,
+      "name" : "https://raw.githubusercontent.com/kaabir/AdBlock_Hosts/master/Android.txt",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/kaabir/AdBlock_Hosts/master/Android.txt",
+      "timeUpdated" : 1579691134771,
       "trusted" : true
     } ],
     "dnsFilters" : [ {
+      "enabled" : true,
+      "filterId" : 100000,
+      "name" : "bogachenko's Personal Filters",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt"
+    }, {
+      "enabled" : true,
+      "filterId" : 100002,
+      "name" : "jawz101's DNS",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/jawz101/MobileAdTrackers/master/hosts"
+    }, {
       "enabled" : true,
       "filterId" : 15,
       "name" : "Упрощенный фильтр доменных имен AdGuard",
@@ -3921,9 +3945,9 @@
       "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/filterlist/master/filterlist.txt"
     }, {
       "enabled" : true,
-      "filterId" : 100000,
-      "name" : "bogachenko's Personal Filters",
-      "subscriptionUrl" : "https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt"
+      "filterId" : 100003,
+      "name" : "kaabir's DNS",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/kaabir/AdBlock_Hosts/master/Android.txt"
     } ],
     "enabledGroups" : [ "ADS", "LANGUAGE", "PRIVACY", "CUSTOM" ],
     "filters" : {
@@ -3938,8 +3962,8 @@
       "214" : false,
       "224" : false,
       "245" : false,
-      "235" : false,
       "118" : true,
+      "235" : false,
       "244" : false,
       "246" : false,
       "111" : false,
