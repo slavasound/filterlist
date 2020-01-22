@@ -547,16 +547,18 @@ yandex.by,yandex.ru,yandex.ua,~disk.yandex.by,~disk.yandex.ru,~disk.yandex.ua,~m
 *##a[href*="aseanjoker.net"]
 *##a[href*="asia777.me"]
 *##a[href*="auredzeon.com"]
-*##[href*="luxury111bb.com"]
-*##[href*="happistar8.com"]
-*##[href*="9club888.com]
+*##a[href*="luxury111bb.com"]
+*##a[href*="happistar8.com"]
+*##a[href*="9club888.com"]
 *##a[href*="b.link"]
 *##a[href*="baksomerdeka.com"]
 *##a[href*="bandar95.com"]
+*###netkevin-overlay
 *##a[href*="bebasjudi.com"]
 *##a[href*="bets78.com"]
 *##a[href*="bit.ly"]
 *##a[href*="bitly.com"]
+*##a[href*="casinovegas88.win"]
 *##a[href*="bltks.club"]
 *##a[href*="bola100.net"]
 klikfilm.stream###banner
@@ -581,7 +583,10 @@ klikfilm.stream###banner
 *##a[href*="idwinner.club"]
 *##a[href*="indoft95.org"]
 *##a[href*="indoxbet.com"]
+*##a[href*="tgl88.xyz"]
+*##a[href*="mpo189.org"]
 *##a[href*="join-adf.ly"]
+*##a[href*="livebet88.co"]
 *##a[href*="kdaffiliates.com"]
 *##a[href*="kdpoker.asia"]
 *##a[href*="koin4da.com"]
@@ -894,6 +899,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/nearest.js|$script
 ||yastatic.net^*/widget_ya.js|$script,important
 |http*:*/snippet.js|$script,important
+|http*:*/cookienotice.js|$script,important
 |http*:*/monetize.js|$script,important
 ! SCRIPT END
 
@@ -1178,6 +1184,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.top-social
 #@#.twitter
 #@#.twitter-follow-button
+/jwpsrv.$script,badfilter
 #@#.twitter-share-button
 #@#.twitter-timeline
 #@#.twitter-tweet-button
@@ -1517,7 +1524,7 @@ dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
-entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co#@#+js(aopr, AaDetector)
+entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co,vup.to#@#+js(aopr, AaDetector)
 fandom.com#@#+js(set, wgAffiliateEnabled, false)
 fandom.com#@#body:style(overflow: auto !important;)
 fas.li#@#+js(abort-on-property-read, blockAdBlock)
@@ -1625,10 +1632,9 @@ ventax.net,uiz.io#@#+js(acis, fuckAdBlock, importFAB)
 ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*,uiz.io#@#+js(aopw, _pop)
 vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set-constant, pop_cnt, 1)
-videobin.co#@#+js(acis, Math, zfgloaded)
 videobin.co#@#+js(set, adb, 0)
 videomega.co#@#+js(set, canRunAds, true)
-vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*#@#+js(acis, Math, zfgloaded)
+vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(abort-on-property-read, links)
 voxc.org#@#+js(aeld, load, onload)
 voxc.org#@#+js(aopw, adBlockDetected)
