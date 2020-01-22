@@ -853,6 +853,10 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/tableau/tableau.html$subdocument
 ! SUBDOCUMENT END
 
+! STEALTH
+@@*$stealth,domain=white-collar.club
+! STEALTH END
+
 ! SCRIPT
 /^https?:\/\/([^\s]+\.)?firebaseapp\.com\/adx\/[0-9]{8}\.js$/$script,important
 /^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
@@ -1075,11 +1079,12 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.pin_share
 #@#.pluso
 /back-to-top.$badfilter
-@@||p.jwpcdn.com/player/v/$script,3p,badfilter
-|https:*?*&ip=$3p,badfilter
+@@||p.jwpcdn.com/player/v/$script,third-party,badfilter
+|https:*?*&ip=$third-party,badfilter
 #@#.plusone
 #@#.post-share-box
 #@#.rdsocial
+||vkontakte.ru/js/api/$third-party,domain=~arudex.com|~ugo.ru|~vk.com,badfilter
 #@#.result-item-share
 #@#.s-social
 #@#.scroll-to-top
