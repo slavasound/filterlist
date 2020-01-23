@@ -9,10 +9,8 @@
 ! ~~~~~~~ MY SHITTY RULES ~~~~~~~
 
 !#if !ext_ublock
-!#if (adguard_app_android && adguard_app_ios)
-@@||crashlytics.com^
-@@||tracker-api.my.com^
-@@*$stealth,domain=vk.com
+!#if adguard_app_android
+||crashlytics.com^$badfilter
 ||amazon-adsystem.com^$empty,important
 ||connect.facebook.net^$important
 ||dropboxusercontent.com^
@@ -65,6 +63,7 @@
 @@||clients2.google.com/*/crx?$other,xmlhttprequest
 @@||ocsp2.globalsign.com^
 @@||ocsp.globalsign.com^
+@@||vk.com/images/blank.mp4$media
 ! WHITELIST END
 
 ! SITE
