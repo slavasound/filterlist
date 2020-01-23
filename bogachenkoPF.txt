@@ -406,6 +406,7 @@
 ||se.social.sc.sonymobile.com^
 ||service.browser.mail.ru^
 ||sf-userver-upaas.ucweb.com^
+||adbetnetwork.com^
 ||sitecheck2.opera.com^
 ||sitecheck.opera.com^
 ||smi2.ru^$third-party,domain=~smi2.ru
@@ -474,6 +475,7 @@
 */*.mp4|$media,app=game.maddex.jump
 */*.mp4|$media,domain=vb17103elmerwatson.pw
 */melbet.mp4$media,redirect=noopmp4-1s,important
+*/jetfilmizle.mp4|$media,important
 /\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
 ||kinogo.*/player/*.mp4$important,media,redirect=noopmp3-0.1s,domain=kinogo.by
 ! MEDIA END
@@ -493,7 +495,7 @@ hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net##+js(mousedef2.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 peserialehd.us,europixhd.*##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co##+js(addEventListener-defuser.js, contextmenu)
@@ -901,6 +903,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/snippet.js|$script,important
 |http*:*/cookienotice.js|$script,important
 |http*:*/monetize.js|$script,important
+|http*:*/webpush.$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -908,6 +911,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||addons.opera.com/themes/$xmlhttprequest
 ||gstatic.com/autofill/weekly/merchants.json$xmlhttprequest
+||seasonvar.ru/uppod/*.xml|$xmlhttprequest
 ||gstatic.com/autofill/hourly/bins.json$xmlhttprequest
 ||update.googleapis.com/service/update2/json$xmlhttprequest
 ! XMLHTTPREQUEST END
@@ -916,7 +920,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
-/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net|~twitter.com|~steamloopback.host|~yandex.ru|~yandex.ua|~yandex.by|~pandamovies.me|~xopenload.pw|~pandamovie.in|~disqus.com|~kinogo.by|~nyafilmer.lol|~semi168.net|~semi168.club|~pornhub.com|~phncdn.com|~indoxxifilm.com
+/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,domain=~twitch.tv|~agar.io|~opera.com|~zonafilm.xyz|~digitalmusicnews.com|~steampowered.com|~akamaihd.net|~twitter.com|~steamloopback.host|~yandex.ru|~yandex.ua|~yandex.by|~pandamovies.me|~xopenload.pw|~pandamovie.in|~disqus.com|~kinogo.by|~nyafilmer.lol|~semi168.net|~semi168.club|~pornhub.com|~phncdn.com|~indoxxifilm.com|~ffmovies.ru
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?.*?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
@@ -1066,6 +1070,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.icons-facebook
 #@#.icons-flickr
 #@#.icons-googleplus
+||yandex.st^$domain=~yandex.ru|~yandex.ua,badfilter
 #@#.icons-gplus
 #@#.icons-instagram
 #@#.icons-linkedin
@@ -1524,10 +1529,11 @@ dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
-entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co,vup.to#@#+js(aopr, AaDetector)
+entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co,vup.to,hydrax.net#@#+js(aopr, AaDetector)
 fandom.com#@#+js(set, wgAffiliateEnabled, false)
 fandom.com#@#body:style(overflow: auto !important;)
 fas.li#@#+js(abort-on-property-read, blockAdBlock)
+hydrax.net#@#+js(nostif, debugger)
 fembed.com#@#+js(setInterval-defuser, (), 500)
 fembed.com,xstreamcdn.com,embed.media,clipwatching.com#@#+js(aopr, jwplayer.utils.Timer)
 gelbooru.com#@#+js(acis, BPJS)
@@ -1634,7 +1640,7 @@ vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set-constant, pop_cnt, 1)
 videobin.co#@#+js(set, adb, 0)
 videomega.co#@#+js(set, canRunAds, true)
-vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to#@#+js(acis, Math, zfgloaded)
+vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(abort-on-property-read, links)
 voxc.org#@#+js(aeld, load, onload)
 voxc.org#@#+js(aopw, adBlockDetected)
@@ -1647,6 +1653,8 @@ wstream.*#@#+js(std, height)
 xhamster.*#@#+js(aeld, , pop)
 xhamster.*#@#+js(aopr, wig-popunder)
 xhamster.*#@#+js(aopw, wil-popunder)
+ffmovies.ru#@#+js(acis, decodeURIComponent, atob)
+ffmovies.ru#@#+js(acis, parseInt, incrementClicks)
 yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
 yesmovies.*#@#+js(aopr, zfgloadedpopup)
 yesmovies.*#@#+js(aopw, Fingerprint2)
@@ -1774,9 +1782,11 @@ yts.*#@#+js(acis, $, blocked)
 ||rapidvideo.com^$script,badfilter
 ||realtime.services.disqus.com^$badfilter
 ||reddit.com/api/info.json?$third-party,badfilter
+||addthisedge.com^$badfilter
 ||rjno1.com^$csp=script-src 'self' * 'unsafe-eval',badfilter
 ||rjno1.com^$csp=script-src 'self' *;style-src,badfilter
 ||rule34hentai.net^$script,~third-party,badfilter
+|https://$script,third-party,domain=ffmovies.ru,badfilter
 ||rustorka*/forum/*/scroll$domain=rustorka.club|rustorka.com|rustorka.innal.top|rustorka.net|rustorkacom.lib,badfilter
 ||s7.addthis.com^$badfilter
 ||share.pluso.ru^$badfilter
