@@ -276,7 +276,7 @@
 ||adservice.google.com^
 ||adtilt.com^
 ||af.opera.com^
-||alicdn.com^
+||alicdn.com^$third-party,domain=~aliexpress.ru|~aliexpress.com
 ||aliexpress.com^$third-party
 ||alt*-mtalk.google.com^
 ||alt*-safebrowsing.google.com^
@@ -1396,11 +1396,13 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /icon-twitter-$badfilter
 /icon-twitter.$badfilter
 ||jwpcdn.com^$badfilter
+||fastpic.ru^$third-party,badfilter
 /icon-youtube.$badfilter
 /icons/facebook$badfilter
 /icons/google$badfilter
 /icons/share.$badfilter
 /icons/twitter$badfilter
+|https://$script,third-party,domain=1337x.to,badfilter
 /images/*facebook.png$domain=~facebook.com,badfilter
 /images/*instagram.png$badfilter
 @@||fonts.gstatic.com^$badfilter
