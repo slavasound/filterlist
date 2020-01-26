@@ -876,7 +876,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! SUBDOCUMENT END
 
 ! STEALTH
-@@*$stealth,domain=white-collar.club|mts.ru
+@@*$stealth,domain=delivembed.cc|mts.ru
 ! STEALTH END
 
 ! SCRIPT
@@ -1456,6 +1456,12 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 /plugins/*facebook.png$badfilter
 /plugins/*google.png$badfilter
 /plugins/*twitter.png$badfilter
+||platform-api.sharethis.com^$badfilter
+thepiratebay.*#@#+js(aopr, _wm)
+thepiratebay.*#@#+js(aeld, /^(?:click|mousedown)$/, _0x)
+thepiratebay.*#@#+js(aopw, spot)
+thepiratebay.*#@#+js(aopr, popjs.init)
+thepiratebay.org#@#+js(aopw, Fingerprint2)
 /plugins/social-$script,badfilter
 /pluso-like.js$badfilter
 /public/*facebook.png$badfilter
