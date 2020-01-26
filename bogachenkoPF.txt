@@ -10,7 +10,8 @@
 
 !#if !ext_ublock
 !#if adguard_app_android
-||crashlytics.com^$badfilter
+@@||crashlytics.com^$important
+@@||vk-portal.net^$important
 ||amazon-adsystem.com^$empty,important
 ||connect.facebook.net^$important
 ||dropboxusercontent.com^
@@ -1389,6 +1390,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 /assets/*facebook.png$badfilter
 /dk?st.cmd=widgetgroup&st.groupid=$badfilter
 /facebook2.$badfilter
+||vk-portal.net^$important,badfilter
 /facebook.svg$badfilter
 /facebook_logo.$badfilter
 /fb1-right.$badfilter
