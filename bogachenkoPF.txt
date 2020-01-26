@@ -312,7 +312,6 @@
 ||bs.amigo.mail.ru^
 ||bs.browser.mail.ru^
 ||bts-la.ucweb.com^
-||cdn-production-opera-website.operacdn.com^
 ||cdn.ap.bittorrent.com^
 ||chartboost.com^
 ||clients*.google.com^
@@ -422,6 +421,8 @@
 ||taboola.com^
 ||taobao.com^
 ||tapjoy.com^
+||2mdn.net^
+||ofa-sub.osp.opera.software^
 ||tapjoyads.com^
 ||appstatic.opera.com^
 ||op-mobile.opera.com^
