@@ -323,6 +323,7 @@
 ||crm.zenguard.biz^
 ||csp.yandex.net^
 ||data-ntp.browser.mail.ru^
+||adsdk.yandex.ru^
 ||data.amigo.mail.ru^
 ||data.browser.mail.ru^
 ||deloplen.com^
@@ -422,6 +423,8 @@
 ||taobao.com^
 ||tapjoy.com^
 ||tapjoyads.com^
+||appstatic.opera.com^
+||op-mobile.opera.com^
 ||tbcdn.cn^
 ||top-fwz1.mail.ru^
 ||connect.mail.ru^
