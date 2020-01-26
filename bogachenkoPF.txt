@@ -13,7 +13,6 @@
 @@||crashlytics.com^$important
 @@||vk-portal.net^$important
 ||amazon-adsystem.com^$empty,important
-||connect.facebook.net^$important
 ||dropboxusercontent.com^
 ||googlesyndication.com^$script,redirect=noopjs,important
 ||googlesyndication.com^$xmlhttprequest,redirect=nooptext,important
@@ -425,6 +424,9 @@
 ||tapjoyads.com^
 ||tbcdn.cn^
 ||top-fwz1.mail.ru^
+||connect.mail.ru^
+||connect.facebook.net^
+||connect.ok.ru^
 ||twitch.tv^$third-party
 ||twitchcdn.net^$third-party,domain=~twitch.tv
 ||uc123.com^
@@ -441,12 +443,18 @@
 ||webrowser.mail.ru^
 ||wow.ucweb.com^
 ||xray.mail.ru^
-||yabs.yandex.
+||news-af-feednews.com^
+||news.opera-api.com^
+||thumbnails.opera.com^
+||yabs.yandex.ru^
+||yabs.yandex.ua^
+||yabs.yandex.by^
 ||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk
 ||yastroka.yandex.net^
 ||zen-test.yandex.ru^
 ||zen.yandex.ru^$third-party
 ||mail.ru^$third-party
+||yandex.*^$third-party,domain=~yastatic.net
 ! SITE END
 
 ! IMAGE
@@ -1746,12 +1754,7 @@ yts.*#@#+js(acis, $, blocked)
 ||cdn.stripst.com^$badfilter
 ||checkadblock.ru^$csp=script-src 'self' * data:,badfilter
 ||coinverti.com^$badfilter
-||connect.facebook.net^$badfilter
-||connect.facebook.net^*/fbds.js$third-party,badfilter
-||connect.mail.ru^$third-party,badfilter
 ||fastpic.ru^$third-party,badfilter
-||connect.ok.ru^$badfilter
-||connect.ok.ru^$third-party,badfilter
 ||count-server.sharethis.com^$badfilter
 ||datoporn.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.peer5.com *.jwpcdn.com *.googletagmanager.com,badfilter
 ||dditscdn.com^$badfilter
