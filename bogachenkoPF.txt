@@ -331,6 +331,7 @@
 ||desktop-dna.osp.opera.software^
 ||detectportal.firefox.com^
 ||dolohen.com^
+||offlinepages-pa.googleapis.com^
 ||doubleclick.net^
 ||online-metrix.net^
 ||doublepimp.com^
@@ -1687,7 +1688,7 @@ vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set, pop_cnt, 1)
 videobin.co#@#+js(set, adb, 0)
 videomega.co#@#+js(set, canRunAds, true)
-vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru,mcloud.to#@#+js(acis, Math, zfgloaded)
+vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru,mcloud.to,9anime.*#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(aopr, links)
 voxc.org#@#+js(aeld, load, onload)
 voxc.org#@#+js(aopw, adBlockDetected)
@@ -1695,6 +1696,8 @@ voxc.org#@#+js(aopw, document.oncontextmenu)
 watchcartoonsonline.*#@#+js(acis, document.createElement, jsc.mgid.com)
 web2.0calc.com#@#+js(aopr, doads)
 wstream.*#@#+js(nostif, display)
+mp4upload.com#@#+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, system.popunder)
+mp4upload.com#@#+js(acis, decodeURI, decodeURIComponent)
 wstream.*#@#+js(ra, onclick)
 wstream.*#@#+js(std, height)
 xhamster.*#@#+js(aeld, , pop)
