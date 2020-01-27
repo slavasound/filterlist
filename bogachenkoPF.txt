@@ -467,7 +467,7 @@
 */yujgs.png$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
-/^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com
+/^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com|~ok.ru
 /^https?:\/\/[^\s]+\/wp\-content\/uploads\/[0-9]{4}\/[0-9]{2,4}\/[_a-zA-Z-]{7,20}\.gif$/$image,important
 /^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
@@ -942,8 +942,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
-/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,third-party,domain=~ivi.ru|~twitch.tv|~yandex.ru|~yandex.com|~ya.ru|~yandex.ua|~yandex.by
-/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?.*?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,image,domain=~twitch.tv|~9anime.xyz|~agar.io|~aliexpress.com|~aliexpress.ru
+/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,third-party,domain=~ivi.ru|~twitch.tv|~yandex.ru|~yandex.com|~ya.ru|~yandex.ua|~yandex.by|~opera.com|~twitter.com|~aliexpress.com|~aliexpress.ru|~youtube.com|~gstatic.com
+/^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?.*?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,xmlhttprequest,image,domain=~twitch.tv|~9anime.xyz|~agar.io|~aliexpress.com|~aliexpress.ru
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
 |http*:*/google-analytics.$xmlhttprequest,script,important
@@ -1596,6 +1596,7 @@ icutlink.com#@#+js(aopw, atob)
 icutlink.com#@#+js(aopr, confirm)
 icutlink.com#@#+js(aopr, eval)
 icutlink.com#@#+js(ra, onclick)
+/images/*facebook.gif$domain=~facebook.com,badfilter
 icutlink.com,files.cx#@#+js(aopr, absda)
 jawcloud.co#@#+js(aopr, console.clear)
 kimcartoon.to#@#+js(setTimeout-defuser, adbWarnContainer)
@@ -1617,6 +1618,7 @@ megatube.xxx#@#.p-ig
 mirrorace.com#@#+js(acis, RegExp, _0x)
 monova.*#@#+js(aopr, adblock)
 monova.*#@#+js(aopw, small_dl)
+||vk.com^$domain=~vk.com|~vkontakte.ru,badfilter
 monova.*#@#+js(aopw, zoneNativeSett)
 my.mail.ru#@#+js(aopr, AdmanHTML)
 my.mail.ru#@#+js(window.open-defuser, , clb670603)
@@ -1631,6 +1633,7 @@ oload.*#@#+js(aopr, decodeURI)
 oload.*,streamhoe.*#@#+js(aopr, _pop)
 onlystream.tv#@#+js(acis, $, undefined)
 onlystream.tv#@#+js(aopr, BetterJsPop)
+@@||google.com/recaptcha/$image,script,badfilter
 openloadmovies.bz#@#+js(aopr, btoa)
 ovagames.com#@#+js(acis, disableSelection, reEnable)
 ovagames.com#@#+js(aopw, document.oncontextmenu)
@@ -1666,6 +1669,8 @@ tube8.com#@#+js(aopw, loadAdFromHeaderTab)
 uii.io#@#+js(aopr, adk_pdisp)
 uii.io#@#+js(aeld, mouseup, _blank)
 uiz.io#@#+js(acis, $, adBlock)
+||checkadblock.ru^$csp=script-src 'self',badfilter
+|https://$xmlhttprequest,3p,domain=mcloud.to,badfilter
 @@||phncdn.com/www-static/$image,badfilter
 uiz.io#@#+js(aopr, HTMLElement)
 uiz.io#@#+js(aopr, NaConf)
@@ -1682,7 +1687,7 @@ vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set, pop_cnt, 1)
 videobin.co#@#+js(set, adb, 0)
 videomega.co#@#+js(set, canRunAds, true)
-vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru#@#+js(acis, Math, zfgloaded)
+vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru,mcloud.to#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(aopr, links)
 voxc.org#@#+js(aeld, load, onload)
 voxc.org#@#+js(aopw, adBlockDetected)
@@ -1870,7 +1875,7 @@ yts.*#@#+js(acis, $, blocked)
 ||ws.sharethis.com^$badfilter
 ||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||www.linkbucks.com^$badfilter
-||xyz^$third-party,xmlhttprequest,script,subdocument,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~vk.com,badfilter
+||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hanime.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~vk.com,badfilter
 ||yandex.*/clck/$badfilter
 ||yandex.*/clck/$important,badfilter
 ||yandex.*/clck/$xmlhttprequest,badfilter
