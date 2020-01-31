@@ -731,6 +731,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.org; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org *.github.com *.twitter.com *.arkoselabs.com;
 ||vivo.sx^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
+||uiz.io^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
 ! Content Security Policy END
 
 ! OTHER
@@ -943,7 +944,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
-/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,third-party,domain=~ivi.ru|~twitch.tv|~yandex.ru|~yandex.com|~ya.ru|~yandex.ua|~yandex.by|~opera.com|~twitter.com|~aliexpress.com|~aliexpress.ru|~youtube.com|~gstatic.com
+/^https?:\/\/[^\s]+[0-9]{2,3}x[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,script,image,third-party,domain=~ivi.ru|~twitch.tv|~yandex.ru|~yandex.com|~ya.ru|~yandex.ua|~yandex.by|~opera.com|~twitter.com|~aliexpress.com|~aliexpress.ru|~youtube.com|~gstatic.com|steambuy.com
 /^https?:\/\/[^\s]+[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]bann?ers?.*?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,xmlhttprequest,image,domain=~twitch.tv|~9anime.xyz|~agar.io|~aliexpress.com|~aliexpress.ru
 /^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com
 /^https?:\/\/[^\s]+\/[a-zA-Z0-9]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~pornlib.com|~vivatube.com
@@ -1639,6 +1640,7 @@ openloadmovies.bz#@#+js(aopr, btoa)
 ovagames.com#@#+js(acis, disableSelection, reEnable)
 ovagames.com#@#+js(aopw, document.oncontextmenu)
 pl#@#.ad
+/facebook-logo.$badfilter
 pl#@#[id*="ad-container"]:not(#documents-upload-container)
 platform.twitter.com#@%#!function(){(new MutationObserver(function(){document.querySelectorAll('div[style^="padding-bottom: 0px;"] > div[style^="padding-top:"] > div:not([class]):not([style]').forEach(function(b){Object.keys(b).some(function(a){if(a.includes("reactEventHandlers")){a=b[a];try{var c=a.children._owner.memoizedProps.id;c.includes("promotedTweet")&&(b.style="display:none!important;")}catch(d){}}})})})).observe(document,{childList:!0,subtree:!0})}();
 pornhub.com#@#+js(acis, Math, createShadowRoot)
@@ -1651,6 +1653,10 @@ pornsocket.com#@#+js(set, _site_ads_ns, true)
 putlockertv.*#@#+js(acis, atob, zfgloadedpush)
 rustorka.com#@#.scroll.clickable
 shon.xyz#@#+js(aopw, NotDet)
+/youtube.png$badfilter
+/social/tw.$badfilter
+/icon-steam.$badfilter
+/img/vk.$badfilter
 short.pe#@#+js(acis, RegExp, POSTBACK_PIXEL)
 short.pe,hqq.*,swatchseries.to,streamp1ay.*#@#+js(aopr, console.clear)
 shrtfly.*#@#+js(aopr, tabUnder)
