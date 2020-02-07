@@ -628,6 +628,7 @@ klikfilm.stream###banner
 *##a[href*="murnigoal.com"]
 *##a[href*="nagaikn.club"]
 *##a[href*="panpoker88.info"]
+*##a[href*="reach.gg"]
 *##.cc-banner.cc-window
 *##a[href*="parandaya.com"]
 *##a[href*="qq8778.online"]
@@ -746,6 +747,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 */YandexPackLoader.exe
 */adoverlay/*$important
 */ads/
+*/ping|
+*/beacon|
 */adsense/
 */advertising/
 */awaps-
@@ -1386,6 +1389,10 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#img[alt="Twitter"]
 #@#img[alt="Youtube"]
 #@#img[alt="facebook"]
+*$script,1p,domain=vidop.icu,badfilter
+.engine?$3p,badfilter
+*$xmlhttprequest,domain=vidop.icu,badfilter
+||phncdn.com^$badfilter
 #@#li[class^="ya-share2"][class$="facebook"]
 #@#li[class^="ya-share2"][class$="odnoklassniki"]
 #@#li[class^="ya-share2"][class$="twitter"]
@@ -1793,6 +1800,7 @@ yts.*#@#+js(acis, $, blocked)
 ||datoporn.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.peer5.com *.jwpcdn.com *.googletagmanager.com,badfilter
 ||dditscdn.com^$badfilter
 ||disqus.com/api/*/listrelated.json?$badfilter
+^adsid^$badfilter
 ||eztv.*^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||eztv.io^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||facebook.com*/plugins/like.php?$third-party,badfilter
@@ -1912,6 +1920,7 @@ yts.*#@#+js(acis, $, blocked)
 ||yandex.ru/clck/jclck/$badfilter
 ||yandex.st/share/$badfilter
 ||yllix.com^$badfilter
+||yandex.ru^$3p,badfilter
 ||yourbittorrent2.com^$csp=script-src 'self' 'unsafe-inline',badfilter
 ||youtube.com/subscribe_embed?$third-party,badfilter
 ||zencdn.net^$badfilter
