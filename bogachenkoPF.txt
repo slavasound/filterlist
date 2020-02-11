@@ -755,6 +755,22 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 */analytics/web/*$domain=~analytics.google.com
 */cookieconsent2/
 */cookieconsent/
+*/plugins/wp-monero-miner-$important
+*/plugins/simple-monero-miner-coin-hive/$important
+*/plugins/cryptocurrency-donation-box/$important
+*/plugins/woo-altcoin-payment-gateway/$important
+*/plugins/crypto-coin-ticker/$important
+*/plugins/wp-monero-miner-using-coin-hive/$important
+*/plugins/cryptocurrency-coin-prices/$important
+*/plugins/cryptocurrency-widgets-using-coingecko-api/$important
+*/plugins/crypto-com-pay-checkout-for-woocommerce/$important
+*/plugins/coin-miner/$important
+*/plugins/top-coin/$important
+*/plugins/coinremitter-crypto-payment-gateway/$important
+*/plugins/bitcoin-faucet/$important
+*/plugins/total-cryptos/$important
+*/plugins/block-ads-to-bitcoin/$important
+*/plugins/cointent/$important
 */plugins/ga-google-analytics/*$important
 */plugins/google-analyticator/*$important
 */plugins/google-analytics-dashboard-for-wp/*$important
@@ -946,6 +962,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/cookienotice.js|$script,important
 |http*:*/monetize.js|$script,important
 |http*:*/webpush.$script,important
+|http*:*/vinos.js$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1580,7 +1597,7 @@ thepiratebay.*#@#+js(aopr, popjs.init)
 @@||xhamster.com/videos/$first-party,csp,badfilter
 @@||yastatic.net/share2/share.js$badfilter
 _social-bar/$badfilter
-adshort.*,likn.xyz,oko.sh,thepiratebay.org,yesmovies.*,jawcloud.co#@#+js(aopw, Fingerprint2)
+adshort.*,likn.xyz,oko.sh,thepiratebay.org,yesmovies.*,jawcloud.co,123movies.*#@#+js(aopw, Fingerprint2)
 adshort.*,ventax.net,shorten.*,movienear.me,shrtfly.*#@#+js(aopr, app_vars.force_disable_adblock)
 agar.io#@#+js(aopw, hasAdblock)
 aii.sh#@#+js(acis, String.prototype.charCodeAt)
@@ -1593,15 +1610,19 @@ ckk.ai#@#+js(aopr, parcelRequire)
 clik.pw#@#+js(aeld, /^(?:error|load)$/, P5)
 clik.pw#@#+js(aeld, mouseup, click)
 clipwatching.com#@#+js(aopr, mm)
+123movies.*##+js(acis, Math.sin, vocabulary)
+.disqus.com/count.js$badfilter
+||pinterest.com/js/pinit_main.js$3p,badfilter
+*$script,xmlhttprequest,3p,domain=vidcloud9.com,badfilter
 clipwatching.com#@#+js(set, adblock, false)
 datoporn.co#@##a[onclick]
 datoporn.co#@#+js(set, cRAds, true)
 derstandard.*#@#+js(aopw, _sp_)
-dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh,jawcloud.co#@#+js(aopr, open)
+dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh,jawcloud.co,123movies.*#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
-entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co,vup.to,hydrax.net#@#+js(aopr, AaDetector)
+entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co,vup.to,hydrax.net,123movies.*#@#+js(aopr, AaDetector)
 fandom.com#@#+js(set, wgAffiliateEnabled, false)
 fandom.com#@#body:style(overflow: auto !important;)
 fas.li#@#+js(aopr, blockAdBlock)
@@ -1721,7 +1742,7 @@ vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set, pop_cnt, 1)
 videobin.co#@#+js(set, adb, 0)
 videomega.co#@#+js(set, canRunAds, true)
-vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru,mcloud.to,9anime.*#@#+js(acis, Math, zfgloaded)
+vidstreaming.io,entervideo.net,onlystream.tv,adshort.*,ckk.ai,vidnode.net,openload.*,shorten.*,vidcloud.*,jawcloud.co,aii.sh,yesmovies.*,videobin.co,vup.to,ffmovies.ru,mcloud.to,9anime.*,123movies.*,vidcloud9.*#@#+js(acis, Math, zfgloaded)
 voxc.org#@#+js(aopr, links)
 voxc.org#@#+js(aeld, load, onload)
 voxc.org#@#+js(aopw, adBlockDetected)
