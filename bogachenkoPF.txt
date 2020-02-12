@@ -24,6 +24,7 @@
 ||unity3d.com^
 ||www.dropbox.com^
 ||qq.com^
+@@||appmetrica.yandex.net^$important
 !#endif
 !#endif
 
@@ -296,7 +297,6 @@
 ||app-measurement.com^
 ||appbaqend.com^
 ||applovin.com^
-||appmetrica.yandex.net^
 ||apps.bittorrent.com^
 ||appsee.com^
 ||appsflyer.com^
@@ -431,6 +431,10 @@
 ||sf-userver-upaas.ucweb.com^
 ||sitecheck2.opera.com^
 ||sitecheck.opera.com^
+||ksn-crypto-dnscheck-geo.kaspersky-labs.com^
+||ksn-crypto-info-geo.kaspersky-labs.com^
+||webvisor.com^
+||static.whatsapp.net^
 ||smi2.ru^$third-party,domain=~smi2.ru
 ||speeddials.opera.com^
 ||sputnik.ru^
@@ -522,7 +526,7 @@ infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net##+js(mousedef2.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
-peserialehd.us,europixhd.*##+js(mousedef.js)
+peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co##+js(addEventListener-defuser.js, contextmenu)
 shortbitsfree.net,btcleets.xyz,faupto.com##+js(abort-on-property-read.js, _coinzilla_fp_id_)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
@@ -533,6 +537,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###bannerplayerheader
 *###cookie-bar
 *###cookie-pop
+*###cookie-wrapper
 *###cookieWrapper
 *###cookie_popup
 *###cookieconsent
@@ -540,8 +545,10 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###js-react-cookie-policy
 *###mybannerbottom
 *###mybannerpopup
+*###netkevin-overlay
 *###videoroll
 *##.b-cookies
+*##.cc-banner.cc-window
 *##.cc_container--open.cc_container.cc_banner
 *##.cookie-consent
 *##.cookie-notice-container
@@ -549,11 +556,15 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##.cookies-notification
 *##.cookies-policy
 *##.cookies-reminder
+*##.eu-cookie
 *##.ezoic-ad
 *##.idmuvi-floatbanner
 *##.ipsAdvertisement
+*##.ru-cookie
+*##.us-cookie
 *##[href^="https://www.onclickmega.com/jump/next.php"]
 *##a[href*="5.153.13.193"]
+*##a[href*="9club888.com"]
 *##a[href*="64.91.252.215"]
 *##a[href*="72.52.214.50"]
 *##a[href*="81.19.186.167"]
@@ -573,24 +584,19 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##a[href*="aseanjoker.net"]
 *##a[href*="asia777.me"]
 *##a[href*="auredzeon.com"]
-*##a[href*="luxury111bb.com"]
-*##a[href*="happistar8.com"]
-*##a[href*="9club888.com"]
 *##a[href*="b.link"]
 *##a[href*="baksomerdeka.com"]
 *##a[href*="bandar95.com"]
-*###netkevin-overlay
 *##a[href*="bebasjudi.com"]
 *##a[href*="bets78.com"]
 *##a[href*="bit.ly"]
 *##a[href*="bitly.com"]
-*##a[href*="casinovegas88.win"]
 *##a[href*="bltks.club"]
 *##a[href*="bola100.net"]
-klikfilm.stream###banner
 *##a[href*="bospoker.live"]
 *##a[href*="bromo.poker"]
 *##a[href*="capsa228.com"]
+*##a[href*="casinovegas88.win"]
 *##a[href*="click2go.me"]
 *##a[href*="dcbet.cc"]
 *##a[href*="djfiln.com"]
@@ -603,36 +609,37 @@ klikfilm.stream###banner
 *##a[href*="global303.com"]
 *##a[href*="goo.gl"]
 *##a[href*="guepoker88.com"]
+*##a[href*="happistar8.com"]
 *##a[href*="hitsbola.icu"]
 *##a[href*="hoki228.net"]
 *##a[href*="ibet96ace.com"]
 *##a[href*="idwinner.club"]
 *##a[href*="indoft95.org"]
 *##a[href*="indoxbet.com"]
-*##a[href*="tgl88.xyz"]
-*##a[href*="mpo189.org"]
 *##a[href*="join-adf.ly"]
-*##a[href*="livebet88.co"]
 *##a[href*="kdaffiliates.com"]
 *##a[href*="kdpoker.asia"]
 *##a[href*="koin4da.com"]
 *##a[href*="kuncidisini.com"]
 *##a[href*="liga88.world"]
 *##a[href*="limaq9.net"]
+*##a[href*="livebet88.co"]
 *##a[href*="lucky77.world"]
+*##a[href*="luxury111bb.com"]
 *##a[href*="markasvip.com"]
 *##a[href*="maxbetqq.net"]
 *##a[href*="merdekabola365.org"]
+*##a[href*="mob1ledev1ces.com"]
 *##a[href*="momopkr88.com"]
+*##a[href*="mpo189.org"]
 *##a[href*="multiqq.org"]
 *##a[href*="murnigoal.com"]
 *##a[href*="nagaikn.club"]
 *##a[href*="panpoker88.info"]
-*##a[href*="reach.gg"]
-*##.cc-banner.cc-window
 *##a[href*="parandaya.com"]
 *##a[href*="qq8778.online"]
 *##a[href*="qqgaming88e.com"]
+*##a[href*="reach.gg"]
 *##a[href*="rebrand.ly"]
 *##a[href*="roketbola.com"]
 *##a[href*="salamsbo.com"]
@@ -640,9 +647,9 @@ klikfilm.stream###banner
 *##a[href*="sbomoney11.com"]
 *##a[href*="seksipkr88.com"]
 *##a[href*="sport855.live"]
-aliexpress.*##[href^="//campaign.aliexpress.com/"], #J_xiaomi_dialog, .top-banner-container, [href="//sale.aliexpress.ru/Select_Coupons.htm"]
 *##a[href*="telatbangun.com"]
 *##a[href*="tgks.vip"]
+*##a[href*="tgl88.xyz"]
 *##a[href*="totojek.world"]
 *##a[href*="tototix.net"]
 *##a[href*="trueimg.xyz"]
@@ -655,7 +662,6 @@ aliexpress.*##[href^="//campaign.aliexpress.com/"], #J_xiaomi_dialog, .top-banne
 *##a[href*="warna365.net"]
 *##a[href*="wasiteuro.com"]
 *##a[href*="wismakita.com"]
-*##a[href*="mob1ledev1ces.com"]
 *##a[href*="wymbet338.com"]
 *##a[href*="yabrowser"]
 *##a[href="/user/premiummembership"]
@@ -664,12 +670,11 @@ aliexpress.*##[href^="//campaign.aliexpress.com/"], #J_xiaomi_dialog, .top-banne
 *##a[src*="://ads."]
 *##a[src="/images/sidebanner.jpg"]
 *##cookies-policy-confirm
-*##.eu-cookie
-*##.ru-cookie
-*##.us-cookie
 2ch.*##.logo
 8fornod.net,trialeset.net##.remodal, #message-items, .remodal-is-opened.remodal-wrapper, .remodal-is-opened.remodal-overlay
 8fornod.net,trialeset.net##html:style(overflow-x: scroll !important; overflow-y: scroll !important;)
+aliexpress.*##[href^="//campaign.aliexpress.com/"], #J_xiaomi_dialog, .top-banner-container, [href="//sale.aliexpress.ru/Select_Coupons.htm"]
+aliexpress.ru,aliexpress.com##.top-banner-container
 eio.io##.r-bg
 english-films.com###mainSlider-controls, #mainSlider, .mainNav, .superBanner, .helperBlock, .footer, .section.linksBlock, div.redBlock.block, div.saladBlock, div.orangeBlock, .sidebar > .block-content, .relatedNews, .comercical > .text-center, .wrap_login, #tabs_pay, .wrp_baner, .active.tabs-content > p, .enterSocial
 english-films.com##div.blueBlock.block:has-text(Наши телеграм каналы)
@@ -686,6 +691,7 @@ infourok.ru###aa-popup
 kino-v-4k.com###movie > div:nth-of-type(3)
 kinogo-2019.club##[src="/uploads/pley2.jpg"], [src="/uploads/cverhu.jpg"], .clearfix.site-desc
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai##body:style(background-image: none !important;)
+klikfilm.stream###banner
 lastpass.com##.lp-popup.lp-pg-popup
 lisotvet.ru###tBird
 mail.ru##.o-media__img.news-item__img-wrapper
@@ -702,7 +708,6 @@ rezka.ag##.clearfix.b-post__status_wrapper
 ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
 scrubstv.net##center > table > tbody > tr > td:nth-of-type(4)
 tolko-russkoe.com###notice-holder
-aliexpress.ru,aliexpress.com##.top-banner-container
 torrent-filmi.xyz###infoBlockFilm, #infoBlockCont
 torrentfilm.me##[src="/img/mgt.png"], [src="/img/ubr.png"]
 torrentic-film.com##[src="/2lgb.png"]
