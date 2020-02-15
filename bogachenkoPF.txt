@@ -367,6 +367,7 @@
 ||data-ntp.browser.mail.ru^
 ||data.amigo.mail.ru^
 ||data.browser.mail.ru^
+||anylvl.com^
 ||deloplen.com^
 ||deloplenn.com^
 ||demdex.net^$third-party
@@ -428,6 +429,7 @@
 ||napi.ucweb.com^
 ||navicms.ucweb.com^
 ||news-af-feednews.com^
+||dota2-roulette.ru^
 ||news.opera-api.com^
 ||newsgenious.com^
 ||ofa-sub.osp.opera.software^
@@ -1113,7 +1115,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.essb_item
 #@#.essb_link_twitter
 #@#.essb_links
+^promo^$document,badfilter
 #@#.essb_links_list
+/share42/*$badfilter
 #@#.essb_share
 #@#.f_social
 #@#.fa-facebook-square
@@ -1124,6 +1128,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@#.fa-share
 #@#.fa-share-alt
 #@#.fa-share-square-o
+/socialmedia-$badfilter
 #@#.fa-tumblr-square
 #@#.fa-twitter-square
 #@#.facebook
