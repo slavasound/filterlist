@@ -245,6 +245,19 @@
 216.58.207.232:443$network
 172.217.22.168:443$network
 216.58.211.8:443$network
+172.217.21.162:443$network
+52.50.119.212:443$network
+52.73.50.87:443$network
+54.171.241.184:443$network
+34.227.128.2:443$network
+216.58.211.2:443$network
+52.85.243.28:443$network
+172.217.20.34:443$network
+172.217.22.174:443$network
+95.100.178.68:443$network
+216.58.207.225:443$network
+172.217.21.168:443$network
+172.217.22.162:443$network
 152.199.20.243:443$network
 162.125.80.6:443$network
 172.217.160.99:443$network
@@ -506,6 +519,7 @@
 ||uc123.com^
 ||uodoo.com^
 ||update.utorrent.com^
+||adsafeprotected.com^
 ||update.utorrent.li^
 ||updtapi.com^
 ||updtbrwsr.com^
@@ -1066,6 +1080,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ||google.*/complete/$other,xmlhttprequest
 ||yandex.*/suggest/$other,xmlhttprequest
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
