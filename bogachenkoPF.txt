@@ -125,6 +125,8 @@
 35.186.205.6:443$network
 35.190.88.7:443$network
 37.9.93.97:443$network
+104.27.164.67:443$network
+104.27.165.67:443$network
 37.9.93.100:443$network
 37.9.112.35:443$network
 37.9.112.36:443$network
@@ -331,11 +333,18 @@
 ||6d47c1118927cf53ba9654931df80e8d.com^
 ||535447ed91a7b31514021d69bb3ee1b3.com^
 ||HolmesHelp.ucweb.com^
+||e9fd3d63a0d429498f876a4e3f0542e.com^
+||4615cccc9a6e470dc33a438ca9c0ad38.com^
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
 ||ad.mail.ru^
 ||adaware.com^$third-party
 ||adbetnetwork.com^
 ||adcolony.com^
+||adnow.com^
+||adsame.com^
+||adsafety.net^
+||adscale.de^
+||adservme.com^
 ||addons-media.operacdn.com^$domain=~opera.com|~opera.ru
 ||addons-themes.operacdn.com^$domain=~opera.com|~opera.ru
 ||adfox.yandex.ru^
@@ -383,6 +392,8 @@
 ||chartboost.com^
 ||clients*.google.com^
 ||collections.yandex.ru^
+||adnxs.com^
+||adnxtr.com^
 ||connect.facebook.net^
 ||connect.mail.ru^
 ||connect.ok.ru^
@@ -508,8 +519,13 @@
 ||startup.mobile.yandex.net^
 ||yandexadexchange.net^
 ||taboola.com^
+||adserver.com^
+||adserversolutions.com^
 ||taobao.com^
 ||tapjoy.com^
+||adrunnr.com^
+||adskeeper.co.uk^
+||adthrive.com^
 ||tapjoyads.com^
 ||tbcdn.cn^
 ||thumbnails.opera.com^
@@ -524,6 +540,7 @@
 ||updtapi.com^
 ||updtbrwsr.com^
 ||us-ucdc-upaas.ucweb.com^
+||adthor.com^
 ||us-unpm-upaas.ucweb.com^
 ||utclient.utorrent.com^
 ||voiceservices.yandex.net^
@@ -531,6 +548,10 @@
 ||webrowser.mail.ru^
 ||wow.ucweb.com^
 ||xray.mail.ru^
+||adtimaserver.vn^
+||adtheorent.com^
+||adtechus.com^
+||adtlgc.com^
 ||yabs.yandex.by^
 ||yabs.yandex.ru^
 ||yabs.yandex.ua^
@@ -920,6 +941,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||advisor8.
 ||advisor9.
 ||advisor10.
+||campaign.
 ||geo0.
 ||geo1.
 ||geo2.
@@ -1002,7 +1024,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||msftconnecttest.com/redirect$document
 ||vk.com/badbrowser.php$document
 ||youtube.com/*dQw4w9WgXcQ$document
-[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]$document
+/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
