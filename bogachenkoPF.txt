@@ -13,7 +13,6 @@
 @@||crashlytics.com^$important
 @@||vk-portal.net^$important
 ||amazon-adsystem.com^$empty,important
-||dropboxusercontent.com^
 ||googlesyndication.com^$script,redirect=noopjs,important
 ||googlesyndication.com^$xmlhttprequest,redirect=nooptext,important
 ||googlesyndication.com^$~script,~xmlhttprequest,empty,important
@@ -22,9 +21,9 @@
 ||imasdk.googleapis.com^$xmlhttprequest,redirect=nooptext,important
 ||imasdk.googleapis.com^$~script,~xmlhttprequest,empty,important
 ||unity3d.com^
-||www.dropbox.com^
 ||qq.com^
 @@||appmetrica.yandex.net^$important
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.fingersoft.hcr2
 !#endif
 !#endif
 
@@ -258,7 +257,6 @@
 172.217.22.168:443$network
 172.217.22.174:443$network
 172.217.160.99:443$network
-173.194.73.94:443$network
 173.194.73.154:443$network
 173.194.73.155:443$network
 173.194.73.156:443$network
@@ -502,6 +500,20 @@
 ||merchandise.opera-api.com^
 ||mixpanel.com^
 ||moatads.com^
+||ipromote.com^
+||iqzone.com^
+||ipredictive.com^
+||isnssdk.com^
+||ipinyou.com^
+||izooto.com^
+||jampp.com^
+||jedimobi.com^
+||ivitrack.com^
+||iz682noju02ye5.com^
+||justpremium.com^
+||kochava.com^
+||ksapisrv.com^
+||lavanetwork.net^
 ||mradx.net^
 ||mrbrwsr.com^
 ||mrds.mail.ru^
@@ -1024,7 +1036,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ||google.*/complete/$other,xmlhttprequest
 ||yandex.*/suggest/$other,xmlhttprequest
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
