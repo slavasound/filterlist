@@ -23,7 +23,6 @@
 ||unity3d.com^
 ||qq.com^
 @@||appmetrica.yandex.net^$important
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.fingersoft.hcr2|com.miniclip.plagueinc|com.ea.game.pvzfree_row|com.ea.game.pvz2_row|com.appstar.callrecorder|com.ketchapp.rider|com.metago.astro|com.miniclip.istunt2|com.nekki.vector2|com.nekki.vector|com.catmario2.hd|com.danchis.superkitty|com.lima.doodlejump|com.kx.box|com.sidheinteractive.sif.DR|com.piriform.ccleaner
 !#endif
 !#endif
 
@@ -465,6 +464,7 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||oppomobile.com^
 ||graph.facebook.com^
 ||http-check-headers.yandex.ru^
 ||i18nmmstat.ucweb.com^
@@ -961,6 +961,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||suggest.
 ||trackclick*.
 */analytics/event$important
+*/gio-ip/$important
 ! OTHER END
 
 ! DOCUMENT
@@ -1046,6 +1047,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ||google.*/complete/$other,xmlhttprequest
 ||yandex.*/suggest/$other,xmlhttprequest
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
