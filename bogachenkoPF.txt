@@ -23,7 +23,7 @@
 ||unity3d.com^
 ||qq.com^
 @@||appmetrica.yandex.net^$important
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.fingersoft.hcr2|com.miniclip.plagueinc|com.ea.game.pvzfree_row|com.ea.game.pvz2_row|com.appstar.callrecorder|com.ketchapp.rider|com.metago.astro|com.miniclip.istunt2|com.nekki.vector2|com.nekki.vector|com.catmario2.hd|com.danchis.superkitty|com.lima.doodlejump|com.kx.box|com.sidheinteractive.sif.DR
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.fingersoft.hcr2|com.miniclip.plagueinc|com.ea.game.pvzfree_row|com.ea.game.pvz2_row|com.appstar.callrecorder|com.ketchapp.rider|com.metago.astro|com.miniclip.istunt2|com.nekki.vector2|com.nekki.vector|com.catmario2.hd|com.danchis.superkitty|com.lima.doodlejump|com.kx.box|com.sidheinteractive.sif.DR|com.piriform.ccleaner
 !#endif
 !#endif
 
@@ -563,6 +563,15 @@
 ||sputnik.ru^
 ||startappservice.com^
 ||startup.mobile.yandex.net^
+||mobileapptracking.com^
+||mobpowertech.com^
+||mookie1.com^
+||msecnd.net^
+||newrelic.com^
+||ogury.io^
+||omniture.com^
+||openx.net^
+||openx.com^
 ||static.whatsapp.net^
 ||taboola.com^
 ||taobao.com^
