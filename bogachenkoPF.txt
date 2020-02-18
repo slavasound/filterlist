@@ -23,7 +23,7 @@
 ||unity3d.com^
 ||qq.com^
 @@||appmetrica.yandex.net^$important
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.fingersoft.hcr2|com.miniclip.plagueinc|com.ea.game.pvzfree_row|com.ea.game.pvz2_row
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.fingersoft.hcr2|com.miniclip.plagueinc|com.ea.game.pvzfree_row|com.ea.game.pvz2_row|com.appstar.callrecorder|com.ketchapp.rider|com.metago.astro|com.miniclip.istunt2|com.nekki.vector2|com.nekki.vector|com.catmario2.hd|com.danchis.superkitty|com.lima.doodlejump|com.kx.box|com.sidheinteractive.sif.DR
 !#endif
 !#endif
 
@@ -951,6 +951,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||applog.
 ||suggest.
 ||trackclick*.
+*/analytics/event$important
 ! OTHER END
 
 ! DOCUMENT
@@ -1499,6 +1500,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 ||vk-portal.net^$important,badfilter
 /facebook.svg$badfilter
 /facebook_logo.$badfilter
+||img.alibaba.com^$badfilter
 /fb1-right.$badfilter
 /footer/facebook.$badfilter
 /footer/instagram.$badfilter
