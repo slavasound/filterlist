@@ -9,7 +9,7 @@
 ! ~~~~~~~ MY SHITTY RULES ~~~~~~~
 
 !#if !ext_ublock
-!#if adguard_app_android
+!#if (adguard_app_android && adguard_app_ios)
 @@||crashlytics.com^$important
 @@||vk-portal.net^$important
 ||amazon-adsystem.com^$empty,important
@@ -361,6 +361,7 @@
 ||adthor.com^
 ||infiniadmp.com^
 ||infinario.com^
+||online-metrix.net^
 ||indicative.com^
 ||indexww.com^
 ||impactradius.com^
