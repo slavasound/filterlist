@@ -353,10 +353,14 @@
 ||adsdk.yandex.ru^
 ||adserver.com^
 ||adserversolutions.com^
+||perfectionholic.com^
+||2f37a122063b9591b3d67a49b6d93f7c.com^
 ||adservice.google.*^
+||mopub.com^
 ||adservme.com^
 ||adskeeper.co.uk^
 ||adtechus.com^
+||f2.doodlemobile.com^
 ||adtheorent.com^
 ||adthor.com^
 ||infiniadmp.com^
@@ -640,7 +644,6 @@
 ! POP-UP END
 
 ! MEDIA
-*/*.mp4|$media,app=game.maddex.jump
 */*.mp4|$media,domain=vb17103elmerwatson.pw
 */melbet.mp4$media,redirect=noopmp4-1s,important
 */jetfilmizle.mp4|$media,important
@@ -1048,7 +1051,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ||google.*/complete/$other,xmlhttprequest
 ||yandex.*/suggest/$other,xmlhttprequest
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
