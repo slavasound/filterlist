@@ -250,7 +250,6 @@
 152.199.20.243:443$network
 162.125.80.6:443$network
 172.217.20.34:443$network
-172.217.20.34:443$network
 172.217.21.130:443$network
 172.217.21.162:443$network
 172.217.21.168:443$network
@@ -311,12 +310,10 @@
 213.180.204.131:443$network
 216.58.207.194:443$network
 216.58.207.225:443$network
-216.58.207.225:443$network
 216.58.207.226:443$network
 216.58.207.232:443$network
 216.58.208.238:443$network
 216.58.211.1:443$network
-216.58.211.2:443$network
 216.58.211.2:443$network
 216.58.211.8:443$network
 217.69.133.145:443$network
@@ -546,7 +543,6 @@
 ||ogs.google.com^
 ||ogury.io^
 ||omniture.com^
-||online-metrix.net^
 ||online-metrix.net^
 ||op-mobile.opera.com^
 ||openwifi.ucweb.com^
@@ -958,7 +954,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||ad4.
 ||ad5.
 ||ad.
-||ad.
+||ads.
 ||ads0.
 ||ads1.
 ||ads2.
