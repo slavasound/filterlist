@@ -523,9 +523,12 @@
 ||mixpanel.com^
 ||moatads.com^
 ||mobileapptracking.com^
+||outbrain.com^
+||outbrain.org^
 ||mobpowertech.com^
 ||mookie1.com^
 ||mopub.com^
+||optimizely.com^
 ||mradx.net^
 ||mrbrwsr.com^
 ||mrds.mail.ru^
@@ -557,6 +560,12 @@
 ||perr.hola.org^
 ||playatoms-pa.googleapis.com^
 ||popads.net^
+||popads.media^
+||predictvideo.com^
+||propellerads.com^
+||quantserve.com^
+||pushwoosh.com^
+||popads.com^
 ||portal.mail.ru^
 ||propellerclick.com^
 ||proxy_auth.trigger.hola.org^
@@ -710,6 +719,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##.idmuvi-floatbanner
 *##.ipsAdvertisement
 *##.ru-cookie
+*##.cookie
 *##.us-cookie
 *##[href^="https://www.onclickmega.com/jump/next.php"]
 *##a[href*="5.153.13.193"]
@@ -1044,7 +1054,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.piriform.ccleaner|com.mediocre.grannysmith|com.fingersoft.hcr2|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.timetravel.free.google|com.zeptolab.ctrm.free.google|com.topgame.BeenyAdventures|com.noodlecake.altosadventure
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.piriform.ccleaner|com.mediocre.grannysmith|com.fingersoft.hcr2|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.timetravel.free.google|com.zeptolab.ctrm.free.google|com.topgame.BeenyAdventures|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.robtopx.geometrydashworld|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometryjumplite
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
