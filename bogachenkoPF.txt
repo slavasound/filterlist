@@ -856,6 +856,8 @@ my.mail.ru##.b-music__main__banner, .rb-counter
 ok.ru##.gift-slider, #MusicGrowl
 pornhub.*##.premiumPromoBanner, .tooltipPromo, #streamMateModel
 public.upera.co##[href*="//upera.shop/"]
+mail.yandex.ru##.promoPanel-content
+m.market.yandex.ru##.w-head-banner
 rezka.ag##.clearfix.b-post__status_wrapper
 ria.ru##.widgets__b-slide, #subscriber, .article__sharebar, .footer__social
 scrubstv.net##center > table > tbody > tr > td:nth-of-type(4)
@@ -1060,7 +1062,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ||google.*/complete/$other,xmlhttprequest
 ||yandex.*/suggest/$other,xmlhttprequest
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.piriform.ccleaner|com.mediocre.grannysmith|com.fingersoft.hcr2|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.timetravel.free.google
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.piriform.ccleaner|com.mediocre.grannysmith|com.fingersoft.hcr2|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.timetravel.free.google|com.zeptolab.ctrm.free.google|com.topgame.BeenyAdventures
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
