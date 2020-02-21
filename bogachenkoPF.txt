@@ -22,6 +22,8 @@
 ||imasdk.googleapis.com^$~script,~xmlhttprequest,empty,important
 ||unity3d.com^
 ||qq.com^
+||zeptolab.com^
+||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
 @@||appmetrica.yandex.net^$important
 !#endif
 !#endif
@@ -348,7 +350,10 @@
 ||adrunnr.com^
 ||adsafeprotected.com^
 ||adsafety.net^
+||fyber.com^
+||heyzap.com^
 ||adsame.com^
+||gameanalytics.com^
 ||adscale.de^
 ||adsdk.yandex.ru^
 ||adserver.com^
@@ -412,6 +417,7 @@
 ||be74465973a07d9e41423b3f82c69aad.com^
 ||bench.utorrent.com^
 ||bidmachine.io^
+||graph.accountkit.com^
 ||binupdate.mail.ru^
 ||bitmedianetwork.com^
 ||brontp.yandex.ru^
@@ -481,7 +487,8 @@
 ||imrworldwide.com^
 ||inmobi.com^
 ||ip-info.zenmate.com^
-||ipm-provider.ff.avast.com^
+||blocked.mts.ru^
+||avast.com^
 ||jstracer.yandex.ru^
 ||kas-labs.com^
 ||kaspersky-labs.com^
@@ -579,7 +586,7 @@
 ||openx.com^
 ||static.whatsapp.net^
 ||taboola.com^
-||taobao.com^
+||supersonicads.com^
 ||tapjoy.com^
 ||tapjoyads.com^
 ||tbcdn.cn^
@@ -666,7 +673,7 @@ hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,waaw.tv,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net,rcdn.me##+js(mousedef2.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co##+js(addEventListener-defuser.js, contextmenu)
@@ -793,6 +800,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##a[href*="sport855.live"]
 *##a[href*="telatbangun.com"]
 *##a[href*="tgks.vip"]
+free-123movies.com##.jw-reset.jw-logo-bottom-left.jw-logo
 *##a[href*="tgl88.xyz"]
 *##a[href*="totojek.world"]
 *##a[href*="tototix.net"]
@@ -887,6 +895,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org *.github.com *.twitter.com *.arkoselabs.com;
 ||vivo.sx^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
 ||uiz.io^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation;
+/(makeeasybtc\.website|shortbitsfree\.net)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 ! Content Security Policy END
 
 ! OTHER
@@ -1051,7 +1060,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
 ||google.*/complete/$other,xmlhttprequest
 ||yandex.*/suggest/$other,xmlhttprequest
-*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty
+*$network,app=game.maddex.jump|game.maddex.action|game.maddex.arenas|com.fingersoft.hillclimb|com.kx.box|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.miniclip.plagueinc|com.catmario2.hd|com.danchis.superkitty|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.piriform.ccleaner|com.mediocre.grannysmith|com.fingersoft.hcr2|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.timetravel.free.google
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1659,6 +1668,7 @@ thepiratebay.*#@#+js(aopr, popjs.init)
 @@||addons.opera.com/ru/extensions/details/$document,badfilter
 @@||google.com/recaptcha/$csp,badfilter
 @@||google.com^*recaptcha/$subdocument,badfilter
+/wp-content/*/social_$script,badfilter
 @@||gstatic.com/recaptcha/$script,stylesheet,badfilter
 @@||s7.addthis.com^*/addthis_widget.js*pubid=$script,badfilter
 @@||twimg.com/tweets.json?*callback$script,badfilter
@@ -1944,6 +1954,7 @@ yts.*#@#+js(acis, $, blocked)
 ||pubsub-edge.twitch.tv^$badfilter
 ||pusher.com^$third-party,domain=~onefm.ro,badfilter
 ||pusherapp.com^$third-party,badfilter
+*$subdocument,3p,domain=vidcloud9.com,badfilter
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 ||r.mail.ru^$badfilter
 ||rapidvideo.com^$script,badfilter
