@@ -67,6 +67,7 @@
 @@||ocsp2.globalsign.com^
 @@||ocsp.globalsign.com^
 @@||vk.com/images/blank.mp4$media
+@@||192.168.1.1^$document
 ! WHITELIST END
 
 ! SITE
@@ -622,7 +623,7 @@
 ||yabs.yandex.ru^
 ||yabs.yandex.ua^
 ||yadro.ru^
-||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk
+||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~passport.rt.ru
 ||yandexadexchange.net^
 ||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk
 ||yastroka.yandex.net^
@@ -897,7 +898,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=freebitco.in|ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|shortbitsfree\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|oceantech\.xyz|linkviet\.top)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet)\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|oceantech\.xyz|linkviet\.top)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1108,6 +1109,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 #@##icon-twitter
 #@##icon-youtube
 #@##like-btn
+/footer-instagram.$badfilter
+/footer-facebook.$badfilter
+/footer-twitter.$badfilter
 #@##menu-social-links
 #@##return-to-top
 #@##scroll-to-top
@@ -1254,6 +1258,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 @@||p.jwpcdn.com/player/v/$script,third-party,badfilter
 |https:*?*&ip=$third-party,badfilter
 #@#.plusone
+_social_icons.$badfilter
 #@#.post-share-box
 #@#.rdsocial
 ||vkontakte.ru/js/api/$third-party,domain=~arudex.com|~ugo.ru|~vk.com,badfilter
