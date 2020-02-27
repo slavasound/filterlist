@@ -10,21 +10,13 @@
 
 !#if !ext_ublock
 !#if (adguard_app_android && adguard_app_ios)
+@@||appmetrica.yandex.net^$important
 @@||crashlytics.com^$important
 @@||vk-portal.net^$important
-||amazon-adsystem.com^$empty,important
-||googlesyndication.com^$script,redirect=noopjs,important
-||googlesyndication.com^$xmlhttprequest,redirect=nooptext,important
-||googlesyndication.com^$~script,~xmlhttprequest,empty,important
-||googletagservices.com^$empty,important
-||imasdk.googleapis.com^$script,redirect=noopjs,important
-||imasdk.googleapis.com^$xmlhttprequest,redirect=nooptext,important
-||imasdk.googleapis.com^$~script,~xmlhttprequest,empty,important
-||unity3d.com^
-||qq.com^
-||zeptolab.com^
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
-@@||appmetrica.yandex.net^$important
+||qq.com^
+||unity3d.com^
+||zeptolab.com^
 !#endif
 !#endif
 
@@ -34,13 +26,6 @@
 *##+js(js-rm.js, OneSignal)
 *##+js(js-rm.js, window._taboola)
 *##+js(js-rm.js, yandex_metrika_callbacks)
-||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js,important
-||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js,important
-||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js,important
-||google-analytics.com/plugins/ga/inpage_linkid.js$script,redirect=google-analytics.com/inpage_linkid.js,important
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager.com/gtm.js,important
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js,important
 !#endif
 !#endif
 
@@ -49,11 +34,6 @@
 @@||kinopoisk.ru^$document
 @@||xvideos.com^$document
 @@||aliexpress.*^$document
-||google-analytics.com/analytics.js$script,redirect=google-analytics,important
-||google-analytics.com/ga.js$script,redirect=google-analytics-ga,important
-||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important
-||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important
-||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,important
 !#endif
 !#endif
 
@@ -339,6 +319,7 @@
 ||addons-themes.operacdn.com^$domain=~opera.com|~opera.ru
 ||adfox.yandex.ru^
 ||adjust.com^
+||admix.in^
 ||adn.insight.ucweb.com^
 ||adnow.com^
 ||adnxs.com^
@@ -351,6 +332,7 @@
 ||adsdk.yandex.ru^
 ||adserver.com^
 ||adserversolutions.com^
+||adservice.google.$important
 ||adservice.google.*^
 ||adservme.com^
 ||adskeeper.co.uk^
@@ -358,14 +340,10 @@
 ||adtheorent.com^
 ||adthor.com^
 ||adthrive.com^
-||tiktok.com^
-||admix.in^
-||douyin.com^
 ||adtilt.com^
 ||adtima.vn^
 ||adtimaserver.vn^
 ||adtiming.com^
-||blocklists.settings.services.mozilla.com^
 ||adtlgc.com^
 ||adup-tech.com^
 ||adups.cn^
@@ -378,6 +356,7 @@
 ||aliexpress.*^$third-party,domain=~aliexpress.ru|~aliexpress.com
 ||alt*-mtalk.google.com^
 ||alt*-safebrowsing.google.com^
+||amazon-adsystem.com^
 ||amigo.appsmail.ru^
 ||an.facebook.com^
 ||an.yandex.ru^
@@ -401,9 +380,9 @@
 ||bench.utorrent.com^
 ||bidmachine.io^
 ||binupdate.mail.ru^
-||amazon-adsystem.com^
 ||bitmedianetwork.com^
 ||blocked.mts.ru^
+||blocklists.settings.services.mozilla.com^
 ||brontp.yandex.ru^
 ||browser-updater.yandex.net^
 ||brwsrapi.com^
@@ -419,6 +398,7 @@
 ||connect.mail.ru^
 ||connect.ok.ru^
 ||contributor.google.com^
+||contributor.google.com^$important
 ||count.ly^
 ||criteo.com^
 ||crm-cdn.zenguard.biz^
@@ -436,6 +416,7 @@
 ||dota2-roulette.ru^
 ||doubleclick.net^
 ||doublepimp.com^
+||douyin.com^
 ||e9fd3d63a0d429498f876a4e3f0542e.com^
 ||exchange.opera.com^
 ||exoclick.com^
@@ -447,10 +428,12 @@
 ||fabric.io^
 ||features.opera-api.com^
 ||firebase.google.com^
+||firebase.google.com^$important
 ||flurry.com^
 ||fqtag.com^
 ||fractionalmedia.com^
 ||fundingchoicesmessages.google.com^
+||fundingchoicesmessages.google.com^$important
 ||fuse-ad.com^
 ||fyber.com^
 ||gameanalytics.com^
@@ -458,20 +441,28 @@
 ||glispa.com^
 ||goadservices.com^
 ||google-analytics.com^
+||google-analytics.com^$important
+||googleadservices.$important
 ||googleadservices.*^
 ||googleadsserving.cn^
+||googleadsserving.cn^$important
 ||googlesyndication.com^
+||googlesyndication.com^$important
 ||googletagmanager.com^
+||googletagmanager.com^$important
 ||googletagservices.com^
+||googletagservices.com^$important
 ||graph.accountkit.com^
 ||graph.facebook.com^
 ||heyzap.com^
 ||http-check-headers.yandex.ru^
 ||i18nmmstat.ucweb.com^
+||id.google.$important
 ||id.google.com^
 ||illicium.web.money^
 ||image.uc.cn^
 ||imasdk.googleapis.com^
+||imasdk.googleapis.com^$important
 ||img.ucweb.com^
 ||imonomy.com^
 ||impactradius.com^
@@ -515,6 +506,7 @@
 ||localhost^$third-party
 ||localytics.com^
 ||mail-ads.google.com^
+||mail-ads.google.com^$important
 ||mail.ru^$third-party
 ||main.zdevx.yandex.ru^$third-party
 ||maribacaberita.com^
@@ -524,12 +516,9 @@
 ||mixpanel.com^
 ||moatads.com^
 ||mobileapptracking.com^
-||outbrain.com^
-||outbrain.org^
 ||mobpowertech.com^
 ||mookie1.com^
 ||mopub.com^
-||optimizely.com^
 ||mradx.net^
 ||mrbrwsr.com^
 ||mrds.mail.ru^
@@ -553,25 +542,28 @@
 ||openx.com^
 ||openx.net^
 ||oppomobile.com^
+||optimizely.com^
+||outbrain.com^
+||outbrain.org^
 ||partnercoll.github.io^
 ||pbprof.com^$third-party
 ||pcus.ucweb.com^
-||top.mail.ru^$third-party
 ||perfectionholic.com^
 ||perr.hola.org^
 ||playatoms-pa.googleapis.com^
-||popads.net^
+||playatoms-pa.googleapis.com^$important
+||popads.com^
 ||popads.media^
+||popads.net^
+||portal.mail.ru^
 ||predictvideo.com^
 ||propellerads.com^
-||quantserve.com^
-||pushwoosh.com^
-||popads.com^
-||portal.mail.ru^
 ||propellerclick.com^
 ||proxy_auth.trigger.hola.org^
 ||pulse.mail.ru^
 ||pulsesnip.go.mail.ru^
+||pushwoosh.com^
+||quantserve.com^
 ||r3.mail.ru^
 ||rayjump.com^
 ||recostream.go.mail.ru^
@@ -600,7 +592,9 @@
 ||tapjoyads.com^
 ||tbcdn.cn^
 ||thumbnails*.opera.com^
+||tiktok.com^
 ||top-fwz1.mail.ru^
+||top.mail.ru^$third-party
 ||twitch.tv^$third-party
 ||twitchcdn.net^$third-party,domain=~twitch.tv
 ||uc123.com^
@@ -1422,6 +1416,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#a[href^="https://api.whatsapp.com/send?"]
 ^ads.$document,badfilter
 #@#a[href^="https://api.whatsapp.com/send?text="]
+_campaign=$document,badfilter
 #@#a[href^="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview"]
 #@#a[href^="https://connect.ok.ru/offer?url="]
 #@#a[href^="https://pinterest.com/pin/create/"]
