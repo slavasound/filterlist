@@ -333,7 +333,6 @@
 ||adserver.com^
 ||adserversolutions.com^
 ||adservice.google.$important
-||adservice.google.*^
 ||adservme.com^
 ||adskeeper.co.uk^
 ||adtechus.com^
@@ -397,7 +396,6 @@
 ||connect.facebook.net^
 ||connect.mail.ru^
 ||connect.ok.ru^
-||contributor.google.com^
 ||contributor.google.com^$important
 ||count.ly^
 ||criteo.com^
@@ -414,7 +412,7 @@
 ||detectportal.firefox.com^
 ||dolohen.com^
 ||dota2-roulette.ru^
-||doubleclick.net^
+||doubleclick.net^$important
 ||doublepimp.com^
 ||douyin.com^
 ||e9fd3d63a0d429498f876a4e3f0542e.com^
@@ -427,12 +425,10 @@
 ||fa04089b99473e2ffd6dccb10cfd6d18.com^
 ||fabric.io^
 ||features.opera-api.com^
-||firebase.google.com^
 ||firebase.google.com^$important
 ||flurry.com^
 ||fqtag.com^
 ||fractionalmedia.com^
-||fundingchoicesmessages.google.com^
 ||fundingchoicesmessages.google.com^$important
 ||fuse-ad.com^
 ||fyber.com^
@@ -440,17 +436,11 @@
 ||gjapplog.ucweb.com^
 ||glispa.com^
 ||goadservices.com^
-||google-analytics.com^
 ||google-analytics.com^$important
 ||googleadservices.$important
-||googleadservices.*^
-||googleadsserving.cn^
 ||googleadsserving.cn^$important
-||googlesyndication.com^
 ||googlesyndication.com^$important
-||googletagmanager.com^
 ||googletagmanager.com^$important
-||googletagservices.com^
 ||googletagservices.com^$important
 ||graph.accountkit.com^
 ||graph.facebook.com^
@@ -458,7 +448,6 @@
 ||http-check-headers.yandex.ru^
 ||i18nmmstat.ucweb.com^
 ||id.google.$important
-||id.google.com^
 ||illicium.web.money^
 ||image.uc.cn^
 ||imasdk.googleapis.com^
@@ -508,7 +497,7 @@
 ||mail-ads.google.com^
 ||mail-ads.google.com^$important
 ||mail.ru^$third-party
-||main.zdevx.yandex.ru^$third-party
+||zdevx.yandex.ru^$third-party
 ||maribacaberita.com^
 ||mc-portal.mail.ru^
 ||mc.yandex.ru^
@@ -550,7 +539,6 @@
 ||pcus.ucweb.com^
 ||perfectionholic.com^
 ||perr.hola.org^
-||playatoms-pa.googleapis.com^
 ||playatoms-pa.googleapis.com^$important
 ||popads.com^
 ||popads.media^
@@ -578,8 +566,7 @@
 ||se.social.sc.sonymobile.com^
 ||service.browser.mail.ru^
 ||sf-userver-upaas.ucweb.com^
-||sitecheck2.opera.com^
-||sitecheck.opera.com^
+||sitecheck*.opera.com^
 ||smi2.ru^$third-party,domain=~smi2.ru
 ||speeddials.opera.com^
 ||sputnik.ru^
@@ -599,8 +586,7 @@
 ||twitchcdn.net^$third-party,domain=~twitch.tv
 ||uc123.com^
 ||uodoo.com^
-||update.utorrent.com^
-||update.utorrent.li^
+||update.utorrent.*^
 ||updtapi.com^
 ||updtbrwsr.com^
 ||us-ucdc-upaas.ucweb.com^
@@ -613,9 +599,7 @@
 ||webvisor.org^
 ||wow.ucweb.com^
 ||xray.mail.ru^
-||yabs.yandex.by^
-||yabs.yandex.ru^
-||yabs.yandex.ua^
+||yabs.yandex.*^
 ||yadro.ru^
 ||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~passport.rt.ru
 ||yandexadexchange.net^
@@ -695,11 +679,38 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###cookie_popup
 *###cookieconsent
 *###cookies-policy
+*###stickyCookieBar
+*##.cookiebar-bar
+*###sliding-popup
+*###cookie_bar_top
+*###cookielaw
+*###cookiePolicy
+*###cookiePolicyBackground
+*###cookieBanner
+*###cookieNotification
+*###yourCookieSettings
+*###cookieOverlay
+*###cookiesToolbar
+*###privacy_notice
+*###cookiesdirective
+*###cookie_consent
+*###cookieBannerD
+*###cookieNotice
+*##.cookieNotice
+*###cookiebox
+*###cookieTime
+*###cookieSpace
+*###cookie_drop_container
+*###cookielaw2
 *###js-react-cookie-policy
 *###mybannerbottom
 *###mybannerpopup
 *###netkevin-overlay
 *###videoroll
+*##[href*="sarimsol.com"]
+*##[href="1364.ru"]
+*##[href*="biruniversal.com"]
+*##.atomBox-motion
 *##.b-cookies
 *##.cc-banner.cc-window
 *##.cc_container--open.cc_container.cc_banner
@@ -892,7 +903,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=freebitco.in|ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet)\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|oceantech\.xyz|linkviet\.top)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet)\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet)\.xyz|linkviet\.top)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
