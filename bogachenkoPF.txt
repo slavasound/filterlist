@@ -544,11 +544,14 @@
 ||popcash.net^
 ||playatoms-pa.googleapis.com^$important
 ||popads.com^
+||rayjump.com^
+||quantcount.com^
 ||popads.media^
 ||popads.net^
 ||portal.mail.ru^
 ||predictvideo.com^
 ||propellerads.com^
+||revcontent.com^
 ||propellerclick.com^
 ||proxy_auth.trigger.hola.org^
 ||pulse.mail.ru^
@@ -1210,8 +1213,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||hdeuropix.com^$script
 ||vivaldi.com/rep/rep.js|$script,important
 ||yastatic.net/nearest.js|$script
-*/cookiesDirective.js$script
-*/CookiesAgreement/script.js$script
+|http*:*/cookiesDirective.js$script
+|http*:*/cookiechoices.js$script
+|http*:*/CookiesAgreement/script.js$script
 ||yastatic.net^*/widget_ya.js|$script,important
 ! SCRIPT END
 
@@ -1810,6 +1814,12 @@ thepiratebay.*#@#+js(aopr, popjs.init)
 /share/facebook.$badfilter
 /share/js/*$badfilter
 /share/twitter.$badfilter
+*#@#a[title="Instagram"]
+*#@#a[title="Youtube"]
+*#@#a[title="Twitter"]
+*#@#a[title="Instagram"]
+*#@#a[title="Twitter"]
+*#@#.footer-social
 /share_button.$badfilter
 /sharedaddy/*$image,script,badfilter
 /sharethis.js$badfilter
