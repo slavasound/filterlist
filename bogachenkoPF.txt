@@ -38,12 +38,11 @@
 !#endif
 
 ! WHITELIST
-!@@*$generichide,domain=yandex.ru|yandex.ua|yandex.by|google.com|google.ru|vk.com|webmoney.ru
 @@*/wp-content/plugins/remove-disqus-ads/*
 @@-adserver/$media,domain=player.pl
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@||clients*.google.com/*/crx?$other,xmlhttprequest
-@@||clients*.google.com^$domain=gmail.com|mail.google.com
+@@||clients*.google.com^$domain=gmail.com|mail.google.com|analytics.google.com
 @@||ocsp2.globalsign.com^
 @@||ocsp.globalsign.com^
 @@||vk.com/images/blank.mp4$media
@@ -323,6 +322,7 @@
 ||adrunnr.com^
 ||adsafeprotected.com^
 ||adsafety.net^
+||proximabeta.com^
 ||adsame.com^
 ||adscale.de^
 ||adsdk.yandex.ru^
@@ -1164,6 +1164,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document,domain=~google.com|~google.ru
 ||msftconnecttest.com/redirect$document
 ||vk.com/badbrowser.php$document
+||welcome.adguard.com^$document
 ||youtube.com/*dQw4w9WgXcQ$document
 ! DOCUMENT END
 
