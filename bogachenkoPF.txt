@@ -1191,7 +1191,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
 /^https?:\/\/(www\.)?mail\.yandex\.(by|kz|ru|ua)\/[^\s]{160,}/$script,important
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
 /^https?:\/\/[^\s]+\/dist\/js\/po[_-]v[0-9]{1}\.js\?v\=[0-9]{7,10}$/$script,important
 /^https?:\/\/[^\s]+\/popup[0-9]{1}\.js$/$script
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
@@ -1672,6 +1672,7 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#div[class^="widget-social"]
 #@#div[class^="ya-share"]
 #@#div[id^="vk_comments"]
+/likely.js$badfilter
 #@#div[id^="vk_group"]
 #@#div[id^="vk_like"]
 #@#fb\:comments
