@@ -569,7 +569,6 @@
 ||rs.mail.ru^
 ||safe.ucweb.com^
 ||savebrwsr.com^
-||sba.yandex.net^
 ||sd-images.operacdn.com^
 ||se.social.sc.sonymobile.com^
 ||service.browser.mail.ru^
@@ -1151,7 +1150,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||chrome.google.com/*/ldgpjdiadomhinpimgchmeembbgojnjk
 ||chrome.google.com/*/ppiaojpbclpegkkkmikabinlpbahhbha
 ||event.
-||geo.
+||geo.$domain=~fast.com
 ||google.com/async/ddljson
 ||google.com/async/newtab_ogb
 ||google.com/async/newtab_promos
