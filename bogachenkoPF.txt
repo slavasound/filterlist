@@ -427,6 +427,8 @@
 ||exoclick.com^
 ||exosrv.com^
 ||export.yandex.ru^
+||earnify.com^
+||mobpartner.*^
 ||f2.doodlemobile.com^
 ||f4f0b34558fe45a583ca23ba60e7bd44.com^
 ||fa04089b99473e2ffd6dccb10cfd6d18.com^
@@ -438,9 +440,17 @@
 ||firebase.google.com^$important
 ||flurry.com^
 ||dpmsrv.com^
+||mixadvert.com^
 ||duapps.com^
+||dxsvr.com^
+||dynad.net^
+||dynamicyield.com^
+||easy-ads.com^
+||innity.com^
+||dynatrace.com^
 ||fqtag.com^
 ||fractionalmedia.com^
+||innity.net^
 ||fundingchoicesmessages.google.com^$important
 ||fuse-ad.com^
 ||fyber.com^
@@ -463,9 +473,11 @@
 ||id.google.$important
 ||illicium.web.money^
 ||image.uc.cn^
-||imasdk.googleapis.com^
 ||imasdk.googleapis.com^$important
 ||img.ucweb.com^
+||n1275adserv.*^
+||n152adserv.*^
+||n176adserv.*^
 ||imonomy.com^
 ||impactradius.com^
 ||imrworldwide.com^
@@ -483,6 +495,7 @@
 ||ipredictive.com^
 ||ipromote.com^
 ||iqzone.com^
+||nativeads.com^
 ||isnssdk.com^
 ||ivitrack.com^
 ||trafficfactory.biz^
