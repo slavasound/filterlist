@@ -904,9 +904,9 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###mybannerpopup
 *###netkevin-overlay
 *###videoroll
-*##[href*="sarimsol.com"]
+*##a[href*="sarimsol.com"]
 *##[href="1364.ru"]
-*##[href*="biruniversal.com"]
+*##a[href*="biruniversal.com"]
 *##.atomBox-motion
 *##.b-cookies
 *##.cc-banner.cc-window
@@ -987,6 +987,9 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##a[href*="markasvip.com"]
 *##a[href*="maxbetqq.net"]
 *##a[href*="merdekabola365.org"]
+*##a[href*="nagaikn.xyz"]
+*##a[href*="tgks.dev"]
+*##a[href*="fun211211.com"]
 *##a[href*="mob1ledev1ces.com"]
 *##a[href*="momopkr88.com"]
 *##a[href*="mpo189.org"]
@@ -997,6 +1000,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##a[href*="parandaya.com"]
 *##a[href*="qq8778.online"]
 *##a[href*="qqgaming88e.com"]
+*##a[href*="itc303.com"]
 *##a[href*="reach.gg"]
 *##a[href*="rebrand.ly"]
 *##a[href*="roketbola.com"]
@@ -1040,7 +1044,7 @@ english-films.com##div.blueBlock.block:has-text(Наши телеграм кан
 fandom.com###recirculation-rail
 filmitorrentom.*##[src="/img/lkj.png"], [src="/img/dfr.png"], #top-link-block
 forums.opera.com###download-opera
-free-123movies.com##.jw-reset.jw-logo-bottom-left.jw-logo, .jw-reset.jw-logo-bottom-right.jw-logo, .popOverForADSInPlayer, .wIqjGsnrzd, [href="/user/profile/premium-membership"]
+free-123movies.com##.jw-reset.jw-logo-bottom-left.jw-logo, .jw-reset.jw-logo-bottom-right.jw-logo, .popOverForADSInPlayer, .wIqjGsnrzd, [href="/user/profile/premium-membership"], .jw-reset.jw-logo-top-right.jw-logo
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container
 gamepedia.com###policy-notice-root
 goblins-online.ru##.customb-top-center-desc
@@ -1514,6 +1518,7 @@ _social_icons.$badfilter
 #@#.social-likes
 #@#.social-likes__button
 #@#.social-likes__counter
+.ru/$badfilter
 #@#.social-likes__icon
 #@#.social-likes__widget
 #@#.social-likes_ready
@@ -1842,6 +1847,7 @@ apis.google.com/*plusone$3p,badfilter
 /linkedin-$domain=~linkedin.com,badfilter
 /linkedin.png$badfilter
 /pinterest-icon.$badfilter
+.us/$badfilter
 /pinterest.png$badfilter
 /pinterest.svg$badfilter
 /plugins/*facebook.png$badfilter
