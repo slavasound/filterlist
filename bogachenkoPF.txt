@@ -47,8 +47,6 @@
 @@*/wp-content/plugins/remove-disqus-ads/*
 @@-adserver/$media,domain=player.pl
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
-@@||clients*.google.com/*/crx?
-@@||clients*.google.com^$domain=gmail.com|mail.google.com|analytics.google.com|analyticsinsights-pa.clients6.google.com|analyticssuitefrontend-pa.clients6.google.com
 @@||ocsp2.globalsign.com^
 @@||ocsp.globalsign.com^
 @@||vk.com/images/blank.mp4$media
@@ -396,7 +394,6 @@
 ||cdn.ap.bittorrent.com^
 ||chartboost.com^
 ||clck.ru^
-||clients*.google.com^
 ||collections.yandex.ru^
 ||connect.facebook.net^
 ||connect.mail.ru^
@@ -1208,7 +1205,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! DOCUMENT
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */redirect.html$document
-/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document,domain=~google.com|~google.ru
+/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document,domain=~google.com|~google.ru|~mozilla.org
 ||msftconnecttest.com/redirect$document
 ||vk.com/badbrowser.php$document
 ||welcome.adguard.com^$document
@@ -1564,6 +1561,8 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.td-scroll-up
 #@#.td-social-icon-wrap
 #@#.td-social-list
+@@||google.com/analytics/web/$document,badfilter
+@@||www.google.com/analytics/web/$xmlhttprequest,domain=www.google.com,badfilter
 #@#.td_block_social_counter
 #@#.td_social_type
 #@#.teaser_social_block_trigger
