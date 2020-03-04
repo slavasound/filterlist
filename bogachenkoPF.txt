@@ -654,7 +654,7 @@
 */yujgs.png$image
 /.gif?[a-z]{1}\=/$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-/^https?:\/\/[^\s]+[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.gif$/$image,important
+/^https?:\/\/[^\s]+[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.giff?$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com|~ok.ru|~kinopoisk.ru
 /^https?:\/\/[^\s]+\/wp\-content\/uploads\/[0-9]{4}\/[0-9]{2,4}\/[_a-zA-Z-]{7,20}\.gif$/$image,important
 /^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
@@ -752,6 +752,8 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###EUCookie
 *###HGLCookieWarning
 *###UKCookieWarning
+*##a[href*="tiny.cc"]
+*##a[href*="dibuka.net"]
 *###__CookieContainer
 *###__ndcc_cookieImpliedConsent
 *###_evh-button
@@ -845,6 +847,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###oupcookiepolicy_message
 *###policy_header
 *###privacy-cookieMessage
+*##a[href*="arenabet168.net"]
 *###privacypopup
 *###qb_cookie_consent_main
 *###rb-cookie-container
@@ -1840,6 +1843,7 @@ apis.google.com/*plusone$third-party,badfilter
 @@||rte.ie^$generichide,badfilter
 ^blockadblock.$domain=~github.com,badfilter
 /img/instagram-$badfilter
+.club/$badfilter
 /img/social/*$image,badfilter
 /img/twitter.$badfilter
 /instagram-icon.$badfilter
@@ -1995,6 +1999,10 @@ icutlink.com#@#+js(aopw, atob)
 icutlink.com#@#+js(aopr, confirm)
 icutlink.com#@#+js(aopr, eval)
 /wp-emoji$badfilter
+gravatar.com$third-party,important,badfilter
+/scrolltotop.min.$badfilter
+/photon.min.js$badfilter
+/js/fb.share|$third-party,badfilter
 &referrer=$third-party,badfilter
 /wp-embed.min.js$badfilter
 icutlink.com#@#+js(ra, onclick)
