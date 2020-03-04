@@ -115,7 +115,6 @@
 62.128.100.93$network
 62.128.100.94$network
 64.233.161.97:443$network
-64.233.161.100:443$network
 64.233.161.102:443$network
 64.233.161.113:443$network
 64.233.161.154:443$network
@@ -140,7 +139,6 @@
 64.233.164.155:443$network
 64.233.164.156:443$network
 64.233.164.157:443$network
-64.233.165.95:443$network
 64.233.165.97:443$network
 64.233.165.148:443$network
 64.233.165.154:443$network
@@ -1773,6 +1771,7 @@ apis.google.com/*plusone$third-party,badfilter
 /dk?st.cmd=widgetgroup&st.groupid=$badfilter
 /facebook2.$badfilter
 ||vk-portal.net^$important,badfilter
+.zone/$badfilter
 /facebook.svg$badfilter
 /facebook_logo.$badfilter
 ||img.alibaba.com^$badfilter
@@ -1976,6 +1975,7 @@ datoporn.co#@#+js(set, cRAds, true)
 derstandard.*#@#+js(aopw, _sp_)
 dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh,jawcloud.co,123movies.*,feurl.com#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
+||github.io^$badfilter
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
 entervideo.net,onlystream.tv,short.pe,bit-url.com,gdriveplayer.co,files.cx,yesmovies.*,jawcloud.co,vup.to,hydrax.net,123movies.*#@#+js(aopr, AaDetector)
