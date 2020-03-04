@@ -39,6 +39,7 @@
 @@||xvideos.com^$document
 @@||aliexpress.*^$document
 @@||bogachenko.github.io^$document
+@@||analytics.google.com^$document
 !#endif
 !#endif
 
@@ -1414,6 +1415,7 @@ _adsense.$badfilter
 #@#.footer-social-wrap
 #@#.footer__social
 #@#.footer__social-links
+.xyz/$badfilter
 #@#.footer__socials
 #@#.footer_social
 #@#.g1-back-to-top
@@ -1455,6 +1457,7 @@ _adsense.$badfilter
 #@#.imdb
 #@#.instagramIcon
 #@#.ion-social-facebook
+||gstaticadssl.l.google.com^$badfilter
 #@#.ion-social-twitter
 #@#.item-share
 #@#.js-share-bar
@@ -1886,6 +1889,7 @@ thepiratebay.*#@#+js(aopr, popjs.init)
 /share/twitter.$badfilter
 *#@#a[title="Instagram"]
 *#@#a[title="Youtube"]
+||googleadapis.l.google.com^$badfilter
 *#@#a[title="Twitter"]
 *#@#a[title="Instagram"]
 *#@#a[title="Twitter"]
