@@ -25,6 +25,7 @@
 *##+js(js-rm.js, GoogleAnalyticsObject)
 *##+js(js-rm.js, OneSignal)
 *##+js(js-rm.js, window._taboola)
+*##+js(js-rm.js, __gaTracker)
 *##+js(js-rm.js, yandex_metrika_callbacks)
 *##+js(abort-on-property-read.js, glxopen)
 *##+js(abort-current-inline-script.js, Math, zfgloaded)
@@ -656,7 +657,7 @@
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.giff?$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com|~ok.ru|~kinopoisk.ru
-/^https?:\/\/[^\s]+\/wp\-content\/uploads\/[0-9]{4}\/[0-9]{2,4}\/[_a-zA-Z-]{7,20}\.gif$/$image,important
+/^https?:\/\/[^\s]+\/wp\-content\/uploads\/[0-9]{4}\/[0-9]{2,4}\/[_a-zA-Z-]{7,20}\.gif$/$image,important,domain=~lebahmovie.com
 /^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 ||english-films.com/uploads/001/Skyeng_English-Films.jpg$image
@@ -778,6 +779,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###cookie-drop
 *###cookie-handler
 *###cookie-info
+*##a[href*="idnfbs.trade"]
 *###cookie-law
 *###cookie-legislation
 *###cookie-message
@@ -1958,20 +1960,21 @@ akvideo.stream#@#+js(acis, setTimeout, mypop)
 australianfrequentflyer.com.au#@#+js(acis, $, adsBlocked)
 bmovies.*#@#+js(aopr, zfgloadedpopup)
 bolly4umovies.xyz#@#+js(set, zfgformats, noopFunc)
-ckk.ai,aii.sh,cloudvideo.tv#@#+js(acis, Object.defineProperty, vocabulary)
+ckk.ai,aii.sh,cloudvideo.tv,gdriveplayer.co#@#+js(acis, Object.defineProperty, vocabulary)
 ckk.ai#@#+js(aopr, parcelRequire)
 clik.pw#@#+js(aeld, /^(?:error|load)$/, P5)
 clik.pw#@#+js(aeld, mouseup, click)
-clipwatching.com#@#+js(aopr, mm)
+clipwatching.com,feurl.com#@#+js(aopr, mm)
 123movies.*##+js(acis, Math.sin, vocabulary)
 .disqus.com/count.js$badfilter
 ||pinterest.com/js/pinit_main.js$third-party,badfilter
 *$script,xmlhttprequest,third-party,domain=vidcloud9.com,badfilter
 clipwatching.com#@#+js(set, adblock, false)
 datoporn.co#@##a[onclick]
+disqus.com/$badfilter
 datoporn.co#@#+js(set, cRAds, true)
 derstandard.*#@#+js(aopw, _sp_)
-dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh,jawcloud.co,123movies.*#@#+js(aopr, open)
+dwrfslsqpdfqfwy.net,shrtfly.*,oload.*,streamhoe.*,oko.sh,jawcloud.co,123movies.*,feurl.com#@#+js(aopr, open)
 egybest.*#@#+js(set, _AdBlock, noopFunc)
 egybest.*#@#+js(std, WinMsgHtml)
 egybest.*#@#+js(window.open-defuser, , click)
@@ -1981,7 +1984,7 @@ fandom.com#@#body:style(overflow: auto !important;)
 fas.li#@#+js(aopr, blockAdBlock)
 hydrax.net#@#+js(nostif, debugger)
 fembed.com#@#+js(setInterval-defuser, (), 500)
-fembed.com,xstreamcdn.com,embed.media,clipwatching.com#@#+js(aopr, jwplayer.utils.Timer)
+fembed.com,xstreamcdn.com,embed.media,clipwatching.com,feurl.com#@#+js(aopr, jwplayer.utils.Timer)
 gelbooru.com#@#+js(acis, BPJS)
 twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐')]/../../../../..)
 get-to.link,aii.sh,yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
@@ -2097,7 +2100,7 @@ upornia.com#@#+js(aopr, ExoLoader)
 upornia.com#@#+js(aopr, WarBringer.addZone)
 upornia.com#@#+js(aopw, ads_priv)
 ventax.net,uiz.io#@#+js(acis, fuckAdBlock, importFAB)
-ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*,uiz.io#@#+js(aopw, _pop)
+ventax.net,onlystream.tv,wstream.*,shorten.*,likn.xyz,starmusiq.*,uiz.io,feurl.com#@#+js(aopw, _pop)
 vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.co#@#+js(set, pop_cnt, 1)
 videobin.co#@#+js(set, adb, 0)
