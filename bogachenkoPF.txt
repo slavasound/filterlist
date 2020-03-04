@@ -38,6 +38,7 @@
 @@||kinopoisk.ru^$document
 @@||xvideos.com^$document
 @@||aliexpress.*^$document
+@@||bogachenko.github.io^$document
 !#endif
 !#endif
 
@@ -416,7 +417,7 @@
 ||dolohen.com^
 ||dota2-roulette.ru^
 ||trafficjunky.net^
-||doubleclick.*^$important
+||doubleclick*.*^$important
 ||doublepimp.com^
 ||douyin.com^
 ||e9fd3d63a0d429498f876a4e3f0542e.com^
@@ -948,6 +949,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##a[href*="bandar95.com"]
 *##a[href*="bebasjudi.com"]
 *##a[href*="bets78.com"]
+reddit.com##.premium-banner
 *##a[href*="bit.ly"]
 *##a[href*="bitly.com"]
 *##a[href*="bltks.club"]
@@ -1809,6 +1811,7 @@ apis.google.com/*plusone$third-party,badfilter
 @@||phncdn.com/www-static/js/footer.js$script,badfilter
 /images/*linkedin.png$badfilter
 /images/*pinterest.png$domain=~pinterest.com,badfilter
+||yandex.ru^$badfilter
 /images/*twitter-$badfilter
 /images/*twitter.png$badfilter
 /images/facebook$badfilter
