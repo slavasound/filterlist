@@ -45,7 +45,7 @@
 @@*/wp-content/plugins/remove-disqus-ads/*
 @@-adserver/$media,domain=player.pl
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
-@@||clients*.google.com/*/crx?$other,xmlhttprequest
+@@||clients*.google.com/*/crx?
 @@||clients*.google.com^$domain=gmail.com|mail.google.com|analytics.google.com|analyticsinsights-pa.clients6.google.com|analyticssuitefrontend-pa.clients6.google.com
 @@||ocsp2.globalsign.com^
 @@||ocsp.globalsign.com^
@@ -116,7 +116,6 @@
 62.128.100.94$network
 64.233.161.97:443$network
 64.233.161.100:443$network
-64.233.161.101:443$network
 64.233.161.102:443$network
 64.233.161.113:443$network
 64.233.161.154:443$network
@@ -275,7 +274,6 @@
 202.177.216.236$network
 205.185.216.10:443$network
 205.185.216.42:443$network
-209.85.233.132:443$network
 209.85.233.154:443$network
 209.85.233.155:443$network
 209.85.233.156:443$network
