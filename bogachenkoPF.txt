@@ -1101,7 +1101,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! XPATH END
 
 ! Content Security Policy
-*$csp=worker-src 'none',domain=freebitco.in|ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
+*$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
 /(makeeasybtc\.website|(shortbitsfree|linkviet)\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto)\.xyz|linkviet\.top|onelink\.pw|payskip\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn)\.com|uptomega\.info|sloomp\.space)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
@@ -1962,6 +1962,7 @@ bmovies.*#@#+js(aopr, zfgloadedpopup)
 bolly4umovies.xyz#@#+js(set, zfgformats, noopFunc)
 ckk.ai,aii.sh,cloudvideo.tv,gdriveplayer.co#@#+js(acis, Object.defineProperty, vocabulary)
 ckk.ai#@#+js(aopr, parcelRequire)
+||yandex.ru^$badfilter
 clik.pw#@#+js(aeld, /^(?:error|load)$/, P5)
 clik.pw#@#+js(aeld, mouseup, click)
 clipwatching.com,feurl.com#@#+js(aopr, mm)
@@ -1971,6 +1972,7 @@ clipwatching.com,feurl.com#@#+js(aopr, mm)
 *$script,xmlhttprequest,third-party,domain=vidcloud9.com,badfilter
 clipwatching.com#@#+js(set, adblock, false)
 datoporn.co#@##a[onclick]
+.in/$badfilter
 disqus.com/$badfilter
 datoporn.co#@#+js(set, cRAds, true)
 derstandard.*#@#+js(aopw, _sp_)
