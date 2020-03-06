@@ -340,8 +340,11 @@
 ||adtilt.com^
 ||adtima.vn^
 ||adtimaserver.vn^
+||soom.la^
+||soomla.com^
 ||adtiming.com^
 ||adtlgc.com^
+||iibingo.com^
 ||adup-tech.com^
 ||adups.cn^
 ||adups.com^
@@ -547,6 +550,7 @@
 ||ofa-sub.osp.opera.software^
 ||offlinepages-pa.googleapis.com^
 ||ogs.google.com^
+||ip-api.com^
 ||ogury.io^
 ||omniture.com^
 ||online-metrix.net^
@@ -1112,6 +1116,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! Content Security Policy END
 
 ! OTHER
+*/WriteEvents?
 *$beacon,important
 */YandexDownloader.exe
 */YandexPackLoader.exe
@@ -1173,6 +1178,13 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||ads4.
 ||ads5.
 ||ads.
+||adv0.
+||adv1.
+||adv2.
+||adv3.
+||adv4.
+||adv5.
+||adv.
 ||advisor.
 ||analytic.
 ||analytics.$domain=~analytics.google.com
@@ -1197,6 +1209,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||trackclick*.
 ||tracking-protection.
 ||tracking.
+||ads-sdk.
 ! OTHER END
 
 ! DOCUMENT
@@ -1274,7 +1287,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-*$network,app=com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.appstar.callrecorder|com.catmario2.hd|com.danchis.superkitty|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.gta.real.gangster.crime|com.kx.box|com.ligeria.solitaire|com.lonelycatgames.Xplore|com.mediocre.grannysmith|com.miniclip.plagueinc|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.topgame.BeenyAdventures|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump
+*$network,app=Draziw.Button.Mines|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.appstar.callrecorder|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.kx.box|com.ligeria.solitaire|com.lonelycatgames.Xplore|com.mediocre.grannysmith|com.miniclip.plagueinc|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.red.ball.ballgames.bounceball.redball5|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.topgame.BeenyAdventures|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|pl.lukok.draughts
 /^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
 /^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
 /^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
