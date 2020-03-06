@@ -1099,7 +1099,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet)\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto)\.xyz|linkviet\.top|onelink\.pw|payskip\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn)\.com|uptomega\.info|sloomp\.space)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks)\.net|(tii|iir)\.ai|aii\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto)\.xyz|linkviet\.top|onelink\.pw|payskip\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn)\.com|uptomega\.info|sloomp\.space)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1236,7 +1236,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! SUBDOCUMENT END
 
 ! SCRIPT
-/^https?:\/\/([^\s]+\.)?firebaseapp\.com\/adx\/[0-9]{8}\.js$/$script,important
 /^https?:\/\/(www?\.)?123movies\..*\/[0-9]{7,}\.op$/$script,important
 /^https?:\/\/(www\.)?mail\.yandex\.(by|kz|ru|ua)\/[^\s]{160,}/$script,important
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-])?sw\.js/$important,script
@@ -1246,8 +1245,11 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/torrent\-soft\.net\/([0-9]{4}|[a-z0-9]{8,9}\.min)\.js$/$script,important
+|http*:*/CookiesAgreement/script.js$script
 |http*:*/annotations_module.js|$script,domain=youtube.com,important
+|http*:*/cookiechoices.js$script
 |http*:*/cookienotice.js|$script,important
+|http*:*/cookiesDirective.js$script
 |http*:*/endscreen.js|$script,domain=youtube.com,important
 |http*:*/gajs/analytics.js|$script,important
 |http*:*/gtag.js|$script,important
@@ -1269,21 +1271,17 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||hdeuropix.com^$script
 ||vivaldi.com/rep/rep.js|$script,important
 ||yastatic.net/nearest.js|$script
-|http*:*/cookiesDirective.js$script
-|http*:*/cookiechoices.js$script
-|http*:*/CookiesAgreement/script.js$script
 ||yastatic.net^*/widget_ya.js|$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
+*/cookie-policy$xmlhttprequest
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||addons.opera.com/themes/$xmlhttprequest
 ||gstatic.com/autofill/hourly/bins.json$xmlhttprequest
 ||gstatic.com/autofill/weekly/merchants.json$xmlhttprequest
-*/cookie-policy$xmlhttprequest
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
-||update.googleapis.com/service/update2/json$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
@@ -2319,7 +2317,7 @@ speedtest.net#@#+js(set, isBlocked, false)
 ||ws.sharethis.com^$badfilter
 ||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||www.linkbucks.com^$badfilter
-||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~hanime.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~vk.com,badfilter
+||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~vk.com,badfilter
 ||yandex.*/clck/$badfilter
 ||yandex.*/clck/$important,badfilter
 ||yandex.*/clck/$xmlhttprequest,badfilter
