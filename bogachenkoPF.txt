@@ -26,6 +26,7 @@
 *##+js(js-rm.js, OneSignal)
 *##+js(js-rm.js, window._taboola)
 *##+js(js-rm.js, __gaTracker)
+*##+js(js-rm.js, window.Adomik)
 *##+js(js-rm.js, yandex_metrika_callbacks)
 *##+js(abort-on-property-read.js, glxopen)
 *##+js(abort-current-inline-script.js, Math, zfgloaded)
@@ -1114,7 +1115,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url)\.xyz|linkviet\.top|onelink\.pw|payskip\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle)\.io)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle)\.io)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org music.yandex.com music.yandex.by music.yandex.ua; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1614,6 +1615,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 @@||gstatic.com/images?q=$image,badfilter
 #@#.widget_mc4wp_form_widget
 #@#.widget_social
+/images/youtube-$badfilter
 #@#.ya-share2
 #@#.ya-share2__link
 #@#.ya-share2__list
@@ -1754,11 +1756,16 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#img[alt="Facebook"]
 #@#img[alt="Instagram"]
 #@#img[alt="Linkedin"]
+.to/ads/$badfilter
+#@##share-button
+#@#.icon__facebook
+#@#.social__item
 #@#img[alt="Twitter"]
 #@#img[alt="Youtube"]
 #@#img[alt="facebook"]
 *$script,1p,domain=vidop.icu,badfilter
 .engine?$third-party,badfilter
+*$script,3p,domain=videobin.co,badfilter
 *$xmlhttprequest,domain=vidop.icu,badfilter
 ||phncdn.com^$badfilter
 #@#li[class^="ya-share2"][class$="facebook"]
