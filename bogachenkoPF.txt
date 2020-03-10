@@ -117,7 +117,6 @@
 62.128.100.94$network
 64.233.161.97:443$network
 64.233.161.102:443$network
-64.233.161.113:443$network
 64.233.161.154:443$network
 64.233.161.155:443$network
 64.233.161.156:443$network
@@ -1232,6 +1231,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! OTHER END
 
 ! DOCUMENT
+/^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */redirect.html$document
 /[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document,domain=~google.com|~google.ru|~mozilla.org
@@ -1717,6 +1717,16 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#a[title="Google Plus"]
 #@#a[title="Google+"]
 #@#a[title="Instagram"]
+#@#.share-toggle
+#@#.icon-instagram
+#@#.btn-instagram
+#@#.addthis_32x32_style
+#@#.addthis-smartlayers-desktop
+#@##at4-share
+#@#.ytp-share-button
+#@#.dt_social_single
+#@#.icon-pinterest-p
+#@#.icon-whatsapp
 #@#a[title="LinkedIn"]
 #@#a[title="More share options"]
 #@#a[title="Pinterest"]
