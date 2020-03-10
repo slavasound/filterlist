@@ -810,6 +810,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###cookielightbox
 *###cookiemodalbar
 *###cookienote
+*##.cookie-announce
 *###cookieok_bar
 *###cookiepop
 *###cookiereports-badge
@@ -1114,7 +1115,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle)\.io)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle)\.io|slink\.bid|shortearn\.eu)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org music.yandex.com music.yandex.by music.yandex.ua; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1322,7 +1323,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||yandex.*/suggest/$other,xmlhttprequest
 ||yandex.ru/prefetch.txt$xmlhttprequest,other,important
 ||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
-/count.json$xmlhttprequest,script,important
+|http*:*/count.json$xmlhttprequest,script,important
+/\.com\/[a-zA-Z]{10,17}\/[0-9]{5}$/$document,script
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1760,6 +1762,7 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#div[id^="vk_like"]
 #@#fb\:comments
 -social-buttons-$badfilter
+xhamster.*#@#+js(aopr, wih-popunder)
 /plugins/sassy-social-share/*$script,badfilter
 #@#iframe[src*=disqus\.com\/embed\/comments]
 #@#iframe[width="300"][height="250"]
@@ -2005,6 +2008,10 @@ aii.sh#@#+js(acis, String.prototype.charCodeAt)
 akvideo.stream#@#+js(acis, setTimeout, mypop)
 australianfrequentflyer.com.au#@#+js(acis, $, adsBlocked)
 bmovies.*#@#+js(aopr, zfgloadedpopup)
+#@#.social-twitter
+#@#.social-instagram
+#@#.social-facebook
+cshort.org#@#+js(window.open-defuser, 1, =)
 bolly4umovies.xyz#@#+js(set, zfgformats, noopFunc)
 ckk.ai,aii.sh,cloudvideo.tv,gdriveplayer.co#@#+js(acis, Object.defineProperty, vocabulary)
 ckk.ai#@#+js(aopr, parcelRequire)
