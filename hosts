@@ -26,6 +26,21 @@
 0.0.0.0 oca.telemetry.microsoft.com
 0.0.0.0 wdcp.microsoft.com
 0.0.0.0 wdcpalt.microsoft.com
+0.0.0.0 tile-service.weather.microsoft.com
+0.0.0.0 cdn.onenote.net
+0.0.0.0 evoke-windowsservices-tas.msedge.net
+0.0.0.0 mediaredirect.microsoft.com
+0.0.0.0 store-images.s-microsoft.com
+0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
+0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
+0.0.0.0 location-inference-westus.cloudapp.net
+0.0.0.0 storecatalogrevocation.storequality.microsoft.com
+0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
+0.0.0.0 storeedgefd.dsx.mp.microsoft.com
+0.0.0.0 pti.store.microsoft.com
+0.0.0.0 client-office365-tas.msedge.net
+0.0.0.0 g.live.com
+0.0.0.0 adl.windows.com
 0.0.0.0 
 0.0.0.0 
 0.0.0.0 
