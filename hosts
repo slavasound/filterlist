@@ -1,10 +1,27 @@
 # hosts
 # Copyright (c) Bogachenko Vyacheslav
-
 0.0.0.0 3ad.doubleclick.net
+0.0.0.0 23.218.212.69
+0.0.0.0 65.39.117.230
+0.0.0.0 65.55.108.23
+0.0.0.0 134.170.30.202
+0.0.0.0 137.116.81.24
+0.0.0.0 204.79.197.200
 0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 a-0002.a-msedge.net
+0.0.0.0 a-0003.a-msedge.net
+0.0.0.0 a-0004.a-msedge.net
+0.0.0.0 a-0005.a-msedge.net
+0.0.0.0 a-0006.a-msedge.net
+0.0.0.0 a-0007.a-msedge.net
+0.0.0.0 a-0008.a-msedge.net
+0.0.0.0 a-0009.a-msedge.net
+0.0.0.0 a-msedge.net
 0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msads.net
 0.0.0.0 a.ads2.msn.com
+0.0.0.0 a.rad.msn.com
+0.0.0.0 ac3.msn.com
 0.0.0.0 ad2.doubleclick.net
 0.0.0.0 ad-emea.doubleclick.net
 0.0.0.0 ad-g.doubleclick.net
@@ -36,20 +53,33 @@
 0.0.0.0 adl.windows.com
 0.0.0.0 adnexus.net
 0.0.0.0 adnxs.com
+0.0.0.0 adriver.ru
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads.msn.com
+0.0.0.0 aidps.atdmt.com
+0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 alpha.telemetry.microsft.com
 0.0.0.0 amn.doubleclick.net
+0.0.0.0 api.skype.com
+0.0.0.0 apps.skype.com
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 atdmt.com
 0.0.0.0 az361816.vo.msecnd.net
 0.0.0.0 az512334.vo.msecnd.net
+0.0.0.0 b.ads1.msn.com
+0.0.0.0 b.ads2.msads.net
+0.0.0.0 b.rad.msn.com
 0.0.0.0 bing.com
-0.0.0.0 ca.telemetry.microsoft.com
+0.0.0.0 bingads.microsoft.com
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 c.atdmt.com
+0.0.0.0 c.msn.com
 0.0.0.0 ca.telemetry.microsoft.com
 0.0.0.0 cache.datamart.windows.com
+0.0.0.0 cdn.atdmt.com
 0.0.0.0 cdn.onenote.net
+0.0.0.0 cds26.ams9.msecn.net
 0.0.0.0 ceuswatcab01.blob.core.windows.net
 0.0.0.0 ceuswatcab02.blob.core.windows.net
 0.0.0.0 choice.microsoft.com
@@ -63,6 +93,7 @@
 0.0.0.0 cs1.wpc.v0cdn.net
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
 0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
+0.0.0.0 db3aqu.atdmt.com
 0.0.0.0 db3wns2011111.wns.windows.com
 0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
 0.0.0.0 db5.settings-win.data.microsoft.com.akadns.net
@@ -78,6 +109,7 @@
 0.0.0.0 eaus2watcab02.blob.core.windows.net
 0.0.0.0 ebaycn.doubleclick.net
 0.0.0.0 ebaytw.doubleclick.net
+0.0.0.0 ec.atdmt.com
 0.0.0.0 eu.vortex-win.data.microsoft.com
 0.0.0.0 evoke-windowsservices-tas.msedge.net
 0.0.0.0 exnjadgda1.doubleclick.net
@@ -91,8 +123,10 @@
 0.0.0.0 feedback.microsoft-hohm.com
 0.0.0.0 feedback.search.microsoft.com
 0.0.0.0 feedback.windows.com
+0.0.0.0 flex.msn.com
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 g.live.com
+0.0.0.0 g.msn.com
 0.0.0.0 gd1.doubleclick.net
 0.0.0.0 gd2.doubleclick.net
 0.0.0.0 gd3.doubleclick.net
@@ -127,11 +161,14 @@
 0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 graph.windows.net
+0.0.0.0 h1.msn.com
 0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 i1.services.social.microsoft.com.nsatc.net
 0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
 0.0.0.0 iv.doubleclick.net
 0.0.0.0 kmwatsonc.events.data.microsoft.com
+0.0.0.0 lb1.www.ms.akadns.net
+0.0.0.0 live.rads.msn.com
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 location-inference-westus.cloudapp.net
 0.0.0.0 m1.2mdn.net
@@ -344,11 +381,16 @@
 0.0.0.0 m9.ve.2mdn.net
 0.0.0.0 m9.za.2mdn.net
 0.0.0.0 m.2mdn.net
+0.0.0.0 m.adnxs.com
 0.0.0.0 m.de.2mdn.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 manage.microsoft.com
 0.0.0.0 mediaredirect.microsoft.com
+0.0.0.0 msedge.net
+0.0.0.0 msftncsi.com
+0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 msnbot-207-46-194-33.search.msn.com
+0.0.0.0 msntest.serving-sys.com
 0.0.0.0 n479ad.doubleclick.net
 0.0.0.0 n3302ad.doubleclick.net
 0.0.0.0 n3349ad.doubleclick.net
@@ -362,13 +404,20 @@
 0.0.0.0 pagead.l.doubleclick.net
 0.0.0.0 pre.footprintpredict.com
 0.0.0.0 preview.msn.com
+0.0.0.0 pricelist.skype.com
 0.0.0.0 pti.store.microsoft.com
 0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 rad.live.com
 0.0.0.0 rad.msn.com
 0.0.0.0 rd.intl.doubleclick.net
 0.0.0.0 redir.metaservices.microsoft.com
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
 0.0.0.0 ru.vortex-win.data.microsoft.com
+0.0.0.0 s.gateway.messenger.live.com
+0.0.0.0 sO.2mdn.net
+0.0.0.0 schemas.microsoft.akadns.net
+0.0.0.0 secure.adnxs.com
+0.0.0.0 secure.flashtalking.com
 0.0.0.0 services.wes.df.telemetry.microsoft.com
 0.0.0.0 settings-sandbox.data.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
@@ -380,6 +429,8 @@
 0.0.0.0 sqm.telemetry.microsoft.com
 0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
 0.0.0.0 ssw.live.com
+0.0.0.0 static.2mdn.net
+0.0.0.0 static.skypeassets.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 stats.l.doubleclick.net
 0.0.0.0 statsfe1.ws.microsoft.com
@@ -390,15 +441,15 @@
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 telecommand.telemetry.microsoft.com
-0.0.0.0 telecommand.telemetry.microsoft.com.nsat-c.net 
+0.0.0.0 telecommand.telemetry.microsoft.com.nsat-c.net
 0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
 0.0.0.0 telemetry.appex.bing.net
-0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 twx.2mdn.net
 0.0.0.0 twx.doubleclick.net
+0.0.0.0 ui.skype.com
 0.0.0.0 ukrpts.net
 0.0.0.0 us.vortex-win.data.microsoft.com
 0.0.0.0 uunyadgda1.doubleclick.net
@@ -411,6 +462,8 @@
 0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 v20.vortex-win.data.microsoft.com
 0.0.0.0 view.atdmt.com
+0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
+0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
 0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 vortex-win-sandbox.data.microsoft.com
 0.0.0.0 vortex-win.data.microsoft.com
@@ -427,22 +480,3 @@
 0.0.0.0 weus2watcab02.blob.core.windows.net
 0.0.0.0 win10.ipv6.microsoft.com
 0.0.0.0 www.ukrpts.net
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-
-
-
-
-
