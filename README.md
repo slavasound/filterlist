@@ -11,6 +11,7 @@ RAW - `https://raw.githubusercontent.com/bogachenko/filterlist/personal/scriptle
 Add [scriptlets](https://raw.githubusercontent.com/bogachenko/filterlist/personal/scriptlets.txt) to `userResourcesLocation` parameter in `Advanced-Settings` in uBlock Origin.
 
 ## My hosts-file
+_Most scum-urls were borrowed from [CrazyMax](https://github.com/crazy-max)..._
 
 Add to
 
