@@ -9,3 +9,11 @@ _Most scriptlets were borrowed from [uBlock-user](https://github.com/uBlock-user
 RAW - `https://raw.githubusercontent.com/bogachenko/filterlist/personal/scriptlets.txt`
 
 Add [scriptlets](https://raw.githubusercontent.com/bogachenko/filterlist/personal/scriptlets.txt) to `userResourcesLocation` parameter in `Advanced-Settings` in uBlock Origin.
+
+## My hosts-file
+
+Add to
+
+Linux - `/etc/hosts`
+
+Windows - `%SystemRoot%\system32\drivers\etc\hosts`
