@@ -27,6 +27,7 @@
 0.0.0.0 wdcp.microsoft.com
 0.0.0.0 wdcpalt.microsoft.com
 0.0.0.0 tile-service.weather.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 cdn.onenote.net
 0.0.0.0 evoke-windowsservices-tas.msedge.net
 0.0.0.0 mediaredirect.microsoft.com
@@ -41,6 +42,116 @@
 0.0.0.0 client-office365-tas.msedge.net
 0.0.0.0 g.live.com
 0.0.0.0 adl.windows.com
+0.0.0.0 alpha.telemetry.microsft.com
+0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
+0.0.0.0 v10-win.vortex.data.microsft.com.akadns.net
+0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
+0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
+0.0.0.0 db5.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 oneclient.sfx.ms
+0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
+0.0.0.0 bing.com
+0.0.0.0 graph.windows.net
+0.0.0.0 manage.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 kmwatsonc.events.data.microsoft.com
+0.0.0.0 3ad.doubleclick.net
+0.0.0.0 ad2.doubleclick.net
+0.0.0.0 ad.3au.doubleclick.net
+0.0.0.0 ad.ae.doubleclick.net
+0.0.0.0 ad.be.doubleclick.net
+0.0.0.0 ad.br.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 ad.de.doubleclick.net
+0.0.0.0 ad.dk.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad-emea.doubleclick.net
+0.0.0.0 ad.es.doubleclick.net
+0.0.0.0 ad.fi.doubleclick.net
+0.0.0.0 ad.fr.doubleclick.net
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad.it.doubleclick.net
+0.0.0.0 ad.jp.doubleclick.net
+0.0.0.0 ad.mo.doubleclick.net
+0.0.0.0 ad.n2434.doubleclick.net
+0.0.0.0 ad.nl.doubleclick.net
+0.0.0.0 ad.no.doubleclick.net
+0.0.0.0 ad.nz.doubleclick.net
+0.0.0.0 ad.pl.doubleclick.net
+0.0.0.0 ad.se.doubleclick.net
+0.0.0.0 ad.sg.doubleclick.net
+0.0.0.0 ad.uk.doubleclick.net
+0.0.0.0 ad.ve.doubleclick.net
+0.0.0.0 ad-yt-bfp.doubleclick.net
+0.0.0.0 ad.za.doubleclick.net
+0.0.0.0 amn.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 creative.cc-dt.com
+0.0.0.0 doubleclick.com
+0.0.0.0 doubleclick.de
+0.0.0.0 doubleclick.net
+0.0.0.0 ebaycn.doubleclick.net
+0.0.0.0 ebaytw.doubleclick.net
+0.0.0.0 exnjadgda1.doubleclick.net
+0.0.0.0 exnjadgda2.doubleclick.net
+0.0.0.0 exnjadgds1.doubleclick.net
+0.0.0.0 exnjmdgda1.doubleclick.net
+0.0.0.0 exnjmdgds1.doubleclick.net
+0.0.0.0 feedads.g.doubleclick.net
+0.0.0.0 fls.doubleclick.net
+0.0.0.0 gd10.doubleclick.net
+0.0.0.0 gd11.doubleclick.net
+0.0.0.0 gd12.doubleclick.net
+0.0.0.0 gd13.doubleclick.net
+0.0.0.0 gd14.doubleclick.net
+0.0.0.0 gd15.doubleclick.net
+0.0.0.0 gd16.doubleclick.net
+0.0.0.0 gd17.doubleclick.net
+0.0.0.0 gd18.doubleclick.net
+0.0.0.0 gd19.doubleclick.net
+0.0.0.0 gd1.doubleclick.net
+0.0.0.0 gd20.doubleclick.net
+0.0.0.0 gd21.doubleclick.net
+0.0.0.0 gd22.doubleclick.net
+0.0.0.0 gd23.doubleclick.net
+0.0.0.0 gd24.doubleclick.net
+0.0.0.0 gd25.doubleclick.net
+0.0.0.0 gd26.doubleclick.net
+0.0.0.0 gd27.doubleclick.net
+0.0.0.0 gd28.doubleclick.net
+0.0.0.0 gd29.doubleclick.net
+0.0.0.0 gd2.doubleclick.net
+0.0.0.0 gd30.doubleclick.net
+0.0.0.0 gd31.doubleclick.net
+0.0.0.0 gd3.doubleclick.net
+0.0.0.0 gd4.doubleclick.net
+0.0.0.0 gd5.doubleclick.net
+0.0.0.0 gd7.doubleclick.net
+0.0.0.0 gd8.doubleclick.net
+0.0.0.0 gd9.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 iv.doubleclick.net
+0.0.0.0 ln.doubleclick.net
 0.0.0.0 
 0.0.0.0 
 0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
+
+
+
+
+
+
