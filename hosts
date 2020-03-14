@@ -19,10 +19,16 @@
 0.0.0.0 a-0009.a-msedge.net
 0.0.0.0 a-msedge.net
 0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msads.net
 0.0.0.0 a.ads2.msads.net
 0.0.0.0 a.ads2.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 a.rad.msn.com
 0.0.0.0 a.rad.msn.com
 0.0.0.0 ac3.msn.com
+0.0.0.0 ac3.msn.com
+0.0.0.0 activity.windows.com
 0.0.0.0 ad2.doubleclick.net
 0.0.0.0 ad-emea.doubleclick.net
 0.0.0.0 ad-g.doubleclick.net
@@ -51,21 +57,36 @@
 0.0.0.0 ad.ve.doubleclick.net
 0.0.0.0 ad.za.doubleclick.net
 0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 adfox.yandex.ru
 0.0.0.0 adl.windows.com
 0.0.0.0 adnexus.net
+0.0.0.0 adnexus.net
+0.0.0.0 adnxs.com
 0.0.0.0 adnxs.com
 0.0.0.0 adriver.ru
 0.0.0.0 ads1.msads.net
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads1.msn.com
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads.msn.com
+0.0.0.0 ads.msn.com
+0.0.0.0 adsdk.yandex.ru
+0.0.0.0 aidps.atdmt.com
 0.0.0.0 aidps.atdmt.com
 0.0.0.0 aka-cdn-ns.adtech.de
+0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 alpha.telemetry.microsft.com
+0.0.0.0 alpha.telemetry.microsoft.com
 0.0.0.0 amn.doubleclick.net
+0.0.0.0 apac1.notify.windows.com.akadns.net
+0.0.0.0 api.cortana.ai
 0.0.0.0 api.skype.com
 0.0.0.0 apps.skype.com
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 atdmt.com
+0.0.0.0 awaps.yandex.net
+0.0.0.0 awaps.yandex.ru
+0.0.0.0 awsync.yandex.ru
 0.0.0.0 az361816.vo.msecnd.net
 0.0.0.0 az512334.vo.msecnd.net
 0.0.0.0 b.ads1.msn.com
@@ -73,7 +94,9 @@
 0.0.0.0 b.rad.msn.com
 0.0.0.0 bing.com
 0.0.0.0 bingads.microsoft.com
+0.0.0.0 bs-meta.yandex.ru
 0.0.0.0 bs.serving-sys.com
+0.0.0.0 bs.yandex.ru
 0.0.0.0 c.atdmt.com
 0.0.0.0 c.msn.com
 0.0.0.0 ca.telemetry.microsoft.com
@@ -105,19 +128,12 @@
 0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
 0.0.0.0 doubleclick.com
 0.0.0.0 doubleclick.de
-0.0.0.0 adsdk.yandex.ru
 0.0.0.0 doubleclick.net
-0.0.0.0 adfox.yandex.ru
 0.0.0.0 eaus2watcab01.blob.core.windows.net
 0.0.0.0 eaus2watcab02.blob.core.windows.net
 0.0.0.0 ebaycn.doubleclick.net
 0.0.0.0 ebaytw.doubleclick.net
 0.0.0.0 ec.atdmt.com
-0.0.0.0 yabs.yandex.ru
-0.0.0.0 yabs.yandex.ua
-0.0.0.0 yabs.yandex.by
-0.0.0.0 bs-meta.yandex.ru
-0.0.0.0 bs.yandex.ru
 0.0.0.0 eu.vortex-win.data.microsoft.com
 0.0.0.0 evoke-windowsservices-tas.msedge.net
 0.0.0.0 exnjadgda1.doubleclick.net
@@ -132,9 +148,11 @@
 0.0.0.0 feedback.search.microsoft.com
 0.0.0.0 feedback.windows.com
 0.0.0.0 flex.msn.com
+0.0.0.0 flightingservicewus.cloudapp.net
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 g.live.com
 0.0.0.0 g.msn.com
+0.0.0.0 g.msn.com.nsatc.net
 0.0.0.0 gd1.doubleclick.net
 0.0.0.0 gd2.doubleclick.net
 0.0.0.0 gd3.doubleclick.net
@@ -161,7 +179,6 @@
 0.0.0.0 gd25.doubleclick.net
 0.0.0.0 gd26.doubleclick.net
 0.0.0.0 gd27.doubleclick.net
-0.0.0.0 kiks.yandex.ru
 0.0.0.0 gd28.doubleclick.net
 0.0.0.0 gd29.doubleclick.net
 0.0.0.0 gd30.doubleclick.net
@@ -175,6 +192,7 @@
 0.0.0.0 i1.services.social.microsoft.com.nsatc.net
 0.0.0.0 img-prod-cms-rt-microsoft-com.akamaized.net
 0.0.0.0 iv.doubleclick.net
+0.0.0.0 kiks.yandex.ru
 0.0.0.0 kmwatsonc.events.data.microsoft.com
 0.0.0.0 lb1.www.ms.akadns.net
 0.0.0.0 live.rads.msn.com
@@ -184,13 +202,9 @@
 0.0.0.0 m1.ae.2mdn.net
 0.0.0.0 m1.au.2mdn.net
 0.0.0.0 m1.be.2mdn.net
-0.0.0.0 awaps.yandex.net
-0.0.0.0 awaps.yandex.ru
-0.0.0.0 awsync.yandex.ru
 0.0.0.0 m1.br.2mdn.net
 0.0.0.0 m1.ca.2mdn.net
 0.0.0.0 m1.cn.2mdn.net
-0.0.0.0 mc.yandex.ru
 0.0.0.0 m1.de.2mdn.net
 0.0.0.0 m1.dk.2mdn.net
 0.0.0.0 m1.doubleclick.net
@@ -398,7 +412,9 @@
 0.0.0.0 m.de.2mdn.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 manage.microsoft.com
+0.0.0.0 mc.yandex.ru
 0.0.0.0 mediaredirect.microsoft.com
+0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 msedge.net
 0.0.0.0 msftncsi.com
 0.0.0.0 msnbot-65-55-108-23.search.msn.com
@@ -412,6 +428,7 @@
 0.0.0.0 oca.telemetry.microsoft.com
 0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
 0.0.0.0 oneclient.sfx.ms
+0.0.0.0 onecollector.cloudapp.aria.akadns.net
 0.0.0.0 optimize.doubleclick.net
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 pagead.l.doubleclick.net
@@ -425,6 +442,7 @@
 0.0.0.0 rd.intl.doubleclick.net
 0.0.0.0 redir.metaservices.microsoft.com
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 ris.api.iris.microsoft.com.akadns.net
 0.0.0.0 ru.vortex-win.data.microsoft.com
 0.0.0.0 s.gateway.messenger.live.com
 0.0.0.0 sO.2mdn.net
@@ -460,6 +478,7 @@
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 tile-service.weather.microsoft.com
+0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 0.0.0.0 twx.2mdn.net
 0.0.0.0 twx.doubleclick.net
 0.0.0.0 ui.skype.com
@@ -475,6 +494,7 @@
 0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 v20.vortex-win.data.microsoft.com
 0.0.0.0 view.atdmt.com
+0.0.0.0 vip5.afdorigin-prod-ch02.afdogw.com
 0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
 0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
 0.0.0.0 vortex-sandbox.data.microsoft.com
@@ -486,6 +506,7 @@
 0.0.0.0 watson.ppe.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 wd-prod-cp-us-west-3-fe.westus.cloudapp.azure.com
 0.0.0.0 wdcp.microsoft.com
 0.0.0.0 wdcpalt.microsoft.com
 0.0.0.0 wes.df.telemetry.microsoft.com
@@ -493,22 +514,6 @@
 0.0.0.0 weus2watcab02.blob.core.windows.net
 0.0.0.0 win10.ipv6.microsoft.com
 0.0.0.0 www.ukrpts.net
-0.0.0.0 wd-prod-cp-us-west-3-fe.westus.cloudapp.azure.com
-0.0.0.0 vip5.afdorigin-prod-ch02.afdogw.com
-0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
-0.0.0.0 onecollector.cloudapp.aria.akadns.net
-0.0.0.0 modern.watson.data.microsoft.com.akadns.net
-0.0.0.0 g.msn.com.nsatc.net
-0.0.0.0 flightingservicewus.cloudapp.net
-0.0.0.0 ris.api.iris.microsoft.com.akadns.net
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
+0.0.0.0 yabs.yandex.by
+0.0.0.0 yabs.yandex.ru
+0.0.0.0 yabs.yandex.ua
