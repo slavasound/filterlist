@@ -364,13 +364,13 @@
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
 0.0.0.0 www.ukrpts.net
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
-0.0.0.0 
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 watson.live.com
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 atdmt.com
+0.0.0.0 view.atdmt.com
 0.0.0.0 
 0.0.0.0 
 0.0.0.0 
