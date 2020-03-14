@@ -1,24 +1,5 @@
-# Copyright (c) 1993-2009 Microsoft Corp.
-#
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
+# hosts
+# Copyright (c) Bogachenko Vyacheslav
 
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
@@ -26,8 +7,25 @@
 0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 settings-sandbox.data.microsoft.com
 0.0.0.0 vortex-sandbox.data.microsoft.com
-0.0.0.0
-
-
-
-
+0.0.0.0 v10c.vortex-win.data.microsoft.com
+0.0.0.0 v20.vortex-win.data.microsoft.com
+0.0.0.0 de.vortex-win.data.microsoft.com
+0.0.0.0 eu.vortex-win.data.microsoft.com
+0.0.0.0 us.vortex-win.data.microsoft.com
+0.0.0.0 vortex-win-sandbox.data.microsoft.com
+0.0.0.0 ru.vortex-win.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 ceuswatcab01.blob.core.windows.net
+0.0.0.0 ceuswatcab02.blob.core.windows.net
+0.0.0.0 eaus2watcab01.blob.core.windows.net
+0.0.0.0 eaus2watcab02.blob.core.windows.net
+0.0.0.0 weus2watcab01.blob.core.windows.net
+0.0.0.0 weus2watcab02.blob.core.windows.net
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 wdcp.microsoft.com
+0.0.0.0 wdcpalt.microsoft.com
+0.0.0.0 
+0.0.0.0 
+0.0.0.0 
