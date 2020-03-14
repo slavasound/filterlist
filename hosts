@@ -1473,6 +1473,16 @@
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 wer.alpha.telemetry.microsoft.com
 0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 wscont1.apps.microsoft.com
+0.0.0.0 wscont2.apps.microsoft.com
+0.0.0.0 wscont.apps.microsoft.com
+0.0.0.0 wscont.apps.microsoft.com.edgesuite.net
+0.0.0.0 www.download.windowsupdate.com
+0.0.0.0 www.msedge.net
+0.0.0.0 www.msftconnecttest.com
+0.0.0.0 www.msftncsi.com
+0.0.0.0 www.windowssearch.com
+0.0.0.0 xml.login.live.com
 0.0.0.0 weu-000.reverseproxy.onenote.com
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
