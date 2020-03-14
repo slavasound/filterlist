@@ -819,6 +819,10 @@
 0.0.0.0 view.atdmt.com
 0.0.0.0 vip5.afdorigin-prod-ch02.afdogw.com
 0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
+0.0.0.0 sentry-cdn.com
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 bugsnag.com
+0.0.0.0 sessions.bugsnag.com
 0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
 0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 vortex-win-sandbox.data.microsoft.com
@@ -826,6 +830,7 @@
 0.0.0.0 vortex.data.glbdns2.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 watson.live.com
+0.0.0.0 an.yandex.ru
 0.0.0.0 watson.microsoft.com
 0.0.0.0 watson.ppe.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com
@@ -835,10 +840,17 @@
 0.0.0.0 wdcpalt.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 advertising.yandex.ru
+0.0.0.0 redirect.appmetrica.yandex.ru
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
 0.0.0.0 win10.ipv6.microsoft.com
 0.0.0.0 win1710.ipv6.microsoft.com
+0.0.0.0 hotjar.com
+0.0.0.0 in.hotjar.com
+0.0.0.0 script.hotjar.com
+0.0.0.0 static.hotjar.com
+0.0.0.0 vars.hotjar.com
 0.0.0.0 win8.ipv6.microsoft.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
