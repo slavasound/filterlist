@@ -121,7 +121,6 @@
 64.233.161.157:443$network
 64.233.161.190:443$network
 64.233.162.97:443$network
-64.233.162.101:443$network
 64.233.162.102:443$network
 64.233.162.154:443$network
 64.233.162.155:443$network
@@ -699,6 +698,7 @@
 abandonmail.com##+js(abort-on-property-read.js, indexedDB.open)
 aimshospital.co.in,amarsong.net,ansarian.ir,anytube.pl,arnaques-internet.info,arquitecturadecasas.info,axenter.ru,best-anime.eu,bigbadmonkey.com,bitcoinn.biz,blogspot.com,bookmarkspot.com,boukan-taxi.ir,btcholding.biz,carrierecalciatori.it,cherrysock.com,clubeben.com.br,coinminingonline.com,compuseriestotal.com,czechfreepress.cz,dbroker.com.ua,digisekeh.com,dnd5spells.rpgist.net,download-free-fonts.com,easa.ac.za,easyupdate.ir,erechargemoney.com,esol.cl,fotonatan.sk,fotoromandigital.com.ar,golf-info-guide.com,guitar-arrangements.jimdo.com,i-lens.jp,inside-out.xyz,iranixea.com,iranopen.ir,isolarstreetlight.com,jornaldamanhamarilia.com.br,kellybroganmd.com,kharasach.com,knigopoisk.com,kogamtv.kz,konev.cz,kundun1069.com,kursk-izvestia.ru,kurskcity.ru,lambanh365.com,marinegyaan.com,mitsubnt.com,mobology.ir,monero-miner.com,moto-x.lv,moviemela.live,mp3song-s.com,mrwatches.cn,neurozinzin.com,nungjeen.com,ogar.pw,onlinetechstudio.xyz,ozgurdemircelik.com,payu2do.com,phonesalute.com,politehvpo.ru,pornmam.com,pracuj2.pl,punjabimaa.com,rareholidays.com,rednubes.de,rootologyhealth.com,runwaywp.com,scorphq.com,shop-divarma.ir,sirsyedschooluch.com,skyplanners.com,sniperarmasbahia.com.br,softbizplus.com,space-blogs.net,space-forums.net,speedtest.ir,subland.info,sunliker.com.tw,telemax.com.mx,theskillsets.com,toppersexam.com,tuvanthammy.com,uandblog.com,ubuntututorials.com,utorrent.hu,viacaosanremo.com.br,videoshia.com,visual-basic.it,vstars.pl,walking-dead.ru,wispapp.com,worldresearchlibrary.org,worlds-in-arabic.net,wrnr.it,wypr.pl,uptostream.com,uptobox.com,shortbitsfree.net##+js(abort-on-property-read.js, _client)
 bitblitz.org,fovj.ir,nzclip.com,povvideo.*,powvldeo.*,seriesf.lv,streamp1ay.me,taktaserver.ir,unluresim.com,valeconferir.com.br,steamplay.*##+js(abort-on-property-write.js, CoinNebula)
+google.com,google.ru##+js(remove-elem, #promos)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
@@ -839,8 +839,10 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###hi-eu-opt-in
 *###huk_cookie_prefernce_panel
 *###icoCookiesBanner
+*###uecookies
 *###idCookiePolicyPanel
 *###id_cookieconsent
+*##.notification--cookie
 *###imPolicycookiemessage
 *###jlp-cookie-container
 *###js-react-cookie-policy
@@ -1004,6 +1006,8 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##a[href*="lg88.online"]
 *##a[href*="liga88.world"]
 *##a[href*="limaq9.net"]
+*##.google-adsense-content
+*##.google-adsense-label
 *##a[href*="livebet88.co"]
 *##a[href*="lucky77.world"]
 *##a[href*="luxury111bb.com"]
@@ -1125,7 +1129,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|shortearn\.eu|gplinks\.co|gplinks\.in|albhar\.online)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|shortearn\.eu|gplinks\.co|gplinks\.in|albhar\.online|adclic\.pro)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org music.yandex.com music.yandex.by music.yandex.ua; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1315,10 +1319,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||gstatic.com/autofill/hourly/bins.json$xmlhttprequest
 ||gstatic.com/autofill/weekly/merchants.json$xmlhttprequest
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
-||api.sec-tunnel.com/*/discover|$xmlhttprequest
-||api.sec-tunnel.com/*/register_device|$xmlhttprequest
-||api.sec-tunnel.com/*/register_subscriber|$xmlhttprequest
-||api.sec-tunnel.com/*/subscriber_login|$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
