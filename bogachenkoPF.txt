@@ -297,6 +297,7 @@
 ||2f37a122063b9591b3d67a49b6d93f7c.com^
 ||2mdn.net^
 ||3fdf2a5f924760915ca68b5ad01cfdae.com^
+||operacoinexchange.com^
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
 ||6d47c1118927cf53ba9654931df80e8d.com^
 ||212.122.5.136^
@@ -1240,6 +1241,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||trackclick*.
 ||tracking-protection.
 ||tracking.
+*/generate_204
 ! OTHER END
 
 ! DOCUMENT
@@ -1313,6 +1315,10 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||gstatic.com/autofill/hourly/bins.json$xmlhttprequest
 ||gstatic.com/autofill/weekly/merchants.json$xmlhttprequest
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
+||api.sec-tunnel.com/*/discover|$xmlhttprequest
+||api.sec-tunnel.com/*/register_device|$xmlhttprequest
+||api.sec-tunnel.com/*/register_subscriber|$xmlhttprequest
+||api.sec-tunnel.com/*/subscriber_login|$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED

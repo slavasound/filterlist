@@ -488,3 +488,24 @@ meta-rm.js application/javascript
 	  observer.observe(document.documentElement, { childList: true, subtree: true });
 	  if (document.readyState === 'complete') { observer.disconnect(); return; } 
 })();
+
+# element-remover
+remove-elem.js application/javascript
+(() => {
+		'use strict';
+		const selector = '{{1}}';
+		if ( selector === '' || selector === '{{1}}' ) { return; }
+		const rm = () => {
+		 			   const elements = document.querySelectorAll(selector);
+					   try {
+						  for (const element of elements) {
+							if (!document.querySelector(selector)) { break; }
+							element.textContent = '';
+							element.remove();
+					       	  }
+					   } catch { }
+		};
+		const observer = new MutationObserver(rm);
+    		observer.observe(document.documentElement, { childList: true, subtree: true });
+		if (document.readyState === 'complete') { observer.disconnect(); return; } 
+})();
