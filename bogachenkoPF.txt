@@ -743,6 +743,14 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###caspian_cookiebar
 *###catapult-cookie-bar
 *###cc-notification
+*##.video_ad
+*###preroll_ads
+*##.post-ads
+*##.AdBox
+*##.ad-row-horizontal
+*##.banner-right
+*##.right-ad-wrapper
+*##.archive_ad_block
 *###cccwr
 *###ckWarning
 *###cnContainer
@@ -774,6 +782,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###huk_cookie_prefernce_panel
 *###icoCookiesBanner
 *###idCookiePolicyPanel
+*###mpc_cookie_intro
 *###id_cookieconsent
 *##.b-direct-promo
 *###imPolicycookiemessage
@@ -1086,7 +1095,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|shortearn\.eu|gplinks\.co|gplinks\.in|albhar\.online|adclic\.pro|cararoot\.id|shrink\.world)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare)\.xyz|linkviet\.top|onelink\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|(shortearn|enrt)\.eu|gplinks\.co|gplinks\.in|albhar\.online|adclic\.pro|cararoot\.id|shrink\.world)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org music.yandex.com music.yandex.by music.yandex.ua; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1549,6 +1558,7 @@ _social_icons.$badfilter
 aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.social-shared
 #@#.social-teasers
+#@##back_to_top
 #@#.socialIconsWrapper
 #@#.socialList
 #@#.social__fb
@@ -1897,6 +1907,7 @@ apis.google.com/*plusone$third-party,badfilter
 /pinterest.svg$badfilter
 /plugins/*facebook.png$badfilter
 /plugins/*google.png$badfilter
+#@##social-media
 /plugins/*twitter.png$badfilter
 ||platform-api.sharethis.com^$badfilter
 thepiratebay.*#@#+js(aopr, _wm)
