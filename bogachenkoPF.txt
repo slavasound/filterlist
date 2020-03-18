@@ -315,10 +315,18 @@
 ||admix.in^
 ||adn.insight.ucweb.com^
 ||adnow.com^
+||cdn.pandora.tv^
 ||adnxs.com^
+||grant.reward.brave.com^
+||basicattentiontoken.org^
+||p3a.brave.com^
 ||adnxtr.com^
 ||mtrcdn.com^
+||s4.torrentstream.org^
+||s3.torrentstream.org^
 ||acdnpro.com^
+||gplayer.kmpmedia.net^
+||cdn.kmplayer.com^
 ||adrunnr.com^
 ||adsafeprotected.com^
 ||n161adserv.com^
@@ -1484,6 +1492,8 @@ _adsense.$badfilter
 #@#.fb-xfbml-parse-ignore
 #@#.fb_iframe_widget:not(.fb-post):not(.fb-video)
 #@#.fb_share_button
+#@#.gridlove-share
+#@#.gridlove-share-wrapper
 #@#.feed-links
 #@#.footer-social
 #@#.footer-social-wrap
@@ -1923,6 +1933,7 @@ apis.google.com/*plusone$third-party,badfilter
 /images/*linkedin.png$badfilter
 /images/*pinterest.png$domain=~pinterest.com,badfilter
 /images/*twitter-$badfilter
+#@#.home-socials
 /images/*twitter.png$badfilter
 /images/facebook$badfilter
 /images/googleplus$badfilter
@@ -2104,7 +2115,7 @@ fembed.com#@#+js(setInterval-defuser, (), 500)
 fembed.com,xstreamcdn.com,embed.media,clipwatching.com,feurl.com#@#+js(aopr, jwplayer.utils.Timer)
 gelbooru.com#@#+js(acis, BPJS)
 twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐')]/../../../../..)
-get-to.link,aii.sh,yesmovies.*#@#+js(aopr, Date.prototype.toUTCString)
+get-to.link,aii.sh,yesmovies.*,streamvid.co#@#+js(aopr, Date.prototype.toUTCString)
 get-to.link#@#+js(aopr, document.dispatchEvent)
 ^ads^$document,badfilter
 get-to.link#@#+js(aopr, exoJsPop101)
