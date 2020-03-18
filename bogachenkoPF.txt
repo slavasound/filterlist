@@ -317,11 +317,23 @@
 ||adnow.com^
 ||adnxs.com^
 ||adnxtr.com^
+||mtrcdn.com^
+||acdnpro.com^
 ||adrunnr.com^
 ||adsafeprotected.com^
+||n161adserv.com^
+||gettraff.com^
+||edgecastcdn.net^
+||zirkabet.com^
+||news-first.com^
+||o3fy684faxh8o.ru^
+||andria-loft.ru^
+||news-first.com^
+||vcdn.biz^
 ||adsafety.net^
 ||adsame.com^
 ||adscale.de^
+||otvetim-vopros.net^
 ||adsdk.yandex.ru^
 ||adserversolutions.com^
 ||adservice.google.$important
@@ -331,8 +343,11 @@
 ||adtheorent.com^
 ||adthor.com^
 ||adthrive.com^
+||onedmp.com^
 ||adtilt.com^
 ||adtima.vn^
+||franecki.net^
+||acestream.net^
 ||adtimaserver.vn^
 ||adtiming.com^
 ||adtlgc.com^
@@ -340,6 +355,7 @@
 ||adups.cn^
 ||adups.com^
 ||advanstar.com^
+||a1.torrentstream.org^
 ||advanstar.info^
 ||adventori.com^
 ||af.opera.com^
@@ -379,8 +395,9 @@
 ||brontp.yandex.ru^
 ||browser-updater.yandex.net^
 ||browser.mail.ru^
-||browser.yandex.ru^$~document
+||admixer.net^
 ||brwsrapi.com^
+||adriver.ru^
 ||bs-meta.yandex.ru^
 ||bs.yandex.ru^
 ||bts-la.ucweb.com^
@@ -390,6 +407,7 @@
 ||clck.ru^
 ||collections.yandex.ru^
 ||connect.facebook.net^
+||taucdn.net^
 ||connect.mail.ru^
 ||connect.ok.ru^
 ||contributor.google.com^$important
@@ -1234,6 +1252,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||welcome.adguard.com^$document
 ||youtube.com/*/UCMCgOm8GZkHp8zJ6l7_hIuA$document
 ||youtube.com/*dQw4w9WgXcQ$document
+||browser.yandex.ru^$~document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
