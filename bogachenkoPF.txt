@@ -2,7 +2,7 @@
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/filterlist/tree/personal
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt
-! README: https://raw.githubusercontent.com/bogachenko/filterlist/personal/README.md
+! README: https://raw.githubusercontent.com/bogachenko/filterlist/personal/.github/README.md
 ! Title: bogachenko's Personal Filters
 
 ! ~~~~~~~ MY SHITTY RULES ~~~~~~~
