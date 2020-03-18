@@ -1,7 +1,6 @@
-! Description: Personal filter list
+! Description: This is a personal list of bogachenko filters.
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/filterlist/tree/personal
-! Licence: https://raw.githubusercontent.com/bogachenko/filterlist/personal/LICENSE.md
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt
 ! README: https://raw.githubusercontent.com/bogachenko/filterlist/personal/README.md
 ! Title: bogachenko's Personal Filters
@@ -754,7 +753,7 @@
 ! MEDIA END
 
 ! APP
-*$app=KMPlayer.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
+*$app=KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
 ! APP END
 
 ! SCRIPTLET
