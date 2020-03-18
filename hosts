@@ -1085,7 +1085,6 @@
 0.0.0.0 inference.location.live.net
 0.0.0.0 insiderservice.microsoft.com
 0.0.0.0 inv-nets.admixer.net
-0.0.0.0 ipv4.login.live.com
 0.0.0.0 iv.doubleclick.net
 0.0.0.0 kiks.yandex.ru
 0.0.0.0 kmwatsonc.events.data.microsoft.com
@@ -1096,7 +1095,6 @@
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 localhost
 0.0.0.0 location-inference-westus.cloudapp.net
-0.0.0.0 login.live.com
 0.0.0.0 login.msa.akadns6.net
 0.0.0.0 m.2mdn.net
 0.0.0.0 m.acestream.net
