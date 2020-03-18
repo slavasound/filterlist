@@ -328,7 +328,6 @@
 ||news-first.com^
 ||o3fy684faxh8o.ru^
 ||andria-loft.ru^
-||news-first.com^
 ||vcdn.biz^
 ||adsafety.net^
 ||adsame.com^
@@ -824,11 +823,9 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###optanon
 *###oupcookiepolicy_message
 *##[href*="103.10.200.45"]
-*##[href*="103.10.200.45"]
 *##[href*="unibetindo.net"]
 *##[href*="atmqq.live"]
 *###p_ciBtn
-*###cookie-pop
 *###p_ciInner
 *###pnlCookieBanner
 *###pnlCookieNotice
@@ -1152,7 +1149,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 */analytics/web/*$domain=~analytics.google.com
 */awaps-
 */beacon|
-*/generate_204|
 */cookieconsent2/
 */cookieconsent/
 */gio-ip/$important
