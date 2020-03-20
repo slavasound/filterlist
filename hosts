@@ -271,6 +271,8 @@
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.exdynsrv.com
 0.0.0.0 ads.exoclick.com
+0.0.0.0 c.live.com
+0.0.0.0 c.bing.com
 0.0.0.0 ads.exosrv.com
 0.0.0.0 ads.facebook.com
 0.0.0.0 ads.msn.com
@@ -535,6 +537,10 @@
 0.0.0.0 bg.v4.a.dl.ws.microsoft.com
 0.0.0.0 bg.v4.emdl.ws.microsoft.com
 0.0.0.0 bg1.v4.a.dl.ws.microsoft.com
+0.0.0.0 msecnd.net
+0.0.0.0 vo.msecnd.net
+0.0.0.0 g.doubleclick.net
+0.0.0.0 static.doubleclick.net
 0.0.0.0 bg1.v4.emdl.ws.microsoft.com
 0.0.0.0 bg2.v4.a.dl.ws.microsoft.com
 0.0.0.0 bg2.v4.emdl.ws.microsoft.com
@@ -1763,7 +1769,6 @@
 0.0.0.0 oshq4.uaservers.net
 0.0.0.0 otf.msn.com
 0.0.0.0 otvetim-vopros.net
-0.0.0.0 outlook.office365.com
 0.0.0.0 pagead.googlesyndication.com
 0.0.0.0 pagead.l.doubleclick.net
 0.0.0.0 pagead1.googlesyndication.com
