@@ -1554,6 +1554,7 @@ kimcartoon.*#@#+js(acis, $, isAdb)
 #@#.item-share
 #@#.js-share-bar
 #@#.js-sharing-popup-facebook
+||a-msedge.net^$badfilter
 #@#.js-sharing-popup-linkedin
 #@#.js-sharing-popup-twitter
 #@#.js-triggerShare
@@ -1890,6 +1891,7 @@ apis.google.com/*plusone$third-party,badfilter
 /adguard.$domain=~adguard-com.cdn.ampproject.org|~adguard.com|~adguard.mobi|~adguard.oneskyapp.com|~greinr.com,badfilter
 /affiliates/*&ad$popup,badfilter
 ||widgets.pinterest.com^$badfilter
+||cloudfront.net^$badfilter
 /analytics/web/*$badfilter
 /analyticsjs.$badfilter
 /assets/*facebook.png$badfilter
