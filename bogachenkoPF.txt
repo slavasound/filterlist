@@ -591,7 +591,6 @@
 ||mrbrwsr.com^
 ||mrds.mail.ru^
 ||msecnd.net^
-||a-msedge.net^
 ||mtalk.google.com^
 ||my.com^
 ||n152adserv.*^
@@ -1677,6 +1676,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.twtr
 #@#.video-share
 #@#.vjs-share-block
+#@#a[title="Linkedin"]
 #@#.vjs-share-button
 #@#.vjs-share-control
 #@#.vkontakte
@@ -1686,11 +1686,15 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.widget_mc4wp_form_widget
 #@#.widget_social
 /images/youtube-$badfilter
+/images/instagram-$badfilter
+/images/linkedin$badfilter
 #@#.ya-share2
+#@##social-media-header
 #@#.ya-share2__link
 #@#.ya-share2__list
 #@#.ya-share2_inited
 #@#.yashare-auto-init
+#@#.social-media__link
 @@||cdn.adguard.com/public/$domain=adguard.com|adguard.ru,badfilter
 @@||gstatic.com/recaptcha/$image,script,badfilter
 @@||google.com/recaptcha/$script,subdocument,xmlhttprequest,badfilter
