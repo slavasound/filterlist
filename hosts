@@ -12,14 +12,12 @@
 0.0.0.0 0001a5-1.l.windowsupdate.com
 0.0.0.0 0001bc-1.l.windowsupdate.com
 0.0.0.0 0001d4-1.l.windowsupdate.com
-0.0.0.0 db3pap003files.storage.live.com
 0.0.0.0 0001ed-1.l.windowsupdate.com
 0.0.0.0 000202-1.l.windowsupdate.com
 0.0.0.0 000238-1.l.windowsupdate.com
 0.0.0.0 000263-1.l.windowsupdate.com
 0.0.0.0 00028e-1.l.windowsupdate.com
 0.0.0.0 00028f-1.l.windowsupdate.com
-0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 0.0.0.0 0002ae-1.l.windowsupdate.com
 0.0.0.0 0002c3-1.l.windowsupdate.com
 0.0.0.0 0002fd-1.l.windowsupdate.com
@@ -272,6 +270,7 @@
 0.0.0.0 ad.it.doubleclick.net
 0.0.0.0 ad.jp.doubleclick.net
 0.0.0.0 ad.mail.ru
+0.0.0.0 ad.mi.com
 0.0.0.0 ad.mo.doubleclick.net
 0.0.0.0 ad.n2434.doubleclick.net
 0.0.0.0 ad.nl.doubleclick.net
@@ -282,6 +281,7 @@
 0.0.0.0 ad.sg.doubleclick.net
 0.0.0.0 ad.uk.doubleclick.net
 0.0.0.0 ad.ve.doubleclick.net
+0.0.0.0 ad.xiaomi.com
 0.0.0.0 ad.za.doubleclick.net
 0.0.0.0 ad2.doubleclick.net
 0.0.0.0 adclick.g.doubleclick.net
@@ -528,6 +528,7 @@
 0.0.0.0 api-s2s-apac.taboola.com
 0.0.0.0 api-s2s-emea.taboola.com
 0.0.0.0 api-s2s.taboola.com
+0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.cortana.ai
 0.0.0.0 api.skype.com
 0.0.0.0 api.taboola.com
@@ -679,6 +680,7 @@
 0.0.0.0 cdn-t.amazon-adsystem.com
 0.0.0.0 cdn-yjp.taboola.com
 0.0.0.0 cdn-z.amazon-adsystem.com
+0.0.0.0 cdn.ad.xiaomi.com
 0.0.0.0 cdn.admixer.net
 0.0.0.0 cdn.atdmt.com
 0.0.0.0 cdn.content.prod.cms.msn.com
@@ -811,6 +813,7 @@
 0.0.0.0 client-s.gateway.messenger.live.com
 0.0.0.0 client.wns.windows.com
 0.0.0.0 clientconfig.passport.net
+0.0.0.0 clock.ad.xiaomi.com
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 co2.sls.microsoft.com
 0.0.0.0 compatexchange.cloudapp.net
@@ -828,8 +831,10 @@
 0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
 0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
+0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 0.0.0.0 da-cdn.amazon-adsystem.com
 0.0.0.0 db3aqu.atdmt.com
+0.0.0.0 db3pap003files.storage.live.com
 0.0.0.0 db3wns2011111.wns.windows.com
 0.0.0.0 db5-dspcdn.tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
@@ -1134,6 +1139,7 @@
 0.0.0.0 dra.amazon-adsystem.com
 0.0.0.0 dragonsmobile.com
 0.0.0.0 ds.download.windowsupdate.com
+0.0.0.0 e.ad.xiaomi.com
 0.0.0.0 e1.acestream.net
 0.0.0.0 e1.torrentstream.info
 0.0.0.0 e1.torrentstream.net
@@ -1229,6 +1235,7 @@
 0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
 0.0.0.0 gettraff.com
 0.0.0.0 global.sam.msn.com
+0.0.0.0 globalapi.ad.xiaomi.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleads.g.doubleclick.net
@@ -1583,6 +1590,7 @@
 0.0.0.0 ln.doubleclick.net
 0.0.0.0 localhost
 0.0.0.0 location-inference-westus.cloudapp.net
+0.0.0.0 log.ad.xiaomi.com
 0.0.0.0 log.kmplayer.com
 0.0.0.0 login.msa.akadns6.net
 0.0.0.0 logx.optimizely.com
@@ -1852,6 +1860,7 @@
 0.0.0.0 native.propellerclick.com
 0.0.0.0 nav.smartscreen.microsoft.com
 0.0.0.0 netstorage.taboola.com
+0.0.0.0 new.api.ad.xiaomi.com
 0.0.0.0 news-first.com
 0.0.0.0 next-services.apps.microsoft.com
 0.0.0.0 nexus.officeapps.live.com
@@ -1906,6 +1915,7 @@
 0.0.0.0 pti.store.microsoft.com
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 query.prod.cms.rt.microsoft.com
+0.0.0.0 r.acestream.net
 0.0.0.0 r20swj13mr.microsoft.com
 0.0.0.0 r3.mail.ru
 0.0.0.0 rad.live.com
@@ -1946,6 +1956,7 @@
 0.0.0.0 s3.torrentstream.info
 0.0.0.0 s3.torrentstream.net
 0.0.0.0 s3.torrentstream.org
+0.0.0.0 s4.torrentstream.info
 0.0.0.0 s4.torrentstream.net
 0.0.0.0 s4.torrentstream.org
 0.0.0.0 safebrowsing.googleapis.com
@@ -1954,6 +1965,7 @@
 0.0.0.0 scorecardresearch.com
 0.0.0.0 script.hotjar.com
 0.0.0.0 sdk.taboola.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 search.msn.com
 0.0.0.0 secure.adnxs.com
 0.0.0.0 secure.flashtalking.com
@@ -2001,6 +2013,7 @@
 0.0.0.0 sqm7.alpha.telemetry.microsoft.com
 0.0.0.0 ssl-google-analytics.l.google.com
 0.0.0.0 ssl.google-analytics.com
+0.0.0.0 ssp.ad.xiaomi.com
 0.0.0.0 ssp.adriver.ru
 0.0.0.0 ssw.live.com
 0.0.0.0 st.top100.ru
@@ -2041,6 +2054,9 @@
 0.0.0.0 teredo.ipv6.microsoft.com
 0.0.0.0 tesla.r.acdnpro.com
 0.0.0.0 test.activity.windows.com
+0.0.0.0 test.ad.xiaomi.com
+0.0.0.0 test.e.ad.xiaomi.com
+0.0.0.0 test.new.api.ad.xiaomi.com
 0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 time.windows.com
 0.0.0.0 tk2.plt.msn.com
@@ -2051,6 +2067,7 @@
 0.0.0.0 torrentstream.info
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 tpcnc.googlesyndication.com
+0.0.0.0 track.ad.xiaomi.com
 0.0.0.0 traff-1.ru
 0.0.0.0 trc.taboola.com
 0.0.0.0 ts.acestream.net
@@ -2213,13 +2230,17 @@
 0.0.0.0 www-googletagmanager.l.google.com
 0.0.0.0 www.adservices.google.com
 0.0.0.0 www.analytic-google.com
+0.0.0.0 www.api.ad.xiaomi.com
 0.0.0.0 www.api.taboola.com
 0.0.0.0 www.c2.taboola.com
 0.0.0.0 www.ccleaner.com
+0.0.0.0 www.cdn.ad.xiaomi.com
 0.0.0.0 www.cdn.taboola.com
 0.0.0.0 www.download.windowsupdate.com
+0.0.0.0 www.e.ad.xiaomi.com
 0.0.0.0 www.franecki.net
 0.0.0.0 www.gettraff.com
+0.0.0.0 www.globalapi.ad.xiaomi.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
@@ -2229,15 +2250,22 @@
 0.0.0.0 www.msftconnecttest.com
 0.0.0.0 www.msftncsi.com
 0.0.0.0 www.native.propellerclick.com
+0.0.0.0 www.new.api.ad.xiaomi.com
 0.0.0.0 www.pagead-googlehosted.l.google.com
 0.0.0.0 www.partner.googleadservices.com
 0.0.0.0 www.popads.net
 0.0.0.0 www.popup.taboola.com
+0.0.0.0 www.sdkconfig.ad.xiaomi.com
+0.0.0.0 www.ssp.ad.xiaomi.com
 0.0.0.0 www.taboola.com
+0.0.0.0 www.test.ad.xiaomi.com
+0.0.0.0 www.test.e.ad.xiaomi.com
+0.0.0.0 www.test.new.api.ad.xiaomi.com
 0.0.0.0 www.tns-counter.ru
 0.0.0.0 www.trc.taboola.com
 0.0.0.0 www.ukrpts.net
 0.0.0.0 www.windowssearch.com
+0.0.0.0 www.zeus.ad.xiaomi.com
 0.0.0.0 www.zirkabet.com
 0.0.0.0 xml.login.live.com
 0.0.0.0 yabs.yandex.by
@@ -2248,4 +2276,5 @@
 0.0.0.0 z-fe.amazon-adsystem.com
 0.0.0.0 z-in.amazon-adsystem.com
 0.0.0.0 z-na.amazon-adsystem.com
+0.0.0.0 zeus.ad.xiaomi.com
 0.0.0.0 zirkabet.com
