@@ -355,6 +355,7 @@
 ||onedmp.com^
 ||adtilt.com^
 ||adtima.vn^
+||applvn.com^
 ||franecki.net^
 ||acestream.net^
 ||adtimaserver.vn^
@@ -436,7 +437,6 @@
 ||contributor.google.com^$important
 ||conversantmedia.com^
 ||count.ly^
-||crashlytics.com^
 ||crispadvertising.com^
 ||criteo.*^
 ||crm-cdn.zenguard.biz^
@@ -557,7 +557,7 @@
 ||justpremium.com^
 ||kas-labs.com^
 ||kaspersky-labs.com^
-||kaspersky.com^
+||kaspersky.com^$domain=~forum.kaspersky.com|~community.kaspersky.com
 ||kaspersky.ru^
 ||kiks.yandex.ru^
 ||kissmetrics.com^
@@ -672,6 +672,7 @@
 ||taboola.com^
 ||taboolasyndication.com^
 ||tapjoy.*^
+||videoroll.net^
 ||tapjoyads.com^
 ||tbcdn.cn^
 ||thumbnails*.opera.com^
@@ -792,6 +793,8 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###aboutCookieUsageBox
 *###accept-cookie
 *###acceptcookie
+*##.tibrr-cookie-consent-container
+*##.js-notice.notice
 *###ad-header-mobile
 *###agree-with-cookies
 *###agreeCookie
@@ -1333,6 +1336,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/js/hdgugan.js|$script,important
 |http*:*/js/youmaylike/*$script,important
 |http*:*/monetize.js|$script,important
+/\/cscript\/[0-9]{3}\/[0-9]{9}\.js$/$script,important
 |http*:*/promo-banner.js|$script,domain=pornhub.com,important
 |http*:*/push/subscribe.js?$script,important
 |http*:*/pushSubscribe.js|$script,important
