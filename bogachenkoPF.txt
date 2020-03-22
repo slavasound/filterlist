@@ -1377,9 +1377,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 |http*:*/js/youmaylike/*$script,important
 |http*:*/monetize.js|$script,important
 /\/cscript\/[0-9]{3}\/[0-9]{9}\.js$/$script,important
-|http*:*/promo-banner.js|$script,domain=pornhub.com,important
 |http*:*/push/subscribe.js?$script,important
 |http*:*/pushSubscribe.js|$script,important
+/no-right-click-$script
 |http*:*/rodo/rodo.js|$script,important
 |http*:*/snippet.js|$script,important
 |http*:*/snow.js|$script
@@ -1888,6 +1888,8 @@ xhamster.*#@#+js(aopr, wih-popunder)
 #@#img[alt="Facebook"]
 #@#img[alt="Instagram"]
 #@#img[alt="Linkedin"]
+||hidemyass.com^$badfilter
+||www.hidemyass.com^$badfilter
 .to/ads/$badfilter
 #@##share-button
 #@#.icon__facebook
