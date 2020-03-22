@@ -329,6 +329,7 @@
 ||cdn.kmplayer.com^
 ||adrunnr.com^
 ||adsafeprotected.com^
+||shavar.services.mozilla.com^
 ||n161adserv.com^
 ||gettraff.com^
 ||edgecastcdn.net^
@@ -447,6 +448,7 @@
 ||demdex.net^$third-party
 ||desktop-dna.osp.opera.software^
 ||detectportal.firefox.com^
+||ghostery-collector.ghostery.com^
 ||dolohen.com^
 ||dota2-roulette.ru^
 ||dotomi.com^
@@ -628,6 +630,9 @@
 ||popads.com^
 ||popads.media^
 ||popads.net^
+||d.ghostery.com^
+||safe-browsing-quorum.privacy.ghostery.net^
+||collector-hpn.ghostery.net^
 ||popcash.net^
 ||portal.mail.ru^
 ||predictvideo.com^
@@ -783,6 +788,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###AvisoCookieslaw
 *###EUCookie
 *###EUDirectiveCookiePanel
+*###cookie-message-container
 *###HGLCookieWarning
 *###UKCookieWarning
 *###__CookieContainer
@@ -1242,6 +1248,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||ad.
 ||ads0.
 ||ads1.
+||snippets.
+||snippet.
 ||ads2.
 ||ads3.
 ||ads4.
