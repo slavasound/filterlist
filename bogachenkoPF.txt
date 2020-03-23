@@ -14,6 +14,8 @@
 ||unity3d.com^
 ||zen.yandex.ru^$~third-party
 ||zeptolab.com^
+||everyplay.com^
+@@||crashlytics.com^
 !#endif
 !#endif
 
@@ -28,6 +30,7 @@
 *##+js(js-rm.js, window.Adomik)
 *##+js(js-rm.js, window._taboola)
 *##+js(js-rm.js, yandex_metrika_callbacks)
+*##+js(js-rm.js, yandex_metrika_callbacks2)
 !#endif
 !#endif
 
@@ -386,9 +389,7 @@
 ||af.opera.com^
 ||ankunding.biz^
 ||olympia.prod.mozaws.net^
-!||pipeline-edge-*.amazonaws.com^
-!||science-edge-*.amazonaws.com^
-||amazonaws.com^$third-party
+||amazonaws.com^$third-party,domain=~github.com
 ||location.services.mozilla.com^
 ||amazon.com^$third-party
 ||alicdn.com^$third-party,domain=~aliexpress.ru|~aliexpress.com
@@ -480,7 +481,6 @@
 ||d6wjo2hisqfy2.cloudfront.net^
 ||discovery.addons.mozilla.org^
 ||drcwo519tnci7.cloudfront.net^
-||dyna.wikimedia.org^
 ||normandy.cdn.mozilla.net^
 ||dota2-roulette.ru^
 ||dotomi.com^
@@ -558,6 +558,7 @@
 ||torrentstream.info^
 ||ipredictive.com^
 ||ipromote.com^
+||alt*-safebrowsing.google.com^
 ||iqzone.com^
 ||isnssdk.com^
 ||ivitrack.com^
@@ -759,7 +760,7 @@
 */ezgif-com-optimize.gif$image
 */templates/*/images/mstiteli.jpg$image
 */yujgs.png$image
-/.gif?[a-z]{1}\=/$image
+/\.gif?[a-z]{1}\=/$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.giff?$/$image,important
 /^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com|~ok.ru|~kinopoisk.ru
@@ -1957,6 +1958,8 @@ apis.google.com/*plusone$third-party,badfilter
 #@#.share-control
 #@#.googleplus
 #@#.addthis_toolbox
+#@#img[alt^="Follow us on Twitter"]
+/icon-youtube-$badfilter
 #@#.addthis_button_twitter
 #@#.addthis_button_google_plusone_share
 #@#.addthis_button_compact
