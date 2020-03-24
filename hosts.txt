@@ -1,4 +1,4 @@
-# hosts.txt
+# Title: bogachenko's Personal Filters
 # Copyright (c) Bogachenko Vyacheslav
 
 0.0.0.0 00001b-1.l.windowsupdate.com
@@ -19,6 +19,8 @@
 0.0.0.0 00028e-1.l.windowsupdate.com
 0.0.0.0 00028f-1.l.windowsupdate.com
 0.0.0.0 0002ae-1.l.windowsupdate.com
+0.0.0.0 dmd.metaservices.microsoft.com
+0.0.0.0 go.microsoft.com
 0.0.0.0 0002c3-1.l.windowsupdate.com
 0.0.0.0 0002fd-1.l.windowsupdate.com
 0.0.0.0 000371-1.l.windowsupdate.com
