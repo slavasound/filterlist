@@ -1326,6 +1326,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||tracking.
 */generate_204
 ||easylist-downloads.adblockplus.org/exceptionrules.txt|
+/^https?:\/\/[a-z]{1}\./$domain=~imgur.com|~youtube.com
 ! OTHER END
 
 ! DOCUMENT
