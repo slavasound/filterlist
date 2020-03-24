@@ -335,7 +335,6 @@
 ||shavar.services.mozilla.com^
 ||n161adserv.com^
 ||gettraff.com^
-||edgecastcdn.net^
 ||zirkabet.com^
 ||news-first.com^
 ||o3fy684faxh8o.ru^
@@ -1473,6 +1472,7 @@ http*:*/google-universal-analytics-$script
 #@##subscribe-email
 #@##thread-share-bar
 #@##user-bar [title="Группа вконтакте"]
+#@#.icon-reddit
 #@##vk_groups
 #@##vk_like
 #@##xb_ScrollUp
@@ -1482,6 +1482,7 @@ http*:*/google-universal-analytics-$script
 #@#.Subscribe
 #@#.addthis-smartlayers
 #@#.addthis_button
+||youtube.com/get_video_info?$domain=youtube.com,badfilter
 #@#.addthis_button_email
 #@#.addthis_button_expanded
 #@#.addthis_button_reddit
@@ -2324,6 +2325,7 @@ yts.*#@#+js(acis, $, blocked)
 |blob:$popup,badfilter
 |data:text$popup,domain=~clker.com,badfilter
 |http*://$image,domain=ip.cn,badfilter
+#@#.social-link
 |http*://*?$third-party,popup,domain=pornhub.com|pornsocket.com|redtube.com|spankwire.com|tube8.com|vidz78.com|xxxkingtube.com|youporn.com|youporngay.com,badfilter
 |http://$script,third-party,xmlhttprequest,domain=rule34hentai.net,badfilter
 |https://$script,third-party,domain=~feedback.pornhub.com|pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
