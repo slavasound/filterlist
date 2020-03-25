@@ -2285,11 +2285,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 s1.2mdn.net
 0.0.0.0 s1.torrentstream.net
 0.0.0.0 s2.mopub.com
+0.0.0.0 event.shelljacket.us
 0.0.0.0 s2.torrentstream.info
 0.0.0.0 s2.torrentstream.net
 0.0.0.0 s2.torrentstream.org
 0.0.0.0 s2.video.doubleclick.net
 0.0.0.0 s2s.config.skype.com
+0.0.0.0 productsearch.ubuntu.com
+0.0.0.0 videosearch.ubuntu.com
+0.0.0.0 musicsearch.ubuntu.com
 0.0.0.0 s3.torrentstream.info
 0.0.0.0 s3.torrentstream.net
 0.0.0.0 s3.torrentstream.org
