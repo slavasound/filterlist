@@ -906,6 +906,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###nhm-cookie-notify
 *###notescookies
 *###notice-cookie-block
+*##.cookie-message
 *###pf-privacy-policy-notice
 *###nuk-cookieMessage
 *###openglobal_privacy_widget
@@ -962,6 +963,11 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##.atomBox-motion
 *##.axaCookie
 *##.b-cookies
+*##[href*="tahubelacan.com"]
+*##[href*="103.10.201.25"]
+*##[href*="103.10.200.41"]
+sogafime.org##[href="https://sogafime.org/contact/"]
+*##[href*="montoksekali.com"]
 *##.block-cookies-popup
 *##.c-fnd-cookie-acceptance
 *##.cc-banner.cc-window
@@ -1015,6 +1021,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##.vg-cookie-notification-popup
 *##.weCookie
 *##[src*="ian029dkl3osl930sian.club"]
+*##.gdpr-cookie-banner
 *##a[href*="5.153.13.193"]
 *##a[href*="9club888.com"]
 *##a[href*="64.91.252.215"]
@@ -1205,8 +1212,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! XPATH END
 
 ! Content Security Policy
-*$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365)\.xyz|linkviet\.top|(onelink|miniurl)\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|(shortearn|enrt)\.eu|gplinks\.co|gplinks\.in|albhar\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
+*$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co|uptostream.com
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365)\.xyz|linkviet\.top|(onelink|miniurl)\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|(shortearn|enrt)\.eu|gplinks\.co|gplinks\.in|albhar\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|deskhub\.us)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org music.yandex.com music.yandex.by music.yandex.ua; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com;
@@ -1351,6 +1358,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||kissanime.ru/ads/$subdocument,important
 ||phncdn.com/iframe$subdocument
 ||yastatic.net/tableau/tableau.html$subdocument
+||uptostream.com/assets/$subdocument,important
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -1845,9 +1853,13 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#.btn-instagram
 #@#.addthis_32x32_style
 #@#.addthis-smartlayers-desktop
+#@#.social_facebook
+#@#.social_twitter
+#@#a[onclick^="popUp=window.open('https://www.facebook.com/sharer/sharer.php?"]
 #@##at4-share
 #@#.ytp-share-button
 #@#.dt_social_single
+#@#a[title="Tweet this"]
 #@#.icon-pinterest-p
 #@#.icon-whatsapp
 #@#a[title="LinkedIn"]
@@ -1954,6 +1966,7 @@ apis.google.com/*plusone$third-party,badfilter
 *$script,redirect-rule=noopjs,domain=cararoot.id,badfilter
 /facebook.svg$badfilter
 #@#a[href^="https://www.twitter.com/share?"]
+@@||gstatic.com^$script,domain=uptobox.com|uptostream.com,badfilter
 /facebook_logo.$badfilter
 ||img.alibaba.com^$badfilter
 /fb1-right.$badfilter
@@ -2004,6 +2017,8 @@ apis.google.com/*plusone$third-party,badfilter
 /images/facebook$badfilter
 /images/googleplus$badfilter
 /images/reddit-$badfilter
+#@#div[title="Scroll To Top"]
+#@##topcontrol
 /images/rss_$badfilter
 /images/share-$badfilter
 /images/social.$badfilter

@@ -985,10 +985,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 crl.microsoft.com
 0.0.0.0 cs1.wpc.v0cdn.net
 0.0.0.0 www.xbox.com
+0.0.0.0 hostingcloud.racing
+0.0.0.0 www.hostingcloud.racing
 0.0.0.0 ru-ru.appex-rf.msn.com
 0.0.0.0 en-us.appex-rf.msn.com
 0.0.0.0 appex-rf.msn.com
-0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 cdf-anon.xboxlive.com
 0.0.0.0 cx.atdmt.com
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
