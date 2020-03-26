@@ -534,6 +534,7 @@
 ||imonomy.com^
 ||impactradius.com^
 ||imrworldwide.com^
+||go.microsoft.com^
 ||indexww.com^
 ||indicative.com^
 ||infinario.com^
