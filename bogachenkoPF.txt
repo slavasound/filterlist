@@ -39,18 +39,14 @@
 @@||aliexpress.*^$document
 @@||analytics.google.com^$document
 @@||bogachenko.github.io^$document
-@@||kinopoisk.ru^$document
-@@||xvideos.com^$document
 !#endif
 !#endif
 
 ! WHITELIST
 @@*/wp-content/plugins/remove-disqus-ads/*
-@@-adserver/$media,domain=player.pl
 @@||192.168.1.1^$document
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
-@@||ocsp2.globalsign.com^
-@@||ocsp.globalsign.com^
+@@||ocsp*.globalsign.com^
 @@||vk.com/images/blank.mp4$media
 ! WHITELIST END
 
@@ -1026,6 +1022,8 @@ sogafime.org##[href="https://sogafime.org/contact/"]
 *##a[href*="5.153.13.193"]
 *##a[href*="9club888.com"]
 *##a[href*="64.91.252.215"]
+*##.eu-cookie-popup_visible
+*##.eu-cookie-popup
 *##a[href*="72.52.214.50"]
 *##a[href*="81.19.186.167"]
 *##a[href*="103.10.200.62"]
@@ -1046,6 +1044,7 @@ sogafime.org##[href="https://sogafime.org/contact/"]
 *##a[href*="andpoker.online"]
 *##a[href*="arenabet168.net"]
 *##a[href*="aseanjoker.net"]
+*##a[href*="yabs.yandex."]
 *##a[href*="asia777.me"]
 *##a[href*="auredzeon.com"]
 *##a[href*="b.link"]
@@ -1217,7 +1216,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|adshr\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365)\.xyz|linkviet\.top|(onelink|miniurl)\.pw|(payskip|adsrt|cshort)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel)\.com|uptomega\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exe)\.io|slink\.bid|(shortearn|enrt)\.eu|gplinks\.co|gplinks\.in|albhar\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|deskhub\.us)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net;
-/^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
+/^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 /^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)/$csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua http://yandex.com https://yandex.com https://yandex.by http://yandex.by api-maps.yandex.ru suggest-maps.yandex.ru https://cloud-api.yandex.net local.adguard.org *.youtube.com ok.ru; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net api-maps.yandex.ru static-maps.yandex.ru; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by *.yandex.net wss: ok.ru; object-src 'none';
 ||kinogo.*^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.jquery.com *.google.com *.gstatic.com https://kinogo.eu http://kinogo.eu http://kinogo.by https://kinogo.by  https://cdn1.kinogo.by http://cdn1.kinogo.by http://kinogo.cc https://kinogo.cc http://kinogo.video https://kinogo.video *.vk.com vk.com *.googleapis.com http://kinogo.casa https://kinogo.casa local.adguard.org; img-src 'self' data: *.ytimg.com *.kinopoisk.ru; media-src *; connect-src data: https://kinogo.by;
 ||my.mail.ru^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' my.mail.ru *.imgsmail.ru https://auth.mail.ru https://ok.ru local.adguard.org; img-src data: *.my.mail.ru *.imgsmail.ru *.foto.mail.ru;
@@ -1960,7 +1959,10 @@ apis.google.com/*plusone$third-party,badfilter
 /analytics/web/*$badfilter
 /analyticsjs.$badfilter
 /assets/*facebook.png$badfilter
+#@#.bg-twitter
 /dk?st.cmd=widgetgroup&st.groupid=$badfilter
+#@#.social-nav
+#@#.follow-us
 /facebook2.$badfilter
 ||vk-portal.net^$important,badfilter
 .zone/$badfilter
