@@ -16,12 +16,6 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-0.0.0.0 www.msdn.com
-0.0.0.0 msdn.com
-0.0.0.0 www.msn.com
-0.0.0.0 msn.com
-0.0.0.0 msdn.microsoft.com
-0.0.0.0 wustats.microsoft.com
 0.0.0.0 112.2o7.net
 0.0.0.0 13.78.232.226
 0.0.0.0 13.92.194.212
@@ -655,6 +649,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 candycrushsoda.king.com
 0.0.0.0 cb.mopub.com
 0.0.0.0 ccleaner.tools.avcdn.net
+0.0.0.0 cdf-anon.xboxlive.com
 0.0.0.0 cdn-a.amazon-adsystem.com
 0.0.0.0 cdn-c.amazon-adsystem.com
 0.0.0.0 cdn-cc.taboola.com
@@ -826,20 +821,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 creatives.doubleclick.net
 0.0.0.0 crl.microsoft.com
 0.0.0.0 cs1.wpc.v0cdn.net
-0.0.0.0 www.xbox.com
-0.0.0.0 hostingcloud.racing
-0.0.0.0 www.hostingcloud.racing
-0.0.0.0 ru-ru.appex-rf.msn.com
-0.0.0.0 en-us.appex-rf.msn.com
-0.0.0.0 appex-rf.msn.com
-0.0.0.0 cdf-anon.xboxlive.com
 0.0.0.0 cx.atdmt.com
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
 0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
 0.0.0.0 d.applovin.com
 0.0.0.0 d.applvn.com
-0.0.0.0 ccleaner.tools.avcdn.net
-0.0.0.0 emupdate.avcdn.net
 0.0.0.0 d.ghostery.com
 0.0.0.0 d.r10.mopub.com
 0.0.0.0 d2k03kvdk5cku0.cloudfront.net
@@ -1190,6 +1176,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 emdl.ws.microsoft.com
 0.0.0.0 emea1.notify.windows.com.akadns.net
 0.0.0.0 emupdate.avcdn.net
+0.0.0.0 en-us.appex-rf.msn.com
 0.0.0.0 en.malware-error.mozilla.com
 0.0.0.0 en.malware-report.mozilla.com
 0.0.0.0 en.phish-error.mozilla.com
@@ -1202,6 +1189,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 eu.vortex-win.data.microsoft.com
 0.0.0.0 eu.vortex.data.microsoft.com
 0.0.0.0 europe.smartscreen-prod.microsoft.com
+0.0.0.0 event.shelljacket.us
 0.0.0.0 events.data.microsoft.com
 0.0.0.0 events.tapjoy.com
 0.0.0.0 evoke-windowsservices-tas.msedge.net
@@ -1389,6 +1377,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hk2wns1.wns.windows.com
 0.0.0.0 hk2wns1b.wns.windows.com
 0.0.0.0 hkgprod-rtbwin.applovin.com
+0.0.0.0 hostingcloud.racing
 0.0.0.0 hotjar.com
 0.0.0.0 html5adkit.plusmo.s3.amazonaws.com
 0.0.0.0 htmlads.s3.amazonaws.com
@@ -1955,16 +1944,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 mpx.mopub.com
 0.0.0.0 ms.applovin.com
 0.0.0.0 ms.applvn.com
+0.0.0.0 msdn.com
+0.0.0.0 msdn.microsoft.com
 0.0.0.0 msecnd.net
 0.0.0.0 msedge.f.tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 msedge.net
 0.0.0.0 msedge.s.tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 msftncsi.com
+0.0.0.0 msn.com
 0.0.0.0 msnbot-207-46-194-33.search.msn.com
 0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 msntest.serving-sys.com
 0.0.0.0 mtalk.google.com
 0.0.0.0 mtrcdn.com
+0.0.0.0 musicsearch.ubuntu.com
 0.0.0.0 n161.silvercdn.com
 0.0.0.0 n161adserv.com
 0.0.0.0 n3302ad.doubleclick.net
@@ -2056,6 +2049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pricelist.skype.com
 0.0.0.0 prod-a-usa.applovin.com
 0.0.0.0 prod-a.applovin.com
+0.0.0.0 productsearch.ubuntu.com
 0.0.0.0 promo.zirkabet.com
 0.0.0.0 propellerclick.com
 0.0.0.0 proton.flurry.com
@@ -2098,6 +2092,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rt-usa.applovin.com
 0.0.0.0 rt.applovin.com
 0.0.0.0 rt.applvn.com
+0.0.0.0 ru-ru.appex-rf.msn.com
 0.0.0.0 ru.dragonsmobile.com
 0.0.0.0 ru.malware-error.mozilla.com
 0.0.0.0 ru.malware-report.mozilla.com
@@ -2119,15 +2114,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 s1.2mdn.net
 0.0.0.0 s1.torrentstream.net
 0.0.0.0 s2.mopub.com
-0.0.0.0 event.shelljacket.us
 0.0.0.0 s2.torrentstream.info
 0.0.0.0 s2.torrentstream.net
 0.0.0.0 s2.torrentstream.org
 0.0.0.0 s2.video.doubleclick.net
 0.0.0.0 s2s.config.skype.com
-0.0.0.0 productsearch.ubuntu.com
-0.0.0.0 videosearch.ubuntu.com
-0.0.0.0 musicsearch.ubuntu.com
 0.0.0.0 s3.torrentstream.info
 0.0.0.0 s3.torrentstream.net
 0.0.0.0 s3.torrentstream.org
@@ -2359,6 +2350,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.moatads.com
 0.0.0.0 video.tapjoy.com
 0.0.0.0 videoroll.net
+0.0.0.0 videosearch.ubuntu.com
 0.0.0.0 vidstat.taboola.com
 0.0.0.0 vidstatb.taboola.com
 0.0.0.0 view.atdmt.com
@@ -2463,6 +2455,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wscont.apps.microsoft.com.edgesuite.net
 0.0.0.0 wscont1.apps.microsoft.com
 0.0.0.0 wscont2.apps.microsoft.com
+0.0.0.0 wustats.microsoft.com
 0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www-googletagmanager.l.google.com
 0.0.0.0 www.adservices.google.com
@@ -2483,10 +2476,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
+0.0.0.0 www.hostingcloud.racing
 0.0.0.0 www.images.taboola.com
+0.0.0.0 www.msdn.com
 0.0.0.0 www.msedge.net
 0.0.0.0 www.msftconnecttest.com
 0.0.0.0 www.msftncsi.com
+0.0.0.0 www.msn.com
 0.0.0.0 www.native.propellerclick.com
 0.0.0.0 www.new.api.ad.xiaomi.com
 0.0.0.0 www.pagead-googlehosted.l.google.com
@@ -2504,6 +2500,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ukrpts.net
 0.0.0.0 www.upv4.moatads.com
 0.0.0.0 www.windowssearch.com
+0.0.0.0 www.xbox.com
 0.0.0.0 www.zeus.ad.xiaomi.com
 0.0.0.0 www.zirkabet.com
 0.0.0.0 www2.doubleclick.com
