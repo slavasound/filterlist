@@ -362,7 +362,6 @@
 ||adtlgc.com^
 ||adup-tech.com^
 ||adups.cn^
-||edgecastcdn.net^
 ||admixercreatives.blob.core.windows.net^
 ||parimatchru.com^
 ||admixer-st.cdn.ngenix.net^
