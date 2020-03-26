@@ -1,4 +1,4 @@
-# Title: bogachenko's Personal Filters
+# Title: bogachenko's Personal Filter Hosts
 # Copyright (c) Bogachenko Vyacheslav
 
 127.0.0.1 localhost
