@@ -27,6 +27,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 15.taboola.com
 0.0.0.0 1faax-us-east.amazon-adsystem.com
 0.0.0.0 204.79.197.200
+0.0.0.0 vk.go.mail.ru
 0.0.0.0 23.218.212.69
 0.0.0.0 2542116.fls.doubleclick.net
 0.0.0.0 2mdn.net
