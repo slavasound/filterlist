@@ -751,10 +751,9 @@
 ! SITE END
 
 ! IMAGE
-*/700.png$image
+/\/(luxury|bonanza|totobet|kdpromo|388hero2|jayabet|700|yujgs|mpo2)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?([0-9a-zA-Z]{2,8})?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)/$image
 */ezgif-com-optimize.gif$image
 */templates/*/images/mstiteli.jpg$image
-*/yujgs.png$image
 /\.gif?[a-z]{1}\=/$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/[^\s]+[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}\.giff?$/$image,important
@@ -762,7 +761,6 @@
 /^https?:\/\/[^\s]+\/wp\-content\/uploads\/[0-9]{4}\/[0-9]{2,4}\/[_a-zA-Z-]{7,20}\.gif$/$image,important,domain=~lebahmovie.com
 /^https?:\/\/dota2\.ru\/img\/regardbrand(header|mobile)?\.jpg/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
-/luxury777.gif|$image
 ||english-films.com/uploads/001/Skyeng_English-Films.jpg$image
 ||english-films.com/uploads/4_35.jpg$image
 ||english-films.com/uploads/How-download_20.jpg$image
@@ -985,6 +983,7 @@ sogafime.org##[href="https://sogafime.org/contact/"]
 *##.eucookie
 *##.eupopup-container
 *##.ezoic-ad
+*##a[href*="//top.mail.ru/jump?"]
 *##.footer-cookies-policy
 *##.fucking-eu-cookies
 *##.future-cookie-bar
@@ -1036,6 +1035,7 @@ sogafime.org##[href="https://sogafime.org/contact/"]
 *##a[href*="/cdn-cgi/l/email-protection"]
 *##a[href*="/go.click?"]
 *##a[href*="/pasang-iklan"]
+*###netkevin-popup
 *##a[href*="://ad."]
 *##a[href*="://ads."]
 *##a[href*="://adv."]
@@ -1753,6 +1753,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.widget_mc4wp_form_widget
 #@#.widget_social
 /images/youtube-$badfilter
+#@#.social_rss
 /images/instagram-$badfilter
 /images/linkedin$badfilter
 #@#.ya-share2
