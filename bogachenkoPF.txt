@@ -892,6 +892,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *###mmmmm-cookies
 *###modalCookieContainer
 *###mw-cookie-policy
+*##.using-cookie
 *###mybannerbottom
 *###mybannerpopup
 *###netkevin-overlay
@@ -1829,6 +1830,12 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#a[href^="https://telegram.me/share/url?"]
 #@#a[href^="https://twitter.com/intent/follow?"]
 #@#a[href^="https://twitter.com/intent/tweet?"]
+#@#.backtotop
+#@#.facebook.icon
+#@#.twitter.icon
+#@#.footer-social-link
+#@#.addtoany_share_save_container
+#@#.addtoany_list
 #@#a[href^="https://twitter.com/share"]
 #@#a[href^="https://twitter.com/share?"]
 #@#a[href^="https://vk.com/share.php"]
