@@ -49,6 +49,7 @@
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@||ocsp*.globalsign.com^
 @@||vk.com/images/blank.mp4$media
+@@/^https?:\/\/[a-z]{1}\.disquscdn\.com/
 ! WHITELIST END
 
 ! SITE
@@ -118,7 +119,6 @@
 64.233.161.155:443$network
 64.233.161.156:443$network
 64.233.161.157:443$network
-64.233.161.190:443$network
 64.233.162.97:443$network
 64.233.162.102:443$network
 64.233.162.154:443$network
@@ -637,7 +637,6 @@
 ||nexage.com^
 ||ofa-sub.osp.opera.software^
 ||offlinepages-pa.googleapis.com^
-||ogs.google.com^
 ||ogury.io^
 ||omniture.com^
 ||online-metrix.net^
@@ -714,7 +713,7 @@
 ||top-fwz1.mail.ru^
 ||trafficfactory.biz^
 ||trafficjunky.net^
-||twitch.tv^$third-party
+||twitch.tv^$third-party,domain=~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws
 ||twitchcdn.net^$third-party,domain=~twitch.tv
 ||uc123.com^
 ||uodoo.com^
@@ -1339,7 +1338,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com
 */redirect.html$document
 *://click.$document
-/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document,domain=~google.com|~google.ru|~mozilla.org|~github.com|~gitlab.com|~vk.com|~medialeaks.ru
+/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$document,domain=~google.com|~google.ru|~mozilla.org|~github.com|~gitlab.com|~vk.com|~medialeaks.ru|~adguard.com
 /^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 ||msftconnecttest.com/redirect$document
 ||twitter.com/yurydud$document
@@ -1720,11 +1719,15 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.sharing
 #@#.td-icon-twitter
 #@#.td-icon-youtube
+#@#.scroll-to-top:not(body)
 #@##shareUrl
+-social-media-$image,badfilter
 #@#.td-post-sharing
 #@#.td-post-sharing-bottom
 #@#.td-scroll-up
 #@#.td-social-icon-wrap
+#@#.socialshare
+#@##backtop
 #@#.td-social-list
 @@||google.com/analytics/web/$document,badfilter
 @@||www.google.com/analytics/web/$xmlhttprequest,domain=www.google.com,badfilter
@@ -1754,6 +1757,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.widget_social
 /images/youtube-$badfilter
 #@#.social_rss
+#@#a[onclick^="popUp=window.open('https://plus.google.com/share?"]
 /images/instagram-$badfilter
 /images/linkedin$badfilter
 #@#.ya-share2
@@ -2222,6 +2226,9 @@ get-to.link#@#+js(aopw, ai_adb_overlay)
 go99tech.com##.banner-inner
 gounlimited.to#@#+js(aopr, _0x4aea)
 gounlimited.to#@#+js(acis, $, adb)
+#@#.back-top
+#@#.share-links
+#@#.post-share
 hqq.*#@#+js(set, sadbl, false)
 hqq.*,waaw.tv,waaws.*,uiz.io#@#+js(aopr, adBlockDetected)
 hqq.tv#@#+js(setTimeout-defuser, check, 100)
