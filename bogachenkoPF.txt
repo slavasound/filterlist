@@ -382,7 +382,7 @@
 ||af.opera.com^
 ||ankunding.biz^
 ||olympia.prod.mozaws.net^
-||amazonaws.com^$third-party,domain=~github.com|~twitch.tv
+||amazonaws.com^$third-party,domain=~github.com|~twitch.tv|~asciinema.org
 ||location.services.mozilla.com^
 ||amazon.com^$third-party
 ||alicdn.com^$third-party,domain=~aliexpress.ru|~aliexpress.com
@@ -1848,6 +1848,12 @@ movies123.*#@#+js(acis, decodeURI, getScriptFromCss)
 #@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 #@#a[href^="https://www.linkedin.com/shareArticle"]
 #@#a[href^="https://www.linkedin.com/shareArticle?"]
+#@##social_section
+#@##header_social
+/header_social_$badfilter
+#@#.icon-google-plus
+#@#.goodshare
+#@#.fa-google-plus-square
 #@#a[href^="https://www.livejournal.com/update.bml"]
 #@#a[href^="https://www.pinterest.com/pin/create/button/"]
 #@#a[href^="https://www.reddit.com/submit"]

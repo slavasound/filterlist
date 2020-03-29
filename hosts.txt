@@ -1172,7 +1172,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec.atdmt.com
 0.0.0.0 ecn.dev.virtualearth.net
 0.0.0.0 ecommstats.s3.amazonaws.com
-0.0.0.0 edgecastcdn.net
 0.0.0.0 ejs.moatads.com
 0.0.0.0 emdl.ws.microsoft.com
 0.0.0.0 emea1.notify.windows.com.akadns.net
