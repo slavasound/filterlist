@@ -1297,7 +1297,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gplayer.kmpmedia.net
 0.0.0.0 grant.reward.brave.com
 0.0.0.0 graph.windows.net
-0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 gw.flurry.com
 0.0.0.0 gwx.windows.com
 0.0.0.0 h1.msn.com
