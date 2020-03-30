@@ -1212,7 +1212,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co|uptostream.com
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost)\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365)\.xyz|linkviet\.top|(onelink|miniurl)\.pw|(payskip|adsrt|cshort|shortearn|freebcc)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist)\.com|(uptomega|techheight)\.info|sloomp\.space|cash4\.link|uiz\.app|(uiz|urle|exee?)\.io|slink\.bid|(shortearn|enrt)\.eu|gplinks\.co|(gplinks|zomatofood)\.in|(albhar|digitallearn|adslinkfly)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|deskhub\.us|(cut\-link|linksupto)\.me|yalakora\.live|shre\.su)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com hcaptcha cdn.jsdelivr.net; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost)\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink)\.xyz|linkviet\.top|(onelink|miniurl|shurt)\.pw|(payskip|adsrt|cshort|shortearn|freebcc)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist)\.com|(uptomega|techheight)\.info|(dutchycorp|sloomp)\.space|cash4\.link|uiz\.app|(uiz|urle|exee?|cuio)\.io|slink\.bid|(shortearn|enrt)\.eu|gplinks\.co|(gplinks|zomatofood)\.in|(albhar|digitallearn|adslinkfly)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|deskhub\.us|(cut\-link|linksupto)\.me|yalakora\.live|shre\.su|oxy\.st|sk\-ip\.tech)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com hcaptcha local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
@@ -1748,6 +1748,14 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.vjs-share-block
 #@#a[title="Linkedin"]
 #@#.vjs-share-button
+#@#img[alt="twitter"]
+*$script,3p,domain=mp4upload.com,badfilter
+#@#.social_icons
+#@##toTop
+#@#.social_box
+#@#.icon-google-plus2
+kissanime.ru#@#+js(acis, Math, zfgloaded)
+kissanime.*#@#+js(set, check_adblock, true)
 #@#.vjs-share-control
 #@#.vkontakte
 #@#.widget_bimber_widget_facebook_page
@@ -1768,6 +1776,7 @@ aliexpress.com#@#body:style(overflow: auto !important; padding: 0 !important;)
 #@#.yashare-auto-init
 #@#.social-media__link
 @@||cdn.adguard.com/public/$domain=adguard.com|adguard.ru,badfilter
+||coinadster.com^$badfilter
 @@||gstatic.com/recaptcha/$image,script,badfilter
 @@||google.com/recaptcha/$script,subdocument,xmlhttprequest,badfilter
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk,badfilter
@@ -2036,6 +2045,8 @@ apis.google.com/*plusone$third-party,badfilter
 /icon-twitter.$badfilter
 ||jwpcdn.com^$badfilter
 ||fastpic.ru^$third-party,badfilter
+#@#.menu-social-menu-container
+#@##menu-social-menu
 /icon-youtube.$badfilter
 /icons/facebook$badfilter
 /icons/google$badfilter
@@ -2214,6 +2225,7 @@ clik.pw#@#+js(aeld, mouseup, click)
 clipwatching.com,feurl.com#@#+js(aopr, mm)
 123movies.*##+js(acis, Math.sin, vocabulary)
 .disqus.com/count.js$badfilter
+@@||yastatic.net/share2/share.js$script,badfilter
 ||pinterest.com/js/pinit_main.js$third-party,badfilter
 *$script,xmlhttprequest,third-party,domain=vidcloud9.com,badfilter
 clipwatching.com#@#+js(set, adblock, false)
@@ -2288,6 +2300,7 @@ monova.*#@#+js(aopw, zoneNativeSett)
 my.mail.ru#@#+js(aopr, AdmanHTML)
 my.mail.ru#@#+js(window.open-defuser, , clb670603)
 my.mail.ru#@#div[class^="sp-video__item-page-new__share"]
+||aii.sh^$csp=script-src 'self' 'unsafe-inline' *.googletagmanager.com *.recaptcha.net *.gstatic.com *.google.com,badfilter
 nekopoi.*#@#+js(aeld, , adsense)
 newsfilter.org#@#+js(aopr, dataPopUnder)
 nyafilmer.*#@#+js(acis, Math, eval)
@@ -2561,7 +2574,7 @@ speedtest.net#@#+js(set, isBlocked, false)
 ||ws.sharethis.com^$badfilter
 ||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline',badfilter
 ||www.linkbucks.com^$badfilter
-||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~vk.com,badfilter
+||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.online|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com,badfilter
 ||yandex.*/clck/$badfilter
 ||yandex.*/clck/$important,badfilter
 ||yandex.*/clck/$xmlhttprequest,badfilter

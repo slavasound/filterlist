@@ -358,6 +358,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adservice.google.gr
 0.0.0.0 adservice.google.gy
 0.0.0.0 adservice.google.hn
+0.0.0.0 2mdnsys.com
+0.0.0.0 ads.2mdnsys.com
 0.0.0.0 adservice.google.hr
 0.0.0.0 adservice.google.ht
 0.0.0.0 adservice.google.hu
