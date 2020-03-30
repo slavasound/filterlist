@@ -2566,6 +2566,11 @@ speedtest.net#@#+js(set, isBlocked, false)
 ||vk.com/widget_$domain=~redspell.ru|~vk.com,badfilter
 ||vk.com/widget_comments.php?$third-party,badfilter
 ||vk.com/widget_community.php$third-party,badfilter
+novelplanet.me#@#+js(aopr, glxopen)
+novelplanet.me#@#+js(aopr, AaDetector)
+novelplanet.me#@#+js(aopw, adcashMacros)
+novelplanet.me#@#+js(aopr, __Y)
+novelplanet.me#@#+js(aopr, jwplayer.utils.Timer)
 ||vk.com/widget_like.php$third-party,badfilter
 ||vkontakte.ru/share.php?$third-party,badfilter
 ||vshare.eu^$~third-party,subdocument,badfilter
