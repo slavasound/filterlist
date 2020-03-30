@@ -1225,11 +1225,16 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.org injections.adguard.org; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.github.com *.twitter.com *.arkoselabs.com;
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org injections.adguard.org; img-src data: *.ytimg.com *.ggpht.com *.gstatic.com;
+||mp4upload.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.mp4upload.com *.jquery.com *.bootstrapcdn.com;
+||kissanime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.novelplanet.me *.cdn-dena.com *.rapidvideo.com *.playercdn.net openload.co *.openload.co openload.io *.openload.io openload.link *.openload.link openload.pw *.openload.pw oload.biz *.oload.biz oload.cc *.oload.cc oload.party *.oload.party oload.best *.oload.best oload.club *.oload.club oload.download *.oload.download oload.fun *.oload.fun oload.info *.oload.info oload.life *.oload.life oload.network *.oload.network oload.press *.oload.press oload.services *.oload.services oload.site *.oload.site oload.space *.oload.space oload.stream *.oload.stream oload.tv *.oload.tv oload.win *.oload.win oload.website *.oload.website oladblock.me *.oladblock.me oladblock.services *.oladblock.services oladblock.xyz *.oladblock.xyz *.oloadcdn.net streamango.com *.fruithosted.net *.fbcdn.net *.mp4upload.com *.fbsbx.com *.replay.watch *.animecdn.xyz *.streamx.live *.linkedin.com *.addthis.com *.disqus.com disqus.com *.disquscdn.com oload.vip *.oload.vip *.openload.cz openload.cz *.oload.cz oload.cz *.oload.icu oload.icu *.oload.monster oload.monster replay.watch *.rapidvid.to rapidvid.to *.facebook.net *.facebook.com; media-src *; img-src *;
 ! Content Security Policy END
 
 ! OTHER
 *$beacon,important
 */?component=discover
+||ru/ads/
+||com/ads/
+||net/ads/
 */WriteEvents?
 */YandexDownloader.exe
 */YandexPackLoader.exe
@@ -1357,6 +1362,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||kissanime.ru/ads/$subdocument,important
 ||phncdn.com/iframe$subdocument
 ||yastatic.net/tableau/tableau.html$subdocument
+||mp4upload.com/bd70.html|$subdocument
 ||uptostream.com/assets/$subdocument,important
 ! SUBDOCUMENT END
 
