@@ -1299,12 +1299,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 graph.windows.net
 0.0.0.0 gw.flurry.com
 0.0.0.0 gwx.windows.com
+0.0.0.0 mwor.gq
+0.0.0.0 wordc.ga
 0.0.0.0 h1.msn.com
 0.0.0.0 h2.msn.com
 0.0.0.0 hk2.settings.data.microsoft.com.akadns.net
 0.0.0.0 hk2.wns.windows.com
 0.0.0.0 hk2sch130020721.wns.windows.com
 0.0.0.0 hk2sch130020723.wns.windows.com
+0.0.0.0 oei1.gq
+0.0.0.0 mfio.cf
 0.0.0.0 hk2sch130020726.wns.windows.com
 0.0.0.0 hk2sch130020729.wns.windows.com
 0.0.0.0 hk2sch130020732.wns.windows.com

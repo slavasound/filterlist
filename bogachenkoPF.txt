@@ -1231,7 +1231,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||rutube.ru^$csp=script-src data: blob: 'unsafe-inline' 'unsafe-eval' *.rutube.ru rutube.ru local.adguard.org injections.adguard.org; connect-src data: *.rutube.ru *.pladform.ru rutube.ru; img-src data: *.rutube.ru rutube.ru;
 ||temp-mail.org^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jquery.com local.adguard.org injections.adguard.org;
 ||tv.yandex.ru^$csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.org injections.adguard.org; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
-||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net api.twitch.tv/api/channels/ irc-ws.chat.twitch.tv gql.twitch.tv panels-images.twitch.tv pubsub-edge.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.github.com *.twitter.com *.arkoselabs.com d2nvs31859zcd8.cloudfront.net;
+||twitch.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net api.twitch.tv irc-ws.chat.twitch.tv gql.twitch.tv panels-images.twitch.tv pubsub-edge.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.github.com *.twitter.com *.arkoselabs.com d2nvs31859zcd8.cloudfront.net;
 ||youtube.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org injections.adguard.org; img-src data: *.ytimg.com *.ggpht.com *.gstatic.com;
 ! Content Security Policy END
 
@@ -1460,3 +1460,21 @@ http*:*/google-universal-analytics-$script
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=analdin.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|heavy-r.com|incesto69.com|indianbfvideos.com|keezmovies.com|mofosex.com|mypornstarbook.net|niceporn.xxx|porn555.com|porndaa.com|pornerbros.com|pornj.com|pornototale.com|porntube.com|spankwire.com|thisav.com|tubepornclassic.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|youporn.lc|youpornhub.it|yourdailypornstars.com,badfilter
 ||gstaticadssl.l.google.com^$badfilter
+uiz.*#@#+js(aopr, AaDetector)
+uiz.*#@#+js(acis, fuckAdBlock, importFAB)
+uiz.*#@#+js(aopr, adBlockDetected)
+uiz.*#@#+js(aopw, _pop)
+uiz.*#@#+js(aopr, HTMLElement)
+uiz.*#@#+js(aopr, NaConf)
+uiz.*#@#+js(aopr, open)
+||uiz.*^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
+||uiz.*^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.recaptcha.net *.googletagmanager.com *.cloudflare.com,badfilter
+||uiz.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
+uiz.*#@#+js(aopr, adsBlocked)
+uiz.*#@#+js(acis, $, adBlock)
+uiz.*#@#+js(nowebrtc)
+uiz.*#@#+js(acis, Math, zfgloaded)
+uiz.*#@#+js(aeld, , popMagic)
+uiz.*#@#+js(aopr, app_vars.disable_adblock)
+*/*$script,domain=uiz.io|uiz.app,3p,redirect-rule=noopjs,badfilter
+@@||uiz.*/js/ads.js$script,1p,badfilter
