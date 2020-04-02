@@ -1222,7 +1222,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! Content Security Policy
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co|uptostream.com
-/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost)\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon)\.xyz|linkviet\.top|(onelink|miniurl|shurt)\.pw|(payskip|adsrt|cshort|shortearn|freebcc|adbull)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link)\.com?|(uptomega|techheight|freeupload)\.info|(dutchycorp|sloomp)\.space|cash4\.link|uiz\.app|(uiz|urle|exee?|cuio|ouo)\.io|slink\.bid|(shortearn|enrt)\.eu|(gplinks|zomatofood)\.in|(albhar|digitallearn|adslinkfly)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|deskhub\.us|(cut\-link|linksupto|shiroyasha|ushrt)\.me|yalakora\.live|shre\.su|oxy\.st|sk\-ip\.tech|ouo\.press?)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com hcaptcha local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com;
+/(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly|intoupload)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost)\.ink|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon|weblumia)\.xyz|linkviet\.top|(onelink|miniurl|shurt)\.pw|(payskip|adsrt|cshort|shortearn|freebcc|adbull)\.org|melissagraham\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link)\.com?|(uptomega|techheight|freeupload)\.info|(dutchycorp|sloomp)\.space|(cash4|leechpremium)\.link|uiz\.app|(uiz|urle|exee?|cuio|ouo|up\-load)\.io|slink\.bid|(shortearn|enrt)\.eu|(gplinks|zomatofood)\.in|(albhar|digitallearn|adslinkfly)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|deskhub\.us|(cut\-link|linksupto|shiroyasha|ushrt)\.me|yalakora\.live|shre\.su|oxy\.st|sk\-ip\.tech|ouo\.press?)/$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com hcaptcha local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)/$csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
@@ -1448,20 +1448,20 @@ http*:*/google-universal-analytics-$script
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=analdin.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|heavy-r.com|incesto69.com|indianbfvideos.com|keezmovies.com|mofosex.com|mypornstarbook.net|niceporn.xxx|porn555.com|porndaa.com|pornerbros.com|pornj.com|pornototale.com|porntube.com|spankwire.com|thisav.com|tubepornclassic.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|youporn.lc|youpornhub.it|yourdailypornstars.com,badfilter
 ||gstaticadssl.l.google.com^$badfilter
-uiz.*,ouo.io,shortearn.eu#@#+js(aopr, AaDetector)
+uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link#@#+js(aopr, AaDetector)
 uiz.*#@#+js(acis, fuckAdBlock, importFAB)
 uiz.*,waaw1.tv#@#+js(aopr, adBlockDetected)
-uiz.*,ouo.io#@#+js(aopw, _pop)
+uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid#@#+js(aopw, _pop)
 uiz.*#@#+js(aopr, HTMLElement)
 uiz.*#@#+js(aopr, NaConf)
-uiz.*,ouo.io#@#+js(aopr, open)
+uiz.*,ouo.io,intoupload.net,slink.bid#@#+js(aopr, open)
 ||uiz.*^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
 ||uiz.*^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.recaptcha.net *.googletagmanager.com *.cloudflare.com,badfilter
 ||uiz.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 uiz.*#@#+js(aopr, adsBlocked)
 uiz.*#@#+js(acis, $, adBlock)
 uiz.*,ouo.io#@#+js(nowebrtc)
-uiz.*,ouo.io,shortearn.eu#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 */*$script,domain=uiz.io|uiz.app,3p,redirect-rule=noopjs,badfilter
@@ -1471,9 +1471,24 @@ ouo.io#@#+js(acis, Object.defineProperty, vocabulary)
 @@||google.com/recaptcha/$csp,script,subdocument,badfilter
 @@||gstatic.com/recaptcha/$image,script,badfilter
 ||ouo.io^$script,third-party,badfilter
-linkdrop.net,glory-link.com,shortearn.eu#@#+js(aopr, app_vars.force_disable_adblock)
+leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
+up-load.io##+js(std, nextFunction, 2000)
+linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid#@#+js(aopr, app_vars.force_disable_adblock)
 linkdrop.net#@#+js(acis, document.querySelectorAll, popMagic)
 *$frame,3p,domain=linkdrop.net,badfilter
-linkdrop.net#@#+js(aopw, _pop)
 linkdrop.net#@#+js(aopr, absda)
-shortearn.eu##+js(aeld, click, trigger)
+shortearn.eu#@#+js(aeld, click, trigger)
+shon.xyz,intoupload.net##+js(aopw, Fingerprint2)
+shon.xyz##+js(aopw, NotDet)
+shon.xyz##+js(ra, onclick, [onclick^="window.open"])
+||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
+||shon.xyz^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.googletagmanager.com *.googleapis.com;frame-src 'self' *.google.com;connect-src 'self',badfilter
+|https://$script,3p,domain=shon.xyz,badfilter
+|https://$subdocument,3p,domain=shon.xyz,badfilter
+@@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz,badfilter
+@@||google.com/recaptcha/$script,badfilter
+@@||google.com^*recaptcha/$subdocument,badfilter
+shorten.sh#@#+js(aopr, Notification)
+shorten.sh#@#+js(aeld, , _0x)
+shorten.sh#@#+js(aeld, mousedown)
+shorten.*#@#+js(aopr, parcelRequire)
