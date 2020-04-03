@@ -1515,7 +1515,7 @@ http*:*/google-universal-analytics-$script
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=analdin.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|heavy-r.com|incesto69.com|indianbfvideos.com|keezmovies.com|mofosex.com|mypornstarbook.net|niceporn.xxx|porn555.com|porndaa.com|pornerbros.com|pornj.com|pornototale.com|porntube.com|spankwire.com|thisav.com|tubepornclassic.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|youporn.lc|youpornhub.it|yourdailypornstars.com,badfilter
 ||gstaticadssl.l.google.com^$badfilter
-uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link#@#+js(aopr, AaDetector)
+uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com#@#+js(aopr, AaDetector)
 uiz.*#@#+js(acis, fuckAdBlock, importFAB)
 uiz.*,waaw1.tv#@#+js(aopr, adBlockDetected)
 uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid#@#+js(aopw, _pop)
@@ -1528,7 +1528,7 @@ uiz.*,ouo.io,intoupload.net,slink.bid#@#+js(aopr, open)
 uiz.*#@#+js(aopr, adsBlocked)
 uiz.*#@#+js(acis, $, adBlock)
 uiz.*,ouo.io#@#+js(nowebrtc)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 */*$script,domain=uiz.io|uiz.app,3p,redirect-rule=noopjs,badfilter
@@ -1554,10 +1554,17 @@ shon.xyz#@#+js(aopw, NotDet)
 @@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz,badfilter
 @@||google.com/recaptcha/$script,badfilter
 @@||google.com^*recaptcha/$subdocument,badfilter
-shorten.sh#@#+js(aopr, Notification)
+shorten.sh,uploadship.com#@#+js(aopr, Notification)
 shorten.sh#@#+js(aeld, , _0x)
 shorten.sh#@#+js(aeld, mousedown)
 shorten.*,uplinkto.net#@#+js(aopr, parcelRequire)
 uplinkto.net#@#+js(aopr, eddOptions)
+mangaku.in#@#+js(acis, $, contextmenu)
+mangaku.in#@#+js(aeld, contextmenu)
+mangaku.in#@#+js(acis, $, onclick)
 bcvc.live#@#+js(acis, addEventListener, Blocking)
 bcvc.live#@#+js(window.open-defuser, 0, bcvc)
+*$script,redirect-rule=noopjs,domain=uploadship.com,badfilter
+*$xhr,redirect-rule=nooptext,domain=uploadship.com,badfilter
+onvista.de#@#+js(nostif, .call(null), 10)
+onvista.de#@#+js(nosiif, text/css, 10)

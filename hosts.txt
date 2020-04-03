@@ -515,6 +515,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 array403-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array404-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array405-prod.do.dsp.mp.microsoft.com
+0.0.0.0 juicyads.com
+0.0.0.0 adserver.juicyads.com
 0.0.0.0 array406-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array407-prod.do.dsp.mp.microsoft.com
 0.0.0.0 array408-prod.do.dsp.mp.microsoft.com
@@ -530,6 +532,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 assoc-msdk-us.amazon-adsystem.com
 0.0.0.0 atdmt.com
 0.0.0.0 au.ff.avast.com
+0.0.0.0 syndication.exosrv.com
+0.0.0.0 exosrv.com
 0.0.0.0 auth.gfx.ms
 0.0.0.0 auto.search.msn.com
 0.0.0.0 autopush.prod.mozaws.net
