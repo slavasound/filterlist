@@ -1321,6 +1321,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hk2sch130020924.wns.windows.com
 0.0.0.0 hk2sch130020936.wns.windows.com
 0.0.0.0 hk2sch130020940.wns.windows.com
+0.0.0.0 vk-portal.net
 0.0.0.0 hk2sch130020956.wns.windows.com
 0.0.0.0 hk2sch130020958.wns.windows.com
 0.0.0.0 hk2sch130020961.wns.windows.com
