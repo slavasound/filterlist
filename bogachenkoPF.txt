@@ -49,6 +49,7 @@
 @@||clck.yandex.ru^*/*https://passport.yandex.ru/auth?
 @@||ocsp*.globalsign.com^
 @@||vk.com/images/blank.mp4$media
+@@||music.yandex.ru^$generichide
 ! WHITELIST END
 
 ! SITE
@@ -334,7 +335,7 @@
 ||adscale.de^
 ||adsdk.yandex.ru^
 ||adserversolutions.com^
-||adservice.google.*^
+||adservice.google.*^$important
 ||adservme.com^
 ||adskeeper.co.uk^
 ||adtechus.com^
@@ -1499,7 +1500,7 @@ uiz.*,ouo.io,intoupload.net,slink.bid#@#+js(aopr, open)
 uiz.*#@#+js(aopr, adsBlocked)
 uiz.*#@#+js(acis, $, adBlock)
 uiz.*,ouo.io#@#+js(nowebrtc)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 */*$script,domain=uiz.io|uiz.app,3p,redirect-rule=noopjs,badfilter
@@ -1543,3 +1544,7 @@ pornhd.com#@#+js(aopr, hasAdBlock)
 pornhd.com#@#+js(aopr, ExoLoader.serve)
 pornhd.com#@#+js(popads-dummy.js)
 ||checkadblock.ru^$csp=script-src 'self',badfilter
+gogoanime.*#@#+js(acis, atob, decodeURIComponent)
+~animego.biz,animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
+gogoanime.*#@#+js(nostif, o(), 1)
+gogoanime.*#@#+js(set, check_adblock, true)
