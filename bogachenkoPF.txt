@@ -334,7 +334,7 @@
 ||adscale.de^
 ||adsdk.yandex.ru^
 ||adserversolutions.com^
-||adservice.google.$important
+||adservice.google.*^
 ||adservme.com^
 ||adskeeper.co.uk^
 ||adtechus.com^
@@ -1329,6 +1329,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||adv2.
 ||adv3.
 ||adv4.
+*/pagead/
 ||adv5.
 ||adv.
 ||advertisement.
@@ -1543,3 +1544,4 @@ onvista.de#@#+js(nosiif, text/css, 10)
 pornhd.com#@#+js(aopr, hasAdBlock)
 pornhd.com#@#+js(aopr, ExoLoader.serve)
 pornhd.com#@#+js(popads-dummy.js)
+||checkadblock.ru^$csp=script-src 'self',badfilter
