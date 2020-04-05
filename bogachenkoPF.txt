@@ -1506,8 +1506,8 @@ uiz.*,ouo.io#@#+js(nowebrtc)
 uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
-*/*$script,domain=uiz.io|uiz.app,3p,redirect-rule=noopjs,badfilter
-@@||uiz.*/js/ads.js$script,1p,badfilter
+*/*$script,domain=uiz.io|uiz.app,third-party,redirect-rule=noopjs,badfilter
+@@||uiz.*/js/ads.js$script,~third-party,badfilter
 #@#[href*="/redirect.html"]
 ouo.io#@#+js(acis, Object.defineProperty, vocabulary)
 @@||google.com/recaptcha/$csp,script,subdocument,badfilter
@@ -1517,15 +1517,15 @@ leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
 linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site#@#+js(aopr, app_vars.force_disable_adblock)
 linkdrop.net#@#+js(acis, document.querySelectorAll, popMagic)
-*$frame,3p,domain=linkdrop.net,badfilter
+*$subdocument,third-party,domain=linkdrop.net,badfilter
 linkdrop.net#@#+js(aopr, absda)
 shortearn.eu#@#+js(aeld, click, trigger)
 shon.xyz,intoupload.net#@#+js(aopw, Fingerprint2)
 shon.xyz#@#+js(aopw, NotDet)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 ||shon.xyz^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.googletagmanager.com *.googleapis.com;frame-src 'self' *.google.com;connect-src 'self',badfilter
-|https://$script,3p,domain=shon.xyz,badfilter
-|https://$subdocument,3p,domain=shon.xyz,badfilter
+|https://$script,third-party,domain=shon.xyz,badfilter
+|https://$subdocument,third-party,domain=shon.xyz,badfilter
 @@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz,badfilter
 @@||google.com/recaptcha/$script,badfilter
 @@||google.com^*recaptcha/$subdocument,badfilter
@@ -1540,7 +1540,7 @@ mangaku.in#@#+js(acis, $, onclick)
 bcvc.live#@#+js(acis, addEventListener, Blocking)
 bcvc.live#@#+js(window.open-defuser, 0, bcvc)
 *$script,redirect-rule=noopjs,domain=uploadship.com,badfilter
-*$xhr,redirect-rule=nooptext,domain=uploadship.com,badfilter
+*$xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
 onvista.de#@#+js(nostif, .call(null), 10)
 onvista.de#@#+js(nosiif, text/css, 10)
 pornhd.com#@#+js(aopr, hasAdBlock)
@@ -1555,7 +1555,7 @@ gogoanime.*#@#+js(set, check_adblock, true)
 vivo.sx#@#+js(aeld, , preventDefault)
 vivo.sx#@#+js(aopr, WebAssembly)
 vivo.sx#@#+js(aeld, click, tabunder)
-*$popunder,3p,domain=vivo.sx,badfilter
+*$popunder,third-party,domain=vivo.sx,badfilter
 @@||vk.com/js/api/openapi.js$badfilter
 @@||yastatic.net/share2/share.js$badfilter
 |data:text$popup,domain=~clker.com,badfilter
