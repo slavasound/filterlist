@@ -762,6 +762,7 @@
 ||utclient.utorrent.com^
 ||videoroll.net^
 ||viglink.com^
+||zmctrack.net^
 ||vk.com^$third-party
 ||vmweb.net^
 ||voiceservices.yandex.net^
@@ -1371,6 +1372,8 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||trackclick*.
 ||tracking-protection.
 ||tracking.
+*/728x90/
+*/300x250/
 ! OTHER END
 
 ! DOCUMENT
@@ -1562,3 +1565,4 @@ vivo.sx#@#+js(aeld, click, tabunder)
 |blob:$popup,badfilter
 ||www.youtube-nocookie.com^$badfilter
 ||typekit.net^$badfilter
+||zencdn.net^$badfilter
