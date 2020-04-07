@@ -35,12 +35,11 @@
 !#endif
 
 !#if !ext_ublock
-!#if (adguard_ext_firefox && adguard_ext_opera && adguard_ext_chromium)
 @@||aliexpress.*^$document
 @@||analytics.google.com^$document
 @@||bogachenko.github.io^$document
 @@||xvideos.com^$important,document
-!#endif
+google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 !#endif
 
 ! WHITELIST
@@ -797,9 +796,6 @@
 ! IMAGE
 /\/(luxury|bonanza|totobet|kdpromo|388hero2|jayabet|700|yujgs|mpo2)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?([0-9a-zA-Z]{2,8})?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw)/$image
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][0-9]{2,4}x[0-9]{2,3}[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$image
-/^https?:\/\/[^\s]+\/[-a-zA-Z0-9_]{1}\.gif$/$image,important,domain=~filmitorrent.xyz|~gtorrent.ru|~hot-sex-tube.com|~ok.ru|~kinopoisk.ru
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 ! IMAGE END
 
 ! POP-UP
@@ -823,7 +819,6 @@
 ! SCRIPTLET
 google.com,google.ru##+js(remove-elem, #promos)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
-google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -876,7 +871,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! OTHER
 *$beacon,important
 *$ping,important
-/^https?:\/\/[^\s]+\/([a-zA-Z]{1,7})?stat(s|istics?)?([0-9]{1,3})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,domain=~webmoney.ru|~my.mail.ru|~wordstat.yandex.ru|~wordstat.yandex.ua|~wordstat.yandex.by|~0123movie.net
 ^ping^$third-party
 ||ad0.
 ||ad1.
@@ -893,7 +887,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||ads5.
 ||ads-sdk.
 ||ads.
-||adserver.
+||adserver*.
 ||adv0.
 ||adv1.
 ||adv2.
@@ -901,19 +895,15 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||adv4.
 ||adv5.
 ||adv.
-||advertisement.
-||advertising.
+||advertisement*.
+||advertising*.
 ||advisor.
-||analytic.
-||analytics-sdk.
-||analytics.$domain=~analytics.google.com
+||analytic*.$domain=~analytics.google.com
 ||applog.
-||banner.
-||banners.
+||banner*.
 ||banniere.
-||beacon.
-||campaign.
-||easylist-downloads.adblockplus.org/exceptionrules.txt|
+||beacon*.
+||campaign*.
 ||event.
 ||geo.$domain=~fast.com
 ||meta^
@@ -922,8 +912,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||px-intl*.
 ||safebrowsing*.
 ||sdk-diagnostics.
-||snippet.
-||snippets.
+||snippet*.
 ||suggest.
 ||telemetry.
 ||trackclick*.
@@ -938,6 +927,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||blocked.mts.ru^$document
 ||browser.yandex.ru^$~document
 ||click.$document
+||easylist-downloads.adblockplus.org/exceptionrules.txt|$document
 ||msftconnecttest.com/redirect$document
 ||vk.com/badbrowser.php$document
 ||warning.rt.ru^$document
@@ -949,13 +939,12 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! SUBDOCUMENT END
 
 ! SCRIPT
-/^https?:\/\/(www\.)?mail\.yandex\.(by|kz|ru|ua)\/[^\s]{160,}/$script,important
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-])?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
-/no-right-click-$script
-/beacon.js$script
+|http*:*/no-right-click-$script
+|http*:*/beacon.js$script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -966,25 +955,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-/\.com\/[a-zA-Z]{10,17}\/[0-9]{5}$/$document,script
-/^https?:\/\/(www\.)?hdtube\.porn\/xdman\//$important,script,subdocument
-/^https?:\/\/(www\.)?tv\.yandex\.(by|kz|ru|ua)\/[^\s]{300,}/$subdocument,xmlhttprequest,~third-party,important
-/^https?:\/\/(www\.)?yandex\.(by|kz|ru|ua)\/images\/(?!(search\?rpt=\imageview)|(search\?callback\=jQuery)|(search\?exp_flags=)|(search\?from=\&serpid=)|(search\?serpid=)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
-/^https?:\/\/[^\s]+[0-9]{2,3}[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?x[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?[0-9]{2,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)$/$important,subdocument,xmlhttprequest,script,image,third-party,domain=~ivi.ru|~twitch.tv|~yandex.ru|~yandex.com|~ya.ru|~yandex.ua|~yandex.by|~opera.com|~twitter.com|~aliexpress.com|~aliexpress.ru|~youtube.com|~gstatic.com|steambuy.com
-/^https?:\/\/[^\s]+[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]bann?ers?.*?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js|php)$/$important,subdocument,script,xmlhttprequest,image,domain=~twitch.tv|~9anime.xyz|~agar.io|~aliexpress.com|~aliexpress.ru|~yandex.ru|~yandex.ua|~yandex.by|~azure.com
-/^https?:\/\/[^\s]+\/[-a-z0-9_]{1}\.js$/$important,image,script,domain=~duckduckgo.com|~rutube.ru|~arkadiumhosted.com|~besstidniki.ru|~siftscience.com|~scribd.com|~sberbank.ru
-/^https?:\/\/[^\s]+\/[a-zA-Z0-9]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|heic|heif|webp|jxr|wdp|dng|cr2|arw|js)\?/$image,xmlhttprequest,important,domain=~patreon.com
-|http*:*/count.json$xmlhttprequest,script,important
-|http*:*/google-analytics.$xmlhttprequest,script,important
-||apple.com/*/startpage/$xmlhttprequest,other,important
-||google.*/complete/$other,xmlhttprequest
-||gstatic.com/safebrowsing$other,xmlhttprequest,important
-||megatube.xxx/atrm/$xmlhttprequest,script,important
-||mobile.yandex.net/psuh/$other,xmlhttprequest,important
-||vk.com/feed2.php$other,xmlhttprequest,important
-||yandex.*/suggest/$other,xmlhttprequest
-||yandex.ru/prefetch.txt$xmlhttprequest,other,important
-||yastatic.net/s3/bro-bg-store/$image,xmlhttprequest,other,important
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,other,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
