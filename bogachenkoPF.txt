@@ -821,8 +821,9 @@
 ! APP END
 
 ! SCRIPTLET
-google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 google.com,google.ru##+js(remove-elem, #promos)
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -926,8 +927,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||suggest.
 ||telemetry.
 ||trackclick*.
-||tracking-protection.
-||tracking.
+||tracking*.
 ! OTHER END
 
 ! DOCUMENT
