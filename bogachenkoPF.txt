@@ -964,11 +964,11 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /piwik[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$image,important,script
 /vast[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$image,important,script,xmlhttprequest
 /track(ers?|ing)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com
-/log(ging|impressions?|ers?)?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,other,script,xmlhttprequest
+/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]log(ging|impressions?|ers?)?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,other,script,xmlhttprequest
 /(player|client|csi|gen(erate)?|stream|logs?|live)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?204/$image,important,other,xmlhttprequest
 /(log|img)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?(type|events?|entry|request|stats?|view(edpage)?)/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/\/google\-analy(tic?(?:[asx]|sys|tor)?)/$important,other,xmlhttprequest,script
+/[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]google\-analy(tic?(?:[asx]|sys|tor)?)/$important,other,xmlhttprequest,script
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
