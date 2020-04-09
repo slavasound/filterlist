@@ -943,16 +943,18 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/worker([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
-|http*:*/no-right-click-$script,important
-|http*:*/beacon.js$script,important
-|http*:*/gtag.js$script,important
+*/no-right-click-$script,important
+*/beacon.js$script,important
+*/gtag.js$script,important
 /^https?:\/\/[^\s]+\/analy(tic?(?:[asx]|sys|tor)?)\.js/$important,script
 /^https?:\/\/([a-z]{6,16})\.com\/([a-zA-Z0-9]{10,15})\/[0-9]{5}$/$important,script,third-party
+*/vinos.js$script,important
+*/miner.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
-|http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
+*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||addons.opera.com/themes/$xmlhttprequest
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
@@ -972,6 +974,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /(log|img)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?(type|events?|entry|request|stats?|view(edpage)?)/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]google[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?analy(tic?(?:[asx]|sys|tor)?)/$important,other,xmlhttprequest,script,image
+*/xti.php?$important,script,xmlhttprequest,image
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
