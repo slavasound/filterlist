@@ -935,6 +935,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 
 ! SUBDOCUMENT
 ||yastatic.net/tableau/tableau.html$subdocument
+povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -950,6 +951,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /^https?:\/\/([a-z]{6,16})\.com\/([a-zA-Z0-9]{10,15})\/[0-9]{5}$/$important,script,third-party
 */vinos.js$script,important
 */miner.js$script,important
+*/jquery.notify.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1088,7 +1090,7 @@ tunovelaligera.com##+js(abort-on-property-read.js, add_message_to_copied_text)
 tunovelaligera.com##+js(abort-on-property-read.js, contentprotector)
 fileone.tv#@#+js(set, globalThis, null)
 fileone.tv#@#+js(aopr, popjs)
-povvideo.*,powvldeo.*,powv1deo.*##+js(aopw, Fingerprent2)
-povvideo.*,powvldeo.*,powv1deo.*##+js(aopr, jwplayer.vast)
-povvideo.*,powvldeo.*,powv1deo.*##+js(nostif, test.remove, 100)
-povvideo.*,powvldeo.*,powv1deo.*##+js(set, isAdb, false)
+povvideo.*,powvldeo.*,powv1deo.*#@#+js(aopw, Fingerprent2)
+povvideo.*,powvldeo.*,powv1deo.*#@#+js(aopr, jwplayer.vast)
+povvideo.*,powvldeo.*,powv1deo.*#@#+js(nostif, test.remove, 100)
+povvideo.*,powvldeo.*,powv1deo.*#@#+js(set, isAdb, false)
