@@ -372,7 +372,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||anylvl.com^
 ||api.browser.yandex.$important
 ||api.recsys.opera.com^
-||app-measurement.com^
 ||appbaqend.com^
 ||applovin.com^
 ||applvn.com^
@@ -977,7 +976,7 @@ povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]google[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?analy(tic?(?:[asx]|sys|tor)?)/$important,other,xmlhttprequest,script,image
 */xti.php?$important,script,xmlhttprequest,image
-/bann?ers?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$image,ďocument,subdocument,script,xmlhttprequest,important
+/bann?ers?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
