@@ -914,7 +914,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||telemetry.
 ||trackclick*.
 ||tracking*.
-/(ntfc|afu|apu)\.(hh|php)\?/$important
+/(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /\?zone[-_]?id\=/$important
 ! OTHER END
 
@@ -1019,13 +1019,13 @@ ouo.io,gdriveplayer.*#@#+js(acis, Object.defineProperty, vocabulary)
 ||ouo.io^$script,third-party,badfilter
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
-*$script,third-party,domain=kinopovtor.online|goblins-online.ru,badfilter
+*$script,third-party,domain=kinopovtor.online|goblins-online.ru|checkadblock.ru,badfilter
 linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site#@#+js(aopr, app_vars.force_disable_adblock)
 linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
 *$subdocument,third-party,domain=linkdrop.net,badfilter
 linkdrop.net#@#+js(aopr, absda)
 shortearn.eu#@#+js(aeld, click, trigger)
-shon.xyz,intoupload.net#@#+js(aopw, Fingerprint2)
+shon.xyz,intoupload.net,povvideo.*,powvldeo.*,powv1deo.*#@#+js(aopw, Fingerprint2)
 shon.xyz#@#+js(aopw, NotDet)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 ||shon.xyz^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.googletagmanager.com *.googleapis.com;frame-src 'self' *.google.com;connect-src 'self',badfilter
@@ -1076,7 +1076,7 @@ wstream.*#@#+js(std, height)
 wstream.*#@#+js(nostif, display)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopr, jwplayer.utils.Timer)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopr, __Y)
-clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopw, adcashMacros)
+clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,povvideo.*,powvldeo.*,powv1deo.*#@#+js(aopw, adcashMacros)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*#@#+js(aopr, glxopen)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(set, globalThis, null)
 ||w.org^$badfilter
@@ -1088,4 +1088,7 @@ tunovelaligera.com##+js(abort-on-property-read.js, add_message_to_copied_text)
 tunovelaligera.com##+js(abort-on-property-read.js, contentprotector)
 fileone.tv#@#+js(set, globalThis, null)
 fileone.tv#@#+js(aopr, popjs)
-*$script,3p,domain=checkadblock.ru,badfilter
+povvideo.*,powvldeo.*,powv1deo.*##+js(aopw, Fingerprent2)
+povvideo.*,powvldeo.*,powv1deo.*##+js(aopr, jwplayer.vast)
+povvideo.*,powvldeo.*,powv1deo.*##+js(nostif, test.remove, 100)
+povvideo.*,powvldeo.*,powv1deo.*##+js(set, isAdb, false)
