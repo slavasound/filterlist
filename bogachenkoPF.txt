@@ -49,6 +49,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||ocsp*.globalsign.com^
 @@||vk.com/images/blank.mp4$media
 @@||music.yandex.ru^$generichide
+@@||safebrowsing.clients.google.com^$document
 ! WHITELIST END
 
 ! SITE
@@ -570,7 +571,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||labkas.com^
 ||lavanetwork.net^
 ||lbs.yandex.ru^
-||lentainform.com^$third-party,domain=~lentainform.com
 ||license.piriform.com^
 ||linksalpha.com^$third-party
 ||linkwithin.com^$third-party
@@ -583,6 +583,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||locprod1-elb-eu-west-1.prod.mozaws.net^
 ||mail-ads.google.com^
 ||mail.ru^$third-party,important
+||facebook.com^$third-party,important
 ||maribacaberita.com^
 ||mc-portal.mail.ru^
 ||mc.yandex.ru^$important
@@ -610,7 +611,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||mtrcdn.com^
 ||mwor.gq^
 ||my.com^
-||mystat.hu^$third-party
 ||n152adserv.*^
 ||n161adserv.com^
 ||n176adserv.*^
@@ -618,7 +618,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||napi.ucweb.com^
 ||nativeads.com^
 ||navicms.ucweb.com^
-||networkedblogs.com^$third-party
 ||newrelic.com^
 ||news-af-feednews.com^
 ||news-first.com^
@@ -709,10 +708,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||silvercdn.com^
 ||sitecheck*.opera.com^
 ||smartadserver.*^
-||smi2.ru^$third-party,domain=~smi2.ru
-||socialchorus.com^$third-party
-||socialinterface.com^$third-party
-||socialminer.com^$third-party
+||socialchorus.com^$third-party,important
+||socialinterface.com^$third-party,important
+||socialminer.com^$third-party,important
 ||sohu.com^$third-party
 ||soom.la^
 ||soomla.com^
@@ -740,27 +738,24 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||trafficfactory.biz^
 ||fundingchoices.google.com^
 ||trafficjunky.net^
-||turnsocial.com^$third-party
-||tweetboard.me^$third-party
-||tweetmeme.com^$third-party
-||twitch.tv^$third-party,domain=~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws
-||twitchcdn.net^$third-party,domain=~twitch.tv
-||twitter.com^$third-party
+||twitch.tv^$third-party,domain=~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws,important
+||twitchcdn.net^$third-party,domain=~twitch.tv,important
+||twitter.com^$third-party,important
 ||uaservers.net^
 ||uc123.com^
 ||uodoo.com^
 ||update.utorrent.*^
 ||updtapi.com^
 ||updtbrwsr.com^
-||uptolike.com^$third-party
+||uptolike.com^$third-party,important
 ||us-ucdc-upaas.ucweb.com^
 ||us-unpm-upaas.ucweb.com^
-||usocial.pro^$third-party
+||usocial.pro^$third-party,important
 ||utclient.utorrent.com^
 ||videoroll.net^
 ||viglink.com^
 ||zmctrack.net^
-||vk.com^$third-party
+||vk.com^$third-party,important
 ||vmweb.net^
 ||voiceservices.yandex.net^
 ||vungle.com^
@@ -773,7 +768,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||xray.mail.ru^
 ||yabs.yandex.*^
 ||yadro.ru^
-||yahoo.com^$third-party
+||yahoo.com^$third-party,important
 ||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~passport.rt.ru|~metrika.yandex.ru|~z5h64q92x9.net
 ||yandexadexchange.net^
 ||yastatic.net^$third-party,domain=~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~z5h64q92x9.net
@@ -878,27 +873,9 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||advertising*.
 ||adserver*.
 ||advisor*.
-||ad0.
-||ad1.
-||ad2.
-||ad3.
-||ad4.
-||ad5.
 ||ad.
-||ads0.
-||ads1.
-||ads2.
-||ads3.
-||ads4.
-||ads5.
 ||ads-sdk.
 ||ads.
-||adv0.
-||adv1.
-||adv2.
-||adv3.
-||adv4.
-||adv5.
 ||adv.
 ||analytic*.$domain=~analytics.google.com
 ||applog.
@@ -923,6 +900,7 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 /\?zone[-_]?id\=/$important
 */pagead/$important
 */generate_204$important
+||safe.
 ! OTHER END
 
 ! DOCUMENT
@@ -938,7 +916,6 @@ youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содерж
 ||vk.com/badbrowser.php$document
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
-@@||safebrowsing.clients.google.com^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
