@@ -852,7 +852,7 @@ clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="ht
 ! STEALTH END
 
 ! CSP
-*$important,csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co|uptostream.com|fileone.tv
+*$important,csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net|300mbfilms.io|300mbfilms.co|uptostream.com|fileone.tv|pirate-bay.net
 /(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly|intoupload|uplinkto|linkduit|hacknetfl1x|neonlink)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost|gplinks|zomatofood|goou|linkad)\.ink?|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon|weblumia|thenewyear|parentingss|viralking|safeland|moon7)\.xyz|linkviet\.top|(onelink|miniurl|shurt|adlink|bitlinks)\.pw|(payskip|adsrt|cshort|shortearn|freebcc|adbull|skinnycat|lotechnocan|hokiciki)\.org|(clickurls|melissagraham)\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link|pastekan|shortid|adigp|subdowns|spechly|imgixxx|smoner|rifurl|theblockchaindiary|driverays|techrfour|dogemate|faupto|aldiblogger)\.com?|(uptomega|techheight|freeupload|vius|lifesurance)\.info|(dutchycorp|sloomp)\.space|(cash4|leechpremium)\.link|uiz\.app|(uiz|urle|exee?|cuio|ouo|up\-load)\.io|slink\.bid|(shortearn|enrt)\.eu|(albhar|digitallearn|adslinkfly|viral29)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|(deskhub|razorlink)\.us|(cut\-link|linksupto|shiroyasha|ushrt|idsht|8shrt)\.me|(yalakora|bcvc)\.live|shre\.su|oxy\.st|sk\-ip\.tech|ouo\.press?|wi\.cr|ouo\.today|ryn\.cc|adshrink\.it)/$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com hcaptcha local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
@@ -871,7 +871,7 @@ clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="ht
 ||clipwatching.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.clipwatching.com *.bootstrapcdn.com local.adguard.org injections.adguard.org;
 ||deloplen.com^$important,csp=default-src 'none';
 /^https?:\/\/(www\.)?((clipwatching|embedsito|fembed|feurl|flix555|mavplay|rubicstreaming|qdembed|xstreamcdn|zidiplay)\.com|(playfinder|svpri|vaplayer|weirdmovies|mavplayer)\.xyz|(openplayer|jplayer)\.net|(embed|playvideo)\.best|(javcl|novelplanet)\.me|cdn\-myhdjav\.info|embed\.media|(luxubu|gaobook)\.review|gcloud\.live|playvid\.host)\//$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
-/^https?:\/\/(www\.)?thepiratebay([0-9]{1,3})?\.[a-z]+\//$csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org;
+/^https?:\/\/(www\.)?(t(he|pb)|hey)?((pirate|mirror|hidden)[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?bay(s|proxy)?|proxypirate|pirateproxy|tpb|unblocktheship)([0-9]{1,3})?\.[a-z.]+\//$csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org;
 ! CSP END
 
 ! OTHER
@@ -952,6 +952,7 @@ povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 */scripts-nvm/gen.php?$script
 */vastlist.js$script,important
 */crypta.js$script,important
+*/fingerprint2.$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
