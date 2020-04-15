@@ -284,9 +284,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 216.58.207.226:443$network
 216.58.207.232:443$network
 216.58.208.238:443$network
-216.58.211.1:443$network
-216.58.211.2:443$network
-216.58.211.8:443$network
 217.69.133.145:443$network
 217.69.139.244:443$network
 217.69.141.142:443$network
@@ -631,7 +628,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||ofa-sub.osp.opera.software^
 ||offlinepages-pa.googleapis.com^
 ||ogury.io^
-||olympia.prod.mozaws.net^
 ||omniture.com^
 ||onedmp.com^
 ||online-metrix.net^
@@ -770,6 +766,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||xray.mail.ru^
 ||yabs.yandex.*^
 ||yadro.ru^
+||ok.ru^$third-party,important
 ||yahoo.com^$third-party,important
 ||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~passport.rt.ru|~metrika.yandex.ru|~z5h64q92x9.net
 ||yandexadexchange.net^
@@ -781,6 +778,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||zarget.com^
 ||zdevx.yandex.ru^$third-party
 ||zen-test.yandex.ru^
+||ulclick.ru^$third-party,important
 ||zen.yandex.ru^$third-party
 ||zestads.com^
 ||zestadz.com^
@@ -980,7 +978,7 @@ povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]google[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?analy(tic?(?:[asx]|sys|tor)?)/$important,other,xmlhttprequest,script,image,third-party
 */xti.php?$important,script,xmlhttprequest,image
-/bann?ers?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com
+/bann?ers?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru
 /\/ga([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][a-zA-Z]{5,})?\.js/$important,script,other,third-party
 /\.(com?|net|org|ru)\/ads\//$script,image,object,subdocument,document
 ! COMBINED END
