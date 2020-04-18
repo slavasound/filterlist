@@ -932,6 +932,7 @@ clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="ht
 ! SUBDOCUMENT
 ||yastatic.net/tableau/tableau.html$subdocument
 povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
+/\/ads\/(middle|bottom|right|top|left)\.html?\?/$subdocument,important
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -979,7 +980,7 @@ povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]google[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]?analy(tic?(?:[asx]|sys|tor)?)/$important,other,xmlhttprequest,script,image,third-party
 */xti.php?$important,script,xmlhttprequest,image
-/bann?ers?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru
+/bann?ers?[!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru
 /\/ga([!"#$%&'()*+.,:;<=>?@\/\^_`{|}~-][a-zA-Z]{5,})?\.js/$important,script,other,third-party
 /\.(com?|net|org|ru)\/ads\//$script,image,object,subdocument,document
 ! COMBINED END

@@ -591,6 +591,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bn4sch101121704.wns.windows.com
 0.0.0.0 bn4sch101121709.wns.windows.com
 0.0.0.0 bn4sch101121714.wns.windows.com
+0.0.0.0 ad.bitmedia.io
 0.0.0.0 bn4sch101121908.wns.windows.com
 0.0.0.0 bn4sch101122117.wns.windows.com
 0.0.0.0 bn4sch101122310.wns.windows.com
