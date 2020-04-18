@@ -584,7 +584,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||locprod1-elb-eu-west-1.prod.mozaws.net^
 ||mail-ads.google.com^
 ||mail.ru^$third-party,important
-||facebook.com^$third-party,important
+||facebook.com^$third-party,important,domain=~instagram.com
 ||maribacaberita.com^
 ||mc-portal.mail.ru^
 ||mc.yandex.ru^$important
@@ -937,21 +937,20 @@ clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="ht
 
 ! SUBDOCUMENT
 ||yastatic.net/tableau/tableau.html$subdocument
-povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
-/\/ads\/(middle|bottom|right|top|left)\.html?\?/$subdocument,important
+/\/ads?\/(middle|bottom|right|top|left)\.html?\?/$subdocument,important
 ! SUBDOCUMENT END
 
 ! SCRIPT
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
 /\%(21|22|23|24|25|26|27|28|29|2A|2B|2C|2E|3A|3B|3C|3D|3E|3F|40|2F|5C|5E|5F|60|7B|7C|7D|7E|2D)sw\.js$/$script,important
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?)?worker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?)?[Ww]orker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
 /^https?:\/\/[^\s]+\/sw([!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
-/^https?:\/\/[^\s]+\/worker([!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
+/^https?:\/\/[^\s]+\/[Ww]orker([!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 */no-right-click-$script,important
 */beacon.js$script,important
 */gtag.js$script,important
-/^https?:\/\/[^\s]+\/analy(tic?(?:[asx]|sys|tor)?)\.js/$important,script
+*/ga.js$script,important
 /^https?:\/\/([a-z]{6,16})\.com\/([a-zA-Z0-9]{10,15})\/[0-9]{5}$/$important,script,third-party
 */vinos.js$script,important
 */miner.js$script,important
@@ -989,7 +988,7 @@ povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 /analy(tic?(?:[asx]|sys|tor)?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,other,xmlhttprequest,script,image
 */xti.php?$important,script,xmlhttprequest,image
 /bann?ers?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru
-/\/ga([!"#$%&'()*+.,:;<=>?@/\^_`{|}~-][a-zA-Z]{5,})?\.js/$important,script,other,third-party
+/\/ga[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-][a-zA-Z]{5,}\.js/$important,script,other,third-party
 /\.(com?|net|org|ru)\/ads\//$script,image,object,subdocument,document
 /\/count(s|ers?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,script,xmlhttprequest,other,image
 ! COMBINED END
