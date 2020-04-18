@@ -595,6 +595,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bn4sch101121908.wns.windows.com
 0.0.0.0 bn4sch101122117.wns.windows.com
 0.0.0.0 bn4sch101122310.wns.windows.com
+0.0.0.0 0101010101010101.com
+0.0.0.0 0000000000000000.com
 0.0.0.0 bn4sch101122312.wns.windows.com
 0.0.0.0 bn4sch101122421.wns.windows.com
 0.0.0.0 bn4sch101123108.wns.windows.com
