@@ -982,7 +982,7 @@ povvideo.*,powvldeo.*,powv1deo.*$subdocument,third-party
 /piwik[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$image,important,script
 /vast[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$image,important,script,xmlhttprequest
 /track(ers?|ing)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com
-/[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]log(ging|impressions?|ers?)?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,other,script,xmlhttprequest,domain=~yadi.sk
+/[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]log(ging|impressions?|ers?)?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com
 /(player|client|csi|gen(erate)?|stream|logs?|live)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?204/$image,important,other,xmlhttprequest
 /(log|img)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?(type|events?|entry|request|stats?|view(edpage)?)/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
@@ -1136,3 +1136,4 @@ clik.pw#@#+js(nowebrtc)
 clik.pw#@#+js(nosiif, visibility, 1000)
 clik.pw#@#+js(nostif, _0x)
 clik.pw#@#+js(aeld, mouseup, click)
+/cdn-cgi/apps/head/*$script,~third-party,badfilter
