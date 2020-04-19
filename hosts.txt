@@ -1963,10 +1963,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 normandy.cdn.mozilla.net
 0.0.0.0 nr.taboola.com
 0.0.0.0 nrtprod-rtbwin.applovin.com
-0.0.0.0 ns1.edgecastcdn.net
-0.0.0.0 ns2.edgecastcdn.net
-0.0.0.0 ns3.edgecastcdn.net
-0.0.0.0 ns4.edgecastcdn.net
 0.0.0.0 o3fy684faxh8o.ru
 0.0.0.0 oca.telemetry.microsoft.com
 0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
@@ -2235,7 +2231,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 taboola.com
 0.0.0.0 tapjoy.net
 0.0.0.0 tapjoyads.com
-0.0.0.0 taucdn.net
 0.0.0.0 tele.trafficmanager.net
 0.0.0.0 telecommand.telemetry.microsoft.com
 0.0.0.0 telecommand.telemetry.microsoft.com.nsat-c.net
@@ -2400,8 +2395,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vs307.vcdn.biz
 0.0.0.0 vu.moatads.com
 0.0.0.0 w.apprep.smartscreen.microsoft.com
-0.0.0.0 wac.a164.edgecastcdn.net
-0.0.0.0 wac.a164.taucdn.net
 0.0.0.0 wallet.microsoft.com
 0.0.0.0 watson2.alpha.telemetry.microsoft.com
 0.0.0.0 watson7.alpha.telemetry.microsoft.com
