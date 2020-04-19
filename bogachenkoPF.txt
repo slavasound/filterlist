@@ -782,6 +782,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||zen-test.yandex.ru^
 ||ulclick.ru^$third-party,important
 ||zen.yandex.ru^$third-party
+||cackle.me^$third-party,important
 ||zestads.com^
 ||zestadz.com^
 ||zirkabet.com^
@@ -816,7 +817,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! APP END
 
 ! SCRIPTLET
-google.com,google.ru##+js(remove-elem, #promos)
+google.*##+js(remove-elem.js, #promos)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
@@ -837,6 +838,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##[href*="trafficfactory.biz"]
 *##[href*="/adv/"]
 *##[href*="/ads/"]
+*##iframe[src*="://vidroll.ru/"]
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai##body:style(background-image: none !important;)
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by#?#span:contains(Отключить рекламу)
@@ -848,12 +850,23 @@ freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular,
 vidoza.net##div.wait_buffer
 2ch.hk##.logo
 freebitco.in###myModal22:has-text(Did you know?)
+english-films.*##.mainNav, .superBanner, div.owl-stage, div.owl-controls, div.block.saladBlock, section.helperBlock.section.redBox.box, section.linksBlock.section, footer.footer, div.block.redBlock, div.block.orangeBlock, div.block.blueBlock, .sidebar, div.dpad, div.dle-alert.box.redBox, div.relatedNews, .wrapPaymentCommercial, .siteEnter, div.wrp_baner
+english-films.*##.block-content:has-text(Онлайн чат)
+english-films.*##div.block.orangeBlock:has-text(Подписывайтесь на обновления в наших группах)
+english-films.*##div.block.blueBlock:has-text(Наши телеграм каналы)
+english-films.*##.text-center:has-text(чтобы убрать рекламу сделайте регистрацию/авторизуйтесь на сайте)
+english-films.*##.mainInner:style(padding-left: 0 !important;)
+english-films.*##p:has([href^="https://english-films.co/chto-delat-esli-bespokoit-reklama-pri-vklyuchenii-openload-pleera.html"])
+english-films.*##p:has-text(В бесплатном плеере фильм доступен только на русском языке, для просмотра на английском нужно приобрести абонемент.)
+english-films.*##p:has-text(Все фильмы с бесплатным доступом на английском находятся в отдельной)
 ! CSS END
 
 ! XPATH
 youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 youtube.com##:xpath(//div[@id='movie_player']/div/div[.='Видео содержит прямую рекламу или продакт-плейсмент'])
 clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="https://track.totalav.com"])
+english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Покупка абонемента'])
+english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Трейлер'])
 ! XPATH END
 
 ! STEALTH
@@ -861,7 +874,7 @@ clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="ht
 ! STEALTH END
 
 ! CSP
-*$important,csp=worker-src 'none',domain=~twitch.tv|~hdseason.ru
+*$important,csp=worker-src 'none',domain=~twitch.tv|~hdseason.ru|~xvideos.com|~vk.com|~ok.ru
 /(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly|intoupload|uplinkto|linkduit|hacknetfl1x|neonlink)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost|gplinks|zomatofood|goou|linkad)\.ink?|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon|weblumia|thenewyear|parentingss|viralking|safeland|moon7)\.xyz|linkviet\.top|(onelink|miniurl|shurt|adlink|bitlinks|clik)\.pw|(payskip|adsrt|cshort|shortearn|freebcc|adbull|skinnycat|lotechnocan|hokiciki)\.org|(clickurls|melissagraham)\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link|pastekan|shortid|adigp|subdowns|spechly|imgixxx|smoner|rifurl|theblockchaindiary|driverays|techrfour|dogemate|faupto|aldiblogger|shortlinkto|clicknupload)\.com?|(uptomega|techheight|freeupload|vius|lifesurance)\.info|(dutchycorp|sloomp)\.space|(cash4|leechpremium|uploader)\.link|uiz\.app|(uiz|urle|exee?|cuio|ouo|up\-load|shotly)\.io|slink\.bid|(shortearn|enrt)\.eu|(albhar|digitallearn|adslinkfly|viral29)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|(deskhub|razorlink)\.us|(cut\-link|linksupto|shiroyasha|ushrt|idsht|8shrt|uptomega)\.me|(yalakora|bcvc|uppom)\.live|shre\.su|oxy\.st|sk\-ip\.tech|ouo\.press?|wi\.cr|ouo\.today|ryn\.cc|adshrink\.it|bitcoinly\.in|fc\.lc|vup\.to)/$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com *.hcaptcha.com hcaptcha.com local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com *.hcaptcha.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
