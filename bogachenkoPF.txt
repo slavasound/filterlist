@@ -768,7 +768,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||xray.mail.ru^
 ||yabs.yandex.*^
 ||yadro.ru^
-||ok.ru^$third-party,important
+||ok.ru^$third-party,important,domain=~serial1.club
 ||yahoo.com^$third-party,important
 ||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~passport.rt.ru|~metrika.yandex.ru|~z5h64q92x9.net
 ||yandexadexchange.net^
@@ -996,7 +996,7 @@ clipwatching.com##:xpath(//body/div[@id='container']/div/div[2]):has(a[href*="ht
 */xti.php?$important,script,xmlhttprequest,image
 /bann?ers?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru
 /\/ga[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-][a-zA-Z]{5,}\.js/$important,script,other,third-party
-/\.(com?|net|org|ru)\/ads\//$script,image,object,subdocument,document
+/\.(com?|net|org|ru)\/ad[sv]?\//$script,image,object,subdocument,document
 /\/count(s|ers?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
 ! COMBINED END
 
