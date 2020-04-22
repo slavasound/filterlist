@@ -767,7 +767,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! IMAGE
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
-*/atrk.gif?$image,important
+/\/atrk\.(gif|js)/$image,important
 */rtrg?$image,important
 ||freebitco.in/images/sirv_backup/*.jpeg$image
 ! IMAGE END
@@ -981,9 +981,9 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /analy(tic?(?:[asx]|sys|tor)?)(?:[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]|[0-9]{1})/$important,other,xmlhttprequest,script,image
 /bann?ers?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org
 /\/ga[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-][a-zA-Z]{5,}\.js/$important,script,other,third-party
-/\.(com?|net|org|ru)\/ad[sv]?\//$script,image,object,subdocument,document
+/\.(com?|net|org|ru)\/ad[sv]?\//$script,image,object,subdocument,document,important
 /\/count(s|ers?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
-/\/[a-z0-9]{1,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?/$image,xmlhttprequest,important,script,subdocument
+/\/[a-z0-9]{1,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,xmlhttprequest,important,script,subdocument
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
