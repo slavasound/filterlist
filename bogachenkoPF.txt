@@ -910,6 +910,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 */pagead/$important
 */generate_204$important
 ||safe.
+||stat.$third-party,important
 ! OTHER END
 
 ! DOCUMENT
@@ -983,7 +984,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /\/ga[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-][a-zA-Z]{5,}\.js/$important,script,other,third-party
 /\.(com?|net|org|ru)\/ad[sv]?\//$script,image,object,subdocument,document,important
 /\/count(s|ers?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
-/\/[a-z0-9]{1,3}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,xmlhttprequest,important,script,subdocument
+/\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)$/$image,xmlhttprequest,important,script,subdocument,other
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1031,6 +1032,7 @@ dood.watch#@#+js(set, xPoPAdS, false)
 dood.watch#@#+js(nostif, debugger)
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
+@@||yastatic.net/jquery/*/jquery.min.js|$script,3p,badfilter
 *$script,third-party,domain=kinopovtor.online|goblins-online.ru|checkadblock.ru|alltube.tv|gounlimited.to,badfilter
 linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site,clik.pw#@#+js(aopr, app_vars.force_disable_adblock)
 linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
