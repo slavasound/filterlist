@@ -26,6 +26,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 13.92.194.212
 0.0.0.0 15.taboola.com
 0.0.0.0 23.218.212.69
+0.0.0.0 cstatic.weborama.fr
+0.0.0.0 rtb.com.ru
+0.0.0.0 notify.bugsnag.com
 0.0.0.0 40.77.226.249
 0.0.0.0 40.77.226.250
 0.0.0.0 52.178.38.151
@@ -42,6 +45,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 204.79.197.200
 0.0.0.0 1435575.fls.doubleclick.net
 0.0.0.0 2542116.fls.doubleclick.net
+0.0.0.0 wam.solution.weborama.fr
 0.0.0.0 3642305.fls.doubleclick.net
 0.0.0.0 3765329.fls.doubleclick.net
 0.0.0.0 4053494.fls.doubleclick.net
