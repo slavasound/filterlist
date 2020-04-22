@@ -731,6 +731,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||updtbrwsr.com^
 ||uptolike.com^$third-party,important
 ||usocial.pro^$third-party,important
+||mradx.net^
 ||utclient.utorrent.com^
 ||videoroll.net^
 ||viglink.com^
@@ -852,7 +853,6 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 /^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)\//$important,csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua http://yandex.com https://yandex.com https://yandex.by http://yandex.by api-maps.yandex.ru suggest-maps.yandex.ru https://cloud-api.yandex.net local.adguard.org injections.adguard.org *.youtube.com ok.ru; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net api-maps.yandex.ru static-maps.yandex.ru; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by *.yandex.net wss: ok.ru; object-src 'none';
-||kinogo.*^$important,csp=script-src data: 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.jquery.com *.google.com *.gstatic.com https://kinogo.eu http://kinogo.eu http://kinogo.by https://kinogo.by  https://cdn1.kinogo.by http://cdn1.kinogo.by http://kinogo.cc https://kinogo.cc http://kinogo.video https://kinogo.video *.vk.com vk.com *.googleapis.com http://kinogo.casa https://kinogo.casa local.adguard.org injections.adguard.org; img-src 'self' data: *.ytimg.com *.kinopoisk.ru; media-src *; connect-src data: https://kinogo.by;
 ||mp4upload.com^$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.mp4upload.com *.jquery.com *.bootstrapcdn.com;
 ||my.mail.ru^$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' my.mail.ru *.imgsmail.ru https://auth.mail.ru https://ok.ru local.adguard.org injections.adguard.org; img-src data: *.my.mail.ru *.imgsmail.ru *.foto.mail.ru;
 ||novelplanet.me^$important,csp=script-src 'self' 'unsafe-inline' data: *.gstatic.com *.google.com;
@@ -865,7 +865,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||clipwatching.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.clipwatching.com *.bootstrapcdn.com local.adguard.org injections.adguard.org;
 ||deloplen.com^$important,csp=default-src 'none';
 /^https?:\/\/vidoza\.(org|co|net)/$csp=script-src 'self' 'unsafe-inline' *.vidoza.net *.cloudflare.com local.adguard.org injections.adguard.org; frame-src 'self';
-||spankbang.com^$csp=script-src 'self' * 'unsafe-inline' 'unsafe-eval' *.spankbang.com *.cloudflare.com *.zencdn.net *.google.com *.gstatic.com;
+/(thepirate[\W\w]?bays?|tpb|piratebayztemzmv|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 ! CSP END
 
 ! OTHER
@@ -916,7 +916,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! DOCUMENT
 */*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com|~imgur.com
 */redirect.html$document
-/[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]campaign[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$document,domain=~google.com|~google.ru|~mozilla.org|~github.com|~gitlab.com|~vk.com|~medialeaks.ru|~adguard.com
+/[-._?&=#]campaign[-._?&=#]/$document,domain=~google.com|~google.ru|~mozilla.org|~github.com|~gitlab.com|~vk.com|~medialeaks.ru|~adguard.com
 /^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
 ||blocked.mts.ru^$document
 ||browser.yandex.ru^$~document
@@ -934,11 +934,11 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! SUBDOCUMENT END
 
 ! SCRIPT
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#])?sw\.js/$important,script
 /\%(21|22|23|24|25|26|27|28|29|2A|2B|2C|2E|3A|3B|3C|3D|3E|3F|40|2F|5C|5E|5F|60|7B|7C|7D|7E|2D)sw\.js$/$script,important
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?)?[Ww]orker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
-/^https?:\/\/[^\s]+\/sw([!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]([_a-z0-9-.]{1,10})?)?\.js/$important,script
-/^https?:\/\/[^\s]+\/[Ww]orker([!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#]?)?[Ww]orker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
+/^https?:\/\/[^\s]+\/sw([-._?&=#]([_a-z0-9-.]{1,10})?)?\.js/$important,script
+/^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
 */no-right-click-$script,important
 */beacon.js$script,important
@@ -972,18 +972,18 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,other,important
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument,xmlhttprequest
 /\/1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument
-/piwik(?:[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]|[0-9]{1})/$image,important,script
-/vast(?:[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]|[0-9]{1})/$image,important,script,xmlhttprequest
-/track(ers?|ing)(?:[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]|[0-9]{1})/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com
-/[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]log(ging|impressions?|ers?)?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,image,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com|~instagram.com
-/(player|client|csi|gen(erate)?|stream|logs?|live)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?204[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?/$image,important,other,xmlhttprequest
-/(log|img)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?(type|events?|entry|request|stats?|view(edpage)?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
+/piwik[-.0-9_?&=#]/$image,important,script
+/vast[-.0-9_?&=#]/$image,important,script,xmlhttprequest
+/track(ers?|ing)[-.0-9_?&=#]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com
+/[-._?&=#]log(ging|impressions?|ers?)?[-._?&=#]/$important,image,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com|~instagram.com
+/(player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#]?204[-._?&=#]?/$image,important,other,xmlhttprequest
+/(log|img)[-._?&=#]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/analy(tic?(?:[asx]|sys|tor)?)(?:[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]|[0-9]{1})/$important,other,xmlhttprequest,script,image
-/bann?ers?[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org
-/\/ga[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-][a-zA-Z]{5,}\.js/$important,script,other,third-party
+/analy(tic?(?:[asx]|sys|tor)?)[-.0-9_?&=#]/$important,other,xmlhttprequest,script,image
+/bann?ers?[-._?&=#]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org
+/\/ga[-._?&=#][a-zA-Z]{5,}\.js/$important,script,other,third-party
 /\.(com?|net|org|ru)\/ad[sv]?\//$script,image,object,subdocument,document,important
-/\/count(s|ers?)[!"#$%&'()*+.,:;<=>?@/\^_`{|}~-]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
+/\/count(s|ers?)[-._?&=#]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)$/$image,xmlhttprequest,important,script,subdocument,other
 ! COMBINED END
 
@@ -1032,12 +1032,13 @@ dood.watch#@#+js(set, xPoPAdS, false)
 dood.watch#@#+js(nostif, debugger)
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
-*$script,third-party,domain=kinopovtor.online|goblins-online.ru|checkadblock.ru|alltube.tv|gounlimited.to,badfilter
+*$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to,badfilter
 linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site,clik.pw#@#+js(aopr, app_vars.force_disable_adblock)
 linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
 *$subdocument,third-party,domain=linkdrop.net,badfilter
 *$subdocument,domain=clik.pw,badfilter
 linkdrop.net#@#+js(aopr, absda)
+||adblock-tester.com^$csp=script-src 'self',badfilter
 shortearn.eu#@#+js(aeld, click, trigger)
 shon.xyz,intoupload.net,povvideo.*,powvldeo.*,powv1deo.*,gounlimited.to#@#+js(aopw, Fingerprint2)
 shon.xyz#@#+js(aopw, NotDet)
@@ -1055,6 +1056,7 @@ shorten.sh#@#+js(aeld, mousedown)
 shorten.*,uplinkto.net#@#+js(aopr, parcelRequire)
 uplinkto.net#@#+js(aopr, eddOptions)
 mangaku.in#@#+js(acis, $, contextmenu)
+*$third-party,image,script,xmlhttprequest,domain=adblock-tester.com|checkadblock.ru,badfilter
 mangaku.in#@#+js(aeld, contextmenu)
 mangaku.in#@#+js(acis, $, onclick)
 bcvc.live#@#+js(acis, addEventListener, Blocking)
@@ -1192,4 +1194,3 @@ google.*#@#div[role="navigation"] + c-wiz > div > .kxhcC
 google.*#@#div[role="navigation"] + c-wiz > script + div > .kxhcC
 google.*#@#.zE3eif.FA7L0b.BIdYQ.SSPGKf.P3Xfjc > c-wiz
 google.*#@#header#hdr + #main > div[data-hveid]
-||r.mradx.net^$badfilter

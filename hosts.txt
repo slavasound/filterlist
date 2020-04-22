@@ -49,7 +49,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 3642305.fls.doubleclick.net
 0.0.0.0 3765329.fls.doubleclick.net
 0.0.0.0 4053494.fls.doubleclick.net
+0.0.0.0 mine.torrent.pw
 0.0.0.0 4236808.fls.doubleclick.net
+0.0.0.0 r0.mradx.net
+0.0.0.0 mradx.net
 0.0.0.0 4360661.fls.doubleclick.net
 0.0.0.0 4488352.fls.doubleclick.net
 0.0.0.0 4514783.fls.doubleclick.net
