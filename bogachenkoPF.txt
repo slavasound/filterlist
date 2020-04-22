@@ -289,6 +289,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 217.69.139.244:443$network
 217.69.141.142:443$network
 ||0.0.0.0^$third-party
+||0000000000000000.com^
 ||2edd6c0fea91f88494d1cc37672db524.com^
 ||2f37a122063b9591b3d67a49b6d93f7c.com^
 ||2mdn.net^
@@ -299,13 +300,14 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||4615cccc9a6e470dc33a438ca9c0ad38.com^
 ||76674bdad304297eda3d325f449f6f49.com^
 ||535447ed91a7b31514021d69bb3ee1b3.com^
-||ucweb.com^$important
+||0101010101010101.com^
 ||a19.dscg10.akamai.net^
 ||a1089.dscd.akamai.net^
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
 ||acdnpro.com^
 ||acestream.net^
 ||activity-stream-icons.services.mozilla.com^
+||ad.mail.ru^
 ||adaware.com^$third-party
 ||adbetnetwork.com^
 ||adcolony.com^
@@ -315,7 +317,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||addthis.com^$third-party,important
 ||addthisedge.com^$third-party,important
 ||addtoany.com^$third-party,important
-||adfox.yandex.ru^$important
+||adfox.yandex.ru^
 ||adjust.com^
 ||admix.in^
 ||admixer-st.cdn.ngenix.net^
@@ -340,6 +342,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adthor.com^
 ||adthrive.com^
 ||adtilt.com^
+||yotpo.com^
 ||adtima.vn^
 ||adtimaserver.vn^
 ||adtiming.com^
@@ -358,11 +361,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||alt*-mtalk.google.com^
 ||alt*-safebrowsing.google.com^
 ||amazon-adsystem.com^
-||amazon.com^$third-party
+||amazon.com^$third-party,important
 ||amazonaws.com^$third-party,domain=~github.com|~twitch.tv|~asciinema.org|~apps.ghostery.com
 ||amigo.appsmail.ru^
 ||an.facebook.com^$important
-||an.yandex.ru^$important
+||an.mail.ru^
+||an.yandex.ru^
 ||andria-loft.ru^
 ||ankunding.biz^
 ||ants.vn^$third-party
@@ -380,9 +384,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||autopush.prod.mozaws.net^
 ||avast.com^
 ||awaps.yandex.net^$important
-||awaps.yandex.ru^$important
-||sharethis.com^^$third-party,important
-||awsync.yandex.ru^$important
+||awaps.yandex.ru^
+||awsync.yandex.ru^
 ||ba2121292eda2ecd41203af62a59d608.com^
 ||ba.yandex.net^$important
 ||balrog-cloudfront.prod.mozaws.net^
@@ -397,13 +400,15 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||blocklists-settings.prod.mozaws.net^
 ||blocklists.settings.services.mozilla.com^
 ||brainly.com^$third-party
+||brave.com^
 ||brontp.yandex.ru^
 ||browser-updater.yandex.net^
 ||brwsrapi.com^
-||bs-meta.yandex.ru^$important
-||bs.yandex.ru^$important
+||bs-meta.yandex.ru^
+||bs.yandex.ru^
 ||buffer.com^$third-party
 ||buzzador.com^$third-party
+||cackle.me^$third-party,important
 ||cdn.adc.eamobile.com^
 ||cdn.ap.bittorrent.com^
 ||cdn.kmplayer.com^
@@ -425,7 +430,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||crispadvertising.com^
 ||criteo.*^
 ||crm-cdn.zenguard.biz^
-||hostingcloud.*^
 ||crm.zenguard.biz^
 ||crowdgather.com^$third-party
 ||crowdynews.com^$third-party
@@ -445,8 +449,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||dolohen.com^
 ||dota2-roulette.ru^
 ||dotomi.com^
-||0101010101010101.com^
-||0000000000000000.com^
 ||doubleclick-analytics.com^
 ||doubleclick.net^$important
 ||doublepimp.com^
@@ -467,11 +469,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||exchange.opera.com^
 ||exoclick.com^
 ||exosrv.com^
-||export.yandex.ru^$important
+||export.yandex.ru^
 ||f2.doodlemobile.com^
 ||f4f0b34558fe45a583ca23ba60e7bd44.com^
 ||fa04089b99473e2ffd6dccb10cfd6d18.com^
 ||fabric.io^
+||facebook.com^$third-party,important,domain=~instagram.com|~vk.com
 ||fancy.com^$third-party
 ||features.opera-api.com^
 ||feedify.net^$third-party
@@ -486,6 +489,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||franecki.net^
 ||freexmedia.de^$third-party
 ||friendfeed.com^$third-party
+||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^$important
 ||fuse-ad.com^
 ||fyber.com^
@@ -507,21 +511,14 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
 ||gplayer.kmpmedia.net^
-||brave.com^
 ||graph.accountkit.com^
 ||graph.facebook.com^
 ||gumroad.com^$third-party
 ||hatena.ne.jp^$third-party
 ||hellobar.com^$third-party
 ||heyzap.com^
-||ad.mail.ru^
-||an.mail.ru^
-||suggests.go.mail.ru^
-||r3.mail.ru^
-||reklama.mail.ru^
-||rs.mail.ru^
-||top-fwz1.mail.ru^
-||xray.mail.ru^
+||hostcontent.live^
+||hostingcloud.*^
 ||http-check-headers.yandex.ru^
 ||hupso.com^$third-party,important
 ||id.google.$important
@@ -536,7 +533,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||indicative.com^
 ||infinario.com^
 ||infiniadmp.com^
-||informer.yandex.ru^$important
+||informer.yandex.ru^
 ||inmobi.com^
 ||innity.com^
 ||innity.net^
@@ -558,19 +555,20 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||izooto.com^
 ||jampp.com^
 ||jedimobi.com^
-||jstracer.yandex.ru^$important
+||jshosting.*^
+||jstracer.yandex.ru^
 ||justpremium.com^
 ||kas-labs.com^
 ||kaspersky-labs.com^
 ||kaspersky.com^$domain=~forum.kaspersky.com|~community.kaspersky.com
 ||kaspersky.ru^
-||kiks.yandex.ru^$important
+||kiks.yandex.ru^
 ||kissmetrics.com^
 ||kochava.com^
 ||ksapisrv.com^
 ||labkas.com^
 ||lavanetwork.net^
-||lbs.yandex.ru^$important
+||lbs.yandex.ru^
 ||license.piriform.com^
 ||linksalpha.com^$third-party
 ||linkwithin.com^$third-party
@@ -583,9 +581,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||locprod1-elb-eu-west-1.prod.mozaws.net^
 ||mail-ads.google.com^
 ||mail.ru^$third-party,important
-||facebook.com^$third-party,important,domain=~instagram.com|~vk.com
 ||maribacaberita.com^
-||mc.yandex.ru^$important
+||mc.yandex.ru^
 ||meaningtool.com^$third-party
 ||merchandise.opera-api.com^
 ||metanetwork.com^$third-party
@@ -598,6 +595,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||mobileapptracking.com^
 ||mobpartner.*^
 ||mobpowertech.com^
+||monit.limehd.tv^
 ||mookie1.com^
 ||mopub.com^
 ||moscow-67.cdn77.com^
@@ -625,6 +623,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||ofa-sub.osp.opera.software^
 ||offlinepages-pa.googleapis.com^
 ||ogury.io^
+||ok.ru^$third-party,important,domain=~serial1.club
 ||omniture.com^
 ||onedmp.com^
 ||online-metrix.net^
@@ -659,12 +658,15 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||qrius.me^$third-party
 ||quantcount.com^
 ||quantserve.com^
+||r3.mail.ru^
 ||radiumone.com^$third-party
 ||rayjump.com^
 ||rdap.db.ripe.net^
 ||recover.operacdn.com^
 ||redir.opera.com^
+||reklama.mail.ru^
 ||revcontent.com^
+||rs.mail.ru^
 ||ru-82-204-1.fri-gate0.eu:80$network
 ||ru-85-60-1.friproxy0.eu:80$network
 ||ru-92-53-3.fri-gate.biz:80$network
@@ -682,6 +684,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||seesmic.com^$third-party
 ||share42.com^$third-party,important
 ||share.yandex.net^$third-party,important
+||sharethis.com^^$third-party,important
 ||shavar.prod.mozaws.net^
 ||shavar.services.mozilla.com^
 ||silvercdn.com^
@@ -701,6 +704,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||startup.mobile.yandex.net^$important
 ||static.whatsapp.net^
 ||stumbleupon.com^$third-party
+||suggests.go.mail.ru^
 ||supersonicads.com^
 ||syn-dir.sn.eamobile.com^
 ||taboola.com^
@@ -711,16 +715,17 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||thumbnails*.opera.com^
 ||tiktok.com^
 ||tnt-ea.com^
-||hostcontent.live^
+||top-fwz1.mail.ru^
 ||torrentstream.*^$domain=~cdn.statically.io
 ||trafficfactory.biz^
-||fundingchoices.google.com^
 ||trafficjunky.net^
 ||twitch.tv^$third-party,domain=~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws|~2ch.hk,important
 ||twitchcdn.net^$third-party,domain=~twitch.tv,important
 ||twitter.com^$third-party,important
 ||uaservers.net^
 ||uc123.com^
+||ucweb.com^$important
+||ulclick.ru^$third-party,important
 ||uodoo.com^
 ||update.utorrent.*^
 ||updtapi.com^
@@ -730,19 +735,16 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||utclient.utorrent.com^
 ||videoroll.net^
 ||viglink.com^
-||zmctrack.net^
 ||vk.com^$third-party,important
 ||vmweb.net^
 ||voiceservices.yandex.net^
 ||vungle.com^
-||monit.limehd.tv^
 ||webvisor.*^
-||jshosting.*^
 ||wordc.ga^
 ||wykop.pl^$third-party,important
+||xray.mail.ru^
 ||yabs.yandex.$important
 ||yadro.ru^
-||ok.ru^$third-party,important,domain=~serial1.club
 ||yahoo.com^$third-party,important
 ||yandex.*^$third-party,domain=~yastatic.net|~yandex.net|~yandex.ru|~yandex.ua|~yandex.by|~yandex.com|~kinopoisk.ru|~yadi.sk|~passport.rt.ru|~metrika.yandex.ru|~z5h64q92x9.net
 ||yandexadexchange.net^
@@ -754,12 +756,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||zarget.com^
 ||zdevx.yandex.ru^
 ||zen-test.yandex.ru^
-||ulclick.ru^$third-party,important
 ||zen.yandex.ru^$third-party
-||cackle.me^$third-party,important
 ||zestads.com^
+||rtb.com.ru^
 ||zestadz.com^
 ||zirkabet.com^
+||zmctrack.net^
 ||zoomanalytics.co^
 ! SITE END
 
@@ -846,12 +848,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Трейлер'])
 ! XPATH END
 
-! STEALTH
-@@*$stealth,domain=kinopovtor.online|0123movie.net|streamvid.co
-! STEALTH END
-
 ! CSP
-*$important,csp=worker-src 'none',domain=~twitch.tv|~hdseason.ru|~xvideos.com|~vk.com|~ok.ru|~ivi.ru|~youtube.com|~yandex.ru|~yandex.ua|~yandex.by|~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws
 /(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly|intoupload|uplinkto|linkduit|hacknetfl1x|neonlink)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost|gplinks|zomatofood|goou|linkad)\.ink?|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon|weblumia|thenewyear|parentingss|viralking|safeland|moon7)\.xyz|linkviet\.top|(onelink|miniurl|shurt|adlink|bitlinks|clik)\.pw|(payskip|adsrt|cshort|shortearn|freebcc|adbull|skinnycat|lotechnocan|hokiciki)\.org|(clickurls|melissagraham)\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link|pastekan|shortid|adigp|subdowns|spechly|imgixxx|smoner|rifurl|theblockchaindiary|driverays|techrfour|dogemate|faupto|aldiblogger|shortlinkto|clicknupload)\.com?|(uptomega|techheight|freeupload|vius|lifesurance)\.info|(dutchycorp|sloomp)\.space|(cash4|leechpremium|uploader)\.link|uiz\.app|(uiz|urle|exee?|cuio|ouo|up\-load|shotly)\.io|slink\.bid|(shortearn|enrt)\.eu|(albhar|digitallearn|adslinkfly|viral29)\.online|adclic\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|(deskhub|razorlink)\.us|(cut\-link|linksupto|shiroyasha|ushrt|idsht|8shrt|uptomega)\.me|(yalakora|bcvc|uppom)\.live|shre\.su|oxy\.st|sk\-ip\.tech|ouo\.press?|wi\.cr|ouo\.today|ryn\.cc|adshrink\.it|bitcoinly\.in|fc\.lc|vup\.to)/$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com *.hcaptcha.com hcaptcha.com local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com *.hcaptcha.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
