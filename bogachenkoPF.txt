@@ -980,7 +980,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /\.(com?|net|org|ru)\/ad[sv]?\//$script,image,object,subdocument,document,important
 /\/count(s|ers?)[-._?&=#/]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)$/$image,xmlhttprequest,important,script,subdocument,other
-/^(?!.*(injections\.adguard\.org|local\.adguard\.org|bootstrapcdn\.com|cloudflare\.com|gstatic\.com|google\.com|jquery\.com)).*$/$third-party,script,important,domain=clipwatching.com|mp4upload.com|novelplanet.me|vidoza.net|vidoza.org|vidoza.co
+/^(?!.*(injections\.adguard\.org|local\.adguard\.org|bootstrapcdn\.com|cloudflare\.com|gstatic\.com|google\.com|jquery\.com|jwpcdn\.com|iamcdn\.net|jsdelivr\.net|recaptcha\.net|solvemedia\.com|googleapis\.com)).*$/$third-party,script,important,domain=clipwatching.com|mp4upload.com|novelplanet.me|vidoza.net|vidoza.org|vidoza.co|vivo.sx|vidstreaming.io|hydrax.net|vidlox.me|uptobox.com|uptostream.com|newcloud.tv|mcloud.to|mangovideo.pw|vidtoro.com|vidtodo.me|playtovid.com|playzvid.com|vidto-do.com|vidtudu.com|playto-vid.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1013,7 +1013,6 @@ uiz.*#@#+js(aopr, adsBlocked)
 ||prostream.to^$badfilter
 ||procdnvids.net^$badfilter
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,clik.pw#@#+js(nowebrtc)
 uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
@@ -1025,6 +1024,7 @@ ouo.io,gdriveplayer.*#@#+js(acis, Object.defineProperty, vocabulary)
 @@||gstatic.com/recaptcha/$image,script,badfilter
 ||ouo.io^$script,third-party,badfilter
 dood.watch#@#+js(set, xPoPAdS, false)
+||streamz.cc^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagmanager.com *.google.com *.gstatic.com www.google-analytics.com *.googleapis.com *.disqus.com cache.hollywood.to,badfilter
 dood.watch#@#+js(nostif, debugger)
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
