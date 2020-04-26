@@ -983,8 +983,8 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,script,other,third-party
 /\.(com?|net|org|ru|to)\/ad[sv]?\//$script,image,object,subdocument,document,important
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv
-/\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)$/$image,xmlhttprequest,script,subdocument,other
-/^(?!.*(injections\.adguard\.org|local\.adguard\.org|bootstrapcdn\.com|cloudflare\.com|gstatic\.com|google\.com|jquery\.com|jwpcdn\.com|recaptcha\.net|googleapis\.com|jsdelivr\.net|vkcache\.com)).*$/$third-party,xmlhttprequest,script,important,domain=clipwatching.com|mp4upload.com|novelplanet.me|viduplayer.com|upstream.to|mightyupload.com|videoko.to|mcloud.to|gcloud.live|luxubu.review|waaw.tv|animestream.watch
+/\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)\?[a-z]{1}\=/$image,xmlhttprequest,script,subdocument,other
+/^(?!.*(injections\.adguard\.org|local\.adguard\.org|gstatic\.com|jwpcdn\.com|jwplayer\.com|iamcdn\.net)).*$/$third-party,script,important,domain=vidcloud9.com|movcloud.net|hydrax.net
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1061,7 +1061,7 @@ mangaku.in#@#+js(aeld, contextmenu)
 mangaku.in#@#+js(acis, $, onclick)
 bcvc.live#@#+js(acis, addEventListener, Blocking)
 bcvc.live#@#+js(window.open-defuser, 0, bcvc)
-*$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg,badfilter
+*$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com,badfilter
 *$xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
 onvista.de#@#+js(nostif, .call(null), 10)
 onvista.de#@#+js(nosiif, text/css, 10)
