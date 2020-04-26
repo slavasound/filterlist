@@ -771,6 +771,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /\/atrk\.(gif|js)/$image,important
 */rtrg?$image,important
 ||freebitco.in/images/sirv_backup/*.jpeg$image
+*/transparent.gif?ray=$image
 ! IMAGE END
 
 ! POP-UP
@@ -843,6 +844,7 @@ english-films.*##p:has([href^="https://english-films.co/chto-delat-esli-bespokoi
 english-films.*##p:has-text(В бесплатном плеере фильм доступен только на русском языке, для просмотра на английском нужно приобрести абонемент.)
 english-films.*##p:has-text(Все фильмы с бесплатным доступом на английском находятся в отдельной)
 clipwatching.com###container>div>div:style(width:0px!important)
+xhamster.*##.list-items.wih-spot-container.right-rectangle
 ! CSS END
 
 ! XPATH
@@ -1007,7 +1009,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||gstaticadssl.l.google.com^$badfilter
 uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*#@#+js(aopr, AaDetector)
 uiz.*#@#+js(acis, fuckAdBlock, importFAB)
-uiz.*,waaw1.tv#@#+js(aopr, adBlockDetected)
+uiz.*,waaw1.tv,hqq.*#@#+js(aopr, adBlockDetected)
 uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid,wstream.*,dood.watch,asianclub.*,mixdrop.*#@#+js(aopw, _pop)
 uiz.*#@#+js(aopr, HTMLElement)
 kissasian.*#@#+js(acis, document.getElementById, padsplayer)
@@ -1018,6 +1020,7 @@ uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw#@#+js(aopr, open)
 ||uiz.*^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.recaptcha.net *.googletagmanager.com *.cloudflare.com,badfilter
 ||uiz.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 uiz.*#@#+js(aopr, adsBlocked)
+hqq.*#@#+js(aopr, console.clear)
 ||prostream.to^$badfilter
 ||procdnvids.net^$badfilter
 uiz.*#@#+js(acis, $, adBlock)
@@ -1034,6 +1037,10 @@ ouo.io,gdriveplayer.*#@#+js(acis, Object.defineProperty, vocabulary)
 dood.watch#@#+js(set, xPoPAdS, false)
 ||streamz.cc^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagmanager.com *.google.com *.gstatic.com www.google-analytics.com *.googleapis.com *.disqus.com cache.hollywood.to,badfilter
 dood.watch#@#+js(nostif, debugger)
+hqq.*#@#+js(aopw, smrtSB)
+hqq.*#@#+js(aopw, smrtSP)
+hqq.*#@#+js(popads-dummy.js)
+hqq.*#@#+js(set, sadbl, false)
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
 *$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me,badfilter
