@@ -986,12 +986,12 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /(log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /analy(tic?([asx]|sys|a?tor|js)?)[-.0-9_?&=#/]/$important,other,xmlhttprequest,script,image,domain=~fandom.com
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org|~fandom.com|~hqq.tv
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org|~fandom.com|~hqq.tv|~mts.ru
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,script,other,third-party
 /\.(com?|net|org|ru|to)\/ad[sv]?\//$script,image,object,subdocument,document,important
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv|~youtube.com
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)\?[a-z]{1}\=/$image,xmlhttprequest,script,subdocument,other,important
-/^(?!.*((injections|local)\.adguard\.org|(gstatic|jwpcdn|jwplayer|bootstrapcdn|cloudflare|google|jquery)\.com|(iamcdn|recaptcha|jsdelivr)\.net)).*$/$third-party,script,important,domain=vidcloud9.com|movcloud.net|hydrax.net|gcloud.live|clipwatching.com|novelplanet.me|mcloud.to|vidstreaming.io|cloud9.to|streamingworld.club|gomo.to|viduplayer.com|upstream.to|videoko.to|gdriveplayer.me|mixdrop.co|streamvideo.link|streamhoe.online|vidlox.me|videobin.co|cloudvideo.tv|vidoza.net|streamvid.co|videospider.stream|oload.party|mstream.xyz
+/^(?!.*((injections|local)\.adguard\.org|(gstatic|jwpcdn|jwplayer|bootstrapcdn|cloudflare|google|jquery)\.com|(iamcdn|recaptcha|jsdelivr)\.net)).*$/$third-party,script,important,domain=vidcloud9.com|movcloud.net|hydrax.net|gcloud.live|clipwatching.com|novelplanet.me|mcloud.to|vidstreaming.io|cloud9.to|streamingworld.club|gomo.to|viduplayer.com|upstream.to|videoko.to|gdriveplayer.me|mixdrop.co|streamvideo.link|streamhoe.online|vidlox.me|videobin.co|cloudvideo.tv|vidoza.net|streamvid.co|videospider.stream|oload.party|mstream.xyz|123moviesplayer.com|mightyupload.com
 *&action=js_stats&$image,important,other,xmlhttprequest,script
 ! COMBINED END
 
@@ -1019,7 +1019,7 @@ uiz.*#@#+js(aopr, HTMLElement)
 kissasian.*#@#+js(acis, document.getElementById, padsplayer)
 kissasian.sh#@#+js(aopr, Date.prototype.toUTCString)
 uiz.*#@#+js(aopr, NaConf)
-uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw#@#+js(aopr, open)
+uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to#@#+js(aopr, open)
 ||uiz.*^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
 ||uiz.*^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.recaptcha.net *.googletagmanager.com *.cloudflare.com,badfilter
 ||uiz.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
@@ -1027,6 +1027,8 @@ uiz.*#@#+js(aopr, adsBlocked)
 hqq.*#@#+js(aopr, console.clear)
 ||prostream.to^$badfilter
 ||procdnvids.net^$badfilter
+upstream.to#@#+js(set, cRAds, null)
+upstream.to#@#+js(aopr, adcashMacros)
 uiz.*#@#+js(acis, $, adBlock)
 uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
