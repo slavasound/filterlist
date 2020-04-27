@@ -1028,7 +1028,7 @@ hqq.*#@#+js(aopr, console.clear)
 ||prostream.to^$badfilter
 ||procdnvids.net^$badfilter
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 */*$script,domain=uiz.io|uiz.app,third-party,redirect-rule=noopjs,badfilter
@@ -1048,7 +1048,7 @@ hqq.*#@#+js(set, sadbl, false)
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
 *$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me,badfilter
-linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site,clik.pw#@#+js(aopr, app_vars.force_disable_adblock)
+linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site,clik.pw,uii.io#@#+js(aopr, app_vars.force_disable_adblock)
 linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
 *$subdocument,third-party,domain=linkdrop.net,badfilter
 *$subdocument,domain=clik.pw,badfilter
@@ -1233,3 +1233,5 @@ google.*#@#header#hdr + #main > div[data-hveid]
 ||blockadblock.com^$badfilter
 @@||gstatic.com^*/social/$image,domain=google.com,badfilter
 ||uii.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.google.com *.googletagmanager.com *.recaptcha.net,badfilter
+uii.io#@#+js(aopr, adk_pdisp)
+uii.io#@#+js(aeld, mouseup, _blank)
