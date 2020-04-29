@@ -852,6 +852,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 
 ! CSP
 *$csp=worker-src 'none',domain=hindilinks4uto.com|hqq.tv
+*$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net
 /(makeeasybtc\.website|(shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly|intoupload|uplinkto|linkduit|hacknetfl1x|neonlink|dwrfslsqpdfqfwy)\.net|(tii|iir)\.ai|(aii|shorten)\.sh|sh7\.ch|(adshr|boost|gplinks|zomatofood|goou|linkad|wicr)\.ink?|(oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon|weblumia|thenewyear|parentingss|viralking|safeland|moon7)\.xyz|linkviet\.top|(onelink|miniurl|shurt|adlink|bitlinks|clik)\.pw|(payskip|adsrt|cshort|shortearn|freebcc|adbull|skinnycat|lotechnocan|hokiciki)\.org|(clickurls|melissagraham)\.site|(uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link|pastekan|shortid|adigp|subdowns|spechly|imgixxx|smoner|rifurl|theblockchaindiary|driverays|techrfour|dogemate|faupto|aldiblogger|shortlinkto|clicknupload|clicksbee|mydomainscan|linkshrnk|autoratio|liveshootv|dz4link|xpshort|bestearnonline|coredp)\.com?|(uptomega|techheight|freeupload|vius|lifesurance)\.info|(dutchycorp|sloomp|adz7short)\.space|(cash4|leechpremium|uploader)\.link|uiz\.app|(uiz|urle|exee?|cuio|ouo|up\-load|shotly|uii)\.io|slink\.bid|(shortearn|enrt)\.eu|(albhar|digitallearn|adslinkfly|viral29|vico3)\.online|(adclic|tautan)\.pro|cararoot\.id|shrink\.world|leechall\.download|dosyayukle\.biz|(deskhub|razorlink)\.us|(cut\-link|linksupto|shiroyasha|ushrt|idsht|8shrt|uptomega)\.me|(yalakora|bcvc|uppom)\.live|shre\.su|oxy\.st|sk\-ip\.tech|ouo\.press?|wi\.cr|ouo\.today|ryn\.cc|adshrink\.it|bitcoinly\.in|fc\.lc|vup\.to|lewat\.club)/$important,csp=worker-src 'none'; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com *.hcaptcha.com hcaptcha.com local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com *.hcaptcha.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
@@ -914,6 +915,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /\/ads?[0-9]{1}\.php\?/$important
 ||hola.org/users/payment/
 ||hola.org/users/get_user?
+/1clkn/$important
 ! OTHER END
 
 ! DOCUMENT
@@ -1031,7 +1033,7 @@ hqq.*#@#+js(aopr, console.clear)
 upstream.to#@#+js(set, cRAds, null)
 upstream.to#@#+js(aopr, adcashMacros)
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 */*$script,domain=uiz.io|uiz.app,third-party,redirect-rule=noopjs,badfilter
@@ -1079,7 +1081,7 @@ mangaku.in#@#+js(aeld, contextmenu)
 mangaku.in#@#+js(acis, $, onclick)
 bcvc.live#@#+js(acis, addEventListener, Blocking)
 bcvc.live#@#+js(window.open-defuser, 0, bcvc)
-*$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com,badfilter
+*$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net,badfilter
 *$xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
 onvista.de#@#+js(nostif, .call(null), 10)
 magesy.*#@#+js(nostif, 0)
@@ -1129,7 +1131,7 @@ wstream.*#@#+js(nostif, display)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopr, jwplayer.utils.Timer)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopr, __Y)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,povvideo.*,powvldeo.*,powv1deo.*#@#+js(aopw, adcashMacros)
-clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*#@#+js(aopr, glxopen)
+clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,mac-torrent-download.net#@#+js(aopr, glxopen)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(set, globalThis, null)
 ||w.org^$badfilter
 ign.com#@#+js(nostif, removeChild, 100)
@@ -1164,7 +1166,7 @@ clik.pw#@#+js(aeld, /^(?:click|mousedown)$/, preventDefault)
 clik.pw#@#+js(aeld, /^(?:error|load)$/, P5)
 clik.pw#@#+js(nowebrtc)
 clik.pw#@#+js(nosiif, visibility, 1000)
-clik.pw#@#+js(nostif, _0x)
+clik.pw,mac-torrent-download.net#@#+js(nostif, _0x)
 clik.pw#@#+js(aeld, mouseup, click)
 /cdn-cgi/apps/head/*$script,~third-party,badfilter
 google.*#@##center_col > #\5f Emc
@@ -1229,7 +1231,6 @@ google.*#@#div[role="navigation"] + c-wiz > div > .kxhcC
 google.*#@#div[role="navigation"] + c-wiz > script + div > .kxhcC
 google.*#@#.zE3eif.FA7L0b.BIdYQ.SSPGKf.P3Xfjc > c-wiz
 google.*#@#header#hdr + #main > div[data-hveid]
-*$script,redirect-rule=noopjs,domain=kissanime.ru,badfilter
 @@||gstatic.com^$script,domain=171gifs.com|300mbfilms.org|321jav.com|69sugar.com|adultdouga.biz|agarios.org|al.ly|alltube.tv|amabitch.com|andrija-i-andjelka.com|animeado.net|animezone.pl|anyanime.com|arabp2p.com|archived.moe|asianxv.com|avpockiehd.com|azkempire.com|aznude.com|bajarjuegospcgratis.com|balkandownload.org|balkanje.com|beelink.in|bitch-show.com|bitporno.com|blackboxrepack.com|blogqpot.com|brazzershd.co|camwhores.co|cartoonth12.com|catchcoin.pw|clik.pw|columbia-xxx.com|comicsmanics.com|coroas40.com|dblatino.com|desixnxx.net|devil-torrents.pl|discografiascompletas.net|downloadgameps3.com|downloadgamepsp.com|downloadgamexbox.com|drhmonegyi.net|e-hentai.me|ekasiwap.com|electro-torrent.pl|embedsr.to|erodouga69.com|erostar.jp|estrenosdoramas.net|etsmods.net|fas.li|filecrypt.cc|filesupload.org|filmclub.tv|filmeserialeonline.org|filmesonlineplay.com|filmi7.com|filmovi.eu|flashbd24.blogspot.com|freeiptvlinks.net|freelivesports.co|fuckingsession.com|fxporn.net|gameofporn.net|gamepciso.com|gamersheroes.com|garotosbrasil.com|gaycock4u.com|gaysex69.net|girlswithmuscle.com|gravuregirlz.com|grcrt.net|hacknetfl1x.net|happy-foxie.com|hdarkzone.com|hdtube.co|hentai-id.tv|hentaiplay.net|hentaiplus.co|her69.net|hindimoviesonlines.net|hiper.cool|homeporn.tv|hon3yhd.com|hulkload.com|hyperdebrid.net|igg-games.com|image-bugs.com|imgsmile.com|incestoporno.org|jav-for.me|javeu.com|javgay.com|javhd.pro|javkimochiii.com|javleak.com|javmobile.net|javmost.com|javonline.online|javrom.com|jdownloader2premium.com|jizzman.com|jogostorrentgratis.net|jpfiles.eu|jpidols.tv|k18.co|k2nblog.com|karanpc.com|kissanime.ru|kooora2day.com|kreskowkazone.pl|kreskowki.tv|lambingan.su|lecheanal.com|leech.ae|leosims.com|linclik.com|livesoccertv.live|loonertube.com|macnwins.com|mangacanblog.com|maniacosporcomics.com|megafilmeshdplus.org|meguminime.com|metaserie.com|milfcomix.com|milversite.me|minatosuki.com|minatosuki.website|minhaserie.me|mitemovie.com|mixdrop.co|mixhdporn.com|mkvtv.net|mmfilmes.com|mocnoi.com|movieshdgratis.com.mx|musculoduro.com.br|muvibg.com|mzansifun.com|mzansiporntube.com|mzansixxx.com|namethatpornstar.com|nbafullhd.com|neko-miku.com|nekonime.com|ohohd.com|ohyeah1080.com|omberbagi.com|ondeeubaixo.com|pahe.in|peliculasm.tv|peliculasmega1k.com|pelisxporno.com|phimotv.net|picanteeproibido.com.br|piratebay.co.in|pleermp3.net|pornfromcz.com|pornfromczech.com|pornlibrary.net|pornobae.com|pornocomics.net|pornvibe.org|pornvxl.com|programasvirtualespc.net|r34anim.com|reallifecamvd.com|rosextube.com|savvystreams.blogspot.com|seriescr.com|serieslatino.tv|seriesparaassistironline.org|sexix.net|sexkino.to|sexloading.com|sexy-youtubers.com|short.am|soccerembed.blogspot.com|stadium-live.biz|streamingok.com|streamlord.com|suki48.web.id|sweext.com|telexplorer.com.ar|theapricity.com|thebarchive.com|thevid.net|thplayers.com|tokusatsuindo.com|torrentlocura.com|torrentool.com|torrentoon.com|tousatu.biz|tuhentaionline.com|ufreetv.com|v100v.net|verpeliculasporno.gratis|vertusnovelas.net|video.az|videosnudes.com|vidtome.co|vipracing.biz|viveseries.com|watcharcheronline.com|watchjavidol.com|watchjavonline.com|xmovies1.com|xrares.com|xteenchan.com|xxgasm.com|xxxstooorage.com|yeucontrai.com|youpornzz.com|zfilmeonline.eu|zw-net.com,badfilter
 @@||chrome.google.com/webstore/detail/$badfilter
 @@||fonts.gstatic.com^$badfilter
@@ -1238,3 +1239,8 @@ google.*#@#header#hdr + #main > div[data-hveid]
 ||uii.io^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.google.com *.googletagmanager.com *.recaptcha.net,badfilter
 uii.io#@#+js(aopr, adk_pdisp)
 uii.io#@#+js(aeld, mouseup, _blank)
+mac-torrent-download.net#@#+js(acis, $, AdBlock)
+mac-torrent-download.net#@#+js(set, buttonLink, noopFunc)
+|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=mac-torrent-download.net,badfilter
+|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=mac-torrent-download.net,badfilter
+||adobedtm.com^$badfilter
