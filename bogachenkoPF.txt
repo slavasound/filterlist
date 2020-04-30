@@ -854,7 +854,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! CSP
 *$csp=worker-src 'none',domain=hindilinks4uto.com|hqq.tv
 *$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net
-/(makeeasybtc|shortbitsfree|linkviet|topadnetworks|reqlinks|linkdrop|cutly|intoupload|uplinkto|linkduit|hacknetfl1x|neonlink|dwrfslsqpdfqfwy|tii|iir|aii|shorten|sh7|adshr|boost|gplinks|zomatofood|goou|linkad|wicr|cash4|leechpremium|uploader|oceantech|linkviet|uplinkto|s\-url|mshare|oda365|grabmylink|shon|weblumia|thenewyear|parentingss|viralking|safeland|moon7|linkviet|vup|onelink|miniurl|shurt|adlink|bitlinks|clik|payskip|adsrt|cshort|shortearn|freebcc|adbull|skinnycat|lotechnocan|hokiciki|clickurls|melissagraham|uptoshort|uplinksto|tmearn|buteeq|shortpaid|shorterall|tricxbd|curimovie|icutlink|semawur|akltu|linkjust|sekilastekno|shrinkads|birdurls|linksbuddy|techsapparel|techpmn|sukakesehattan|keettech|freehottip|placestourist|gplinks|glory\-link|pastekan|shortid|adigp|subdowns|spechly|imgixxx|smoner|rifurl|theblockchaindiary|driverays|techrfour|dogemate|faupto|aldiblogger|shortlinkto|clicknupload|clicksbee|mydomainscan|linkshrnk|autoratio|liveshootv|dz4link|xpshort|bestearnonline|coredp|uptomega|techheight|freeupload|vius|lifesurance|dutchycorp|sloomp|adz7short|uiz|urle|exee?|cuio|ouo|up\-load|shotly|uii|slink|shortearn|enrt|albhar|digitallearn|adslinkfly|viral29|vico3|adclic|tautan|cararoot|shrink|leechall|dosyayukle|deskhub|razorlink|cut\-link|linksupto|shiroyasha|ushrt|idsht|8shrt|uptomega|yalakora|bcvc|uppom|shre|oxy|sk\-ip|wi|ryn|adshrink|bitcoinly|fc|lewat|hubfiles)\.(com?|(web)?site|net|ai|[sc]h|l?ink?|xyz|top?|pw|org|i(nf)?o|space|eu|(on)?line|pro|world|download|biz|us|me|live|s[ut]|tech|press?|today|c[rc]|i[tnd]|lc|club|ws)/$important,csp=worker-src 'none'; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com *.hcaptcha.com hcaptcha.com local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com *.hcaptcha.com;
+/(8shrt|adbull|adclic|adigp|adlink|adshr|adshrink|adslinkfly|adsrt|adz7short|aii|akltu|albhar|aldiblogger|autoratio|bcvc|bestearnonline|birdurls|bitcoinly|bitlinks|boost|buteeq|cararoot|cash4|clicknupload|clicksbee|clickurls|clik|coredp|cshort|cuio|curimovie|cut\-link|cutly|deskhub|digitallearn|dogemate|dosyayukle|driverays|dutchycorp|dwrfslsqpdfqfwy|dz4link|enrt|exee?|faupto|fc|freebcc|freehottip|freeupload|glory\-link|goou|gplinks|grabmylink|hacknetfl1x|hokiciki|hubfiles|icutlink|idsht|iir|imgixxx|intoupload|keettech|leechall|leechpremium|lewat|lifesurance|linkad|linkdrop|linkduit|linkjust|linksbuddy|linkshrnk|linksupto|linkviet|liveshootv|lotechnocan|makeeasybtc|melissagraham|miniurl|moon7|mshare|mydomainscan|neonlink|oceantech|oda365|onelink|ouo|oxy|parentingss|pastekan|payskip|placestourist|razorlink|reqlinks|rifurl|ryn|s\-url|safeland|sekilastekno|semawur|sh7|shiroyasha|shon|shortbitsfree|shortearn|shorten|shorterall|shortid|shortlinkto|shortpaid|shotly|shre|shrink|shrinkads|shurt|sk\-ip|skinnycat|slink|sloomp|smoner|spechly|subdowns|sukakesehattan|tautan|techheight|techpmn|techrfour|techsapparel|theblockchaindiary|thenewyear|tii|tmearn|topadnetworks|tricxbd|uii|uiz|up\-load|uplinksto|uplinkto|uploader|uppom|uptomega|uptoshort|urle|ushrt|vico3|viral29|viralking|vius|vup|weblumia|wi|wicr|xpshort|yalakora|zomatofood|w4files|letsupload|indishare|9xupload|bdupload)\.(com?|(web)?site|net|ai|[sc]h|l?ink?|xyz|top?|pw|org|i(nf)?o|space|eu|(on)?line|pro|world|download|biz|us|me|live|s[ut]|tech|press?|today|c[rc]|i[tnd]|lc|club|ws|asia)/$important,csp=worker-src 'none'; script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com *.recaptcha.net *.solvemedia.com *.googleapis.com *.cloudflare.com *.jquery.com *.hcaptcha.com hcaptcha.com local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com *.hcaptcha.com;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
@@ -1015,13 +1015,13 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=adult-channels.com|analdin.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|heavy-r.com|incesto69.com|indianbfvideos.com|keezmovies.com|mofosex.com|mypornstarbook.net|niceporn.xxx|porn555.com|porndaa.com|pornerbros.com|pornj.com|pornototale.com|porntube.com|spankwire.com|thisav.com|tubepornclassic.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|youporn.lc|youpornhub.it|yourdailypornstars.com,badfilter
 ||gstaticadssl.l.google.com^$badfilter
-uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*#@#+js(aopr, AaDetector)
+uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*,clicknupload.*#@#+js(aopr, AaDetector)
 uiz.*#@#+js(acis, fuckAdBlock, importFAB)
 uiz.*,waaw1.tv,hqq.*#@#+js(aopr, adBlockDetected)
 uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid,wstream.*,dood.watch,asianclub.*,mixdrop.*#@#+js(aopw, _pop)
 uiz.*#@#+js(aopr, HTMLElement)
 kissasian.*#@#+js(acis, document.getElementById, padsplayer)
-kissasian.sh#@#+js(aopr, Date.prototype.toUTCString)
+kissasian.sh,letsupload.co#@#+js(aopr, Date.prototype.toUTCString)
 uiz.*#@#+js(aopr, NaConf)
 uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to#@#+js(aopr, open)
 ||uiz.*^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
@@ -1034,13 +1034,13 @@ hqq.*#@#+js(aopr, console.clear)
 upstream.to#@#+js(set, cRAds, null)
 upstream.to#@#+js(aopr, adcashMacros)
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 */*$script,domain=uiz.io|uiz.app,third-party,redirect-rule=noopjs,badfilter
 @@||uiz.*/js/ads.js$script,~third-party,badfilter
 #@#[href*="/redirect.html"]
-ouo.io,gdriveplayer.*#@#+js(acis, Object.defineProperty, vocabulary)
+ouo.io,gdriveplayer.*,indishare.*,bdupload.*#@#+js(acis, Object.defineProperty, vocabulary)
 @@||google.com/recaptcha/$csp,script,subdocument,badfilter
 @@||gstatic.com/recaptcha/$image,script,badfilter
 ||ouo.io^$script,third-party,badfilter
@@ -1061,7 +1061,7 @@ linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
 linkdrop.net#@#+js(aopr, absda)
 ||adblock-tester.com^$csp=script-src 'self',badfilter
 shortearn.eu#@#+js(aeld, click, trigger)
-shon.xyz,intoupload.net,povvideo.*,powvldeo.*,powv1deo.*,gounlimited.to#@#+js(aopw, Fingerprint2)
+shon.xyz,intoupload.net,povvideo.*,powvldeo.*,powv1deo.*,gounlimited.to,indishare.*#@#+js(aopw, Fingerprint2)
 shon.xyz#@#+js(aopw, NotDet)
 gounlimited.to#@#+js(acis, $, adb)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
@@ -1116,7 +1116,7 @@ vivo.sx#@#+js(aeld, click, tabunder)
 @@||yastatic.net/share2/share.js$badfilter
 |data:text$popup,domain=~clker.com,badfilter
 |blob:$popup,badfilter
-kissasian.*#@#+js(aeld, /^(?:click|mousedown)$/, _0x)
+kissasian.*,9xupload.*#@#+js(aeld, /^(?:click|mousedown)$/, _0x)
 kissasian.*#@#+js(nosiif, (), 1000)
 kissasian.*#@#+js(nostif, (), 45000)
 kissasian.*#@#+js(nostif, (), 30000)
@@ -1132,7 +1132,7 @@ wstream.*#@#+js(nostif, display)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopr, jwplayer.utils.Timer)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(aopr, __Y)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,povvideo.*,powvldeo.*,powv1deo.*#@#+js(aopw, adcashMacros)
-clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,mac-torrent-download.net#@#+js(aopr, glxopen)
+clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,mac-torrent-download.net,9xupload.*,bdupload.*#@#+js(aopr, glxopen)
 clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com#@#+js(set, globalThis, null)
 ||w.org^$badfilter
 ign.com#@#+js(nostif, removeChild, 100)
@@ -1246,4 +1246,7 @@ mac-torrent-download.net#@#+js(set, buttonLink, noopFunc)
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=mac-torrent-download.net,badfilter
 ||adobedtm.com^$badfilter
 ||an.yandex.ru^$empty,badfilter
-hubfiles.ws#@#+js(acis, Math.sin, vocabulary)
+hubfiles.ws,w4files.ws,letsupload.co,clicknupload.*,9xupload.*#@#+js(acis, Math.sin, vocabulary)
+hubfiles.ws,w4files.ws#@#+js(acis, decodeURI, decodeURIComponent)
+9xupload.*#@#+js(nosiif, (), 500)
+9xupload.*#@#+js(acis, Object.defineProperty, XMLHttpRequest)
