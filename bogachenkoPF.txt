@@ -962,8 +962,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{5}$/$third-party,script,important
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{5}$/$important,script,third-party
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{4,5}$/$third-party,script,important
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{4,5}$/$important,script,third-party
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$important,script,third-party
 |http*:*/beacon.js$script,important
 |http*:*/crypta.js$script,important
@@ -994,8 +994,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-/(log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
-/(player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
+/[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
+/[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org|~fandom.com|~hqq.tv|~mts.ru|~hindilinks4uto.com
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv|~youtube.com
 /[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$important,image,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com|~instagram.com
@@ -1308,3 +1308,5 @@ vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.*#@#+js(aopw, adBlockDetected)
 vidcloud.*#@#+js(aopr, BetterJsPop)
 vidcloud.*#@#+js(aopr, decodeURI)
+||uppit.com^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data: *.googletagservices.com *.google-analytics.com,badfilter
+||uqload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.googletagmanager.com *.amung.us,badfilter
