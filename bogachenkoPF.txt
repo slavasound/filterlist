@@ -289,6 +289,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 217.69.133.145:443$network
 217.69.139.244:443$network
 217.69.141.142:443$network
+||00000000.com^
+||0000000000000000.com^
 ||0.0.0.0^$third-party
 ||0000000000000000.com^
 ||2edd6c0fea91f88494d1cc37672db524.com^
@@ -298,10 +300,19 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
 ||6d47c1118927cf53ba9654931df80e8d.com^
 ||212.122.5.136^
+||756e646566696e6564756e646566696e6564756e646566696e6564756e646566696e6564756e646566696e6564756e646566696e6564756e646566696e6564756e646566696e6564.com^
 ||4615cccc9a6e470dc33a438ca9c0ad38.com^
+||4656e696665646e6574656e696665646e6574656e696665646e6574656e696665646e6574656e696665646e6574656e696665646e6574656e696665646e6574656e696665646e657.com^
+||5637c616665637c616665637c616665637c616665637c616665637c616665637c616665637c61666.com^
+||66616c736566616c736566616c736566616c736566616c736566616c736566616c736566616c7365.com^
 ||76674bdad304297eda3d325f449f6f49.com^
 ||535447ed91a7b31514021d69bb3ee1b3.com^
+||22222222.com^
 ||0101010101010101.com^
+||0101010101010101.com^
+||1010101010101010.com^
+||5657274756572747565727475657274756572747565727475657274756572747.com^
+||7472756574727565747275657472756574727565747275657472756574727565.com^
 ||a19.dscg10.akamai.net^
 ||a1089.dscd.akamai.net^
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
@@ -343,7 +354,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adthor.com^
 ||adthrive.com^
 ||adtilt.com^
-||yotpo.com^
 ||adtima.vn^
 ||adtimaserver.vn^
 ||adtiming.com^
@@ -601,6 +611,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||mopub.com^
 ||moscow-67.cdn77.com^
 ||motigo.com^$third-party
+||mradx.net^
 ||mrbrwsr.com^
 ||msecnd.net^
 ||mtalk.google.com^
@@ -611,6 +622,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||n161adserv.*^
 ||n176adserv.*^
 ||n1275adserv.*^
+||nannannannannannannannan.com^
 ||nativeads.com^
 ||newrelic.com^
 ||news-af-feednews.com^
@@ -668,6 +680,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||reklama.mail.ru^
 ||revcontent.com^
 ||rs.mail.ru^
+||rtb.com.ru^
 ||safe-browsing-quorum.privacy.ghostery.net^
 ||salesforce.com^$third-party
 ||salmonads.com^
@@ -713,6 +726,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||torrentstream.*^$domain=~cdn.statically.io
 ||trafficfactory.biz^
 ||trafficjunky.net^
+||tsyndicate.com^
 ||twitch.tv^$third-party,domain=~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.sr|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws|~2ch.hk
 ||twitchcdn.net^$third-party,domain=~twitch.tv
 ||twitter.com^$third-party,domain=~kinopoisk.ru
@@ -726,7 +740,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||updtbrwsr.com^
 ||uptolike.com^$third-party,important
 ||usocial.pro^$third-party,important
-||mradx.net^
 ||utclient.utorrent.com^
 ||videoroll.net^
 ||viglink.com^
@@ -747,27 +760,26 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||yastroka.yandex.net^$important
 ||ycombinator.com^$third-party
 ||yieldoptimizer.com^
+||yotpo.com^
 ||yurydud.ru^
 ||zarget.com^
 ||zdevx.yandex.ru^
 ||zen-test.yandex.ru^
 ||zen.yandex.ru^$third-party
 ||zestads.com^
-||rtb.com.ru^
 ||zestadz.com^
 ||zirkabet.com^
 ||zmctrack.net^
 ||zoomanalytics.co^
-||tsyndicate.com^
 ! SITE END
 
 ! IMAGE
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-||mail.yandex.*/monitoring_liza.txt$image,important
 /\/atrk\.(gif|js)/$image,important
-*/rtrg?$image,important
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
+|http*:*/rtrg?$image,important
+|http*:*/transparent.gif?ray=$image
 ||freebitco.in/images/sirv_backup/*.jpeg$image
-*/transparent.gif?ray=$image
+||mail.yandex.*/monitoring_liza.txt$image,important
 ! IMAGE END
 
 ! POP-UP
@@ -778,9 +790,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! POP-UP END
 
 ! MEDIA
-*/*.mp4|$media,domain=vb17103elmerwatson.pw
 /\/(melbet|jetfilmizle|bbnew)\.mp4/$media
 /\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
+|http*:*.mp4|$media,domain=vb17103elmerwatson.pw
 ! MEDIA END
 
 ! APP
@@ -789,8 +801,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! APP END
 
 ! SCRIPTLET
-google.*##+js(remove-elem.js, #promos)
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+google.*##+js(remove-elem.js, #promos)
 hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -803,88 +815,90 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ! SCRIPTLET END
 
 ! CSS
-*##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
-*##.cookie-choices-inner
+*###cookie-notice
 *###cookie-pop
 *###gdpr-consent
-*###cookie-notice
+*##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+*##.cookie-choices-inner
 *##.wiadomoscSocialBig
-*##[href*="trafficfactory.biz"]
-*##[href*="/adv/"]
-*##[href*="/ads/"]
-*##[href*="/advertising/"]
-*##[href^="https://bit.ly/"]
 *##[class*="rekl"]
+*##[href*="/ads/"]
+*##[href*="/adv/"]
 *##[href*="/advertise/"]
-*##[href^="https://ad.adriver.ru/"]
-*##iframe[src*="://vidroll.ru/"]
+*##[href*="/advertising/"]
+*##[href*="trafficfactory.biz"]
 *##[href*="weborama.fr"]
+*##[href^="https://ad.adriver.ru/"]
+*##[href^="https://bit.ly/"]
+*##iframe[src*="://vidroll.ru/"]
+2ch.hk##.logo, #mobile-pashque
+aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
+clipwatching.com###container>div>div:style(width:0px!important)
+english-films.*##.block-content:has-text(Онлайн чат)
+english-films.*##.mainInner:style(padding-left: 0 !important;)
+english-films.*##.mainNav, .superBanner, div.owl-stage, div.owl-controls, div.block.saladBlock, section.helperBlock.section.redBox.box, section.linksBlock.section, footer.footer, div.block.redBlock, div.block.orangeBlock, div.block.blueBlock, .sidebar, div.dpad, div.dle-alert.box.redBox, div.relatedNews, .wrapPaymentCommercial, .siteEnter, div.wrp_baner
+english-films.*##.text-center:has-text(чтобы убрать рекламу сделайте регистрацию/авторизуйтесь на сайте)
+english-films.*##div.block.blueBlock:has-text(Наши телеграм каналы)
+english-films.*##div.block.orangeBlock:has-text(Подписывайтесь на обновления в наших группах)
+english-films.*##p:has([href^="https://english-films.co/chto-delat-esli-bespokoit-reklama-pri-vklyuchenii-openload-pleera.html"])
+english-films.*##p:has-text(В бесплатном плеере фильм доступен только на русском языке, для просмотра на английском нужно приобрести абонемент.)
+english-films.*##p:has-text(Все фильмы с бесплатным доступом на английском находятся в отдельной)
+free-123movies.com##.jw-logo
+freebitco.in###myModal22:has-text(Did you know?)
+freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai,kinogo2.*##body:style(background-image: none !important;)
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding
 music.yandex.ru,music.yandex.com,music.yandex.ua,music.yandex.by#?#span:contains(Отключить рекламу)
 twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay, .pl-notif, .player-alert, .recommended-channels, .tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1, .tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b, .tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header, .tw-relative.prime-offers, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0, .tw-z-default.pinned-cheer-v2, .tw-interactive[href^="https://twitch.amazon.com/"], a[href*="megafon.ru"], a[href*="mercedes-benz.com"], a[href*="mybestcontent.ru"], a[href*="mydota2.net"], a[href*="noblechairs.com"], a[href*="poker"], a[href*="starladder.com"], a[href*="streamfest.ru"], a[href*="suveniry"], a[href*="upskill.ru"], a[href*="vk.cc"], a[href*="&BannerId="], a[href*="&bonus="], a[href*=".click"], a[href*=".com/ad/"], a[href*=".gg"], a[href*=".net/ad/"], a[href*=".org/ad/"], a[href*=".ru/ad/"], a[href*="/?r="], a[href*="/buy/"], a[href*="/go/"], a[href*="/joinchat/"], a[href*="/promo/"], a[href*="/shop/"], a[href*="?AffiliateUserId="], a[href*="?br="], a[href*="?btag="], a[href*="atributika"], a[href*="bet4.pm"], a[href*="betsdota2.c"], a[href*="bit.ly"], a[href*="boostmmr.ru"], a[href*="campaign"], a[href*="casino"], a[href*="clck.ru"], a[href*="col.vg"], a[href*="cutter.li"], a[href*="cyberbetpromo.net"], a[href*="domruchamp.ru"], a[href*="dota2camp.ru"], a[href*="dota.money"], a[href*="dotapl.us"], a[href*="dxracer-europe.com"], a[href*="fragstore.ru"], a[href*="g2a.com"], a[href*="gamefuel.com"], a[href*="garnitura"], a[href*="gearboost.eu"], a[href*="gg.bet"], a[href*="goo.gl"], a[href*="goodgame.pm"], a[href*="gosu.ai"], a[href*="intel.com"], a[href*="invasion.ru"], button.pl-button--icon.pl-button--follow.pl-button, a[href*="is.gd"], a[href*="rusfond.ru"], .pl-single-rec-wrapper.recommendations-overlay.player-overlay, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.top-nav__nav-items-container.tw-align-items-stretch.tw-flex.tw-flex-grow-1.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-flex-shrink-0 > div.tw-hide.tw-sm-flex, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative, a[href*="myway2win.com"], a[href*="webto.ru"], a[href*="logitech.promo"], .tw-z-above.tw-pd-t-05.tw-absolute.subtember-callout, a[href*="cybertraff.info/"], .tw-z-default.channel-leaderboard, .tw-full-width > .tw-mg-b-2, .tw-transition__fade--enter-done.tw-transition__fade.tw-transition--enter-done.tw-transition--duration-long.tw-transition, .tw-z-default.channel-leaderboard, .tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar, .tw-z-default.tw-full-width.tw-absolute.chat-room__notifications, .tw-lg-flex.tw-hide > .tw-relative, .tw-pd-x-05.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.muted-segments-alert, .tw-top-0.tw-right-0.tw-pd-2.tw-bottom-0.tw-absolute.player-overlay-background-sidebar.player-overlay-background--darkness-3.player-overlay-background, a[href*="vsemaykishop.ru"], a[href*="tiny.cc"], .tw-relative.tw-inline > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button.tw-button-icon--secondary.tw-button-icon.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, a[href*="opseat.com"], a[href*="//vk.com/altasutashop"], a[href*="http://drpositive.ru/"], .toast-manager__container, .float-animation__children-wrapper, a[href*="//pm6.site"], .tw-z-above.tw-pd-t-05.tw-absolute.megacommerce-callout, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--secondary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-mg-t-05.tw-justify-content-between.tw-flex-wrap.tw-flex.tw-align-items-start, .tw-pd-x-1.tw-justify-content-between.tw-flex-nowrap.tw-flex.theatre-social-panel, .live-notifications__btn, a[href*="//torobrand.com/"], a[href*="//cutt.ly/"], a[href*="https://vk.com/gnummetv?w=wall-66138380_737072"], a[href*="strms.net/"], a[href*="lenovo.com/"]>img, .tw-pd-1.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-align-items-start.low-latency-notification, a[href*="//betsdota2."], a[href*="playnowonline.ru"], a[href*="https://www.twitch.tv/betsdota2.in"], a[href*="omgbonus.com"], a[href*="//t.me/hgbet"], .community-highlight-stack__card--wide.community-highlight-stack__card
+vidoza.net##div.wait_buffer
 vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, #mhead, .apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block, .audio_promo
+xhamster.*##.list-items.wih-spot-container.right-rectangle
 yandex.ru,yandex.ua,yandex.by,yandex.com##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_ffffff.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup_install_download.dist-popup.popup.i-bem, .weather-maps__layer-tranzister, .ya-chat-widget_visible.ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .ya-chat-button__container_size_normal.ya-chat-button__container, .ya-chat-widget_size_normal.ya-chat-widget_theme_light.ya-chat-widget_desktop.ya-chat-widget, .serp-footer__main, .popup_to_bottom.popup_visibility_visible.popup_js_inited.dist-popup_js_inited.popup_autoclosable_no.popup_theme_custom-color.popup_focusevents_no.popup_animate_yes.popup_adaptive_yes.popup_source_yabs.dist-popup_product_browser.dist-popup.popup.i-bem, .dist-popup__content.popup__content, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, .desk-notif-card_js_inited.i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_weather_yes.desk-notif-card, .container__line.container__banner.container, div > a[href*="//plus.yandex."], [class*="desk-notif-card"] > a[href*="/plus.yandex"], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_dark-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_district_yes.desk-notif-card, .i-bem.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_yes.desk-notif-card_icon_yes.desk-notif-card_stream_channel.desk-notif-card_stream_yes.desk-notif-card, [class*="desk-notif-card"] > a[href*="/plus.yandex"], .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.nqpJ9Xng.user2__tooltip.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .popup2_visible_yes.popup2_direction_bottom-center.popup2_js_inited.i-bem.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_yes.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_bounce.distr-popup_shadow_yes.distr-popup_motley_green.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.i-bem.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .widgets__col_td_2, .widget_id_teaser, .media-promo, .popup2_visible_yes.popup2_direction_bottom-right.serp-user_js_inited.promo-popup_js_inited._popup2-destructor_js_inited._popup2-destructor.popup2_js_inited.i-bem.serp-user__promo-popup.serp-user.promo-popup_social_yes.promo-popup_type_promo.promo-popup_shadow_yes.promo-popup_theme_ffffff.promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_theme_clear.popup2_target_anchor.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_fall-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_light-blue.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2, .distr-popup_js_inited.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-dbn-cookie_js_inited.i-bem.card__colorize.i-dbn-cookie.distr-popup_animation_slide-show.distr-popup_shadow_yes.distr-popup_motley_grey.distr-popup_type_landing.distr-popup_layout_simple.distr-popup_location_right-bottom.distr-popup.popup2_view_classic.popup2_theme_clear.popup2_target_position.popup2, .notifier__box, .notifier_js_inited.notifier_has-unread_yes.i-bem.serp-header__notifier.notifier_fade_yes.notifier_size_m.notifier_no-login_yes.notifier_header.notifier, .header-favorites-button_js_inited.i-bem.header-favorites-button, .distr-popup__content.popup2__content, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.tooltip_js_inited.i-bem.carousel__yabro-tooltip.tooltip-api_theme_promo.tooltip-api.tooltip_autoclosable_yes.tooltip_align_left.tooltip_view_classic.tooltip_tone_dark.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .main__carousel_js_inited.serp_js_inited.i-bem.serp.main__carousel > .serp-item, .tooltip-api_js_inited.tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.tooltip_js_inited.i-bem.cover__yabro-tooltip.tooltip-api_onboarding.tooltip-api_theme_promo.tooltip-api.tooltip_align_left.tooltip_view_classic.tooltip_tone_default.tooltip_size_xs.tooltip_theme_promo.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_no.popup2_hiding_yes.popup2_target_anchor.popup2, .sticky, .tooltip_shown_yes.popup2_visible_yes.popup2_direction_bottom-right.auth-popup_js_inited.popup2_js_inited.tooltip_js_inited.sofOvnj8.auth-popup.tooltip_for_favorites.tooltip_click_no.tooltip_tone_default.tooltip_view_classic.tooltip_theme_promo.tooltip_autoclosable_yes.tooltip.popup2_theme_normal.popup2_view_classic.popup2_autoclosable_yes.popup2_hiding_yes.popup2_target_anchor.popup2, .ImagesViewerApp-DirectStripe_mod_design8.ImagesViewerApp-DirectStripe.MMDirectStripe, .content__informers-bg
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer
-freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
-vidoza.net##div.wait_buffer
-2ch.hk##.logo, #mobile-pashque
-free-123movies.com##.jw-logo
-freebitco.in###myModal22:has-text(Did you know?)
-english-films.*##.mainNav, .superBanner, div.owl-stage, div.owl-controls, div.block.saladBlock, section.helperBlock.section.redBox.box, section.linksBlock.section, footer.footer, div.block.redBlock, div.block.orangeBlock, div.block.blueBlock, .sidebar, div.dpad, div.dle-alert.box.redBox, div.relatedNews, .wrapPaymentCommercial, .siteEnter, div.wrp_baner
-english-films.*##.block-content:has-text(Онлайн чат)
-english-films.*##div.block.orangeBlock:has-text(Подписывайтесь на обновления в наших группах)
-english-films.*##div.block.blueBlock:has-text(Наши телеграм каналы)
-english-films.*##.text-center:has-text(чтобы убрать рекламу сделайте регистрацию/авторизуйтесь на сайте)
-english-films.*##.mainInner:style(padding-left: 0 !important;)
-english-films.*##p:has([href^="https://english-films.co/chto-delat-esli-bespokoit-reklama-pri-vklyuchenii-openload-pleera.html"])
-english-films.*##p:has-text(В бесплатном плеере фильм доступен только на русском языке, для просмотра на английском нужно приобрести абонемент.)
-english-films.*##p:has-text(Все фильмы с бесплатным доступом на английском находятся в отдельной)
-clipwatching.com###container>div>div:style(width:0px!important)
-xhamster.*##.list-items.wih-spot-container.right-rectangle
-aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
 ! CSS END
 
 ! XPATH
-youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Покупка абонемента'])
 english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@class='tabs__caption']/li[.='Трейлер'])
+youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XPATH END
 
 ! CSP
 *$csp=worker-src 'none',domain=hindilinks4uto.com|hqq.tv
 *$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net
+/(thepirate[\W\w]?bays?|tpb|piratebayztemzmv|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 /^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)\//$important,csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua http://yandex.com https://yandex.com https://yandex.by http://yandex.by api-maps.yandex.ru suggest-maps.yandex.ru https://cloud-api.yandex.net local.adguard.org injections.adguard.org *.youtube.com ok.ru; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net api-maps.yandex.ru static-maps.yandex.ru; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by *.yandex.net wss: ok.ru; object-src 'none';
+||deloplen.com^$important,csp=default-src 'none';
 ||my.mail.ru^$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' my.mail.ru *.imgsmail.ru https://auth.mail.ru https://ok.ru local.adguard.org injections.adguard.org; img-src data: *.my.mail.ru *.imgsmail.ru *.foto.mail.ru;
 ||pornhub.*^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.phncdn.com *.pornhub.com *.nsimg.net *.google.com *.googleapis.com *.gstatic.com *.recaptcha.net;
 ||temp-mail.org^$important,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.jquery.com local.adguard.org injections.adguard.org;
 ||tv.yandex.ru^$important,csp=script-src data: 'unsafe-inline' 'unsafe-eval' yastatic.net local.adguard.org injections.adguard.org; img-src data: *.yandex.net tv.yandex.ru tv.yandex.ua tv.yandex.by;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.github.com *.twitter.com *.arkoselabs.com d2nvs31859zcd8.cloudfront.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org injections.adguard.org; img-src data: *.ytimg.com *.ggpht.com *.gstatic.com;
-||deloplen.com^$important,csp=default-src 'none';
-/(thepirate[\W\w]?bays?|tpb|piratebayztemzmv|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 ! CSP END
 
 ! OTHER
-*$beacon,important
-*$ping,important
+/(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
+/\/ads?[0-9]{1}\.php\?/$important
+/\?zone[-_]?id\=/$important
 ^ping^$third-party
-||marketing.
-||reklamy.
-||reklam.
-||reklama.
-||recklama.
-||advertisement*.
-||advertising*.
-||adserver*.
-||advisor*.
+|http*:*$beacon,important
+|http*:*$ping,important
+|http*:*&action=js_stats&$important
+|http*:*/coins.php
+|http*:*/generate_204$important
+|http*:*/pagead/
 ||ad.
 ||ads-sdk.
 ||ads.
+||adserver*.
 ||adv.
+||advertisement*.
+||advertising*.
+||advisor*.
 ||analytic*.$domain=~analytics.google.com
 ||applog.
 ||banner*.
@@ -893,37 +907,35 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||campaign*.
 ||event.
 ||geo.$domain=~fast.com
+||hola.org/users/get_user?
+||hola.org/users/payment/
+||marketing.
 ||meta^
 ||monitor.
 ||null^
 ||px-intl*.
+||recklama.
+||reklam.
+||reklama.
+||reklamy.
+||safe.
 ||safebrowsing*.
 ||sdk-diagnostics.
 ||snippet*.
+||stat.$third-party,important
 ||suggest.
-||telemetry.
 ||telemetric.
 ||telemetrics.
+||telemetry.
 ||trackclick*.
 ||tracking*.
-/(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
-/\?zone[-_]?id\=/$important
-*/pagead/$important
-*/generate_204$important
-||safe.
-||stat.$third-party,important
-/\/ads?[0-9]{1}\.php\?/$important
-||hola.org/users/payment/
-||hola.org/users/get_user?
-*/1clkn/$important
-*/coins.php
 ! OTHER END
 
 ! DOCUMENT
-*/*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com|~imgur.com
-*/redirect.html$document
 /[-._?&=#/]campaign[-._?&=#/]/$document,domain=~google.com|~google.ru|~mozilla.org|~github.com|~gitlab.com|~vk.com|~medialeaks.ru|~adguard.com
 /^https?:\/\/(apps?|best|mobile|prize|reward|sweeps).*\.[a-z]{5,15}.*\.(agency|icu|live)\//$document,important
+|http*:*/*.gif|$document,domain=~github.com|~wikimedia.org|~githubusercontent.com|~imgur.com
+|http*:*/redirect.html$document
 ||blocked.mts.ru^$document
 ||browser.yandex.ru^$~document
 ||click.$document
@@ -935,69 +947,70 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! DOCUMENT END
 
 ! SUBDOCUMENT
-||yastatic.net/tableau/tableau.html$subdocument
 /\/ads?\/(middle|bottom|right|top|left)\.html?\?/$subdocument,important
 ||deviants.com/player/html.php$subdocument
+||yastatic.net/tableau/tableau.html$subdocument
 ! SUBDOCUMENT END
 
 ! SCRIPT
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$script,important
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
-/^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
-/^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
-/^https?:\/\/www\.([a-z]{6,16})\.com\/([a-z]{1,4})\.js$/$important,script,third-party
-*/no-right-click-$script,important
-*/beacon.js$script,important
-*/gtag.js$script,important
-*/ga.js$script,important
-/^https?:\/\/([a-z]{6,16})\.com\/([a-zA-Z0-9]{10,17})\/[0-9]{5}$/$important,script,third-party
-*/vinos.js$script,important
-*/miner.js$script,important
-*/jquery.notify.js$script,important
 /\/(edmonton|jellyfish)\.webp/$script,important
-*/invoke.js$script,important
-*/scripts-nvm/gen.php?$script
-*/vastlist.js$script,important
-*/crypta.js$script,important
-*/fingerprint2.$script,important
-/^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
-/^https?:\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$script,third-party,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script,important
+/^https?:\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$script,third-party,important
+/^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$script,important
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~twitch.tv|~google.com|~z5h64q92x9.net|~lelinhtinh.github.io|~my.dogechain.info|~whoer.net
+/^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
+/^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{5}$/$third-party,script,important
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{5}$/$important,script,third-party
+/^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$important,script,third-party
+|http*:*/beacon.js$script,important
+|http*:*/crypta.js$script,important
+|http*:*/fingerprint2.$script,important
+|http*:*/ga.js$script,important
+|http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=*$script,important
+|http*:*/gtag.js$script,important
+|http*:*/invoke.js$script,important
+|http*:*/jquery.notify.js$script,important
+|http*:*/miner.js$script,important
+|http*:*/no-right-click-$script,important
+|http*:*/scripts-nvm/gen.php?$script
+|http*:*/vastlist.js$script,important
+|http*:*/vinos.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,xmlhttprequest,important
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
-*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
+|http*:*/channels/*/extensions$xmlhttprequest,domain=twitch.tv,important
 ||addons.opera.com/themes/$xmlhttprequest
+||alloha.tv/index.php?ref=*&domain=$important,xmlhttprequest
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
+||twitter.com/*/jot/client_event.json$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info^$important,xmlhttprequest
 ||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
-||alloha.tv/index.php?ref=*&domain=$important,xmlhttprequest
-||twitter.com/*/jot/client_event.json$important,xmlhttprequest
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,other,important
-/\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument,xmlhttprequest
-/\/1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument
-/[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
-/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest
-/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~fandom.com
-/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$important,image,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com|~instagram.com
-/(player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /(log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
-||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/analy(tic?([asx]|sys|a?tor|js)?)[-.0-9_?&=#/]/$important,other,xmlhttprequest,script,image,domain=~fandom.com
+/(player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org|~fandom.com|~hqq.tv|~mts.ru|~hindilinks4uto.com
-/\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,script,other,third-party
-/\.(com?|net|org|ru|to)\/ad[sv]?\//$script,image,object,subdocument,document,important
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv|~youtube.com
+/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$important,image,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com|~instagram.com
+/[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
+/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~fandom.com
+/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest
+/\.(com?|net|org|ru|to)\/ad[sv]?\//$script,image,object,subdocument,document,important
+/\/1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)\?[a-z]{1}\=/$image,xmlhttprequest,script,subdocument,other,important
+/\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,script,other,third-party
+/\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument,xmlhttprequest
 /^(?!.*((injections|local)\.adguard\.org|(gstatic|jwpcdn|jwplayer|bootstrapcdn|cloudflare|google|jquery|rawgit)\.com|(iamcdn|recaptcha|jsdelivr)\.net|mystream\.to)).*$/$third-party,script,important,domain=vidcloud9.com|movcloud.net|hydrax.net|gcloud.live|clipwatching.com|novelplanet.me|mcloud.to|vidstreaming.io|cloud9.to|streamingworld.club|gomo.to|viduplayer.com|upstream.to|videoko.to|gdriveplayer.me|mixdrop.co|streamvideo.link|streamhoe.online|vidlox.me|videobin.co|cloudvideo.tv|vidoza.net|streamvid.co|videospider.stream|oload.party|mstream.xyz|123moviesplayer.com|mightyupload.com|0gomovies.website|mcloud2.to
-*&action=js_stats&$image,important,other,xmlhttprequest,script
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,other,important
+/analy(tic?([asx]|sys|a?tor|js)?)[-.0-9_?&=#/]/$important,other,xmlhttprequest,script,image,domain=~fandom.com
+||youtube.com/api/stats/$image,important,other,xmlhttprequest
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1041,6 +1054,7 @@ uiz.*#@#+js(acis, $, adBlock)
 uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
+animeshow.tv^$csp=script-src 'self' 'unsafe-inline' data: *.bootstrapcdn.com *.googleapis.com *.google-analytics.com,badfilter
 */*$script,domain=uiz.io|uiz.app,third-party,redirect-rule=noopjs,badfilter
 @@||uiz.*/js/ads.js$script,~third-party,badfilter
 #@#[href*="/redirect.html"]
@@ -1276,3 +1290,21 @@ upgrand.*#@#+js(aopw, encodeURIComponent)
 ||userscloud.com^$csp=script-src 'self' 'unsafe-inline' *.google-analytics.com *.cloudflare.com *.gstatic.com *.google.com *.solvemedia.com *.recaptcha.net,badfilter
 ||sendit.cloud^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.cloudflare.com *.google-analytics.com *.addthis.com *.query.com,badfilter
 ||nxload.com^$csp=connect-src 'self' *.nxload.com,badfilter
+readcomiconline.to#@#^script:has-text(this[atob)
+readcomiconline.to#@#+js(aopr, adblockDetector)
+readcomiconline.to#@#+js(aopr, zfgloadednative)
+readcomiconline.to#@#+js(aopw, callExo)
+readcomiconline.to#@#+js(aeld, /^(?:click|mousedown)$/, _0x)
+readcomiconline.to#@#+js(nostif, .exo)
+readcomiconline.to#@#+js(nostif, callExo)
+readcomiconline.to#@#+js(set, alb, false)
+1movies.*#@#+js(aopw, decodeURIComponent)
+1movies.*#@#+js(set, check_adblock, true)
+1movies.*#@#+js(acis, decodeURI, getScriptFromCss)
+1movies.*#@#+js(set, String.prototype.charCodeAt, trueFunc)
+1movies.*#@#+js(set-constant, String.prototype.charCodeAt, trueFunc)
+vidcloud.*#@#+js(acis, Math, zfgloaded)
+vidcloud.*#@#+js(acis, atob, decodeURIComponent)
+vidcloud.*#@#+js(aopw, adBlockDetected)
+vidcloud.*#@#+js(aopr, BetterJsPop)
+vidcloud.*#@#+js(aopr, decodeURI)
