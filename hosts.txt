@@ -52,6 +52,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 4053494.fls.doubleclick.net
 0.0.0.0 4236808.fls.doubleclick.net
 0.0.0.0 4360661.fls.doubleclick.net
+0.0.0.0 app-measurement.com
 0.0.0.0 4488352.fls.doubleclick.net
 0.0.0.0 4514783.fls.doubleclick.net
 0.0.0.0 4684100.fls.doubleclick.net
