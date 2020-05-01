@@ -868,7 +868,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! WEBSOCKET END
 
 ! CSP
-*$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|hindilinks4uto.com|hqq.tv
+*$important,~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|hindilinks4uto.com|hqq.tv|freebitco.in
 /(thepirate[\W\w]?bays?|tpb|piratebayztemzmv|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/((hqq|waaw(s|[0-9]{1})?)\.tv|hindilinks4uto\.com)\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.gstatic.com *.cloudflare.com *.google.com *.hqq.tv *.vkcache.com *.jsdelivr.net *.googleapis.com *.recaptcha.net local.adguard.org injections.adguard.org;
@@ -968,6 +968,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{4,5}$/$third-party,script,important
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}\?v\=/$third-party,script,important
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{4,5}$/$important,script,third-party
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$important,script,third-party
 |http*:*/beacon.js$script,important
@@ -983,6 +984,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/scripts-nvm/gen.php?$script
 |http*:*/vastlist.js$script,important
 |http*:*/vinos.js$script,important
+|http*:*/glx_*.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1044,7 +1046,7 @@ uiz.*#@#+js(aopr, HTMLElement)
 kissasian.*#@#+js(acis, document.getElementById, padsplayer)
 kissasian.sh,letsupload.co,uploadever.com#@#+js(aopr, Date.prototype.toUTCString)
 uiz.*#@#+js(aopr, NaConf)
-uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to,tii.ai,123movies.*#@#+js(aopr, open)
+uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to,tii.ai,123movies.*,mstream.*#@#+js(aopr, open)
 ||uiz.*^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
 ||uiz.*^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.recaptcha.net *.googletagmanager.com *.cloudflare.com,badfilter
 ||uiz.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
@@ -1317,3 +1319,4 @@ vidcloud.*#@#+js(aopr, decodeURI)
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com,badfilter
 waaw.tv#@#+js(set, console.clear, trueFunc)
 @@||hqq.tv^$xmlhttprequest,1p,badfilter
+/^https?:\/\/.*.(club|bid|xyz|site|pro|info)\/.*/$3p,domain=9xupload.xyz|bdupload.asia|desiupload.co|downloadpirate.com|flashx.tv|powvideo.net|powvldeo.me|streamplay.biz|streamplay.to|videobin.co,badfilter
