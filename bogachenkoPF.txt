@@ -911,6 +911,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||hola.org/users/payment/
 ||marketing.
 ||meta^
+||undefined^
 ||monitor.
 ||null^
 ||px-intl*.
@@ -1085,7 +1086,7 @@ shon.xyz#@#+js(aopw, NotDet)
 gounlimited.to#@#+js(acis, $, adb)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 ||shon.xyz^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.googletagmanager.com *.googleapis.com;frame-src 'self' *.google.com;connect-src 'self',badfilter
-|https://$script,third-party,domain=shon.xyz|streamvid.co|oload.party|vidoza.net|~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|zippyshare.com,badfilter
+|https://$script,third-party,domain=shon.xyz|streamvid.co|oload.party|vidoza.net|~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|zippyshare.com|multiup.org,badfilter
 |https://$subdocument,third-party,domain=shon.xyz,badfilter
 @@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz,badfilter
 @@||google.com/recaptcha/$script,badfilter
@@ -1310,3 +1311,4 @@ vidcloud.*#@#+js(aopr, BetterJsPop)
 vidcloud.*#@#+js(aopr, decodeURI)
 ||uppit.com^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data: *.googletagservices.com *.google-analytics.com,badfilter
 ||uqload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.googletagmanager.com *.amung.us,badfilter
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com,badfilter
