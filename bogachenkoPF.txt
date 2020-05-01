@@ -811,7 +811,7 @@ infourok.ru,bogachenko.github.io,torrent-filmi.xyz,123movies.*,ros-met.com,hdfil
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
-ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz##+js(contextmenudef.js)
+ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz,waaw.tv,hindilinks4uto.com,hqq.tv,waaws.*,waaw1.tv##+js(contextmenudef.js)
 ! SCRIPTLET END
 
 ! CSS
@@ -863,10 +863,15 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XPATH END
 
+! WEBSOCKET
+*$websocket,domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|hindilinks4uto.com|hqq.tv
+! WEBSOCKET END
+
 ! CSP
 *$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|hindilinks4uto.com|hqq.tv
 /(thepirate[\W\w]?bays?|tpb|piratebayztemzmv|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
+/^https?:\/\/((hqq|waaw(s|[0-9]{1})?)\.tv|hindilinks4uto\.com)\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.gstatic.com *.cloudflare.com *.google.com *.hqq.tv *.vkcache.com *.jsdelivr.net *.googleapis.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 /^https?:\/\/(www\.)?yandex\.(ru|ua|by|com)\//$important,csp=script-src data: 'unsafe-inline' 'unsafe-eval' https://yandex.ru http://yandex.ru https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by yastatic.net *.yandex.sx https://yandex.ua http://yandex.ua http://yandex.com https://yandex.com https://yandex.by http://yandex.by api-maps.yandex.ru suggest-maps.yandex.ru https://cloud-api.yandex.net local.adguard.org injections.adguard.org *.youtube.com ok.ru; img-src data: https://yandex.ru http://yandex.ru https://yandex.ua http://yandex.ua https://yandex.by http://yandex.by *.passport.yandex.ru *.passport.yandex.ua *.passport.yandex.by yastatic.net *.yandex.sx *.yandex.net api-maps.yandex.ru static-maps.yandex.ru; connect-src data: https://yandex.ru http://yandex.ru https://cloud-api.yandex.ru https://mail.yandex.ru http://cloud-api.yandex.ru http://mail.yandex.ru yastatic.net https://frontend.vh.yandex.ru http://frontend.vh.yandex.ru *.yandex.sx https://yandex.ua http://yandex.ua https://pass.yandex.ru https://api.passport.yandex.ru https://passport.yandex.ua https://api.passport.yandex.ua https://passport.yandex.by https://api.passport.yandex.by https://yandex.by http://yandex.by *.yandex.net wss: ok.ru; object-src 'none';
@@ -1031,7 +1036,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||gstaticadssl.l.google.com^$badfilter
 uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*,clicknupload.*,123movies.*#@#+js(aopr, AaDetector)
 uiz.*#@#+js(acis, fuckAdBlock, importFAB)
-uiz.*,waaw1.tv,hqq.*#@#+js(aopr, adBlockDetected)
 uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid,wstream.*,dood.watch,asianclub.*,mixdrop.*,upfordown.xyz,nxload.com#@#+js(aopw, _pop)
 nxload.com#@#+js(aeld, , pop)
 nxload.com#@#+js(aopr, adb)
@@ -1052,9 +1056,10 @@ hqq.*#@#+js(aopr, console.clear)
 upstream.to#@#+js(set, cRAds, null)
 upstream.to#@#+js(aopr, adcashMacros)
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com,vidcloud9.*#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
+vidcloud9.com#@#+js(aopr, isSandboxed)
 animeshow.tv^$csp=script-src 'self' 'unsafe-inline' data: *.bootstrapcdn.com *.googleapis.com *.google-analytics.com,badfilter
 */*$script,domain=uiz.io|uiz.app,third-party,redirect-rule=noopjs,badfilter
 @@||uiz.*/js/ads.js$script,~third-party,badfilter
@@ -1066,7 +1071,6 @@ uploadever.com,uploadbuzz.*#@#+js(nostif, '0x)
 ||ouo.io^$script,third-party,badfilter
 dood.watch#@#+js(set, xPoPAdS, false)
 ||streamz.cc^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagmanager.com *.google.com *.gstatic.com www.google-analytics.com *.googleapis.com *.disqus.com cache.hollywood.to,badfilter
-dood.watch#@#+js(nostif, debugger)
 hqq.*#@#+js(aopw, smrtSB)
 hqq.*#@#+js(aopw, smrtSP)
 hqq.*#@#+js(popads-dummy.js)
@@ -1108,7 +1112,8 @@ bcvc.live#@#+js(window.open-defuser, 0, bcvc)
 *$xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
 onvista.de#@#+js(nostif, .call(null), 10)
 magesy.*#@#+js(nostif, 0)
-magesy.*,vidcloud.*,waaw.tv#@#+js(acis, adBlockDetected)
+magesy.*,vidcloud.*#@#+js(acis, adBlockDetected)
+uiz.*,waaw1.tv,hqq.*,waaw.tv#@#+js(aopr, adBlockDetected)
 onvista.de#@#+js(nosiif, text/css, 10)
 magesy.*,majesy.*#@#+js(addEventListener-defuser.js, contextmenu, preventDefault)
 *$image,redirect-rule=1x1.gif,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
@@ -1311,3 +1316,4 @@ vidcloud.*#@#+js(aopr, decodeURI)
 ||uqload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.googletagmanager.com *.amung.us,badfilter
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com,badfilter
 waaw.tv#@#+js(set, console.clear, trueFunc)
+@@||hqq.tv^$xmlhttprequest,1p,badfilter
