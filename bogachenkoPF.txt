@@ -843,7 +843,7 @@ english-films.*##div.block.orangeBlock:has-text(Подписывайтесь н�
 english-films.*##p:has([href^="https://english-films.co/chto-delat-esli-bespokoit-reklama-pri-vklyuchenii-openload-pleera.html"])
 english-films.*##p:has-text(В бесплатном плеере фильм доступен только на русском языке, для просмотра на английском нужно приобрести абонемент.)
 english-films.*##p:has-text(Все фильмы с бесплатным доступом на английском находятся в отдельной)
-free-123movies.com##.jw-logo
+free-123movies.com,123movies*##.jw-logo
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai,kinogo2.*##body:style(background-image: none !important;)
@@ -864,8 +864,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XPATH END
 
 ! CSP
-*$csp=worker-src 'none',domain=hindilinks4uto.com|hqq.tv
-*$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net
+*$~third-party,csp=worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|hindilinks4uto.com|hqq.tv
 /(thepirate[\W\w]?bays?|tpb|piratebayztemzmv|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 /^https?:\/\/([a-z]+\.)?xhamster([0-9]{1})?\.[a-z]+\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.gstatic.com *.xhcdn.com *.recaptcha.net local.adguard.org injections.adguard.org;
 /^https?:\/\/(www\.)?(xvideos|xnxx)\.com\//$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.gstatic.com *.xvideos-cdn.com *.xvideos.com *.xnxx-cdn.com *.xnxx *.recaptcha.net local.adguard.org injections.adguard.org;
@@ -997,7 +996,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! COMBINED
 /[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org|~fandom.com|~hqq.tv|~mts.ru|~hindilinks4uto.com
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$important,xmlhttprequest,image,subdocument,script,domain=~twitch.tv|~dropbox.com|~player.mediavitrina.ru|~staticmv.mediavitrina.ru|~rt.ru|~f-droid.org|~fandom.com|~hqq.tv|~mts.ru|~hindilinks4uto.com|~waaw.tv
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$important,script,xmlhttprequest,other,image,domain=~twitch.tv|~youtube.com
 /[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$important,image,other,script,xmlhttprequest,domain=~yadi.sk|~zen.yandex.ru|~zen.yandex.ua|~zen.yandex.by|~zen.yandex.com|~instagram.com
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
@@ -1030,7 +1029,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=adult-channels.com|analdin.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|heavy-r.com|incesto69.com|indianbfvideos.com|keezmovies.com|mofosex.com|mypornstarbook.net|niceporn.xxx|porn555.com|porndaa.com|pornerbros.com|pornj.com|pornototale.com|porntube.com|spankwire.com|thisav.com|tubepornclassic.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|youporn.lc|youpornhub.it|yourdailypornstars.com,badfilter
 ||gstaticadssl.l.google.com^$badfilter
-uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*,clicknupload.*#@#+js(aopr, AaDetector)
+uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*,clicknupload.*,123movies.*#@#+js(aopr, AaDetector)
 uiz.*#@#+js(acis, fuckAdBlock, importFAB)
 uiz.*,waaw1.tv,hqq.*#@#+js(aopr, adBlockDetected)
 uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid,wstream.*,dood.watch,asianclub.*,mixdrop.*,upfordown.xyz,nxload.com#@#+js(aopw, _pop)
@@ -1041,7 +1040,7 @@ uiz.*#@#+js(aopr, HTMLElement)
 kissasian.*#@#+js(acis, document.getElementById, padsplayer)
 kissasian.sh,letsupload.co,uploadever.com#@#+js(aopr, Date.prototype.toUTCString)
 uiz.*#@#+js(aopr, NaConf)
-uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to,tii.ai#@#+js(aopr, open)
+uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to,tii.ai,123movies.*#@#+js(aopr, open)
 ||uiz.*^$csp=connect-src 'self' *.google.com;child-src 'self' *.google.com;,badfilter
 ||uiz.*^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.recaptcha.net *.googletagmanager.com *.cloudflare.com,badfilter
 ||uiz.*^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
@@ -1049,10 +1048,11 @@ uiz.*#@#+js(aopr, adsBlocked)
 hqq.*#@#+js(aopr, console.clear)
 ||prostream.to^$badfilter
 ||procdnvids.net^$badfilter
+123moviesfree.*#@#+js(aopr, LieDetector)
 upstream.to#@#+js(set, cRAds, null)
 upstream.to#@#+js(aopr, adcashMacros)
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 animeshow.tv^$csp=script-src 'self' 'unsafe-inline' data: *.bootstrapcdn.com *.googleapis.com *.google-analytics.com,badfilter
@@ -1081,7 +1081,7 @@ linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
 linkdrop.net,upload.ac#@#+js(aopr, absda)
 ||adblock-tester.com^$csp=script-src 'self',badfilter
 shortearn.eu#@#+js(aeld, click, trigger)
-shon.xyz,intoupload.net,povvideo.*,powvldeo.*,powv1deo.*,gounlimited.to,indishare.*,megaup.net,snowfiles.com,zupload.me,sendit.cloud,userscloud.com,tii.ai#@#+js(aopw, Fingerprint2)
+shon.xyz,intoupload.net,povvideo.*,powvldeo.*,powv1deo.*,gounlimited.to,indishare.*,megaup.net,snowfiles.com,zupload.me,sendit.cloud,userscloud.com,tii.ai,123movies.*#@#+js(aopw, Fingerprint2)
 shon.xyz#@#+js(aopw, NotDet)
 gounlimited.to#@#+js(acis, $, adb)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
@@ -1108,7 +1108,7 @@ bcvc.live#@#+js(window.open-defuser, 0, bcvc)
 *$xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
 onvista.de#@#+js(nostif, .call(null), 10)
 magesy.*#@#+js(nostif, 0)
-magesy.*#@#+js(acis, adBlockDetected)
+magesy.*,vidcloud.*,waaw.tv#@#+js(acis, adBlockDetected)
 onvista.de#@#+js(nosiif, text/css, 10)
 magesy.*,majesy.*#@#+js(addEventListener-defuser.js, contextmenu, preventDefault)
 *$image,redirect-rule=1x1.gif,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
@@ -1268,7 +1268,7 @@ mac-torrent-download.net#@#+js(set, buttonLink, noopFunc)
 |https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=mac-torrent-download.net,badfilter
 ||adobedtm.com^$badfilter
 ||an.yandex.ru^$empty,badfilter
-hubfiles.ws,w4files.ws,letsupload.co,clicknupload.*,9xupload.*,zupload.me#@#+js(acis, Math.sin, vocabulary)
+hubfiles.ws,w4files.ws,letsupload.co,clicknupload.*,9xupload.*,zupload.me,123movies.*#@#+js(acis, Math.sin, vocabulary)
 hubfiles.ws,w4files.ws,9xmovies.*,uploadfiles.pw,9xupload.*#@#+js(acis, decodeURI, decodeURIComponent)
 9xupload.*#@#+js(nosiif, (), 500)
 9xupload.*,9xmovies.*#@#+js(acis, Object.defineProperty, XMLHttpRequest)
@@ -1304,11 +1304,10 @@ readcomiconline.to#@#+js(set, alb, false)
 1movies.*#@#+js(acis, decodeURI, getScriptFromCss)
 1movies.*#@#+js(set, String.prototype.charCodeAt, trueFunc)
 1movies.*#@#+js(set-constant, String.prototype.charCodeAt, trueFunc)
-vidcloud.*#@#+js(acis, Math, zfgloaded)
 vidcloud.*#@#+js(acis, atob, decodeURIComponent)
-vidcloud.*#@#+js(aopw, adBlockDetected)
 vidcloud.*#@#+js(aopr, BetterJsPop)
 vidcloud.*#@#+js(aopr, decodeURI)
 ||uppit.com^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data: *.googletagservices.com *.google-analytics.com,badfilter
 ||uqload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.googletagmanager.com *.amung.us,badfilter
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com,badfilter
+waaw.tv#@#+js(set, console.clear, trueFunc)
