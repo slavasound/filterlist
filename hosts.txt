@@ -788,7 +788,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 checkappexec.microsoft.com
 0.0.0.0 choice.microsoft.com
 0.0.0.0 choice.microsoft.com.nsatc.net
-0.0.0.0 ciscobinary.openh264.org
 0.0.0.0 client-event-reporter.twitch.tv
 0.0.0.0 client-office365-tas.msedge.net
 0.0.0.0 client-s.gateway.messenger.live.com

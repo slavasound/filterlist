@@ -54,6 +54,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||vk.com/images/blank.mp4$media
 ! WHITELIST END
 
+! TEST
+/^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
+!/^https?:\/\/[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]{2}\.com$/$script,xmlhttprequest,important,third-party
+/analy(tic?(?:[asx]|sys|tor|js)?)[-.0-9_?&=#/]/$important
+! TEST END
+
 ! SITE
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /a\.[a-z0-9]{33,43}\.com$/
@@ -762,7 +768,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||viglink.com^
 ||vigo.ru^
 ||viralmint.com^$important,third-party
-||vk.com^$important,third-party
+||vk.com^$important,third-party,domain=~vk-apps.com
 ||vmweb.net^
 ||voiceservices.yandex.net^
 ||vungle.com^
@@ -844,6 +850,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##[class*="rekl"]
 *##[href*="/ads/"]
 *##[href*="/adv/"]
+*##img[src*="advert"]
 *##[href*="/advertise/"]
 *##[href*="/advertising/"]
 *##[href*="trafficfactory.biz"]
@@ -851,6 +858,14 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##[href^="https://ad.adriver.ru/"]
 *##[href^="https://bit.ly/"]
 *##iframe[src*="://vidroll.ru/"]
+*##iframe[src*="exoclick.com"]
+*##img[src*="exdynsrv.com"]
+*##iframe[src*='/ad/']
+*##iframe[src*='2mdn.net']
+*##div[id*="adcontent"]
+*##iframe[src*="amazon-adsystem.com"]
+*##iframe[src*="imasdk.googleapis.com"]
+*##iframe[src="about:blank"]
 2ch.hk##.logo, #mobile-pashque
 aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
 clipwatching.com###container > div > div:style(width:0px!important)
@@ -982,7 +997,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}/$important,script,third-party
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$important,script,third-party
 |http*:*/beacon.js$important,script
-|http*:*/crypta.js$important,script
+/^https?:\/\/[^\s]+\/crypt[oa]\.js/$important,script
 |http*:*/fingerprint2.$important,script
 |http*:*/ga.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
