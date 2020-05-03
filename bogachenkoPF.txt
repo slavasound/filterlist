@@ -810,7 +810,7 @@ hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net,rcdn.me,joostream.com,gdriveplayer.me,playhydrax.com,vidlink.org##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net,rcdn.me,joostream.com,gdriveplayer.me,vidlink.org##+js(mousedef2.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*##+js(nano-setTimeout-booster.js)
 peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
@@ -908,7 +908,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||marketing.
 ||meta^
 ||undefined^
-||monitor.
+||monitor.$domain=~monitor.firefox.com
 ||null^
 ||px-intl*.
 ||recklama.
@@ -978,6 +978,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/vastlist.js$script,important
 |http*:*/vinos.js$script,important
 |http*:*/glx_*.js$script,important
+|http*:*/wl.js$script,important
+|http*:*/wl-http.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
