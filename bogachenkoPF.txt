@@ -52,6 +52,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||ocsp*.globalsign.com^
 @@||safebrowsing.clients.google.com^$document
 @@||vk.com/images/blank.mp4$media
+@@||vk.com/images/*$image,domain=vk-apps.com
 ! WHITELIST END
 
 ! TEST
@@ -587,6 +588,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||kissmetrics.com^
 ||kochava.com^
 ||ksapisrv.com^
+||exdynsrv.com^
 ||labkas.com^
 ||lavanetwork.net^
 ||lbs.yandex.ru^
@@ -848,6 +850,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 *##.cookie-choices-inner
 *##.wiadomoscSocialBig
 *##[class*="rekl"]
+*###js-gdpr-consent-banner
 *##[href*="/ads/"]
 *##[href*="/adv/"]
 *##img[src*="advert"]

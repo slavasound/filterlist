@@ -233,10 +233,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.facebook.com
 0.0.0.0 ads.flurry.com
 0.0.0.0 ads.google.com
+0.0.0.0 main.exdynsrv.com
+0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 ads.mopub.com
 0.0.0.0 ads.msn.com
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads1.msn.com
+0.0.0.0 www.syndication.exdynsrv.com
+0.0.0.0 a.exdynsrv.com
 0.0.0.0 adsdk.yandex.ru
 0.0.0.0 adserver.juicyads.com
 0.0.0.0 adservice.google.ac
@@ -2148,7 +2152,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sejs.moatads.com
 0.0.0.0 self.events.data.microsoft.com
-0.0.0.0 sentry-cdn.com
 0.0.0.0 serv1swork.com
 0.0.0.0 service.piriform.com
 0.0.0.0 service.weather.microsoft.com
