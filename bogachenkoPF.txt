@@ -910,9 +910,10 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! WEBSOCKET END
 
 ! CSP
-*$important,~third-party,csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|waaw1.tv|waaws.tv|hindilinks4uto.com|hqq.tv|freebitco.in|powvideo.net|streamplay.biz|streamplay.to|oload.best|oload.biz|oload.cc|oload.cloud|oload.club|oload.download|oload.fun|oload.info|oload.life|oload.live|oload.monster|oload.press|oload.services|oload.site|oload.space|oload.stream|oload.tv|oload.website|oload.win|oload.party|oladblock.me|oladblock.services|oladblock.xyz|openload.cc|openload.co|openload.fun|openload.pw|openloed.co|akvideo.stream|300mbfilms.io|123moviesgo.nl|123movieshub.gdn|123movieshub.fm|123movieshub.to|123movieshub.cx|bmovie123.me|bmovies123.me|cmovieshd.nl|cmovieshd.bz|cmovieshd.co|cmovieshd.net|fbmovies.org|vidoza.co|vidoza.net|thepiratebay.org
+*$important,~third-party,csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|waaw1.tv|waaws.tv|hindilinks4uto.com|hqq.tv|freebitco.in|powvideo.net|streamplay.biz|streamplay.to|oload.best|oload.biz|oload.cc|oload.cloud|oload.club|oload.download|oload.fun|oload.info|oload.life|oload.live|oload.monster|oload.press|oload.services|oload.site|oload.space|oload.stream|oload.tv|oload.website|oload.win|oload.party|oladblock.me|oladblock.services|oladblock.xyz|openload.cc|openload.co|openload.fun|openload.pw|openloed.co|akvideo.stream|300mbfilms.io|123moviesgo.nl|123movieshub.gdn|123movieshub.fm|123movieshub.to|123movieshub.cx|bmovie123.me|bmovies123.me|cmovieshd.nl|cmovieshd.bz|cmovieshd.co|cmovieshd.net|fbmovies.org|vidoza.co|vidoza.net
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 ||deloplen.com^$important,csp=default-src 'none';
+/(thepirate[\W\w]?bays?|tpb|piratebay(ztemzmv|proxy)|pirate(proxy|bay))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info|cx)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 ! CSP END
 
 ! OTHER
@@ -920,8 +921,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
 ^ping^$third-party
-|http*:$beacon,important
-|http*:$important,ping
+|http*:*$beacon,important
+|http*:*$ping,important
 |http*:*&action=js_stats&$important
 |http*:*/coins.php
 |http*:*/generate_204$important
@@ -1127,7 +1128,7 @@ shon.xyz#@#+js(aopw, NotDet)
 gounlimited.to#@#+js(acis, $, adb)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 ||shon.xyz^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.googletagmanager.com *.googleapis.com;frame-src 'self' *.google.com;connect-src 'self',badfilter
-|https://$script,third-party,domain=shon.xyz|streamvid.co|oload.party|vidoza.net|~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|zippyshare.com|multiup.org|streamplay.to|akvideo.stream,badfilter
+|https://$script,third-party,domain=shon.xyz|streamvid.co|oload.party|vidoza.net|~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|zippyshare.com|multiup.org|streamplay.to|akvideo.stream|thepiratebay.org,badfilter
 |https://$subdocument,third-party,domain=shon.xyz,badfilter
 @@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz,badfilter
 @@||google.com/recaptcha/$script,badfilter
@@ -1147,6 +1148,7 @@ userscloud.com#@#+js(aopw, open)
 bcvc.live#@#+js(window.open-defuser, 0, bcvc)
 *$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net,badfilter
 *$xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
+*$xmlhttprequest,domain=thepiratebay.org,badfilter
 onvista.de#@#+js(nostif, .call(null), 10)
 magesy.*#@#+js(nostif, 0)
 magesy.*,vidcloud.*#@#+js(acis, adBlockDetected)
