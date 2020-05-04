@@ -913,7 +913,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 *$important,~third-party,csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|waaw1.tv|waaws.tv|hindilinks4uto.com|hqq.tv|freebitco.in|powvideo.net|streamplay.biz|streamplay.to|oload.best|oload.biz|oload.cc|oload.cloud|oload.club|oload.download|oload.fun|oload.info|oload.life|oload.live|oload.monster|oload.press|oload.services|oload.site|oload.space|oload.stream|oload.tv|oload.website|oload.win|oload.party|oladblock.me|oladblock.services|oladblock.xyz|openload.cc|openload.co|openload.fun|openload.pw|openloed.co|akvideo.stream|300mbfilms.io|123moviesgo.nl|123movieshub.gdn|123movieshub.fm|123movieshub.to|123movieshub.cx|bmovie123.me|bmovies123.me|cmovieshd.nl|cmovieshd.bz|cmovieshd.co|cmovieshd.net|fbmovies.org|vidoza.co|vidoza.net
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 ||deloplen.com^$important,csp=default-src 'none';
-/^https?:\/\/((\w+)?(hidden|pirate)[-.\w]?bays?([\d\w]+)?|tpb((\d+)?\.\w+)?|pirate(\w{3,12})|proxybays?)([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top|info|cx|name|net|pro|ltd|tech|online|party|guru)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
+/^https?:\/\/((\w+)?(hidden|pi?rate)[-.\w]?bays?([\d\w]+)?|tpb((\d+)?\.\w+)?|pirate[\W\w]{3,12}|proxy(bays?|pirate))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top?|info|cx|name|net|pro|ltd|tech|online|party|guru|vin)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org injections.adguard.org; img-src data: *.ytimg.com *.ggpht.com *.gstatic.com;
 ! CSP END
@@ -1096,7 +1096,7 @@ hqq.*#@#+js(aopr, console.clear)
 upstream.to#@#+js(set, cRAds, null)
 upstream.to#@#+js(aopr, adcashMacros)
 uiz.*#@#+js(acis, $, adBlock)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com,vidcloud9.*,123moviess.*,vidlox.*#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com,vidcloud9.*,123moviess.*,vidlox.*,putlockers.*#@#+js(acis, Math, zfgloaded)
 uiz.*#@#+js(aeld, , popMagic)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 vidcloud9.com#@#+js(aopr, isSandboxed)
@@ -1170,7 +1170,7 @@ magesy.*,majesy.*#@#+js(aopr, disable_copy)
 magesy.*,majesy.*#@#+js(acis, document.addEventListener, reEnable)
 magesy.*,majesy.*#@#*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 ||checkadblock.ru^$csp=script-src 'self',badfilter
-gogoanime.*#@#+js(acis, atob, decodeURIComponent)
+gogoanime.*,vidcloud.*,putlockers.*#@#+js(acis, atob, decodeURIComponent)
 ~animego.biz,animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
 gogoanime.*#@#+js(nostif, o(), 1)
 gogoanime.*,kissasian.*#@#+js(set, check_adblock, true)
@@ -1348,10 +1348,9 @@ readcomiconline.to#@#+js(nostif, callExo)
 readcomiconline.to#@#+js(set, alb, false)
 1movies.*#@#+js(aopw, decodeURIComponent)
 1movies.*#@#+js(set, check_adblock, true)
-1movies.*#@#+js(acis, decodeURI, getScriptFromCss)
+1movies.*,putlockers.*#@#+js(acis, decodeURI, getScriptFromCss)
 1movies.*#@#+js(set, String.prototype.charCodeAt, trueFunc)
 1movies.*#@#+js(set-constant, String.prototype.charCodeAt, trueFunc)
-vidcloud.*#@#+js(acis, atob, decodeURIComponent)
 vidcloud.*#@#+js(aopr, BetterJsPop)
 vidcloud.*#@#+js(aopr, decodeURI)
 ||uppit.com^$csp=script-src 'self' 'unsafe-eval' 'unsafe-inline' data: *.googletagservices.com *.google-analytics.com,badfilter
@@ -1405,3 +1404,6 @@ thepiratebay.org#@#+js(aopr, exoJsPop101)
 @@||apibay.org^$xmlhttprequest,domain=thepiratebay.org,badfilter
 @@||torrindex.net^$script,domain=thepiratebay.org,badfilter
 *$csp=script-src 'self' * 'unsafe-inline',domain=rarbgunblocked.org|rarbgway.org|rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|ibit.to|unblocktheship.org|noobnoob.rocks|nosteamgames.ro|ahoypirate.in|proxyindia.net|mypirate.cc|unblockpirate.uk|superproxy.biz|tpb6.ukpass.co|pirateproxy.ch|proxyfrom.asia|tpb.hid.li|piratebayblocked.com|piratebay1.top|thepiratebay.vip|pirateproxy.live|thehiddenbay.com|cruzing.xyz|tpbproxyone.org|bayception.pw|piratebay.town|superbay.link|pirateproxy.rocks|thepiratebay.kiwi|rarbgto.org|rarbgmirrored.org|rarbgmirror.org|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.xyz|rarbgproxy.org|rarbgprx.org|downloadpirate.com|prox4you.xyz|theproxybay.net|thepiratebay10.org|prox1.info|kickass.vip|torrent9.uno|torrentsearchweb.ws|pirateproxy.app|ukpass.co|prox.icu|proxybay.ga|pirateproxy.life|unblockthe.net,badfilter
+putlockers.*#@#+js(acis, String.fromCharCode, /\/\*[0-9a-f]{40}\*\//)
+putlockers.*#@#+js(acis, parseInt, tabunder)
+||thepiratebay.cr^$csp=child-src 'none';frame-src *;worker-src 'none';,badfilter
