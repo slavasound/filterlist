@@ -57,9 +57,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 
 ! TEST
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
-!/^https?:\/\/[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]{2}\.com$/$script,xmlhttprequest,important,third-party
 /analy(tic?(?:[asx]|sys|tor|js)?)[-.0-9_?&=#/]/$important
-||youtube.com/get_video_info?$xmlhttprequest,important
 ! TEST END
 
 ! SITE
@@ -608,7 +606,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||lockerdome.com^$important,third-party
 ||locprod1-elb-eu-west-1.prod.mozaws.net^
 ||mail-ads.google.com^
-||mail.ru^$important,third-party
+||mail.ru^$important,third-party,domain=~otvet.mail.ru
 ||maribacaberita.com^
 ||mc.yandex.ru^
 ||meaningtool.com^$third-party
@@ -910,7 +908,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! WEBSOCKET END
 
 ! CSP
-*$important,~third-party,csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|waaw1.tv|waaws.tv|hindilinks4uto.com|hqq.tv|freebitco.in|powvideo.net|streamplay.biz|streamplay.to|oload.best|oload.biz|oload.cc|oload.cloud|oload.club|oload.download|oload.fun|oload.info|oload.life|oload.live|oload.monster|oload.press|oload.services|oload.site|oload.space|oload.stream|oload.tv|oload.website|oload.win|oload.party|oladblock.me|oladblock.services|oladblock.xyz|openload.cc|openload.co|openload.fun|openload.pw|openloed.co|akvideo.stream|300mbfilms.io|123moviesgo.nl|123movieshub.gdn|123movieshub.fm|123movieshub.to|123movieshub.cx|bmovie123.me|bmovies123.me|cmovieshd.nl|cmovieshd.bz|cmovieshd.co|cmovieshd.net|fbmovies.org|vidoza.co|vidoza.net
+*$important,~third-party,csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=powvldeo.me|powvldeo.cc|powvldeo.co|powvldeo.net|povvideo.net|waaw.tv|waaw1.tv|waaws.tv|hindilinks4uto.com|hqq.tv|freebitco.in|powvideo.net|streamplay.biz|streamplay.to|oload.best|oload.biz|oload.cc|oload.cloud|oload.club|oload.download|oload.fun|oload.info|oload.life|oload.live|oload.monster|oload.press|oload.services|oload.site|oload.space|oload.stream|oload.tv|oload.website|oload.win|oload.party|oladblock.me|oladblock.services|oladblock.xyz|openload.cc|openload.co|openload.fun|openload.pw|openloed.co|akvideo.stream|300mbfilms.io|123moviesgo.nl|123movieshub.gdn|123movieshub.fm|123movieshub.to|123movieshub.cx|bmovie123.me|bmovies123.me|cmovieshd.nl|cmovieshd.bz|cmovieshd.co|cmovieshd.net|fbmovies.org|vidoza.co|vidoza.net|ffmovies.ru
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 ||deloplen.com^$important,csp=default-src 'none';
 /^https?:\/\/((\w+)?(hidden|pi?rate)[-.\w]?bays?([\d\w]+)?|tpb((\d+)?\.\w+)?|pirate[\W\w]{3,12}|proxy(bays?|pirate))([0-9]{1,2})?\.(org|vip|kiwi|se|ee|cr|oni(on)?|com?|wtf|zone|live|xyz|top?|info|cx|name|net|pro|ltd|tech|online|party|guru|vin)/$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
@@ -1034,8 +1032,9 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||seasonvar.ru/uppod/*.xml|$xmlhttprequest
 ||twitter.com/*/jot/client_event.json$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
-||youtube.com/get_midroll_info^$important,xmlhttprequest
-||youtube.com/get_video_info?*el=adunit$important,xmlhttprequest
+||youtube.com/get_midroll_info?$important,xmlhttprequest
+||youtube.com/get_video_info?$xmlhttprequest,important
+||streamalloha.live/*.vtt|$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
