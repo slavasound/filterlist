@@ -147,7 +147,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 2542116.fls.doubleclick.net
 0.0.0.0 3642305.fls.doubleclick.net
 0.0.0.0 3765329.fls.doubleclick.net
+0.0.0.0 m.2mdn.net
+0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 4053494.fls.doubleclick.net
+0.0.0.0 scorecardresearch.com
+0.0.0.0 push.services.mozilla.com
+0.0.0.0 n161adserv.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 applvn.com
 0.0.0.0 4236808.fls.doubleclick.net
 0.0.0.0 4360661.fls.doubleclick.net
 0.0.0.0 4488352.fls.doubleclick.net
@@ -1334,11 +1341,77 @@ ff02::3 ip6-allhosts
 0.0.0.0 app-measurement.com
 0.0.0.0 vid.applovin.com
 0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 ad.admixer.net
+0.0.0.0 admixer.net
+0.0.0.0 cdn.admixer.net
+0.0.0.0 insiderservice.microsoft.com
+0.0.0.0 inv-nets.admixer.net
+0.0.0.0 ua2.admixer.net
+0.0.0.0 ua2cdn.admixer.net
+0.0.0.0 ua3cdn.admixer.net
+0.0.0.0 uacdn.admixer.net
+0.0.0.0 umwatsonc.events.data.microsoft.com
+0.0.0.0 wns.windows.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 bench.utorrent.com
+0.0.0.0 id.l.google.com
+0.0.0.0 settings-win-ppe.data.microsoft.com
+0.0.0.0 settings.data.glbdns2.microsoft.com
+0.0.0.0 settings.data.microsof.com
+0.0.0.0 settings.data.microsoft.com
+0.0.0.0 sg2p.wns.windows.com
+0.0.0.0 www.adservices.google.com
+0.0.0.0 www.analytic-google.com
+0.0.0.0 2mdn.net
+0.0.0.0 m.de.2mdn.net
+0.0.0.0 m.fr.2mdn.net
+0.0.0.0 m.uk.2mdn.net
+0.0.0.0 s0-2mdn-net.l.google.com
+0.0.0.0 s1.2mdn.net
+0.0.0.0 static.2mdn.net
+0.0.0.0 twx.2mdn.net
+0.0.0.0 utclient.utorrent.com
+0.0.0.0 static.googleadsserving.cn
+0.0.0.0 googleadsserving.cn
+0.0.0.0 googletagmanager.com
+0.0.0.0 www-google-analytics.l.google.com
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 googletagservices.com
+0.0.0.0 gplayer.kmpmedia.net
+0.0.0.0 grant.reward.brave.com
+0.0.0.0 graph.windows.net
+0.0.0.0 browser.events.data.microsoft.com
+0.0.0.0 api.cortana.ai
+0.0.0.0 activity.windows.com
+0.0.0.0 alpha.telemetry.microsoft.com
+0.0.0.0 geo.settings.data.microsoft.com.akadns.net
+0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
+0.0.0.0 urs.microsoft.com
+0.0.0.0 us-v10.events.data.microsoft.com
+0.0.0.0 us-v20.events.data.microsoft.com
+0.0.0.0 events.data.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 settings.data.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 v20c.events.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 malware-error.mozilla.com
+0.0.0.0 malware-report.mozilla.com
+0.0.0.0 license.piriform.com
+0.0.0.0 licensing.mp.microsoft.com
 
-
-
-
-
+0.0.0.0 v10-win.vortex.data.microsft.com.akadns.net
+0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v10c.vortex-win.data.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 v20.vortex-win.data.microsoft.com
 
 
 
