@@ -912,7 +912,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||deloplen.com^$important,csp=default-src 'none';
 /^https?:\/\/(ww(w|\d+)\.)?((\w+)?(hidden|pi?rate?)[-.\w]?[dbw]a(ys?|i)([\d\w]+)?|tpb((\d+)?[-.]?\w+)?|(\w+)?pirate[\W\w]{3,12}|(\w+)?prox(y|ies?)[\W\w]{3,15}|weareproxylist|uj3wazyk5u4hnvtk|torrentscan|([\d\w\W]+)?the([\d\w\W]+)?pirate([\d\w\W]+)?bays?)(\d+)?\.[a-z.]+\//$important,csp=script-src 'self' 'unsafe-inline' local.adguard.org injections.adguard.org; worker-src 'none'; child-src 'none'; frame-src *;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org;
-||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.youtube.com *.google.com *.gstatic.com *.googleapis.com local.adguard.org injections.adguard.org; img-src data: *.ytimg.com *.ggpht.com *.gstatic.com;
 ! CSP END
 
 ! OTHER
@@ -1033,7 +1032,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||twitter.com/*/jot/client_event.json$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
-||youtube.com/get_video_info?$xmlhttprequest,important
 ||streamalloha.live/*.vtt|$xmlhttprequest
 ! XMLHTTPREQUEST END
 
