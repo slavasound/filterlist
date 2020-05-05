@@ -924,7 +924,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*&action=js_stats&$important
 |http*:*/coins.php
 |http*:*/generate_204$important
-|http*:*/pagead/
+|http*:*/pagead/$important
 ||ad.
 ||ads-sdk.
 ||ads.
