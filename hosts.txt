@@ -1403,7 +1403,32 @@ ff02::3 ip6-allhosts
 0.0.0.0 malware-report.mozilla.com
 0.0.0.0 license.piriform.com
 0.0.0.0 licensing.mp.microsoft.com
-
+0.0.0.0 log.kmplayer.com
+0.0.0.0 logx.optimizely.com
+0.0.0.0 propellerclick.com
+0.0.0.0 ssl-google-analytics.l.google.com
+0.0.0.0 modern.watson.data.microsoft.com.akadns.net
+0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
+0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 geo.settings.data.microsoft.com.akadns.net
+0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
+0.0.0.0 en-us.appex-rf.msn.com
+0.0.0.0 eu-v10.events.data.microsoft.com
+0.0.0.0 eu-v20.events.data.microsoft.com
+0.0.0.0 europe.smartscreen-prod.microsoft.com
+0.0.0.0 cdn.kmplayer.com
+0.0.0.0 cdn.n161adserv.com
+0.0.0.0 bench.utorrent.com
+0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
+0.0.0.0 analytics.ns1.ff.avast.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 analytics.msn.com
+0.0.0.0 activation-v2.sls.microsoft.com
+0.0.0.0 activation.sls.microsoft.com
+0.0.0.0 activity-stream-icons.services.mozilla.com
+0.0.0.0 activity.windows.com
+0.0.0.0 cdn.pandora.tv
+0.0.0.0 client-event-reporter.twitch.tv
 0.0.0.0 v10-win.vortex.data.microsft.com.akadns.net
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 v10.events.data.microsoft.com
@@ -1412,13 +1437,3 @@ ff02::3 ip6-allhosts
 0.0.0.0 v10c.vortex-win.data.microsoft.com
 0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 v20.vortex-win.data.microsoft.com
-
-
-
-
-
-
-
-
-
-

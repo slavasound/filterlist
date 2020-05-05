@@ -963,6 +963,9 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||telemetry.
 ||trackclick*.
 ||tracking*.
+||log.
+||logs.
+||logx.
 ||undefined^
 ! OTHER END
 
