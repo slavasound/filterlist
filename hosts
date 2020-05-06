@@ -581,6 +581,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a2.torrentstream.net
 0.0.0.0 a2.torrentstream.org
 0.0.0.0 a3.torrentstream.info
+0.0.0.0 start.parimatchru.com
+0.0.0.0 main.zdevx.yandex.ru
+0.0.0.0 zdevx.yandex.ru
 0.0.0.0 a3.torrentstream.net
 0.0.0.0 a3.torrentstream.org
 0.0.0.0 a4.torrentstream.info
@@ -605,7 +608,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 id.google.ae
 0.0.0.0 id.google.al
 0.0.0.0 id.google.am
+0.0.0.0 admixercreatives.blob.core.windows.net
+0.0.0.0 admixer-st.cdn.ngenix.net
 0.0.0.0 id.google.as
+0.0.0.0 falconv.r.acdnpro.com
 0.0.0.0 id.google.at
 0.0.0.0 id.google.az
 0.0.0.0 id.google.ba
