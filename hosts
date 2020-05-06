@@ -1295,22 +1295,38 @@ ff02::3 ip6-allhosts
 0.0.0.0 bs.yandex.ru
 0.0.0.0 http-check-headers.yandex.ru
 0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 ad.adriver.ru
 0.0.0.0 ip-info.ns1.ff.avast.com
 0.0.0.0 ipm-provider.ff.avast.com
 0.0.0.0 ipm-provider.ns1.ff.avast.com
+0.0.0.0 tags.adriver.ru
+0.0.0.0 content.adriver.ru
+0.0.0.0 ssp.adriver.ru
+0.0.0.0 ua.adriver.ru
+0.0.0.0 ua-content.adriver.ru
+0.0.0.0 adriver.ru
 0.0.0.0 jstracer.yandex.ru
 0.0.0.0 mc.yandex.ru
+0.0.0.0 cdn01.nativeroll.tv
+0.0.0.0 nativeroll.tv
 0.0.0.0 redirect.appmetrica.yandex.ru
 0.0.0.0 kiks.yandex.ru
 0.0.0.0 mc.webvisor.com
 0.0.0.0 mc.webvisor.org
+0.0.0.0 e7.skwstat.ru
+0.0.0.0 skwstat.ru
+0.0.0.0 e3.skwstat.ru
+0.0.0.0 pl.skwstat.ru
 0.0.0.0 mine.torrent.pw
+0.0.0.0 www.partnetcoll.github.io
+0.0.0.0 partnetcoll.github.io
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 mobile.webvisor.com
 0.0.0.0 startup.mobile.webvisor.com
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 ads.adfox.ru
+0.0.0.0 e6.skwstat.ru
 0.0.0.0 banners.adfox.ru
 0.0.0.0 gazeta.adfox.ru
 0.0.0.0 rq.adfox.ru
@@ -1459,27 +1475,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 wns.notify.windows.com.akadns.net
 0.0.0.0 www.api.ad.xiaomi.com
 0.0.0.0 www.ccleaner.com
-0.0.0.0 browser.sentry-cdn.com * block
-0.0.0.0 d2wy8f7a9ursnm.cloudfront.net * block
-0.0.0.0 sentry-cdn.com * block
-0.0.0.0 sessions.bugsnag.com * block
-0.0.0.0 static.hotjar.com * block
-0.0.0.0 analytics.getaim.info * block
-0.0.0.0 ankunding.biz * block
-0.0.0.0 cs10.semi-cod.com * block
-0.0.0.0 cs11.semi-cod.com * block
-0.0.0.0 getaim.info * block
-0.0.0.0 hls-c1.s2w3.space * block
-0.0.0.0 partnercoll.github.io * block
-0.0.0.0 pjstat.com * block
-0.0.0.0 reichelcormier.bid * block
-0.0.0.0 s2w3.space * block
-0.0.0.0 semi-cod.com * block
-0.0.0.0 v.vn.ankunding.biz * block
-0.0.0.0 v2.pjstat.com * block
-0.0.0.0 vidroll.ru * block
-0.0.0.0 vn.ankunding.biz * block
-0.0.0.0 webvisor.org * block
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
+0.0.0.0 sentry-cdn.com
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 static.hotjar.com
+0.0.0.0 analytics.getaim.info
+0.0.0.0 ankunding.biz
+0.0.0.0 cs10.semi-cod.com
+0.0.0.0 cs11.semi-cod.com
+0.0.0.0 getaim.info
+0.0.0.0 hls-c1.s2w3.space
+0.0.0.0 partnercoll.github.io
+0.0.0.0 pjstat.com
+0.0.0.0 reichelcormier.bid
+0.0.0.0 s2w3.space
+0.0.0.0 semi-cod.com
+0.0.0.0 v.vn.ankunding.biz
+0.0.0.0 v2.pjstat.com
+0.0.0.0 vidroll.ru
+0.0.0.0 vn.ankunding.biz
+0.0.0.0 webvisor.org
 0.0.0.0 uhf.microsoft.com
 0.0.0.0 www.notmining.org
 0.0.0.0 www.pagead-googlehosted.l.google.com
