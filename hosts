@@ -21,11 +21,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 aax-cpm.amazon-adsystem.com
 0.0.0.0 aax-eu-rtb-adx.amazon-adsystem.com
 0.0.0.0 aax-eu-rtb.amazon-adsystem.com
+0.0.0.0 ankunding.biz
+0.0.0.0 v.ankunding.biz
+0.0.0.0 yv.ankunding.biz
+0.0.0.0 cdn.ankunding.biz
 0.0.0.0 aax-eu-test1.amazon-adsystem.com
 0.0.0.0 aax-eu.amazon-adsystem.com
 0.0.0.0 aax-fe-pek.amazon-adsystem.com
 0.0.0.0 aax-fe-sin-rtb-adx.amazon-adsystem.com
 0.0.0.0 aax-fe-sin-rtb.amazon-adsystem.com
+0.0.0.0 www.msftconnecttest.com
 0.0.0.0 aax-fe-sin.amazon-adsystem.com
 0.0.0.0 aax-fe.amazon-adsystem.com
 0.0.0.0 aax-opf-us-east.amazon-adsystem.com
@@ -1454,6 +1459,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 wns.notify.windows.com.akadns.net
 0.0.0.0 www.api.ad.xiaomi.com
 0.0.0.0 www.ccleaner.com
+0.0.0.0 browser.sentry-cdn.com * block
+0.0.0.0 d2wy8f7a9ursnm.cloudfront.net * block
+0.0.0.0 sentry-cdn.com * block
+0.0.0.0 sessions.bugsnag.com * block
+0.0.0.0 static.hotjar.com * block
+0.0.0.0 analytics.getaim.info * block
+0.0.0.0 ankunding.biz * block
+0.0.0.0 cs10.semi-cod.com * block
+0.0.0.0 cs11.semi-cod.com * block
+0.0.0.0 getaim.info * block
+0.0.0.0 hls-c1.s2w3.space * block
+0.0.0.0 partnercoll.github.io * block
+0.0.0.0 pjstat.com * block
+0.0.0.0 reichelcormier.bid * block
+0.0.0.0 s2w3.space * block
+0.0.0.0 semi-cod.com * block
+0.0.0.0 v.vn.ankunding.biz * block
+0.0.0.0 v2.pjstat.com * block
+0.0.0.0 vidroll.ru * block
+0.0.0.0 vn.ankunding.biz * block
+0.0.0.0 webvisor.org * block
 0.0.0.0 uhf.microsoft.com
 0.0.0.0 www.notmining.org
 0.0.0.0 www.pagead-googlehosted.l.google.com
@@ -1486,6 +1512,105 @@ ff02::3 ip6-allhosts
 0.0.0.0 musicsearch.ubuntu.com
 0.0.0.0 pagead-googlehosted.l.google.com
 0.0.0.0 pricelist.skype.com
+0.0.0.0 ip174218013.v.ankunding.biz
+0.0.0.0 ip40327515.v.ankunding.biz
+0.0.0.0 ip166476508.v.ankunding.biz
+0.0.0.0 ip142236443.v.ankunding.biz
+0.0.0.0 ip50610635.v.ankunding.biz
+0.0.0.0 ip173084304.v.ankunding.biz
+0.0.0.0 ip174218319.v.ankunding.biz
+0.0.0.0 ip166251509.v.ankunding.biz
+0.0.0.0 ip166478965.v.ankunding.biz
+0.0.0.0 ip173084098.v.ankunding.biz
+0.0.0.0 ip174217983.v.ankunding.biz
+0.0.0.0 ip173084357.v.ankunding.biz
+0.0.0.0 ip174213043.v.ankunding.biz
+0.0.0.0 ip180870463.v.ankunding.biz
+0.0.0.0 ip179705024.v.ankunding.biz
+0.0.0.0 ip166475021.v.ankunding.biz
+0.0.0.0 ip46462541.v.ankunding.biz
+0.0.0.0 ip50610633.v.ankunding.biz
+0.0.0.0 ip173124022.v.ankunding.biz
+0.0.0.0 ip58346199.v.ankunding.biz
+0.0.0.0 ip166474736.v.ankunding.biz
+0.0.0.0 ip166478126.v.ankunding.biz
+0.0.0.0 ip170594652.v.ankunding.biz
+0.0.0.0 ip170594515.v.ankunding.biz
+0.0.0.0 ip170594818.v.ankunding.biz
+0.0.0.0 ip173084552.v.ankunding.biz
+0.0.0.0 ip166476161.v.ankunding.biz
+0.0.0.0 ip50609359.v.ankunding.biz
+0.0.0.0 ip173084586.v.ankunding.biz
+0.0.0.0 ip107953010.v.ankunding.biz
+0.0.0.0 ip167795935.v.ankunding.biz
+0.0.0.0 ip50609751.v.ankunding.biz
+0.0.0.0 ip174213346.v.ankunding.biz
+0.0.0.0 ip174214599.v.ankunding.biz
+0.0.0.0 ip40327384.v.ankunding.biz
+0.0.0.0 ip58344948.v.ankunding.biz
+0.0.0.0 ip58344821.v.ankunding.biz
+0.0.0.0 ip127619337.v.ankunding.biz
+0.0.0.0 ip174213373.v.ankunding.biz
+0.0.0.0 ip179558684.v.ankunding.biz
+0.0.0.0 ip179545061.v.ankunding.biz
+0.0.0.0 ip173084582.v.ankunding.biz
+0.0.0.0 ip174216077.v.ankunding.biz
+0.0.0.0 ip179565648.v.ankunding.biz
+0.0.0.0 ip181617053.v.ankunding.biz
+0.0.0.0 ip68744528.v.ankunding.biz
+0.0.0.0 ip115037890.v.ankunding.biz
+0.0.0.0 ip170595213.v.ankunding.biz
+0.0.0.0 ip40327320.v.ankunding.biz
+0.0.0.0 ip166475220.v.ankunding.biz
+0.0.0.0 ip107182234.v.ankunding.biz
+0.0.0.0 ip179677142.v.ankunding.biz
+0.0.0.0 ip170595217.v.ankunding.biz
+0.0.0.0 ip174216104.v.ankunding.biz
+0.0.0.0 ip174214498.v.ankunding.biz
+0.0.0.0 ip166251505.v.ankunding.biz
+0.0.0.0 ip167815445.v.ankunding.biz
+0.0.0.0 ip174214570.v.ankunding.biz
+0.0.0.0 ip173084544.v.ankunding.biz
+0.0.0.0 ip174213074.v.ankunding.biz
+0.0.0.0 ip179547572.v.ankunding.biz
+0.0.0.0 ip179558931.v.ankunding.biz
+0.0.0.0 ip184569729.v.ankunding.biz
+0.0.0.0 ip110123428.v.ankunding.biz
+0.0.0.0 ip30103474.v.ankunding.biz
+0.0.0.0 ip74466731.v.ankunding.biz
+0.0.0.0 ip89240929.v.ankunding.biz
+0.0.0.0 ip68745397.v.ankunding.biz
+0.0.0.0 ip174218099.v.ankunding.biz
+0.0.0.0 ip57747949.v.ankunding.biz
+0.0.0.0 ip166478459.v.ankunding.biz
+0.0.0.0 ip29516639.v.ankunding.biz
+0.0.0.0 ip166477849.v.ankunding.biz
+0.0.0.0 ip167792178.v.ankunding.biz
+0.0.0.0 vip154929937.v.ankunding.biz
+0.0.0.0 ip173084560.v.ankunding.biz
+0.0.0.0 ip68744526.v.ankunding.biz
+0.0.0.0 ip163199966.v.ankunding.biz
+0.0.0.0 ip154929935.v.ankunding.biz
+0.0.0.0 ip166478230.v.ankunding.biz
+0.0.0.0 ip107321499.v.ankunding.biz
+0.0.0.0 ip167792254.v.ankunding.biz
+0.0.0.0 ip166474512.v.ankunding.biz
+0.0.0.0 ip50609930.v.ankunding.biz
+0.0.0.0 ip112017250.v.ankunding.biz
+0.0.0.0 ip166476835.v.ankunding.biz
+0.0.0.0 ip107321568.v.ankunding.biz
+0.0.0.0 ip58076907.v.ankunding.biz
+0.0.0.0 ip7066872.v.ankunding.biz
+0.0.0.0 ip58018826.v.ankunding.biz
+0.0.0.0 ip50657824.v.ankunding.biz
+0.0.0.0 ip144931436.v.ankunding.biz
+0.0.0.0 ip58076909.v.ankunding.biz
+0.0.0.0 ip154932594.v.ankunding.biz
+0.0.0.0 ip144161919.v.ankunding.biz
+0.0.0.0 ip50657911.v.ankunding.biz
+0.0.0.0 ip58076427.v.ankunding.biz
+0.0.0.0 ip53816599.v.ankunding.biz
+0.0.0.0 ip58018822.v.ankunding.biz
 0.0.0.0 download.skype.com
 0.0.0.0 adriver.ru
 0.0.0.0 apps.skype.com
@@ -1505,3 +1630,88 @@ ff02::3 ip6-allhosts
 0.0.0.0 qawww.skypeassets.net
 0.0.0.0 serving.plexop.net
 0.0.0.0 static.skypeassets.com
+0.0.0.0 ip30192601.v.ankunding.biz
+0.0.0.0 ip57747888.yv.ankunding.biz
+0.0.0.0 ip14493479.v.ankunding.biz
+0.0.0.0 ip113937456.yv.ankunding.biz
+0.0.0.0 ip111115794.v.ankunding.biz
+0.0.0.0 ip30103482.v.ankunding.biz
+0.0.0.0 ip74318250.yv.ankunding.biz
+0.0.0.0 ip88780651.v.ankunding.biz
+0.0.0.0 ip51435218.v.ankunding.biz
+0.0.0.0 ip54627667.v.ankunding.biz
+0.0.0.0 ip35450292.yv.ankunding.biz
+0.0.0.0 ip58076905.yv.ankunding.biz
+0.0.0.0 ip115037890.v.ankunding.biz
+0.0.0.0 ip40327320.yv.ankunding.biz
+0.0.0.0 ip115038996.v.ankunding.biz
+0.0.0.0 ip112034318.v.ankunding.biz
+0.0.0.0 ip107402208.v.ankunding.biz
+0.0.0.0 ip107321552.v.ankunding.biz
+0.0.0.0 ip59439208.v.ankunding.biz
+0.0.0.0 ip53972759.v.ankunding.biz
+0.0.0.0 ip113359441.v.ankunding.biz
+0.0.0.0 ip173084582.v.ankunding.biz
+0.0.0.0 ip173084560.v.ankunding.biz
+0.0.0.0 ip174213346.v.ankunding.biz
+0.0.0.0 ip174214522.yv.ankunding.biz
+0.0.0.0 ip40327384.v.ankunding.biz
+0.0.0.0 ip167792254.v.ankunding.biz
+0.0.0.0 ip58344821.yv.ankunding.biz
+0.0.0.0 ip58346199.yv.ankunding.biz
+0.0.0.0 ip107321499.v.ankunding.biz
+0.0.0.0 ip166474512.v.ankunding.biz
+0.0.0.0 ip166476835.v.ankunding.biz
+0.0.0.0 ip107321568.v.ankunding.biz
+0.0.0.0 ip58018826.v.ankunding.biz
+0.0.0.0 ip50657824.v.ankunding.biz
+0.0.0.0 ip142236443.v.ankunding.biz
+0.0.0.0 ip154932594.v.ankunding.biz
+0.0.0.0 ip50657911.v.ankunding.biz
+0.0.0.0 ip53816599.v.ankunding.biz
+0.0.0.0 ip58018822.v.ankunding.biz
+0.0.0.0 ip14493479.yv.ankunding.biz
+0.0.0.0 ip107182234.v.ankunding.biz
+0.0.0.0 ip107941621.v.ankunding.biz
+0.0.0.0 ip110139022.v.ankunding.biz
+0.0.0.0 ip58344948.v.ankunding.biz
+0.0.0.0 ip54664433.v.ankunding.biz
+0.0.0.0 ip53816601.v.ankunding.biz
+0.0.0.0 ip58344821.v.ankunding.biz
+0.0.0.0 ip53816679.v.ankunding.biz
+0.0.0.0 ip127619341.v.ankunding.biz
+0.0.0.0 ip144161919.v.ankunding.biz
+0.0.0.0 ip57747842.v.ankunding.biz
+0.0.0.0 ip58018824.v.ankunding.biz
+0.0.0.0 ip107941647.v.ankunding.biz
+0.0.0.0 ip144161416.v.ankunding.biz
+0.0.0.0 ip58076427.v.ankunding.biz
+0.0.0.0 ip107182236.v.ankunding.biz
+0.0.0.0 ip59439391.v.ankunding.biz
+0.0.0.0 ip122473597.v.ankunding.biz
+0.0.0.0 ip122594751.v.ankunding.biz
+0.0.0.0 ip59438817.v.ankunding.biz
+0.0.0.0 ip53816683.v.ankunding.biz
+0.0.0.0 ip40327320.v.ankunding.biz
+0.0.0.0 ip68744527.v.ankunding.biz
+0.0.0.0 ip107941661.v.ankunding.biz
+0.0.0.0 ip58076905.v.ankunding.biz
+0.0.0.0 ip110123428.v.ankunding.biz
+0.0.0.0 ip142234873.v.ankunding.biz
+0.0.0.0 ip107311771.v.ankunding.biz
+0.0.0.0 ip35450292.v.ankunding.biz
+0.0.0.0 ip7066872.v.ankunding.biz
+0.0.0.0 ip107941529.v.ankunding.biz
+0.0.0.0 ip113937990.yv.ankunding.biz
+0.0.0.0 ip107701265.v.ankunding.biz
+0.0.0.0 ip58017197.v.ankunding.biz
+0.0.0.0 ip58017199.v.ankunding.biz
+0.0.0.0 ip89240929.v.ankunding.biz
+0.0.0.0 ip107941964.v.ankunding.biz
+0.0.0.0 ip131934823.v.ankunding.biz
+0.0.0.0 ip58076907.v.ankunding.biz
+0.0.0.0 ip113937456.v.ankunding.biz
+0.0.0.0 ip131934727.v.ankunding.biz
+0.0.0.0 ip58076909.v.ankunding.biz
+0.0.0.0 ip58076429.v.ankunding.biz
+0.0.0.0 ip115037890.yv.ankunding.biz
