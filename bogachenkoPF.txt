@@ -617,6 +617,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||mixi.jp^$important,third-party
 ||mixpanel.com^
 ||moatads.com^
+||semantiqo.com^
+||lf1.mail.ru^
 ||mobileapptracking.com^
 ||mobpartner.*^
 ||mobpowertech.com^
