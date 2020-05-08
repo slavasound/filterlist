@@ -58,7 +58,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! WHITELIST END
 
 ! TEST
-!
+/[-._?&=#/]ads[-._?&=#/]/$script,xmlhttprequest,other,subdocument,important
 ! TEST END
 
 ! SITE
@@ -818,6 +818,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 |http*:*/transparent.gif?ray=$image
 ||freebitco.in/images/sirv_backup/*.jpeg$image
 ||mail.yandex.*/monitoring_liza.txt$image,important
+/\/[a-zA-Z]{5,}[Pp]i?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important
 ! IMAGE END
 
 ! POP-UP
@@ -851,6 +852,7 @@ peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz,waaw.tv,hindilinks4uto.com,hqq.tv,waaws.*,waaw1.tv##+js(contextmenudef.js)
 wstream.*##+js(nostif, debugger)
+zloekino.ru##+js(cookie-remover.js)
 ! SCRIPTLET END
 
 ! CSS
@@ -1001,6 +1003,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/ads?\/(middle|bottom|right|top|left)\.html?\?/$important,subdocument
 ||deviants.com/player/html.php$subdocument
 ||yastatic.net/tableau/tableau.html$subdocument
+||redditmedia.com/gtm/jail?$subdocument
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -1049,6 +1052,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
 ||streamalloha.live/*.vtt|$xmlhttprequest
+||reddit.com/timings/$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
@@ -1067,10 +1071,11 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument,xmlhttprequest
 /^(?!.*((injections|local)\.adguard\.org|(gstatic|jwpcdn|jwplayer|bootstrapcdn|cloudflare|google|jquery|rawgit)\.com|(iamcdn|recaptcha|jsdelivr|fastly|hwcdn)\.net|mystream\.to)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
-/analy(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
+/[Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
+/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1339,7 +1344,7 @@ tunovelaligera.com##+js(abort-current-inline-script.js, jQuery, oncontextmenu)
 tunovelaligera.com##+js(abort-on-property-read.js, add_message_to_copied_text)
 tunovelaligera.com##+js(abort-on-property-read.js, contentprotector)
 tunovelaligera.com##+js(nostif, mdp_deblocker)
-twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐')]/../../../../..)
+twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
 uii.io#@#+js(aeld, mouseup, _blank)
 uii.io#@#+js(aopr, adk_pdisp)
 uiz.*#@#+js(acis, $, adBlock)
@@ -1446,3 +1451,5 @@ wstream.*#@#+js(std, height)
 ||uptobox.com^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com,badfilter
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.4cdn.org *.4channel.org,badfilter
 ||4chan.org^$csp=connect-src https: http:,badfilter
+twitter.com#@#span:has-text(/^推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション$/):upward(5)
+usatoday.com#@#+js(aopr, _sp_._networkListenerData)
