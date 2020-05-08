@@ -934,7 +934,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ^ping^$third-party
 |http*:*$beacon,important
 |http*:*$ping,important
-|http*:*&action=js_stats&$important
 |http*:*/coins.php
 |http*:*/generate_204$important
 |http*:*/pagead/$important
@@ -1071,6 +1070,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /analy(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
+/[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1444,3 +1444,5 @@ wstream.*#@#+js(std, height)
 ||zencdn.net^$badfilter
 ~animego.biz,animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
 ||uptobox.com^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com,badfilter
+||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.4cdn.org *.4channel.org,badfilter
+||4chan.org^$csp=connect-src https: http:,badfilter

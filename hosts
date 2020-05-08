@@ -18,6 +18,18 @@ ff02::3 ip6-allhosts
 
 0.0.0.0 1faax-us-east.amazon-adsystem.com
 0.0.0.0 aan.amazon-adsystem.com
+0.0.0.0 a.adtng.com
+0.0.0.0 adserver.juicyads.com
+0.0.0.0 adtng.com
+0.0.0.0 analytic.press
+0.0.0.0 app.link
+0.0.0.0 cdn.pljs.ru
+0.0.0.0 juicyads.com
+0.0.0.0 mmstat.com
+0.0.0.0 pljs.ru
+0.0.0.0 r.analytic.press
+0.0.0.0 ru.mmstat.com
+0.0.0.0 vifog.com
 0.0.0.0 aax-cpm.amazon-adsystem.com
 0.0.0.0 aax-eu-rtb-adx.amazon-adsystem.com
 0.0.0.0 aax-eu-rtb.amazon-adsystem.com
@@ -1918,6 +1930,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ip167815445.v.ankunding.biz
 0.0.0.0 ip174214570.v.ankunding.biz
 0.0.0.0 ip173084544.v.ankunding.biz
+0.0.0.0 adskeeper.co.uk
+0.0.0.0 hadslimz.com
+0.0.0.0 jsc.adskeeper.co.uk
 0.0.0.0 ip174213074.v.ankunding.biz
 0.0.0.0 ip179547572.v.ankunding.biz
 0.0.0.0 ip179558931.v.ankunding.biz
