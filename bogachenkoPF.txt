@@ -526,7 +526,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||googleadservices.*^$important
 ||googleadsserving.cn^$important
 ||googleanalytics.com^$important
-||googlesyndication.com^
+||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
 ||gplayer.kmpmedia.net^
@@ -546,7 +546,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||iibingo.com^
 ||illicium.web.money^
 ||image.uc.cn^
-||imasdk.googleapis.com^
+||imasdk.googleapis.com^$important
 ||imonomy.com^
 ||impactradius.com^
 ||imrworldwide.com^
@@ -623,6 +623,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||mobpartner.*^
 ||mobpowertech.com^
 ||monit.limehd.tv^
+||info.limehd.tv^
 ||mookie1.com^
 ||mopub.com^
 ||moscow-67.cdn77.com^
@@ -926,7 +927,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*&action=js_stats&$important
 |http*:*/coins.php
 |http*:*/generate_204$important
-|http*:*/pagead/$important
+|http*:*/pagead/
 ||ad.
 ||ads-sdk.
 ||ads.
@@ -977,6 +978,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/*.gif|$document,domain=~github.com|~githubusercontent.com|~imgur.com|~wikimedia.org
 |http*:*/redirect.html$document
 ||blocked.mts.ru^$document
+||wrongurl.mts.ru^$document
 ||browser.yandex.ru^$~document
 ||click.$document
 ||easylist-downloads.adblockplus.org/exceptionrules.txt|$document
@@ -1054,7 +1056,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)\?[a-z]{1}\=/$image,important,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,other,script,third-party
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument,xmlhttprequest
-/^(?!.*((injections|local)\.adguard\.org|(gstatic|jwpcdn|jwplayer|bootstrapcdn|cloudflare|google|jquery|rawgit)\.com|(iamcdn|recaptcha|jsdelivr)\.net|mystream\.to)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com
+/^(?!.*((injections|local)\.adguard\.org|(gstatic|jwpcdn|jwplayer|bootstrapcdn|cloudflare|google|jquery|rawgit)\.com|(iamcdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 /analy(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
@@ -1086,6 +1088,7 @@ ffmovies.ru#@#+js(acis, parseInt, incrementClicks)
 nxload.com#@#+js(aopr, adb)
 upfordown.xyz#@#+js(acis, addEventListener, google_ad_client)
 uiz.*#@#+js(aopr, HTMLElement)
+*$script,third-party,domain=kissanime.ru,badfilter
 kissasian.*#@#+js(acis, document.getElementById, padsplayer)
 kissasian.sh,letsupload.co,uploadever.com#@#+js(aopr, Date.prototype.toUTCString)
 uiz.*#@#+js(aopr, NaConf)
@@ -1135,7 +1138,7 @@ shon.xyz#@#+js(aopw, NotDet)
 gounlimited.to#@#+js(acis, $, adb)
 ||shon.xyz^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation,badfilter
 ||shon.xyz^$csp=script-src 'self' 'unsafe-inline' *.gstatic.com *.google.com *.googletagmanager.com *.googleapis.com;frame-src 'self' *.google.com;connect-src 'self',badfilter
-|https://$script,3p,domain=ffmovies.ru,badfilter
+|https://$script,third-party,domain=ffmovies.ru,badfilter
 |https://$subdocument,third-party,domain=shon.xyz,badfilter
 @@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz,badfilter
 @@||google.com/recaptcha/$script,badfilter
@@ -1364,9 +1367,10 @@ vidcloud.*#@#+js(aopr, decodeURI)
 ||uqload.com^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.googletagmanager.com *.amung.us,badfilter
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com,badfilter
 waaw.tv#@#+js(set, console.clear, trueFunc)
-@@||hqq.tv^$xmlhttprequest,1p,badfilter
+@@||hqq.tv^$xmlhttprequest,~third-party,badfilter
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|downloadpirate.com|flashx.tv|powvideo.net|powvldeo.me|streamplay.biz|streamplay.to|videobin.co,badfilter
 ||streamplay.to^$badfilter
+||9anime.*^$script,third-party,badfilter
 ||streamplay.*^$csp=child-src *.google.com,badfilter
 ||kinoprofi.org^$badfilter
 /sharethis.js$badfilter
@@ -1403,7 +1407,7 @@ wstream.*#@#+js(acis, $, fadeOut)
 ||1q2w3.website^$badfilter
 *$csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.superproxy.biz|mypirate.cc|noobnoob.rocks|piratebay.town|piratebay1.top|piratebayblocked.com|pirateproxy.ch|pirateproxy.live|pirateproxy.rocks|prox1.info|proxyfrom.asia|proxyindia.net|superbay.link|superproxy.biz|thehiddenbay.com|thepiratebay.kiwi|pirate-bay.net|tpb.party|thepiratebay.org|thepiratebay.vip|thepiratebay10.org|thepirateproxy.win|theproxybay.net|tpb.crushus.com|tpb.hid.li|tpb6.ukpass.co|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.org|unblockpirate.uk|unblocktheship.org|flashx.cc|flashx.co|vidoza.co|vidoza.net,badfilter
 *$csp=child-src 'none'; frame-src *; worker-src 'none',domain=ahoypirate.click|ahoypirate.in|ahoypiratebaai.eu|airproxyproxy.pw|airproxytpb.red|alivbay.org|batpirate.info|bay.maik.rocks|bayception.pw|baypirate.click|baypiratebay.be|baypirateproxy.org|baypirateproxy.pw|bayproxy.eu|bypassed.st|capjackproxy.net|cruzing.xyz|depiratenbaai.nl|duckingproxy.eu|hyperproxy.net|ikwildepiratebay.org|ikwildepiratebay.xyzbrowse|indiaproxy.in|indiaproxydl.orgbrowse|magnetbay.eu|noobnoob.rocks|pietpiraat.org|pirat2.club|pirataibay.in|piratbaypirate.link|pirate.bet|pirate.blue|pirate.trade|pirateahoy.net|piratebaai.click|piratebaai.club|piratebay.click|piratebay.red|piratebay.telbrowse|piratebay.town|piratebay.website|piratebay247.net|piratebayblocked.com|piratebaymirror.eu|piratebayproxy.tf|piratebays.be|piratebays.co|piratenbucht.eu|piratepirate.eu|pirateprox.club|pirateproxy.click|pirateproxy.ist|pirateproxy.mx|pirateproxy.tf|pirateproxy.wf|pirateproxy.yt|piratetoday.click|proxybayduck.fi|proxydl.cf|proxyfl.info|proxyindia.net|proxyme.site|proxyme.win|proxyoneahoy.net|proxypirate.in|proxypirate.website|proxyproxyproxy.nl|proxyship.click|proxytpb.org|proxytpb.pw|rowpirate.org|superbay.link|thehiddenbay.cc|themagnetbay.info|thepbay.ga|thepirate.click|thepirate.xyz|thepiratebay-proxy.com|thepiratebay.bet|thepiratebay.blue|thepiratebay.cr|thepiratebay.futbol|thepiratebay.kiwi|thepiratebay.org|thepiratebay.pet|thepiratebay.pictures|thepiratebay.red|thepiratebay.rocks|thepiratebay.se.net|thepiratebay.tel|thepiratebay.wtf|thepirateproxy.host|thepirateproxy.pro|thepirateproxy.win|thepirateproxy.ws|tpb.crushus.com|tpb.one|tpb.tw|tpbairproxy.in|tpbbay.eu|tpbduck.com|tpbmirror.us|tpbmonk.com|tpbonion.win|tpbpirate.info|tpbpirate.pw|tpbpirate.site|tpbportal.in|tpbproxy.club|tpbproxy.win|tpbproxyone.org|tpbrun.win|tpproxy.website|ukpirate.click|ukpirate.org|ukpirateproxy.xyz|unblockedhyperbay.info|unblocktheship.org|unblocktpb.com|urbanproxy.eu|wearepirates.click|zombay.org,badfilter
-@@||thepiratebay.org/static/main.js$script,1p,badfilter
+@@||thepiratebay.org/static/main.js$script,~third-party,badfilter
 *$csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|skyback.ru|szukajka.tv|thepiratebay.org|vidoza.net,badfilter
 thepiratebay.org#@#+js(aopr, exoJsPop101)
 ||thepiratebay.org^$script,badfilter
