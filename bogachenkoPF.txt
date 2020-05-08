@@ -907,7 +907,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XPATH END
 
 ! WEBSOCKET
-*$websocket,domain=hindilinks4uto.com|hqq.tv|povvideo.net|powvldeo.cc|powvldeo.co|powvldeo.me|powvldeo.net|waaw.tv
+*$important,websocket,domain=hindilinks4uto.com|hqq.tv|povvideo.net|powvldeo.cc|powvldeo.co|powvldeo.me|powvldeo.net|waaw.tv
 ! WEBSOCKET END
 
 ! CSP
@@ -928,7 +928,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*&action=js_stats&$important
 |http*:*/coins.php
 |http*:*/generate_204$important
-|http*:*/pagead/
+|http*:*/pagead/$important
 ||ad.
 ||ads-sdk.
 ||ads.
