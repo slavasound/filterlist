@@ -1404,7 +1404,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 amsprod-rtbwin.applovin.com
 0.0.0.0 applovin.com
 0.0.0.0 api.applovin.com
-0.0.0.0 app-measurement.com
 0.0.0.0 vid.applovin.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 ad.admixer.net
