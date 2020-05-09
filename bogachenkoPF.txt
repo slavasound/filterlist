@@ -58,7 +58,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! WHITELIST END
 
 ! TEST
-/[-._?&=#/]ads[-._?&=#/]/$script,xmlhttprequest,other,subdocument,important
+!
 ! TEST END
 
 ! SITE
@@ -536,7 +536,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||gplayer.kmpmedia.net^
 ||graph.accountkit.com^
 ||graph.facebook.com^
-||gravatar.com^$important,third-party
+||gravatar.com^$important,third-party,domain=~faucetcrypto.com|~crowdin.com
 ||gumroad.com^$important,third-party
 ||hatena.ne.jp^$important,third-party
 ||hellobar.com^$important,third-party
@@ -818,7 +818,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 |http*:*/transparent.gif?ray=$image
 ||freebitco.in/images/sirv_backup/*.jpeg$image
 ||mail.yandex.*/monitoring_liza.txt$image,important
-/\/[a-zA-Z]{5,}[Pp]i?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important
+/\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
 ! IMAGE END
 
 ! POP-UP
@@ -842,12 +842,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! SCRIPTLET
 google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 google.*##+js(remove-elem.js, #promos)
-hotlink.cc,libertycity.ru##+js(nano-setInterval-booster.js)
+hotlink.cc,libertycity.ru,faucetcrypto.com##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
 infourok.ru,bogachenko.github.io,torrent-filmi.xyz,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net,rcdn.me,joostream.com,gdriveplayer.me,vidlink.org##+js(mousedef2.js)
-kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*,indishare.org##+js(nano-setTimeout-booster.js)
+kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*,indishare.org,fc.lc,claim4.fun##+js(nano-setTimeout-booster.js)
 peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz,waaw.tv,hindilinks4uto.com,hqq.tv,waaws.*,waaw1.tv##+js(contextmenudef.js)
@@ -863,6 +863,7 @@ zloekino.ru##+js(cookie-remover.js)
 *##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
 *##.cookie-choices-inner
 *##.cz-sponsorposts
+*##.cookie
 *##.wiadomoscSocialBig
 *##[class*="rekl"]
 *##[href*="/ads/"]
@@ -939,8 +940,10 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/coins.php
 |http*:*/generate_204$important
 |http*:*/pagead/$important
+|http*:*/redirect?feed=
 ||ad.
 ||ads-sdk.
+||syndication.
 ||ads.
 ||adserver*.
 ||adv.
@@ -1064,7 +1067,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest
-/\.(com?|net|org|ru|to)\/ad[sv]?\//$document,image,important,object,script,subdocument
 /\/1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)\?[a-z]{1}\=/$image,important,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,other,script,third-party
@@ -1076,6 +1078,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
+/[-._?&=#/]ad[sv][-._?&=#/]/$document,image,important,object,script,subdocument,other
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1100,7 +1103,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 *$image,redirect-rule=1x1.gif,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
 *$popunder,third-party,domain=vivo.sx,badfilter
 *$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net,badfilter
-*$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party,badfilter
+*$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw,badfilter
 *$script,third-party,domain=kissanime.ru,badfilter
 *$stylesheet,script,xmlhttprequest,third-party,domain=clipwatching.com,badfilter
 *$subdocument,domain=clik.pw,badfilter
