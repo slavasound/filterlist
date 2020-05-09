@@ -21,22 +21,6 @@
 !#endif
 !#endif
 
-!#if env_firefox
-!#if env_mobile
-*##+js(abort-current-inline-script.js, Math, zfgloaded)
-*##+js(abort-on-property-read.js, glxopen)
-*##+js(abort-on-property-read.js, zfgformats)
-*##+js(js-rm.js, GoogleAnalyticsObject)
-*##+js(js-rm.js, OneSignal)
-*##+js(js-rm.js, __gaTracker)
-*##+js(js-rm.js, window.Adomik)
-*##+js(js-rm.js, window._taboola)
-*##+js(js-rm.js, yandex_metrika_callbacks2)
-*##+js(js-rm.js, yandex_metrika_callbacks)
-*##+js(js-rm.js, __CF$cv$params)
-!#endif
-!#endif
-
 !#if !ext_ublock
 $$script[src="/apu.php?"]
 $$script[src="/ntfc.php?"]
@@ -45,9 +29,9 @@ $$script[tag-content="popMagic"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
-@@||aliexpress.*^$document
-@@||analytics.google.com^$document
-@@||bogachenko.github.io^$document
+@@||otvet.mail.ru^$important,document
+@@||analytics.google.com^$important,document
+@@||bogachenko.github.io^$important,document
 @@||freebitco.in^$important,document
 @@||streamvid.co^$important,document
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
@@ -77,6 +61,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /aeros[0-9]{2}\.tk/
 3.11.46.38:443$network
 5.45.229.130:443$network
+||an.mail.ru^
 5.45.229.132:443$network
 8.253.207.117:443$network
 13.224.143.39:443$network
@@ -1468,3 +1453,4 @@ wstream.*#@#+js(std, height)
 ||4chan.org^$csp=connect-src https: http:,badfilter
 twitter.com#@#span:has-text(/^推荐|Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé|Uitgelicht|プロモーション$/):upward(5)
 usatoday.com#@#+js(aopr, _sp_._networkListenerData)
+||vcdn.biz^$badfilter

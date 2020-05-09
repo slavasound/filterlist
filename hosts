@@ -75,6 +75,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 spade.sci.twitch.tv
 0.0.0.0 scripts.webcontentassessor.com
 0.0.0.0 smartadserver.com.edgesuite.net
+0.0.0.0 an.mail.ru
 0.0.0.0 targeting.washpost.nile.works
 0.0.0.0 usabilla.com
 0.0.0.0 usersegment.wpdigital.net
@@ -86,8 +87,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 aax-opf-us-east.amazon-adsystem.com
 0.0.0.0 aax-us-cpm.amazon-adsystem.amazon.com
 0.0.0.0 aj1907.online
+0.0.0.0 v1-c73e.kxcdn.com
 0.0.0.0 badumtsium.com
 0.0.0.0 cdn.pljs.ru
+0.0.0.0 ad.adverticum.net
+0.0.0.0 adverticum.net
+0.0.0.0 alexametrics.com
+0.0.0.0 cdn.popcash.net
+0.0.0.0 certify.alexametrics.com
+0.0.0.0 displayvertising.com
+0.0.0.0 ofgogoatan.com
+0.0.0.0 popcash.net
+0.0.0.0 www.displayvertising.com
 0.0.0.0 franecki.net
 0.0.0.0 jsc.traffic-media.co.uk
 0.0.0.0 octclck.xyz
