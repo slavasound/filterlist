@@ -22,12 +22,11 @@
 !#endif
 
 !#if !ext_ublock
-$$script[src="/apu.php?"]
-$$script[src="/ntfc.php?"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="popMagic"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
+$$script[tag-content="RTCPeerConnection"]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 @@||otvet.mail.ru^$important,document
 @@||analytics.google.com^$important,document
@@ -1056,7 +1055,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! COMBINED
 /[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
 /[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
