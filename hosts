@@ -101,6 +101,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.displayvertising.com
 0.0.0.0 franecki.net
 0.0.0.0 jsc.traffic-media.co.uk
+0.0.0.0 2xclick.ru
+0.0.0.0 news.2xclick.ru
 0.0.0.0 octclck.xyz
 0.0.0.0 pljs.ru
 0.0.0.0 traffic-media.co.uk
@@ -113,6 +115,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 4736.in
 0.0.0.0 actlz.github.io
 0.0.0.0 adprofits.ru
+0.0.0.0 a.pub.network
+0.0.0.0 adserver-us.adtech.advertising.com
+0.0.0.0 adtech.advertising.com
+0.0.0.0 advertising.com
+0.0.0.0 d22sfab2t5o9bq.cloudfront.net
+0.0.0.0 d2r1yp2w7bby2u.cloudfront.net
+0.0.0.0 d3c3uihon9kmp.cloudfront.net
+0.0.0.0 ntv.io
+0.0.0.0 pub.network
+0.0.0.0 s.ntv.io
 0.0.0.0 ads.kinogo.by
 0.0.0.0 banner4.kinogo.by
 0.0.0.0 branch.io
