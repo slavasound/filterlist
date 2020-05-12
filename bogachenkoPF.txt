@@ -22,6 +22,7 @@
 !#endif
 
 !#if !ext_ublock
+$$script[tag-content="_pop.push"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="popMagic"]
 $$script[tag-content="window.Fingerprint2"]
@@ -50,6 +51,11 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 
 ! TEST
 /^[a-z0-9]{8,}\.Home$/
+/^https?://127\.(?:(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))\.){2}(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))[:/]/$third-party
+/^https?://10\.(?:(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))\.){2}(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))[:/]/$third-party
+/^https?://172\.(?:1[6-9]|2[0-9]|3[01])(?:\.(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))){2}[:/]/$third-party
+/^https?://192\.168(?:\.(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))){2}[:/]/$third-party
+/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script
 ! TEST END
 
 ! SITE
@@ -914,6 +920,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 
 ! WEBSOCKET
 *$important,websocket,domain=hindilinks4uto.com|hqq.tv|povvideo.net|powvldeo.cc|powvldeo.co|powvldeo.me|powvldeo.net|waaw.tv|clipwatching.com
+/^wss?:\/\/127\.0\.0\.1:\d+/$important,websocket
 ! WEBSOCKET END
 
 ! CSP
@@ -1072,7 +1079,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
-/[-._?&=#/]ad[sv][-._?&=#/]/$document,image,important,object,script,subdocument,other,domain=~gitlab.com|~github.com
+/[-._?&=#/]ad[sv][-._?&=#/]/$xmlhttprequest,document,image,important,object,script,subdocument,other,domain=~gitlab.com|~github.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1097,7 +1104,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 $image,redirect-rule=1x1.gif,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
 $popunder,third-party,domain=vivo.sx,badfilter
 $script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net|kissanime.ru,badfilter
-$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw|mp4upload.com,badfilter
+$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw|mp4upload.com|kwik.cx,badfilter
 $script,third-party,domain=kissanime.ru,badfilter
 $stylesheet,script,xmlhttprequest,third-party,domain=clipwatching.com,badfilter
 $subdocument,domain=clik.pw,badfilter
@@ -1457,3 +1464,5 @@ usatoday.com#@#+js(aopr, _sp_._networkListenerData)
 ||vcdn.biz^$badfilter
 kissmanga.com#@#+js(acis, document.createElement, jsc.mgid.com)
 kissanime.ru#@#+js(acis, $, blocking)
+kwik.*#@#+js(acis, String.fromCharCode, 'shift')
+bing.com#@##b_results:xpath(//span[(text()='d') or (text()='n')]):upward(5)
