@@ -2275,6 +2275,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ip131934727.v.ankunding.biz
 0.0.0.0 ip58076429.v.ankunding.biz
 0.0.0.0 ip115037890.yv.ankunding.biz
+0.0.0.0 aria.microsoft.com
+0.0.0.0 c.live.com
+0.0.0.0 data.microsoft.com
+0.0.0.0 pipe.aria.microsoft.com
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 19534.redirect.appmetrica.yandex.com

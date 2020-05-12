@@ -1469,3 +1469,4 @@ kissmanga.com#@#+js(acis, document.createElement, jsc.mgid.com)
 kissanime.ru#@#+js(acis, $, blocking)
 kwik.*#@#+js(acis, String.fromCharCode, 'shift')
 bing.com#@##b_results:xpath(//span[(text()='d') or (text()='n')]):upward(5)
+||virustotal.com^$badfilter
