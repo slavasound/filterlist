@@ -814,10 +814,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 |http*:*/ico_tr.png$image
 |http*:*/rtrg?$image,important
+|http*:*/hosting.gif$image,important
 |http*:*/transparent.gif?ray=$image
 ||freebitco.in/images/sirv_backup/*.jpeg$image
 ||mail.yandex.*/monitoring_liza.txt$image,important
 /\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
+/[-._?&=#/](468[_x-]60|240[_x-]400|600[_x-]200)[-._?&=#/]/$image
 ! IMAGE END
 
 ! POP-UP
@@ -1080,6 +1082,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
 /[-._?&=#/]ad[sv][-._?&=#/]/$xmlhttprequest,document,image,important,object,script,subdocument,other,domain=~gitlab.com|~github.com
+/[-._?&=#/]pop([au]nders?)?[-.0-9_?&=#/]/$important,other,object,script
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
