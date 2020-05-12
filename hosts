@@ -89,7 +89,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 aj1907.online
 0.0.0.0 v1-c73e.kxcdn.com
 0.0.0.0 badumtsium.com
-0.0.0.0 cdn.pljs.ru
 0.0.0.0 ad.adverticum.net
 0.0.0.0 adverticum.net
 0.0.0.0 alexametrics.com
@@ -104,7 +103,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 2xclick.ru
 0.0.0.0 news.2xclick.ru
 0.0.0.0 octclck.xyz
-0.0.0.0 pljs.ru
 0.0.0.0 traffic-media.co.uk
 0.0.0.0 vast.videocdn.tv
 0.0.0.0 vastroll.ru
@@ -1807,6 +1805,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.flurry.com
 0.0.0.0 apus.tech
 0.0.0.0 direct.apus.tech
+0.0.0.0 adbroker.mp.dse.microsoft.com
 0.0.0.0 gadspms.com
 0.0.0.0 ads.flurry.com
 0.0.0.0 apac1.notify.windows.com.akadns.net
@@ -1999,7 +1998,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ip174214570.v.ankunding.biz
 0.0.0.0 ip173084544.v.ankunding.biz
 0.0.0.0 adskeeper.co.uk
-0.0.0.0 hadslimz.com
 0.0.0.0 jsc.adskeeper.co.uk
 0.0.0.0 ip174213074.v.ankunding.biz
 0.0.0.0 ip179547572.v.ankunding.biz
