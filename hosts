@@ -2132,6 +2132,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 p172946.clksite.com
 0.0.0.0 p174490.clksite.com
 0.0.0.0 p174976.clksite.com
+0.0.0.0 adv-cdn.tnt-online.ru
+0.0.0.0 cdn.trafficdok.com
+0.0.0.0 events.redditmedia.com
+0.0.0.0 freegeoip.app
+0.0.0.0 lp4.io
+0.0.0.0 pluso.ru
+0.0.0.0 pp.lp4.io
+0.0.0.0 reklama.mail.ru
+0.0.0.0 share.pluso.ru
+0.0.0.0 trafficdok.com
 0.0.0.0 csm.nl.eu.criteo.net
 0.0.0.0 cx.atdmt.com
 0.0.0.0 directadvert.net
@@ -2164,6 +2174,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.trafficjunky.com
 0.0.0.0 suggests.go.mail.ru
 0.0.0.0 trafficfactory.biz
+0.0.0.0 cdnegc.trafficfactory.biz
+0.0.0.0 media.trafficfactory.biz
+0.0.0.0 rpc.trafficfactory.biz
+0.0.0.0 main.trafficfactory.biz
 0.0.0.0 trafficjunky.com
 0.0.0.0 trafficjunky.net
 0.0.0.0 www.directadvert.net
