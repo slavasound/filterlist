@@ -872,6 +872,7 @@ zloekino.ru##+js(cookie-remover.js)
 *##.cookie
 *##.wiadomoscSocialBig
 *##[class*="rekl"]
+*##div:has([class*="CookieDialog__DialogLInk-"])
 *##[href*="mradx.net"]
 *##[href*="/ads/"]
 *##[href*="/adv/"]
@@ -895,6 +896,7 @@ zloekino.ru##+js(cookie-remover.js)
 *##img[src*="exdynsrv.com"]
 2ch.hk##.logo, #mobile-pashque
 ntv.ru##[href="/75/"]
+facebook.com###mobile_login_bar
 aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
 clipwatching.com###container > div > div:style(width:0px!important)
 english-films.*##.block-content:has-text(Онлайн чат)
@@ -955,7 +957,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/redirect?feed=$important
 ||bing.com/fd/ls/$important
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,third-party
-/\/social\/(whatsapp|f(ace)?b(ook)?|g(oogle|plus)|t(u(mblr|be)|w(itter|eet))|eler?gram)|follow|share|insta(gram)?|v(imeo|iber)?|y(outu)?be?|box|apple)?[-.0-9_?&=#/]/$important
+/[-._?&=#/]s(ocial|p(lash|rites?)|[ts]|tatic|tore)[-._?&=#/]?(whatsapp|f((ace)?b(ook)?|o(llow|oter)|lickr)|g(oogle|plus|\+)|t(u(mblr|be)|w(it(ter)?|eet)|eler?gram)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?)|i(nsta?(gram)?|mpulse)|v(imeo|iber)?|y(outu)?be?|b(o(x|okmarks)|ar|ig|loc?k|tn|uttons?)|core|ico(ns?)?|a(pple|pi)|media|p(lugins?|popups?|in(terest)?))[-.0-9_?&=#/]/$important
 ||ad.
 ||ads-sdk.
 ||syndication.
