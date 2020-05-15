@@ -1031,7 +1031,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{4,5}$/$important,script,third-party
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/400\/[0-9]{7}/$important,script,third-party
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/4(00)?\/[0-9]{7}/$important,script,third-party
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{4,5}$/$important,script,third-party
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}/$important,script,third-party
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$important,script,third-party
