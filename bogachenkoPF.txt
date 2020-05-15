@@ -957,7 +957,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/redirect?feed=$important
 ||bing.com/fd/ls/$important
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,third-party
-/[-._?&=#/]s(ocial|p(lash|rites?)|[ts]|tatic|tore)[-._?&=#/]?(whatsapp|f((ace)?b(ook)?|o(llow|oter)|lickr)|g(oogle|plus|\+)|t(u(mblr|be)|w(it(ter)?|eet)|eler?gram)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?)|i(nsta?(gram)?|mpulse)|v(imeo|iber)?|y(outu)?be?|b(o(x|okmarks)|ar|ig|loc?k|tn|uttons?)|core|ico(ns?)?|a(pple|pi)|media|p(lugins?|popups?|in(terest)?))[-.0-9_?&=#/]/$important
+/[-._?&=#/]s(oc(ial)?|p(lash|rites?)|[ts]|tatic|tore)[-._?&=#/]?(whatsapp|f((ace)?b(ook)?|o(llow|oter)|lickr|cbk)|g(oogle|[-_]?plus|\+|ithub)|t(u(mblr|be)|w(it(ter)?|eet)|eler?gram|iktok)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?|kype)|i(nsta?(gramm?)?|mpulse)|v(k(ontakte)?|imeo|iber)?|y(outu)?be?|b(o(x|okmarks)|ar|ig|loc?k|tn|uttons?|logger)|core|ico(ns?)?|a(pple|pi)|m(edia|ail)|p(lugins?|popups?|in(terest)?)|o(dnoklassni)ki?|l(i(nkedin|vejournal)|[jn]|ogo)|reddit|q(q(live)?|zone))[-.0-9_?&=#/]/$important
 ||ad.
 ||ads-sdk.
 ||syndication.
