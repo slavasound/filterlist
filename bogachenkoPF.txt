@@ -31,6 +31,7 @@ $$script[tag-content="popMagic"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
 $$script[tag-content="RTCPeerConnection"]
+$$script[wildcard="*eval*babasbmsgx*"]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 @@||otvet.mail.ru^$important,document
 @@||analytics.google.com^$important,document
@@ -790,7 +791,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||xray.mail.ru^
 ||yabs.yandex.$important
 ||yadro.ru^
-||yahoo.com^$important,third-party
+||yahoo.com^$important
 ||yandex.*^$important,third-party,domain=~kinopoisk.ru|~metrika.yandex.ru|~passport.rt.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.net|~yandex.ru|~yandex.ua|~yastatic.net|~z5h64q92x9.net
 ||yandexadexchange.net^
 ||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net
@@ -1083,7 +1084,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf)/$image,important,script,subdocument,xmlhttprequest
 /^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit)\.com|((iam|hw)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
-/[Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
+/[-._?&=#/]?[Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
@@ -1289,7 +1290,7 @@ kissasian.*#@#+js(nosiif, (), 1000)
 kissasian.*#@#+js(nostif, (), 30000)
 kissasian.*#@#+js(nostif, (), 45000)
 kissasian.*,9xupload.*,kissmanga.com#@#+js(aeld, /^(?:click|mousedown)$/, _0x)
-kissasian.sh,letsupload.co,uploadever.com#@#+js(aopr, Date.prototype.toUTCString)
+kissasian.sh,letsupload.co,uploadever.com,streamvid.co#@#+js(aopr, Date.prototype.toUTCString)
 leechpremium.link,slink.bid#@#+js(aopr, pndrCodeScript)
 linkdrop.net,fileone.tv#@#+js(acis, document.querySelectorAll, popMagic)
 linkdrop.net,glory-link.com,shortearn.eu,shorten.*,slink.bid,wi.cr,pastekan.com,clickurls.site,clik.pw,uii.io#@#+js(aopr, app_vars.force_disable_adblock)
@@ -1484,3 +1485,6 @@ dood.watch#@#+js(aopw, check)
 |http://$image,media,script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
 |https://$image,media,script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
 vidsrc.*#@#+js(set, String.fromCharCode, trueFunc)
+||pixiv.org^$badfilter
+||d.pixiv.org^$badfilter
+pixiv.net#@#div:not(.submit-area):has(:scope > iframe:not([src]))
