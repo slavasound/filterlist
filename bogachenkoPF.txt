@@ -789,6 +789,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||wordc.ga^
 ||wykop.pl^$important,third-party
 ||xray.mail.ru^
+||app.link^
 ||yabs.yandex.$important
 ||yadro.ru^
 ||yahoo.com^$important
@@ -830,6 +831,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||click2go.me^$important,popup
 ||gemius.pl^$important,popup
 ||yastatic.net^$important,popup
+|about:$popup
 ! POP-UP END
 
 ! MEDIA
@@ -862,6 +864,7 @@ zloekino.ru##+js(cookie-remover.js)
 *###cookie-notice
 *###cookie-pop
 *###gdpr-consent
+*###appbanner
 *###js-gdpr-consent-banner
 *##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
 *##.cookie-choices-inner
@@ -952,6 +955,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/redirect?feed=$important
 ||bing.com/fd/ls/$important
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,third-party
+/\/social\/(whatsapp|f(ace)?b(ook)?|g(oogle|plus)|t(u(mblr|be)|w(itter|eet))|eler?gram)|follow|share|insta(gram)?|v(imeo|iber)?|y(outu)?be?|box|apple)?[-.0-9_?&=#/]/$important
 ||ad.
 ||ads-sdk.
 ||syndication.
