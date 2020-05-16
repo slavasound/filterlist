@@ -30,9 +30,12 @@ $$script[tag-content="ExoLoader"]
 $$script[tag-content="popMagic"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
+$$script[tag-content="absda"]
 $$script[tag-content="RTCPeerConnection"]
 $$script[wildcard="*eval*babasbmsgx*"]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
+$$script[data-cfasync="false"][tag-content="Privet darkv"]
+$$script[data-cfasync="false"][src="/apu.php?zoneid="]
 @@||otvet.mail.ru^$important,document
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
@@ -55,17 +58,13 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! WHITELIST END
 
 ! TEST
-/^[a-z0-9]{8,}\.Home$/
-/^https?://127\.(?:(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))\.){2}(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))[:/]/$third-party
-/^https?://10\.(?:(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))\.){2}(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))[:/]/$third-party
-/^https?://172\.(?:1[6-9]|2[0-9]|3[01])(?:\.(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))){2}[:/]/$third-party
-/^https?://192\.168(?:\.(?:[0-9]|[1-9][0-9]|1(?:[0-9][0-9])|2(?:[0-4][0-9]|5[0-5]))){2}[:/]/$third-party
-/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script
+!
 ! TEST END
 
 ! SITE
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /^https?:\/\/ok.ru(?!\/videoembed)\//$important,third-party
+/^[a-z0-9]{8,}\.Home$/
 /a\.[a-z0-9]{33,43}\.com$/
 /ablen[0-9]{2}\.tk/
 /aeros[0-9]{2}\.tk/
@@ -851,7 +850,7 @@ hotlink.cc,libertycity.ru,faucetcrypto.com##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-infourok.ru,bogachenko.github.io,torrent-filmi.xyz,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net,rcdn.me,joostream.com,gdriveplayer.me,vidlink.org##+js(mousedef2.js)
+infourok.ru,bogachenko.github.io,torrent-filmi.xyz,123movies.*,ros-met.com,hdfilms.zone,kinohd-online.club,filmy-onlain.net,vio.to,luxfilm.net,xartmanfilms.ru,kinobot.club,kinoangel.net,tvfru.ru,kino-top1.net,lookmix.org,lamafilm.club,vfilmesonline.net,prettyfast.to,harehub.tech,bitporno.com,musixmatch.com,terbit21.club,t21.press,kumpul21.org,player.pl,shuneiya.com,vidnode.net,onifile.com,tortuga.wtf,instagram.com,streamhoe.online,there.to,watchcartoonsonline.to,hindilinks4uto.com,gdriveplayer.co,mirrordrive.net,sharer.pw,gosemut.net,efek.stream,antinawala.info,hydrax.net,rcdn.me,joostream.com,gdriveplayer.me,vidlink.org,voxzer.org##+js(mousedef2.js)
 kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.com,fembed.com,uii.io,voxc.org,bcvc.live,onifile.com,idxx1.*,indishare.org,fc.lc,claim4.fun##+js(nano-setTimeout-booster.js)
 peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
@@ -933,7 +932,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XPATH END
 
 ! WEBSOCKET
-*$important,websocket,domain=hindilinks4uto.com|hqq.tv|povvideo.net|powvldeo.cc|powvldeo.co|powvldeo.me|powvldeo.net|waaw.tv|clipwatching.com
+*$important,websocket,domain=hlsplay.com|hindilinks4uto.com|hqq.tv|povvideo.net|powvldeo.cc|powvldeo.co|powvldeo.me|powvldeo.net|waaw.tv|clipwatching.com
 /^wss?:\/\/127\.0\.0\.1:\d+/$important,websocket
 ! WEBSOCKET END
 
@@ -956,7 +955,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/pagead/$important
 |http*:*/redirect?feed=$important
 ||bing.com/fd/ls/$important
-/[-._?&=#/]ping[-.0-9_?&=#/]?/$important,third-party
+/[-._?&=#/]ping[-.0-9_?&=#/]?/$important,third-party,domain=~playhydrax.com|~hydrax.net
 ||ad.
 ||ads-sdk.
 ||syndication.
@@ -1059,6 +1058,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/wl.js$important,script
 |http*:*/matomo.js$important,script
 ||ucoz.net/cgi/uutils.fcg?$script,important
+/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1095,7 +1095,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
-/[-._?&=#/]s(oc(ial)?|p(lash|rites?)|[ts]|tatic|tore)[-._?&=#/]?(w(hatsapp|eb(discover|money))|f((ace)?b(ook)?|o(llow|oter)|lickr|cbk|ormspring|riendfeed)|g(oogle(bookmarks?)?|[-_]?[Pp]lus|\+|ithub)|t(u(mblr|be)|w(it?(ter)?|eet)|eler?gram|iktok|encent[Ww]eibo)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?|kype|ina[Ww]eibo|urfingbird|pringpad|tumbleupon)|i(co(ns?)?|nsta?(gramm?|paper)?|mpulse|tunes)|v(k(rugu|ontakte)?|imeo|iber)?|y((outu)?be?|ahoo|andex|azakladki)|b(o(x|okmarks?)|ar|ig|loc?k|tn|uttons?|logger|obrdobr)|co(re|llections?)|a(pple|pi|ddthis)|m(oemesto|emori|ail|oi(mir|krug)|yspace|isterwong)|p(lugins?|opups?|in(me|terest)?|ocket|luso|rint)|o(dnoklassni)ki?|l(i(nkedin|ve(journal|nternet))|[jn]|ogo)|r(eddit|eadability|enren)|q(q(live)?|zone)|d(elicious|igg)|e(vernote|mail)|u(social|ptolike)|juick)[-.0-9_?&=#/]/$important,image,script
+/[-._?&=#/](s(oc(ial)?|p(lash|rites?)|[ts]|tatic|tore)|ima?ge?|icon([sea]?|big)?)[-._?&=#/]?(w(hatsapp|eb(discover|money))|f((ace)?b(ook)?|o(llow|oter)|lickr|cbk|ormspring|riendfeed)|g(oogle(bookmarks?)?|[-_]?[Pp]lus|\+|ithub)|t(u(mblr|be)|w(it?(ter)?|eet)|eler?gram|iktok|encent[Ww]eibo)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?|kype|ina[Ww]eibo|urfingbird|pringpad|tumbleupon)|i(co(ns?)?|nsta?(gramm?|paper)?|mpulse|tunes)|v(k(rugu|ontakte)?|imeo|iber)?|y((outu)?be?|ahoo|andex|azakladki)|b(o(x|okmarks?)|ar|ig|loc?k|tn|uttons?|logger|obrdobr)|co(re|llections?)|a(pple|pi|ddthis)|m(oemesto|emori|ail|oi(mir|krug)|yspace|isterwong)|p(lugins?|opups?|in(me|terest)?|ocket|luso|rint)|o(dnoklassni)ki?|l(i(nkedin|ve(journal|nternet))|[jn]|ogos?)|r(eddit|eadability|enren)|q(q(live)?|zone)|d(elicious|igg)|e(vernote|mail)|u(social|ptolike)|juick)[-.0-9_?&=#/]/$important,image,script,stylesheet
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
