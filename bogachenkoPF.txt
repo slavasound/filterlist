@@ -483,6 +483,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||drcwo519tnci7.cloudfront.net^
 ||duapps.com^
 ||dxsvr.com^
+||crashlogs.whatsapp.net^
 ||dynad.net^
 ||dynamicyield.com^
 ||dynatrace.com^
@@ -1069,7 +1070,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/wl.js$important,script
 |http*:*/matomo.js$important,script
 ||ucoz.net/cgi/uutils.fcg?$script,important
-/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script
+/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script,important
+/\/t[a-f0-9]{10,13}\.js$/$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
