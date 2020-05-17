@@ -10,6 +10,8 @@
 
 !#if !ext_ublock
 !#if (adguard_app_android && adguard_app_ios)
+@@||app-measurement.com^
+@@||checkadblock.ru^$document
 @@||crashlytics.com^
 ||everyplay.com^
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
@@ -17,30 +19,34 @@
 ||unity3d.com^
 ||zen.yandex.ru^$~third-party
 ||zeptolab.com^
-@@||app-measurement.com^
-@@||checkadblock.ru^$document
 !#endif
 !#endif
 
 !#if !ext_ublock
-$$script[tag-content="adcashMacros"]
-$$script[tag-content="zoneNativeSett"]
-$$script[tag-content="_pop.push"]
-$$script[tag-content="ExoLoader"]
-$$script[tag-content="popMagic"]
-$$script[tag-content="window.Fingerprint2"]
-$$script[tag-content="zfgloaded"]
-$$script[tag-content="absda"]
-$$script[tag-content="RTCPeerConnection"]
-$$script[wildcard="*eval*babasbmsgx*"]
+$$script[data-cfasync="false"][src="/apu.php?zoneid="]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 $$script[data-cfasync="false"][tag-content="Privet darkv"]
-$$script[data-cfasync="false"][src="/apu.php?zoneid="]
-@@||otvet.mail.ru^$important,document
+$$script[tag-content="ExoLoader"]
+$$script[tag-content="LieDetector"]
+$$script[tag-content="RTCPeerConnection"]
+$$script[tag-content="_pop.push"]
+$$script[tag-content="absda"]
+$$script[tag-content="adBlockDetected"]
+$$script[tag-content="adcashMacros"]
+$$script[tag-content="GoogleAnalyticsObject"]
+$$script[tag-content="anOptions"]
+$$script[tag-content="popMagic"]
+$$script[tag-content="yandex_metrika_callbacks"]
+$$script[tag-content="window.Fingerprint2"]
+$$script[tag-content="zfgloaded"]
+$$script[tag-content="zoneNativeSett"]
+$$script[wildcard="'shift'*String*'fromCharCode'"]
+$$script[wildcard="*eval*babasbmsgx*"]
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
 @@||freebitco.in^$important,document
 @@||live.com^$important,document
+@@||otvet.mail.ru^$important,document
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 !#endif
 
@@ -63,9 +69,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! TEST END
 
 ! SITE
+/^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /^https?:\/\/ok.ru(?!\/videoembed)\//$important,third-party
-/^[a-z0-9]{8,}\.Home$/
 /a\.[a-z0-9]{33,43}\.com$/
 /ablen[0-9]{2}\.tk/
 /aeros[0-9]{2}\.tk/
@@ -390,6 +396,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||api.recsys.opera.com^
 ||apis.google.com^$important,third-party
 ||app-measurement.com^
+||app.link^
 ||appbaqend.com^
 ||applovin.com^
 ||applvn.com^
@@ -789,7 +796,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||wordc.ga^
 ||wykop.pl^$important,third-party
 ||xray.mail.ru^
-||app.link^
 ||yabs.yandex.$important
 ||yadro.ru^
 ||yahoo.com^$important
@@ -959,6 +965,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/redirect?feed=$important
 ||bing.com/fd/ls/$important
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,third-party,domain=~playhydrax.com|~hydrax.net
+|http*:*/rsya-tag-users/$important
 ||ad.
 ||ads-sdk.
 ||syndication.
@@ -1018,6 +1025,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||vk.com/badbrowser.php$document
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
+||eshop.eset.com^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
