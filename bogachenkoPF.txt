@@ -104,8 +104,6 @@ google.com##.rzRb5e
 35.190.88.7:443$network
 37.9.93.97:443$network
 37.9.93.100:443$network
-37.9.112.35:443$network
-37.9.112.36:443$network
 37.157.6.251:443$network
 38.113.165.68$network
 38.113.165.71$network
@@ -113,7 +111,6 @@ google.com##.rzRb5e
 38.113.165.77$network
 38.113.165.86$network
 38.113.165.110$network
-46.61.220.37:443$network
 46.61.220.38:443$network
 52.35.83.137:443$network
 52.50.119.212:443$network
@@ -1120,7 +1117,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,ping,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
-/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,ping,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua|~yastatic.net|~kinopoisk.ru
+/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,ping,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest,ping,other
@@ -1541,3 +1538,4 @@ pixiv.net#@#div:not(.submit-area):has(:scope > iframe:not([src]))
 @@||checkadblock.ru/$csp
 ||a-msedge.net^$badfilter
 mail.ru#@#.social
+||yandex.st^$badfilter
