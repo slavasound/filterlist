@@ -1,6 +1,6 @@
 # Title: bogachenko's Personal Filter Hosts
 # Copyright (c) Bogachenko Vyacheslav
-#
+# Main rules
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
@@ -15,7 +15,7 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
-#
+# Custom rules
 0.0.0.0 1faax-us-east.amazon-adsystem.com
 0.0.0.0 aan.amazon-adsystem.com
 0.0.0.0 a.adtng.com
@@ -24,9 +24,38 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytic.press
 0.0.0.0 app.link
 0.0.0.0 cdn.pljs.ru
+0.0.0.0 tps.doubleverify.com
+0.0.0.0 www.doubleverify.com
+0.0.0.0 tps10241.doubleverify.com
+0.0.0.0 cdn3.doubleverify.com
+0.0.0.0 vtrk.doubleverify.com
+0.0.0.0 doubleverify.com
 0.0.0.0 addtoany.com
 0.0.0.0 csp.yandex.net
 0.0.0.0 d141wsrw9m4as6.cloudfront.net
+0.0.0.0 tracker.cdn-us-doubleverify.com
+0.0.0.0 cdn.doubleverify.com
+0.0.0.0 rtb0.doubleverify.com
+0.0.0.0 rtbcdn.doubleverify.com
+0.0.0.0 tps11031.doubleverify.com
+0.0.0.0 tps30.doubleverify.com
+0.0.0.0 tps711.doubleverify.com
+0.0.0.0 rtb3.doubleverify.com
+0.0.0.0 e100.yt.srs.doubleverify.com
+0.0.0.0 e101.yt.srs.doubleverify.com
+0.0.0.0 e102.yt.srs.doubleverify.com
+0.0.0.0 e103.yt.srs.doubleverify.com
+0.0.0.0 e104.yt.srs.doubleverify.com
+0.0.0.0 e105.yt.srs.doubleverify.com
+0.0.0.0 e106.yt.srs.doubleverify.com
+0.0.0.0 e107.yt.srs.doubleverify.com
+0.0.0.0 e108.yt.srs.doubleverify.com
+0.0.0.0 e109.yt.srs.doubleverify.com
+0.0.0.0 e110.yt.srs.doubleverify.com
+0.0.0.0 e111.yt.srs.doubleverify.com
+0.0.0.0 e112.yt.srs.doubleverify.com
+0.0.0.0 tps10216.doubleverify.com
+0.0.0.0 tps31.doubleverify.com
 0.0.0.0 nvloygrnfe.com
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 share.pluso.ru

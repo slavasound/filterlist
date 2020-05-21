@@ -1095,6 +1095,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script,important
 /\/t[a-f0-9]{10,13}\.js$/$script,important
 ||yandex.*/search/yandcache.js|$script,important
+|http*:*/snow.js|$script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1158,7 +1159,7 @@ $csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.sup
 $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bypassed.ws|byter.tv|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|estream.to|estream.xyz|filmonet.com|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|hdvid.tv|hentai-online.pl|hqq.watch|ianimes.co|kinokongo.cc|kinostuff.com|lewd.ninja|love-drama.pl|movie4k.is|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|proxyportal.eu|reactor.cc|severita-service.ru|sickrage.ca|sorteosrd.com|tomadivx.tv|unblockall.org|unblocked.gdn|vidtodo.com|vidtodo.me|vidtodo.pro|wallpoper.com|wearesaudis.net|ya3ale.com|yazilir.com|zenexplayer.com,badfilter
 $image,redirect-rule=1x1.gif,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
 $popunder,third-party,domain=vivo.sx,badfilter
-$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net|kissanime.ru,badfilter
+$script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net|kissanime.ru|mac-torrent-download.net,badfilter
 $script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw|mp4upload.com|kwik.cx|vidcloud9.com,badfilter
 $script,third-party,domain=kissanime.ru,badfilter
 $stylesheet,script,xmlhttprequest,third-party,domain=clipwatching.com|vidlox.me,badfilter
