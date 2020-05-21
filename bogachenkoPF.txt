@@ -48,6 +48,8 @@ $$script[wildcard="*eval*babasbmsgx*"]
 @@||live.com^$important,document
 @@||otvet.mail.ru^$important,document
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 !#endif
 
 ! WHITELIST
@@ -840,7 +842,7 @@ google.com##.rzRb5e
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
 ||click2go.me^$important,popup
 ||gemius.pl^$important,popup
-||yastatic.net^$important,popup
+||yastatic.net^$important,popup,domain=~kinopoisk.ru
 |about:$popup
 ! POP-UP END
 
@@ -984,6 +986,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/redirect?feed=$important
 |http*:*/fd/ls/$important
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important
+/[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 |http*:*/rsya-tag-users/$important
 ||yandex.ru/portal/set/any/*&empty=
 ||yandex.*/clck/$important
