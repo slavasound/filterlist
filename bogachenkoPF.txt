@@ -75,14 +75,12 @@ google.com##.rzRb5e
 ! DELETE END
 
 ! SITE
+/(ablen|aeros)[0-9]{2}\.tk/
 /^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /^https?:\/\/ok.ru(?!\/videoembed)\//$important,third-party
 /a\.[a-z0-9]{33,43}\.com$/
-/(ablen|aeros)[0-9]{2}\.tk/
 3.11.46.38:443$network
-5.45.229.130:443$network
-5.45.229.132:443$network
 8.253.207.117:443$network
 13.224.143.39:443$network
 13.224.151.55:443$network
@@ -366,7 +364,6 @@ google.com##.rzRb5e
 ||adtheorent.com^
 ||adthor.com^
 ||adthrive.com^
-||yabs.yandex.ru^
 ||adtilt.com^
 ||adtima.vn^
 ||adtimaserver.vn^
@@ -381,6 +378,7 @@ google.com##.rzRb5e
 ||alfa.link^
 ||alicdn.com^$third-party,domain=~aliexpress.com|~aliexpress.ru
 ||aliexpress.*^$third-party,domain=~aliexpress.com|~aliexpress.ru
+||all-cod.com^
 ||alt*-mtalk.google.com^
 ||alt*-safebrowsing.google.com^
 ||amazon-adsystem.com^
@@ -454,6 +452,7 @@ google.com##.rzRb5e
 ||conversantmedia.com^
 ||conversionsbox.com^$important,third-party
 ||count.ly^
+||crashlogs.whatsapp.net^
 ||crispadvertising.com^
 ||criteo.*^
 ||crm-cdn.zenguard.biz^
@@ -486,7 +485,6 @@ google.com##.rzRb5e
 ||drcwo519tnci7.cloudfront.net^
 ||duapps.com^
 ||dxsvr.com^
-||crashlogs.whatsapp.net^
 ||dynad.net^
 ||dynamicyield.com^
 ||dynatrace.com^
@@ -801,6 +799,7 @@ google.com##.rzRb5e
 ||wykop.pl^$important,third-party
 ||xray.mail.ru^
 ||yabs.yandex.$important
+||yabs.yandex.ru^
 ||yadro.ru^
 ||yahoo.com^$important
 ||yandex.*^$important,third-party,domain=~kinopoisk.ru|~metrika.yandex.ru|~passport.rt.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.net|~yandex.ru|~yandex.ua|~yastatic.net|~z5h64q92x9.net
@@ -823,27 +822,28 @@ google.com##.rzRb5e
 ! SITE END
 
 ! IMAGE
+/[-._?&=#/](468[_x-]60|240[_x-]400|600[_x-]200)[-._?&=#/]/$image,important
+/\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
 /\/atrk\.(gif|js)/$image,important
+/[-._?&=#/]fpn\.gif/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
+|http*:*/hosting.gif$image,important
 |http*:*/ico_tr.png$image
 |http*:*/rtrg?$image,important
-|http*:*/hosting.gif$image,important
 |http*:*/transparent.gif?ray=$image
-||freebitco.in/images/sirv_backup/*.jpeg$image
-||mail.yandex.*/monitoring_liza.txt$image,important
-/\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
-/[-._?&=#/](468[_x-]60|240[_x-]400|600[_x-]200)[-._?&=#/]/$image,important
 ||bing.com/th?id=$image,important
 ||duckduckgo.com/t/$image,important
+||freebitco.in/images/sirv_backup/*.jpeg$image
+||mail.yandex.*/monitoring_liza.txt$image,important
 ||yastatic.net/*/passport-auth-customs/*.jpg|$image
 ! IMAGE END
 
 ! POP-UP
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
+|about:$popup
 ||click2go.me^$important,popup
 ||gemius.pl^$important,popup
 ||yastatic.net^$important,popup,domain=~kinopoisk.ru
-|about:$popup
 ! POP-UP END
 
 ! MEDIA
@@ -873,53 +873,83 @@ zloekino.ru##+js(cookie-remover.js)
 ! SCRIPTLET END
 
 ! CSS
+*###AD_Top
+*###AD_banner
+*###AdImage
+*###advertContainer
+*###advertising_wrapper
+*###appbanner
 *###cookie-notice
 *###cookie-pop
 *###gdpr-consent
-*###appbanner
-*###p-advert
-*###top-advert
 *###js-gdpr-consent-banner
+*###p-advert
+*###side_ads
+*###takeover_ad
+*###teasers
+*###top-advert
+*##.ADBAR
+*##.SponsorAds
+*##.SponsoredContent
+*##.ad-bar
+*##.ad_wrapper
+*##.adframe
+*##.ads-inline
+*##.ads-list
+*##.adsense-header
+*##.advertisment
+*##.bottom-ads
 *##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
-*##.cookie-choices-inner
-*##.cz-sponsorposts
+*##.container_row_ad
 *##.cookie
+*##.cookie-choices-inner
+*##.custom-ad
+*##.cz-sponsorposts
+*##.flash-advertisement
+*##.homepage_ads
+*##.listad
+*##.middle_AD
+*##.mobile-ad
+*##.reklama
 *##.wiadomoscSocialBig
 *##[class*="rekl"]
-*##div:has([class*="CookieDialog__DialogLInk-"])
-*##[href*="mradx.net"]
-*##[href*="/ads/"]
-*##[href*="/adv/"]
-*##[href="/1884.html"]
-*##[href*="/advertise/"]
-*##[href*="/advertise."]
-*##[href*="/advert."]
-*##[href*="/advert/"]
-*##[href*="yabs.yandex.ru"]
-*##div[id^="yandex_rtb"]
-*##[href*="/advertising/"]
-*##[href*="/advertising."]
-*##[href*="trafficfactory.biz"]
-*##[href*="weborama.fr"]
-*##[href*="adriver.ru"]
 *##[href*="//bit.ly/"]
 *##[href*="//bitly.com"]
+*##[href*="/ads/"]
+*##[href*="/adv/"]
+*##[href*="/advert."]
+*##[href*="/advert/"]
+*##[href*="/advertise."]
+*##[href*="/advertise/"]
+*##[href*="/advertising."]
+*##[href*="/advertising/"]
+*##[href*="adriver.ru"]
+*##[href*="mradx.net"]
+*##[href*="trafficfactory.biz"]
+*##[href*="weborama.fr"]
+*##[href*="yabs.yandex.ru"]
+*##[href="/1884.html"]
+*##a[href*="//ads.adfox.ru/"]
+*##a[href*="https://zen.yandex.ru/"]
+*##div:has([class*="CookieDialog__DialogLInk-"])
+*##div[class*="sport-advert_"]
+*##div[data-flt-ve="sponsored_search_ads"]
 *##div[id*="adcontent"]
-*##iframe[src="https://awaps.yandex.net"]
-*##iframe[src*="vidroll.ru"]
+*##div[id^="google_ads_iframe_"]
+*##div[id^="yandex_rtb"]
 *##iframe[src*="amazon-adsystem.com"]
 *##iframe[src*="exoclick.com"]
 *##iframe[src*="imasdk.googleapis.com"]
+*##iframe[src*="vidroll.ru"]
 *##iframe[src*='2mdn.net']
 *##iframe[src*='/ad/']
 *##iframe[src="about:blank"]
+*##iframe[src="https://awaps.yandex.net"]
 *##img[src*="advert"]
 *##img[src*="exdynsrv.com"]
 2ch.hk##.logo, #mobile-pashque
-ntv.ru##[href="/75/"]
-facebook.com###mobile_login_bar
-bing.com###t_termsInfo
 aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
+bing.com###t_termsInfo
 clipwatching.com###container > div > div:style(width:0px!important)
 english-films.*##.block-content:has-text(Онлайн чат)
 english-films.*##.mainInner:style(padding-left: 0 !important;)
@@ -930,29 +960,31 @@ english-films.*##div.block.orangeBlock:has-text(Подписывайтесь н�
 english-films.*##p:has([href^="https://english-films.co/chto-delat-esli-bespokoit-reklama-pri-vklyuchenii-openload-pleera.html"])
 english-films.*##p:has-text(В бесплатном плеере фильм доступен только на русском языке, для просмотра на английском нужно приобрести абонемент.)
 english-films.*##p:has-text(Все фильмы с бесплатным доступом на английском находятся в отдельной)
+facebook.com###mobile_login_bar
 free-123movies.com,123movies*##.jw-logo
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
+google.*##mobile-promo
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai,kinogo2.*##body:style(background-image: none !important;)
+mail.ru##.m-animated-shadow:style(left: 150% !important;)
+mail.ru##.tabs:has(a.tabs__item[target="_blank"])
+mail.ru##div.pulse-lenta, a[href="//corp.mail.ru/adv/"], .zeropixel, .grid__rcol_aside > .games, .grid__header > .toolbar, .grid-down > .grid__lcol, #mailbox-container ~ div > .projects, .grid__header > .toolbar, #footer, .informers, .news-main, .news-item, tbody, #portal-headline, .search__top, #search\:example, .i-pull-left.grid__ccol, .grid__main-col, .i-relative.grid__header, .scroll-to-top__container, .i-relative.i-pull-right.grid__rcol, .i-clearfix.grid__container.grid-down, .logo__img, .logo#logo, #slidotype, .projects, .news, .layout__centercol__wrap, .layout__centercol, .logo, .logo__link__img, .social__description, .myPopularFotoSmall, .gallery__list, .banner, .banner_expanded, .w-text-banner_outer, .w-text-banner_outer-hiddable, .portal-footer__portal-links, .layout__rightcol, .w-text-banner_outer, .pulse-widget, .pulse, .covid, #adq\:top, .swipe-wrap, #w-search, .header__logotype__link, .header_custom-logo.header, .widget.tv.block, span.block.catalogue, span.block[data-show-counter], .counter, .adq, #adq\:bottom, .widget.currency.block, .w-social-row__container, .w-social-row.my.block__item_bottom.block__item, .w-go-form__sugg, .horo__container, .b-header
+mail.ru##span.block[style]:has([href^="https://news.mail.ru/"])
 music.yandex.by,music.yandex.com,music.yandex.ru,music.yandex.ua##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding
 music.yandex.by,music.yandex.com,music.yandex.ru,music.yandex.ua#?#span:contains(Отключить рекламу)
+ntv.ru##[href="/75/"]
 twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-overlay, .pl-notif, .player-alert, .recommended-channels, .tw-flex-shrink-0.tw-flex-nowrap.tw-flex.tw-align-items-center > .tw-mg-l-1, .tw-mg-b-1.tw-c-background-base.tw-border-t.tw-border-r.tw-border-l.tw-border-b, .tw-pd-y-1.tw-pd-x-1.tw-font-size-6.tw-flex.tw-c-text-overlay.tw-align-items-center.non-live-video-banner__header, .tw-relative.prime-offers, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--hollow.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button--secondary.tw-core-button--padded.tw-core-button--overlay.tw-core-button--icon.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button--padded.tw-core-button--icon.tw-core-button--dropdown.tw-core-button--border.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-top-0.tw-right-0.tw-overflow-hidden.tw-left-0.tw-flex-nowrap.tw-flex-column.tw-flex.tw-bottom-0.tw-absolute > .tw-full-height.tw-flex-nowrap.tw-flex-column.tw-flex > div.tw-flex-shrink-0, .tw-z-default.pinned-cheer-v2, .tw-interactive[href^="https://twitch.amazon.com/"], a[href*="megafon.ru"], a[href*="mercedes-benz.com"], a[href*="mybestcontent.ru"], a[href*="mydota2.net"], a[href*="noblechairs.com"], a[href*="poker"], a[href*="starladder.com"], a[href*="streamfest.ru"], a[href*="suveniry"], a[href*="upskill.ru"], a[href*="vk.cc"], a[href*="&BannerId="], a[href*="&bonus="], a[href*=".click"], a[href*=".com/ad/"], a[href*=".gg"], a[href*=".net/ad/"], a[href*=".org/ad/"], a[href*=".ru/ad/"], a[href*="/?r="], a[href*="/buy/"], a[href*="/go/"], a[href*="/joinchat/"], a[href*="/promo/"], a[href*="/shop/"], a[href*="?AffiliateUserId="], a[href*="?br="], a[href*="?btag="], a[href*="atributika"], a[href*="bet4.pm"], a[href*="betsdota2.c"], a[href*="bit.ly"], a[href*="boostmmr.ru"], a[href*="campaign"], a[href*="casino"], a[href*="clck.ru"], a[href*="col.vg"], a[href*="cutter.li"], a[href*="cyberbetpromo.net"], a[href*="domruchamp.ru"], a[href*="dota2camp.ru"], a[href*="dota.money"], a[href*="dotapl.us"], a[href*="dxracer-europe.com"], a[href*="fragstore.ru"], a[href*="g2a.com"], a[href*="gamefuel.com"], a[href*="garnitura"], a[href*="gearboost.eu"], a[href*="gg.bet"], a[href*="goo.gl"], a[href*="goodgame.pm"], a[href*="gosu.ai"], a[href*="intel.com"], a[href*="invasion.ru"], button.pl-button--icon.pl-button--follow.pl-button, a[href*="is.gd"], a[href*="rusfond.ru"], .pl-single-rec-wrapper.recommendations-overlay.player-overlay, div#root.root > div.tw-absolute.tw-bottom-0.tw-flex.tw-flex-column.tw-flex-nowrap.tw-left-0.tw-overflow-hidden.tw-right-0.tw-top-0 > div.tw-flex.tw-flex-column.tw-flex-nowrap.tw-full-height > nav.top-nav.tw-flex-shrink-0.tw-relative > div.top-nav__menu.tw-align-items-stretch.tw-flex.tw-flex-nowrap.tw-full-height > div.tw-align-self-center.tw-flex-grow-0.tw-flex-nowrap.tw-flex-shrink-0.tw-mg-x-05 > div.tw-relative, a[href*="myway2win.com"], a[href*="webto.ru"], a[href*="logitech.promo"], .tw-z-above.tw-pd-t-05.tw-absolute.subtember-callout, a[href*="cybertraff.info/"], .tw-z-default.channel-leaderboard, .tw-full-width > .tw-mg-b-2, .tw-transition__fade--enter-done.tw-transition__fade.tw-transition--enter-done.tw-transition--duration-long.tw-transition, .tw-z-default.channel-leaderboard, .tw-z-above.tw-relative.tw-full-width.tw-c-text-base.blue-bar, .tw-z-default.tw-full-width.tw-absolute.chat-room__notifications, .tw-lg-flex.tw-hide > .tw-relative, .tw-pd-x-05.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-border-t.tw-border-r.tw-border-l.tw-border-b.tw-absolute.muted-segments-alert, .tw-top-0.tw-right-0.tw-pd-2.tw-bottom-0.tw-absolute.player-overlay-background-sidebar.player-overlay-background--darkness-3.player-overlay-background, a[href*="vsemaykishop.ru"], a[href*="tiny.cc"], .tw-relative.tw-inline > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-core-button.tw-button-icon--secondary.tw-button-icon.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, a[href*="opseat.com"], a[href*="//vk.com/altasutashop"], a[href*="http://drpositive.ru/"], .toast-manager__container, .float-animation__children-wrapper, a[href*="//pm6.site"], .tw-z-above.tw-pd-t-05.tw-absolute.megacommerce-callout, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--secondary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-relative > .tw-relative.tw-overflow-hidden.tw-justify-content-center.tw-interactive.tw-inline-flex.tw-full-width.tw-core-button--primary.tw-core-button.tw-border-top-right-radius-medium.tw-border-top-left-radius-medium.tw-border-bottom-right-radius-medium.tw-border-bottom-left-radius-medium.tw-align-middle.tw-align-items-center, .tw-mg-t-05.tw-justify-content-between.tw-flex-wrap.tw-flex.tw-align-items-start, .tw-pd-x-1.tw-justify-content-between.tw-flex-nowrap.tw-flex.theatre-social-panel, .live-notifications__btn, a[href*="//torobrand.com/"], a[href*="//cutt.ly/"], a[href*="https://vk.com/gnummetv?w=wall-66138380_737072"], a[href*="strms.net/"], a[href*="lenovo.com/"] > img, .tw-pd-1.tw-flex.tw-c-text-overlay.tw-c-background-overlay.tw-align-items-start.low-latency-notification, a[href*="//betsdota2."], a[href*="playnowonline.ru"], a[href*="https://www.twitch.tv/betsdota2.in"], a[href*="omgbonus.com"], a[href*="//t.me/hgbet"], .community-highlight-stack__card--wide.community-highlight-stack__card, a[href*="dns-shop.ru"], .tw-full-height.tw-flex.tw-align-items-center.community-points-summary > .tw-z-above.tw-relative.tw-full-height, a[href*="cybersport.ru"], .tw-mg-r-05
 vidoza.net##div.wait_buffer
 vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], div.more_div
 xhamster.*##.list-items.wih-spot-container.right-rectangle
+yandex.*##.col.main.widgets:style(margin-top: auto;margin-bottom: auto;)
+yandex.*##.container.container__search.container__line:style(padding-right: 0px;)
 yandex.*##.favorites__icon, .head-promo-plus__icon, .head-promo-plus__title, .home-arrow__bottom, .media-grid__media-content, .media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .rows__row_last.rows__row.row, .weather-maps__layer-tranzister, .ya-chat-widget, .ya-chat-button__container, .serp-footer__main, a[href*="//plus.yandex."], .yabrowser-promo, .container__banner, div[aria-label="Реклама"], .font-regular.i-bem.media-grid_theme_white.media-grid_visible_no.media-grid, .blocks-grid__item_static.blocks-grid__item.pane2__direct-wrapper_type_stripe.pane2__direct-wrapper, .desk-notif-card_zen_yes, .direct-close-block__confirm-popup, .direct-close-block__close-popup-content-wrapper, .direct-close-block__close-popup, .headline__notifier, .widgets__col_td_2, .widget_id_teaser, .media-promo, .header-favorites-button_js_inited.i-bem.header-favorites-button, .sticky, .ImagesViewerApp-DirectStripe_mod_design8.ImagesViewerApp-DirectStripe.MMDirectStripe, .content__informers-bg, .services-new__item.home-link, .services-new_bottom.services-new, .i-bem.zalogin-smart, .rows__row.rows__row_last, .serp-list_complementary_yes.serp-list_right_yes.serp-list, .Ether.Composite, .Collections_user.Collections, .composite_bottom-margin_none.composite_separated_no.composite_gap_s.composite, .typo_line_s.typo_text_m.typo.serp-meta_rating_yes.serp-meta_type_black.serp-meta, .imageloader_full-visible_yes.imageloader_visible_yes.zen_js_inited.imageloader_js_inited.block.zen_promo_yabro.imageloader_tracking_yes.imageloader_theme_dark.imageloader.scroll.i-bem.zen, .swiper_js_inited.schedule_js_inited.i-bem.swiper_multiple-tabs_no.swiper.i-delayed-bem.block.swiper_saved_yes.swiper_different_yes.schedule, .imageloader_visible_yes.imageloader_js_inited.apps_js_inited.block.i-bem.imageloader_theme_light.imageloader.apps, .imageloader_visible_yes.imageloader_js_inited.i-bem.block.i-delayed-bem.imageloader_theme_light.imageloader.services-new, .block_state_full.stocks__full, .district_js_inited.i-bem.block.district_tab_top.district_show-categories_yes.i-delayed-bem.district, .swiper_js_inited.tv_js_inited.i-bem.swiper_multiple-tabs_yes.swiper.i-delayed-bem.swiper_load-type_tv.swiper_load-data_yes.block.swiper_saved_yes.swiper_different_yes.tv, div.divjson-block_visible_yes.divjson-block_js_inited.i-bem.block.i-delayed-bem.divjson-block, .collections2_js_inited.block.mix-tabber_size_narrow.i-bem.collections2, .autoru-inserts_js_inited.block.mix-tabber_theme_grey.mix-tabber_size_narrow.i-bem.autoru-inserts, .i-bem.serp-footer__distro.scroll-spy.link_theme_normal.link, .distr-promo-block_js_inited.i-bem.distr-promo-head__content.card__divided.distr-promo-block_theme_default.distr-promo-block, .menu-plus-promo_js_inited.menu2__plus-promo.i-bem.menu-plus-promo.home-link, div[class="weather"], div[class="covid-isolation"], div[class="widget__collapsed covid-speed__collapsed"], #wd-wrapper-_weather-1.i-bem.widget.widget_yandex_true.widget_name_weather.widget_collapsed_yes.widgets__item.b-widget-fixed.widget_js_inited, div[class*="_item"].widgets__col, .xiva-notif, .heap_direction_column, .widgets__row_tr_2.widgets__row.heap__row.text_black_yes.row, .container_shrinkable_yes.container__line.container__first.container, .home-arrow__tabs, .headline__leftcorner.headline__item.col, .headline__leftcorner.headline__item, #wd-wrapper-_topnews, #wd-_topnews, .resources__bem-init-wrapper, .gap_side_bottom, .rows__bg, .skin__on-bg, a.i-bem.button_elastic_yes.button_theme_wide.mfooter__button.button, .mheader3__locate-cell.mheader3__cell, .menu-login-promo__icon, .home-arrow__logo.home-logo, .input__voice-search, .keyboard-loader__icon, .direct-close-block__confirm-popup, #wd-wrapper-_teaser, .i-bem.widget.widget_mode_plain.widget_id_teaser.widget_name_teaser.widgets__item.b-widget-fixed.widget_js_inited, .teaser__content, .yabrowser-promo.home-arrow__promo.yabrowser-promo_source_yabs.i-bem, div.ya-chat-widget, .teaser__nowrap, div.resources__bem-init-wrapper, noscript, .container.container__banner.container__line, div.row.third, div.b-inline.b-inline_banner, #banner.b-banner__content, div.b-banner__wrap, div.container__services, iframe.consistency__frame, .passp-social-block, .passp-social-button, #wd-wrapper-_topnews-1, #wd-_topnews-1, wd-wrapper-_stocks-1, .b-widget-data.b-wrapper.b-wrapper-topnews, div.stream-intro.block, div.stream_film.block, div.block.swiper, div.stream_anim_film.block, div.stream_series.block, div.divjson2-block.block, div.kinopoisk.block, div.stream-inserts-platform.block, a.home-link[href*="https://yabs.yandex.ru/"], [aria-label="#Лучшедома"], span.search3__voice, div.mini-suggest__popup.mini-suggest__popup_svg_yes, div.mfooter[role="contentinfo"][data-blockname="footer"], .mini-suggest__overlay-index, .mini-suggest__custom-alert, .search3__end, .sidebarPromo.promoPanel
+yandex.*##[class*="rows__row_"]:style(height: 50%;width: 100%;)
 yandex.*##div[class*="__services"]:has(div[class*="services-new"])
 yandex.*##div[class="resources__bem-init-wrapper"]:has(div[class="i-bem xiva-notif xiva-notif_js_inited"])
 yandex.*##div[class]:has(div[class*="widgets__col widgets__col_td_"]):not(:has(div[class="home-arrow__search-wrapper"]))
-yandex.*##.col.main.widgets:style(margin-top: auto;margin-bottom: auto;)
-yandex.*##.container.container__search.container__line:style(padding-right: 0px;)
-yandex.*##[class*="rows__row_"]:style(height: 50%;width: 100%;)
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container
-google.*##mobile-promo
-mail.ru##div.pulse-lenta, a[href="//corp.mail.ru/adv/"], .zeropixel, .grid__rcol_aside > .games, .grid__header > .toolbar, .grid-down > .grid__lcol, #mailbox-container ~ div > .projects, .grid__header > .toolbar, #footer, .informers, .news-main, .news-item, tbody, #portal-headline, .search__top, #search\:example, .i-pull-left.grid__ccol, .grid__main-col, .i-relative.grid__header, .scroll-to-top__container, .i-relative.i-pull-right.grid__rcol, .i-clearfix.grid__container.grid-down, .logo__img, .logo#logo, #slidotype, .projects, .news, .layout__centercol__wrap, .layout__centercol, .logo, .logo__link__img, .social__description, .myPopularFotoSmall, .gallery__list, .banner, .banner_expanded, .w-text-banner_outer, .w-text-banner_outer-hiddable, .portal-footer__portal-links, .layout__rightcol, .w-text-banner_outer, .pulse-widget, .pulse, .covid, #adq\:top, .swipe-wrap, #w-search, .header__logotype__link, .header_custom-logo.header, .widget.tv.block, span.block.catalogue, span.block[data-show-counter], .counter, .adq, #adq\:bottom, .widget.currency.block, .w-social-row__container, .w-social-row.my.block__item_bottom.block__item, .w-go-form__sugg, .horo__container, .b-header
-mail.ru##.tabs:has(a.tabs__item[target="_blank"])
-mail.ru##.m-animated-shadow:style(left: 150% !important;)
-mail.ru##span.block[style]:has([href^="https://news.mail.ru/"])
 ! CSS END
 
 ! XPATH
@@ -976,23 +1008,21 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 
 ! OTHER
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
+/[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
+/[-._?&=#/]ping[-.0-9_?&=#/]?/$important
+/[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
 |http*:*$beacon,important
 |http*:*$ping,important
 |http*:*/coins.php$important
+|http*:*/fd/ls/$important
 |http*:*/generate_204$important
 |http*:*/pagead/$important
 |http*:*/redirect?feed=$important
-|http*:*/fd/ls/$important
-/[-._?&=#/]ping[-.0-9_?&=#/]?/$important
-/[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 |http*:*/rsya-tag-users/$important
-||yandex.ru/portal/set/any/*&empty=
-||yandex.*/clck/$important
 ||ad.
 ||ads-sdk.
-||syndication.
 ||ads.
 ||adserver*.
 ||adv.
@@ -1009,6 +1039,9 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||geo.$domain=~fast.com
 ||hola.org/users/get_user?
 ||hola.org/users/payment/
+||log.
+||logs.
+||logx.
 ||marketing.
 ||meta^
 ||monitor.$domain=~monitor.firefox.com
@@ -1024,15 +1057,15 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||snippet*.
 ||stat.$important,third-party
 ||suggest.
+||syndication.
 ||telemetric.
 ||telemetrics.
 ||telemetry.
 ||trackclick*.
 ||tracking*.
-||log.
-||logs.
-||logx.
 ||undefined^
+||yandex.*/clck/$important
+||yandex.ru/portal/set/any/*&empty=
 ! OTHER END
 
 ! DOCUMENT
@@ -1041,16 +1074,16 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/*.gif|$document,domain=~github.com|~githubusercontent.com|~imgur.com|~wikimedia.org
 |http*:*/redirect.html$document
 ||blocked.mts.ru^$document
-||wrongurl.mts.ru^$document
 ||browser.yandex.ru^$~document
 ||click.$document
-||easylist-downloads.adblockplus.org/exceptionrules.txt|$document
 ||easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt|$document
+||easylist-downloads.adblockplus.org/exceptionrules.txt|$document
+||eshop.eset.com^$document
 ||msftconnecttest.com/redirect$document
 ||vk.com/badbrowser.php$document
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
-||eshop.eset.com^$document
+||wrongurl.mts.ru^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
@@ -1062,21 +1095,23 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! SCRIPT
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
 /\/(edmonton|jellyfish)\.webp/$important,script
+/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script,important
+/\/t[a-f0-9]{10,13}\.js$/$script,important
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$important,script,third-party
 /^https?:\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$important,script,third-party
 /^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~google.com|~lelinhtinh.github.io|~my.dogechain.info|~twitch.tv|~whoer.net|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
+/^https?:\/\/[^\s]+\/crypt[oa]\.js/$important,script
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{4,5}$/$important,script,third-party
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/4(00)?\/[0-9]{7}/$important,script,third-party
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{4,5}$/$important,script,third-party
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/akam\/11\/[a-f0-9]{8}/$important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}/$important,script,third-party
 /^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$important,script,third-party
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/akam\/11\/[a-f0-9]{8}/$important,script
 |http*:*/beacon.js$important,script
-/^https?:\/\/[^\s]+\/crypt[oa]\.js/$important,script
 |http*:*/fingerprint2.$important,script
 |http*:*/ga.js$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
@@ -1084,19 +1119,17 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/gtag.js$important,script
 |http*:*/invoke.js$important,script
 |http*:*/jquery.notify.js$important,script
+|http*:*/matomo.js$important,script
 |http*:*/miner.js$important,script
 |http*:*/no-right-click-$important,script
 |http*:*/scripts-nvm/gen.php?$script
+|http*:*/snow.js|$script
 |http*:*/vastlist.js$important,script
 |http*:*/vinos.js$important,script
 |http*:*/wl-http.js$important,script
 |http*:*/wl.js$important,script
-|http*:*/matomo.js$important,script
 ||ucoz.net/cgi/uutils.fcg?$script,important
-/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$script,important
-/\/t[a-f0-9]{10,13}\.js$/$script,important
 ||yandex.*/search/yandcache.js|$script,important
-|http*:*/snow.js|$script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1112,16 +1145,20 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||streamalloha.live/*.vtt|$xmlhttprequest
 ||reddit.com/timings/$xmlhttprequest
 ||twitter.com/i/jot|$xmlhttprequest
-||yandex.ru/suggest/suggest-ya.cgi?$xmlhttprequest
+||yandex.*/suggest/suggest-ya.cgi?$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED
 /[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,ping,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,ping,other,xmlhttprequest
+/[-._?&=#/](s(oc(ial)?|p(lash|rites?))|i(ma?ge?|con([sea]|big)?))[-._?&=#/]?(w(hatsapp|eb(discover|money))|f((ace)?b(ook)?|o(llow|oter)|lickr|cbk|ormspring|riendfeed)|g(oogle(bookmarks?)?|[-_]?[Pp]lus|\+|ithub)|t(u(mblr|be)|w(it?(ter)?|eet)?|eler?gram|iktok|encent[Ww]eibo)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?|kype|ina[Ww]eibo|urfingbird|pringpad|tumbleupon)|i(co(ns?)?|nsta?(gramm?|paper)?|mpulse|tunes)|v(k(rugu|ontakte)?|imeo|iber)?|y((outu)?be?|ahoo|andex|azakladki)|b(o(x|okmarks?)|ar|ig|loc?k|tn|uttons?|logger|obrdobr)|co(re|llections?)|a(pple|pi|ddthis)|m(oemesto|emori|ail|oi(mir|krug)|yspace|isterwong)|p(lugins?|opups?|in(me|terest)?|ocket|luso|rint)|o(dnoklassni)ki?|l(i(nkedin|ve(journal|nternet))|[jn]|ogos?)|r(eddit|eadability|enren)|q(q(live)?|zone)|d(elicious|igg)|e(vernote|mail)|u(social|ptolike)|juick)[-.0-9_?&=#/]/$important,image,script,stylesheet,domain=~otvet.mail.ru
+/[-._?&=#/]?[Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest
+/[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,ping,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
 /[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,ping,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
+/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest,ping,other
 /\/1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)/$image,important,script,subdocument
@@ -1129,14 +1166,10 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,ping,other,script,third-party
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest
 /^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit)\.com|((iam|hw)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
-/[-._?&=#/]?[Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest
-||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
-/[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,ping,other,xmlhttprequest
-/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
-/[-._?&=#/](s(oc(ial)?|p(lash|rites?))|i(ma?ge?|con([sea]|big)?))[-._?&=#/]?(w(hatsapp|eb(discover|money))|f((ace)?b(ook)?|o(llow|oter)|lickr|cbk|ormspring|riendfeed)|g(oogle(bookmarks?)?|[-_]?[Pp]lus|\+|ithub)|t(u(mblr|be)|w(it?(ter)?|eet)?|eler?gram|iktok|encent[Ww]eibo)|s(h(ar(es?|ing)|eet)|mall|earch|idebar|igns?|kype|ina[Ww]eibo|urfingbird|pringpad|tumbleupon)|i(co(ns?)?|nsta?(gramm?|paper)?|mpulse|tunes)|v(k(rugu|ontakte)?|imeo|iber)?|y((outu)?be?|ahoo|andex|azakladki)|b(o(x|okmarks?)|ar|ig|loc?k|tn|uttons?|logger|obrdobr)|co(re|llections?)|a(pple|pi|ddthis)|m(oemesto|emori|ail|oi(mir|krug)|yspace|isterwong)|p(lugins?|opups?|in(me|terest)?|ocket|luso|rint)|o(dnoklassni)ki?|l(i(nkedin|ve(journal|nternet))|[jn]|ogos?)|r(eddit|eadability|enren)|q(q(live)?|zone)|d(elicious|igg)|e(vernote|mail)|u(social|ptolike)|juick)[-.0-9_?&=#/]/$important,image,script,stylesheet,domain=~otvet.mail.ru
 /^https?:\/\/yastatic.net\/[^\s]+((widget\_ya|nearest|atom)\.js$|tableau\.html$)/$subdocument,script,important
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
+||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1542,3 +1575,4 @@ pixiv.net#@#div:not(.submit-area):has(:scope > iframe:not([src]))
 ||a-msedge.net^$badfilter
 mail.ru#@#.social
 ||yandex.st^$badfilter
+||pp.userapi.com^$badfilter
