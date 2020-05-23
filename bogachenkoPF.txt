@@ -348,6 +348,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||addtoany.com^$important,third-party
 ||adfox.yandex.ru^
 ||adjust.com^
+||appmetrica.yandex.com^
 ||admix.in^
 ||admixer-st.cdn.ngenix.net^
 ||admixer.net^
@@ -962,6 +963,7 @@ zloekino.ru##+js(cookie-remover.js)
 2ch.hk##.logo, #mobile-pashque
 aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
 bing.com###t_termsInfo
+imgur.com###cta-container-placeholder2
 clipwatching.com###container > div > div:style(width:0px!important)
 english-films.*##.block-content:has-text(Онлайн чат)
 english-films.*##.mainInner:style(padding-left: 0 !important;)
