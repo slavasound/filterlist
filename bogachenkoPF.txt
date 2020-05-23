@@ -22,6 +22,7 @@
 ||unity3d.com^
 ||zen.yandex.ru^$~third-party
 ||zeptolab.com^
+||reports.crashlytics.com^$app=ru.mts.mymts,important
 !#endif
 !#endif
 
@@ -347,6 +348,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||addthisedge.com^$important,third-party
 ||addtoany.com^$important,third-party
 ||adfox.yandex.ru^
+||static-marketolog.mts.ru^
+||ms-applications.appspot.com^
+||www.mobisystems.com^
 ||adjust.com^
 ||appmetrica.yandex.com^
 ||admix.in^
@@ -865,7 +869,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 
 ! APP
 *$important,app=KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
-*$important,app=Draziw.Button.Mines|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.appstar.callrecorder|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.kx.box|com.ligeria.solitaire|com.lonelycatgames.Xplore|com.mediocre.grannysmith|com.miniclip.plagueinc|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.red.ball.ballgames.bounceball.redball5|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.topgame.BeenyAdventures|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|pl.lukok.draughts|com.submarineapps.mill|pt.wm.milhes|com.rovio.angrybirds|com.miniclip.istunt2|com.karmangames.solitaire|com.redrocket.poker|com.forthblue.pool|com.andregal.android.poolbilliard|com.amanotes.beathopper
+*$important,app=Draziw.Button.Mines|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.appstar.callrecorder|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.kx.box|com.ligeria.solitaire|com.lonelycatgames.Xplore|com.mediocre.grannysmith|com.miniclip.plagueinc|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.red.ball.ballgames.bounceball.redball5|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.topgame.BeenyAdventures|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|pl.lukok.draughts|com.submarineapps.mill|pt.wm.milhes|com.rovio.angrybirds|com.miniclip.istunt2|com.karmangames.solitaire|com.redrocket.poker|com.forthblue.pool|com.andregal.android.poolbilliard|com.amanotes.beathopper|com.mobisystems.fileman
 ||yandex.ru^$app=app.source.getcontact
 ! APP END
 
