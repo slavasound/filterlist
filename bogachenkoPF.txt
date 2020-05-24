@@ -366,7 +366,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adscale.de^
 ||adsdk.yandex.ru^
 ||adserversolutions.com^
-||mail.ru^
+||mail.ru^$third-party
 ||adservice.google.*^$important
 ||adservme.com^
 ||adskeeper.co.uk^
@@ -456,7 +456,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||collections.yandex.ru^
 ||collector-hpn.ghostery.net^
 ||conduit.com^$important,third-party
-||conduit.com^$third-party
 ||connect.facebook.net^$important
 ||connect.mail.ru^$important
 ||connect.ok.ru^$important
@@ -757,7 +756,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||socialchorus.com^$important,third-party
 ||socialinterface.com^$important,third-party
 ||socialminer.com^$important,third-party
-||soft.export.yandex.ru^
 ||sohu.com^$important,third-party
 ||soom.la^
 ||soomla.com^
@@ -1060,6 +1058,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/rsya-tag-users/$important
 |http*:*/YandexPackSetup.exe|$important
 |http*:*/Yandex.exe?$important
+||detectportal.
 ||ad.
 ||ads-sdk.
 ||ads.
