@@ -42,7 +42,7 @@ $$script[tag-content="popMagic"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
 $$script[tag-content="zoneNativeSett"]
-$$script[wildcard="'shift'*String*'fromCharCode'"]
+$$script[data-cfasync="false"][wildcard="*['push']*['shift']*decodeURIComponent*"]
 $$script[wildcard="*eval*babasbmsgx*"]
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
@@ -66,15 +66,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||favicon.yandex.net^$image
 @@||yandex.ru^$generichide
 @@/^https:\/\/my\.mail\.ru(\/\+)?\/video\//$subdocument,xmlhttprequest
+@@||vk.com/video_ext.php$subdocument
 ! WHITELIST END
-
-! TEST
-!
-! TEST END
-
-! DELETE
-!
-! DELETE END
 
 ! STEALTH
 !
@@ -85,8 +78,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party
-/^https?:\/\/ok.ru(?!\/videoembed)\//$important,third-party
-/^https?:\/\/vk.ru(?!\/video)/$important,third-party
+/^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party
+/^https?:\/\/vk\.com(?!\/video)/$important,third-party
 /a\.[a-z0-9]{33,43}\.com$/
 3.11.46.38:443$network
 8.253.207.117:443$network
@@ -331,6 +324,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||535447ed91a7b31514021d69bb3ee1b3.com^
 ||22222222.com^
 ||0101010101010101.com^
+||s4d.xyz^
 ||1010101010101010.com^
 ||5657274756572747565727475657274756572747565727475657274756572747.com^
 ||7472756574727565747275657472756574727565747275657472756574727565.com^
@@ -1207,7 +1201,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)\?[a-z]{1,2}\=/$image,important,ping,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,ping,other,script,third-party
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest
-/^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit)\.com|((iam|hw)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io
+/^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit)\.com|((iam|hw)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io|bmoviesfree.io
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /^https?:\/\/yastatic.net\/[^\s]+((widget\_ya|nearest|atom)\.js$|tableau\.html$)/$subdocument,script,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
