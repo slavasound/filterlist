@@ -84,8 +84,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /(ablen|aeros)[0-9]{2}\.tk/
 /^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
-/^https?:\/\/(my\.)?mail\.ru(?![+/]+video)\//$important
-/^https?:\/\/ok.ru(?!\/videoembed)\//$important
+/^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party
+/^https?:\/\/ok.ru(?!\/videoembed)\//$important,third-party
+/^https?:\/\/vk.ru(?!\/video)/$important,third-party
 /a\.[a-z0-9]{33,43}\.com$/
 3.11.46.38:443$network
 8.253.207.117:443$network
@@ -810,7 +811,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||vigo.ru^
 ||viralmint.com^$important,third-party
 ||vk-portal.net^
-||vk.com^$important,third-party,domain=~vk-apps.com
+||vk.com^$third-party
 ||vk.go.mail.ru^
 ||vmweb.net^
 ||voiceservices.yandex.net^
@@ -1212,7 +1213,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 ||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
 /^https?:\/\/((yandex\-pogoda\.)?naydex|yandex)\.\w+\/[^\s]{1000,}/$image,other,important
-/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube)\.com|vkuser(video|audio)\.net)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
+/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube|vk\-apps)\.com|vkuser(video|audio)\.net)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
