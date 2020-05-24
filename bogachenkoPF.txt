@@ -694,6 +694,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||outbrain.org^
 ||parimatchru.com^
 ||partnercoll.github.io^
+||vk-portal.net^
+||pladform.ru^
 ||pbprof.com^$third-party
 ||perfectionholic.com^
 ||perr.h-cdn.com^
@@ -1106,6 +1108,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/ads?\/(middle|bottom|right|top|left)\.html?\?/$important,subdocument
 ||deviants.com/player/html.php$subdocument,important
 ||redditmedia.com/gtm/jail?$subdocument,important
+/^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{3000}$/$subdocument,important
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -1187,6 +1190,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 ||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
 /^https?:\/\/((yandex\-pogoda\.)?naydex|yandex)\.\w+\/[^\s]{1000,}/$image,other,important
+/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube)\.com)).*$/$important,third-party,script,image,subdocument,domain=vk.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
