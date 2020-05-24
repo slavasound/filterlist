@@ -795,6 +795,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||update.utorrent.*^
 ||updtapi.com^
 ||updtbrwsr.com^
+||theridgeatdanbury.com^
 ||uprimp.com^
 ||uptolike.com^$important,third-party
 ||usocial.pro^$important,third-party
@@ -922,6 +923,9 @@ zloekino.ru##+js(cookie-remover.js)
 *##.cookie
 *##.cookie-choices-inner
 *##.custom-ad
+*##.cookie-consent
+*##.eu-cookie-popup_visible
+*##.eu-cookie-popup
 *##.cz-sponsorposts
 *##.flash-advertisement
 *##.homepage_ads
@@ -1040,6 +1044,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/redirect?feed=$important
 |http*:*/rsya-tag-users/$important
 ||ad.
+|http*:*/advert/$important
 ||ads-sdk.
 ||ads.
 ||adserver*.
@@ -1190,7 +1195,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 ||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
 /^https?:\/\/((yandex\-pogoda\.)?naydex|yandex)\.\w+\/[^\s]{1000,}/$image,other,important
-/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube)\.com)).*$/$important,third-party,script,image,subdocument,domain=vk.com
+/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube)\.com|vkuser(video|audio)\.net)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
