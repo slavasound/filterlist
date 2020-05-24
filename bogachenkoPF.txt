@@ -65,10 +65,11 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||vk.com/images/*$image,domain=vk-apps.com
 @@||favicon.yandex.net^$image
 @@||yandex.ru^$generichide
+@@/^https:\/\/my\.mail\.ru(\/\+)?\/video\//$subdocument,xmlhttprequest
 ! WHITELIST END
 
 ! TEST
-! @@||my.mail.ru/video/embed/$subdocument
+!
 ! TEST END
 
 ! DELETE
@@ -83,7 +84,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /(ablen|aeros)[0-9]{2}\.tk/
 /^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
-/^https?:\/\/(.*\.)?mail\.ru(?!\/video)\//$important
+/^https?:\/\/(my\.)?mail\.ru(?![+/]+video)\//$important
 /^https?:\/\/ok.ru(?!\/videoembed)\//$important
 /a\.[a-z0-9]{33,43}\.com$/
 3.11.46.38:443$network
@@ -861,7 +862,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||yastatic.net/*/passport-auth-customs/*.jpg|$image,important
 ||yastatic.net/lego/*.gif|$image,important
 ||yastatic.net/*/liza/*-mail-Placeholder-Picture_*.gif|$image,domain=mail.yandex.ru|mail.yandex.ua|mail.yandex.by,important
-*/grstat?$image,important
+|http*:*/grstat?$image,important
 ! IMAGE END
 
 ! POP-UP
