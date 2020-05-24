@@ -68,7 +68,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! WHITELIST END
 
 ! TEST
-!
+/^https?:\/\/(my\.)?mail\.ru(?!\/video)\//$important,third-party
+||mail.ru^$important,third-party,badfilter
 ! TEST END
 
 ! DELETE
@@ -800,6 +801,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||update.utorrent.*^
 ||updtapi.com^
 ||updtbrwsr.com^
+||freegeoip.app^
 ||theridgeatdanbury.com^
 ||uprimp.com^
 ||uptolike.com^$important,third-party
@@ -1181,6 +1183,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||reddit.com/timings/$xmlhttprequest,important
 ||twitter.com/i/jot|$xmlhttprequest,important
 ||yandex.*/suggest/suggest-ya.cgi?$xmlhttprequest,important
+||ok.ru/dk?cmd=videostatnew$xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
 ! COMBINED
