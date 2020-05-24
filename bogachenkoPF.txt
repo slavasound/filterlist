@@ -68,7 +68,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! WHITELIST END
 
 ! TEST
-!
+! @@||my.mail.ru/video/embed/$subdocument
 ! TEST END
 
 ! DELETE
@@ -83,8 +83,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /(ablen|aeros)[0-9]{2}\.tk/
 /^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
-/^https?:\/\/(my\.)?mail\.ru(?!\/video)\//$important,third-party
-/^https?:\/\/ok.ru(?!\/videoembed)\//$important,third-party
+/^https?:\/\/(.*\.)?mail\.ru(?!\/video)\//$important
+/^https?:\/\/ok.ru(?!\/videoembed)\//$important
 /a\.[a-z0-9]{33,43}\.com$/
 3.11.46.38:443$network
 8.253.207.117:443$network
@@ -365,6 +365,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adscale.de^
 ||adsdk.yandex.ru^
 ||adserversolutions.com^
+||mail.ru^
 ||adservice.google.*^$important
 ||adservme.com^
 ||adskeeper.co.uk^
