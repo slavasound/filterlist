@@ -952,6 +952,7 @@ zloekino.ru##+js(cookie-remover.js)
 *##[href*="yabs.yandex.ru"]
 *##[href="/1884.html"]
 *##a[href*="//ads.adfox.ru/"]
+*##.promoted-heading
 *##a[href*="https://zen.yandex.ru/"]
 *##div:has([class*="CookieDialog__DialogLInk-"])
 *##div[class*="sport-advert_"]
@@ -1160,16 +1161,16 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$important,third-party,xmlhttprequest
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
-||addons.opera.com/themes/$xmlhttprequest
+||addons.opera.com/themes/$xmlhttprequest,important
 ||alloha.tv/index.php?ref=*&domain=$important,xmlhttprequest
-||seasonvar.ru/uppod/*.xml|$xmlhttprequest
+||seasonvar.ru/uppod/*.xml|$xmlhttprequest,important
 ||twitter.com/*/jot/client_event.json$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
 ||streamalloha.live/*.vtt|$xmlhttprequest
-||reddit.com/timings/$xmlhttprequest
-||twitter.com/i/jot|$xmlhttprequest
-||yandex.*/suggest/suggest-ya.cgi?$xmlhttprequest
+||reddit.com/timings/$xmlhttprequest,important
+||twitter.com/i/jot|$xmlhttprequest,important
+||yandex.*/suggest/suggest-ya.cgi?$xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
 ! COMBINED
