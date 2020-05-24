@@ -81,6 +81,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! STEALTH END
 
 ! SITE
+||127.0.0.1^$important
 /(ablen|aeros)[0-9]{2}\.tk/
 ||countess.twitch.tv^
 /^[a-z0-9]{8,}\.Home$/
@@ -1186,7 +1187,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest,ping,other
-/\/1x1\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)/$image,important,script,subdocument
+/[-._?&=#/]1x[12]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)$/$image,important,script,subdocument
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)\?[a-z]{1,2}\=/$image,important,ping,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,ping,other,script,third-party
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest
@@ -1221,8 +1222,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 $image,redirect-rule=1x1.gif,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
 $popunder,third-party,domain=vivo.sx,badfilter
 $script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.cc|streamz.vg|hydrax.net|playhydrax.com|kissanime.ru|mac-torrent-download.net|kissanime.ru|mac-torrent-download.net,badfilter
-$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw|mp4upload.com|kwik.cx|vidcloud9.com,badfilter
-$script,third-party,domain=kissanime.ru,badfilter
+$script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw|mp4upload.com|kwik.cx|vidcloud9.com|mcloud.to|kissanime.ru,badfilter
 $stylesheet,script,xmlhttprequest,third-party,domain=clipwatching.com|vidlox.me,badfilter
 $subdocument,domain=clik.pw,badfilter
 $subdocument,third-party,domain=linkdrop.net|mixdrop.co|vidcloud9.com,badfilter
@@ -1481,8 +1481,8 @@ uiz.*#@#+js(aopr, NaConf)
 uiz.*#@#+js(aopr, adsBlocked)
 uiz.*#@#+js(aopr, app_vars.disable_adblock)
 uiz.*,ouo.io,intoupload.net,slink.bid,clik.pw,upstream.to,tii.ai,123movies.*,mstream.*,oload.*#@#+js(aopr, open)
-uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*,clicknupload.*,123movies.*,vidsrc.*,playhydrax.com,ffmovies.ru,skymovieshd.*,hydrax.net#@#+js(aopr, AaDetector)
-uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com,vidcloud9.*,123moviess.*,vidlox.*,putlockers.*,ffmovies.ru,clicknupload.*,arabseed.*,kissanime.ru,yts.*#@#+js(acis, Math, zfgloaded)
+uiz.*,ouo.io,shortearn.eu,shorten.*,leechpremium.link,uploadship.com,wstream.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,flix555.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,gdriveplayer.*,asianclub.*,eplayvid.com,kissasian.*,clicknupload.*,123movies.*,vidsrc.*,playhydrax.com,ffmovies.ru,skymovieshd.*,hydrax.net,fmovies.*#@#+js(aopr, AaDetector)
+uiz.*,ouo.io,shortearn.eu,shorten.*,up-load.io,wi.cr,mangaku.in,gogoanime.*,gogoanimes.*,dood.watch,clipwatching.com,clik.pw,uii.io,mac-torrent-download.net,indishare.*,9xupload.*,bdupload.*,9xmovies.*,pandafiles.com,videobin.co,upload.ac,uploadbuzz.*,sendit.cloud,userscloud.com,tii.ai,vidstreaming.io,vidcloud.*,123movies.*,123moviesfree.*,streamloverx.com,vidcloud9.*,123moviess.*,vidlox.*,putlockers.*,ffmovies.ru,clicknupload.*,arabseed.*,kissanime.ru,yts.*,fmovies.*#@#+js(acis, Math, zfgloaded)
 uiz.*,ouo.io,shorten.*,linkdrop.net,leechpremium.link,slink.bid,wstream.*,dood.watch,asianclub.*,mixdrop.*,upfordown.xyz,nxload.com,skymovieshd.*#@#+js(aopw, _pop)
 uiz.*,waaw1.tv,hqq.*,waaw.tv#@#+js(aopr, adBlockDetected)
 up-load.io,tricxbd.com#@#+js(std, nextFunction, 2000)
@@ -1604,3 +1604,4 @@ mail.ru#@#.social
 ||yandex.st^$badfilter
 ||pp.userapi.com^$badfilter
 ||platform.twitter.com^$badfilter
+||biqle.ru^$badfilter
