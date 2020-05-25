@@ -1,5 +1,5 @@
 ! [Adblock Plus 3.8.4]
-! [uBlock Origin 1.27.4]
+! [uBlock Origin 1.27.6]
 ! [Adguard 3.4.19]
 ! Description: This is a personal list of bogachenko filters.
 ! Expires: 3 hours
@@ -64,6 +64,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||yandex.ru^$generichide
 @@/^https:\/\/my\.mail\.ru[+/]+video\//$subdocument,xmlhttprequest
 @@||vk.com/video_ext.php$subdocument
+@@||ok.ru/videoembed/$subdocument
 ! WHITELIST END
 
 ! STEALTH
@@ -75,7 +76,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 /^[a-z0-9]{8,}\.Home$/
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party
-/^https?:\/\/ok\.ru(?!\/video)\//$important,third-party
+/^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party
 /a\.[a-z0-9]{33,43}\.com$/
 3.11.46.38:443$network
@@ -461,6 +462,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||criteo.*^
 ||crm-cdn.zenguard.biz^
 ||crm.zenguard.biz^
+||ok.ru^$third-party
 ||crowdgather.com^$important,third-party
 ||crowdynews.com^$important,third-party
 ||csp.yandex.net^
