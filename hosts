@@ -1058,6 +1058,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 watson.ppe.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com
 0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 www.qq.com
 0.0.0.0 wer.alpha.telemetry.microsoft.com
 0.0.0.0 wes.df.telemetry.microsoft.com
 0.0.0.0 apprep.smartscreen.microsoft.com
