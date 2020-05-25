@@ -96,10 +96,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 aax-fe-sin-rtb-adx.amazon-adsystem.com
 0.0.0.0 aax-fe-sin-rtb.amazon-adsystem.com
 0.0.0.0 www.msftconnecttest.com
+0.0.0.0 msftconnecttest.com
 0.0.0.0 aax-fe-sin.amazon-adsystem.com
 0.0.0.0 aax-fe.amazon-adsystem.com
 0.0.0.0 aaxads.com
 0.0.0.0 akamai.smartadserver.com.edgesuite.net
+0.0.0.0 wdcp.microsoft.com
 0.0.0.0 amplitude.com
 0.0.0.0 api.amplitude.com
 0.0.0.0 c.aaxads.com
@@ -1060,12 +1062,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 wes.df.telemetry.microsoft.com
 0.0.0.0 apprep.smartscreen.microsoft.com
 0.0.0.0 apprepsvc-ch1p.smartscreen.microsoft.com
+0.0.0.0 g.msn.com.nsatc.net
+0.0.0.0 ris.api.iris.microsoft.com
+0.0.0.0 query.prod.cms.rt.microsoft.com
 0.0.0.0 ars.smartscreen.microsoft.com
+0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
 0.0.0.0 feedbacksite-bn2b.smartscreen.microsoft.com
 0.0.0.0 native.propellerclick.com
 0.0.0.0 nav.smartscreen.microsoft.com
 0.0.0.0 smartscreen-os1p.smartscreen.microsoft.com
 0.0.0.0 smartscreen-sn3p.smartscreen.microsoft.com
+0.0.0.0 arc.msn.com
 0.0.0.0 telemetrysvc-by3p.smartscreen.microsoft.com
 0.0.0.0 urlreputation-ch1p.smartscreen.microsoft.com
 0.0.0.0 urlreputation-sn3p.smartscreen.microsoft.com
@@ -1812,6 +1819,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.applovin.com
 0.0.0.0 alflying.bid
 0.0.0.0 alflying.date
+0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
 0.0.0.0 alflying.win
 0.0.0.0 amsprod-rtbwin.applovin.com
 0.0.0.0 applovin.com
@@ -2080,6 +2088,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 malware-report.mozilla.com
 0.0.0.0 license.piriform.com
 0.0.0.0 licensing.mp.microsoft.com
+0.0.0.0 location-inference-westus.cloudapp.net
+0.0.0.0 inference.location.live.net
 0.0.0.0 log.kmplayer.com
 0.0.0.0 logx.optimizely.com
 0.0.0.0 propellerclick.com
