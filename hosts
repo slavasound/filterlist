@@ -24,6 +24,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytic.press
 0.0.0.0 app.link
 0.0.0.0 cdn.pljs.ru
+0.0.0.0 engine.sponsorpay.com
+0.0.0.0 video.fyber.com
+0.0.0.0 ksn-crypto-dnscheck-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-catm-geo.kaspersky-labs.com
+0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
+0.0.0.0 playatoms-pa.googleapis.com
 0.0.0.0 tps.doubleverify.com
 0.0.0.0 www.doubleverify.com
 0.0.0.0 tps10241.doubleverify.com
