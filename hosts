@@ -24,6 +24,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytic.press
 0.0.0.0 ksn-ml-geo.kaspersky-labs.com
 0.0.0.0 ksn-crypto-fw-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-tcert-geo.kaspersky-labs.com
+0.0.0.0 ksn-pp.kaspersky-labs.com
 0.0.0.0 app.link
 0.0.0.0 cdn.pljs.ru
 0.0.0.0 engine.sponsorpay.com
