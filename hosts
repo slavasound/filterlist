@@ -27,6 +27,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ksn-crypto-tcert-geo.kaspersky-labs.com
 0.0.0.0 ksn-pp.kaspersky-labs.com
 0.0.0.0 app.link
+0.0.0.0 dnl-01.geo.kaspersky.com
+0.0.0.0 dnl-02.geo.kaspersky.com
+0.0.0.0 dnl-03.geo.kaspersky.com
+0.0.0.0 dnl-04.geo.kaspersky.com
+0.0.0.0 dnl-05.geo.kaspersky.com
+0.0.0.0 dnl-06.geo.kaspersky.com
+0.0.0.0 dnl-07.geo.kaspersky.com
+0.0.0.0 dnl-08.geo.kaspersky.com
+0.0.0.0 dnl-09.geo.kaspersky.com
+0.0.0.0 dnl-00.geo.kaspersky.com
 0.0.0.0 cdn.pljs.ru
 0.0.0.0 beacons.gvt.com
 0.0.0.0 beacons1.gvt.com
