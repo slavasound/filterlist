@@ -37,6 +37,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 dnl-08.geo.kaspersky.com
 0.0.0.0 dnl-09.geo.kaspersky.com
 0.0.0.0 dnl-00.geo.kaspersky.com
+0.0.0.0 log.avlyun.com
+0.0.0.0 cdn.88-f.net
+0.0.0.0 presage.io
+0.0.0.0 pad-v3.presage.io
+0.0.0.0 p.presage.io
 0.0.0.0 cdn.pljs.ru
 0.0.0.0 ip-api.com
 0.0.0.0 umeng.com
