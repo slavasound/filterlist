@@ -19,7 +19,7 @@
 @@||gvt2.com^
 @@||gvt3.com^
 ||www.yandex.com^
-||www.facebook.com^
+||facebook.com^
 ||www.bromite.org^
 ||everyplay.com^
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
@@ -69,7 +69,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@/^https:\/\/my\.mail\.ru[+/]+video\//$subdocument,xmlhttprequest
 @@||vk.com/video_ext.php$subdocument
 @@||ok.ru/videoembed/$subdocument
-@@||lfnnmlimilinwvwlijljioeogq13.club^
 ! WHITELIST END
 
 ! STEALTH
@@ -903,6 +902,7 @@ salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,myst
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz,waaw.tv,hindilinks4uto.com,hqq.tv,waaws.*,waaw1.tv##+js(contextmenudef.js)
 wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 zloekino.ru##+js(cookie-remover.js)
+vk.com##+js(set-constant.js, noAdsAtAll, true)
 ! SCRIPTLET END
 
 ! CSS
