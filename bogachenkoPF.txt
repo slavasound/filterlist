@@ -25,7 +25,6 @@
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
 ||qq.com^
 ||unity3d.com^
-||zen.yandex.ru^$~third-party
 ||zeptolab.com^
 !#endif
 !#endif
@@ -840,12 +839,13 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||zarget.com^
 ||zdevx.yandex.ru^
 ||zen-test.yandex.ru^
-||zen.yandex.ru^$third-party
+||zen.yandex.ru^
 ||zestads.com^
 ||zestadz.com^
 ||zirkabet.com^
 ||zmctrack.net^
 ||zoomanalytics.co^
+||games.yandex.ru^$domain=yandex.ru
 ! SITE END
 
 ! IMAGE
@@ -1020,6 +1020,7 @@ vk.com#?#.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info 
 xhamster.*##.list-items.wih-spot-container.right-rectangle
 yandex.*##^script:has-text(AwapsJsonAPI)
 yandex.*##^script:has-text(/\/yabs\./)
+yandex.*##[class]:matches-css(background-image: /https?:\/\/yastatic\.net\/[^\s]{118}/)
 yandex.*##.col.main.widgets:style(margin-top: auto;margin-bottom: auto;)
 yandex.*##.container.container__search.container__line:style(padding-right: 0px;)
 yandex.*##.rows__row_first.rows__row.row > .col:style(display:none!important;)
