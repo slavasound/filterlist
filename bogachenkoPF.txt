@@ -730,7 +730,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||r.mail.ru^
 ||radiumone.com^$important,third-party
 ||rayjump.com^
-||rdap.db.ripe.net^
 ||recover.operacdn.com^
 ||reddit.com^$important,third-party
 ||redir.opera.com^
@@ -1020,6 +1019,7 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 vk.com#?#.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
 xhamster.*##.list-items.wih-spot-container.right-rectangle
 yandex.*##^script:has-text(AwapsJsonAPI)
+yandex.*##^script:has-text(/\/yabs\./)
 yandex.*##.col.main.widgets:style(margin-top: auto;margin-bottom: auto;)
 yandex.*##.container.container__search.container__line:style(padding-right: 0px;)
 yandex.*##.rows__row_first.rows__row.row > .col:style(display:none!important;)
