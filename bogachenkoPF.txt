@@ -1228,7 +1228,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 ||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
 /^https?:\/\/((yandex\-pogoda\.)?naydex|yandex)\.\w+\/[^\s]{1000,}/$image,other,important
-/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube|vk(\-apps)?)\.com|(vkuser(video|audio)|vk\-cdn)\.net)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
+/^(?!.*((injections|local)\.adguard\.org|(userapi|youtube|vk(\-apps)?)\.com|(vkuser(video|audio)|vk\-cdn)\.net|mycdn\.me)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
