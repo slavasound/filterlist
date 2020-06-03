@@ -370,6 +370,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adtechus.com^
 ||adtheorent.com^
 ||adthor.com^
+||track.tenjin.com^
+||pad-v3.presage.io^
+||rubick.gameanalytics.com^
+||p.presage.io^
+||ecommerce.iap.unity3d.com^
+||conf.homagames.com^
 ||adthrive.com^
 ||adtilt.com^
 ||adtima.vn^
