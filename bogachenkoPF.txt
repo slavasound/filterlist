@@ -766,6 +766,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||socialminer.com^$important,third-party
 ||sohu.com^$important,third-party
 ||soom.la^
+||codefund.io^
 ||soomla.com^
 ||speeddials.opera.com^
 ||spot.im^$important,third-party
@@ -880,6 +881,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||click2go.me^$important,popup
 ||gemius.pl^$important,popup
 ||yastatic.net^$important,popup,domain=~kinopoisk.ru
+||yandex.*/clck/$important,popup
 ! POP-UP END
 
 ! MEDIA
@@ -1071,6 +1073,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/fd/ls/$important
 |http*:*/generate_204$important
 |http*:*/pagead/$important
+||yandex.*/suggest/$important
+||yandex.*/geohelper/$important
 |http*:*/redirect?feed=$important
 |http*:*/rsya-tag-users/$important
 |http*:*/YandexPackSetup.exe|$important
@@ -1194,6 +1198,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/wl.js$important,script
 ||ucoz.net/cgi/uutils.fcg?$script,important
 ||yandex.*/search/yandcache.js|$script,important
+||yandex.ru/portal/$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1209,7 +1214,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||streamalloha.live/*.vtt|$xmlhttprequest
 ||reddit.com/timings/$xmlhttprequest,important
 ||twitter.com/i/jot|$xmlhttprequest,important
-||yandex.*/suggest/suggest-ya.cgi?$xmlhttprequest,important
 ||ok.ru/dk?cmd=videostatnew$xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
