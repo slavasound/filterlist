@@ -30,6 +30,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 dnl-01.geo.kaspersky.com
 0.0.0.0 dnl-02.geo.kaspersky.com
 0.0.0.0 dnl-03.geo.kaspersky.com
+0.0.0.0 track.tenjin.com
+0.0.0.0 pad-v3.presage.io
+0.0.0.0 rubick.gameanalytics.com
+0.0.0.0 p.presage.io
+0.0.0.0 ecommerce.iap.unity3d.com
+0.0.0.0 conf.homagames.com
+0.0.0.0 120.198.203.156
 0.0.0.0 dnl-04.geo.kaspersky.com
 0.0.0.0 dnl-05.geo.kaspersky.com
 0.0.0.0 dnl-06.geo.kaspersky.com
