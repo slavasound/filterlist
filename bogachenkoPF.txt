@@ -18,6 +18,7 @@
 @@||gvt1.com^
 @@||gvt2.com^
 @@||gvt3.com^
+@@||216.58.207.206:443^$app=com.android.vending,important
 ||www.yandex.com^
 ||facebook.com^
 ||www.bromite.org^
@@ -285,6 +286,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 198.134.112.242:443$network
 202.177.216.233$network
 202.177.216.236$network
+||gvt1.com^
+||gvt2.com^
+||gvt3.com^
 205.185.216.10:443$network
 205.185.216.42:443$network
 209.85.233.154:443$network
@@ -363,7 +367,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adscale.de^
 ||adsdk.yandex.ru^
 ||adserversolutions.com^
-||pladform.ru^
 ||mail.ru^$third-party
 ||adservice.google.*^$important
 ||adservme.com^
@@ -372,9 +375,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||adtheorent.com^
 ||adthor.com^
 ||track.tenjin.com^
-||pad-v3.presage.io^
-||rubick.gameanalytics.com^
-||p.presage.io^
 ||ecommerce.iap.unity3d.com^
 ||conf.homagames.com^
 ||adthrive.com^
@@ -501,7 +501,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||downloader.yandex.net^
 ||log.avlyun.com^
 ||cdn.88-f.net^
-||presage.io^
+||presage.io^$important
 ||dpmsrv.com^
 ||drcwo519tnci7.cloudfront.net^
 ||duapps.com^
@@ -544,7 +544,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||fundingchoicesmessages.google.com^$important
 ||fuse-ad.com^
 ||fyber.com^
-||gameanalytics.com^
+||gameanalytics.com^$important
 ||gamerdnamedia.com^$important,third-party
 ||gate.hockeyapp.net^
 ||gb-world.net^$important,third-party
@@ -686,21 +686,10 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||newsgenious.com^
 ||nexage.com^
 ||normandy.cdn.mozilla.net^
-||init.supersonicads.com^
 ||supersonicads.com^
-||outcome.supersonicads.com^
-||outcome-ssp.supersonicads.com^
 ||cleanerplus.ru^
 ||supersonic.com^
 ||supersonicads-a.akamaihd.net^
-||tag-mediation.supersonic.com^
-||click-haproxy.supersonicads.com^
-||logs.supersonic.com^
-||ow-gateway.supersonicads.com^
-||rv-gateway.supersonicads.com^
-||pixel-tracking.sonic-us.supersonicads.com^
-||ua.supersonicads.com^
-||www.supersonicads.com^
 ||ntv.com^
 ||o3fy684faxh8o.ru^
 ||oei1.gq^
@@ -728,7 +717,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||perr.hola.org^
 ||phi-centre.com^$important,third-party
 ||pinterest.com^$important,third-party
-||pladform.ru^
+||pladform.ru^$important
 ||playatoms-pa.googleapis.com^$important
 ||pluso.ru^$important,third-party
 ||popads.*^
@@ -792,7 +781,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||static-marketolog.mts.ru^
 ||stumbleupon.com^$important,third-party
 ||suggests.go.mail.ru^
-||supersonicads.com^
 ||syn-dir.sn.eamobile.com^
 ||taboola.com^
 ||taboolasyndication.com^
@@ -824,7 +812,12 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||uodoo.com^
 ||update.utorrent.*^
 ||updtapi.com^
+||voodoo-ads.io
+||voodoo.io
 ||updtbrwsr.com^
+||appsinnova.com^
+||track.tenjin.io^
+||voodoo-tech.io^
 ||uprimp.com^
 ||uptolike.com^$important,third-party
 ||usocial.pro^$important,third-party
@@ -907,7 +900,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 
 ! APP
 *$important,app=KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
-*$important,app=Draziw.Button.Mines|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.appstar.callrecorder|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.kx.box|com.ligeria.solitaire|com.lonelycatgames.Xplore|com.mediocre.grannysmith|com.miniclip.plagueinc|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.red.ball.ballgames.bounceball.redball5|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.topgame.BeenyAdventures|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|pl.lukok.draughts|com.submarineapps.mill|pt.wm.milhes|com.rovio.angrybirds|com.miniclip.istunt2|com.karmangames.solitaire|com.redrocket.poker|com.forthblue.pool|com.andregal.android.poolbilliard|com.amanotes.beathopper|com.mobisystems.fileman|com.fingersoft.hillclimb|com.genico.bounce|com.kiloo.subwaysurf|com.skgames.trafficracer|game.maddex.action|com.fingersoft.hcr2|com.billiards.city.pool.nation.club|com.x3m.tx4|com.leodesol.games.classic.maze.labyrinth|com.doodle.skatingman|com.playrix.gardenscapes|com.stolitomson|phone.cleaner.antivirus.speed.booster|com.topchopgames.skyroller|com.dvloper.granny|phone.cleaner.speed.booster.cache.clean.android.master|com.topchopgames.skyroller|com.dvloper.granny|phone.cleaner.speed.booster.cache.clean.android.master|com.blyts.nobodies
+*$important,app=Draziw.Button.Mines|com.BallGames.Woodturning|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.amanotes.beathopper|com.andregal.android.poolbilliard|com.appsinnova.android.keepclean|com.appstar.callrecorder|com.billiards.city.pool.nation.club|com.blyts.nobodies|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.doodle.skatingman|com.dvloper.granny|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.forthblue.pool|com.genico.bounce|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.karmangames.solitaire|com.kiloo.subwaysurf|com.kx.box|com.leodesol.games.classic.maze.labyrinth|com.ligeria.solitaire|com.lonelycatgames.Xplore|com.mediocre.grannysmith|com.miniclip.istunt2|com.miniclip.plagueinc|com.mobisystems.fileman|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.playrix.gardenscapes|com.red.ball.ballgames.bounceball.redball5|com.redrocket.poker|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.rovio.angrybirds|com.skgames.trafficracer|com.stolitomson|com.submarineapps.mill|com.topchopgames.skyroller|com.topgame.BeenyAdventures|com.x3m.tx4|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|phone.cleaner.antivirus.speed.booster|phone.cleaner.speed.booster.cache.clean.android.master|pl.lukok.draughts|pt.wm.milhes
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club)).*$/$app=app.source.getcontact,important
 ||crashlytics.com^$app=ru.sberbankmobile|ru.mts.mymts,important
 ! APP END
