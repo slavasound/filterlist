@@ -39,6 +39,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ksn-crypto-tcert-geo.kaspersky-labs.com
 0.0.0.0 ksn-pp.kaspersky-labs.com
 0.0.0.0 app.link
+0.0.0.0 beacons.gcp.gvt2.com
+0.0.0.0 front-logs.voodoo-ads.io
+0.0.0.0 crosspromo.voodoo.io
+0.0.0.0 addelivery-engine-api.voodoo-ads.io
+0.0.0.0 webapi-clean.ikeepapps.com
+0.0.0.0 splash-screen.voodoo-ads.io
+0.0.0.0 voodoo-ads.io
+0.0.0.0 voodoo.io
 0.0.0.0 ads2.ero-advertising.com
 0.0.0.0 askjolene.ero-advertising.com
 0.0.0.0 banners2.ero-advertising.com
