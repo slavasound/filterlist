@@ -26,11 +26,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 adspaces.ero-advertising.com
 0.0.0.0 data.ero-advertising.com
 0.0.0.0 ads.ero-advertising.com
-0.0.0.0 adspaces.ero-advertising.com
 0.0.0.0 api.ero-advertising.com
 0.0.0.0 apo.ero-advertising.com
 0.0.0.0 banners.ero-advertising.com
-0.0.0.0 data.ero-advertising.com
 0.0.0.0 invideo.ero-advertising.com
 0.0.0.0 layerads.ero-advertising.com
 0.0.0.0 redirects.ero-advertising.com
@@ -470,24 +468,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xn--adspace-kvg.ero-advertising.com
 0.0.0.0 zww.ero-advertising.com
 0.0.0.0 www.zww.ero-advertising.com
-0.0.0.0 ads.ero-advertising.com
-0.0.0.0 adspaces.ero-advertising.com
-0.0.0.0 api.ero-advertising.com
-0.0.0.0 apo.ero-advertising.com
-0.0.0.0 banners.ero-advertising.com
-0.0.0.0 data.ero-advertising.com
-0.0.0.0 invideo.ero-advertising.com
-0.0.0.0 layerads.ero-advertising.com
-0.0.0.0 redirects.ero-advertising.com
-0.0.0.0 speedclicks.ero-advertising.com
-0.0.0.0 thumbs.ero-advertising.com
-0.0.0.0 ads2.ero-advertising.com
-0.0.0.0 askjolene.ero-advertising.com
-0.0.0.0 banners2.ero-advertising.com
-0.0.0.0 imads.ero-advertising.com
-0.0.0.0 js.ero-advertising.com
-0.0.0.0 popads.ero-advertising.com
-0.0.0.0 tracker.ero-advertising.com
 0.0.0.0 dnl-01.geo.kaspersky.com
 0.0.0.0 dnl-02.geo.kaspersky.com
 0.0.0.0 dnl-03.geo.kaspersky.com
@@ -516,7 +496,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.exosrv.com
 0.0.0.0 exosrv.com
 0.0.0.0 origin-static.exosrv.com
-0.0.0.0 static.exosrv.com
 0.0.0.0 a.exosrv.com
 0.0.0.0 exdynsrv.com
 0.0.0.0 main.exdynsrv.com
@@ -530,8 +509,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.avlyun.com
 0.0.0.0 cdn.88-f.net
 0.0.0.0 presage.io
-0.0.0.0 pad-v3.presage.io
-0.0.0.0 p.presage.io
 0.0.0.0 cdn.pljs.ru
 0.0.0.0 ip-api.com
 0.0.0.0 umeng.com
@@ -551,7 +528,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 3790.content.swrve.com
 0.0.0.0 3790.api.swrve.com
 0.0.0.0 events.appsflyer.com
-0.0.0.0 120.198.203.156
 0.0.0.0 csi.gstatic.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 kvinit-prod.api.kochava.com
@@ -617,14 +593,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ksn-crypto-kas-geo.kaspersky-labs.com
 0.0.0.0 ksn-crypto-kas-geo.kas-labs.com
 0.0.0.0 ksn-crypto-mhc-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-catm-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-dnscheck-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-fw-geo.kaspersky-labs.com
 0.0.0.0 ksn-crypto-info-geo.kas-labs.com
 0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
 0.0.0.0 ksn-crypto-verdict-geo.kas-labs.com
 0.0.0.0 ksn-crypto-verdict-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-wifi-geo.kaspersky-labs.com
 0.0.0.0 ksn7-12.kaspersky-labs.com
 0.0.0.0 ksn-a-stat.geo.kaspersky.com
 0.0.0.0 ksn-stat.geo.kaspersky.com
@@ -644,7 +616,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 tps10241.doubleverify.com
 0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 ksn-crypto-url-mobile-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-verdict-geo.kaspersky-labs.com
 0.0.0.0 stats.unity3d.com
 0.0.0.0 vector2.nekkimobile.ru
 0.0.0.0 conversions.appsflyer.com
@@ -668,7 +639,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dnl-2.geo.kaspersky.com
 0.0.0.0 dnl-1.geo.kaspersky.com
 0.0.0.0 dnl-0.geo.kaspersky.com
-0.0.0.0 dnl-00.geo.kaspersky.com
 0.0.0.0 dnl-20.geo.kaspersky.com
 0.0.0.0 vtrk.doubleverify.com
 0.0.0.0 doubleverify.com
@@ -2197,8 +2167,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 flightzy.date
 0.0.0.0 flightzy.win
 0.0.0.0 dolohen.com
-0.0.0.0 syndication.exdynsrv.com
-0.0.0.0 syndication.exosrv.com
 0.0.0.0 corp.sts.microsoft.com
 0.0.0.0 statsfe1.ws.microsoft.com
 0.0.0.0 statsfe2.ws.microsoft.com
@@ -2271,7 +2239,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.cdn.taboola.com
 0.0.0.0 www.images.taboola.com
 0.0.0.0 www.popup.taboola.com
-0.0.0.0 www.syndication.exdynsrv.com
 0.0.0.0 www.taboola.com
 0.0.0.0 www.trc.taboola.com
 0.0.0.0 www.popads.net
@@ -2389,8 +2356,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.ff.avast.com
 0.0.0.0 tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 ads.exdynsrv.com
-0.0.0.0 ads.exoclick.com
-0.0.0.0 ads.exosrv.com
 0.0.0.0 ads.facebook.com
 0.0.0.0 awaps.yandex.net
 0.0.0.0 acdnpro.com
@@ -2769,9 +2734,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 r0.mradx.net
 0.0.0.0 mradx.net
-0.0.0.0 main.exdynsrv.com
 0.0.0.0 hotjar.com
-0.0.0.0 exosrv.com
 0.0.0.0 definitionupdates.microsoft.com
 0.0.0.0 data.flurry.com
 0.0.0.0 adlog.flurry.com
@@ -2803,7 +2766,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vortex-db5.metron.live.com.nsatc.net
 0.0.0.0 ksn-crypto-stat-geo.kaspersky-labs.com
 0.0.0.0 ksn-crypto-stat-geo.kas-labs.com
-0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
 0.0.0.0 vortex-win.data.metron.live.com.nsatc.net
 0.0.0.0 wns.notify.windows.com.akadns.net
 0.0.0.0 www.api.ad.xiaomi.com
