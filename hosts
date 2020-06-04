@@ -516,6 +516,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dnl-04.geo.kaspersky.com
 0.0.0.0 dnl-05.geo.kaspersky.com
 0.0.0.0 dnl-06.geo.kaspersky.com
+0.0.0.0 collector.githubapp.com
 0.0.0.0 dnl-07.geo.kaspersky.com
 0.0.0.0 dnl-08.geo.kaspersky.com
 0.0.0.0 dnl-09.geo.kaspersky.com
@@ -3053,12 +3054,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 solution.weborama.fr
 0.0.0.0 vodafoneit.solution.weborama.fr
 0.0.0.0 weborama.fr
+0.0.0.0 frontend.weborama.fr
 0.0.0.0 wcm-ru.frontend.weborama.fr
 0.0.0.0 ip111115794.v.ankunding.biz
 0.0.0.0 ip30103482.v.ankunding.biz
 0.0.0.0 ip74318250.yv.ankunding.biz
 0.0.0.0 ascraftan.com
 0.0.0.0 csnd.xyz
+0.0.0.0 aligtr012.mmstat.com
+0.0.0.0 gm.mmstat.com
+0.0.0.0 log.mmstat.com
+0.0.0.0 perf.mmstat.com
+0.0.0.0 pladform.ru
+0.0.0.0 stat.pladform.ru
 0.0.0.0 inspikon.com
 0.0.0.0 omareeper.com
 0.0.0.0 pf34zdjoeycr.com
