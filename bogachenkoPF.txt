@@ -149,6 +149,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 64.233.163.156:443$network
 64.233.163.157:443$network
 64.233.164.97:443$network
+||ero-advertising.com^
 64.233.164.154:443$network
 64.233.164.155:443$network
 64.233.164.156:443$network
