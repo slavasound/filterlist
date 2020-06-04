@@ -48,7 +48,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 voodoo-tech.io
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 35.244.146.148
-127.0.0.1 35.244.146.148:80
+0.0.0.0 35.244.146.148:80
 0.0.0.0 adspaces.ero-advertising.com
 0.0.0.0 data.ero-advertising.com
 0.0.0.0 ads.ero-advertising.com
@@ -512,6 +512,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ecommerce.iap.unity3d.com
 0.0.0.0 conf.homagames.com
 0.0.0.0 120.198.203.156
+0.0.0.0 120.198.203.156:443
 0.0.0.0 dnl-04.geo.kaspersky.com
 0.0.0.0 dnl-05.geo.kaspersky.com
 0.0.0.0 dnl-06.geo.kaspersky.com
@@ -3659,6 +3660,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 kaspersky-lasbs.com
 0.0.0.0 kasperskoy-labs.com
 0.0.0.0 kaspersqky-labs.com
+0.0.0.0 a.realsrv.com
+0.0.0.0 owncutone.com
+0.0.0.0 pgmrko89prom.com
+0.0.0.0 realsrv.com
+0.0.0.0 zen.yandex.ru
 0.0.0.0 kasperseky-labs.com
 0.0.0.0 kaspersky-lkabs.com
 0.0.0.0 kaspersky-lsabs.com

@@ -339,6 +339,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||aadfd566c0ebfe9b9f48ea3742db5e1d.com^
 ||acdnpro.com^
 ||acestream.net^
+||ynuf.alipay.com^
+||mmstat.com^
 ||activity-stream-icons.services.mozilla.com^
 ||ad.mail.ru^
 ||adaware.com^$third-party
@@ -881,6 +883,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||yastatic.net/lego/*.gif|$image,important
 ||yastatic.net/*/liza/*-mail-Placeholder-Picture_*.gif|$image,domain=mail.yandex.ru|mail.yandex.ua|mail.yandex.by,important
 |http*:*/grstat?$image,important
+|http*:*/clear.png?$image,important
 ! IMAGE END
 
 ! POP-UP
@@ -1652,3 +1655,4 @@ yts.*#@#+js(acis, $, blocked)
 ||zencdn.net^$badfilter
 ~animego.biz,animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
 @@||fonts.googleapis.com^$stylesheet,domain=dood.watch|dvb-p.com,badfilter
+||img.alibaba.com^$badfilter
