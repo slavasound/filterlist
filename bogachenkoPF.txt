@@ -889,12 +889,13 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ! IMAGE END
 
 ! POP-UP
-/^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup
-|about:$popup
-||click2go.me^$important,popup
-||gemius.pl^$important,popup
-||yastatic.net^$important,popup,domain=~kinopoisk.ru
-||yandex.*/clck/$important,popup
+/^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup,popunder
+|about:$popup,popunder
+||click2go.me^$important,popup,popunder
+||gemius.pl^$important,popup,popunder
+||yastatic.net^$important,popup,popunder
+||yandex.*/clck/$important,popup,popunder
+|http*:*&idzone=$important,popup,popunder
 ! POP-UP END
 
 ! MEDIA
