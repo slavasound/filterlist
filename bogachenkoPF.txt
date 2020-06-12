@@ -64,6 +64,8 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 @@||192.168.1.1^$document
 @@||ddos-guard.net^
 @@||music.yandex.ru^$generichide
+@@||*-instagram.*.facebook.com^
+@@||instagram.*.facebook.com^
 @@||ocsp*.globalsign.com^
 @@||safebrowsing.clients.google.com^$document
 @@||favicon.yandex.net^$image
@@ -111,6 +113,9 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 37.9.93.100:443$network
 37.157.6.251:443$network
 38.113.165.68$network
+||android-safebrowsing.google.com^
+||sb.l.google.com^
+||voledevice-pa.googleapis.com^
 38.113.165.71$network
 38.113.165.74$network
 38.113.165.77$network
