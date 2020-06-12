@@ -1570,6 +1570,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 id.google.com.et
 0.0.0.0 id.google.com.fj
 0.0.0.0 id.google.com.gh
+0.0.0.0 voledevice-pa.googleapis.com
+0.0.0.0 graph.instagram.com
+0.0.0.0 android-safebrowsing.google.com
+0.0.0.0 sb.l.google.com
 0.0.0.0 id.google.com.gi
 0.0.0.0 id.google.com.gt
 0.0.0.0 id.google.com.hk
