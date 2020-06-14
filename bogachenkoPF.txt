@@ -616,6 +616,11 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||iperceptions.com^
 ||ipinyou.com^
 ||ipredictive.com^
+||ticino.blob.core.windows.net^
+||bingsettingssearch.trafficmanager.net^
+||az764295.vo.msecnd.net^
+||vscodeexperiments.azureedge.net^
+||dc.services.visualstudio.com^
 ||ipromote.com^
 ||iqzone.com^
 ||isnssdk.com^
@@ -624,6 +629,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||izooto.com^
 ||jampp.com^
 ||jedimobi.com^
+||directadvert.ru^
 ||jshosting.*^
 ||jstracer.yandex.ru^
 ||justpremium.com^
@@ -1226,7 +1232,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$important,third-party,xmlhttprequest
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$important,third-party,xmlhttprequest,domain=~marketplace.visualstudio.com
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$xmlhttprequest,important
