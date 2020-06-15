@@ -1229,6 +1229,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||yandex.*/portal/$important,script
 |http*:*/tags?org_id=$important,script
 |http*:*/fp/tags.js?$important,script
+/^https?:\/\/[A-Za-z0-9.-]{6,16}\.[a-z]+\/\?[a-zA-Z0-9]{30,}$/$important,script,third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
