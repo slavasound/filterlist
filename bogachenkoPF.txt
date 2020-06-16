@@ -12,11 +12,6 @@
 
 !#if !ext_ublock
 !#if (adguard_app_android && adguard_app_ios)
-!@@||app-measurement.com^
-!@@||crashlytics.com^
-!@@||gvt1.com^
-!@@||gvt2.com^
-!@@||gvt3.com^
 ||www.yandex.com^
 ||facebook.com^
 ||everyplay.com^
@@ -416,7 +411,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||api.browser.yandex.$important
 ||api.recsys.opera.com^
 ||apis.google.com^$important,third-party
-||app-measurement.com^
+||app-measurement.com^$important
 ||app.link^
 ||appbaqend.com^
 ||applovin.com^
@@ -429,6 +424,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||auth20120430.getjar.com^
 ||autopush.prod.mozaws.net^
 ||avast.com^
+||crashlytics.com^$important
 ||awaps.yandex.net^$important
 ||awaps.yandex.ru^$important
 ||awsync.yandex.ru^$important
@@ -653,11 +649,15 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||localhost^$third-party
 ||localytics.com^
 ||location.services.mozilla.com^
+||scorecardresearch.com^
 ||lockerdome.com^$important,third-party
 ||locprod1-elb-eu-west-1.prod.mozaws.net^
 ||mail-ads.google.com^
+||c.msn.com^
 ||maribacaberita.com^
 ||mc.yandex.ru^
+||bing.com^
+||otf.msn.com^
 ||meaningtool.com^$third-party
 ||mellowads.com^
 ||merchandise.opera-api.com^
@@ -839,6 +839,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 ||videoroll.net^
 ||viglink.com^
 ||vigo.ru^
+||assets.msn.com^
 ||viralmint.com^$important,third-party
 ||vk-portal.net^
 ||vk.com^$third-party
@@ -886,6 +887,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 |http*:*/hosting.gif$image,important
 |http*:*/ico_tr.png$image
 |http*:*/rtrg?$image,important
+|http*:*/c.gif?$image,important
 |http*:*/transparent.gif?ray=$image,important
 ||bing.com/th?id=$image,important
 ||duckduckgo.com/t/$image,important
@@ -918,7 +920,6 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 *$important,app=KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
 *$important,app=Draziw.Button.Mines|com.BallGames.Woodturning|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.amanotes.beathopper|com.andregal.android.poolbilliard|com.appsinnova.android.keepclean|com.appstar.callrecorder|com.billiards.city.pool.nation.club|com.blyts.nobodies|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.doodle.skatingman|com.dvloper.granny|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.forthblue.pool|com.genico.bounce|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.karmangames.solitaire|com.kiloo.subwaysurf|com.kx.box|com.leodesol.games.classic.maze.labyrinth|com.ligeria.solitaire|com.mediocre.grannysmith|com.miniclip.istunt2|com.miniclip.plagueinc|com.mobisystems.fileman|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.playrix.gardenscapes|com.red.ball.ballgames.bounceball.redball5|com.redrocket.poker|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.rovio.angrybirds|com.skgames.trafficracer|com.stolitomson|com.submarineapps.mill|com.topchopgames.skyroller|com.topgame.BeenyAdventures|com.x3m.tx4|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|phone.cleaner.antivirus.speed.booster|phone.cleaner.speed.booster.cache.clean.android.master|pl.lukok.draughts|pt.wm.milhes
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club)).*$/$app=app.source.getcontact,important
-||crashlytics.com^$app=ru.sberbankmobile|ru.mts.mymts,important
 ! APP END
 
 ! SCRIPTLET
@@ -1173,6 +1174,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
 ||wrongurl.mts.ru^$document
+||go.microsoft.com^$document
 ||autonomiq.io/chropath/uninstall/$document
 ! DOCUMENT END
 
