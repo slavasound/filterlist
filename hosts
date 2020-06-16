@@ -3559,6 +3559,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 p57280.clksite.com
 0.0.0.0 p59451.clksite.com
 0.0.0.0 p62461.clksite.com
+0.0.0.0 api.leanplum.com
+0.0.0.0 mqtt-mini.facebook.com
+0.0.0.0 edge-mqtt.facebook.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 w.uptolike.com
+0.0.0.0 uptolike.com
+0.0.0.0 allstat-pp.ru
 0.0.0.0 p62485.clksite.com
 0.0.0.0 p63297.clksite.com
 0.0.0.0 p63327.clksite.com
