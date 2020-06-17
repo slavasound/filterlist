@@ -1067,7 +1067,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.ae.doubleclick.net
 0.0.0.0 ad.ar.doubleclick.net
 0.0.0.0 ad.at.doubleclick.net
-0.0.0.0 storesdk.dsx.mp.microsoft.com
 0.0.0.0 ad.au.doubleclick.net
 0.0.0.0 ad.be.doubleclick.net
 0.0.0.0 ad.bg.doubleclick.net
@@ -1089,7 +1088,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.fr.doubleclick.net
 0.0.0.0 ad.gr.doubleclick.net
 0.0.0.0 ad.hk.doubleclick.net
-0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 ad.hr.doubleclick.net
 0.0.0.0 ad.hu.doubleclick.net
 0.0.0.0 ad.ie.doubleclick.net
@@ -2796,15 +2794,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 r0.mradx.net
 0.0.0.0 mradx.net
 0.0.0.0 hotjar.com
-0.0.0.0 displaycatalog.mp.microsoft.com
 0.0.0.0 definitionupdates.microsoft.com
-0.0.0.0 purchase.mp.microsoft.com
 0.0.0.0 data.flurry.com
-0.0.0.0 pti.store.microsoft.com.unistore.akadns.net
 0.0.0.0 adlog.flurry.com
 0.0.0.0 advinci.uno
 0.0.0.0 mi82ltk3veb7.com
-0.0.0.0 pti.store.microsoft.com
 0.0.0.0 shorteh.com
 0.0.0.0 www.advinci.uno
 0.0.0.0 admanagerplus.flurry.com
@@ -3028,9 +3022,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ip166478230.v.ankunding.biz
 0.0.0.0 ip107321499.v.ankunding.biz
 0.0.0.0 ip167792254.v.ankunding.biz
-0.0.0.0 cy2.displaycatalog.md.mp.microsoft.com.akadns.net
-0.0.0.0 cy2.licensing.md.mp.microsoft.com.akadns.net
-0.0.0.0 cy2.purchase.md.mp.microsoft.com.akadns.net
 0.0.0.0 ip166474512.v.ankunding.biz
 0.0.0.0 ip50609930.v.ankunding.biz
 0.0.0.0 ip112017250.v.ankunding.biz
