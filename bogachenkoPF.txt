@@ -328,6 +328,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||2edd6c0fea91f88494d1cc37672db524.com^
 ||2f37a122063b9591b3d67a49b6d93f7c.com^
 ||2mdn.net^
+||config.edge.skype.com^
 ||3fdf2a5f924760915ca68b5ad01cfdae.com^
 ||4ee395e5b8a076c7bd8592851ff8cad.com^
 ||6d47c1118927cf53ba9654931df80e8d.com^
@@ -572,7 +573,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||gg.bet^
 ||ghostery-collector.ghostery.com^
 ||glispa.com^
-||go.microsoft.com^
+||go.microsoft.com^$important
 ||goadservices.com^
 ||google-analytics.com^$important
 ||googleadservices.*^$important
@@ -1172,6 +1173,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||undefined^
 ||yandex.*/clck/$important
 ||yandex.ru/portal/$important
+||youtube.com/ptracking?$important
 ! OTHER END
 
 ! DOCUMENT
@@ -1264,26 +1266,26 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-/[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,ping,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
-/[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,ping,other,xmlhttprequest
-/[-._?&=#/]analy(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,ping,other,script,xmlhttprequest
-/[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,ping,other,xmlhttprequest
+/[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
+/[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
+/[-._?&=#/]analy(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest
+/[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru
-/[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
-/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,ping,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua
+/[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
+/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
-/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,ping,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
-/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest,ping,other
+/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
+/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest,other
 /[-._?&=#/]1x[12]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)$/$image,important,script,subdocument
-/\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)\?[a-z]{1,2}\=/$image,important,ping,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org
-/\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,ping,other,script,third-party
+/\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)\?[a-z]{1,2}\=/$image,important,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org
+/\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,other,script,third-party
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest
 /^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit)\.com|((iam|hw)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me|streamalloha\.live)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io|bmoviesfree.io
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 /^https?:\/\/yastatic.net\/[^\s]+((widget\_ya|nearest|atom)\.js$|tableau\.html$)/$subdocument,script,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
-||youtube.com/api/stats/$image,important,ping,other,xmlhttprequest
+||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/((yandex\-pogoda\.)?naydex|yandex)\.\w+\/[^\s]{1000,}/$image,other,important
 /^(?!.*((injections|local)\.adguard\.org|(userapi|youtube|vk(\-apps)?)\.com|(vkuser(video|audio)|vk\-cdn)\.net|mycdn\.me)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
 ! COMBINED END

@@ -1930,6 +1930,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 af.opera.com
 0.0.0.0 exchange.opera.com
 0.0.0.0 get.geo.opera.com
+0.0.0.0 ntp.msn.com
 0.0.0.0 geo.opera.com
 0.0.0.0 satoshi.opera-api.com
 0.0.0.0 merchandise.opera-api.com
