@@ -125,6 +125,8 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 38.113.165.71$network
 38.113.165.74$network
 38.113.165.77$network
+||microad.jp^
+||izooto.com^
 38.113.165.86$network
 38.113.165.110$network
 46.61.220.38:443$network
