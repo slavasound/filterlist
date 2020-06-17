@@ -118,6 +118,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 37.9.93.100:443$network
 37.157.6.251:443$network
 38.113.165.68$network
+||doublemax.net^
 ||android-safebrowsing.google.com^
 ||sb.l.google.com^
 ||voledevice-pa.googleapis.com^
