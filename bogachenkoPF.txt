@@ -608,12 +608,20 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||indicative.com^
 ||infinario.com^
 ||infiniadmp.com^
+||optimize.google.com^
+||googleoptimize.com^
+||ad-creatives-public.commondatastorage.googleapis.com^
+||clientmetrics-pa.googleapis.com^
+||firebaselogging-pa.googleapis.com^
+||firebaselogging.googleapis.com^
 ||info.limehd.tv^
 ||informer.yandex.ru^
 ||inmobi.com^
 ||innity.com^
 ||innity.net^
+||atdmt.com^
 ||innovid.com^
+||admob.com^
 ||inside.tm^$important,third-party
 ||insightexpressai.com^
 ||instartlogic.com^
@@ -1172,7 +1180,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||tracking*.
 ||undefined^
 ||yandex.*/clck/$important
-||yandex.ru/portal/$important
+||yandex.ru/portal/set/any/*&empty=$important
 ||youtube.com/ptracking?$important
 ! OTHER END
 
@@ -1695,3 +1703,4 @@ yts.*#@#+js(acis, $, blocked)
 ~animego.biz,animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
 @@||fonts.googleapis.com^$stylesheet,domain=dood.watch|dvb-p.com,badfilter
 ||img.alibaba.com^$badfilter
+||analytics.google.com^$badfilter
