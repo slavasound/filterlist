@@ -994,7 +994,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||zarget.com^
 ||zdevx.yandex.ru^
 ||zen-test.yandex.ru^
-||zen.yandex.ru^
+||zen.yandex.*^
 ||zestads.com^
 ||zestadz.com^
 ||zirkabet.com^
@@ -1127,7 +1127,7 @@ youtube.com##+js(set-constant.js, ytInitialPlayerResponse.adPlacements, undefine
 *##[href="/1884.html"]
 *##a[href*="//ads.adfox.ru/"]
 *##.promoted-heading
-*##a[href*="https://zen.yandex.ru/"]
+*##a[href*="//zen.yandex."]
 *##div:has([class*="CookieDialog__DialogLInk-"])
 *##div[class*="sport-advert_"]
 *##div[data-flt-ve="sponsored_search_ads"]
@@ -1385,7 +1385,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
-/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~zen.yandex.by|~zen.yandex.com|~zen.yandex.ru|~zen.yandex.ua
+/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~twitch.tv
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
