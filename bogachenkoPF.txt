@@ -60,6 +60,20 @@ peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz,waaw.tv,hindilinks4uto.com,hqq.tv,waaws.*,waaw1.tv##+js(contextmenudef.js)
 wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
+*##^script:has-text(ExoLoader)
+*##^script:has-text(LieDetector)
+*##^script:has-text(RTCPeerConnection)
+*##^script:has-text(_pop.push)
+*##^script:has-text(absda)
+*##^script:has-text(adBlockDetected)
+*##^script:has-text(adcashMacros)
+*##^script:has-text(anOptions)
+*##^script:has-text(popMagic)
+*##^script:has-text(window.Fingerprint2)
+*##^script:has-text(zfgloaded)
+*##^script:has-text(zoneNativeSett)
+*##^script:has-text(babasbmsgx)
+*##^script:has-text('shift')
 !#endif
 
 ! WHITELIST
@@ -1174,7 +1188,7 @@ yandex.*##div[class*="__services"]:has(div[class*="services-new"])
 yandex.*##.rows__row_first.rows__row.row:style(display:none!important)
 yandex.*##div[class="resources__bem-init-wrapper"]:has(div[class="i-bem xiva-notif xiva-notif_js_inited"])
 yandex.*##div[class]:has(div[class*="widgets__col widgets__col_td_"]):not(:has(div[class="home-arrow__search-wrapper"]))
-youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #clarify-box > .ytd-watch-flexy.style-scope
+youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #clarify-box > .ytd-watch-flexy.style-scope, #sponsor-button, yt-live-chat-viewer-engagement-message-renderer, .ytd-video-secondary-info-renderer.style-scope.sticky
 ! CSS END
 
 ! XPATH
