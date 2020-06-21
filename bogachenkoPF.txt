@@ -1,6 +1,4 @@
 ! [Adblock Plus 3.8.4]
-! [uBlock Origin 1.27.10]
-! [Adguard 3.4.19]
 ! Description: This is a personal list of bogachenko filters.
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/filterlist/tree/personal
@@ -75,6 +73,10 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 *##^script:has-text(babasbmsgx)
 *##^script:has-text('shift')
 !#endif
+
+! TEST
+@@||xvideos.com^$content,jsinject
+! TEST END
 
 ! WHITELIST
 @@/antiadblock.$domain=~github.com|~gitlab.com
