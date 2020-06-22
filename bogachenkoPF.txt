@@ -619,6 +619,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||iibingo.com^
 ||illicium.web.money^
 ||image.uc.cn^
+||zopim.com^$important,third-party
 ||imasdk.googleapis.com^$important
 ||imonomy.com^
 ||impactradius.com^
@@ -1212,7 +1213,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
-/[-._?&=#/]ping[-.0-9_?&=#/]?/$important
+/[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
 |http*:*$beacon,important
@@ -1232,6 +1233,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/log/$important
 |http*:*/serviceworker?$important
 ||detectportal.
+|http*:*?type=pageview&$important
 ||ad.
 ||ads-sdk.
 ||ads.
@@ -1381,7 +1383,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! COMBINED
 /[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
-/[-._?&=#/][Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest
+/[-._?&=#/][Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
