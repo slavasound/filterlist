@@ -324,16 +324,20 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 99.86.193.112:443$network
 99.86.193.113:443$network
 ||212.122.5.136^
-||0.0.0.0^$third-party
+||127.0.0.1^
+||0.0.0.0^
 ||graph.facebook.com^
-||[::1]^$third-party
-||localhost^$third-party
 ||yadro.ru^
 ||offlinepages-pa.googleapis.com^
 ||taboola.com^
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/
 ||n161adserv.com^
 ||videoroll.net^
+||geo.kaspersky.com^
+||monit.limehd.tv^
+||ccleaner.com^
+||perr.h-cdn.com^
+||perr.hola.org^
 ! DNS END
 
 ! SITE
@@ -420,7 +424,12 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||share.yandex.net^$important
 ||reef.vk-cdn.net^$important
 ||crashlytics.com^$important
-||webvisor.*^$important
+||kas-labs.com^$important
+||kaspersky-labs.com^$important
+||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com
+||avast.com^$important
+|bing.com^$important
+||msn.com^$important
 ! SITE END
 
 ! IMAGE
@@ -708,6 +717,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /.*\.(com|net|org|ru|ua|by)\/ads\//$important
 ||instagram.com/ads/$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
+||localhost^
+||[::1]^
 ! OTHER END
 
 ! DOCUMENT
