@@ -428,7 +428,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||kaspersky-labs.com^$important
 ||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com
 ||avast.com^$important
-|bing.com^$important
+||bing.com^$important
 ||msn.com^$important
 ! SITE END
 
@@ -490,6 +490,11 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 youtube.com##+js(set-constant.js, ytInitialPlayerResponse.adPlacements, undefined)
 !livejournal.com##+js(abort-current-inline-script.js, document.createElement, script)
 ! SCRIPTLET END
+
+! REDIRECTION
+*/cleardot.gif$image,redirect=1x1.gif,important
+*/cleardot.gif$xmlhttprequest,redirect=1x1.gif,important
+! REDIRECTION END
 
 ! CSS
 *###AD_Top
