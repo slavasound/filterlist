@@ -329,6 +329,11 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||[::1]^$third-party
 ||localhost^$third-party
 ||yadro.ru^
+||offlinepages-pa.googleapis.com^
+||taboola.com^
+/^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/
+||n161adserv.com^
+||videoroll.net^
 ! DNS END
 
 ! SITE
@@ -373,6 +378,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||push.services.mozilla.com^$important
 ||proxy_auth.trigger.hola.org^$important
 ||autopush.prod.mozaws.net^$important
+||static-marketolog.mts.ru^$important
 ||shavar.prod.mozaws.net^$important
 ||shavar.services.mozilla.com^$important
 ||detectportal.firefox.com-v2.edgesuite.net^$important
@@ -381,6 +387,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||safe-browsing-quorum.privacy.ghostery.net^$important
 ||collector-hpn.ghostery.net^$important
 ||d.ghostery.com^$important
+||xbox.com^$important
 ||ghostery-collector.ghostery.com^$important
 ||alt*-mtalk.google.com^$important
 ||alt*-safebrowsing.google.com^$important
@@ -413,6 +420,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||share.yandex.net^$important
 ||reef.vk-cdn.net^$important
 ||crashlytics.com^$important
+||webvisor.*^$important
 ! SITE END
 
 ! IMAGE
@@ -521,7 +529,6 @@ youtube.com##+js(set-constant.js, ytInitialPlayerResponse.adPlacements, undefine
 *##.mobile-ad
 *##.reklama
 *##.wiadomoscSocialBig
-*##[class*="rekl"]
 *##[href*="//bit.ly/"]
 *##[href*="//bitly.com"]
 *##[href*="/ads/"]
