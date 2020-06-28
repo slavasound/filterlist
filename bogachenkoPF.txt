@@ -79,6 +79,10 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 !
 ! TEST END
 
+! TEMPORARILY
+@@||marketplace.visualstudio.com^$important,app=Code.exe
+! TEMPORARILY END
+
 ! WHITELIST
 @@/antiadblock.$domain=~github.com|~gitlab.com
 @@||192.168.1.1^$document
@@ -321,10 +325,20 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 99.86.193.113:443$network
 ||212.122.5.136^
 ||0.0.0.0^$third-party
-||127.0.0.1^$important,domain=~sberbank.ru
+||graph.facebook.com^
+||[::1]^$third-party
+||localhost^$third-party
+||yadro.ru^
 ! DNS END
 
 ! SITE
+||mail.ru^$third-party
+||ok.ru^$third-party
+||vk.com^$third-party
+||fb.com^$third-party
+||facebook.com^$third-party
+||twitter.com^$third-party,domain=~kinopoisk.ru|~lenta.ru
+||yahoo.com^$third-party
 /^[a-z0-9]{8,}\.Home$/$important
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com
@@ -395,7 +409,10 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||downloader.yandex.net^$important
 ||voiceservices.yandex.net^$important
 ||awaps.yandex.*^$important
-||share.yandex.net^$important,third-party
+||vk-portal.net^$important
+||share.yandex.net^$important
+||reef.vk-cdn.net^$important
+||crashlytics.com^$important
 ! SITE END
 
 ! IMAGE
@@ -593,7 +610,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 
 ! WEBSOCKET
 *$important,websocket,domain=hlsplay.com|hindilinks4uto.com|hqq.tv|povvideo.net|powvldeo.cc|powvldeo.co|powvldeo.me|powvldeo.net|waaw.tv|clipwatching.com
-/^wss?:\/\/127\.0\.0\.1:\d+/$important,websocket
+||127.0.0.1^$third-party,websocket
 ! WEBSOCKET END
 
 ! CSP
@@ -683,6 +700,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||youtube.com/ptracking?$important
 /.*\.(com|net|org|ru|ua|by)\/ads\//$important
 ||instagram.com/ads/$important
+/[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
 ! OTHER END
 
 ! DOCUMENT
