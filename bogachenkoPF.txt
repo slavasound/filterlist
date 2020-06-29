@@ -345,6 +345,7 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||exdynsrv.com^
 ||sd-images.operacdn.com^
 ||extension-updates.opera.com^
+||mradx.net^
 ! DNS END
 
 ! SITE
@@ -402,7 +403,14 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||safe-browsing-quorum.privacy.ghostery.net^$important
 ||collector-hpn.ghostery.net^$important
 ||d.ghostery.com^$important
+||cmp-cdn.ghostery.com^$important
+||reports.ghostery.net^$important
+||offers-api.ghostery.net^$important
+||safe-browsing.ghostery.net^$important
+||stats.ghostery.net^$important
 ||xbox.com^$important
+||anolysis.privacy.ghostery.net^$important
+||analytics.ghostery.com^$important
 ||ghostery-collector.ghostery.com^$important
 ||alt*-mtalk.google.com^$important
 ||alt*-safebrowsing.google.com^$important
@@ -443,6 +451,9 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||addthis.com^$important
 ||geo.opera.com^$important
 ||weather.opera-api.com^$important
+||api.ghostery.net^$important
+||browser.yandex.com^$important
+||cdn2.ghostery.com^$important
 ! SITE END
 
 ! IMAGE
@@ -567,6 +578,9 @@ livejournal.com##+js(abort-current-inline-script.js, document.createElement, scr
 *##[href*="adriver.ru"]
 *##[href*="mradx.net"]
 *##[href*="trafficfactory.biz"]
+*##[href="/tc1.php"]
+*##[href="/tc2.php"]
+forums.opera.com###download-opera
 *##[href*="weborama.fr"]
 *##[href*="yabs.yandex.ru"]
 *##[href="/1884.html"]
@@ -665,6 +679,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
 |http*:*$beacon,important
+|http*:*$webrtc,important
 |http*:*$ping,important
 |http*:*/advert/$important
 |http*:*/coins.php$important
