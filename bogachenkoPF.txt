@@ -432,6 +432,7 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||bing.com^$important
 ||msn.com^$important
 ||doubleclick.net^$important
+||apis.google.com^$important
 ! SITE END
 
 ! IMAGE
@@ -799,6 +800,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/fp/tags.js?$important,script
 /^https?:\/\/[A-Za-z0-9.-]{6,16}\.[a-z]+\/\?[a-zA-Z0-9]{30,}$/$important,script,third-party
 ||yastatic.net/share2/share.js|$important,script
+|http*:*/cdn-cgi/bm/cv/$important,script
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[0-9]{1}\?[a-z]{1}\=[0-9]{7}$/$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1251,7 +1254,7 @@ yts.*#@#+js(acis, $, blocked)
 ||virustotal.com^$badfilter
 ||w.org^$badfilter
 ||www.youtube-nocookie.com^$badfilter
-||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~jokehd.com|~kinobig.me|~kristinita.ru|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.club|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
+||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~assistir-filme.biz|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~jokehd.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.club|~online.animedia.tv|~onmovies.se|~roadhub.ru|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
 ||yandex.st^$badfilter
 ||zencdn.net^$badfilter
 ~animego.biz,animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
@@ -1262,3 +1265,4 @@ vev.*#@#+js(aeld, /^(?:click|mousedown|mouseup)$/, di())
 vev.*#@#+js(set, console.clear, trueFunc)
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
 ||seal.verisign.com^$badfilter
+*$script,redirect-rule=noopjs,domain=playhydrax.com,badfilter
