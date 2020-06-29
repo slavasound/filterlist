@@ -87,6 +87,7 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ! WHITELIST
 @@/antiadblock.$domain=~github.com|~gitlab.com
 @@||192.168.1.1^$document
+@@||192.168.0.1^$document
 @@||ddos-guard.net^
 @@||music.yandex.ru^$generichide
 @@||*-instagram.*.facebook.com^
@@ -421,7 +422,7 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||twitchcdn.net^$important,third-party,domain=~twitch.tv
 ||twitter.com^$important,third-party,domain=~kinopoisk.ru|~lenta.ru
 ||yandex.*^$important,third-party,domain=~kinopoisk.ru|~metrika.yandex.ru|~passport.rt.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.net|~yandex.ru|~yandex.ua|~yastatic.net|~z5h64q92x9.net
-||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net|~dev.yandex.net|~ya.ru|~hdrabbit.ru
+||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net|~dev.yandex.net|~ya.ru|~hdrabbit.ru|~yandex.lt|~yandex.uz|~yandex.tm|~yandex.co.ge|~yandex.az|~yandex.kz|~yandex.md|~yandex.com.tr|~yandex.fr
 ||games.yandex.ru^$important
 ||googleadservices.*^$important
 ||googleadsserving.cn^$important
@@ -439,6 +440,7 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||vk-portal.net^$important
 ||share.yandex.net^$important
 ||reef.vk-cdn.net^$important
+||pladform.ru^$important
 ||crashlytics.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
@@ -454,6 +456,23 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||api.ghostery.net^$important
 ||browser.yandex.com^$important
 ||cdn2.ghostery.com^$important
+||portal.mail.ru^$important
+||xray.mail.ru^$important
+||lf1.mail.ru^$important
+||mc-portal.mail.ru^$important
+||mrds.mail.ru^$important
+||radar.imgsmail.ru^$important
+||recostream.go.mail.ru^$important
+||rs.mail.ru^$important
+||top-fwz1.mail.ru^$important
+||appmetrica.yandex.com^$important
+||brontp.yandex.ru^$important
+||browser-updater.yandex.net^$important
+||clck.yandex.ru^$important
+||csp.yandex.net^$important
+||http-check-headers.yandex.ru^$important
+||startup.mobile.yandex.net^$important
+||yastroka.yandex.net^$important
 ! SITE END
 
 ! IMAGE
@@ -496,7 +515,7 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 
 ! APP
 *$important,app=KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
-*$important,app=Draziw.Button.Mines|com.BallGames.Woodturning|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.amanotes.beathopper|com.andregal.android.poolbilliard|com.appsinnova.android.keepclean|com.billiards.city.pool.nation.club|com.blyts.nobodies|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.doodle.skatingman|com.dvloper.granny|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.forthblue.pool|com.genico.bounce|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.karmangames.solitaire|com.kiloo.subwaysurf|com.kx.box|com.leodesol.games.classic.maze.labyrinth|com.ligeria.solitaire|com.mediocre.grannysmith|com.miniclip.istunt2|com.miniclip.plagueinc|com.mobisystems.fileman|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.playrix.gardenscapes|com.red.ball.ballgames.bounceball.redball5|com.redrocket.poker|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.rovio.angrybirds|com.skgames.trafficracer|com.stolitomson|com.submarineapps.mill|com.topchopgames.skyroller|com.topgame.BeenyAdventures|com.x3m.tx4|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|phone.cleaner.antivirus.speed.booster|phone.cleaner.speed.booster.cache.clean.android.master|pl.lukok.draughts|pt.wm.milhes
+*$important,app=Draziw.Button.Mines|com.BallGames.Woodturning|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.amanotes.beathopper|com.andregal.android.poolbilliard|com.appsinnova.android.keepclean|com.billiards.city.pool.nation.club|com.blyts.nobodies|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.doodle.skatingman|com.dvloper.granny|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.forthblue.pool|com.genico.bounce|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.karmangames.solitaire|com.kiloo.subwaysurf|com.kx.box|com.leodesol.games.classic.maze.labyrinth|com.ligeria.solitaire|com.mediocre.grannysmith|com.miniclip.istunt2|com.miniclip.plagueinc|com.mobisystems.fileman|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.playrix.gardenscapes|com.red.ball.ballgames.bounceball.redball5|com.redrocket.poker|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.rovio.angrybirds|com.skgames.trafficracer|com.stolitomson|com.submarineapps.mill|com.topchopgames.skyroller|com.topgame.BeenyAdventures|com.x3m.tx4|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|phone.cleaner.antivirus.speed.booster|phone.cleaner.speed.booster.cache.clean.android.master|pl.lukok.draughts|pt.wm.milhes|com.appstar.callrecorder|com.appstar.callrecorderpro
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club)).*$/$app=app.source.getcontact,important
 ! APP END
 
