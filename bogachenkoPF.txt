@@ -18,6 +18,7 @@
 ||unity3d.com^
 ||zeptolab.com^
 vk.com#%#AG_setConstant('noAdsAtAll', 'true');
+m.vk.com#%#AG_abortOnPropertyRead('_ads_');
 !#endif
 !#endif
 
@@ -76,7 +77,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 !#endif
 
 ! TEST
-!
+yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-bem.undefined.n-default-onboarding.popup2_region_notification.popup2_theme_normal.popup2_target_anchor.popup2_animate_yes.popup2_adaptive_yes.popup2_autoclosable_no.popup2
 ! TEST END
 
 ! TEMPORARILY
@@ -430,6 +431,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||avast.com^$important
 ||bing.com^$important
 ||msn.com^$important
+||doubleclick.net^$important
 ! SITE END
 
 ! IMAGE
@@ -481,13 +483,11 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 zloekino.ru##+js(cookie-remover.js)
 zloekino.ru#%#//scriptlet("remove-cookie")
-vk.com##+js(set-constant.js, noAdsAtAll, true)
-vk.com#%#//scriptlet("set-constant", ""noAdsAtAll", "true")
 youtube.com#%#//scriptlet("json-prune", "playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds")
 youtube.com#%#//scriptlet("set-constant", "ytInitialPlayerResponse.adPlacements", "undefined")
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
 youtube.com##+js(set-constant.js, ytInitialPlayerResponse.adPlacements, undefined)
-!livejournal.com##+js(abort-current-inline-script.js, document.createElement, script)
+livejournal.com##+js(abort-current-inline-script.js, document.createElement, script)
 ! SCRIPTLET END
 
 ! REDIRECTION
@@ -642,6 +642,10 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! CSP END
 
 ! OTHER
+|http*:*/footer-vk-
+|http*:*/footer-ok.
+|http*:*/footer-youtube.
+|http*:*/footer-flikr.
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
