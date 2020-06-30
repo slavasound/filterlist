@@ -347,7 +347,6 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 ||sd-images.operacdn.com^
 ||extension-updates.opera.com^
 ||mradx.net^
-||hola.org^
 ||yabs.yandex.ru^
 ||yabs.yandex.ua^
 ||yabs.yandex.by^
@@ -371,6 +370,10 @@ yandex.*##.popup2_visible_yes.popup2_direction_bottom-left.popup2_js_inited.i-be
 /a\.[a-z0-9]{33,43}\.com$/$important
 ||ero-advertising.com^$important
 ||doublemax.net^$important
+||perr.svd-cdn.com^$important
+||hola.org^$important
+||sitepic-mirror-holanetworksltd.netdna-ssl.com^$important
+||perr.h-vpn.org^$important
 ||android-safebrowsing.google.com^$important
 ||sb.l.google.com^$important
 ||voledevice-pa.googleapis.com^$important
@@ -775,6 +778,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
 ||localhost^
 ||[::1]^
+||svd-cdn.com/users/payment/get_membership?
+||svd-cdn.com/users/get_user?
 ! OTHER END
 
 ! DOCUMENT
@@ -873,13 +878,13 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! XMLHTTPREQUEST END
 
 ! COMBINED
-/[-._?&=#/](log|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
+/[-._?&=#/](logs?|img)[-._?&=#/]?(type|events?|entry|request|stats?|view(edpage)?)[-._?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~galaxy.mobstudio.ru
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/][Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
-/[-._?&=#/]log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~twitch.tv
+/[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~twitch.tv
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
@@ -895,6 +900,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/((yandex\-pogoda\.)?naydex|yandex)\.\w+\/[^\s]{1000,}/$image,other,important
 /^(?!.*((injections|local)\.adguard\.org|(userapi|youtube|vk(\-apps)?|google|ytimg)\.com|(vkuser(video|audio)|vk\-cdn)\.net|mycdn\.me)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
+/[-._?&=#/](event|stat)log(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 ! COMBINED END
 
 ! OBJECT
