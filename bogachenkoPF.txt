@@ -756,7 +756,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||yahoo.com^$third-party
 /^[a-z0-9]{8,}\.Home$/$important
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important
-/^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com
+/^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
 /^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
@@ -1284,7 +1284,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/][Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru|~ok.ru
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
 /[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~twitch.tv
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
@@ -1721,3 +1721,8 @@ vev.*#@#+js(set, console.clear, trueFunc)
 *$script,third-party,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
 ||seal.verisign.com^$badfilter
 *$script,redirect-rule=noopjs,domain=playhydrax.com,badfilter
+||vk.com^$badfilter
+||login.vk.com^$badfilter
+||queuev4.vk.com^$badfilter
+||im.vk.com^$badfilter
+||127.0.0.1^$badfilter
