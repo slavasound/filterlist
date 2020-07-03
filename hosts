@@ -1295,6 +1295,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d22sfab2t5o9bq.cloudfront.net
 0.0.0.0 d2p9l91d5g68ru.cloudfront.net
 0.0.0.0 d2r1yp2w7bby2u.cloudfront.net
+0.0.0.0 ziffdavis.com
 0.0.0.0 d2v02itv0y9u9t.cloudfront.net
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 0.0.0.0 d31j93rd8oukbv.cloudfront.net
@@ -3252,6 +3253,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 o.analytics.yahoo.com
 0.0.0.0 o1.email.applovin.com
 0.0.0.0 o2.email.applovin.com
+0.0.0.0 cdn.ravenjs.com
+0.0.0.0 cdn.siftscience.com
+0.0.0.0 cdn.ziffstatic.com
+0.0.0.0 d24n15hnbwhuhn.cloudfront.net
+0.0.0.0 downdetector.disqus.com
+0.0.0.0 ravenjs.com
+0.0.0.0 siftscience.com
+0.0.0.0 static.ziffdavis.com
+0.0.0.0 ziffdavis.com
+0.0.0.0 ziffstatic.com
 0.0.0.0 o3fy684faxh8o.ru
 0.0.0.0 oaspersky-labs.com
 0.0.0.0 oata.ero-advertising.com
