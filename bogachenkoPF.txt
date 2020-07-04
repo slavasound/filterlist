@@ -1203,7 +1203,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
 ||wrongurl.mts.ru^$document
-||go.microsoft.com^$document
+||go.microsoft.com^$~document
 ||autonomiq.io/chropath/uninstall/$document
 ! DOCUMENT END
 
