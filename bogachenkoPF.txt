@@ -880,6 +880,8 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||yastroka.yandex.net^$important
 ||zen.yandex.*^$important
 ||adservice.google.*^$important
+||ok-bar.love.mail.ru^$important
+||ok-portal.mail.ru^$important
 ! SITE END
 
 ! IMAGE
@@ -1059,7 +1061,7 @@ twitch.tv###default-player > .player-root > div > .pl-overlay--unmute.player-ove
 vidoza.net##div.wait_buffer
 yadi.sk##.action-buttons__antifo-tooltip.tooltip_shown_yes.tooltip_theme_normal.tooltip_tone_default.tooltip_view_classic.tooltip_size_s.tooltip.popup2_target_anchor.popup2_visible_yes.popup2_direction_right-center.popup2_theme_normal.popup2_tone_default.popup2_view_classic.popup2, .mobile-badges, .software-header-product_win.software-header-product.hover-dropdown, .burger-sidebar__button.button2_theme_clear.button2_size_n.button2_view_classic.button2.control, .header__inline-services-menu.inline-services-menu, .app-promo-banner
 lk.rt.ru###widget-container
-vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], div.more_div, .installApp,#ui_rmenu_coronavirus, #ui_rmenu_stayhome, .wall_marked_as_ads, .item_share, .apps_feedRightAppsBlock__row
+vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], div.more_div, .installApp,#ui_rmenu_coronavirus, #ui_rmenu_stayhome, .wall_marked_as_ads, .item_share, .apps_feedRightAppsBlock__row, .videoplayer_action_button
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
 vk.com#?#.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
 xhamster.*##.list-items.wih-spot-container.right-rectangle
@@ -1073,6 +1075,7 @@ yandex.*##div[class="resources__bem-init-wrapper"]:has(div[class="i-bem xiva-not
 yandex.*##div[class]:has(div[class*="widgets__col widgets__col_td_"]):not(:has(div[class="home-arrow__search-wrapper"]))
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #clarify-box > .ytd-watch-flexy.style-scope, #sponsor-button, yt-live-chat-viewer-engagement-message-renderer, .ytd-video-secondary-info-renderer.style-scope.sticky, .ytp-ce-video.ytp-ce-element
 github.com##.signup-prompt
+ok.ru###hook_Block_MusicGrowl_Content
 ! CSS END
 
 ! XPATH
@@ -1181,6 +1184,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||[::1]^
 ||svd-cdn.com/users/payment/get_membership?
 ||svd-cdn.com/users/get_user?
+|http*:*/www/delivery/$important
 ! OTHER END
 
 ! DOCUMENT
