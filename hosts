@@ -1363,7 +1363,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 deadpool.ops.ir1.inmobi.com
 0.0.0.0 definitionupdates.microsoft.com
 0.0.0.0 defpush.com
-0.0.0.0 delivery.mp.microsoft.com
 0.0.0.0 delivery.preprod.trafficjunky.net
 0.0.0.0 delivery.staging.trafficjunky.net
 0.0.0.0 delivery.trafficjunky.net
@@ -1407,7 +1406,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dj1083.online
 0.0.0.0 djfhwosjck.bid
 0.0.0.0 dk.adserver.yahoo.com
-0.0.0.0 dl.delivery.mp.microsoft.com
 0.0.0.0 dl.inmobi.com
 0.0.0.0 dm-event.net
 0.0.0.0 dmd.metaservices.microsoft.com
@@ -3157,14 +3155,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ms.applovin.com
 0.0.0.0 ms.applvn.com
 0.0.0.0 msdk.qq.com
-0.0.0.0 msedge.b.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.b.tlu.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.f.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.f.tlu.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.sb.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.sb.tlu.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.sf.dl.delivery.mp.microsoft.com
-0.0.0.0 msedge.sf.tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 msftconnecttest.com
 0.0.0.0 msn.com
 0.0.0.0 msnbcmedia.msn.com
@@ -4431,7 +4421,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 timeinc.trc.taboola.com
 0.0.0.0 tip.atdmt.com
 0.0.0.0 tiumbs.ero-advertising.com
-0.0.0.0 tlu.dl.delivery.mp.microsoft.com
 0.0.0.0 tm.adsbackend.com
 0.0.0.0 tm.inmobi.com
 0.0.0.0 tmk.smartadserver.com

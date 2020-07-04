@@ -94,7 +94,6 @@ mail.google.com##.YX.aZ6.akc, .aeO
 @@||ocsp*.globalsign.com^
 @@||safebrowsing.clients.google.com^$document
 @@||favicon.yandex.net^$image
-@@||yandex.ru^$generichide
 @@/^https:\/\/my\.mail\.ru[+/]+video\//$subdocument,xmlhttprequest
 @@||vk.com/video_ext.php$subdocument
 @@||ok.ru/videoembed/$subdocument
@@ -1734,3 +1733,6 @@ vev.*#@#+js(set, console.clear, trueFunc)
 ||queuev4.vk.com^$badfilter
 ||im.vk.com^$badfilter
 ||127.0.0.1^$badfilter
+||ps.vk.com^$badfilter
+||pu.vk.com^$badfilter
+||translate.google.com^$badfilter
