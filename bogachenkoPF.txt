@@ -10,7 +10,7 @@
 
 !#if !ext_ublock
 !#if (adguard_app_android && adguard_app_ios)
-||www.yandex.com^
+||yandex.com^
 ||facebook.com^
 ||everyplay.com^
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
@@ -75,7 +75,8 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 !#endif
 
 ! TEST
-!
+mail.google.com##.YX.aZ6.akc, .aeO
+*##.grecaptcha-badge
 ! TEST END
 
 ! TEMPORARILY
@@ -83,6 +84,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ! TEMPORARILY END
 
 ! WHITELIST
+@@||go.microsoft.com/fwlink/?linkid=2108834
 @@/antiadblock.$domain=~github.com|~gitlab.com
 @@/^https?:\/\/192\.168\.[01]\.1/$document
 @@||ddos-guard.net^
@@ -98,8 +100,8 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 @@||ok.ru/videoembed/$subdocument
 @@||checkadblock.ru^$document
 @@|http://rt/|$document
-@@||local.adguard.org^$document
-@@||injections.adguard.org^$document
+@@||local.adguard.org^
+@@||injections.adguard.org^
 ! WHITELIST END
 
 ! DNS
@@ -1203,7 +1205,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
 ||wrongurl.mts.ru^$document
-||go.microsoft.com^$~document
+||go.microsoft.com^$document
 ||autonomiq.io/chropath/uninstall/$document
 ! DOCUMENT END
 
