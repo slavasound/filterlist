@@ -745,6 +745,9 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||id.google.vu^
 ||id.google.ws^
 ||id.l.google.com^
+||my.com^
+||app-measurement.com^
+||crashlytics.com^
 ! DNS END
 
 ! SITE
@@ -770,12 +773,14 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||perr.svd-cdn.com^$important
 ||partnercoll.github.io^$important
 ||hola.org^$important
+||app-measurement.com^$important
 ||sitepic-mirror-holanetworksltd.netdna-ssl.com^$important
 ||perr.h-vpn.org^$important
 ||id.google.*^$important
 ||id.l.google.com^$important
 ||android-safebrowsing.google.com^$important
 ||sb.l.google.com^$important
+||my.com^$important
 ||voledevice-pa.googleapis.com^$important
 ||izooto.com^$important
 ||af.opera.com^$important

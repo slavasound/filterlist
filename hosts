@@ -4421,7 +4421,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 timeinc.trc.taboola.com
 0.0.0.0 tip.atdmt.com
 0.0.0.0 tiumbs.ero-advertising.com
+0.0.0.0 tracker-api.my.com
 0.0.0.0 tm.adsbackend.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 tm.inmobi.com
 0.0.0.0 tmk.smartadserver.com
 0.0.0.0 tmw.adnow.com
