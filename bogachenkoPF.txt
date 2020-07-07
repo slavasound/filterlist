@@ -72,6 +72,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 *##^script:has-text(zoneNativeSett)
 *##^script:has-text(babasbmsgx)
 *##^script:has-text('shift')
+*##+js(ra, ping)
 !#endif
 
 ! TEST
@@ -86,7 +87,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ! WHITELIST
 @@||go.microsoft.com/fwlink/?linkid=2108834
 @@/antiadblock.$domain=~github.com|~gitlab.com
-@@/^https?:\/\/192\.168\.[01]\.1/$document
+@@/^https?:\/\/192\.168\.[01]\.1/
 @@||ddos-guard.net^
 @@||music.yandex.ru^$generichide
 @@||*-instagram.*.facebook.com^
@@ -98,7 +99,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 @@||vk.com/video_ext.php$subdocument
 @@||ok.ru/videoembed/$subdocument
 @@||checkadblock.ru^$document
-@@|http://rt/|$document
+@@|http://rt/
 @@||local.adguard.org^
 @@||injections.adguard.org^
 ! WHITELIST END
@@ -247,6 +248,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 62.128.100.92$network
 62.128.100.93$network
 62.128.100.94$network
+204.79.197.200$network
 64.233.161.102:443$network
 64.233.161.154:443$network
 64.233.161.155:443$network
@@ -746,6 +748,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||my.com^
 ||app-measurement.com^
 ||crashlytics.com^
+||luminati.io^
 ! DNS END
 
 ! SITE
@@ -782,10 +785,12 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||voledevice-pa.googleapis.com^$important
 ||izooto.com^$important
 ||af.opera.com^$important
+||trace.svc.ui.com^$important
 ||api.recsys.opera.com^$important
 ||appstatic.opera.com^$important
 ||portal-xiva.yandex.net^$important
 ||desktop-dna.osp.opera.software^$important
+||census.zorinos.com^$important
 ||exchange.opera.com^$important
 ||ofa-sub.osp.opera.software^$important
 ||op-mobile.opera.com^$important
@@ -850,6 +855,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||voiceservices.yandex.net^$important
 ||awaps.yandex.*^$important
 ||vk-portal.net^$important
+||holaspark.com^$important
 ||share.yandex.net^$important
 ||reef.vk-cdn.net^$important
 ||pladform.ru^$important
@@ -865,6 +871,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||addthis.com^$important
 ||geo.opera.com^$important
 ||weather.opera-api.com^$important
+||client-cdn*.hola.org^$important
 ||api.ghostery.net^$important
 ||browser.yandex.com^$important
 ||cdn2.ghostery.com^$important
@@ -894,6 +901,9 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||family.microsoft.com^$important
 ||sd-images.operacdn.com^$important
 ||extension-updates.opera.com^$important
+||weathercenter.co^$important
+||quickemailaccess.co^$important
+||easyspeedtest.co^$important
 ! SITE END
 
 ! IMAGE
