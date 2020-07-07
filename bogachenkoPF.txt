@@ -344,8 +344,6 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||go.microsoft.com^
 ||google-analytics.com^
 ||exdynsrv.com^
-||sd-images.operacdn.com^
-||extension-updates.opera.com^
 ||mradx.net^
 ||yabs.yandex.ru^
 ||yabs.yandex.ua^
@@ -894,6 +892,8 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||parimatch.com^$important
 ||edge.microsoft.com^$important
 ||family.microsoft.com^$important
+||sd-images.operacdn.com^$important
+||extension-updates.opera.com^$important
 ! SITE END
 
 ! IMAGE

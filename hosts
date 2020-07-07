@@ -4425,6 +4425,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tm.adsbackend.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 arhivach.disqus.com
 0.0.0.0 tm.inmobi.com
 0.0.0.0 tmk.smartadserver.com
 0.0.0.0 tmw.adnow.com
@@ -4433,6 +4434,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 toluna.ndf.weborama.com
 0.0.0.0 tools.3g.qq.com
 0.0.0.0 top-fwz1.mail.ru
+0.0.0.0 all-cod.com
+0.0.0.0 ok-portal.mail.ru
 0.0.0.0 top100.ru
 0.0.0.0 topads.ero-advertising.com
 0.0.0.0 torrentstream.info
