@@ -783,6 +783,8 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||appstatic.opera.com^$important
 ||autopush.prod.mozaws.net^$important
 ||avast.com^$important
+||telemetry.swiftkey.com^$important
+||telemetry.api.swiftkey.com^$important
 ||awaps.yandex.*^$important
 ||balrog-cloudfront.prod.mozaws.net^$important
 ||bing.com^$important
