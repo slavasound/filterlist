@@ -33,6 +33,7 @@ $$script[tag-content="ExoLoader"]
 $$script[tag-content="LieDetector"]
 $$script[tag-content="popMagic"]
 $$script[tag-content="RTCPeerConnection"]
+$$script[tag-content="OneSignal"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
 $$script[tag-content="zoneNativeSett"]
@@ -55,6 +56,7 @@ $$script[wildcard="*eval*babasbmsgx*"]
 *##^script:has-text(adcashMacros)
 *##^script:has-text(anOptions)
 *##^script:has-text(babasbmsgx)
+*##^script:has-text(OneSignal)
 *##^script:has-text(ExoLoader)
 *##^script:has-text(LieDetector)
 *##^script:has-text(popMagic)
@@ -904,6 +906,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net|~dev.yandex.net|~ya.ru|~hdrabbit.ru|~yandex.lt|~yandex.uz|~yandex.tm|~yandex.co.ge|~yandex.az|~yandex.kz|~yandex.md|~yandex.com.tr|~yandex.fr
 ||yastroka.yandex.net^$important
 ||zen.yandex.*^$important
+||graph.facebook.com^$important
 ! SITE END
 
 ! IMAGE
@@ -1363,7 +1366,7 @@ $script,redirect-rule=noopjs,domain=uploadship.com|viki.com|streamz.bz|streamz.c
 *$image,redirect-rule=2x2.png,domain=dropgalaxy.com,badfilter
 $script,third-party,domain=171gifs.com|300mbfilms.org|321jav.com|4downfiles.org|69sugar.com|acidimg.cc|adultdouga.biz|agarios.org|al.ly|alltube.tv|amabitch.com|andrija-i-andjelka.com|animeado.net|animepahe.com|animezone.pl|anyanime.com|arabp2p.com|archived.moe|asianxv.com|avpockiehd.com|azkempire.com|aznude.com|bajarjuegospcgratis.com|balkandownload.org|balkanje.com|bdsmstreak.com|beelink.in|bilasport.me|bitch-show.com|bitporno.com|blackboxrepack.com|blogqpot.com|brazzershd.co|camwhores.co|cartoonth12.com|catchcoin.pw|centrum-dramy.pl|clicknupload.org|clik.pw|columbia-xxx.com|comicsmanics.com|coroas40.com|cpyskidrow.com|dblatino.com|desixnxx.net|devil-torrents.pl|discografiascompletas.net|downloadgameps3.com|downloadgamepsp.com|downloadgamexbox.com|drhmonegyi.net|dropapk.com|dropapk.to|e-hentai.me|ekasiwap.com|electro-torrent.pl|embedsr.to|erodouga69.com|erostar.jp|estrenosdoramas.net|etsmods.net|fas.li|filecrypt.cc|filesupload.org|filmclub.tv|filmeserialeonline.org|filmesonlineplay.com|filmi7.com|filmovi.eu|flashbd24.blogspot.com|freeiptvlinks.net|freelivesports.co|freeomovie.com|fuckingsession.com|fxporn.net|gameofporn.net|gamepciso.com|garotosbrasil.com|gaycock4u.com|gaysex69.net|girlswithmuscle.com|go4up.com|gravuregirlz.com|grcrt.net|hacknetfl1x.net|happy-foxie.com|hdarkzone.com|hdtube.co|hentai-id.tv|hentaihaven.org|hentaiplay.net|hentaiplus.co|her69.net|hindimoviesonlines.net|hiper.cool|hitomi.la|homeporn.tv|hon3yhd.com|hulkload.com|hyperdebrid.net|igg-games.com|image-bugs.com|imgshots.com|imgsmile.com|incestoporno.org|jav-for.me|javeu.com|javgay.com|javhd.pro|javkimochiii.com|javleak.com|javmobile.net|javmost.com|javonline.online|javrom.com|jdownloader2premium.com|jizzman.com|jogostorrentgratis.net|jpfiles.eu|jpidols.tv|k18.co|k2nblog.com|karanpc.com|kissanime.ru|kooora2day.com|kreskowkazone.pl|kreskowki.tv|kwik.cx|lambingan.su|lecheanal.com|leech.ae|leosims.com|linclik.com|livesoccertv.live|loonertube.com|macnwins.com|mangacanblog.com|maniacosporcomics.com|megafilmeshdplus.org|meguminime.com|metaserie.com|milfcomix.com|milversite.me|minatosuki.com|minatosuki.website|minhaserie.me|minkly.me|mitemovie.com|mixdrop.co|mixdrop.to|mixhdporn.com|mkvcage.com|mkvtv.net|mmfilmes.com|mocnoi.com|movieshdgratis.com.mx|mp4upload.com|musculoduro.com.br|muvibg.com|myreadingmanga.info|mzansifun.com|mzansiporntube.com|mzansixxx.com|namethatpornstar.com|nbafullhd.com|neko-miku.com|nekonime.com|ohohd.com|ohyeah1080.com|omberbagi.com|onceddl.com|onceddl.net|ondeeubaixo.com|pahe.in|peliculasm.tv|peliculasmega1k.com|pelisxporno.com|phimotv.net|picanteeproibido.com.br|piratebay.co.in|pleermp3.net|pornfromcz.com|pornfromczech.com|pornlibrary.net|pornobae.com|pornocomics.net|pornvibe.org|pornvxl.com|programasvirtualespc.net|r34anim.com|reallifecamvd.com|root.sx|rosextube.com|savvystreams.blogspot.com|seriescr.com|serieslatino.tv|seriesparaassistironline.org|sexix.net|sexkino.to|sexloading.com|sextop.net|sexy-youtubers.com|short.am|smallencode.com|soccerembed.blogspot.com|sportp2p.com|stadium-live.biz|streamingok.com|streamlord.com|suki48.web.id|sweext.com|swfchan.com|theapricity.com|thebarchive.com|thevid.net|thplayers.com|tokusatsuindo.com|torrentlocura.com|torrentool.com|torrentoon.com|tousatu.biz|tuhentaionline.com|ufreetv.com|v100v.net|verpeliculasporno.gratis|vertusnovelas.net|video.az|videosnudes.com|vidtome.co|viveseries.com|watcharcheronline.com|watchjavidol.com|watchjavonline.com|watchparksandrecreation.net|watchtheofficeonline.net|xbnat.com|xmovies1.com|xrares.com|xteenchan.com|xxgasm.com|xxxstooorage.com|yeucontrai.com|youav.com|youpornzz.com|yourbittorrent.com|youtubemp3.eu|ytmp3eu.eu|zfilmeonline.eu|zw-net.com|waaw.tv,badfilter
 $script,third-party,domain=kinopovtor.online|goblins-online.ru|alltube.tv|gounlimited.to|novelplanet.me|mixdrop.co|oload.party|clik.pw|mp4upload.com|kwik.cx|vidcloud9.com|mcloud.to|kissanime.ru|dood.watch,badfilter
-$script,~third-party,domain=vidsrc.me|vev.red,badfilter
+$script,~third-party,domain=vidsrc.me|vev.red|vidop.icu,badfilter
 $stylesheet,script,xmlhttprequest,third-party,domain=clipwatching.com|vidlox.me,badfilter
 $subdocument,domain=clik.pw,badfilter
 $subdocument,third-party,domain=linkdrop.net|mixdrop.co|vidcloud9.com,badfilter
@@ -1371,7 +1374,7 @@ $subdocument,~third-party,domain=vidsrc.me,badfilter
 $third-party,image,script,xmlhttprequest,domain=adblock-tester.com|checkadblock.ru,badfilter
 $xhr,redirect-rule=1x1.gif,domain=ign.com,badfilter
 $xhr,redirect-rule=nooptext,domain=streamz.bz|streamz.cc|streamz.vg,badfilter
-$xmlhttprequest,domain=thepiratebay.org|vidsrc.me,badfilter
+$xmlhttprequest,domain=thepiratebay.org|vidsrc.me|vidop.icu,badfilter
 $xmlhttprequest,redirect-rule=nooptext,domain=uploadship.com,badfilter
 $xmlhttprequest,third-party,domain=vidcloud9.com,badfilter
 $xmlhttprequest,domain=vev.red,badfilter
@@ -1664,7 +1667,6 @@ vivo.sx#@#+js(aeld, , preventDefault)
 vivo.sx#@#+js(aeld, click, tabunder)
 vivo.sx#@#+js(aopr, WebAssembly)
 @@||youtube.com^$important,document,badfilter
-waaw.tv#@#+js(set, console.clear, trueFunc)
 wstream.*#@#+js(acis, $, fadeOut)
 wstream.*#@#+js(acis, String.fromCharCode, popups)
 wstream.*#@#+js(nostif, createElement, 15000)
@@ -1747,8 +1749,8 @@ yts.*#@#+js(acis, $, blocked)
 @@||fonts.googleapis.com^$stylesheet,domain=dood.watch|dvb-p.com,badfilter
 ||img.alibaba.com^$badfilter
 ||analytics.google.com^$badfilter
-vev.*#@#+js(aeld, /^(?:click|mousedown|mouseup)$/, di())
-vev.*#@#+js(set, console.clear, trueFunc)
+vev.*,vidop.*#@#+js(aeld, /^(?:click|mousedown|mouseup)$/, di())
+vev.*,waaw.tv,vidop.*,vidup.*#@#+js(set, console.clear, trueFunc)
 *$script,third-party,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
 ||seal.verisign.com^$badfilter
 *$script,redirect-rule=noopjs,domain=playhydrax.com,badfilter
@@ -1756,6 +1758,7 @@ vev.*#@#+js(set, console.clear, trueFunc)
 ||login.vk.com^$badfilter
 ||queuev4.vk.com^$badfilter
 ||im.vk.com^$badfilter
+vev.*,vidup.*#@#+js(nowoif, /^/, 1)
 ||127.0.0.1^$badfilter
 ||ps.vk.com^$badfilter
 ||pu.vk.com^$badfilter
