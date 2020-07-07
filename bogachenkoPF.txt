@@ -86,9 +86,9 @@ mail.google.com##.YX.aZ6.akc, .aeO
 
 ! WHITELIST
 @@/antiadblock.$domain=~github.com|~gitlab.com
-@@/^http:\/\/rt(\/[^\s]+$)?/
+@@/^http:\/\/rt\//$
 @@/^https:\/\/my\.mail\.ru[+/]+video\//$subdocument,xmlhttprequest
-@@/^https?:\/\/192\.168\.[01]\.1(\/[^\s]+$)?/
+@@/^https?:\/\/192\.168\.[01]\.1\//$
 @@||*-instagram.*.facebook.com^
 @@||checkadblock.ru^$document
 @@||ddos-guard.net^
