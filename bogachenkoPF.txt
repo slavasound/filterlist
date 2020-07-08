@@ -87,9 +87,9 @@ mail.google.com##.YX.aZ6.akc, .aeO
 
 ! WHITELIST
 @@/antiadblock.$domain=~github.com|~gitlab.com
-@@/^http:\/\/rt\//$
+@@/^http:\/\/rt\/$/$document
 @@/^https:\/\/my\.mail\.ru[+/]+video\//$subdocument,xmlhttprequest
-@@/^https?:\/\/192\.168\.[01]\.1\//$
+@@/^https?:\/\/192\.168\.[01]\.1\/$/$document
 @@||*-instagram.*.facebook.com^
 @@||checkadblock.ru^$document
 @@||ddos-guard.net^
@@ -533,6 +533,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||crashlytics.com^
 ||exdynsrv.com^
 ||geo.kaspersky.com^
+||connect.ok.ru^
 ||go.microsoft.com^
 ||google-analytics.com^
 ||graph.facebook.com^
@@ -1140,7 +1141,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! CSP END
 
 ! OTHER
-/^(?!.*((injections|local)\.adguard\.org|(hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz
+/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /.*\.(com|net|org|ru|ua|by)\/ads\//$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
