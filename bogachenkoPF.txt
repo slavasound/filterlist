@@ -735,6 +735,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||id.google.ws^
 ||id.l.google.com^
 ||luminati.io^
+||connect.mail.ru^
 ||mc.yandex.ru^
 ||monit.limehd.tv^
 ||mradx.net^
@@ -743,7 +744,6 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||offlinepages-pa.googleapis.com^
 ||perr.h-cdn.com^
 ||perr.hola.org^
-||ravenjs.com^
 ||taboola.com^
 ||videoroll.net^
 ||vk.cm^
@@ -774,6 +774,8 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||alt*-mtalk.google.com^$important
 ||alt*-safebrowsing.google.com^$important
 ||analytics.ghostery.com^$important
+||connect.ok.ru^$important
+||connect.mail.ru^$important
 ||android-safebrowsing.google.com^$important
 ||anolysis.privacy.ghostery.net^$important
 ||api.browser.yandex.*^$important
@@ -822,6 +824,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||fb.com^$third-party
 ||features.opera-api.com^$important
 ||games.yandex.ru^$important
+||mellowads.com^$important
 ||geo.opera.com^$important
 ||ghostery-collector.ghostery.com^$important
 ||googleadservices.*^$important
@@ -1137,7 +1140,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! CSP END
 
 ! OTHER
-/^(?!.*((injections|local)\.adguard\.org|g(oogle(apis)?|static)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip
+/^(?!.*((injections|local)\.adguard\.org|(hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /.*\.(com|net|org|ru|ua|by)\/ads\//$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
@@ -1837,3 +1840,4 @@ vev.*,vidup.*#@#+js(nowoif, /^/, 1)
 my.mail.ru#@#+js(window.open-defuser, , clb670603)
 my.mail.ru#@#+js(aopr, AdmanHTML)
 @@||phncdn.com/hls/videos/$xmlhttprequest,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|youporn.com|youporngay.com,badfilter
+||adf.ly^$badfilter
