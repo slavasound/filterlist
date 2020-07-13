@@ -39,6 +39,7 @@ $$script[tag-content="zfgloaded"]
 $$script[tag-content="zoneNativeSett"]
 $$script[tag-content="_pop.push"]
 $$script[wildcard="*eval*babasbmsgx*"]
+$$script[tag-content="admiral-engaged"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
 @@||analytics.google.com^$important,document
@@ -65,6 +66,7 @@ $$script[wildcard="*eval*babasbmsgx*"]
 *##^script:has-text(zfgloaded)
 *##^script:has-text(zoneNativeSett)
 *##^script:has-text(_pop.push)
+*##^script:has-text(admiral-engaged)
 hotlink.cc,libertycity.ru,faucetcrypto.com##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -753,6 +755,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||yabs.yandex.ua^
 ||yadro.ru^
 ||trafficjunky.net^
+||googleadservices.com^
 ! DNS END
 
 ! SITE
@@ -821,6 +824,8 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||exchange.opera.com^$important
 ||extension-updates.opera.com^$important
 ||facebook.*^$third-party
+||linkedin.com^$third-party
+||pinterest.*^$third-party
 ||family.microsoft.com^$important
 ||fb.com^$third-party
 ||features.opera-api.com^$important
@@ -835,6 +840,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
 ||imasdk.googleapis.com^$important
+||googleadservices.com^$important
 ||hola.org^$important
 ||holaspark.com^$important
 ||http-check-headers.yandex.ru^$important
