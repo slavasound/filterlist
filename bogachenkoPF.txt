@@ -12,6 +12,7 @@
 !#if (adguard_app_android && adguard_app_ios)
 ||everyplay.com^
 ||facebook.com^
+||facebook.net^
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
 ||qq.com^
 ||unity3d.com^
@@ -758,6 +759,10 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||googleadservices.com^
 ||translate.googleapis.com^
 ||vuukle.com^
+||googletagmanager.com^
+||imasdk.googleapis.com^
+||googletagservices.com^
+||googlesyndication.com^
 ! DNS END
 
 ! SITE
@@ -1451,3 +1456,4 @@ twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()=
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org,badfilter
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 ||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~assistir-filme.biz|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~jokehd.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~roadhub.ru|~roblox.com|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
+@@://yandex.ru/|$generichide,badfiter
