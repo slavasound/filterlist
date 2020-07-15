@@ -86,6 +86,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 
 ! TEMPORARILY
 @@||marketplace.visualstudio.com^$important,app=Code.exe
+@@/^https?:\/\/(www\.)?(github\.developerdan|gitlab)\.com/[^\s]+[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 ! TEMPORARILY END
 
 ! WHITELIST
@@ -1362,7 +1363,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 
 ! COMBINED
 /[-._?&=#/](event|stat)logs?(ging|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
-/[-._?&=#/](logs?|img)[-._?&=#/]?(?:failureinfo|type|events?|entry|request|stats?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
+/[-._?&=#/](logs?|img)[-._?&=#/]?(?:failure|info|type|events?|entry|request|stats?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/]1x[12]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)$/$image,important,script,subdocument
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
@@ -1371,7 +1372,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~twitch.tv
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest
-/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~fandom.com|~github.com|~gitlab.com
+/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~fandom.com
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,script,xmlhttprequest,other
 /[-._?&=#/][Aa]naly(ti([\W\w]+)?)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,other,script,third-party
