@@ -769,6 +769,14 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||amazon-adsystem.com^
 ||doubleclickbygoogle.com^
 ||scorecardresearch.com^
+||contributor.google.com^
+||sitecheck.opera.com^
+||sitecheck2.opera.com^
+||sitecheck3.opera.com^
+||sitecheck4.opera.com^
+||sitecheck5.opera.com^
+||sitecheck6.opera.com^
+||sitecheck7.opera.com^
 ! DNS END
 
 ! SITE
@@ -935,7 +943,6 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||graph.facebook.com^$important
 ||iplist.cc^$third-party,important
 ||sharethis.com^$important
-||contributor.google.com^$important
 ! SITE END
 
 ! IMAGE
@@ -1475,3 +1482,4 @@ playvideo.best#@#+js(aopr, jwplayer.utils.Timer)
 playvideo.best#@#+js(aopr, __Y)
 playvideo.best#@#+js(aopw, adcashMacros)
 playvideo.best#@#+js(aopr, AaDetector)
+||vk.com^$badfilter
