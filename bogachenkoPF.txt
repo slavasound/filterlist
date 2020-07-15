@@ -43,31 +43,14 @@ $$script[wildcard="*eval*babasbmsgx*"]
 $$script[tag-content="admiral-engaged"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
+||edge.microsoft.com^$important,badfilter
+||edge.microsoft.com^
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
-@@||freebitco.in^$important,document
-@@||live.com^$important,document
-@@||youtube.com^$important,document
 !#endif
 
 !#if ext_ublock
 *##+js(remove-attr.js, ping)
-*##^script:has-text('shift')
-*##^script:has-text(absda)
-*##^script:has-text(adBlockDetected)
-*##^script:has-text(adcashMacros)
-*##^script:has-text(anOptions)
-*##^script:has-text(babasbmsgx)
-*##^script:has-text(OneSignal)
-*##^script:has-text(ExoLoader)
-*##^script:has-text(LieDetector)
-*##^script:has-text(popMagic)
-*##^script:has-text(RTCPeerConnection)
-*##^script:has-text(window.Fingerprint2)
-*##^script:has-text(zfgloaded)
-*##^script:has-text(zoneNativeSett)
-*##^script:has-text(_pop.push)
-*##^script:has-text(admiral-engaged)
 hotlink.cc,libertycity.ru,faucetcrypto.com##+js(nano-setInterval-booster.js)
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
@@ -77,7 +60,6 @@ kissasian.*,sourceforge.net,kimcartoon.to,datoporn.co,trialnod.com,xstreamcdn.co
 peserialehd.us,europixhd.*,bookmaker-ratings.ru##+js(mousedef.js)
 salahstream.ml,syriancivilwarmap.com,hdfilmesonlinegratis.com,mangovideo.pw,mystream.to,videomega.co,linkduit.net##+js(addEventListener-defuser.js, contextmenu)
 ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthronesizle1.pw,voxc.org,likn.xyz,waaw.tv,hindilinks4uto.com,hqq.tv,waaws.*,waaw1.tv##+js(contextmenudef.js)
-wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 !#endif
 
 ! TEST
@@ -86,7 +68,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 
 ! TEMPORARILY
 @@||marketplace.visualstudio.com^$important,app=Code.exe
-@@/^https?:\/\/(www\.)?(github\.developerdan|gitlab)\.com/[^\s]+[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,app=firefox.exe|opera.exe
+@@/^https?:\/\/(www\.)?(github\.developerdan|gitlab)\.com/[^\s]+[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,app=firefox.exe|opera.exe|msedge.exe
 ! TEMPORARILY END
 
 ! WHITELIST
@@ -779,6 +761,7 @@ wstream.*,dood.*,m4ufree.*##+js(nostif, debugger)
 ||sitecheck5.opera.com^
 ||sitecheck6.opera.com^
 ||sitecheck7.opera.com^
+||2mdn.net^
 ! DNS END
 
 ! SITE
