@@ -763,6 +763,12 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||imasdk.googleapis.com^
 ||googletagservices.com^
 ||googlesyndication.com^
+||fundingchoicesmessages.google.com^
+||exoclick.com^
+||exosrv.com^
+||amazon-adsystem.com^
+||doubleclickbygoogle.com^
+||scorecardresearch.com^
 ! DNS END
 
 ! SITE
@@ -786,6 +792,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||alt*-safebrowsing.google.com^$important
 ||analytics.ghostery.com^$important
 ||connect.ok.ru^$important
+||discordapp.com^$important
 ||connect.mail.ru^$important
 ||android-safebrowsing.google.com^$important
 ||anolysis.privacy.ghostery.net^$important
@@ -829,7 +836,6 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||edge.microsoft.com^$important
 ||ero-advertising.com^$important
 ||exchange.opera.com^$important
-||extension-updates.opera.com^$important
 ||facebook.*^$third-party
 ||linkedin.com^$third-party
 ||pinterest.*^$third-party
@@ -848,6 +854,7 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||googletagservices.com^$important
 ||imasdk.googleapis.com^$important
 ||googleadservices.com^$important
+||fundingchoicesmessages.google.com^$important
 ||hola.org^$important
 ||holaspark.com^$important
 ||http-check-headers.yandex.ru^$important
@@ -926,7 +933,9 @@ mail.google.com##.YX.aZ6.akc, .aeO
 ||yastroka.yandex.net^$important
 ||zen.yandex.*^$important
 ||graph.facebook.com^$important
-||iplist.cc^$third-party
+||iplist.cc^$third-party,important
+||sharethis.com^$important
+||contributor.google.com^$important
 ! SITE END
 
 ! IMAGE
@@ -1155,7 +1164,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! CSP END
 
 ! OTHER
-/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw
+/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /.*\.(com|net|org|ru|ua|by)\/ads\//$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
@@ -1457,3 +1466,12 @@ twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()=
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 ||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~assistir-filme.biz|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~jokehd.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~roadhub.ru|~roblox.com|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
 @@://yandex.ru/|$generichide,badfiter
+adsrt.*#@#+js(aopr, rmVideoPlay)
+adsrt.*#@#+js(aopw, Fingerprint2)
+adsrt.*#@#+js(aopr, app_vars.force_disable_adblock)
+adsrt.*#@#+js(acis, atob, decodeURIComponent)
+*$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
+playvideo.best#@#+js(aopr, jwplayer.utils.Timer)
+playvideo.best#@#+js(aopr, __Y)
+playvideo.best#@#+js(aopw, adcashMacros)
+playvideo.best#@#+js(aopr, AaDetector)
