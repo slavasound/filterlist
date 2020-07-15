@@ -43,8 +43,6 @@ $$script[wildcard="*eval*babasbmsgx*"]
 $$script[tag-content="admiral-engaged"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
-||edge.microsoft.com^$important,badfilter
-||edge.microsoft.com^
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
 !#endif
@@ -88,7 +86,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 @@||ok.ru/videoembed/$subdocument
 @@||safebrowsing.clients.google.com^$document
 @@||vk.com/video_ext.php$subdocument
-@@/^https?:\/\/edge\.microsoft\.com\/extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?/$other,important
 ! WHITELIST END
 
 ! DNS
