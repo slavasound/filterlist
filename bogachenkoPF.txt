@@ -45,6 +45,7 @@ $$script[tag-content="admiral-engaged"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
+@@||music.yandex.*^$important,document,~extension
 !#endif
 
 !#if ext_ublock
@@ -1108,7 +1109,7 @@ imgur.com###cta-container-placeholder2
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai,kinogo2.*##body:style(background-image: none !important;)
 lk.rt.ru###widget-container
 mail.yandex.*##.mail-Placeholder-Text, .mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap
-music.yandex.*##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding, .paused-slider_left.porsche.paused-slider, .bar__branding_picture, .bar-below__auth, .bar-below__content, .bar__branding, .subscription-hint.popup, .bar__addition-link
+music.yandex.*##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding, .paused-slider_left.porsche.paused-slider, .bar__branding_picture, .bar-below__auth, .bar-below__content, .bar__branding, .subscription-hint.popup, .bar__addition-link, body > div[style^="min-height"] > .notify *, body > div[style^="min-height"] > div[class][style="display: block;"], body > div[style^="min-height"] > .notify, [class^="audio-advert"], .subscription-hint.popup, .bar.bar-below, .ads-block, .share-container, .share.unit, .notify__message, div.notify > div.deco-tooltip_notify.notify_shown, .d-overhead-mobile__content_app, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, .bar-below, .no-ads, .button-store_all, .app-sms, a[href="/contest/dogmoroz"], .subscription-hint, .bar__driver-container, .sidebar__placeholder .teaser ~ div, div[id^="ya_partner_R-A-"], .page-root > div.d-overhead
 music.yandex.by,music.yandex.com,music.yandex.ru,music.yandex.ua#?#span:contains(Отключить рекламу)
 ntv.ru##[href="/75/"]
 ok.ru###hook_Block_MusicGrowl_Content
@@ -1134,7 +1135,7 @@ yandex.*,ya.ru##.favorites__icon, .desk-notif-card_js_inited.i-bem.desk-notif-ca
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #clarify-box > .ytd-watch-flexy.style-scope, #sponsor-button, yt-live-chat-viewer-engagement-message-renderer, .ytd-video-secondary-info-renderer.style-scope.sticky, .ytp-ce-video.ytp-ce-element
 pornhub.com,pornhubthbh7ap3u.onion##.sniperModeEngaged, div[id^="age-verification"], .ad-link, .removeAdsStyle, .socialIconsWrapper, .freePremium, .freePremiumVideo, #pb_template, .video-wrapper > #player + [class], a[href*="?ats="], .footerContentWrapper, #footer, .rightCol, .rating-info-container, .tooltipTrig.flag.producer-icon, .subscribe.userButtons, .subscribers-count, .icon-wrapper, .active.fanclub-info-pop, .tab-menu-wrapper-row, .rightButtonHolder.contentContainer
 mail.google.com##.YX.aZ6.akc, .aeO
-mail.ru##.w-x-ph__col_left.w-x-ph__col, .informers, .marusia__wrapper, .marusia__button, .search__top, .i-pull-left.grid__lcol_mailbox.grid__lcol, .i-pull-left.grid__ccol, .i-clearfix.grid__container.grid-down, #search\:example, #suggests, .zeropixel, .zeropixel > script, noscript, #script\:counters, .catalogue.block, .footer, #sports-event-swiper, #horo-swiper, .covid, .swipe-wrap_weather, .social, .pulse-lenta, .news.block, .currency.widget.block, .widget.tv.block, .mailru-visibility-check, .afisha__title, .block__item_app.block__item_list, .block__title.block__item, .counter, span.block[data-show-counter][data-show-height], .adq, .w-go-form__sugg, span.block[style="color:#000000; border-color:#B13F3F; background-color:#ffffff;"], .LocalFooter-footer
+mail.ru##.w-x-ph__col_left.w-x-ph__col, .informers, .marusia__wrapper, .marusia__button, .search__top, .i-pull-left.grid__lcol_mailbox.grid__lcol, .i-pull-left.grid__ccol, .i-clearfix.grid__container.grid-down, #search\:example, #suggests, .zeropixel, .zeropixel > script, noscript, #script\:counters, .catalogue.block, .footer, #sports-event-swiper, #horo-swiper, .covid, .swipe-wrap_weather, .social, .pulse-lenta, .news.block, .currency.widget.block, .widget.tv.block, .mailru-visibility-check, .afisha__title, .block__item_app.block__item_list, .block__title.block__item, .counter, span.block[data-show-counter][data-show-height], .adq, .w-go-form__sugg, span.block[style="color:#000000; border-color:#B13F3F; background-color:#ffffff;"], .LocalFooter-footer, .FooterLinks-wrapper, .footer__wrap, .footer
 ! CSS END
 
 ! XPATH
@@ -1274,6 +1275,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||deviants.com/player/html.php$subdocument,important
 ||phncdn.com/iframe$subdocument,important
 ||redditmedia.com/gtm/jail?$subdocument,important
+/^https?:\/\/(www\.)?google\.[\w]+\/afs\/ads[/?]/$subdocument,important
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -1324,6 +1326,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||yandex.*/portal/$important,script
 ||yandex.*/search/yandcache.js|$script,important
 ||yastatic.net/share2/share.js|$important,script
+||yastatic.net/pcode/adfox/loader.js|$important,script
+||yastatic.net/awaps-ad-sdk-js/1_0/adsdk.min.js$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -1479,3 +1483,14 @@ playvideo.best#@#+js(aopr, AaDetector)
 ||cdn.jsdelivr.net^$badfilter
 /favicon.ico$image,3p,domain=~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 adblockmetrics.ru,antiadblock.ru,better-games.ru,clickscloud.net,disk-space.ru,fortnite-pvp.ru,kinoframe.net#@#*
+||pu.vk.com^$badfilter
+music.yandex.ru#@#.subscription-hint.popup
+music.yandex.ru#@#[class^="audio-advert"]
+music.yandex.ru#@#.bar__addition-link
+music.yandex.ru#@#.bar .bar-below
+music.yandex.ru#@#.ads-block
+music.yandex.ru#@#body > div[style^="min-height"] > .notify
+music.yandex.ru#@#body > div[style^="min-height"] > .notify *
+music.yandex.ru#@#body > div[style^="min-height"] > div[class][style="display: block;"]
+@@||an.yandex.ru/system/context.js$domain=music.yandex.ru|radio.yandex.ru,badfilter
+@@||an.yandex.ru/resource/context_static_r*.js$domain=music.yandex.ru|radio.yandex.ru,badfilter
