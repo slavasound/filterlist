@@ -826,8 +826,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||csp.yandex.net^$important
 ||d.ghostery.com^$important
 ||desktop-dna.osp.opera.software^$important
-||detectportal.firefox.com-v2.edgesuite.net^$important
-||detectportal.firefox.com^$important
+||detectportal.firefox.*^$important
 ||detectportal.prod.mozaws.net^$important
 ||disqus.com^$important
 ||disquscdn.com^$important
@@ -927,7 +926,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ! SITE END
 
 ! IMAGE
-/[-._?&=#/](468[_x-]60|240[_x-]400|600[_x-]200)[-._?&=#/]/$image,important
+/[-._?&=#/](468[_x-]60|240[_x-]400|600[_x-]200|728[_x-]90)[-._?&=#/]/$image,important
 /[-._?&=#/]fpn\.gif/$image,important
 /\/atrk\.(gif|js)/$image,important
 /\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
@@ -966,7 +965,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ! MEDIA END
 
 ! OBJECT
-*$object,domain=yandex.ru|yandex.ua|yandex.by
+*$object,important,domain=yandex.ru|yandex.ua|yandex.by
 ! OBJECT END
 
 ! APP
