@@ -86,6 +86,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 @@||ok.ru/videoembed/$subdocument
 @@||safebrowsing.clients.google.com^$document
 @@||vk.com/video_ext.php$subdocument
+@@/^https?:\/\/edge\.microsoft\.com\/extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?/$important
 ! WHITELIST END
 
 ! DNS
@@ -145,7 +146,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 64.233.161.156:443$network
 64.233.161.157:443$network
 64.233.162.97:443$network
-64.233.162.102:443$network
 64.233.162.154:443$network
 64.233.162.155:443$network
 64.233.162.156:443$network
