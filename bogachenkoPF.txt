@@ -87,6 +87,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 @@||safebrowsing.clients.google.com^$document
 @@||vk.com/video_ext.php$subdocument
 @@/^https?:\/\/edge\.microsoft\.com\/extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?/$important
+@@||xvideos*.*^$elemhide,content,jsinject
 ! WHITELIST END
 
 ! DNS
@@ -1080,6 +1081,7 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 *##[href="/tc2.php"]
 *##[title="uCoz Counter"]
 *##.grecaptcha-badge
+*##.counters
 2ch.hk##.logo, #mobile-pashque
 aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
 bing.com###t_termsInfo
@@ -1473,3 +1475,5 @@ playvideo.best#@#+js(aopr, AaDetector)
 ||login.vk.com^$badfilter
 ||away.vk.com^$badfilter
 ||cdn.jsdelivr.net^$badfilter
+/favicon.ico$image,3p,domain=~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
+adblockmetrics.ru,antiadblock.ru,better-games.ru,clickscloud.net,disk-space.ru,fortnite-pvp.ru,kinoframe.net#@#*
