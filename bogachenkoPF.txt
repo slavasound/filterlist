@@ -45,7 +45,7 @@ $$script[tag-content="admiral-engaged"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
 @@||analytics.google.com^$important,document
 @@||bogachenko.github.io^$important,document
-@@||music.yandex.*^$important,document,~extension
+@@||music.yandex.*^$important,document
 !#endif
 
 !#if ext_ublock
@@ -68,6 +68,7 @@ $$script[tag-content="window['__CF*params']"]
 ! TEMPORARILY
 @@||marketplace.visualstudio.com^$important,app=Code.exe
 @@/^https?:\/\/(www\.)?(github\.developerdan|gitlab)\.com/[^\s]+[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,app=firefox.exe|opera.exe|msedge.exe
+/^https?:\/\/go\.microsoft\.com(?!(\/fwlink\/\?linkid\=(2108834)$))/$document
 ! TEMPORARILY END
 
 ! WHITELIST
@@ -78,7 +79,6 @@ $$script[tag-content="window['__CF*params']"]
 @@||checkadblock.ru^$document
 @@||ddos-guard.net^
 @@||favicon.yandex.net^$image
-@@||go.microsoft.com/fwlink/?linkid=2108834
 @@||injections.adguard.org^
 @@||instagram.*.facebook.com^
 @@||local.adguard.org^
@@ -1272,7 +1272,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||browser.yandex.ru^$~document
 ||click.$document
 ||eshop.eset.com^$document
-||go.microsoft.com^$document
 ||msftconnecttest.com/redirect$document
 ||vk.com/badbrowser.php$document
 ||warning.rt.ru^$document
@@ -1341,7 +1340,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||yastatic.net/share2/share.js|$important,script
 ||yastatic.net/awaps-ad-sdk-js/1_0/adsdk.min.js$important,script
 ||gstatic.com/firebasejs/*/firebase-analytics.js|$script,important
-/^https?://mail\.yandex\.[\w]+\/[^\s]{160,}/$script,important
+/^https?:\/\/mail\.yandex\.[\w]+\/[^\s]{160,}/$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
