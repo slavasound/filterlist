@@ -518,7 +518,6 @@ $$script[tag-content="window['__CF*params']"]
 ||exdynsrv.com^
 ||geo.kaspersky.com^
 ||connect.ok.ru^
-||go.microsoft.com^
 ||google-analytics.com^
 ||graph.facebook.com^
 ||id.google.ac^
@@ -759,6 +758,7 @@ $$script[tag-content="window['__CF*params']"]
 ||sitecheck7.opera.com^
 ||2mdn.net^
 ||client.svd-cdn.com^
+||zgxrht.com^
 ! DNS END
 
 ! SITE
@@ -927,6 +927,7 @@ $$script[tag-content="window['__CF*params']"]
 ||dota2expert.com^$important
 ||client.svd-cdn.com^$important
 ||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
+||go.microsoft.com^$~third-party,important
 ! SITE END
 
 ! IMAGE
