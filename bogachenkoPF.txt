@@ -68,7 +68,7 @@ $$script[tag-content="window['__CF*params']"]
 ! TEMPORARILY
 @@||marketplace.visualstudio.com^$important,app=Code.exe
 @@/^https?:\/\/(www\.)?(github\.developerdan|gitlab)\.com/[^\s]+[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,app=firefox.exe|opera.exe|msedge.exe
-/^https?:\/\/go\.microsoft\.com(?!(\/fwlink\/\?linkid\=(2108834)$))/$document
+/^https?:\/\/go\.microsoft\.com(?!(\/fwlink\/\?linkid\=(2108834)).*$)/$document
 ! TEMPORARILY END
 
 ! WHITELIST
