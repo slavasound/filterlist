@@ -1018,44 +1018,17 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 ! REDIRECTION END
 
 ! CSS
-*###ad-player, #AdImage, #advertContainer, #advertising_wrapper, #AD_banner, #AD_Top, #appbanner, #p-advert, #side_ads, #takeover_ad, #teasers,#top-advert, .ad-bar, .ADBAR, .adframe, .ads-inline, .ads-list, .adsense-header, .advertisment, .ad_wrapper, .bottom-ads, .container_row_ad, .custom-ad, .cz-sponsorposts, .flash-advertisement, .homepage_ads, .listad, .middle_AD, .mobile-ad, .promoted-heading, .reklama, .SponsorAds, .SponsoredContent
-*##a[href*="//ads.adfox.ru/"]
-*##a[href*="//zen.yandex."]
-*##div[class*="sport-advert_"]
-*##div[data-flt-ve="sponsored_search_ads"]
-*##div[id*="adcontent"]
-*##div[id^="google_ads_iframe_"]
-*##div[id^="yandex_rtb"]
+*##div:has([class*="CookieDialog__DialogLInk-"])
 *##iframe[src*='/ad/']
 *##iframe[src*='2mdn.net']
-*##a[href*="https://bit.ly/"]
 *##iframe[src*="amazon-adsystem.com"]
 *##iframe[src*="exoclick.com"]
 *##iframe[src*="imasdk.googleapis.com"]
 *##iframe[src*="vidroll.ru"]
 *##iframe[src="about:blank"]
-*##iframe[src="https://awaps.yandex.net"]
+*##iframe[src*="awaps.yandex.net"]
 *##img[src*="advert"]
 *##img[src*="exdynsrv.com"]
-*##[class*="adv-slot-"]
-*##[href*="//bit.ly/"]
-*##[href*="//bitly.com/"]
-*##[href*="/ads/"]
-*##[href*="/adv/"]
-*##[href*="/advert."]
-*##[href*="/advert/"]
-*##[href*="/advertise."]
-*##[href*="/advertise/"]
-*##[href*="/advertising."]
-*##[href*="/advertising/"]
-*##[href*="adriver.ru"]
-*##[href*="doubleclick.net"]
-*##[href*="googleadservices.com"]
-*##[href*="mradx.net"]
-*##[href*="trafficfactory.biz"]
-*##[href*="trafficjunky.net"]
-*##[href*="weborama.fr"]
-*##[href*="yabs.yandex.ru"]
 *##[href="/1884.html"]
 *##[href="/tc1.php"]
 *##[href="/tc2.php"]
@@ -1063,11 +1036,13 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 *##.grecaptcha-badge
 *##.counters
 2ch.hk##.logo, #mobile-pashque
-aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
+aliexpress.*##.top-banner-container, [href="//sale.aliexpress.ru/Select_Coupons.htm"]
 bing.com###t_termsInfo
-*##.socicon-youtube, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig
+*##a[href*="/ads."], a[href*="/ads/"], a[href*="/adv."], a[href*="/adv/"], a[href*="/advert."], a[href*="/advert/"],a[href*="/advertise."], a[href*="/advertise/"], a[href*="/advertising."], a[href*="/advertising/"], [class*="adv-slot-"], div[class*="sport-advert_"], div[data-flt-ve="sponsored_search_ads"], div[id*="adcontent"], div[id^="google_ads_iframe_"], div[id^="yandex_rtb"]
+*###ad-player, #AdImage, #advertContainer, #advertising_wrapper, #AD_banner, #AD_Top, #appbanner, #p-advert, #side_ads, #takeover_ad, #teasers,#top-advert, .ad-bar, .ADBAR, .adframe, .ads-inline, .ads-list, .adsense-header, .advertisment, .ad_wrapper, .bottom-ads, .container_row_ad, .custom-ad, .cz-sponsorposts, .flash-advertisement, .homepage_ads, .listad, .middle_AD, .mobile-ad, .promoted-heading, .reklama, .SponsorAds, .SponsoredContent, #adcontent
+*##.socicon-youtube, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig, .wc_social_plugin_wrapper, .vkontakte, .twitter, .social-likes__button, .facebook, .social
 *##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible
-*##div:has([class*="CookieDialog__DialogLInk-"])
+*##[href*="adriver.ru"], a[href*="doubleclick.net"], a[href*="ads.adfox.ru"], a[href*="googleadservices.com"], a[href*="mradx.net"], a[href*="trafficfactory.biz"], a[href*="trafficjunky.net"], a[href*="weborama.fr"], a[href*="yabs.yandex."], a[href*="zen.yandex."], a[href*="awaps.yandex.net"], a[href*="imasdk.googleapis.com"], a[href*="//bit.ly/"], a[href*="//bitly.com/"]
 clipwatching.com###container > div > div:style(width:0px!important)
 english-films.*##.block-content:has-text(Онлайн чат)
 english-films.*##.mainInner:style(padding-left: 0 !important;)
