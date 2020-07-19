@@ -63,7 +63,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 !#endif
 
 ! TEST
-!
+/^https?:\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$important,script,third-party
 ! TEST END
 
 ! TEMPORARILY
@@ -788,7 +788,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/\*\.(facebook\.com|ok\.ru)/$important
 /a\.[a-z0-9]{33,43}\.com$/$important
-/^https?:\/\/(bitly|bit)\.(com|ly)/$important
+/^https?:\/\/bit(ly)?\.(com|ly)/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 /^[a-z0-9]{8,}\.Home$/$important
 ||activity-stream-icons.services.mozilla.com^$important
@@ -1002,9 +1002,13 @@ google.*##+js(remove-attr.js, ping, div[class] > a[ping])
 google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 livejournal.com##+js(abort-current-inline-script.js, document.createElement, script)
 youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
-youtube.com##+js(set-constant.js, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com#%#//scriptlet("json-prune", "playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds")
+youtube.com#%#//scriptlet("json-prune", "adPlacements playerAds")
+youtube.com##+js(json-prune, adPlacements playerAds)
+youtube.com##+js(set-constant.js, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com#%#//scriptlet("set-constant", "ytInitialPlayerResponse.adPlacements", "undefined")
+youtube.com##+js(json-prune, [].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds)
+youtube.com#%#//scriptlet("json-prune", "[].playerResponse.adPlacements [].playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds")
 zloekino.ru##+js(cookie-remover.js)
 zloekino.ru#%#//scriptlet("remove-cookie")
 ! SCRIPTLET END
