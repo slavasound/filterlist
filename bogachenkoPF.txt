@@ -958,7 +958,6 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 /\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
 /\/(luxury777|paiza99|alexavegas|togeputih|lotus303|ratu303|ligadewa|batman88|datukqq|java303)\.gif$/$image,important
 /^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
-|http*:*/c.gif?$image,important
 |http*:*/clear.png?$image,important
 |http*:*/cleardot.gif?$image,important
 |http*:*/grstat?$image,important
@@ -1019,60 +1018,13 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 ! REDIRECTION END
 
 ! CSS
-*###ad-player
-*###AdImage
-*###advertContainer
-*###advertising_wrapper
-*###AD_banner
-*###AD_Top
-*###appbanner
-*###cookie-notice
-*###cookie-pop
-*###gdpr-consent
-*###js-gdpr-consent-banner
-*###p-advert
-*###side_ads
-*###takeover_ad
-*###teasers
-*###top-advert
-*##.ad-bar
-*##.ADBAR
-*##.adframe
-*##.ads-inline
-*##.ads-list
-*##.adsense-header
-*##.advertisment
-*##.ad_wrapper
-*##.bottom-ads
-*##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
-*##.container_row_ad
-*##.Cookie
-*##.cookie
-*##.cookie-choices-inner
-*##.cookie-consent
-*##.custom-ad
-*##.cz-sponsorposts
-*##.eu-cookie-popup
-*##.eu-cookie-popup_visible
-*##.flash-advertisement
-*##.homepage_ads
-*##.listad
-*##.middle_AD
-*##.mobile-ad
-*##.pluso
-*##.promoted-heading
-*##.reklama
-*##.SponsorAds
-*##.SponsoredContent
-*##.wiadomoscSocialBig
+*###ad-player, #AdImage, #advertContainer, #advertising_wrapper, #AD_banner, #AD_Top, #appbanner, #p-advert, #side_ads, #takeover_ad, #teasers,#top-advert, .ad-bar, .ADBAR, .adframe, .ads-inline, .ads-list, .adsense-header, .advertisment, .ad_wrapper, .bottom-ads, .container_row_ad, .custom-ad, .cz-sponsorposts, .flash-advertisement, .homepage_ads, .listad, .middle_AD, .mobile-ad, .promoted-heading, .reklama, .SponsorAds, .SponsoredContent
 *##a[href*="//ads.adfox.ru/"]
 *##a[href*="//zen.yandex."]
-*##div:has([class*="CookieDialog__DialogLInk-"])
 *##div[class*="sport-advert_"]
 *##div[data-flt-ve="sponsored_search_ads"]
 *##div[id*="adcontent"]
 *##div[id^="google_ads_iframe_"]
-*##div[id^="vk_group"]
 *##div[id^="yandex_rtb"]
 *##iframe[src*='/ad/']
 *##iframe[src*='2mdn.net']
@@ -1113,6 +1065,9 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 2ch.hk##.logo, #mobile-pashque
 aliexpress.*##.top-banner-container,[href="//sale.aliexpress.ru/Select_Coupons.htm"]
 bing.com###t_termsInfo
+*##.socicon-youtube, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig
+*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible
+*##div:has([class*="CookieDialog__DialogLInk-"])
 clipwatching.com###container > div > div:style(width:0px!important)
 english-films.*##.block-content:has-text(Онлайн чат)
 english-films.*##.mainInner:style(padding-left: 0 !important;)
@@ -1187,7 +1142,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /[-._?&=#/](ads|ADS)[-._?&=#/]/$important
-/[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
+/[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$important
+/[&]s[cw][=][0-9]{3,4}[&]sh[=][0-9]{3,4}[&]/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com
