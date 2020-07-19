@@ -64,6 +64,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 
 ! TEST
 /^https?:\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$important,script,third-party
+reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2taKebHxs._1BFbVxT49QnrAN3fqGZ1z8, .Ab_CG1GZxb0mjtooTcgRC._1Pcih1cgtQusjyfxp7YPbP
 ! TEST END
 
 ! TEMPORARILY
@@ -781,6 +782,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||twitch.tv^$third-party
 ||twitchcdn.net^$third-party,domain=~twitch.tv
 ||rambler.ru^$third-party
+||reddit.com^$third-party
 ||livejournal.com^$third-party
 ||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
@@ -803,6 +805,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||analytics.ghostery.com^$important
 ||connect.ok.ru^$important
 ||discordapp.com^$important
+||cookielaw.org^$important 
 ||connect.mail.ru^$important
 ||android-safebrowsing.google.com^$important
 ||anolysis.privacy.ghostery.net^$important
@@ -987,10 +990,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 /\/ad[vs]?\/[0-9]{1,}\.mp4$/$media,~third-party
 |http*:*.mp4|$media,domain=vb17103elmerwatson.pw
 ! MEDIA END
-
-! OBJECT
-*$object,important,domain=yandex.ru|yandex.ua|yandex.by
-! OBJECT END
 
 ! APP
 *$important,app=Draziw.Button.Mines|com.BallGames.Woodturning|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.amanotes.beathopper|com.andregal.android.poolbilliard|com.appsinnova.android.keepclean|com.billiards.city.pool.nation.club|com.blyts.nobodies|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.doodle.skatingman|com.dvloper.granny|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.forthblue.pool|com.genico.bounce|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.karmangames.solitaire|com.kiloo.subwaysurf|com.kx.box|com.leodesol.games.classic.maze.labyrinth|com.ligeria.solitaire|com.mediocre.grannysmith|com.miniclip.istunt2|com.miniclip.plagueinc|com.mobisystems.fileman|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.playrix.gardenscapes|com.red.ball.ballgames.bounceball.redball5|com.redrocket.poker|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.rovio.angrybirds|com.skgames.trafficracer|com.stolitomson|com.submarineapps.mill|com.topchopgames.skyroller|com.topgame.BeenyAdventures|com.x3m.tx4|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|phone.cleaner.antivirus.speed.booster|phone.cleaner.speed.booster.cache.clean.android.master|pl.lukok.draughts|pt.wm.milhes|com.appstar.callrecorder|com.appstar.callrecorderpro|KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
@@ -1187,7 +1186,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! OTHER
 /^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
-/.*\.(com|net|org|ru|ua|by)\/ads\//$important
+/[-._?&=#/](ads|ADS)[-._?&=#/]/$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
@@ -1197,6 +1196,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*$beacon,important
 |http*:*$ping,important
 |http*:*$webrtc,important
+|http*:*$object,important
+|http*:*$object-subrequest,important
 |http*:*/advert/$important
 |http*:*/coins.php$important
 |http*:*/fd/ls/$important
