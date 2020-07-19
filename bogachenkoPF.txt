@@ -1344,6 +1344,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/wl-http.js$important,script
 |http*:*/wl.js$important,script
 |http*:*/swb.js$important,script
+|http*:*/sww.js$important,script
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js|$important,script
 ||ucoz.net/cgi/uutils.fcg?$script,important
 ||vk.com/js/api/openapi.js$important,script
@@ -1399,7 +1400,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?://yandex\.(by|kz|ru|ua|uz)/images/(?!(search\?)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
+/^https?:\/\/yandex\.[\w]+\/images\/(?!(search\?)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
