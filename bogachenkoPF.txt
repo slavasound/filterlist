@@ -90,6 +90,7 @@ $$script[tag-content="window['__CF*params']"]
 @@/^https?:\/\/edge\.microsoft\.com\/extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?/$important
 @@||xvideos*.*^$elemhide,content,jsinject,urlblock
 @@||gstatic.com/recaptcha/$script
+@@||connectivitycheck.gstatic.com^$important
 ! WHITELIST END
 
 ! DNS
@@ -760,6 +761,9 @@ $$script[tag-content="window['__CF*params']"]
 ||2mdn.net^
 ||client.svd-cdn.com^
 ||zgxrht.com^
+||in.appcenter.ms^
+||oneclient.sfx.ms^
+||c.bingapis.com^
 ! DNS END
 
 ! SITE
@@ -771,8 +775,9 @@ $$script[tag-content="window['__CF*params']"]
 ||ok.ru^$third-party
 ||mail.ru^$third-party
 ||vk.com^$third-party
-||yahoo.com^$third-party
+||yahoo.*^$third-party
 ||twitch.tv^$third-party
+||rambler.ru^$third-party
 ||livejournal.com^$third-party
 /a\.[a-z0-9]{33,43}\.com$/$important
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
@@ -798,6 +803,8 @@ $$script[tag-content="window['__CF*params']"]
 ||connect.mail.ru^$important
 ||android-safebrowsing.google.com^$important
 ||anolysis.privacy.ghostery.net^$important
+||perfectionholic.com^$important
+||c.bingapis.com^$important
 ||api.browser.yandex.*^$important
 ||api.ghostery.net^$important
 ||api.recsys.opera.com^$important
@@ -935,6 +942,8 @@ $$script[tag-content="window['__CF*params']"]
 ||dota2expert.com^$important
 ||client.svd-cdn.com^$important
 ||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
+||oneclient.sfx.ms^$important
+||dev.appboy.com^$important
 ! SITE END
 
 ! IMAGE
@@ -1276,6 +1285,9 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
 ||wrongurl.mts.ru^$document
+||vk.cc^$document
+||t.co^$document
+||goo.gl^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
@@ -1482,12 +1494,12 @@ twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()=
 adsrt.*#@#+js(aopr, rmVideoPlay)
 adsrt.*,tii.ai,iir.ai#@#+js(aopw, Fingerprint2)
 adsrt.*,tii.ai,iir.ai#@#+js(aopr, app_vars.force_disable_adblock)
-adsrt.*#@#+js(acis, atob, decodeURIComponent)
+adsrt.*,gogoanime.*#@#+js(acis, atob, decodeURIComponent)
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
 playvideo.best#@#+js(aopr, jwplayer.utils.Timer)
 playvideo.best#@#+js(aopr, __Y)
 playvideo.best#@#+js(aopw, adcashMacros)
-tii.ai,iir.ai#@#+js(acis, Math, zfgloaded)
+tii.ai,iir.ai,gogoanime.*#@#+js(acis, Math, zfgloaded)
 playvideo.best#@#+js(aopr, AaDetector)
 ||vk.com^$badfilter
 ||login.vk.com^$badfilter
@@ -1512,3 +1524,6 @@ music.yandex.ru#@#body > div[style^="min-height"] > div[class][style="display: b
 *$script,redirect-rule=noopjs,domain=extremereportbot.com,badfilter
 tii.ai,iir.ai,semawur.com#@#+js(aopr, open)
 iir.ai#@#+js(aeld, load, .appendChild)
+gogoanime.*#@#+js(set, String.prototype.charAt, noopFunc)
+gogoanime.*#@#+js(nostif, o(), 1)
+gogoanime.*#@#+js(set, check_adblock, true)
