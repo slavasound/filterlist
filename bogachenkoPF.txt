@@ -89,6 +89,7 @@ $$script[tag-content="window['__CF*params']"]
 @@||vk.com/video_ext.php$subdocument
 @@/^https?:\/\/edge\.microsoft\.com\/extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?/$important
 @@||xvideos*.*^$elemhide,content,jsinject,urlblock
+@@||gstatic.com/recaptcha/$script
 ! WHITELIST END
 
 ! DNS
@@ -1171,7 +1172,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ! CSP END
 
 ! OTHER
-/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win
+/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /.*\.(com|net|org|ru|ua|by)\/ads\//$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/
@@ -1288,6 +1289,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||phncdn.com/iframe$subdocument,important
 ||redditmedia.com/gtm/jail?$subdocument,important
 /^https?:\/\/(www\.)?google\.[\w]+\/afs\/ads[/?]/$subdocument,important
+/^https?:\/\/tv\.yandex\.[\w]+\/[^\s]{300,}/$subdocument,~third-party
 ! SUBDOCUMENT END
 
 ! SCRIPT
@@ -1388,6 +1390,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other
 /^https?:\/\/[0-1]{5,}\.com$/$script,xmlhttprequest,important,third-party
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?://yandex\.(by|kz|ru|ua|uz)/images/(?!(search\?)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 ! COMBINED END
 
 ! ~~~~~~~ NOT MY SHITTY RULES ~~~~~~~
@@ -1480,13 +1483,14 @@ twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()=
 ||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~assistir-filme.biz|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~jokehd.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~roadhub.ru|~roblox.com|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
 @@://yandex.ru/|$generichide,badfilter
 adsrt.*#@#+js(aopr, rmVideoPlay)
-adsrt.*#@#+js(aopw, Fingerprint2)
-adsrt.*#@#+js(aopr, app_vars.force_disable_adblock)
+adsrt.*,tii.ai,iir.ai#@#+js(aopw, Fingerprint2)
+adsrt.*,tii.ai,iir.ai#@#+js(aopr, app_vars.force_disable_adblock)
 adsrt.*#@#+js(acis, atob, decodeURIComponent)
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
 playvideo.best#@#+js(aopr, jwplayer.utils.Timer)
 playvideo.best#@#+js(aopr, __Y)
 playvideo.best#@#+js(aopw, adcashMacros)
+tii.ai,iir.ai#@#+js(acis, Math, zfgloaded)
 playvideo.best#@#+js(aopr, AaDetector)
 ||vk.com^$badfilter
 ||login.vk.com^$badfilter
@@ -1509,3 +1513,5 @@ music.yandex.ru#@#body > div[style^="min-height"] > div[class][style="display: b
 @@||an.yandex.ru/system/context.js$domain=music.yandex.ru|radio.yandex.ru,badfilter
 @@||an.yandex.ru/resource/context_static_r*.js$domain=music.yandex.ru|radio.yandex.ru,badfilter
 *$script,redirect-rule=noopjs,domain=extremereportbot.com,badfilter
+tii.ai,iir.ai#@#+js(aopr, open)
+iir.ai#@#+js(aeld, load, .appendChild)
