@@ -27,6 +27,7 @@ $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 $$script[data-cfasync="false"][tag-content="Privet darkv"]
 $$script[data-cfasync="false"][wildcard="*['push']*['shift']*decodeURIComponent*"]
 $$script[tag-content="absda"]
+$$script[wildcard="__CF$cv$params"]
 $$script[tag-content="adBlockDetected"]
 $$script[tag-content="adcashMacros"]
 $$script[tag-content="anOptions"]
@@ -62,7 +63,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 !#endif
 
 ! TEST
-$$script[tag-content="window['__CF*params']"]
+!
 ! TEST END
 
 ! TEMPORARILY
@@ -767,6 +768,7 @@ $$script[tag-content="window['__CF*params']"]
 ! DNS END
 
 ! SITE
+||127.0.0.1^$third-party
 ||fb.com^$third-party
 ||facebook.*^$third-party
 ||linkedin.com^$third-party
@@ -777,17 +779,18 @@ $$script[tag-content="window['__CF*params']"]
 ||vk.com^$third-party
 ||yahoo.*^$third-party
 ||twitch.tv^$third-party
+||twitchcdn.net^$third-party,domain=~twitch.tv
 ||rambler.ru^$third-party
 ||livejournal.com^$third-party
-/a\.[a-z0-9]{33,43}\.com$/$important
+||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
-/^https?:\/\/(bitly|bit)\.(com|ly)/$important
-/^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 /^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
-/^https?:\/\/\*\.facebook\.com/$important
+/^https?:\/\/\*\.(facebook\.com|ok\.ru)/$important
+/a\.[a-z0-9]{33,43}\.com$/$important
+/^https?:\/\/(bitly|bit)\.(com|ly)/$important
+/^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 /^[a-z0-9]{8,}\.Home$/$important
-||127.0.0.1^$third-party
 ||activity-stream-icons.services.mozilla.com^$important
 ||actlz.github.io^$important
 ||addons-media.operacdn.com^$important,domain=~opera.com|~opera.ru
@@ -921,7 +924,6 @@ $$script[tag-content="window['__CF*params']"]
 ||csgorun.org^$important
 ||top-fwz1.mail.ru^$important
 ||trace.svc.ui.com^$important
-||twitchcdn.net^$important,third-party,domain=~twitch.tv
 ||vk-portal.net^$important
 ||voiceservices.yandex.net^$important
 ||voledevice-pa.googleapis.com^$important
@@ -941,9 +943,9 @@ $$script[tag-content="window['__CF*params']"]
 ||sharethis.com^$important
 ||dota2expert.com^$important
 ||client.svd-cdn.com^$important
-||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
 ||oneclient.sfx.ms^$important
 ||dev.appboy.com^$important
+||event.shelljacket.us^$important
 ! SITE END
 
 ! IMAGE
@@ -1535,3 +1537,6 @@ streamtape.com#@#+js(aeld, contextmenu)
 |https://$script,stylesheet,third-party,xmlhttprequest,domain=mp4upload.com,badfilter
 *$script,redirect-rule=noopjs,domain=mp4upload.com,badfilter
 *$script,3p,denyallow=fontawesome.com|cloudflare.com,domain=mp4upload.com,badfilter
+||streamplay.to^$badfilter
+/cdn-cgi/apps/head/*$script,~third-party,badfilter
+@@||fonts.gstatic.com^$badfilter
