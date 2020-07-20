@@ -1018,7 +1018,7 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 
 ! CSS
 *###ad-player, #AdImage, #advertContainer, #advertising_wrapper, #AD_banner, #AD_Top, #appbanner, #p-advert, #side_ads, #takeover_ad, #teasers,#top-advert, .ad-bar, .ADBAR, .adframe, .ads-inline, .ads-list, .adsense-header, .advertisment, .ad_wrapper, .bottom-ads, .container_row_ad, .custom-ad, .cz-sponsorposts, .flash-advertisement, .homepage_ads, .listad, .middle_AD, .mobile-ad, .promoted-heading, .reklama, .SponsorAds, .SponsoredContent, #adcontent
-*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible
+*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible, .do-cookie-notice, .cookie-notice
 *##.counters
 *##.grecaptcha-badge
 *##.socicon-youtube, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig, .wc_social_plugin_wrapper, .vkontakte, .twitter, .social-likes__button, .facebook, .social, .share_vk, .share_ok, .share_tw, .share_fb
@@ -1214,6 +1214,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||blocked.mts.ru^$document
 ||browser.yandex.ru^$~document
 ||click.$document
+||clck.ru^$document
 ||eshop.eset.com^$document
 ||goo.gl^$document
 ||msftconnecttest.com/redirect$document
@@ -1473,3 +1474,6 @@ streamtape.com#@#+js(aeld, contextmenu)
 ||streamplay.to^$badfilter
 /cdn-cgi/apps/head/*$script,~third-party,badfilter
 @@||fonts.gstatic.com^$badfilter
+||ublock.org^$document,badfilter
+||ublock.org^$badfilter
+||www.ublock.org^$badfilter
