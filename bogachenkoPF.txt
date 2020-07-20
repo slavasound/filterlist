@@ -334,6 +334,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||pinterest.*^$third-party
 ||rambler.ru^$third-party
 ||reddit.com^$third-party
+||2o7.net^$third-party
 ||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
 ||twitch.tv^$third-party
 ||twitchcdn.net^$third-party,domain=~twitch.tv
@@ -572,7 +573,7 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 
 ! CSS
 *###ad-player, #AdImage, #advertContainer, #advertising_wrapper, #AD_banner, #AD_Top, #appbanner, #p-advert, #side_ads, #takeover_ad, #teasers,#top-advert, .ad-bar, .ADBAR, .adframe, .ads-inline, .ads-list, .adsense-header, .advertisment, .ad_wrapper, .bottom-ads, .container_row_ad, .custom-ad, .cz-sponsorposts, .flash-advertisement, .homepage_ads, .listad, .middle_AD, .mobile-ad, .promoted-heading, .reklama, .SponsorAds, .SponsoredContent, #adcontent
-*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible, .do-cookie-notice, .cookie-notice
+*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible, .do-cookie-notice, .cookie-notice, #divCookieInfoSrv, #cookieAd
 *##.counters
 *##.grecaptcha-badge
 *##.socicon-youtube, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig, .wc_social_plugin_wrapper, .vkontakte, .twitter, .social-likes__button, .facebook, .social, .share_vk, .share_ok, .share_tw, .share_fb, .fshare, .fb-share-button, .twitter-share-button, a[href="https://twitter.com/share"], a[href^="//www.pinterest.com/pin/create/button/"], a[href^="https://web.whatsapp.com/send?"], .top-social 
@@ -611,7 +612,7 @@ freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
 github.com##.signup-prompt
 goblins-film.top###wpd-bubble-wrapper
-google.*##mobile-promo, .rzRb5e
+google.*##mobile-promo, .rzRb5e, [src*="/logos/"], #hplogo, .fbar
 imgur.com###cta-container-placeholder2
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai,kinogo2.*,kinogo.appspot.com##body:style(background-image: none !important;)
 lk.rt.ru###widget-container
@@ -991,7 +992,7 @@ playvideo.best#@#+js(aopr, jwplayer.utils.Timer)
 playvideo.best#@#+js(aopr, __Y)
 playvideo.best#@#+js(aopw, adcashMacros)
 tii.ai,iir.ai,gogoanime.*#@#+js(acis, Math, zfgloaded)
-playvideo.best#@#+js(aopr, AaDetector)
+playvideo.best,lookmovie.ag#@#+js(aopr, AaDetector)
 ||vk.com^$badfilter
 ||login.vk.com^$badfilter
 ||im.vk.com^$badfilter
@@ -1031,10 +1032,13 @@ streamtape.com#@#+js(aeld, contextmenu)
 ||ublock.org^$document,badfilter
 ||ublock.org^$badfilter
 ||www.ublock.org^$badfilter
-soft4win.com#@#+js(nosiif, visibility, 1000)
+soft4win.com,watchseries.*#@#+js(nosiif, visibility, 1000)
 ||adobedtm.com^$badfilter
 @@||adobedtm.com^*/launch-$script,badfilter
 ||assets.adobedtm.com^$badfilter
 ||adobedtm.com^$third-party,domain=~adobe.com,badfilter
 @@||youtube.com/get_video_info?*embedded$~third-party,other,badfilter
 @@||maxcdn.bootstrapcdn.com/font-awesome^$badfilter
+lookmovie.ag#@#+js(aeld, , _0x)
+lookmovie.ag#@#+js(acis, Object.defineProperty, XMLHttpRequest)
+lookmovie.ag#@#+js(nostif, __ext_loaded)
