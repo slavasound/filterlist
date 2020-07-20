@@ -291,6 +291,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 195.209.108.36:443$network
 195.209.108.37:443$network
 195.209.108.39:443$network
+216.58.223.110:443$network
 198.134.112.241:443$network
 198.134.112.242:443$network
 202.177.216.233$network
@@ -307,6 +308,8 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 213.180.193.210:443$network
 213.180.204.90:443$network
 213.180.204.91:443$network
+106.11.95.4:80$network
+106.11.95.4:443$network
 213.180.204.131:443$network
 216.58.207.194:443$network
 216.58.207.225:443$network
@@ -315,16 +318,25 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 216.58.208.238:443$network
 217.69.133.145:443$network
 217.69.139.244:443$network
+82.145.216.20:443$network
+140.205.172.65:80$network
+168.235.203.193:443$network
+203.119.244.125:443$network
+203.119.244.125:80$network
+47.89.66.240:80$network
+47.246.4.225:80$network
+82.145.216.19:443$network
 217.69.141.142:443$network
 ||0.0.0.0^
 ||212.122.5.136^
+||notification.adblockplus.org^
 ! DNS END
 
 ! DOMAIN
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
 /^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
-||127.0.0.1^$third-party
+/^https?:\/\/127\.0\.0\.1(?!:(19575))/$important
 ||facebook.*^$third-party
 ||fb.com^$third-party
 ||linkedin.com^$third-party
@@ -335,6 +347,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||rambler.ru^$third-party
 ||reddit.com^$third-party
 ||2o7.net^$third-party
+||privacy-center.org^$third-party
 ||translate.googleapis.com^$third-party,domain=~translate.googleusercontent.com
 ||twitch.tv^$third-party
 ||twitchcdn.net^$third-party,domain=~twitch.tv
@@ -366,7 +379,11 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||appmetrica.yandex.com^$important
 ||appstatic.opera.com^$important
 ||autopush.prod.mozaws.net^$important
+||bench.utorrent.com^$important
 ||avast.com^$important
+||i18nmmstat.ucweb.com^$important
+||uc.cn^$important
+||uma-browser.taobao.com^$important
 ||awaps.yandex.*^$important
 ||balrog-cloudfront.prod.mozaws.net^$important
 ||bing.com^$important
@@ -385,6 +402,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||collector-hpn.ghostery.net^$important
 ||connect.facebook.net^$important
 ||connect.mail.ru^$important
+||tbcdn.cn^$important
 ||connect.ok.ru^$important
 ||cookielaw.org^$important
 ||crashlytics.com^$important
@@ -407,6 +425,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||edge.microsoft.com^$important
 ||ero-advertising.com^$important
 ||event.shelljacket.us^$important
+||wap.ucweb.com^$important
 ||exchange.opera.com^$important
 ||family.microsoft.com^$important
 ||features.opera-api.com^$important
@@ -477,6 +496,8 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||share.yandex.net^$important
 ||sharethis.com^$important
 ||shavar.prod.mozaws.net^$important
+||uc123.com^$important
+||browser.taobao.com^$important
 ||shavar.services.mozilla.com^$important
 ||siftscience.com^$important
 ||sitecheck*.opera.com^$important
@@ -573,13 +594,11 @@ zloekino.ru#%#//scriptlet("remove-cookie")
 
 ! CSS
 *###ad-player, #AdImage, #advertContainer, #advertising_wrapper, #AD_banner, #AD_Top, #appbanner, #p-advert, #side_ads, #takeover_ad, #teasers,#top-advert, .ad-bar, .ADBAR, .adframe, .ads-inline, .ads-list, .adsense-header, .advertisment, .ad_wrapper, .bottom-ads, .container_row_ad, .custom-ad, .cz-sponsorposts, .flash-advertisement, .homepage_ads, .listad, .middle_AD, .mobile-ad, .promoted-heading, .reklama, .SponsorAds, .SponsoredContent, #adcontent
-*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible, .do-cookie-notice, .cookie-notice, #divCookieInfoSrv, #cookieAd
-*##.counters
-*##.grecaptcha-badge
-*##.socicon-youtube, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig, .wc_social_plugin_wrapper, .vkontakte, .twitter, .social-likes__button, .facebook, .social, .share_vk, .share_ok, .share_tw, .share_fb, .fshare, .fb-share-button, .twitter-share-button, a[href="https://twitter.com/share"], a[href^="//www.pinterest.com/pin/create/button/"], a[href^="https://web.whatsapp.com/send?"], .top-social 
+*##.Cookie, .cookie, .cookie-choices-inner, .cookie-consent, #cookie-notice, #cookie-pop, #gdpr-consent, #js-gdpr-consent-banner, .cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window, .eu-cookie-popup, .eu-cookie-popup_visible, .do-cookie-notice, .cookie-notice, #divCookieInfoSrv, #cookieAd, .cookie-block
+*##.socicon-youtube, .socials, .socicon-instagram, .socicon-twitter, .socicon-linkedin, .socicon-facebook, .share-section, #social, a[href^="https://www.linkedin.com/shareArticle?"], a[href^="https://twitter.com/intent/tweet?"], a[href^="http://www.facebook.com/sharer.php"], div[id^="vk_group"], .pluso, .wiadomoscSocialBig, .wc_social_plugin_wrapper, .vkontakte, .twitter, .social-likes__button, .facebook, .social, .share_vk, .share_ok, .share_tw, .share_fb, .fshare, .fb-share-button, .twitter-share-button, a[href="https://twitter.com/share"], a[href^="//www.pinterest.com/pin/create/button/"], a[href^="https://web.whatsapp.com/send?"], .top-social 
 *##a[href*="/ads."], a[href*="/ads/"], a[href*="/adv."], a[href*="/adv/"], a[href*="/advert."], a[href*="/advert/"],a[href*="/advertise."], a[href*="/advertise/"], a[href*="/advertising."], a[href*="/advertising/"], [class*="adv-slot-"], div[class*="sport-advert_"], div[data-flt-ve="sponsored_search_ads"], div[id*="adcontent"], div[id^="google_ads_iframe_"], div[id^="yandex_rtb"]
 *##a[href*="adriver.ru"], a[href*="doubleclick.net"], a[href*="ads.adfox.ru"], a[href*="googleadservices.com"], a[href*="mradx.net"], a[href*="trafficfactory.biz"], a[href*="trafficjunky.net"], a[href*="weborama.fr"], a[href*="yabs.yandex."], a[href*="zen.yandex."], a[href*="awaps.yandex.net"], a[href*="imasdk.googleapis.com"], a[href*="//bit.ly/"], a[href*="//bitly.com/"]
-*##a[href="/1884.html"], a[href="/tc1.php"], a[href="/tc2.php"], [title="uCoz Counter"]
+*##a[href="/1884.html"], a[href="/tc1.php"], a[href="/tc2.php"], [title="uCoz Counter"], #covid-banner, .counters, .grecaptcha-badge
 *##div:has([class*="CookieDialog__DialogLInk-"])
 *##iframe[src*='/ad/']
 *##iframe[src*='2mdn.net']
@@ -668,6 +687,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$important
 /[&]s[cw][=][0-9]{3,4}[&]sh[=][0-9]{3,4}[&]/$important
+/[-._?&=#/]adrum[-._?&=#/]/$important
+/[-._?&=#/]akam[-._?&=#/]/$important
 /[-._?&=#/](ads|ADS)[-._?&=#/]/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
@@ -719,6 +740,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||detectportal.
 ||easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt|
 ||easylist-downloads.adblockplus.org/exceptionrules.txt|
+||extension-updates.opera.com/api/omaha/blacklist.*.txt|
+||iecvlist.microsoft.com/*blocklist/*/versionlist.xml|
 ||event.
 ||geo.$domain=~fast.com
 ||instagram.com/ads/$important
@@ -1042,3 +1065,4 @@ soft4win.com,watchseries.*#@#+js(nosiif, visibility, 1000)
 lookmovie.ag#@#+js(aeld, , _0x)
 lookmovie.ag#@#+js(acis, Object.defineProperty, XMLHttpRequest)
 lookmovie.ag#@#+js(nostif, __ext_loaded)
+_ad4.$badfilter
