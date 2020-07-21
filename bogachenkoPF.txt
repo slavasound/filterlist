@@ -336,7 +336,6 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
 /^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
-/^https?:\/\/127\.0\.0\.1(?![:/](1957[57]|8080|4212))/$important
 ||facebook.*^$third-party
 ||fb.com^$third-party
 ||linkedin.com^$third-party
@@ -355,6 +354,8 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||vk.com^$third-party
 ||yahoo.*^$third-party
 /a\.[a-z0-9]{33,43}\.com$/$important
+/^https?:\/\/127\.0\.0\.1(?!:(1957[57]|8080|4212))/$important
+/^https?:\/\/localhost(?!:(8080|4212))/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 /^https?:\/\/bit(ly)?\.(com|ly)/$important
 /^https?:\/\/\*\.(facebook\.com|ok\.ru)/$important
