@@ -336,7 +336,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 /^https?:\/\/(.*\.)?mail\.ru(?![+/]+video)\//$important,third-party,domain=~webcache.googleusercontent.com|~account.mail.ru
 /^https?:\/\/ok\.ru(?!\/videoembed)\//$important,third-party,domain=~webcache.googleusercontent.com
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
-/^https?:\/\/127\.0\.0\.1(?!:(19575))/$important
+/^https?:\/\/127\.0\.0\.1(?![:/](1957[57]))/$important
 ||facebook.*^$third-party
 ||fb.com^$third-party
 ||linkedin.com^$third-party
