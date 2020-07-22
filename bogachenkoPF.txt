@@ -1,4 +1,4 @@
-! [Adblock Plus 3.8.4]
+! [Adblock Plus 3.9.1]
 ! Description: This is a personal list of bogachenko filters.
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/filterlist/tree/personal
@@ -525,7 +525,6 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net|~dev.yandex.net|~ya.ru|~hdrabbit.ru|~yandex.lt|~yandex.uz|~yandex.tm|~yandex.co.ge|~yandex.az|~yandex.kz|~yandex.md|~yandex.com.tr|~yandex.fr
 ||yastroka.yandex.net^$important
 ||zen.yandex.*^$important
-||youtube.com^$important,domain=moviez.mobi
 ! DOMAIN END
 
 ! IMAGE
@@ -552,14 +551,14 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||yastatic.net/lego/*.gif|$image,important
 ! IMAGE END
 
-! POP-UP
+! POPUP
 /^https?:\/\/(bitly|bit)\.(com|ly)/$important,popup,popunder
 |http*:*&idzone=$important,popup,popunder
 ||click2go.me^$important,popup,popunder
 ||gemius.pl^$important,popup,popunder
 ||yandex.*/clck/$important,popup,popunder
 ||yastatic.net^$important,popup,popunder
-! POP-UP END
+! POPUP END
 
 ! MEDIA
 /\/(melbet|jetfilmizle|bbnew)\.mp4/$media
@@ -1087,3 +1086,11 @@ rt.pornhub.*#@#div.container:style(margin-top: 0px !important)
 pornhub.com#@#div[id^="age-verification"]
 ||translate.google.com^$badfilter
 @@||phncdn.com/hls/videos/$xmlhttprequest,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|youporn.com|youporngay.com,badfilter
+@@||phncdn.com^$image,other,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
+@@||phncdn.com/www-static/js/widgets-player.js$script,badfilter
+@@||pornhub.com/front/$xmlhttprequest,badfilter
+@@||phncdn.com/head/$script,badfilter
+@@||phncdn.com/tubes-$script,badfilter
+@@||phncdn.com/jquery/$script,badfilter
+@@||phncdn.com/swfobject-$script,badfilter
+|https://$third-party,xmlhttprequest,domain=destructoid.com|diffen.com|dreamfilm.se|dumpaday.com|emule-island.co|fastpic.ru|fileone.tv|filmlinks4u.is|firstforwomen.com|firstrowau.eu|flash-x.tv|flashsx.tv|flashx.co|flashx.me|flashx.run|flashx.tv|flashx1.tv|freewarefiles.com|gamenguide.com|genfb.com|gofirstrow.eu|gsmarena.com|hdvid.tv|health-weekly.net|homerun.re|i4u.com|ifirstrow.eu|ifirstrowit.eu|imagefap.com|instanonymous.com|investopedia.com|itechpost.com|izismile.com|jewsnews.co.il|keepvid.com|kiplinger.com|kshowonline.com|lifehacklane.com|lolcounter.com|megaup.net|mobilenapps.com|mobipicker.com|myfeed4u.me|natureworldnews.com|navbug.com|ncscooper.com|newseveryday.com|okceleb.com|omgwhut.com|onvid.fun|onvid.pw|opensubtitles.org|parentherald.com|pilaybill.com|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|pwinsider.com|rinf.com|roadracerunner.com|salefiles.com|scienceworldreport.com|shorte.st|snoopfeed.com|streamgaroo.com|the4thofficial.net|thinkinghumanity.com|tomsitpro.com|toptenz.net|torrentz2.eu|tribune.com.pk|trifind.com|tune.pk|uberhavoc.com|universityherald.com|vcpost.com|vidhd.icu|vidhd.pw|vidmax.com|vidoza.net|vidtodo.com|vidzi.online|vidzi.tv|viewmixed.com|viid.me|viralands.com|vrheads.com|watchseries.li|webfirstrow.eu|whydontyoutrythis.com|wrestlingnews.co|xilfy.com|yourtango.com,badfilter
