@@ -1174,6 +1174,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 storesdk.dsx.mp.microsoft.com
 0.0.0.0 sts.advertising.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 feedback.microsoft-hohm.com
 0.0.0.0 sts.si.advertising.microsoft.com
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 telecommand.telemetry.microsoft.com
@@ -1268,3 +1270,46 @@ ff02::3 ip6-allhosts
 0.0.0.0 vortex-db5.metron.live.com.nsatc.net
 0.0.0.0 vortex-win.data.metron.live.com.nsatc.net
 # NSATC.NET END
+
+# BING ALL
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 ads.bing.com
+0.0.0.0 adserver.bing.com
+0.0.0.0 bat.bing.com
+0.0.0.0 c.bing.com
+0.0.0.0 www.bing.com
+# BING ALL END
+
+# LIVE.COM
+0.0.0.0 watson.live.com
+0.0.0.0 ssw.live.com
+# LIVE.COM END
+
+# MSN.COM
+0.0.0.0 rad.msn.com
+0.0.0.0 preview.msn.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads1.msn.com
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 www.msn.com
+0.0.0.0 msn.com
+# MSN.COM
+
+# CLOUDAPP.NET
+0.0.0.0 location-inference-westus.cloudapp.net
+0.0.0.0 compatexchange.cloudapp.net
+# CLOUDAPP.NET END
+
+# A-MSEDGE.NET
+0.0.0.0 dual-a-0001.a-msedge.net
+0.0.0.0 a-0001.a-msedge.net
+# A-MSEDGE.NET END
+
+# TRASH
+0.0.0.0 adnexus.net
+0.0.0.0 adnxs.com
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 pre.footprintpredict.com
+# TRASH END
