@@ -1005,10 +1005,10 @@ google.*#@#div[role="navigation"] + c-wiz > script + div > .kxhcC
 twitter.com#@#:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado' or text()='Sponsorisé' or text()='Uitgelicht' or text()='推荐' or text()='プロモーション')]/../../../../..)
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org,badfilter
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
-||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~assistir-filme.biz|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~jokehd.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~roadhub.ru|~roblox.com|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
+||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~assistir-filme.biz|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~roadhub.ru|~roblox.com|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~uploadedpremiumlink.net|~vk.com|~vmeste.tv,badfilter
 @@://yandex.ru/|$generichide,badfilter
 adsrt.*#@#+js(aopr, rmVideoPlay)
-adsrt.*,tii.ai,iir.ai#@#+js(aopw, Fingerprint2)
+adsrt.*,tii.ai,iir.ai,streamingworld.*#@#+js(aopw, Fingerprint2)
 adsrt.*,tii.ai,iir.ai,megalink.*#@#+js(aopr, app_vars.force_disable_adblock)
 adsrt.*,gogoanime.*#@#+js(acis, atob, decodeURIComponent)
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com,badfilter
@@ -1016,7 +1016,7 @@ playvideo.best#@#+js(aopr, jwplayer.utils.Timer)
 playvideo.best#@#+js(aopr, __Y)
 playvideo.best#@#+js(aopw, adcashMacros)
 tii.ai,iir.ai,gogoanime.*#@#+js(acis, Math, zfgloaded)
-playvideo.best,lookmovie.ag#@#+js(aopr, AaDetector)
+playvideo.best,lookmovie.ag,streamingworld.*#@#+js(aopr, AaDetector)
 ||vk.com^$badfilter
 ||login.vk.com^$badfilter
 ||im.vk.com^$badfilter
@@ -1095,3 +1095,8 @@ pornhub.com#@#div[id^="age-verification"]
 @@||phncdn.com/jquery/$script,badfilter
 @@||phncdn.com/swfobject-$script,badfilter
 |https://$third-party,xmlhttprequest,domain=destructoid.com|diffen.com|dreamfilm.se|dumpaday.com|emule-island.co|fastpic.ru|fileone.tv|filmlinks4u.is|firstforwomen.com|firstrowau.eu|flash-x.tv|flashsx.tv|flashx.co|flashx.me|flashx.run|flashx.tv|flashx1.tv|freewarefiles.com|gamenguide.com|genfb.com|gofirstrow.eu|gsmarena.com|hdvid.tv|health-weekly.net|homerun.re|i4u.com|ifirstrow.eu|ifirstrowit.eu|imagefap.com|instanonymous.com|investopedia.com|itechpost.com|izismile.com|jewsnews.co.il|keepvid.com|kiplinger.com|kshowonline.com|lifehacklane.com|lolcounter.com|megaup.net|mobilenapps.com|mobipicker.com|myfeed4u.me|natureworldnews.com|navbug.com|ncscooper.com|newseveryday.com|okceleb.com|omgwhut.com|onvid.fun|onvid.pw|opensubtitles.org|parentherald.com|pilaybill.com|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|pwinsider.com|rinf.com|roadracerunner.com|salefiles.com|scienceworldreport.com|shorte.st|snoopfeed.com|streamgaroo.com|the4thofficial.net|thinkinghumanity.com|tomsitpro.com|toptenz.net|torrentz2.eu|tribune.com.pk|trifind.com|tune.pk|uberhavoc.com|universityherald.com|vcpost.com|vidhd.icu|vidhd.pw|vidmax.com|vidoza.net|vidtodo.com|vidzi.online|vidzi.tv|viewmixed.com|viid.me|viralands.com|vrheads.com|watchseries.li|webfirstrow.eu|whydontyoutrythis.com|wrestlingnews.co|xilfy.com|yourtango.com,badfilter
+||fbtc-audio.freebitco.in^$badfilter
+vidcloud9.com#@#+js(aopr, isSandboxed)
+vidcloud9.*#@#+js(acis, Math, XMLHttpRequest)
+@@||p.jwpcdn.com/player/v/$script,third-party,badfilter
+*$script,subdocument,xmlhttprequest,stylesheet,third-party,domain=vidcloud9.com,badfilter
