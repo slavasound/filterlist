@@ -20,7 +20,7 @@ ff02::3 ip6-allhosts
 
 # Custom rules
 
-# QQ
+# QQ.COM
 0.0.0.0 3gimg.qq.com
 0.0.0.0 a.ssl.msdk.qq.com
 0.0.0.0 ad.qq.com
@@ -120,9 +120,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wspeed.qq.com
 0.0.0.0 www.qq.com
 0.0.0.0 ysdk.qq.com
-# QQ END
+# QQ.COM END
 
-# GOOGLE
+# GOOGLE ALL
 0.0.0.0 10.afs.googleadservices.com
 0.0.0.0 1435575.fls.doubleclick.net
 0.0.0.0 18.afs.googleadservices.com
@@ -804,9 +804,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 www2.doubleclick.com
 0.0.0.0 www3.doubleclick.com
 0.0.0.0 www3.doubleclick.net
-# GOOGLE END
+0.0.0.0 alt0-mtalk.google.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt10-mtalk.google.com
+0.0.0.0 alt11-mtalk.google.com
+0.0.0.0 alt12-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 alt9-mtalk.google.com
+# GOOGLE ALL END
 
-# TORRENTSTREAM
+# TORRENTSTREAM ALL
 0.0.0.0 a1.torrentstream.info
 0.0.0.0 a1.torrentstream.net
 0.0.0.0 a1.torrentstream.org
@@ -836,9 +849,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 s4.torrentstream.org
 0.0.0.0 torrentstream.info
 0.0.0.0 update.torrentstream.org
-# TORRENTSTREAM END
+# TORRENTSTREAM ALL END
 
-# ACESTREAM
+# ACESTREAM.NET
 0.0.0.0 a4.acestream.net
 0.0.0.0 acestream.net
 0.0.0.0 e1.acestream.net
@@ -848,9 +861,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 m.acestream.net
 0.0.0.0 r.acestream.net
 0.0.0.0 ts.acestream.net
-# ACESTREAM END
+# ACESTREAM.NET END
 
-# TABOOLA
+# TABOOLA.COM
 0.0.0.0 15.taboola.com
 0.0.0.0 accessrequest.taboola.com
 0.0.0.0 actions-am.taboola.com
@@ -1077,4 +1090,181 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.vision.taboola.com
 0.0.0.0 www.wf.taboola.com
 0.0.0.0 yahoojp.taboola.com
-# TABOOLA END
+# TABOOLA.COM END
+
+# MICROSOFT.COM
+0.0.0.0 activation-v2.sls.microsoft.com
+0.0.0.0 activation.sls.microsoft.com
+0.0.0.0 adbroker.mp.dse.microsoft.com
+0.0.0.0 ads.bingads.microsoft.com
+0.0.0.0 advertise.bingads.microsoft.com
+0.0.0.0 advertising.microsoft.com
+0.0.0.0 alpha.telemetry.microsoft.com
+0.0.0.0 api.bingads.microsoft.com
+0.0.0.0 apprep.smartscreen.microsoft.com
+0.0.0.0 apprepsvc-ch1p.smartscreen.microsoft.com
+0.0.0.0 aria.microsoft.com
+0.0.0.0 ars.smartscreen.microsoft.com
+0.0.0.0 bingads.microsoft.com
+0.0.0.0 blob.weather.microsoft.com
+0.0.0.0 browser.events.data.microsoft.com
+0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 c.microsoft.com
+0.0.0.0 ca.telemetry.microsoft.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 data.microsoft.com
+0.0.0.0 de.vortex-win.data.microsoft.com
+0.0.0.0 definitionupdates.microsoft.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 displaycatalog.mp.microsoft.com
+0.0.0.0 dmd.metaservices.microsoft.com
+0.0.0.0 en.vortex-win.data.microsoft.com
+0.0.0.0 eu-v10.events.data.microsoft.com
+0.0.0.0 eu-v20.events.data.microsoft.com
+0.0.0.0 europe.smartscreen-prod.microsoft.com
+0.0.0.0 events.data.microsoft.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 feedbacksite-bn2b.smartscreen.microsoft.com
+0.0.0.0 fp.advertising.microsoft.com
+0.0.0.0 fs.microsoft.com
+0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 insiderservice.microsoft.com
+0.0.0.0 kmwatsonc.events.data.microsoft.com
+0.0.0.0 licensing.mp.microsoft.com
+0.0.0.0 m.bingads.microsoft.com
+0.0.0.0 manage.devcenter.microsoft.com
+0.0.0.0 mobile.events.data.microsoft.com
+0.0.0.0 mobile.pipe.aria.microsoft.com
+0.0.0.0 nav.smartscreen.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 pipe.aria.microsoft.com
+0.0.0.0 pti.store.microsoft.com
+0.0.0.0 purchase.mp.microsoft.com
+0.0.0.0 query.prod.cms.rt.microsoft.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 register.cdpcs.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 responses.df.telemetry.microsoft.com
+0.0.0.0 ris.api.iris.microsoft.com
+0.0.0.0 ru.vortex-win.data.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win-ppe.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 settings.data.glbdns2.microsoft.com
+0.0.0.0 settings.data.microsoft.com
+0.0.0.0 smartscreen-os1p.smartscreen.microsoft.com
+0.0.0.0 smartscreen-prod.microsoft.com
+0.0.0.0 smartscreen-sn3p.smartscreen.microsoft.com
+0.0.0.0 smartscreen.microsoft.com
+0.0.0.0 spynet2.microsoft.com
+0.0.0.0 spynetalt.microsoft.com
+0.0.0.0 sqm.alpha.telemetry.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm7.alpha.telemetry.microsoft.com
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 storecatalogrevocation.storequality.microsoft.com
+0.0.0.0 storeedgefd.dsx.mp.microsoft.com
+0.0.0.0 storesdk.dsx.mp.microsoft.com
+0.0.0.0 sts.advertising.microsoft.com
+0.0.0.0 sts.si.advertising.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 vortex-win-sandbox.data.microsoft.com
+0.0.0.0 eu.vortex-win.data.microsft.com
+0.0.0.0 us.vortex-win.data.microsft.com
+0.0.0.0 v10.vortex-win.data.microsft.com
+0.0.0.0 telemetrysvc-by3p.smartscreen.microsoft.com
+0.0.0.0 tile-service.weather.microsoft.com
+0.0.0.0 uhf.microsoft.com
+0.0.0.0 umwatsonc.events.data.microsoft.com
+0.0.0.0 unitedstates.smartscreen-prod.microsoft.com
+0.0.0.0 urlreputation-ch1p.smartscreen.microsoft.com
+0.0.0.0 urlreputation-sn3p.smartscreen.microsoft.com
+0.0.0.0 urs.microsoft.com
+0.0.0.0 urs.smartscreen.microsoft.com
+0.0.0.0 us-v10.events.data.microsoft.com
+0.0.0.0 us-v20.events.data.microsoft.com
+0.0.0.0 us.vortex-win.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v10c.vortex-win.data.microsoft.com
+0.0.0.0 v20.events.data.microsoft.com
+0.0.0.0 v20.vortex-win.data.microsoft.com
+0.0.0.0 v20c.events.data.microsoft.com
+0.0.0.0 validation-v2.sls.microsoft.com
+0.0.0.0 validation.sls.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 vortex.data.glbdns2.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 w.apprep.smartscreen.microsoft.com
+0.0.0.0 watson.alpha.telemetry.microsoft.com
+0.0.0.0 watson.df.telemetry.microsoft.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson2.alpha.telemetry.microsoft.com
+0.0.0.0 watson7.alpha.telemetry.microsoft.com
+0.0.0.0 wdcp.microsoft.com
+0.0.0.0 web.vortex.data.microsoft.com
+0.0.0.0 wer.alpha.telemetry.microsoft.com
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsft.com
+0.0.0.0 alpha.telemetry.microsft.com
+0.0.0.0 win10.ipv6.microsoft.com
+0.0.0.0 wustats.microsoft.com
+# MICROSOFT.COM END
+
+# AKADNS.NET
+0.0.0.0 apac1.notify.windows.com.akadns.net
+0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
+0.0.0.0 cy2.displaycatalog.md.mp.microsoft.com.akadns.net
+0.0.0.0 cy2.licensing.md.mp.microsoft.com.akadns.net
+0.0.0.0 cy2.purchase.md.mp.microsoft.com.akadns.net
+0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
+0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 db5.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 db5.vortex.data.microsoft.com.akadns.net
+0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
+0.0.0.0 geo.settings.data.microsoft.com.akadns.net
+0.0.0.0 geo.vortex.data.microsoft.com.akadns.net
+0.0.0.0 modern.watson.data.microsoft.com.akadns.net
+0.0.0.0 pti.store.microsoft.com.unistore.akadns.net
+0.0.0.0 sg2p.notify.windows.com.akadns.net
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 v10-win.vortex.data.microsft.com.akadns.net
+0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
+0.0.0.0 wdcp.microsoft.akadns.net
+0.0.0.0 wns.notify.windows.com.akadns.net
+# AKADNS.NET END
+
+# NSATC.NET
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 g.msn.com.nsatc.net
+0.0.0.0 onesettings-db5.metron.live.com.nsatc.net
+0.0.0.0 telecommand.telemetry.microsoft.com.nsat-c.net
+0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
+0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
+0.0.0.0 vortex-db5.metron.live.com.nsatc.net
+0.0.0.0 vortex-win.data.metron.live.com.nsatc.net
+# NSATC.NET END
