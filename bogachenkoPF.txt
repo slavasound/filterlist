@@ -11,8 +11,6 @@
 !#if !ext_ublock
 !#if (adguard_app_android && adguard_app_ios)
 ||everyplay.com^
-||facebook.com^
-||facebook.net^
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
 ||qq.com^
 ||unity3d.com^
@@ -408,7 +406,6 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||crashlytics.com^$important
 ||csgo.band^$important
 ||csgorun.org^$important
-||csp.yandex.net^$important
 ||d.ghostery.com^$important
 ||desktop-dna.osp.opera.software^$important
 ||detectportal.firefox.*^$important
@@ -515,6 +512,8 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||thumbnails*.opera.com^$important
 ||top-fwz1.mail.ru^$important
 ||trace.svc.ui.com^$important
+||portal.mail.ru^$important
+||filin.mail.ru^$important
 ||vk-portal.net^$important
 ||voiceservices.yandex.net^$important
 ||*-pa.googleapis.com^$important
