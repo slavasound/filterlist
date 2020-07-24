@@ -16,7 +16,6 @@
 ||iuaah8osz2.execute-api.eu-central-1.amazonaws.com^
 ||qq.com^
 ||unity3d.com^
-||yandex.com^
 ||zeptolab.com^
 !#endif
 !#endif
@@ -795,7 +794,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||autonomiq.io/chropath/uninstall/$document
 ||blocked.mts.ru^$document
 ||browser.yandex.ru^$~document
-||click.$document
+||click.$document,domain=~aliexpress.com|~aliexpress.ru
 ||clck.ru^$document
 ||eshop.eset.com^$document
 ||goo.gl^$document
@@ -1103,3 +1102,4 @@ vidcloud9.com#@#+js(aopr, isSandboxed)
 vidcloud9.*#@#+js(acis, Math, XMLHttpRequest)
 @@||p.jwpcdn.com/player/v/$script,third-party,badfilter
 *$script,subdocument,xmlhttprequest,stylesheet,third-party,domain=vidcloud9.com,badfilter
+||s.click.aliexpress.com^$badfilter
