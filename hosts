@@ -89,6 +89,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingjs.qq.com
 0.0.0.0 pingma.qq.com
 0.0.0.0 pingtcss.qq.com
+0.0.0.0 fwd.3g.qq.com
 0.0.0.0 pmir.3g.qq.com
 0.0.0.0 ptlogin2.bugly.qq.com
 0.0.0.0 qq.com
@@ -817,6 +818,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 alt7-mtalk.google.com
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 alt9-mtalk.google.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 mobile-gtalk.l.google.com
 # GOOGLE ALL END
 
 # TORRENTSTREAM ALL
