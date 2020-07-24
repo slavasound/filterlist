@@ -1455,8 +1455,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 3.redirect.appmetrica.yandex.com
 0.0.0.0 30488.redirect.appmetrica.yandex.com
 0.0.0.0 4.redirect.appmetrica.yandex.com
+0.0.0.0 adfox.yandex.ru
 0.0.0.0 adsdk.yandex.ru
 0.0.0.0 advertising.yandex.ru
+0.0.0.0 api.appmetrica.yandex.com
+0.0.0.0 redirect-partners.appmetrica.yandex.com
+0.0.0.0 redirect-partners.appmetrica.yandex.net
 0.0.0.0 an.yandex.ru
 0.0.0.0 analytics.mobile.yandex.net
 0.0.0.0 appmetrica.yandex.com
@@ -1470,6 +1474,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bs-meta.yandex.ru
 0.0.0.0 bs.yandex.ru
 0.0.0.0 downloader.yandex.net
+0.0.0.0 export.yandex.ru
 0.0.0.0 external-promo-metrics.yandex.net
 0.0.0.0 informer.yandex.ru
 0.0.0.0 kiks.yandex.ru
@@ -1481,12 +1486,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 rosenberg.appmetrica.yandex.com
 0.0.0.0 rosenberg.appmetrica.yandex.net
 0.0.0.0 soft.export.yandex.ru
-0.0.0.0 export.yandex.ru
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.by
 0.0.0.0 yabs.yandex.ru
 0.0.0.0 yabs.yandex.ua
 # YANDEX ALL END
+
+# MAIL.RU
+0.0.0.0 top-fwz1.mail.ru
+0.0.0.0 ad.mail.ru
+0.0.0.0 an.mail.ru
+0.0.0.0 connect.mail.ru
+0.0.0.0 connect.ok.ru
+0.0.0.0 lf1.mail.ru
+0.0.0.0 r.mail.ru
+0.0.0.0 r2.mail.ru
+0.0.0.0 r3.mail.ru
+0.0.0.0 r0.mail.ru
+0.0.0.0 reklama.mail.ru
+0.0.0.0 rs.mail.ru
+0.0.0.0 vk.go.mail.ru
+0.0.0.0 xray.mail.ru
+# MAIL.RU END
 
 # TRASH
 0.0.0.0 adnexus.net
