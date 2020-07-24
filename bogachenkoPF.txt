@@ -455,7 +455,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||izooto.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
-||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com
+||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru
 ||krasava.bet^$important
 ||lf1.mail.ru^$important
 ||location.services.mozilla.com^$important
