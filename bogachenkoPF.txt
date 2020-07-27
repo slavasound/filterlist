@@ -348,8 +348,9 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||vk.com^$third-party
 ||yahoo.*^$third-party
 /a\.[a-z0-9]{33,43}\.com$/$important
-/^https?:\/\/127\.0\.0\.1(?!:(1957[57]|8080|4212))/$important
-/^https?:\/\/localhost(?!:(8080|4212))/$important
+/^https?:\/\/127\.0\.0\.1(?!\:(1957[57]|8080|4212|6878))/$important
+/^https?:\/\/localhost(?!\:(8080|4212))/$important
+/^https?:\/\/192.\168\.[01]\.1(?!\:(52869))/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 /^https?:\/\/bit(ly)?\.(com|ly)/$important
 /^https?:\/\/\*\.(facebook\.com|ok\.ru)/$important
@@ -478,7 +479,6 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||pladform.ru^$important
 ||portal-xiva.yandex.net^$important
 ||proxy_auth.trigger.hola.org^$important
-||client.h-vpn.org^$important
 ||pulse.mail.ru^$important
 ||push.services.mozilla.com^$important
 ||radar.imgsmail.ru^$important
@@ -695,7 +695,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/](ads|ADS)[-._?&=#/]/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
-/[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com
+/[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com|~twitch.tv
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
 /^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai|megalink.vip
