@@ -732,6 +732,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||adv.
 ||advertisement*.
 ||advertising*.
+||analytics.
 ||advisor*.
 ||alog.
 ||analytic*.$domain=~analytics.google.com
@@ -899,7 +900,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/]1x[12]\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)$/$image,important,script,subdocument
 /[-._?&=#/]action\=js\_stats[-._?&=#/]/$important,script,image,other,xmlhttprequest
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru|~ok.ru
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~dropbox.com|~f-droid.org|~fandom.com|~hindilinks4uto.com|~hqq.tv|~mts.ru|~player.mediavitrina.ru|~rt.ru|~staticmv.mediavitrina.ru|~twitch.tv|~waaw.tv|~m3u-cdn.live|~live.com|~sberbank.ru|~ok.ru|~esetnod32.ru
 /[-._?&=#/]count(s|ers?)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~twitch.tv|~youtube.com
 /[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~instagram.com|~yadi.sk|~twitch.tv
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script

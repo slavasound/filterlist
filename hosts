@@ -822,6 +822,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 www3.doubleclick.net
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 api.crashlytics.com
+0.0.0.0 cm.crashlytics.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 kits.crashlytics.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 crashlytics.com
+0.0.0.0 app.crashlytics.com
+0.0.0.0 appdistribution-uploads.crashlytics.com
+0.0.0.0 apps-ios.crashlytics.com
+0.0.0.0 apps.crashlytics.com
+0.0.0.0 assets.crashlytics.com
+0.0.0.0 beta.crashlytics.com
+0.0.0.0 cm.crashlytics.com
+0.0.0.0 distribution-uploads.crashlytics.com
+0.0.0.0 download.crashlytics.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 faye.crashlytics.com
+0.0.0.0 kits.crashlytics.com
+0.0.0.0 o1.outbound.crashlytics.com
+0.0.0.0 o3.outbound.crashlytics.com
+0.0.0.0 report.crashlytics.com
+0.0.0.0 support.crashlytics.com
+0.0.0.0 try.crashlytics.com
+0.0.0.0 www.crashlytics.com
+0.0.0.0 outbound.crashlytics.com
+0.0.0.0 o2.outbound.crashlytics.com
+0.0.0.0 app-measurement.com
 # GOOGLE ALL END
 
 # TORRENTSTREAM ALL
