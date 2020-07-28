@@ -1983,7 +1983,113 @@ evoke-windowsservices-tas.msedge.net
 0.0.0.0 click.engage.xbox.com
 # XBOX ALL END
 
-# TRASH
-0.0.0.0 adnexus.net
-0.0.0.0 adnxs.com
-# TRASH END
+# ADRIVER.RU
+0.0.0.0 adriver.ru
+0.0.0.0 ua-content.adriver.ru
+0.0.0.0 ua.adriver.ru
+0.0.0.0 ad.adriver.ru
+0.0.0.0 content.adriver.ru
+0.0.0.0 ssp.adriver.ru
+0.0.0.0 tags.adriver.ru
+# ADRIVER.RU
+
+# AMAZON ALL
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 aax-us.amazon-adsystem.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 mads.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 fls-na.amazon-adsystem.com
+0.0.0.0 rcm-eu.amazon-adsystem.com
+0.0.0.0 ws-eu.amazon-adsystem.com
+0.0.0.0 wms-eu.amazon-adsystem.com
+0.0.0.0 wms-na.amazon-adsystem.com
+0.0.0.0 ws-na.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 ir-de.amazon-adsystem.com
+0.0.0.0 ir-uk.amazon-adsystem.com
+0.0.0.0 fls-eu.amazon-adsystem.com
+0.0.0.0 ps-eu.amazon-adsystem.com
+0.0.0.0 ps-us.amazon-adsystem.com
+0.0.0.0 z-na.amazon-adsystem.com
+0.0.0.0 aax-us-east-rtb.amazon-adsystem.com
+0.0.0.0 ir-na.amazon-adsystem.com
+0.0.0.0 rcm-na.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 aax-cpm.amazon-adsystem.com
+0.0.0.0 aax-us-pdx.amazon-adsystem.com
+0.0.0.0 amazon-adsystem.com
+0.0.0.0 dra.amazon-adsystem.com
+0.0.0.0 ws-ea.amazon-adsystem.com
+0.0.0.0 fls-fe.amazon-adsystem.com
+0.0.0.0 ir-jp.amazon-adsystem.com
+0.0.0.0 ps-jp.amazon-adsystem.com
+0.0.0.0 rcm-fe.amazon-adsystem.com
+0.0.0.0 ws-fe.amazon-adsystem.com
+# AMAZON ALL END
+
+# ADNOW ALL
+0.0.0.0 ad.adnow.com
+0.0.0.0 st.ad.adnow.com
+0.0.0.0 adm-td.adnow.com
+0.0.0.0 admtd.adnow.com
+0.0.0.0 akl.adnow.com
+0.0.0.0 and07.adnow.com
+0.0.0.0 dev-self-service-pay.adnow.com
+0.0.0.0 feed.adnow.com
+0.0.0.0 findep.adnow.com
+0.0.0.0 dev.findep.adnow.com
+0.0.0.0 n.adnow.com
+0.0.0.0 st.adnow.com
+0.0.0.0 super.adnow.com
+0.0.0.0 ads1-adnow.com
+0.0.0.0 n.ads1-adnow.com
+0.0.0.0 st-n.ads1-adnow.com
+0.0.0.0 st.n.ads1-adnow.com
+0.0.0.0 ads2-adnow.com
+0.0.0.0 n.ads2-adnow.com
+0.0.0.0 st.n.ads2-adnow.com
+0.0.0.0 st-n.ads2-adnow.com
+0.0.0.0 ads3-adnow.com
+0.0.0.0 n.ads3-adnow.com
+0.0.0.0 st.n.ads3-adnow.com
+0.0.0.0 st-n.ads3-adnow.com
+0.0.0.0 ads4-adnow.com
+0.0.0.0 n.ads4-adnow.com
+0.0.0.0 st.n.ads4-adnow.com
+0.0.0.0 st-n.ads4-adnow.com
+0.0.0.0 ads5-adnow.com
+0.0.0.0 n.ads5-adnow.com
+0.0.0.0 st.n.ads5-adnow.com
+0.0.0.0 st-n.ads5-adnow.com
+# ADNOW ALL END
+
+# OPERA ALL
+0.0.0.0 af.opera.com
+0.0.0.0 api-a.op-mobile.opera.com
+0.0.0.0 desktop-dna.osp.opera.software
+0.0.0.0 api.recsys.opera.com
+0.0.0.0 exchange.opera.com
+0.0.0.0 features.opera-api.com
+0.0.0.0 geo.opera.com
+0.0.0.0 get.geo.opera.com
+0.0.0.0 merchandise.opera-api.com
+0.0.0.0 news-af.op-mobile.opera.com
+0.0.0.0 news.opera-api.com
+0.0.0.0 ofa-sub.osp.opera.software
+0.0.0.0 op-mobile.opera.com
+0.0.0.0 satoshi.opera-api.com
+0.0.0.0 sitecheck.opera.com
+0.0.0.0 sitecheck1.opera.com
+0.0.0.0 sitecheck2.opera.com
+0.0.0.0 sitecheck3.opera.com
+0.0.0.0 sitecheck4.opera.com
+0.0.0.0 sitecheck5.opera.com
+0.0.0.0 sitecheck6.opera.com
+0.0.0.0 sitecheck7.opera.com
+0.0.0.0 speeddials.opera.com
+0.0.0.0 thumbnails.opera.com
+0.0.0.0 thumbnails2.opera.com
+# OPERA ALL END
