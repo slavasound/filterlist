@@ -1165,6 +1165,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 feedback.microsoft-hohm.com
 0.0.0.0 feedback.search.microsoft.com
 0.0.0.0 feedback.windows.com
+0.0.0.0 checkappexec.microsoft.com
 0.0.0.0 feedbacksite-bn2b.smartscreen.microsoft.com
 0.0.0.0 fp.advertising.microsoft.com
 0.0.0.0 fs.microsoft.com
@@ -1212,10 +1213,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 storesdk.dsx.mp.microsoft.com
+0.0.0.0 dl.delivery.mp.microsoft.com
 0.0.0.0 sts.advertising.microsoft.com
 0.0.0.0 sts.si.advertising.microsoft.com
 0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 co4.telecommand.telemetry.microsoft.com
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 telemetrysvc-by3p.smartscreen.microsoft.com
@@ -1328,6 +1331,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.msn.com
 0.0.0.0 ads1.jp.msn.com
+0.0.0.0 arc.msn.com
 0.0.0.0 ads1.msads.net
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads2.msn.com
@@ -1421,6 +1425,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 a-0001.a-msedge.net
 0.0.0.0 dual-a-0001.a-msedge.net
 # A-MSEDGE.NET END
+
+# MSEDGE.NET
+evoke-windowsservices-tas.msedge.net
+# MSEDGE.NET END
 
 # KASPERSKY ALL
 0.0.0.0 crl.kaspersky.com
@@ -1950,11 +1958,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 zeppelin.prod.leanplum.com
 # LEANPLUM.COM END
 
+# FOOTPRINTPREDICT.COM
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 www.footprintpredict.com
+0.0.0.0 footprintpredict.com
+# FOOTPRINTPREDICT.COM END
+
+# V0CDN.NET
+0.0.0.0 cs11.wpc.v0cdn.net
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 cs12.wpc.v0cdn.net
+# V0CDN.NET END
+
 # TRASH
 0.0.0.0 adnexus.net
 0.0.0.0 adnxs.com
-0.0.0.0 cs1.wpc.v0cdn.net
-0.0.0.0 pre.footprintpredict.com
+dlassets-ssl.xboxlive.com
 # TRASH END
 
 # ESET.COM
