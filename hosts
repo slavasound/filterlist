@@ -1956,3 +1956,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cs1.wpc.v0cdn.net
 0.0.0.0 pre.footprintpredict.com
 # TRASH END
+
+# ESET.COM
+0.0.0.0 trace.eset.com
+0.0.0.0 pico.eset.com
+# ESET.COM END
