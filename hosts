@@ -1964,19 +1964,26 @@ evoke-windowsservices-tas.msedge.net
 0.0.0.0 footprintpredict.com
 # FOOTPRINTPREDICT.COM END
 
+# ESET.COM
+0.0.0.0 trace.eset.com
+0.0.0.0 pico.eset.com
+# ESET.COM END
+
 # V0CDN.NET
 0.0.0.0 cs11.wpc.v0cdn.net
 0.0.0.0 cs1.wpc.v0cdn.net
 0.0.0.0 cs12.wpc.v0cdn.net
 # V0CDN.NET END
 
+# XBOX ALL
+0.0.0.0 cdf-anon.xboxlive.com
+0.0.0.0 dlassets-ssl.xboxlive.com
+0.0.0.0 settings-ssl.xboxlive.com
+0.0.0.0 c.xbox.com
+0.0.0.0 click.engage.xbox.com
+# XBOX ALL END
+
 # TRASH
 0.0.0.0 adnexus.net
 0.0.0.0 adnxs.com
-dlassets-ssl.xboxlive.com
 # TRASH END
-
-# ESET.COM
-0.0.0.0 trace.eset.com
-0.0.0.0 pico.eset.com
-# ESET.COM END

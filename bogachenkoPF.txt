@@ -692,9 +692,9 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[&]s[cw][=][0-9]{3,4}[&]sh[=][0-9]{3,4}[&]/$important
 /[-._?&=#/]adrum[-._?&=#/]/$important
 /[-._?&=#/]akam[-._?&=#/]/$important
-/[-._?&=#/](ads|ADS)[-._?&=#/]/$important
+/[-._?&=#/](ads|ADS)[-._?&=#/]/$important,domain=~twitch.tv
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
-/[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important
+/[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~twitch.tv
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com|~twitch.tv
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
