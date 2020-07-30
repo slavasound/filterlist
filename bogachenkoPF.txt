@@ -743,7 +743,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||detectportal.
 ||easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt|
 ||easylist-downloads.adblockplus.org/exceptionrules.txt|
-||extension-updates.opera.com/api/omaha/blacklist.*.txt|
+||extension-updates.opera.com/api/*/blacklist.*.txt|
 ||iecvlist.microsoft.com/*blocklist/*/versionlist.xml|
 ||event.
 ||geo.$domain=~fast.com
@@ -767,8 +767,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||snippet*.
 ||stat.$important,third-party
 ||suggest.
-||svd-cdn.com/users/get_user?
-||svd-cdn.com/users/payment/get_membership?
 ||syndication.
 ||telemetric.
 ||telemetrics.
@@ -891,10 +889,12 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||video.google.com/api/stats/$xmlhttprequest,important
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
-||music.yandex.ru/handlers/promo-feedback.jsx^$xmlhttprequest,important
-||music.yandex.ru/handlers/gdpr-welcome.jsx^$xmlhttprequest,important
-||music.yandex.ru/handlers/experiment.jsx^$xmlhttprequest,important
-||music.yandex.ru/handlers/variabel.jsx^$xmlhttprequest,important
+||music.yandex.*/handlers/promo-feedback.jsx^$xmlhttprequest,important
+||music.yandex.*/handlers/gdpr-welcome.jsx^$xmlhttprequest,important
+||music.yandex.*/handlers/experiment.jsx^$xmlhttprequest,important
+||music.yandex.*/handlers/variabel.jsx^$xmlhttprequest,important
+||svd-cdn.com/users/get_user?$xmlhttprequest,important
+||svd-cdn.com/users/payment/get_membership?$xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
 ! COMBINED
