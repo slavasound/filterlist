@@ -42,6 +42,7 @@ $$script[wildcard="__CF$cv$params"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
 @@||bogachenko.github.io^$important,document
+@@||music.yandex.*^$important,document
 !#endif
 
 !#if ext_ublock
@@ -332,6 +333,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 /^https?:\/\/vk\.com(?!\/video)/$important,third-party,domain=~webcache.googleusercontent.com
 ||facebook.*^$third-party
 ||fb.com^$third-party
+||facebookcorewwwi.onion^$third-party
 ||linkedin.com^$third-party
 ||livejournal.com^$third-party
 ||mail.ru^$third-party
@@ -895,6 +897,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||music.yandex.*/handlers/variabel.jsx^$xmlhttprequest,important
 ||svd-cdn.com/users/get_user?$xmlhttprequest,important
 ||svd-cdn.com/users/payment/get_membership?$xmlhttprequest,important
+||yandex.*/bell/api/*/get-ticker|$xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
 ! COMBINED
@@ -1033,14 +1036,14 @@ playvideo.best,lookmovie.ag,streamingworld.*#@#+js(aopr, AaDetector)
 /favicon.ico$image,3p,domain=~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 adblockmetrics.ru,antiadblock.ru,better-games.ru,clickscloud.net,disk-space.ru,fortnite-pvp.ru,kinoframe.net#@#*
 ||pu.vk.com^$badfilter
-music.yandex.ru#@#.subscription-hint.popup
-music.yandex.ru#@#[class^="audio-advert"]
-music.yandex.ru#@#.bar__addition-link
-music.yandex.ru#@#.bar .bar-below
-music.yandex.ru#@#.ads-block
-music.yandex.ru#@#body > div[style^="min-height"] > .notify
-music.yandex.ru#@#body > div[style^="min-height"] > .notify *
-music.yandex.ru#@#body > div[style^="min-height"] > div[class][style="display: block;"]
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#.subscription-hint.popup
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#[class^="audio-advert"]
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#.bar__addition-link
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#.bar .bar-below
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#.ads-block
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#body > div[style^="min-height"] > .notify
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#body > div[style^="min-height"] > .notify *
+music.yandex.ru,music.yandex.ua,music.yandex.by#@#body > div[style^="min-height"] > div[class][style="display: block;"]
 @@||an.yandex.ru/system/context.js$domain=music.yandex.ru|radio.yandex.ru,badfilter
 @@||an.yandex.ru/resource/context_static_r*.js$domain=music.yandex.ru|radio.yandex.ru,badfilter
 *$script,redirect-rule=noopjs,domain=extremereportbot.com,badfilter
