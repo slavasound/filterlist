@@ -449,6 +449,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||id.l.google.com^$important
 ||imasdk.googleapis.com^$important
 ||iplist.cc^$third-party,important
+||all-cod.com^$third-party,important
 ||izooto.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
@@ -524,6 +525,7 @@ reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR, ._1tvThPWQpORoc2ta
 ||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net|~dev.yandex.net|~ya.ru|~hdrabbit.ru|~yandex.lt|~yandex.uz|~yandex.tm|~yandex.co.ge|~yandex.az|~yandex.kz|~yandex.md|~yandex.com.tr|~yandex.fr|~rt-internet.ru
 ||yastroka.yandex.net^$important
 ||zen.yandex.*^$important
+||stophateforprofit.org^$important
 ! DOMAIN END
 
 ! IMAGE
@@ -837,6 +839,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~google.com|~lelinhtinh.github.io|~my.dogechain.info|~twitch.tv|~whoer.net|~z5h64q92x9.net|~web.telegram.org|~github.com
 /^https?:\/\/[^\s]+\/crypt[oa]\.js/$important,script,domain=~web.telegram.org
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,10})?)?\.js/$important,script
+/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
 |http*:*/beacon.js$important,script
 |http*:*/cdn-cgi/bm/cv/$important,script
@@ -853,8 +856,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/no-right-click-$important,script
 |http*:*/scripts-nvm/gen.php?$script
 |http*:*/snow.js|$script
-|http*:*/swb.js$important,script
-|http*:*/sww.js$important,script
 |http*:*/tags?org_id=$important,script
 |http*:*/vastlist.js$important,script
 |http*:*/vinos.js$important,script
@@ -868,6 +869,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||yandex.*/search/yandcache.js|$script,important
 ||yastatic.net/awaps-ad-sdk-js/1_0/adsdk.min.js$important,script
 ||yastatic.net/share2/share.js|$important,script
+||yastatic.net/pcode/adfox/loader.js|$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST
@@ -889,6 +891,10 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||video.google.com/api/stats/$xmlhttprequest,important
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
+||music.yandex.ru/handlers/promo-feedback.jsx^$xmlhttprequest,important
+||music.yandex.ru/handlers/gdpr-welcome.jsx^$xmlhttprequest,important
+||music.yandex.ru/handlers/experiment.jsx^$xmlhttprequest,important
+||music.yandex.ru/handlers/variabel.jsx^$xmlhttprequest,important
 ! XMLHTTPREQUEST END
 
 ! COMBINED
