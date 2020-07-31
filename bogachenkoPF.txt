@@ -22,7 +22,7 @@
 $$script[data-cfasync="false"][src="/apu.php?zoneid="]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 $$script[data-cfasync="false"][tag-content="Privet darkv"]
-$$script[data-cfasync="false"][wildcard="*String.fromCharCode*Math*"]
+$$script[data-cfasync="false"][wildcard="*Math*String.fromCharCode*"]
 $$script[data-cfasync="false"][wildcard="*['push']*['shift']*decodeURIComponent*"]
 $$script[tag-content="ExoLoader"]
 $$script[tag-content="LieDetector"]
@@ -1127,3 +1127,4 @@ ouo.press#@#+js(nowebrtc)
 ||dev.fandom.com^$badfilter
 ||speed.nocookie.net^$badfilter
 ||ucoz.ru^$badfilter
+||intel.com^$badfilter
