@@ -22,27 +22,27 @@
 $$script[data-cfasync="false"][src="/apu.php?zoneid="]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 $$script[data-cfasync="false"][tag-content="Privet darkv"]
+$$script[data-cfasync="false"][wildcard="*String.fromCharCode*Math*"]
 $$script[data-cfasync="false"][wildcard="*['push']*['shift']*decodeURIComponent*"]
+$$script[tag-content="ExoLoader"]
+$$script[tag-content="LieDetector"]
+$$script[tag-content="OneSignal"]
+$$script[tag-content="RTCPeerConnection"]
+$$script[tag-content="_pop.push"]
 $$script[tag-content="absda"]
 $$script[tag-content="adBlockDetected"]
 $$script[tag-content="adcashMacros"]
 $$script[tag-content="admiral-engaged"]
 $$script[tag-content="anOptions"]
-$$script[tag-content="ExoLoader"]
-$$script[tag-content="LieDetector"]
-$$script[tag-content="OneSignal"]
 $$script[tag-content="popMagic"]
-$$script[tag-content="RTCPeerConnection"]
 $$script[tag-content="window.Fingerprint2"]
 $$script[tag-content="zfgloaded"]
 $$script[tag-content="zoneNativeSett"]
-$$script[tag-content="_pop.push"]
 $$script[wildcard="*eval*babasbmsgx*"]
 $$script[wildcard="__CF$cv$params"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
 @@||bogachenko.github.io^$important,document
-!@@||music.yandex.*^$important,document
 !#endif
 
 !#if ext_ublock
@@ -444,7 +444,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||graph.facebook.com^$important
 ||gtavrp.ru^$important
 ||hellstore.net^$important
-||hola.org^$important
 ||holaspark.com^$important
 ||http-check-headers.yandex.ru^$important
 ||id.google.*^$important
@@ -700,7 +699,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com|~twitch.tv
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
-/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai|megalink.vip|ouo.io|ouo.press
+/^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai|megalink.vip|ouo.io|ouo.press|todaynewspk.win|adsafelink.net
 |http*:*$beacon,important
 |http*:*$object,important
 |http*:*$object-subrequest,important
@@ -727,8 +726,10 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/YandexPackSetup.exe|$important
 |http*:*?type=pageview&$important
 ||ad.
+://ad.
 ||ads-sdk.
 ||ads.
+://ads.
 ||adsaccount.
 ||adserver*.
 ||adv.
