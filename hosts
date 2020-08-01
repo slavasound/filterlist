@@ -20,7 +20,7 @@ ff02::3 ip6-allhosts
 
 # Custom rules
 
-# QQ.COM
+# QQ.COM START
 0.0.0.0 3gimg.qq.com
 0.0.0.0 a.ssl.msdk.qq.com
 0.0.0.0 ad.qq.com
@@ -124,7 +124,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ysdk.qq.com
 # QQ.COM END
 
-# GOOGLE ALL
+# GOOGLE ALL START
 0.0.0.0 1.chromefeedcontentsuggestions-pa.googleapis.com
 0.0.0.0 10.afs.googleadservices.com
 0.0.0.0 1435575.fls.doubleclick.net
@@ -970,9 +970,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googleoptimize.com
 0.0.0.0 googleoptimize.com
 0.0.0.0 android-safebrowsing.google.com
+0.0.0.0 fundingchoicesmessages.google.com
 # GOOGLE ALL END
 
-# TORRENTSTREAM ALL
+# TORRENTSTREAM ALL START
 0.0.0.0 a1.torrentstream.info
 0.0.0.0 a1.torrentstream.net
 0.0.0.0 a1.torrentstream.org
@@ -1004,7 +1005,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 update.torrentstream.org
 # TORRENTSTREAM ALL END
 
-# ACESTREAM.NET
+# ACESTREAM.NET START
 0.0.0.0 a4.acestream.net
 0.0.0.0 acestream.net
 0.0.0.0 e1.acestream.net
@@ -1016,7 +1017,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ts.acestream.net
 # ACESTREAM.NET END
 
-# TABOOLA.COM
+# TABOOLA.COM START
 0.0.0.0 15.taboola.com
 0.0.0.0 accessrequest.taboola.com
 0.0.0.0 actions-am.taboola.com
@@ -1245,7 +1246,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yahoojp.taboola.com
 # TABOOLA.COM END
 
-# MICROSOFT.COM
+# MICROSOFT.COM START
 0.0.0.0 activation-v2.sls.microsoft.com
 0.0.0.0 activation.sls.microsoft.com
 0.0.0.0 adbroker.mp.dse.microsoft.com
@@ -1385,7 +1386,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wustats.microsoft.com
 # MICROSOFT.COM END
 
-# AKADNS.NET
+# AKADNS.NET START
 0.0.0.0 apac1.notify.windows.com.akadns.net
 0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 cy2.displaycatalog.md.mp.microsoft.com.akadns.net
@@ -1411,7 +1412,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wns.notify.windows.com.akadns.net
 # AKADNS.NET END
 
-# NSATC.NET
+# NSATC.NET START
 0.0.0.0 choice.microsoft.com.nsatc.net
 0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 0.0.0.0 g.msn.com.nsatc.net
@@ -1430,7 +1431,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
 # NSATC.NET END
 
-# BING ALL
+# BING ALL START
 0.0.0.0 ads.bing.com
 0.0.0.0 adserver.bing.com
 0.0.0.0 bat.bing.com
@@ -1439,7 +1440,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.bing.com
 # BING ALL END
 
-# LIVE.COM
+# LIVE.COM START
 0.0.0.0 analytics.live.com
 0.0.0.0 c.live.com
 0.0.0.0 choice.live.com
@@ -1450,7 +1451,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 watson.live.com
 # LIVE.COM END
 
-# MSN.COM
+# MSN.COM START
 0.0.0.0 0.r.msn.com
 0.0.0.0 a.ads1.msn.com
 0.0.0.0 a.ads2.msn.com
@@ -1540,7 +1541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.msn.com
 # MSN.COM END
 
-# CLOUDAPP.NET
+# CLOUDAPP.NET START
 0.0.0.0 ailoganalyticsportal-eus.cloudapp.net
 0.0.0.0 bi-analytics.cloudapp.net
 0.0.0.0 compatexchange.cloudapp.net
@@ -1549,17 +1550,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 otlanalytics.cloudapp.net
 # CLOUDAPP.NET END
 
-# A-MSEDGE.NET
+# A-MSEDGE.NET START
 0.0.0.0 a-0001.a-msedge.net
 0.0.0.0 dual-a-0001.a-msedge.net
 # A-MSEDGE.NET END
 
-# MSEDGE.NET
+# MSEDGE.NET START
 0.0.0.0 evoke-windowsservices-tas.msedge.net
 0.0.0.0 fp.msedge.net
 # MSEDGE.NET END
 
-# KASPERSKY ALL
+# KASPERSKY ALL START
 0.0.0.0 crl.kaspersky.com
 0.0.0.0 dnl-0.geo.kaspersky.com
 0.0.0.0 dnl-00.geo.kaspersky.com
@@ -1701,7 +1702,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s20.upd.kaspersky.com
 # KASPERSKY ALL END
 
-# YANDEX ALL
+# YANDEX ALL START
 0.0.0.0 19534.redirect.appmetrica.yandex.com
 0.0.0.0 3.redirect.appmetrica.yandex.com
 0.0.0.0 30488.redirect.appmetrica.yandex.com
@@ -1763,7 +1764,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yabs.yandex.ua
 # YANDEX ALL END
 
-# MAIL.RU
+# MAIL.RU START
 0.0.0.0 1l-view.mail.ru
 0.0.0.0 ad.mail.ru
 0.0.0.0 an.mail.ru
@@ -1782,7 +1783,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xray.mail.ru
 # MAIL.RU END
 
-# MOZILLA ALL
+# MOZILLA ALL START
 0.0.0.0 activity-stream-icons.services.mozilla.com
 0.0.0.0 de.malware-error.mozilla.com
 0.0.0.0 de.malware-report.mozilla.com
@@ -1818,11 +1819,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.phish-report.mozilla.com
 # MOZILLA ALL END
 
-# EDGESUITE.NET
+# EDGESUITE.NET START
 0.0.0.0 detectportal.firefox.com-v2.edgesuite.net
 # EDGESUITE.NET END
 
-# LEANPLUM.COM
+# LEANPLUM.COM START
 0.0.0.0 acrobat-service.staging-1.staging.leanplum.com
 0.0.0.0 alertmanager.tier2.gae.prod-1.prod.leanplum.com
 0.0.0.0 alertmanager.tier2.gae.qa-1.qa.leanplum.com
@@ -2089,24 +2090,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 zeppelin.prod.leanplum.com
 # LEANPLUM.COM END
 
-# FOOTPRINTPREDICT.COM
+# FOOTPRINTPREDICT.COM START
 0.0.0.0 footprintpredict.com
 0.0.0.0 pre.footprintpredict.com
 0.0.0.0 www.footprintpredict.com
 # FOOTPRINTPREDICT.COM END
 
-# ESET.COM
+# ESET.COM START
 0.0.0.0 pico.eset.com
 0.0.0.0 trace.eset.com
 # ESET.COM END
 
-# V0CDN.NET
+# V0CDN.NET START
 0.0.0.0 cs1.wpc.v0cdn.net
 0.0.0.0 cs11.wpc.v0cdn.net
 0.0.0.0 cs12.wpc.v0cdn.net
 # V0CDN.NET END
 
-# XBOX ALL
+# XBOX ALL START
 0.0.0.0 c.xbox.com
 0.0.0.0 cdf-anon.xboxlive.com
 0.0.0.0 click.engage.xbox.com
@@ -2114,7 +2115,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 settings-ssl.xboxlive.com
 # XBOX ALL END
 
-# ADRIVER.RU
+# ADRIVER.RU START
 0.0.0.0 ad.adriver.ru
 0.0.0.0 adriver.ru
 0.0.0.0 content.adriver.ru
@@ -2124,7 +2125,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ua.adriver.ru
 # ADRIVER.RU END
 
-# AMAZON ALL
+# AMAZON ALL START
 0.0.0.0 1faax-us-east.amazon-adsystem.com
 0.0.0.0 aax-cpm.amazon-adsystem.com
 0.0.0.0 aax-dtb-web.amazon-adsystem.com
@@ -2279,7 +2280,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z-na.amazon-adsystem.com
 # AMAZON ALL END
 
-# ADNOW ALL
+# ADNOW ALL START
 0.0.0.0 acme-challenge.adnow.com
 0.0.0.0 ad.adnow.com
 0.0.0.0 adm-td.adnow.com
@@ -2353,7 +2354,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zabbix.adnow.com
 # ADNOW ALL END
 
-# OPERA ALL
+# OPERA ALL START
 0.0.0.0 af.opera.com
 0.0.0.0 api-a.op-mobile.opera.com
 0.0.0.0 api.recsys.opera.com
@@ -2381,7 +2382,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thumbnails2.opera.com
 # OPERA ALL END
 
-# ADCOLONY.COM
+# ADCOLONY.COM START
 0.0.0.0 adc-launch.adcolony.com
 0.0.0.0 adc3-assets.adcolony.com
 0.0.0.0 adc3-launch-staging.adcolony.com
@@ -2439,7 +2440,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.adcolony.com
 # ADCOLONY.COM END
 
-# GHOSTERY ALL
+# GHOSTERY ALL START
 0.0.0.0 analytics.ghostery.com
 0.0.0.0 collector-hpn.ghostery.net
 0.0.0.0 d.ghostery.com
@@ -2447,7 +2448,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
 # GHOSTERY ALL END
 
-# VOODOO ALL
+# VOODOO ALL START
 0.0.0.0 addelivery-engine-api.voodoo-ads.io
 0.0.0.0 airflow.voodoo-ads.io
 0.0.0.0 airflow.voodoo-tech.io
@@ -2496,7 +2497,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.voodoo.io
 # VOODOO ALL END
 
-# WEBORAMA ALL
+# WEBORAMA ALL START
 0.0.0.0 aana.solution.weborama.fr
 0.0.0.0 abovomedianl1.solution.weborama.fr
 0.0.0.0 access.ui.weborama.com
@@ -2831,7 +2832,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yoigoes.solution.weborama.fr
 # WEBORAMA ALL END
 
-# ADROLL.COM
+# ADROLL.COM START
 0.0.0.0 a.adroll.com
 0.0.0.0 adroll.com
 0.0.0.0 adservers-staging.internal.adroll.com
@@ -2963,7 +2964,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yax-winners-us-west-2-rtb.adroll.com
 # ADROLL.COM END
 
-# TNS-COUNTER.RU
+# TNS-COUNTER.RU START
 0.0.0.0 ar.tns-counter.ru
 0.0.0.0 c.tns-counter.ru
 0.0.0.0 cm.tns-counter.ru
@@ -2984,7 +2985,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yandex.tns-counter.ru
 # TNS-COUNTER.RU END
 
-# ADJUST.COM
+# ADJUST.COM START
 0.0.0.0 00101606.ulink.adjust.com
 0.0.0.0 0262586.ulink.adjust.com
 0.0.0.0 0869765.ulink.adjust.com
@@ -3226,7 +3227,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zurichna.ulink.adjust.com
 # ADJUST.COM ALL
 
-# FACEBOOK.COM
+# FACEBOOK.COM START
 0.0.0.0 a-error.facebook.com
 0.0.0.0 a-pixel.facebook.com
 0.0.0.0 a-www.facebook.com
@@ -3321,7 +3322,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.atdmt.com
 # FACEBOOK.COM END
 
-# YADRO.RU
+# YADRO.RU START
 0.0.0.0 ad.yadro.ru
 0.0.0.0 ads.yadro.ru
 0.0.0.0 counter.yadro.ru
@@ -3339,7 +3340,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yadro.ru
 # YADRO.RU END
 
-# APPLOVIN.COM
+# APPLOVIN.COM START
 0.0.0.0 a-support.applovin.com
 0.0.0.0 a-usa.applovin.com
 0.0.0.0 a.applovin.com
@@ -3475,7 +3476,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z.applovin.com
 # APPLOVIN.COM END
 
-# SPOTIFY.COM
+# SPOTIFY.COM START
 0.0.0.0 pixel-static.spotify.com
 0.0.0.0 ads.spotify.com
 0.0.0.0 pixel.spotify.com
@@ -3486,7 +3487,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.spotify.com
 # SPOTIFY.COM END
 
-# AVAST.COM
+# AVAST.COM START
 0.0.0.0 auth.ff.avast.com
 0.0.0.0 auth2.ff.avast.com
 0.0.0.0 feed.ff.avast.com
@@ -3496,3 +3497,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 shepherd.ff.avast.com
 0.0.0.0 analytics.ff.avast.com
 # AVAST.COM END
+
+# TWITTER.COM START
+0.0.0.0 platform.twitter.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 syndication.twitter.com
+0.0.0.0 ads-bidder-api.twitter.com
+0.0.0.0 ads.twitter.com
+0.0.0.0 scribe.twitter.com
+# TWITTER.COM END
