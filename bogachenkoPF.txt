@@ -140,6 +140,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 62.128.100.93$network
 62.128.100.94$network
 64.233.161.97:443$network
+120.198.203.156:80$network
 64.233.161.102:443$network
 64.233.161.154:443$network
 64.233.161.155:443$network
@@ -712,14 +713,15 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/](ads|ADS)[-._?&=#/]/$important,domain=~twitch.tv
 /[-._?&=#/]adrum[-._?&=#/]/$important
 /[-._?&=#/]akam[-._?&=#/]/$important
+/[-._?&=#/]preroll[-._?&=#/]/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~twitch.tv
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com|~twitch.tv
 /\/ads?[0-9]{1}\.php\?/$important
 /\?zone[-_]?id\=/$important
 /^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai|megalink.vip|ouo.io|ouo.press|todaynewspk.win|adsafelink.net
-://ad.
-://ads.
+||spclient.wg.spotify.com/ad-logic/$important
+||spclient.wg.spotify.com/ads/$important
 |http*:*$beacon,important
 |http*:*$object,important
 |http*:*$object-subrequest,important

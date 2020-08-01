@@ -3478,7 +3478,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel-static.spotify.com
 0.0.0.0 ads.spotify.com
 0.0.0.0 pixel.spotify.com
-0.0.0.0 spclient.wg.spotify.com
 0.0.0.0 crashdump.spotify.com
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 ads-fa.spotify.com
