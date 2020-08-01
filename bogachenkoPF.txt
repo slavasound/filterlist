@@ -612,6 +612,7 @@ prostolinux.ru##+js(abort-on-property-write.js, document.oncopy)
 */cleardot.gif$image,redirect=1x1.gif,important
 */cleardot.gif$xmlhttprequest,redirect=1x1.gif,important
 */loading.mp4$important,media,domain=t21.press,redirect=noopmp4-1s
+||device-metrics-us*.amazon.com^$redirect=nooptext,important
 ! REDIRECTION END
 
 ! CSS
@@ -744,6 +745,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/Yandex.exe?$important
 |http*:*/YandexPackSetup.exe|$important
 |http*:*?type=pageview&$important
+||spclient.wg.spotify.com/ad-logic/flashpoint|$important
 ||ad.
 ||ads-sdk.
 ||ads.
