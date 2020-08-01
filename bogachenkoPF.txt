@@ -17,7 +17,8 @@
 !#endif
 
 !#if !ext_ublock
-$$script[data-cfasync="false"][src="/apu.php?zoneid="]
+$$script[data-cfasync="false"][src="?zoneid="]
+$$script[data-cfasync="false"][src="&zoneid="]
 $$script[data-cfasync="false"][tag-content="PopAds%20CGAPIL%20"]
 $$script[data-cfasync="false"][tag-content="Privet darkv"]
 $$script[data-cfasync="false"][wildcard="*Math*String.fromCharCode*"]
@@ -351,7 +352,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 /a\.[a-z0-9]{33,43}\.com$/$important
 /^https?:\/\/(?!(fonts|ajax|android|translate)\.)googleapis\.com/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
-/^https?:\/\/127\.0\.0\.1(?!\:(1957[57]|8080|4212|6878))/$important
+/^https?:\/\/127\.0\.0\.1(?!\:(1957[57]|9[01]5[01]|8080|4212|6878))/$important
 /^https?:\/\/192.\168\.[01]\.1(?!\:(52869))/$important
 /^https?:\/\/bit(ly)?\.(com|ly)/$important
 /^https?:\/\/localhost(?!\:(8080|4212))/$important
@@ -749,6 +750,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/Yandex.exe?$important
 |http*:*/YandexPackSetup.exe|$important
 |http*:*?type=pageview&$important
+/[&?]zoneid\=/$important
 ||ad.
 ||ads-sdk.
 ||ads.
