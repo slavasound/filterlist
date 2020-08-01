@@ -441,6 +441,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
+||googleoptimize.com^$important
 ||graph.facebook.com^$important
 ||gstaticadssl.l.google.com^$important
 ||gtavrp.ru^$important
@@ -543,6 +544,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||yastatic.net^$important,third-party,domain=~kinopoisk.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.ru|~yandex.ua|~z5h64q92x9.net|~dev.yandex.net|~ya.ru|~hdrabbit.ru|~yandex.lt|~yandex.uz|~yandex.tm|~yandex.co.ge|~yandex.az|~yandex.kz|~yandex.md|~yandex.com.tr|~yandex.fr|~rt-internet.ru
 ||yastroka.yandex.net^$important
 ||zen.yandex.*^$important
+||mishabelle.ru^$important
 ! DOMAIN END
 
 ! IMAGE
@@ -888,6 +890,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||yastatic.net/awaps-ad-sdk-js/1_0/adsdk.min.js$important,script
 ||yastatic.net/pcode/adfox/loader.js|$script,important
 ||yastatic.net/share2/share.js|$important,script
+||amazonaws.com/ki.js/$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST

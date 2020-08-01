@@ -967,6 +967,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www2.doubleclick.com
 0.0.0.0 www3.doubleclick.com
 0.0.0.0 www3.doubleclick.net
+0.0.0.0 www.googleoptimize.com
+0.0.0.0 googleoptimize.com
 # GOOGLE ALL END
 
 # TORRENTSTREAM ALL
@@ -3471,3 +3473,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.applvn.com
 0.0.0.0 z.applovin.com
 # APPLOVIN.COM END
+
+# SPOTIFY.COM
+0.0.0.0 pixel-static.spotify.com
+# SPOTIFY.COM END
