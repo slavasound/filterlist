@@ -41,6 +41,7 @@ $$script[wildcard="__CF$cv$params"]
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important,other,badfilter
 @@||bogachenko.github.io^$important,document
+$$script[wildcard="*googletagmanager*GTM-*"]
 !#endif
 
 !#if ext_ublock
@@ -747,7 +748,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/Yandex.exe?$important
 |http*:*/YandexPackSetup.exe|$important
 |http*:*?type=pageview&$important
-||spclient.wg.spotify.com/ad-logic/flashpoint|$important
 ||ad.
 ||ads-sdk.
 ||ads.
@@ -942,7 +942,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /\/ga[-._?&=#/][a-zA-Z]{5,}\.js/$important,other,script,third-party
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest
 /\/[a-z]{1}\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)\?[a-z]{1,2}\=/$image,important,other,script,subdocument,xmlhttprequest,domain=~thepiratebay.org|~duckduckgo.com|~3g2upl4pq6kufc4m.onion
-/^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit)\.com|((iam|hw)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me|streamalloha\.live)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io|bmoviesfree.io|2streaming.net|streamtape.com|mp4upload.com
+/^(?!.*((injections|local)\.adguard\.org|(gstatic|(jwp|bootstrap|dood)cdn|jwplayer|cloudflare|google(apis)?|jquery|rawgit|hlsplay|fontawesome)\.com|((iam|hw|zen)cdn|recaptcha|jsdelivr|fastly)\.net|mystream\.to|thealloha\.club|gdriveplayer\.me|streamalloha\.live|streamroot\.io)).*$/$important,script,third-party,domain=0gomovies.website|123moviesplayer.com|clipwatching.com|cloud9.to|cloudvideo.tv|gcloud.live|gdriveplayer.me|gomo.to|hydrax.net|mcloud.to|mcloud2.to|mightyupload.com|mixdrop.co|movcloud.net|mstream.xyz|novelplanet.me|oload.party|streamhoe.online|streamingworld.club|streamvid.co|streamvideo.link|upstream.to|vidcloud9.com|videobin.co|videoko.to|videospider.stream|vidlox.me|vidoza.net|vidstreaming.io|viduplayer.com|dood.watch|u-play.pro|allohalive.com|wstream.video|streamapi.xyz|vidsrc.me|gdriveplayer.io|bmoviesfree.io|2streaming.net|streamtape.com|mp4upload.com|voe.sx|gounlimited.to|vivo.sx|jetload.net|vup.to
 /^(?!.*((injections|local)\.adguard\.org|(userapi|youtube|vk(\-apps)?|google|ytimg)\.com|(vkuser(video|audio)|vk\-cdn)\.net|mycdn\.me)).*$/$important,third-party,xmlhttprequest,script,image,subdocument,domain=vk.com
 /^https?:\/\/yandex\.[\w]+\/images\/(?!(search\?)|(touch/search?))[^\s]{80,}/$subdocument,~third-party,xmlhttprequest,important
 /^https?:\/\/yastatic.net\/[^\s]+((widget\_ya|nearest|atom)\.js$|tableau\.html)/$subdocument,script,xmlhttprequest,important
@@ -1150,3 +1150,22 @@ ouo.press#@#+js(nowebrtc)
 ||speed.nocookie.net^$badfilter
 ||ucoz.ru^$badfilter
 ||intel.com^$badfilter
+s.to#@#+js(aeld, , _0x)
+mixdrop.*#@#+js(set, MDCore.adblock, 0)
+mixdrop.*#@#+js(nowoif)
+mixdrop.*#@#+js(aopr, atob)
+mixdrop.*#@#+js(acis, $, String.fromCharCode)
+s.to#@#+js(acis, Math, zfgloaded)
+jetload.net#@#+js(acis, document.createElement, script)
+jetload.net#@#+js(aopr, AaDetector)
+$script,third-party,domain=jetload.net,badfilter
+||zencdn.net^$badfilter
+||img.vup.to^$badfilter
+vup.to#@#+js(aopr, AaDetector)
+vup.to#@#+js(acis, Math, zfgloaded)
+*$xmlhttprequest,domain=vup.to,badfilter
+vidoza.net#@#+js(acis, Math, zfgloaded)
+vidoza.net#@#+js(nowoif)
+upstream.to#@#+js(set, cRAds, null)
+upstream.to#@#+js(aopr, open)
+upstream.to#@#+js(aopr, adcashMacros)
