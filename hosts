@@ -2156,6 +2156,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aax-us-east-test.amazon-adsystem.com
 0.0.0.0 aax-us-east-test1.amazon-adsystem.com
 0.0.0.0 aax-us-east-test2.amazon-adsystem.com
+0.0.0.0 countess.twitch.tv
 0.0.0.0 aax-us-east-test3.amazon-adsystem.com
 0.0.0.0 aax-us-east-test4.amazon-adsystem.com
 0.0.0.0 aax-us-east-test5.amazon-adsystem.com
@@ -3320,6 +3321,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vid.atdmt.com
 0.0.0.0 view.atdmt.com
 0.0.0.0 www.atdmt.com
+0.0.0.0 connect.facebook.net
 # FACEBOOK.COM END
 
 # YADRO.RU START
@@ -3506,3 +3508,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.twitter.com
 0.0.0.0 scribe.twitter.com
 # TWITTER.COM END
+
+# VIDEOROLL.NET START
+0.0.0.0 videoroll.net
+# VIDEOROLL.NET END

@@ -549,6 +549,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||zen.yandex.*^$important
 ||mishabelle.ru^$important
 ||perr.hola.org^$important
+||platform.twitter.com^$important
 ! DOMAIN END
 
 ! IMAGE
@@ -1172,3 +1173,7 @@ vidoza.net#@#+js(nowoif)
 upstream.to#@#+js(set, cRAds, null)
 upstream.to#@#+js(aopr, open)
 upstream.to#@#+js(aopr, adcashMacros)
+@@||gstatic.com/images?q=$image,badfilter
+@@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk,badfilter
+@@||vk.com/*.php?__query=$document,badfilter
+fox-fan.tv$@$script[tag-content="adBlockDetected"]
