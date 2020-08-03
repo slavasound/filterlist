@@ -411,8 +411,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||cookielaw.org^$important
 ||crashlytics.com^$important
 ||crashlytics.l.google.com^$important
-||csgo.band^$important
-||csgorun.org^$important
 ||d.ghostery.com^$important
 ||desktop-dna.osp.opera.software^$important
 ||detectportal.firefox.*^$important
@@ -425,7 +423,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||doubleclick.net^$important
 ||doublemax.net^$important
 ||downloader.yandex.net^$important
-||dra.to^$important
 ||edge.microsoft.com^$important
 ||ero-advertising.com^$important
 ||event.shelljacket.us^$important
@@ -436,7 +433,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||fundingchoicesmessages.google.com^$important
 ||games.yandex.ru^$important
 ||geo.opera.com^$important
-||ggbetsails.com^$important
 ||ghostery-collector.ghostery.com^$important
 ||googleadapis.l.google.com^$important
 ||googleadservices.*^$important
@@ -449,9 +445,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||googleoptimize.com^$important
 ||graph.facebook.com^$important
 ||gstaticadssl.l.google.com^$important
-||gtavrp.ru^$important
-||hellstore.net^$important
-||holaspark.com^$important
 ||http-check-headers.yandex.ru^$important
 ||i18nmmstat.ucweb.com^$important
 ||ibb.co^$important
@@ -556,18 +549,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||pps-log.op-mobile.opera.com^$important
 ||countess.twitch.tv^$important
 ||polyfill.twitchsvc.net^$important
-||mycsgoo.net^$important
-||cybershoke.net^$important
-||easymoney.games^$important
-||ggdrop.wtf^$important
-||cs.fail^$important
-||bigbetclub.com^$important
-||616wear.ru^$important
-||justcase.link^$important
-||ukrn.io^$important
-||skinbaron.com^$important
-||gamingmalta.org^$important
-||ggbet.life^$important
 ! DOMAIN END
 
 ! IMAGE
@@ -730,8 +711,9 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 
 ! OTHER
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
-/[&]s(screen)?[=][0-9]{3,4}x[0-9]{3,4}[&]/$important
-/[&]s[cw][=][0-9]{3,4}[&]sh[=][0-9]{3,4}[&]/$important
+/[&?]s(screen)?\=[0-9]{3,4}x[0-9]{3,4}[&?]/$important
+/[&?]s[cw]\=[0-9]{3,4}[&]sh\=[0-9]{3,4}[&]/$important
+/[&?]zoneid\=/$important
 /[-._?&=#/](ads|ADS)[-._?&=#/]/$important,domain=~twitch.tv
 /[-._?&=#/]adrum[-._?&=#/]/$important
 /[-._?&=#/]akam[-._?&=#/]/$important
@@ -771,7 +753,6 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 |http*:*/Yandex.exe?$important
 |http*:*/YandexPackSetup.exe|$important
 |http*:*?type=pageview&$important
-/[&?]zoneid\=/$important
 ||ad.
 ||ads-sdk.
 ||ads.
@@ -851,6 +832,25 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||warning.rt.ru^$document
 ||welcome.adguard.com^$document
 ||wrongurl.mts.ru^$document
+||mycsgoo.net^$document
+||cybershoke.net^$document
+||easymoney.games^$document
+||ggdrop.wtf^$document
+||cs.fail^$document
+||bigbetclub.com^$document
+||616wear.ru^$document
+||justcase.link^$document
+||ukrn.io^$document
+||skinbaron.com^$document
+||gamingmalta.org^$document
+||ggbet.life^$document
+||csgo.band^$document
+||csgorun.org^$document
+||ggbetsails.com^$document
+||dra.to^$document
+||gtavrp.ru^$document
+||hellstore.net^$document
+||holaspark.com^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
