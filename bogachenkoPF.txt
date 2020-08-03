@@ -324,8 +324,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 217.69.141.142:443$network
 ||0.0.0.0^
 ||212.122.5.136^
-||notification.adblockplus.org^
-||app.link^
 ! DNS END
 
 ! DOMAIN
@@ -365,6 +363,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||addons-media.operacdn.com^$important,domain=~opera.com|~opera.ru
 ||addons-themes.operacdn.com^$important,domain=~opera.com|~opera.ru
 ||addthis.com^$important
+||notification.adblockplus.org^$important
 ||adservice.google.*^$important
 ||adservice.l.google.com^$important
 ||af.opera.com^$important
@@ -398,7 +397,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||browser.yandex.com^$important
 ||c.bingapis.com^$important
 ||cackle.me^$important
-||cdn2.ghostery.com^$important
+||cdn*.ghostery.com^$important
 ||census.zorinos.com^$important
 ||clck.yandex.ru^$important
 ||client-cdn*.hola.org^$important
@@ -419,7 +418,6 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||discordapp.com^$important
 ||disqus.com^$important
 ||disquscdn.com^$important
-||dota2expert.com^$important
 ||doubleclick.net^$important
 ||doublemax.net^$important
 ||downloader.yandex.net^$important
@@ -851,6 +849,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 ||gtavrp.ru^$document
 ||hellstore.net^$document
 ||holaspark.com^$document
+||dota2expert.com^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT
