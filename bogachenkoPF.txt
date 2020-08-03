@@ -1,4 +1,4 @@
-! [Adblock Plus 3.9.1]
+! [Adblock Plus 3.9.3]
 ! Description: This is a personal list of bogachenko filters.
 ! Expires: 3 hours
 ! Homepage: https://github.com/bogachenko/filterlist/tree/personal
@@ -325,6 +325,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||0.0.0.0^
 ||212.122.5.136^
 ||notification.adblockplus.org^
+||app.link^
 ! DNS END
 
 ! DOMAIN
@@ -550,6 +551,10 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||mishabelle.ru^$important
 ||perr.hola.org^$important
 ||platform.twitter.com^$important
+||client-event-reporter.twitch.tv^$important
+||pps-log.op-mobile.opera.com^$important
+||countess.twitch.tv^$important
+||polyfill.twitchsvc.net^$important
 ! DOMAIN END
 
 ! IMAGE
@@ -717,7 +722,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /[-._?&=#/](ads|ADS)[-._?&=#/]/$important,domain=~twitch.tv
 /[-._?&=#/]adrum[-._?&=#/]/$important
 /[-._?&=#/]akam[-._?&=#/]/$important
-/[-._?&=#/]preroll[-._?&=#/]/$important
+/[-._?&=#/]preroll[-._?&=#/]/$important,domain=~twitch.tv
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~twitch.tv
 /[-._?&=#/]ping[-.0-9_?&=#/]?/$important,domain=~playhydrax.com|~twitch.tv
