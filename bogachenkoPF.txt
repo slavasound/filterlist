@@ -381,6 +381,7 @@ ventax.net,kinomore.xyz,rutube.ru,ovagames.com,hindipix.*,waaw1.tv,gameofthrones
 ||app-measurement.com^$important
 ||applovin.com^$important
 ||applvn.com^$important
+||pixel-static.spotify.com^$important
 ||appmetrica.yandex.com^$important
 ||appstatic.opera.com^$important
 ||autopush.prod.mozaws.net^$important
@@ -711,7 +712,7 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 /^https?:\/\/(www\.)?translate\.yandex\.(ru|ua|by|com)\//$csp=img-src 'self' data: yastatic.net avatars.mds.yandex.net;
 ||deloplen.com^$important,csp=default-src 'none';
-!||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
 /^https?:\/\/([\w]+\.)?(pornhub|pornhubthbh7ap3u)\.[\w]+\//$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' blob: phncdn.com *.phncdn.com *.pornhub.com local.adguard.org injections.adguard.org; connect-src 'self' data: phncdn.com *.phncdn.com; frame-src 'none';
 ! CSP END
 
@@ -731,6 +732,8 @@ youtube.com##:xpath(//div[@class='ytp-button ytp-paid-content-overlay-text'])
 /^(?!.*((injections|local)\.adguard\.org|(jquery|hcaptcha|g(oogle(apis)?|static)|cloudflare)\.com|recaptcha\.net)).*$/$important,third-party,domain=shorter.fun|lopteup.vip|semawur.com|spaste.com|adz7short.space|stfly.me|fun4earn.xyz|popimed.com|owllink.net|profitlink.info|moaplos.com|newsonthegotoday.com|jwearn.com|ocanoke.com|wicr.in|clik.pw|adsrt.live|linkati.win|tii.ai|iir.ai|megalink.vip|ouo.io|ouo.press|todaynewspk.win|adsafelink.net
 ||spclient.wg.spotify.com/ad-logic/$important
 ||spclient.wg.spotify.com/ads/$important
+||spclient.wg.spotify.com/metrics-backend/$important
+||gew-spclient.spotify.com/*/logging/$important
 |http*:*$beacon,important
 |http*:*$object,important
 |http*:*$object-subrequest,important
